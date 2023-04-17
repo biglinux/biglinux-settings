@@ -25,3 +25,4 @@ else
     pkexec ./grub1.run | yad --width=390 --title=$"Grub" --progress --pulsate --no-buttons --auto-close --text=$"Aplicando, aguarde..."
     yad --info --title=$"Grub" --text=$"Concluído!"
 fi
+xdotool key F5

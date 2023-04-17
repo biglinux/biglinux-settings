@@ -10,3 +10,4 @@ else
     echo '/usr/$LIB/disable-fsync.so' > /etc/ld.so.preload
 fi
 
+xdotool key F5
