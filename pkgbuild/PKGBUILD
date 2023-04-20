@@ -9,8 +9,6 @@ pkgdesc="Scripts and configuration files created in BigBashView that simplify sw
 depends=('bigsudo' 'disable-fsync' 'auto-tweaks-browser' 'xorg-xset' 'kdialog' 'yad' 'xdotool')
 url="https://github.com/biglinux/$pkgname"
 conflicts=('biglinux-settings-gnome')
-replaces=('biglinux-settings-gnome')
-provides=('biglinux-settings-gnome')
 source=("git+${url}.git")
 md5sums=(SKIP)
 if [ -e "${pkgname}.install" ];then
