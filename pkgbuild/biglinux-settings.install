@@ -1,7 +1,18 @@
 ## arg 1:  the new package version
-#pre_install() {
-	# do something here
-#}
+pre_install() {
+if [ -e /usr/bin/change-keyboard-led ];then
+	rm /usr/bin/change-keyboard-led
+fi
+if [ -e /usr/bin/minimizeallwindows ];then
+	rm /usr/bin/minimizeallwindows
+fi
+if [ -e /usr/share/pixmaps/icon-run.svg ];then
+	rm /usr/share/pixmaps/icon-run.svg
+fi
+if [ -e /usr/share/pixmaps/icon-update.svg ];then
+	rm /usr/share/pixmaps/icon-update.svg
+fi
+}
 
 ## arg 1:  the new package version
 post_install() {
@@ -13,9 +24,9 @@ fi
 }
 
 ## arg 2:  the old package version
-#pre_upgrade() {
-	# do something here
-#}
+pre_upgrade() {
+	pre_install
+}
 
 ## arg 2:  the old package version
 post_upgrade() {
