@@ -52,6 +52,7 @@ NO=$"Não"
 performance=$"Modo performance"
 fsync=$"BTRFS sem fsync"
 developmentmode=$"Modo Desenvolvedor"
+bigMount=$"Montar partições automaticamente"
 
 
 if [ "$(glxinfo | grep llvmpipe)" != "" ]; then
@@ -128,8 +129,8 @@ fi
 #BTRFS sem fsync
 if [ "$(grep 'disable-fsync.so' /etc/ld.so.preload)" != "" ]; then
     checked_disablefsync="checked"
-# else
-#     checked_disablefsync="unchecked"
+else
+    checked_disablefsync="unchecked"
 fi
 
 #Aceleração do Navegador
@@ -142,15 +143,15 @@ fi
 #Ocultar Grub
 if [ -n "$(grep timeout_style=hidden /etc/grub.d/30_os-prober)" ]; then
     checked_hidegrub="checked"
-# else
-#     checked_hidegrub="unchecked"
+else
+    checked_hidegrub="unchecked"
 fi
 
 #Led RGB Teclado
 if [ -e "$HOME/.config/ledkeyboard" ]; then
     checked_ledkeyboard_yes="checked"
-# else
-#     checked_ledkeyboard_yes="unchecked"
+else
+    checked_ledkeyboard_yes="unchecked"
 fi
 
 #Brave disable AD
@@ -170,6 +171,15 @@ fi
 #Development Mode
 if [ "$(LANG=C systemctl status development-mode.path | grep Loaded: | awk '{print $4}' | sed 's/;//')" = "enabled" ] ; then
     checked_developmentmode="checked"
+else
+    checked_developmentmode="unchecked"
+fi
+
+#Disable auto-mount (big-mount)
+if [ "$(LANG=C systemctl status big-mount.service | grep Loaded: | awk '{print $4}' | sed 's/;//')" = "enabled" ] ; then
+    checked_bigmount="checked"
+else
+    checked_bigmount="unchecked"
 fi
 
 cat << EOF
@@ -177,7 +187,7 @@ cat << EOF
 <html>
 <head>
   <meta charset="UTF-8">
-  <link rel='stylesheet'><link rel="stylesheet" href="./style.css">
+  <link rel='stylesheet'><link rel="stylesheet" href="/usr/share/bigbashview/bcc/css/base.css">
 </head>
 EOF
 
