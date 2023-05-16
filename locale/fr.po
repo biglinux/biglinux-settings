@@ -16,17 +16,41 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "X-Generator: attranslate\n"
 
-msgid "Ajustes"
-msgstr "Paramètres"
+msgid "Grub"
+msgstr "Larve"
 
-msgid "Desempenho em modo normal!"
-msgstr "Performance en mode normal !"
+msgid "Cuidado, você perderá acesso aos SnapShots. Tem certeza que deseja ocultar o grub?"
+msgstr "Attention, vous perdrez l’accès aux SnapShots. Êtes-vous sûr de vouloir cacher la larve ?"
 
-msgid "Desempenho em modo otimizado!"
-msgstr "Des performances en mode amélioré !"
+msgid "Não"
+msgstr "Non"
+
+msgid "Sim"
+msgstr "Oui"
+
+msgid "Você saberá retornar o Grub em caso de falha?"
+msgstr "Saurez-vous rendre Grub en cas d’échec ?"
+
+msgid "Você saberá acessar os SnapShots sem acesso ao modo Gráfico?"
+msgstr "Serez-vous en mesure d’accéder à SnapShots sans accès au mode Graphique?"
+
+msgid "Você está completamente seguro dessa aplicação?"
+msgstr "Êtes-vous complètement sûr de cette application?"
+
+msgid "Aplicando, aguarde..."
+msgstr "Postuler, attendre..."
+
+msgid "Concluído!"
+msgstr "Fait!"
 
 msgid "Se estiver utilizando algum navegador, reinicie-o para aplicar as alterações."
 msgstr "Si vous utilisez un navigateur, redémarrez-le pour appliquer les modifications."
+
+msgid "Desempenho em modo performance!"
+msgstr "La performance en mode performance !"
+
+msgid "Desempenho em modo otimizado!"
+msgstr "Des performances en mode amélioré !"
 
 msgid "Desempenho"
 msgstr "Performance"
@@ -98,12 +122,6 @@ msgstr "Cacher le gestionnaire de démarrage (GRUB)"
 msgid "Ativar o NumLock ao ligar o sistema"
 msgstr "Activer NumLock au démarrage du système"
 
-msgid "Sim"
-msgstr "Oui"
-
-msgid "Não"
-msgstr "Non"
-
 msgid "Modo performance"
 msgstr "Mode de performance"
 
@@ -113,29 +131,14 @@ msgstr "BTRFS sans fsync"
 msgid "Modo Desenvolvedor"
 msgstr "Mode développeur"
 
+msgid "Montar partições automaticamente"
+msgstr "Monter les partitions automatiquement"
+
 msgid "Utilizando renderização por software, a qualidade das transparências está reduzida."
 msgstr "En utilisant le rendu logiciel, la qualité des transparents est réduite."
 
-msgid "Desempenho em modo performance!"
-msgstr "La performance en mode performance !"
+msgid "Desempenho em modo normal!"
+msgstr "Performance en mode normal !"
 
-msgid "Grub"
-msgstr "Larve"
-
-msgid "Cuidado, você perderá acesso aos SnapShots. Tem certeza que deseja ocultar o grub?"
-msgstr "Attention, vous perdrez l’accès aux SnapShots. Êtes-vous sûr de vouloir cacher la larve ?"
-
-msgid "Você saberá retornar o Grub em caso de falha?"
-msgstr "Saurez-vous rendre Grub en cas d’échec ?"
-
-msgid "Você saberá acessar os SnapShots sem acesso ao modo Gráfico?"
-msgstr "Serez-vous en mesure d’accéder à SnapShots sans accès au mode Graphique?"
-
-msgid "Você está completamente seguro dessa aplicação?"
-msgstr "Êtes-vous complètement sûr de cette application?"
-
-msgid "Aplicando, aguarde..."
-msgstr "Postuler, attendre..."
-
-msgid "Concluído!"
-msgstr "Fait!"
+msgid "Ajustes"
+msgstr "Paramètres"

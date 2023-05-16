@@ -16,17 +16,41 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "X-Generator: attranslate\n"
 
-msgid "Ajustes"
-msgstr "tweaks"
+msgid "Grub"
+msgstr "גרוב"
 
-msgid "Desempenho em modo normal!"
-msgstr "ביצועים במצב רגיל!"
+msgid "Cuidado, você perderá acesso aos SnapShots. Tem certeza que deseja ocultar o grub?"
+msgstr "היזהר, תאבד גישה ל- SnapShots. האם אתה בטוח שאתה רוצה להסתיר את הזבל?"
 
-msgid "Desempenho em modo otimizado!"
-msgstr "ביצועים במצב מותאם!"
+msgid "Não"
+msgstr "לא"
+
+msgid "Sim"
+msgstr "הן"
+
+msgid "Você saberá retornar o Grub em caso de falha?"
+msgstr "האם תדעו להחזיר את Grub במקרה של כישלון?"
+
+msgid "Você saberá acessar os SnapShots sem acesso ao modo Gráfico?"
+msgstr "האם תוכל לגשת ל- SnapShots ללא גישה למצב גרף?"
+
+msgid "Você está completamente seguro dessa aplicação?"
+msgstr "האם אתה בטוח לחלוטין ביישום זה?"
+
+msgid "Aplicando, aguarde..."
+msgstr "הגשת מועמדות, חכה..."
+
+msgid "Concluído!"
+msgstr "לעשות!"
 
 msgid "Se estiver utilizando algum navegador, reinicie-o para aplicar as alterações."
 msgstr "אם אתה משתמש בדפדפן, הפעל אותו מחדש כדי להחיל את השינויים."
+
+msgid "Desempenho em modo performance!"
+msgstr "ביצועים במצב ביצועים!"
+
+msgid "Desempenho em modo otimizado!"
+msgstr "ביצועים במצב מותאם!"
 
 msgid "Desempenho"
 msgstr "ביצועים"
@@ -96,12 +120,6 @@ msgstr "הסתר את מנהל האתחול (GRUB)"
 msgid "Ativar o NumLock ao ligar o sistema"
 msgstr "הפעל את NumLock בעת הפעלת המערכת"
 
-msgid "Sim"
-msgstr "הן"
-
-msgid "Não"
-msgstr "לא"
-
 msgid "Modo performance"
 msgstr "מצב ביצועים"
 
@@ -111,29 +129,14 @@ msgstr "BTRFS ללא fsync"
 msgid "Modo Desenvolvedor"
 msgstr "מצב מפתח"
 
+msgid "Montar partições automaticamente"
+msgstr "הרכבה אוטומטית של מחיצות"
+
 msgid "Utilizando renderização por software, a qualidade das transparências está reduzida."
 msgstr "על ידי שימוש בעיבוד תוכנה, איכות השקפים מופחתת."
 
-msgid "Desempenho em modo performance!"
-msgstr "ביצועים במצב ביצועים!"
+msgid "Desempenho em modo normal!"
+msgstr "ביצועים במצב רגיל!"
 
-msgid "Grub"
-msgstr "גרוב"
-
-msgid "Cuidado, você perderá acesso aos SnapShots. Tem certeza que deseja ocultar o grub?"
-msgstr "היזהר, תאבד גישה ל- SnapShots. האם אתה בטוח שאתה רוצה להסתיר את הזבל?"
-
-msgid "Você saberá retornar o Grub em caso de falha?"
-msgstr "האם תדעו להחזיר את Grub במקרה של כישלון?"
-
-msgid "Você saberá acessar os SnapShots sem acesso ao modo Gráfico?"
-msgstr "האם תוכל לגשת ל- SnapShots ללא גישה למצב גרף?"
-
-msgid "Você está completamente seguro dessa aplicação?"
-msgstr "האם אתה בטוח לחלוטין ביישום זה?"
-
-msgid "Aplicando, aguarde..."
-msgstr "הגשת מועמדות, חכה..."
-
-msgid "Concluído!"
-msgstr "לעשות!"
+msgid "Ajustes"
+msgstr "tweaks"

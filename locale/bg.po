@@ -16,17 +16,41 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "X-Generator: attranslate\n"
 
-msgid "Ajustes"
-msgstr "Настройки"
+msgid "Grub"
+msgstr "Ровя"
 
-msgid "Desempenho em modo normal!"
-msgstr "Изпълнение в нормален режим!"
+msgid "Cuidado, você perderá acesso aos SnapShots. Tem certeza que deseja ocultar o grub?"
+msgstr "Бъдете внимателни, ще загубите достъп до SnapShots. Наистина ли искате да скриете ларвата?"
 
-msgid "Desempenho em modo otimizado!"
-msgstr "Изпълнение в подобрен режим!"
+msgid "Não"
+msgstr "Не"
+
+msgid "Sim"
+msgstr "Да"
+
+msgid "Você saberá retornar o Grub em caso de falha?"
+msgstr "Ще знаете ли как да върнете Grub в случай на неуспех?"
+
+msgid "Você saberá acessar os SnapShots sem acesso ao modo Gráfico?"
+msgstr "Ще имате ли достъп до SnapShots без достъп до режим Graph?"
+
+msgid "Você está completamente seguro dessa aplicação?"
+msgstr "Напълно сигурни ли сте в това приложение?"
+
+msgid "Aplicando, aguarde..."
+msgstr "Кандидатстване, чакай..."
+
+msgid "Concluído!"
+msgstr "Направи!"
 
 msgid "Se estiver utilizando algum navegador, reinicie-o para aplicar as alterações."
 msgstr "Ако използвате браузър, рестартирайте го, за да приложите промените."
+
+msgid "Desempenho em modo performance!"
+msgstr "Изпълнение в режим на изпълнение!"
+
+msgid "Desempenho em modo otimizado!"
+msgstr "Изпълнение в подобрен режим!"
 
 msgid "Desempenho"
 msgstr "Изпълнение"
@@ -98,12 +122,6 @@ msgstr "Скриване на мениджъра за зареждане (GRUB)"
 msgid "Ativar o NumLock ao ligar o sistema"
 msgstr "Активиране на NumLock при стартиране на системата"
 
-msgid "Sim"
-msgstr "Да"
-
-msgid "Não"
-msgstr "Не"
-
 msgid "Modo performance"
 msgstr "Режим на производителност"
 
@@ -113,29 +131,14 @@ msgstr "BTRFS без fsync"
 msgid "Modo Desenvolvedor"
 msgstr "Режим на разработчик"
 
+msgid "Montar partições automaticamente"
+msgstr "Автоматично монтиране на дялове"
+
 msgid "Utilizando renderização por software, a qualidade das transparências está reduzida."
 msgstr "При използване на софтуерно визуализиране качеството на прозрачните изображения се намалява."
 
-msgid "Desempenho em modo performance!"
-msgstr "Изпълнение в режим на изпълнение!"
+msgid "Desempenho em modo normal!"
+msgstr "Изпълнение в нормален режим!"
 
-msgid "Grub"
-msgstr "Ровя"
-
-msgid "Cuidado, você perderá acesso aos SnapShots. Tem certeza que deseja ocultar o grub?"
-msgstr "Бъдете внимателни, ще загубите достъп до SnapShots. Наистина ли искате да скриете ларвата?"
-
-msgid "Você saberá retornar o Grub em caso de falha?"
-msgstr "Ще знаете ли как да върнете Grub в случай на неуспех?"
-
-msgid "Você saberá acessar os SnapShots sem acesso ao modo Gráfico?"
-msgstr "Ще имате ли достъп до SnapShots без достъп до режим Graph?"
-
-msgid "Você está completamente seguro dessa aplicação?"
-msgstr "Напълно сигурни ли сте в това приложение?"
-
-msgid "Aplicando, aguarde..."
-msgstr "Кандидатстване, чакай..."
-
-msgid "Concluído!"
-msgstr "Направи!"
+msgid "Ajustes"
+msgstr "Настройки"

@@ -16,17 +16,41 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "X-Generator: attranslate\n"
 
-msgid "Ajustes"
-msgstr "Ρυθμίσεις"
+msgid "Grub"
+msgstr "Κάμπια"
 
-msgid "Desempenho em modo normal!"
-msgstr "Απόδοση σε κανονική λειτουργία!"
+msgid "Cuidado, você perderá acesso aos SnapShots. Tem certeza que deseja ocultar o grub?"
+msgstr "Προσέξτε, θα χάσετε την πρόσβαση στο SnapShots. Είστε σίγουροι ότι θέλετε να κρύψετε το grub;"
 
-msgid "Desempenho em modo otimizado!"
-msgstr "Απόδοση σε βελτιωμένη λειτουργία!"
+msgid "Não"
+msgstr "Όχι"
+
+msgid "Sim"
+msgstr "Ναι"
+
+msgid "Você saberá retornar o Grub em caso de falha?"
+msgstr "Θα ξέρετε πώς να επιστρέψετε το Grub σε περίπτωση αποτυχίας;"
+
+msgid "Você saberá acessar os SnapShots sem acesso ao modo Gráfico?"
+msgstr "Θα μπορείτε να έχετε πρόσβαση στο SnapShots χωρίς πρόσβαση στη λειτουργία γραφήματος;"
+
+msgid "Você está completamente seguro dessa aplicação?"
+msgstr "Είστε απόλυτα σίγουροι για αυτήν την εφαρμογή;"
+
+msgid "Aplicando, aguarde..."
+msgstr "Αίτηση, περιμένετε..."
+
+msgid "Concluído!"
+msgstr "Έγινε!"
 
 msgid "Se estiver utilizando algum navegador, reinicie-o para aplicar as alterações."
 msgstr "Εάν χρησιμοποιείτε πρόγραμμα περιήγησης, επανεκκινήστε το για να εφαρμόσετε τις αλλαγές."
+
+msgid "Desempenho em modo performance!"
+msgstr "Απόδοση σε λειτουργία απόδοσης!"
+
+msgid "Desempenho em modo otimizado!"
+msgstr "Απόδοση σε βελτιωμένη λειτουργία!"
 
 msgid "Desempenho"
 msgstr "Εκτέλεση"
@@ -98,12 +122,6 @@ msgstr "Απόκρυψη του διαχειριστή εκκίνησης (GRUB)
 msgid "Ativar o NumLock ao ligar o sistema"
 msgstr "Ενεργοποίηση του NumLock κατά την εκκίνηση του συστήματος"
 
-msgid "Sim"
-msgstr "Ναι"
-
-msgid "Não"
-msgstr "Όχι"
-
 msgid "Modo performance"
 msgstr "Λειτουργία απόδοσης"
 
@@ -113,29 +131,14 @@ msgstr "BTRFS χωρίς fsync"
 msgid "Modo Desenvolvedor"
 msgstr "Λειτουργία προγραμματιστή"
 
+msgid "Montar partições automaticamente"
+msgstr "Αυτόματη προσάρτηση κατατμήσεων"
+
 msgid "Utilizando renderização por software, a qualidade das transparências está reduzida."
 msgstr "Χρησιμοποιώντας λογισμικό απόδοσης, η ποιότητα των διαφανειών μειώνεται."
 
-msgid "Desempenho em modo performance!"
-msgstr "Απόδοση σε λειτουργία απόδοσης!"
+msgid "Desempenho em modo normal!"
+msgstr "Απόδοση σε κανονική λειτουργία!"
 
-msgid "Grub"
-msgstr "Κάμπια"
-
-msgid "Cuidado, você perderá acesso aos SnapShots. Tem certeza que deseja ocultar o grub?"
-msgstr "Προσέξτε, θα χάσετε την πρόσβαση στο SnapShots. Είστε σίγουροι ότι θέλετε να κρύψετε το grub;"
-
-msgid "Você saberá retornar o Grub em caso de falha?"
-msgstr "Θα ξέρετε πώς να επιστρέψετε το Grub σε περίπτωση αποτυχίας;"
-
-msgid "Você saberá acessar os SnapShots sem acesso ao modo Gráfico?"
-msgstr "Θα μπορείτε να έχετε πρόσβαση στο SnapShots χωρίς πρόσβαση στη λειτουργία γραφήματος;"
-
-msgid "Você está completamente seguro dessa aplicação?"
-msgstr "Είστε απόλυτα σίγουροι για αυτήν την εφαρμογή;"
-
-msgid "Aplicando, aguarde..."
-msgstr "Αίτηση, περιμένετε..."
-
-msgid "Concluído!"
-msgstr "Έγινε!"
+msgid "Ajustes"
+msgstr "Ρυθμίσεις"

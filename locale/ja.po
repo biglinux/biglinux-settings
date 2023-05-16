@@ -16,17 +16,41 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "X-Generator: attranslate\n"
 
-msgid "Ajustes"
-msgstr "設定"
+msgid "Grub"
+msgstr "地虫"
 
-msgid "Desempenho em modo normal!"
-msgstr "ノーマルモードでのパフォーマンス!"
+msgid "Cuidado, você perderá acesso aos SnapShots. Tem certeza que deseja ocultar o grub?"
+msgstr "注意してください、あなたはスナップショットにアクセスできなくなります。グラブを非表示にしてもよろしいですか?"
 
-msgid "Desempenho em modo otimizado!"
-msgstr "エンハンスドモードでのパフォーマンス!"
+msgid "Não"
+msgstr "いいえ"
+
+msgid "Sim"
+msgstr "はい"
+
+msgid "Você saberá retornar o Grub em caso de falha?"
+msgstr "失敗した場合にGrubを返す方法を知っていますか?"
+
+msgid "Você saberá acessar os SnapShots sem acesso ao modo Gráfico?"
+msgstr "グラフモードにアクセスせずにスナップショットにアクセスできますか?"
+
+msgid "Você está completamente seguro dessa aplicação?"
+msgstr "あなたはこのアプリケーションを完全に確信していますか?"
+
+msgid "Aplicando, aguarde..."
+msgstr "適用中、待機中..."
+
+msgid "Concluído!"
+msgstr "完成です！"
 
 msgid "Se estiver utilizando algum navegador, reinicie-o para aplicar as alterações."
 msgstr "ブラウザーを使用している場合は、ブラウザーを再始動して変更を適用します。"
+
+msgid "Desempenho em modo performance!"
+msgstr "パフォーマンスモードでのパフォーマンス!"
+
+msgid "Desempenho em modo otimizado!"
+msgstr "エンハンスドモードでのパフォーマンス!"
 
 msgid "Desempenho"
 msgstr "パフォーマンス"
@@ -96,12 +120,6 @@ msgstr "ブートマネージャ（GRUB）の非表示"
 msgid "Ativar o NumLock ao ligar o sistema"
 msgstr "システム起動時にNumLockを有効にする"
 
-msgid "Sim"
-msgstr "はい"
-
-msgid "Não"
-msgstr "いいえ"
-
 msgid "Modo performance"
 msgstr "パフォーマンスモード"
 
@@ -111,29 +129,14 @@ msgstr "fsync を使用しない BTRFS"
 msgid "Modo Desenvolvedor"
 msgstr "開発者モード"
 
+msgid "Montar partições automaticamente"
+msgstr "パーティションを自動的にマウントする"
+
 msgid "Utilizando renderização por software, a qualidade das transparências está reduzida."
 msgstr "ソフトウェアレンダリングを使用すると、透明度の高い画質が低下します。"
 
-msgid "Desempenho em modo performance!"
-msgstr "パフォーマンスモードでのパフォーマンス!"
+msgid "Desempenho em modo normal!"
+msgstr "ノーマルモードでのパフォーマンス!"
 
-msgid "Grub"
-msgstr "地虫"
-
-msgid "Cuidado, você perderá acesso aos SnapShots. Tem certeza que deseja ocultar o grub?"
-msgstr "注意してください、あなたはスナップショットにアクセスできなくなります。グラブを非表示にしてもよろしいですか?"
-
-msgid "Você saberá retornar o Grub em caso de falha?"
-msgstr "失敗した場合にGrubを返す方法を知っていますか?"
-
-msgid "Você saberá acessar os SnapShots sem acesso ao modo Gráfico?"
-msgstr "グラフモードにアクセスせずにスナップショットにアクセスできますか?"
-
-msgid "Você está completamente seguro dessa aplicação?"
-msgstr "あなたはこのアプリケーションを完全に確信していますか?"
-
-msgid "Aplicando, aguarde..."
-msgstr "適用中、待機中..."
-
-msgid "Concluído!"
-msgstr "完成です！"
+msgid "Ajustes"
+msgstr "設定"
