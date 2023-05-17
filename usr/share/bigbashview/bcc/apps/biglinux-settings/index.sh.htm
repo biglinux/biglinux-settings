@@ -22,108 +22,47 @@ xprop -id "$(xprop -root '\t$0' _NET_ACTIVE_WINDOW | cut -f 2)" -f WM_CLASS 8s -
 #add BBV scripts
 PATH+=":/usr/share/bigbashview/bcc/shell/"
 
-PERFORMANCE=$"Desempenho"
-Browser_translate=$"Aceleração do navegador"
-OPEN=$"Abrir"
-CLOSE=$"Fechar"
-Configure_Preload=$"Escolher programas a serem carregados na memória durante boot"
-Preload_loads_program_files=$"O Preload carrega arquivos dos programas na memória, para que iniciem rapidamente. O uso excessivo causa lentidão. Escolha a opção desejada:"
-Automatic=$"Automático"
-Activate=$"Ativar"
-Disable=$"Desativar"
-# Brave_Settings=$"Configurações do Brave"
-Choose_the_desired_option=$"Escolha a opção desejada:"
-Remove_advertisements=$"Remover propagandas"
-# Support_cryptocurrencies=$"Suportar criptomoedas"
+Performance=$"Desempenho"
 Usability=$"Usabilidade"
-Window_buttons_on_the_left_side=$"Botões da janela no lado esquerdo"
-Inverted_mouse_scroll=$"Rolagem do mouse invertida"
-Inverted_touchpad_scroll=$"Rolagem do touchpad invertida"
-Search_files=$"Indexar arquivos"
-Lock_the_workspace=$"Bloquear a edição da área de trabalho "
-HideGrub_text=$"Ocultar Gerenciador de Boot (GRUB)"
-NumLock_text=$"Ativar o NumLock ao ligar o sistema"
-YES=$"Sim"
-NO=$"Não"
-performance=$"Modo performance"
-
+# Browser_translate=$"Aceleração do navegador"
+# OPEN=$"Abrir"
+# CLOSE=$"Fechar"
+# YES=$"Sim"
+# NO=$"Não"
+# Configure_Preload=$"Escolher programas a serem carregados na memória durante boot"
+# Preload_loads_program_files=$"O Preload carrega arquivos dos programas na memória, para que iniciem rapidamente. O uso excessivo causa lentidão. Escolha a opção desejada:"
+# Automatic=$"Automático"
+# Activate=$"Ativar"
+# Disable=$"Desativar"
+# Brave_Settings=$"Configurações do Brave"
+# Choose_the_desired_option=$"Escolha a opção desejada:"
+# Remove_advertisements=$"Remover propagandas"
+# Support_cryptocurrencies=$"Suportar criptomoedas"
 
 #lista de funções
 listPerformance=$(grep "() {" index.sh.htm | awk '{print $1}' | sed '/list_service=/d' | grep "D_" )
-
 listUsability=$(grep "() {" index.sh.htm | awk '{print $1}' | sed '/list_service=/d' | grep "U_")
-
 
 if [ "$(glxinfo | grep llvmpipe)" != "" ]; then
   NO_OGL=$"Utilizando renderização por software, a qualidade das transparências está reduzida."
 fi
 
-
-#ONLY in KDE Plasma Start
+#Modo Performance
+D_performance () {
+name=$"Modo performance"
 if [ -n "$(echo $DESKTOP_SESSION | grep plasma)" ];then
-
-  #Modo Performance
   if [ "$(kreadconfig5  --group "Compositing" --key "Enabled" --file "$HOME/.config/kwinrc")" = "false" ]; then
-      checked_performance="checked"
+      checked="checked"
   else
-      checked_performance="unchecked"
+      checked="unchecked"
   fi
-
-  #Botões da janela no lado esquerdo
-  if [ "$(grep 'FSM' ~/.config/kwinrc)" != "" ]; then
-      checked_left_button="checked"
-  else
-      checked_left_button="unchecked"
-  fi
-
-  #Inverter rolagem do mouse
-  if [ "$(kreadconfig5  --group "Mouse" --key "XLbInptNaturalScroll" --file "$HOME/.config/kcminputrc")" = "true" ]; then
-      checked_scrool_natural="checked"
-  else
-      checked_scrool_natural="unchecked"
-  fi
-
-  #Inverter rolagem do touchpad
-  if [ "$(kwriteconfig5 --group "SynPS/2 Synaptics TouchPad" --key "naturalScroll" --file "$HOME/.config/touchpadxlibinputrc")" = "true" ]; then
-      checked_touchpad_natural="checked"
-  else
-      checked_touchpad_natural="unchecked"
-  fi
-
-  #Indexar Arquivos (Baloo)
-  if [ "$(LANG=C balooctl status 2>&1| grep 'is running')" != "" ]; then
-      checked_search="checked"
-  else
-      checked_search="unchecked"
-  fi
-
-  #Bloquear edição da Area de Trabalho
-  if [ -e "$HOME/.config/lockplasma" ]; then
-      checked_lock_desktop="checked"
-  else
-      checked_lock_desktop="unchecked"
-  fi
-
-  #Ativar NumLock no boot
-  if [ -n "$(grep Numlock=on /etc/sddm.conf)" ]; then
-      checked_confnumlock="checked"
-  else
-      checked_confnumlock="unchecked"
-  fi
-
+# elif [ -n "$(echo $DESKTOP_SESSION | grep gnome)" ];then
+# elif [ -n "$(echo $DESKTOP_SESSION | grep xfce)" ];then
+else
+  checked=disabled
 fi
-#ONLY in KDE Plasma End
+}
 
-
-
-#ONLY in XXX Star
-
-
-#ONLY in XXX End
-
-
-
-## FOR ALL DEs ##
 #BTRFS sem fsync
 D_fsync () {
 name=$"BTRFS sem fsync"
@@ -144,26 +83,6 @@ else
 fi
 }
 
-#Led RGB Teclado
-U_ledKeyboard () {
-name=$"Ligar RGB do teclado"
-if [ -e "$HOME/.config/ledkeyboard" ]; then
-    checked="checked"
-else
-    checked="unchecked"
-fi
-}
-
-#Ocultar Grub
-U_grub () {
-name=$"Ocultar Gerenciador de Boot (GRUB)"
-if [ -n "$(grep timeout_style=hidden /etc/grub.d/30_os-prober)" ]; then
-    checked="checked"
-else
-    checked="unchecked"
-fi
-}
-
 # #Brave disable AD
 # if [ -e "$HOME/.config/browser-brave-disable-ad" ]; then
 #     checked="checked"
@@ -177,6 +96,122 @@ fi
 # else
 #     checked="unchecked"
 # fi
+
+#Led RGB Teclado
+U_ledKeyboard () {
+name=$"Ligar RGB do teclado"
+if [ -e "$HOME/.config/ledkeyboard" ]; then
+    checked="checked"
+else
+    checked="unchecked"
+fi
+}
+
+#Botões da janela no lado esquerdo
+U_WindowButtonsOnLeftSide () {
+name=$"Botões da janela no lado esquerdo"
+if [ -n "$(echo $DESKTOP_SESSION | grep plasma)" ];then
+  if [ "$(grep 'FSM' ~/.config/kwinrc)" != "" ]; then
+      checked="checked"
+  else
+      checked="unchecked"
+  fi
+# elif [ -n "$(echo $DESKTOP_SESSION | grep gnome)" ];then
+# elif [ -n "$(echo $DESKTOP_SESSION | grep xfce)" ];then
+else
+  checked=disabled
+fi
+}
+
+#Inverter rolagem do mouse
+U_Inverted_mouse_scroll () {
+name=$"Rolagem do mouse invertida"
+if [ -n "$(echo $DESKTOP_SESSION | grep plasma)" ];then
+  if [ "$(kreadconfig5  --group "Mouse" --key "XLbInptNaturalScroll" --file "$HOME/.config/kcminputrc")" = "true" ]; then
+      checked="checked"
+  else
+      checked="unchecked"
+  fi
+# elif [ -n "$(echo $DESKTOP_SESSION | grep gnome)" ];then
+# elif [ -n "$(echo $DESKTOP_SESSION | grep xfce)" ];then
+else
+  checked=disabled
+fi
+}
+
+#Inverter rolagem do touchpad
+U_invertedTouchpadScroll () {
+name=$"Rolagem do touchpad invertida"
+if [ -n "$(echo $DESKTOP_SESSION | grep plasma)" ];then
+  if [ "$(kwriteconfig5 --group "SynPS/2 Synaptics TouchPad" --key "naturalScroll" --file "$HOME/.config/touchpadxlibinputrc")" = "true" ]; then
+      checked="checked"
+  else
+      checked="unchecked"
+  fi
+# elif [ -n "$(echo $DESKTOP_SESSION | grep gnome)" ];then
+# elif [ -n "$(echo $DESKTOP_SESSION | grep xfce)" ];then
+else
+  checked=disabled
+fi
+}
+
+#Indexar Arquivos (Baloo)
+U_searchFiles () {
+name=$"Indexar arquivos"
+if [ -n "$(echo $DESKTOP_SESSION | grep plasma)" ];then
+  if [ "$(LANG=C balooctl status 2>&1| grep 'is running')" != "" ]; then
+      checked="checked"
+  else
+      checked="unchecked"
+  fi
+# elif [ -n "$(echo $DESKTOP_SESSION | grep gnome)" ];then
+# elif [ -n "$(echo $DESKTOP_SESSION | grep xfce)" ];then
+else
+  checked=disabled
+fi
+}
+
+#Bloquear edição da Area de Trabalho
+U_lockWorkspace () {
+name=$"Bloquear a edição da área de trabalho"
+if [ -n "$(echo $DESKTOP_SESSION | grep plasma)" ];then
+  if [ -e "$HOME/.config/lockplasma" ]; then
+      checked="checked"
+  else
+      checked="unchecked"
+  fi
+# elif [ -n "$(echo $DESKTOP_SESSION | grep gnome)" ];then
+# elif [ -n "$(echo $DESKTOP_SESSION | grep xfce)" ];then
+else
+  checked=disabled
+fi
+}
+
+#Ativar NumLock no boot
+U_numLock () {
+name=$"Ativar o NumLock ao ligar o sistema"
+if [ -n "$(echo $DESKTOP_SESSION | grep plasma)" ];then
+  if [ -n "$(grep Numlock=on /etc/sddm.conf)" ]; then
+      checked="checked"
+  else
+      checked="unchecked"
+  fi
+# elif [ -n "$(echo $DESKTOP_SESSION | grep gnome)" ];then
+# elif [ -n "$(echo $DESKTOP_SESSION | grep xfce)" ];then
+else
+  checked=disabled
+fi
+}
+
+#Ocultar Grub
+U_grub () {
+name=$"Ocultar Gerenciador de Boot (GRUB)"
+if [ -n "$(grep timeout_style=hidden /etc/grub.d/30_os-prober)" ]; then
+    checked="checked"
+else
+    checked="unchecked"
+fi
+}
 
 #Disable auto-mount (big-mount)
 U_bigMount () {
@@ -199,12 +234,12 @@ fi
 }
 
 html start
-section start
+section start -t5 "${Performance}"
 for i in ${listPerformance[@]}; do $i;
     line_switch -i icons/${i}.svg -t "${name}" -c ${checked} -r ${i}.run
 done
 section end
-section start
+section start -t5 ${Usability}
 for i in ${listUsability[@]}; do $i;
     line_switch -i icons/${i}.svg -t "${name}" -c ${checked} -r ${i}.run
 done
