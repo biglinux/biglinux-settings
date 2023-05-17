@@ -24,20 +24,20 @@ PATH+=":/usr/share/bigbashview/bcc/shell/"
 
 Performance=$"Desempenho"
 Usability=$"Usabilidade"
-# Browser_translate=$"Aceleração do navegador"
-# OPEN=$"Abrir"
+OPEN=$"Abrir"
 # CLOSE=$"Fechar"
 # YES=$"Sim"
 # NO=$"Não"
-# Configure_Preload=$"Escolher programas a serem carregados na memória durante boot"
-# Preload_loads_program_files=$"O Preload carrega arquivos dos programas na memória, para que iniciem rapidamente. O uso excessivo causa lentidão. Escolha a opção desejada:"
+# preLoadsProgram=$"O Preload carrega arquivos dos programas na memória, para que iniciem rapidamente. O uso excessivo causa lentidão. Escolha a opção desejada:"
 # Automatic=$"Automático"
 # Activate=$"Ativar"
 # Disable=$"Desativar"
-# Brave_Settings=$"Configurações do Brave"
 # Choose_the_desired_option=$"Escolha a opção desejada:"
 # Remove_advertisements=$"Remover propagandas"
 # Support_cryptocurrencies=$"Suportar criptomoedas"
+
+braveSettings=$"Configurações do Brave"
+configurePreload=$"Escolher programas a serem carregados na memória durante boot"
 
 #lista de funções
 listPerformance=$(grep "() {" index.sh.htm | awk '{print $1}' | sed '/list_service=/d' | grep "D_" )
@@ -86,6 +86,9 @@ else
 fi
 }
 
+# D_braveSettings () {
+# 
+}
 # #Brave disable AD
 # if [ -e "$HOME/.config/browser-brave-disable-ad" ]; then
 #     checked="checked"
@@ -259,6 +262,8 @@ section start -t6 "${Performance}"
 for i in ${listPerformance[@]}; do $i;
     line_switch -i icons/${i}.svg -t "${name}" -c ${checked} -r ${i}.run
 done
+line_button -i icons/D_braveSettings.svg -t "${braveSettings}" -r D_braveSettings.run -bt ${OPEN} -b primary
+line_button -i icons/D_configurePreload.svg -t "${configurePreload}" -r D_configurePreload.run -bt ${OPEN} -b primary
 section end
 section start -t6 "${Usability}"
 for i in ${listUsability[@]}; do $i;
