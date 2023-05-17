@@ -36,12 +36,13 @@ OPEN=$"Abrir"
 # Remove_advertisements=$"Remover propagandas"
 # Support_cryptocurrencies=$"Suportar criptomoedas"
 
-braveSettings=$"Configurações do Brave"
-configurePreload=$"Escolher programas a serem carregados na memória durante boot"
+
+
 
 #lista de funções
 listPerformance=$(grep "() {" index.sh.htm | awk '{print $1}' | sed '/list_service=/d' | grep "D_" )
 listUsability=$(grep "() {" index.sh.htm | awk '{print $1}' | sed '/list_service=/d' | grep "U_")
+listButton=$(grep "() {" index.sh.htm | awk '{print $1}' | sed '/list_service=/d' | grep "B_")
 
 if [ "$(glxinfo | grep llvmpipe)" != "" ]; then
   NO_OGL=$"Utilizando renderização por software, a qualidade das transparências está reduzida."
@@ -86,8 +87,20 @@ else
 fi
 }
 
-# D_braveSettings () {
-# 
+B_braveSettings () {
+name=$"Configurações do Brave"
+if [ -e /usr/lib/brave-browser/brave ] || [ -e /usr/lib/brave-bin/brave ] || [ -e /opt/brave-bin/brave ];then
+    checked="primary"
+else
+    checked="primary disabled"
+fi
+}
+
+B_configurePreload () {
+name=$"Escolher programas a serem carregados na memória durante boot"
+checked="primary"
+}
+
 # }
 # #Brave disable AD
 # if [ -e "$HOME/.config/browser-brave-disable-ad" ]; then
@@ -262,8 +275,9 @@ section start -t6 "${Performance}"
 for i in ${listPerformance[@]}; do $i;
     line_switch -i icons/${i}.svg -t "${name}" -c ${checked} -r ${i}.run
 done
-line_button -i icons/D_braveSettings.svg -t "${braveSettings}" -r D_braveSettings.run -bt ${OPEN} -b primary
-line_button -i icons/D_configurePreload.svg -t "${configurePreload}" -r D_configurePreload.run -bt ${OPEN} -b primary
+for i in ${listButton[@]}; do $i;
+line_button -i icons/${i}.svg -t "${name}" -r ${i}.run -bt ${OPEN} -b "${checked}"
+done
 section end
 section start -t6 "${Usability}"
 for i in ${listUsability[@]}; do $i;
