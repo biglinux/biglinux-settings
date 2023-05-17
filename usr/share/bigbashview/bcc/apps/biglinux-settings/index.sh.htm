@@ -49,7 +49,9 @@ performance=$"Modo performance"
 
 
 #lista de funções
-list_service=$(grep "() {" index.sh.htm | awk '{print $1}' | sed '/list_service=/d')
+listPerformance=$(grep "() {" index.sh.htm | awk '{print $1}' | sed '/list_service=/d' | grep "D_" )
+
+listUsability=$(grep "() {" index.sh.htm | awk '{print $1}' | sed '/list_service=/d' | grep "U_")
 
 
 if [ "$(glxinfo | grep llvmpipe)" != "" ]; then
@@ -123,7 +125,7 @@ fi
 
 ## FOR ALL DEs ##
 #BTRFS sem fsync
-fsync () {
+D_fsync () {
 name=$"BTRFS sem fsync"
 if [ "$(grep 'disable-fsync.so' /etc/ld.so.preload)" != "" ]; then
     checked="checked"
@@ -133,7 +135,7 @@ fi
 }
 
 #Aceleração do Navegador
-browserOptimize () {
+D_browserOptimize () {
 name=$"Aceleração do navegador"
 if [ -e "$HOME/.config/browser-optimize" ]; then
     checked="checked"
@@ -142,20 +144,20 @@ else
 fi
 }
 
-#Ocultar Grub
-grub () {
-name=$"Ocultar Gerenciador de Boot (GRUB)"
-if [ -n "$(grep timeout_style=hidden /etc/grub.d/30_os-prober)" ]; then
+#Led RGB Teclado
+U_ledKeyboard () {
+name=$"Ligar RGB do teclado"
+if [ -e "$HOME/.config/ledkeyboard" ]; then
     checked="checked"
 else
     checked="unchecked"
 fi
 }
 
-#Led RGB Teclado
-ledKeyboard () {
-name=$"Ligar RGB do teclado"
-if [ -e "$HOME/.config/ledkeyboard" ]; then
+#Ocultar Grub
+U_grub () {
+name=$"Ocultar Gerenciador de Boot (GRUB)"
+if [ -n "$(grep timeout_style=hidden /etc/grub.d/30_os-prober)" ]; then
     checked="checked"
 else
     checked="unchecked"
@@ -177,7 +179,7 @@ fi
 # fi
 
 #Disable auto-mount (big-mount)
-bigMount () {
+U_bigMount () {
 name=$"Montar partições automaticamente"
 if [ "$(LANG=C systemctl status big-mount.service | grep Loaded: | awk '{print $4}' | sed 's/;//')" = "enabled" ] ; then
     checked="checked"
@@ -187,7 +189,7 @@ fi
 }
 
 #Development Mode
-developmentMode () {
+U_developmentMode () {
 name=$"Modo Desenvolvedor"
 if [ "$(LANG=C systemctl status development-mode.path | grep Loaded: | awk '{print $4}' | sed 's/;//')" = "enabled" ] ; then
     checked="checked"
@@ -197,10 +199,16 @@ fi
 }
 
 html start
-
-for i in ${list_service[@]}; do $i;
+section start
+for i in ${listPerformance[@]}; do $i;
     line_switch -i icons/${i}.svg -t "${name}" -c ${checked} -r ${i}.run
 done
+section end
+section start
+for i in ${listUsability[@]}; do $i;
+    line_switch -i icons/${i}.svg -t "${name}" -c ${checked} -r ${i}.run
+done
+section end
 # cat << EOF
 # 
 # <html>
