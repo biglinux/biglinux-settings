@@ -234,12 +234,12 @@ fi
 }
 
 html start
-section start -t5 "${Performance}"
+section start -t6 "${Performance}"
 for i in ${listPerformance[@]}; do $i;
     line_switch -i icons/${i}.svg -t "${name}" -c ${checked} -r ${i}.run
 done
 section end
-section start -t5 ${Usability}
+section start -t6 ${Usability}
 for i in ${listUsability[@]}; do $i;
     line_switch -i icons/${i}.svg -t "${name}" -c ${checked} -r ${i}.run
 done
