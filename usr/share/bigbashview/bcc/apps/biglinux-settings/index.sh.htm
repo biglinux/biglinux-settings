@@ -124,7 +124,7 @@ fi
 }
 
 #Inverter rolagem do mouse
-U_Inverted_mouse_scroll () {
+U_invertedMouseScroll () {
 name=$"Rolagem do mouse invertida"
 if [ -n "$(echo $DESKTOP_SESSION | grep plasma)" ];then
   if [ "$(kreadconfig5  --group "Mouse" --key "XLbInptNaturalScroll" --file "$HOME/.config/kcminputrc")" = "true" ]; then
