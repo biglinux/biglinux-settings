@@ -4,10 +4,9 @@
 #if [ -n "$INPUTTRUE" ]; then
 
 if [ "$(grep 'disable-fsync.so' /etc/ld.so.preload)" != "" ]; then
-
-    sed -i '/disable-fsync.so/d' /etc/ld.so.preload
+    bigsudo sed -i '/disable-fsync.so/d' /etc/ld.so.preload
 else
-    echo '/usr/$LIB/disable-fsync.so' > /etc/ld.so.preload
+    echo '/usr/$LIB/disable-fsync.so' | bigsudo tee /etc/ld.so.preload
 fi
 
 xdotool key F5

@@ -13,10 +13,14 @@ if [ -n "$(echo $DESKTOP_SESSION | grep plasma)" ];then
         kwriteconfig5 --group "org.kde.kdecoration2" --key "ButtonsOnRight" --file "$HOME/.config/kwinrc" "IAX"
         qdbus org.kde.KWin /KWin org.kde.KWin.reconfigure
     fi
+    #ONLY in KDE Plasma End
+# elif [ -n "$(echo $DESKTOP_SESSION | grep xfce)" ];then
+# elif [ -n "$(echo $DESKTOP_SESSION | grep lxqt)" ];then
+# elif [ -n "$(echo $DESKTOP_SESSION | grep bspwm)" ];then
+# elif [ -n "$(echo $DESKTOP_SESSION | grep i3wm)" ];then
+# elif [ -n "$(echo $DESKTOP_SESSION | grep windowmaker)" ];then
 fi
-#ONLY in KDE Plasma End
 
 
-#ONLY in XXX Star
 
-#ONLY in XXX End
+

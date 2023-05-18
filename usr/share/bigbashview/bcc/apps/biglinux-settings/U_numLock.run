@@ -1,0 +1,18 @@
+#!/bin/bash
+
+#desligar Numlock
+#ONLY in KDE Plasma Start
+if [ -n "$(echo $DESKTOP_SESSION | grep plasma)" ];then
+    INPUT=$(grep Numlock=on /etc/sddm.conf)
+    if [ -n "$INPUT" ]; then
+        bigsudo kwriteconfig5 --group "General" --key "Numlock" --file "/etc/sddm.conf" "none"
+    else
+        bigsudo kwriteconfig5 --group "General" --key "Numlock" --file "/etc/sddm.conf" "on"
+    fi
+    #ONLY in KDE Plasma End
+# elif [ -n "$(echo $DESKTOP_SESSION | grep xfce)" ];then
+# elif [ -n "$(echo $DESKTOP_SESSION | grep lxqt)" ];then
+# elif [ -n "$(echo $DESKTOP_SESSION | grep bspwm)" ];then
+# elif [ -n "$(echo $DESKTOP_SESSION | grep i3wm)" ];then
+# elif [ -n "$(echo $DESKTOP_SESSION | grep windowmaker)" ];then
+fi

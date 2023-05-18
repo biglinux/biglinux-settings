@@ -2,7 +2,7 @@
 
 
 if [ -e "$HOME/.config/browser-optimize" ]; then
-    ./browser-yes.run
+    ./D_browserOptimize-yes.run
 else
-    ./browser-no.run
+    ./D_browserOptimize-no.run
 fi

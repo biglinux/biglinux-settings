@@ -1,0 +1,7 @@
+#!/bin/bash
+
+if [ -e "/etc/bigmountall-no" ];then
+	bigsudo rm "/etc/bigmountall-no"
+else
+	bigsudo touch "/etc/bigmountall-no"
+fi

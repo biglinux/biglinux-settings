@@ -15,7 +15,7 @@ if [ -n "$INPUT" ]; then
                 yad --question --width=390 --image="dialog-warning" --title=$"Grub" --text=$"Você está completamente seguro dessa aplicação?" --button=$"Não":1 --button=$"Sim":0
 
                 if [ "$?" = "0" ];then
-                pkexec ./grub1.run | yad --width=390 --title=$"Grub" --progress --pulsate --no-buttons --auto-close --text=$"Aplicando, aguarde..."
+                pkexec ./U_grub1.run | yad --width=390 --title=$"Grub" --progress --pulsate --no-buttons --auto-close --text=$"Aplicando, aguarde..."
                 yad --info --title=$"Grub" --text=$"Concluído!"
                 fi
             fi
