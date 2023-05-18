@@ -36,9 +36,6 @@ OPEN=$"Abrir"
 # Remove_advertisements=$"Remover propagandas"
 # Support_cryptocurrencies=$"Suportar criptomoedas"
 
-
-
-
 #lista de funções
 listPerformance=$(grep "() {" index.sh.htm | awk '{print $1}' | sed '/list_service=/d' | grep "D_" )
 listUsability=$(grep "() {" index.sh.htm | awk '{print $1}' | sed '/list_service=/d' | grep "U_")
@@ -253,7 +250,7 @@ fi
 #Disable auto-mount (big-mount)
 U_bigMount () {
 name=$"Montar partições automaticamente"
-if [ "$(LANG=C systemctl status big-mount.service | grep Loaded: | awk '{print $4}' | sed 's/;//')" = "enabled" ] ; then
+if [ "$(LANG=C systemctl is-enabled big-mount.service)" = "enabled" ] ; then
     checked="checked"
 else
     checked="unchecked"
@@ -263,7 +260,7 @@ fi
 #Development Mode
 U_developmentMode () {
 name=$"Modo Desenvolvedor"
-if [ "$(LANG=C systemctl status development-mode.path | grep Loaded: | awk '{print $4}' | sed 's/;//')" = "enabled" ] ; then
+if [ "$(LANG=C systemctl is-enabled development-mode.path)" = "enabled" ] ; then
     checked="checked"
 else
     checked="unchecked"
@@ -271,7 +268,7 @@ fi
 }
 
 html start
-section start -t6 "${Performance}"
+section start -textH6 "${Performance}"
 for i in ${listPerformance[@]}; do $i;
     line_switch -icon icons/${i}.svg -text "${name}" -check ${checked} -run ${i}.run
 done
@@ -279,7 +276,7 @@ for i in ${listButton[@]}; do $i;
     line_button -icon icons/${i}.svg -text "${name}" -run ${i}.run -buttonText ${OPEN} -buttonType "${checked}"
 done
 section end
-section start -t6 "${Usability}"
+section start -textH6 "${Usability}"
 for i in ${listUsability[@]}; do $i;
     line_switch -icon icons/${i}.svg -text "${name}" -check ${checked} -run ${i}.run
 done
