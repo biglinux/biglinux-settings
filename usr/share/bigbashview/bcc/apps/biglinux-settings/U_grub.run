@@ -16,13 +16,13 @@ if [ -n "$INPUT" ]; then
 
                 if [ "$?" = "0" ];then
                 pkexec ./U_grub1.run | yad --width=390 --title=$"Grub" --progress --pulsate --no-buttons --auto-close --text=$"Aplicando, aguarde..."
-                yad --info --title=$"Grub" --text=$"Concluído!"
+                yyad --info --width=210 --title=$"Grub" --text=$"Concluído!" --button=$"Ok"
                 fi
             fi
         fi
     fi
 else
-    pkexec ./grub1.run | yad --width=390 --title=$"Grub" --progress --pulsate --no-buttons --auto-close --text=$"Aplicando, aguarde..."
-    yad --info --title=$"Grub" --text=$"Concluído!"
+    pkexec ./U_grub1.run | yad --width=390 --title=$"Grub" --progress --pulsate --no-buttons --auto-close --text=$"Aplicando, aguarde..."
+    yad --info --width=210 --title=$"Grub" --text=$"Concluído!" --button=$"Ok"
 fi
 xdotool key F5
