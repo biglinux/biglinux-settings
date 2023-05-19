@@ -22,7 +22,7 @@ EOF
       else
           checked="unchecked"
       fi
-      switch -check "$checked" -marginRight 0 -text "$supportCryptoCurrencies" -id 1 -run xpto.run -border 1
+      switch -check "$checked" -marginRight 0 -text "$supportCryptoCurrencies" -id 1 -run "B_braveSettings/supportCryptoCurrencies.run" -border 1
 cat << EOF
     </div>
 
