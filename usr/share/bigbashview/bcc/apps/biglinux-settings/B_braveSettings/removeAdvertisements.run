@@ -1,8 +1,7 @@
 #!/bin/bash
 
-
 if [ -e "$HOME/.config/browser-brave-disable-ad" ]; then
-    ./braveblock-no.run
+    ./B_braveSettings/braveblock-yes.run
 else
-    ./braveblock-yes.run
+    ./B_braveSettings/braveblock-no.run
 fi
