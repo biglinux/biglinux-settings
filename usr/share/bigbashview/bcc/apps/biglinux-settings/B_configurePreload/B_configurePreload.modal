@@ -33,7 +33,7 @@ grid colStart
 	else
 		checked="unchecked"
 	fi
-    switch -check "$checked" -marginRight 0 -marginTop 2 -text "$(echo $app | sed -r 's/\b[a-z]+/\u&/g')" -id 1 -run "B_configurePreload/change-preload.run $app" -border 1
+    switch -check "$checked" -marginRight 0 -marginTop 2 -text "$(echo $app | sed -r 's/\b[a-z]+/\u&/g')" -id $i -run "B_configurePreload/change-preload.run $app" -border 1
     
 grid colEnd
 # cat << EOF
@@ -53,7 +53,7 @@ grid colStart
 	else
 		checked="unchecked"
 	fi
-    switch -check "$checked" -marginRight 0 -marginTop 2 -text "$(echo $app | sed -r 's/\b[a-z]+/\u&/g')" -id 1 -run "B_configurePreload/change-preload.run $app" -border 1
+    switch -check "$checked" -marginRight 0 -marginTop 2 -text "$(echo $app | sed -r 's/\b[a-z]+/\u&/g')" -id $i -run "B_configurePreload/change-preload.run $app" -border 1
     
 grid colEnd
 # cat << EOF
