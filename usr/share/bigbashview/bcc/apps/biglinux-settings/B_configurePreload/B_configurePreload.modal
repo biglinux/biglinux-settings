@@ -15,16 +15,18 @@ libreoffice
 )
 
 #cabeçalho
-cat << EOF
-<div class="container text-center">
-  <div class="row row-cols-2">
-EOF
+grid start
+# cat << EOF
+# <div class="container text-center">
+#   <div class="row row-cols-2">
+# EOF
 
 # for lista 1
 for i in ${apps1[@]}; do 
-cat << EOF
-    <div class="col">
-EOF
+grid colStart
+# cat << EOF
+#     <div class="col">
+# EOF
 	app="$i"
 	if [ -e "/etc/big-preload/enable-${app}" ]; then
 		checked="checked"
@@ -32,16 +34,19 @@ EOF
 		checked="unchecked"
 	fi
     switch -check "$checked" -marginRight 0 -marginTop 2 -text "$(echo $app | sed -r 's/\b[a-z]+/\u&/g')" -id 1 -run "B_configurePreload/change-preload.run $app" -border 1
-cat << EOF
-    </div>
-EOF
+    
+grid colEnd
+# cat << EOF
+#     </div>
+# EOF
 done
 
 #for lista 2
-for i in ${apps2[@]}; do 
-cat << EOF
-    <div class="col">
-EOF
+for i in ${apps2[@]}; do
+grid colStart
+# cat << EOF
+#     <div class="col">
+# EOF
 	app="$i"
 	if [ -e "/etc/big-preload/enable-${app}" ]; then
 		checked="checked"
@@ -49,15 +54,18 @@ EOF
 		checked="unchecked"
 	fi
     switch -check "$checked" -marginRight 0 -marginTop 2 -text "$(echo $app | sed -r 's/\b[a-z]+/\u&/g')" -id 1 -run "B_configurePreload/change-preload.run $app" -border 1
-cat << EOF
-    </div>
-EOF
+    
+grid colEnd
+# cat << EOF
+#     </div>
+# EOF
 done
 
 # Fechamento
-cat << EOF
-  </div>
-</div>
-EOF
+grid end
+# cat << EOF
+#   </div>
+# </div>
+# EOF
 
 
