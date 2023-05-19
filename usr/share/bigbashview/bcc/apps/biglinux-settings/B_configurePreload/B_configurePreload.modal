@@ -1,60 +1,63 @@
 #!/bin/bash
 
+apps1=(
+firefox
+brave
+chrome
+chromium
+palemoon
+)
+apps2=(
+opera
+vivaldi
+epiphany
+libreoffice
+)
+
 #cabeçalho
 cat << EOF
 <div class="container text-center">
   <div class="row row-cols-2">
 EOF
 
-#Linhas coluna 1
+# for lista 1
+for i in ${apps1[@]}; do 
 cat << EOF
     <div class="col">
 EOF
-	app="firefox"
-	appName="Firefox"
+	app="$i"
 	if [ -e "/etc/big-preload/enable-${app}" ]; then
 		checked="checked"
 	else
 		checked="unchecked"
 	fi
-      switch -check "$checked" -marginRight 0 -text "$appName" -id 1 -run "B_configurePreload/change-preload.run $app" -border 1
+    switch -check "$checked" -marginRight 0 -marginTop 2 -text "$(echo $app | sed -r 's/\b[a-z]+/\u&/g')" -id 1 -run "B_configurePreload/change-preload.run $app" -border 1
 cat << EOF
     </div>
-    <div class="col">
-3
-    </div>
-    <div class="col">
-5
-    </div>
-    <div class="col">
-7
-    </div>
-    <div class="col">
-9
-    </div>
 EOF
+done
 
-#Linhas coluna 2
+#for lista 2
+for i in ${apps2[@]}; do 
 cat << EOF
     <div class="col">
-2
-    </div>
-    <div class="col">
-4
-    </div>
-    <div class="col">
-6
-    </div>
-    <div class="col">
-8
-    </div>
-    <div class="col">
-10
+EOF
+	app="$i"
+	if [ -e "/etc/big-preload/enable-${app}" ]; then
+		checked="checked"
+	else
+		checked="unchecked"
+	fi
+    switch -check "$checked" -marginRight 0 -marginTop 2 -text "$(echo $app | sed -r 's/\b[a-z]+/\u&/g')" -id 1 -run "B_configurePreload/change-preload.run $app" -border 1
+cat << EOF
     </div>
 EOF
+done
 
-#Fechamento
+# Fechamento
 cat << EOF
   </div>
 </div>
 EOF
+
+
