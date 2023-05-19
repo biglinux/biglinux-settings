@@ -266,7 +266,8 @@ fi
 html start
 section start -textH6 "${Performance}"
 for i in ${listPerformance[@]}; do $i;
-    line_switch -icon icons/${i}.svg -lineText "${name}" -check ${checked} -run ${i}.run -border 1
+#     line_switch -icon icons/${i}.svg -lineText "${name}" -check ${checked} -run ${i}.run -border 1
+    switch -icon icons/${i}.svg -iconPx "20" -text "${name}" -check ${checked} -run ${i}.run -border 1 -bgColor "secondary" -id "$i" -marginHorizontal 5 -paddingVertical 3
 done
 for i in ${listButton[@]}; do $i;
     line_button_modal -icon icons/${i}.svg -lineText "${name}" -buttonText ${OPEN} -buttonType "${checked}" -id ${i} -border 1
@@ -277,7 +278,8 @@ done
 section end
 section start -textH6 "${Usability}"
 for i in ${listUsability[@]}; do $i;
-    line_switch -icon icons/${i}.svg -lineText "${name}" -check ${checked} -run ${i}.run -border 1
+#     line_switch -icon icons/${i}.svg -lineText "${name}" -check ${checked} -run ${i}.run -border 1
+    switch -icon icons/${i}.svg -iconPx "20" -text "${name}" -check ${checked} -run ${i}.run -border 1 -bgColor "secondary" -id "$i" -marginHorizontal 5 -paddingVertical 3
 done
 section end
 # cat << EOF
