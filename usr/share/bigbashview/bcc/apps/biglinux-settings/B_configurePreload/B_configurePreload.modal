@@ -9,35 +9,44 @@ EOF
 #Linhas coluna 1
 cat << EOF
     <div class="col">
-1
-    </div>
-    <div class="col">
-2
+EOF
+	app="firefox"
+	appName="Firefox"
+	if [ -e "/etc/big-preload/enable-${app}" ]; then
+		checked="checked"
+	else
+		checked="unchecked"
+	fi
+      switch -check "$checked" -marginRight 0 -text "$appName" -id 1 -run "B_configurePreload/change-preload.run $app" -border 1
+cat << EOF
     </div>
     <div class="col">
 3
     </div>
     <div class="col">
-4
+5
     </div>
     <div class="col">
-5
+7
+    </div>
+    <div class="col">
+9
     </div>
 EOF
 
 #Linhas coluna 2
 cat << EOF
     <div class="col">
+2
+    </div>
+    <div class="col">
+4
+    </div>
+    <div class="col">
 6
     </div>
     <div class="col">
-7
-    </div>
-    <div class="col">
 8
-    </div>
-    <div class="col">
-9
     </div>
     <div class="col">
 10
