@@ -1,0 +1,31 @@
+#!/bin/bash
+cat << EOF
+<div class="container text-center">
+  <div class="row row-cols-2">
+  
+    <div class="col">
+EOF
+      if [ -e "$HOME/.config/browser-brave-disable-ad" ]; then
+          checked="checked"
+      else
+          checked="unchecked"
+      fi
+      switch -check "$checked" -marginRight 0 -text "$removeAdvertisements" -id 1 -run "B_braveSettings/removeAdvertisements.run" -border 1
+cat << EOF
+    </div>
+
+    <div class="col">
+EOF
+      #Brave disable crypto
+      if [ -e "$HOME/.config/browser-brave-disable-crypto" ]; then
+          checked="checked"
+      else
+          checked="unchecked"
+      fi
+      switch -check "$checked" -marginRight 0 -text "$supportCryptoCurrencies" -id 1 -run xpto.run -border 1
+cat << EOF
+    </div>
+
+  </div>
+</div>
+EOF
