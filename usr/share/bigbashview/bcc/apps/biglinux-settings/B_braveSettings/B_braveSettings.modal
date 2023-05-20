@@ -1,31 +1,21 @@
 #!/bin/bash
-cat << EOF
-<div class="container text-center">
-  <div class="row row-cols-2">
-  
-    <div class="col">
-EOF
-      if [ -e "$HOME/.config/browser-brave-disable-ad" ]; then
-          checked="checked"
-      else
-          checked="unchecked"
-      fi
-      switch -check "$checked" -marginRight 0 -text "$removeAdvertisements" -id disable-ad -run "B_braveSettings/removeAdvertisements.run" -border 1
-cat << EOF
-    </div>
+grid start -rowColumn 2
+grid colStart
 
-    <div class="col">
-EOF
-      #Brave disable crypto
-      if [ -e "$HOME/.config/browser-brave-disable-crypto" ]; then
-          checked="checked"
-      else
-          checked="unchecked"
-      fi
-      switch -check "$checked" -marginRight 0 -text "$supportCryptoCurrencies" -id disable-crypto -run "B_braveSettings/supportCryptoCurrencies.run" -border 1
-cat << EOF
-    </div>
+#Brave disable AD
+if [ -e "$HOME/.config/browser-brave-disable-ad" ]; then
+  checked="checked"
+else
+  checked="unchecked"
+fi
+switch -check "$checked" -marginRight 0 -text "$removeAdvertisements" -id disable-ad -run "B_braveSettings/removeAdvertisements.run" -border 1
 
-  </div>
-</div>
-EOF
+#Brave disable crypto
+if [ -e "$HOME/.config/browser-brave-disable-crypto" ]; then
+  checked="checked"
+else
+  checked="unchecked"
+fi
+switch -check "$checked" -marginRight 0 -text "$supportCryptoCurrencies" -id disable-crypto -run "B_braveSettings/supportCryptoCurrencies.run" -border 1
+
+grid end
