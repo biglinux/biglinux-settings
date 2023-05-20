@@ -1,5 +1,4 @@
 #!/bin/bash
-
 ##################################
 #  Author1: Bruno Goncalves (www.biglinux.com.br) 
 #  Author2: Barnabé di Kartola
@@ -25,16 +24,6 @@ PATH+=":/usr/share/bigbashview/bcc/shell/"
 Performance=$"Desempenho"
 Usability=$"Usabilidade"
 OPEN=$"Abrir"
-# CLOSE=$"Fechar"
-# YES=$"Sim"
-# NO=$"Não"
-# preLoadsProgram=$"O Preload carrega arquivos dos programas na memória, para que iniciem rapidamente. O uso excessivo causa lentidão. Escolha a opção desejada:"
-# Automatic=$"Automático"
-# Activate=$"Ativar"
-# Disable=$"Desativar"
-# Choose_the_desired_option=$"Escolha a opção desejada:"
-# Remove_advertisements=$"Remover propagandas"
-# Support_cryptocurrencies=$"Suportar criptomoedas"
 
 #lista de funções
 listPerformance=$(grep "() {" index.sh.htm | awk '{print $1}' | sed '/list_service=/d' | grep "D_" )
@@ -45,6 +34,7 @@ if [ "$(glxinfo | grep llvmpipe)" != "" ]; then
   NO_OGL=$"Utilizando renderização por software, a qualidade das transparências está reduzida."
 fi
 
+## Edit Star ##
 ## Edit Star ##
 
 #Modo Performance
@@ -262,6 +252,7 @@ fi
 
 
 ## Edite end ##
+## Edite end ##
 
 html start
 section start -textH6 "${Performance}"
@@ -282,6 +273,19 @@ for i in ${listUsability[@]}; do $i;
     switch -icon icons/${i}.svg -iconPx "20" -text "${name}" -check ${checked} -run ${i}.run -border 1 -bgColor "secondary" -id "$i" -marginHorizontal 5 -paddingVertical 3
 done
 section end
+
+
+## OLD CODE ##
+# CLOSE=$"Fechar"
+# YES=$"Sim"
+# NO=$"Não"
+# preLoadsProgram=$"O Preload carrega arquivos dos programas na memória, para que iniciem rapidamente. O uso excessivo causa lentidão. Escolha a opção desejada:"
+# Automatic=$"Automático"
+# Activate=$"Ativar"
+# Disable=$"Desativar"
+# Choose_the_desired_option=$"Escolha a opção desejada:"
+# Remove_advertisements=$"Remover propagandas"
+# Support_cryptocurrencies=$"Suportar criptomoedas"
 # cat << EOF
 # 
 # <html>
