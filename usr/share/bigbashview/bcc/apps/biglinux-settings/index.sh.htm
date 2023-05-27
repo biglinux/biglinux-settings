@@ -260,22 +260,20 @@ fi
 ## Edite end ##
 
 html start
-section start -text "${Performance}" -fontSize 6
+section start -text "$Performance" -fontSize 6
 for i in ${listPerformance[@]}; do $i;
-#     line_switch -icon icons/${i}.svg -lineText "${name}" -check ${checked} -run ${i}.run -border 1
-    switch -icon icons/${i}.svg -iconPx "20" -text "${name}" -check ${checked} -run ${i}.run -border 1 -bgColor "secondary" -id "$i" -marginX 5 -paddingY 3
+    switch -icon icons/$i.svg -iconPx 20 -text $name -check $checked -run $i.run -border 1 -bgColor secondary -id $i -marginX 5 -paddingY 3
 done
 for i in ${listButton[@]}; do $i;
-    line_button_modal -icon icons/${i}.svg -lineText "${name}" -buttonText ${OPEN} -buttonType "${checked}" -id ${i} -border 1
-    modal start -id ${i} -title "${name}"
-    modal -run ${i}/${i}.modal
+    line_button_modal -icon icons/$i.svg -lineText $name -buttonText $OPEN -buttonType $checked -id $i -border 1
+    modal start -id $i -title $name
+    modal -run $i/$i.modal
     modal end
 done
 section end
-section start -text "${Usability}" -fontSize 6
+section start -text "$Usability" -fontSize 6
 for i in ${listUsability[@]}; do $i;
-#     line_switch -icon icons/${i}.svg -lineText "${name}" -check ${checked} -run ${i}.run -border 1
-    switch -icon icons/${i}.svg -iconPx "20" -text "${name}" -check ${checked} -run ${i}.run -border 1 -bgColor "secondary" -id "$i" -marginX 5 -paddingY 3
+    switch -icon icons/$i.svg -iconPx 20 -text $name -check $checked -run $i.run -border 1 -bgColor secondary -id $i -marginX 5 -paddingY 3
 done
 section end
 
