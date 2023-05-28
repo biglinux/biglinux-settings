@@ -14,7 +14,14 @@ if [ -n "$(echo $DESKTOP_SESSION | grep plasma)" ];then
         qdbus org.kde.KWin /KWin org.kde.KWin.reconfigure
     fi
     #ONLY in KDE Plasma End
-# elif [ -n "$(echo $DESKTOP_SESSION | grep xfce)" ];then
+ elif [ -n "$(echo $DESKTOP_SESSION | grep xfce)" ];then
+     if [ -n "$(grep SHMC  $HOME/.config/xfce4/xfconf/xfce-perchannel-xml/xfwm4.xml)" ];then
+     sed -i 's/O|SHMC/CMHS|O/' $HOME/.config/xfce4/xfconf/xfce-perchannel-xml/xfwm4.xml
+ 
+     else
+     sed -i 's/CMH|SO/O|SHMC/' $HOME/.config/xfce4/xfconf/xfce-perchannel-xml/xfwm4.xml
+ 
+     fi
 # elif [ -n "$(echo $DESKTOP_SESSION | grep lxqt)" ];then
 # elif [ -n "$(echo $DESKTOP_SESSION | grep bspwm)" ];then
 # elif [ -n "$(echo $DESKTOP_SESSION | grep i3wm)" ];then
