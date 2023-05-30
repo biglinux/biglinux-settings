@@ -1,7 +1,7 @@
 #!/bin/bash
 
-if [ -e "/etc/bigmountall-no" ];then
-	bigsudo rm "/etc/bigmountall-no"
+if systemctl -q is-enabled big-mount.service; then
+	bigsudo systemctl disable big-mount.service
 else
-	bigsudo touch "/etc/bigmountall-no"
+	bigsudo systemctl enable big-mount.service
 fi
