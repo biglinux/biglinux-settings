@@ -32,13 +32,10 @@ Usability=$"Usabilidade"
 OPEN=$"Abrir"
 
 #lista de funções
-listPerformance=$(grep "() {" index.sh.htm | awk '{print $1}' | sed '/list_service=/d' | grep "D_" )
-listUsability=$(grep "() {" index.sh.htm | awk '{print $1}' | sed '/list_service=/d' | grep "U_")
-listButton=$(grep "() {" index.sh.htm | awk '{print $1}' | sed '/list_service=/d' | grep "B_")
-
-if [ "$(glxinfo | grep llvmpipe)" != "" ]; then
-  NO_OGL=$"Utilizando renderização por software, a qualidade das transparências está reduzida."
-fi
+listFunction=$(grep "() {" index.sh.htm | awk '{print $1}' | sed '/list_service=/d')
+listPerformance=$(echo "$listFunction" | grep "D_" )
+listUsability=$(echo "$listFunction" | grep "U_" )
+listButton=$(echo "$listFunction" | grep "B_" )
 
 ## Edit Star ##
 ## Edit Star ##
@@ -46,8 +43,8 @@ fi
 #Modo Performance
 D_performance () {
 name=$"Modo performance"
-if [ -n "$(echo $DESKTOP_SESSION | grep plasma)" ];then
-  if [ "$(kreadconfig5  --group "Compositing" --key "Enabled" --file "$HOME/.config/kwinrc")" = "false" ]; then
+if [[ $DESKTOP_SESSION == *"plasma"* ]]; then
+  if [[ "$(kreadconfig5 --file "$HOME/.config/kwinrc" --group "Compositing" --key "Enabled")" == "false" ]]; then
       checked="checked"
   else
       checked="unchecked"
@@ -65,7 +62,7 @@ fi
 #BTRFS sem fsync
 D_fsync () {
 name=$"BTRFS sem fsync"
-if [ "$(grep 'disable-fsync.so' /etc/ld.so.preload)" != "" ]; then
+if grep -q 'disable-fsync.so' /etc/ld.so.preload; then
     checked="checked"
 else
     checked="unchecked"
@@ -113,8 +110,8 @@ fi
 #Botões da janela no lado esquerdo
 U_WindowButtonsOnLeftSide () {
 name=$"Botões da janela no lado esquerdo"
-if [ -n "$(echo $DESKTOP_SESSION | grep plasma)" ];then
-  if [ "$(grep 'FSM' ~/.config/kwinrc)" != "" ]; then
+if [[ $DESKTOP_SESSION =~ plasma ]]; then
+  if grep -q 'FSM' ~/.config/kwinrc; then
       checked="checked"
   else
       checked="unchecked"
@@ -137,7 +134,7 @@ fi
 #Inverter rolagem do mouse
 U_invertedMouseScroll () {
 name=$"Rolagem do mouse invertida"
-if [ -n "$(echo $DESKTOP_SESSION | grep plasma)" ];then
+if [[ $DESKTOP_SESSION =~ plasma ]]; then
   if [ "$(kreadconfig5  --group "Mouse" --key "XLbInptNaturalScroll" --file "$HOME/.config/kcminputrc")" = "true" ]; then
       checked="checked"
   else
@@ -156,7 +153,7 @@ fi
 #Inverter rolagem do touchpad
 U_invertedTouchpadScroll () {
 name=$"Rolagem do touchpad invertida"
-if [ -n "$(echo $DESKTOP_SESSION | grep plasma)" ];then
+if [[ $DESKTOP_SESSION =~ plasma ]]; then
   if [ "$(kreadconfig5 --group "SynPS/2 Synaptics TouchPad" --key "naturalScroll" --file "$HOME/.config/touchpadxlibinputrc")" = "true" ]; then
       checked="checked"
   else
@@ -175,8 +172,8 @@ fi
 #Indexar Arquivos (Baloo)
 U_searchFiles () {
 name=$"Indexar arquivos"
-if [ -n "$(echo $DESKTOP_SESSION | grep plasma)" ];then
-  if [ "$(LANG=C balooctl status 2>&1| grep 'is running')" != "" ]; then
+if [[ $DESKTOP_SESSION =~ plasma ]]; then
+  if LANG=C balooctl status 2>&1 | grep -q 'is running'; then
       checked="checked"
   else
       checked="unchecked"
@@ -194,7 +191,7 @@ fi
 #Bloquear edição da Area de Trabalho
 U_lockWorkspace () {
 name=$"Bloquear a edição da área de trabalho"
-if [ -n "$(echo $DESKTOP_SESSION | grep plasma)" ];then
+if [[ $DESKTOP_SESSION =~ plasma ]]; then
   if [ -e "$HOME/.config/lockplasma" ]; then
       checked="checked"
   else
@@ -213,8 +210,8 @@ fi
 #Ativar NumLock no boot
 U_numLock () {
 name=$"Ativar o NumLock ao ligar o sistema"
-if [ -n "$(echo $DESKTOP_SESSION | grep plasma)" ];then
-  if [ -n "$(grep Numlock=on /etc/sddm.conf)" ]; then
+if [[ $DESKTOP_SESSION =~ plasma ]]; then
+  if grep -q "Numlock=on" /etc/sddm.conf; then
       checked="checked"
   else
       checked="unchecked"
@@ -232,7 +229,7 @@ fi
 #Ocultar Grub
 U_grub () {
 name=$"Ocultar Gerenciador de Boot (GRUB)"
-if [ -n "$(grep timeout_style=hidden /etc/grub.d/30_os-prober)" ]; then
+if grep -q "timeout_style=hidden" /etc/grub.d/30_os-prober; then
     checked="checked"
 else
     checked="unchecked"
@@ -242,7 +239,7 @@ fi
 #Disable auto-mount (big-mount)
 U_bigMount () {
 name=$"Montar partições automaticamente"
-if [ "$(LANG=C systemctl is-enabled big-mount.service)" = "enabled" ] ; then
+if systemctl -q is-enabled big-mount.service; then
     checked="checked"
 else
     checked="unchecked"
@@ -252,7 +249,7 @@ fi
 #Development Mode
 U_developmentMode () {
 name=$"Modo Desenvolvedor"
-if [ -n "$(cat /etc/big-release | grep -E "development|beta" )" ];then
+if grep -qE "development|beta" /etc/big-release; then
     if [ "$(LANG=C systemctl is-enabled development-mode.path)" = "enabled" ] ; then
         checked="checked"
     else
