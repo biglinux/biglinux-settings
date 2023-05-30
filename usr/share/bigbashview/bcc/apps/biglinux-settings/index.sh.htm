@@ -5,9 +5,9 @@
 #  Author3: Rafael Ruscher (rruscher@gmail.com)  
 #  Date:    2022/02/28 
 #  Modified:2022/07/10 
-#  
+#
 #  Description: Themes, Desktop and Ajust usage of BigLinux 
-#  
+#
 # Licensed by GPL V2 or greater
 ##################################
 
@@ -20,6 +20,12 @@ xprop -id "$(xprop -root '\t$0' _NET_ACTIVE_WINDOW | cut -f 2)" -f WM_CLASS 8s -
 
 #add BBV scripts
 PATH+=":/usr/share/bigbashview/bcc/shell/"
+. /usr/share/bigbashview/bcc/shell/html
+. /usr/share/bigbashview/bcc/shell/switch
+. /usr/share/bigbashview/bcc/shell/section
+. /usr/share/bigbashview/bcc/shell/modal
+. /usr/share/bigbashview/bcc/shell/line_button_modal
+. /usr/share/bigbashview/bcc/shell/grid
 
 Performance=$"Desempenho"
 Usability=$"Usabilidade"
@@ -151,7 +157,7 @@ fi
 U_invertedTouchpadScroll () {
 name=$"Rolagem do touchpad invertida"
 if [ -n "$(echo $DESKTOP_SESSION | grep plasma)" ];then
-  if [ "$(kwriteconfig5 --group "SynPS/2 Synaptics TouchPad" --key "naturalScroll" --file "$HOME/.config/touchpadxlibinputrc")" = "true" ]; then
+  if [ "$(kreadconfig5 --group "SynPS/2 Synaptics TouchPad" --key "naturalScroll" --file "$HOME/.config/touchpadxlibinputrc")" = "true" ]; then
       checked="checked"
   else
       checked="unchecked"
@@ -259,23 +265,27 @@ fi
 ## Edite end ##
 ## Edite end ##
 
-html start
-section start -text "$Performance" -fontSize 6
+#HTML START
+start="start" html
+#SECTION
+start="start" text="$Performance" fontSize="6" section
 for i in ${listPerformance[@]}; do $i;
-    switch -icon icons/$i.svg -iconPx 20 -text "$name" -check $checked -run $i.run -border 1 -bgColor secondary -id $i -marginX 5 -paddingY 3
+#     switch -icon icons/$i.svg -iconPx 20 -text "$name" -check $checked -run $i.run -border 1 -bgColor secondary -id $i -marginX 5 -paddingY 3
+    icon="icons/${i}.svg" iconSize="20" text="$name" check="$checked" run="$i.run" border="1" bgColor="secondary" id="$i" marginHorizontal="5" paddingVertical="3" switch
 done
 for i in ${listButton[@]}; do $i;
-    line_button_modal -icon icons/$i.svg -lineText "$name" -buttonText $OPEN -buttonType $checked -id $i -border 1
-    modal start -id $i -title "$name"
-    modal -run $i/$i.modal
-    modal end
+    icon="icons/$i.svg" text="$name" buttonText="$OPEN" buttonType="$checked" id="$i" border="1" line_button_modal
+    start="start" id="$i" title="$name" modal
+    run="$i/$i.modal" modal
+    end="end" modal
 done
-section end
-section start -text "$Usability" -fontSize 6
+end="end" section
+start="start" text="$Usability" fontSize="6" section
 for i in ${listUsability[@]}; do $i;
-    switch -icon icons/$i.svg -iconPx 20 -text "$name" -check $checked -run $i.run -border 1 -bgColor secondary -id $i -marginX 5 -paddingY 3
+#     switch -icon icons/$i.svg -iconPx 20 -text "$name" -check $checked -run $i.run -border 1 -bgColor secondary -id $i -marginX 5 -paddingY 3
+    icon="icons/${i}.svg" iconSize="20" text="$name" check="$checked" run="$i.run" border="1" bgColor="secondary" id="$i" marginHorizontal="5" paddingVertical="3" switch
 done
-section end
+end="end" section
 
 
 ## OLD CODE ##

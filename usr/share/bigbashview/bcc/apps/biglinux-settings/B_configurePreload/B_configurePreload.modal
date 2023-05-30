@@ -1,5 +1,8 @@
 #!/bin/bash
 
+. /usr/share/bigbashview/bcc/shell/grid
+. /usr/share/bigbashview/bcc/shell/switch
+
 apps=(
 firefox
 brave
@@ -13,22 +16,22 @@ libreoffice
 )
 
 #cabeçalho
-grid start -rowColumn 2
+start="start" rowColumn="2" grid
 
 # for lista apps
-for i in ${apps[@]}; do 
-grid colStart
+for i in ${apps[@]}; do
+colStart="start" grid
 	app="$i"
 	if [ -e "/etc/big-preload/enable-${app}" ]; then
 		checked="checked"
 	else
 		checked="unchecked"
 	fi
-    switch -check "$checked" -marginRight 0 -marginTop 2 -text "$(echo $app | sed -r 's/\b[a-z]+/\u&/g')" -id $i -run "B_configurePreload/change-preload.run $app" -border 1
+	check="$checked" marginRight="0" marginTop="2" text="$(echo $app | sed -r 's/\b[a-z]+/\u&/g')" id="$i" run="B_configurePreload/change-preload.run $app" border="1" switch
 done
 
 # Fechamento
-grid end
+end="end" grid
 
 
 
