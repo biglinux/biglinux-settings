@@ -262,10 +262,10 @@ start="start" html
 start="start" text="$Performance" fontSize="6" section
 for i in ${listPerformance[@]}; do $i;
 #     switch -icon icons/$i.svg -iconPx 20 -text "$name" -check $checked -run $i.run -border 1 -bgColor secondary -id $i -marginX 5 -paddingY 3
-    icon="icons/${i}.svg" iconSize="20" text="$name" check="$checked" run="./$i.run" border="1" bgColor="secondary" id="$i" marginHorizontal="5" paddingVertical="3" switch
+    icon="icons/${i}.svg" text="$name" check="$checked" run="./$i.run" border="1" id="$i" marginHorizontal="5" paddingVertical="3" switch
 done
 for i in ${listButton[@]}; do $i;
-    icon="icons/$i.svg" text="$name" buttonText="$OPEN" buttonType="$checked" id="$i" border="1" line_button_modal
+    icon="icons/$i.svg" text="$name" buttonText="$OPEN" id="$i" border="1" buttonModal="modal" line_button
     start="start" id="$i" title="$name" modal
     run="./$i/$i.modal" modal
     end="end" modal
@@ -274,6 +274,6 @@ end="end" section
 start="start" text="$Usability" fontSize="6" section
 for i in ${listUsability[@]}; do $i;
 #     switch -icon icons/$i.svg -iconPx 20 -text "$name" -check $checked -run $i.run -border 1 -bgColor secondary -id $i -marginX 5 -paddingY 3
-    icon="icons/${i}.svg" iconSize="20" text="$name" check="$checked" run="./$i.run" border="1" bgColor="secondary" id="$i" marginHorizontal="5" paddingVertical="3" switch
+    icon="icons/${i}.svg" text="$name" check="$checked" run="./$i.run" border="1" id="$i" marginHorizontal="5" paddingVertical="3" switch
 done
 end="end" section
