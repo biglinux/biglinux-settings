@@ -34,6 +34,5 @@ colStart="start" grid
 	check="$checked" marginTop="2" text="$(echo $app | sed -r 's/\b[a-z]+/\u&/g')" id="$i" run="B_configurePreload/change-preload.run $app" border="1" switch
 done
 
-$DESKTOP_SESSION
 # Fechamento
 end="end" grid
