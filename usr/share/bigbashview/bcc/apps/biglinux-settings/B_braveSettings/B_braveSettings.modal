@@ -18,6 +18,6 @@ if [ -e "$HOME/.config/browser-brave-disable-crypto" ]; then
 else
   checked="unchecked"
 fi
- check="$checked" text="$supportCryptoCurrencies" id="disable-crypto" run="B_braveSettings/supportCryptoCurrencies.run" border="1" switch
+check="$checked" text="$supportCryptoCurrencies" id="disable-crypto" run="B_braveSettings/supportCryptoCurrencies.run" border="1" switch
 
 end="end" grid

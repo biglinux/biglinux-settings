@@ -14,6 +14,11 @@ epiphany
 libreoffice
 )
 
+#KDE Plasma
+if [[ $DESKTOP_SESSION =~ plasma ]]; then
+	apps="${apps:+apps kde}"
+fi
+
 #cabeçalho
 start="start" rowColumn="2" grid
 
@@ -29,5 +34,16 @@ colStart="start" grid
 	check="$checked" marginTop="2" text="$(echo $app | sed -r 's/\b[a-z]+/\u&/g')" id="$i" run="B_configurePreload/change-preload.run $app" border="1" switch
 done
 
+#KDE Plasma
+if [[ $DESKTOP_SESSION =~ plasma ]]; then
+	if ls /etc/big-preload/ | grep -q kde; then
+		checked="checked"
+	else
+		checked="unchecked"
+	fi
+	check="$checked" marginTop="2" text="$(echo $app | sed -r 's/\b[a-z]+/\u&/g')" id="$i" run="B_configurePreload/change-preload.run $app" border="1" switch
+fi
+
+$DESKTOP_SESSION
 # Fechamento
 end="end" grid
