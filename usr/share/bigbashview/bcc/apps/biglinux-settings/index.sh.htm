@@ -257,23 +257,23 @@ fi
 ## Edite end ##
 
 #HTML START
-start="start" html
-#SECTION
-start="start" text="$Performance" fontSize="6" section
-for i in ${listPerformance[@]}; do $i;
-#     switch -icon icons/$i.svg -iconPx 20 -text "$name" -check $checked -run $i.run -border 1 -bgColor secondary -id $i -marginX 5 -paddingY 3
-    icon="icons/${i}.svg" text="$name" check="$checked" run="./$i.run" border="1" id="$i" marginHorizontal="5" paddingVertical="3" switch
-done
-for i in ${listButton[@]}; do $i;
-    icon="icons/$i.svg" text="$name" buttonText="$OPEN" id="$i" border="1" buttonModal="modal" line_button
-    start="start" id="$i" title="$name" modal
-    run="./$i/$i.modal" modal
-    end="end" modal
-done
-end="end" section
-start="start" text="$Usability" fontSize="6" section
-for i in ${listUsability[@]}; do $i;
-#     switch -icon icons/$i.svg -iconPx 20 -text "$name" -check $checked -run $i.run -border 1 -bgColor secondary -id $i -marginX 5 -paddingY 3
-    icon="icons/${i}.svg" text="$name" check="$checked" run="./$i.run" border="1" id="$i" marginHorizontal="5" paddingVertical="3" switch
-done
-end="end" section
+htmlStart
+    #SECTION
+    start="start" text="$Performance" fontSize="6" section
+    for i in ${listPerformance[@]}; do $i;
+    #     switch -icon icons/$i.svg -iconPx 20 -text "$name" -check $checked -run $i.run -border 1 -bgColor secondary -id $i -marginX 5 -paddingY 3
+        icon="icons/${i}.svg" text="$name" check="$checked" run="./$i.run" border="1" id="$i" paddingVertical="3" switch
+    done
+    for i in ${listButton[@]}; do $i;
+        start="start" id="$i" title="$name" modal
+            run="./$i/$i.modal" modal
+        end="end" modal
+        icon="icons/$i.svg" text="$name" buttonText="$OPEN" id="$i" paddingVertical="3" border="1" buttonModal="modal" line_button
+    done
+    end="end" section
+    start="start" text="$Usability" fontSize="6" section
+    for i in ${listUsability[@]}; do $i;
+    #     switch -icon icons/$i.svg -iconPx 20 -text "$name" -check $checked -run $i.run -border 1 -bgColor secondary -id $i -marginX 5 -paddingY 3
+        icon="icons/${i}.svg" text="$name" check="$checked" run="./$i.run" border="1" id="$i" paddingVertical="3" switch
+    done
+    end="end" section
