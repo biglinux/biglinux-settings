@@ -26,7 +26,7 @@ Usability=$"Usabilidade"
 OPEN=$"Abrir"
 
 #lista de funções
-listFunction=$(grep "() {" index.sh.htm | awk '{print $1}' | sed '/list_service=/d')
+listFunction=$(grep "() {" index.sh.htm | awk '{print $1}' | sed '/listFunction=/d')
 listPerformance=$(echo "$listFunction" | grep "D_" )
 listUsability=$(echo "$listFunction" | grep "U_" )
 listButton=$(echo "$listFunction" | grep "B_" )
@@ -249,6 +249,8 @@ if grep -qE "development|beta" /etc/big-release; then
     else
         checked="unchecked"
     fi
+else
+    checked="disabled"
 fi
 }
 
