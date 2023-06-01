@@ -31,7 +31,7 @@ colStart="start" grid
 	else
 		checked="unchecked"
 	fi
-	check="$checked" marginTop="2" text="${app^}" id="$i" run="B_configurePreload/change-preload.run $app" border="1" switch
+	check="$checked" marginTop="2" text="${app^}" id="$i" run="B_configurePreload/change-preload.run $app" bgColor="light" shadow="shadow-sm" margin="3" padding="1" borderRadius="rounded-pill" switch
 done
 
 # Fechamento

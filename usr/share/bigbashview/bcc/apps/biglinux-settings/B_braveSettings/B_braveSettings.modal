@@ -10,7 +10,7 @@ if [ -e "$HOME/.config/browser-brave-disable-ad" ]; then
 else
   checked="unchecked"
 fi
-check="$checked" text="$removeAdvertisements" id="disable-ad" run="B_braveSettings/removeAdvertisements.run" border="1" switch
+check="$checked" marginTop="2" text="$removeAdvertisements" id="disable-ad" run="B_braveSettings/removeAdvertisements.run" bgColor="light" shadow="shadow-sm" margin="0" padding="0" borderRadius="rounded-pill" switch
 
 #Brave disable crypto
 if [ -e "$HOME/.config/browser-brave-disable-crypto" ]; then
@@ -18,6 +18,10 @@ if [ -e "$HOME/.config/browser-brave-disable-crypto" ]; then
 else
   checked="unchecked"
 fi
-check="$checked" text="$supportCryptoCurrencies" id="disable-crypto" run="B_braveSettings/supportCryptoCurrencies.run" border="1" switch
+
+
+check="$checked" marginTop="2" text="$supportCryptoCurrencies" id="disable-crypto" run="B_braveSettings/supportCryptoCurrencies.run" bgColor="light" shadow="shadow-sm" margin="0" padding="0" borderRadius="rounded-pill" switch
+
+
 
 end="end" grid
