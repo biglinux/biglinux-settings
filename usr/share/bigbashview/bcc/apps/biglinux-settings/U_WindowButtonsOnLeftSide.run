@@ -16,10 +16,10 @@ if [ -n "$(echo $DESKTOP_SESSION | grep plasma)" ];then
     #ONLY in KDE Plasma End
  elif [ -n "$(echo $DESKTOP_SESSION | grep xfce)" ];then
      if [ -n "$(grep SHMC  $HOME/.config/xfce4/xfconf/xfce-perchannel-xml/xfwm4.xml)" ];then
-     sed -i 's/O|SHMC/CMHS|O/' $HOME/.config/xfce4/xfconf/xfce-perchannel-xml/xfwm4.xml
+     xfconf-query -c xfwm4 -p /general/button_layout -s "CMH|SO"
  
      else
-     sed -i 's/CMHS|O/O|SHMC/' $HOME/.config/xfce4/xfconf/xfce-perchannel-xml/xfwm4.xml
+     xfconf-query -c xfwm4 -p /general/button_layout -s "O|SHMC"
  
      fi
 # elif [ -n "$(echo $DESKTOP_SESSION | grep lxqt)" ];then
