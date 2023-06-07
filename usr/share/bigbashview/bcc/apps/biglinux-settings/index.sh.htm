@@ -110,12 +110,12 @@ if [[ $DESKTOP_SESSION =~ plasma ]]; then
   else
       checked="unchecked"
   fi
-# elif [[ $DESKTOP_SESSION =~ xfce ]]; then
-#     if [ -z "$(grep SHMC  $HOME/.config/xfce4/xfconf/xfce-perchannel-xml/xfwm4.xml)" ];then
-#         checked="checked"
-#     else
-#         checked="unchecked"
-#     fi 
+elif [[ $DESKTOP_SESSION =~ xfce ]]; then
+  if [ -z "$(grep SHMC  $HOME/.config/xfce4/xfconf/xfce-perchannel-xml/xfwm4.xml)" ];then
+      checked="checked"
+  else
+      checked="unchecked"
+  fi 
 # elif [[ $DESKTOP_SESSION =~ lxqt ]]; then
 # elif [[ $DESKTOP_SESSION =~ bspwm ]]; then
 # elif [[ $DESKTOP_SESSION =~ 3wm ]]; then
