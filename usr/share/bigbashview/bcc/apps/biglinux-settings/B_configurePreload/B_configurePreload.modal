@@ -1,5 +1,7 @@
 #!/bin/bash
 
+. /usr/share/bigbashview/bcc/shell/bbvFunctions
+
 apps=(
 firefox
 brave
@@ -12,23 +14,25 @@ epiphany
 libreoffice
 )
 
+#KDE Plasma
+if [[ $DESKTOP_SESSION =~ plasma ]]; then
+	apps="${apps:+apps kde}"
+fi
+
 #cabeçalho
-grid start -rowColumn 2
+start="start" rowColumn="2" grid
 
 # for lista apps
-for i in ${apps[@]}; do 
-grid colStart
+for i in ${apps[@]}; do
+colStart="start" grid
 	app="$i"
 	if [ -e "/etc/big-preload/enable-${app}" ]; then
 		checked="checked"
 	else
 		checked="unchecked"
 	fi
-    switch -check "$checked" -marginRight 0 -marginTop 2 -text "$(echo $app | sed -r 's/\b[a-z]+/\u&/g')" -id $i -run "B_configurePreload/change-preload.run $app" -border 1
+	check="$checked" marginTop="2" text="${app^}" id="$i" run="B_configurePreload/change-preload.run $app" bgColor="light" shadow="shadow-sm" margin="3" padding="1" borderRadius="rounded-pill" switch
 done
 
 # Fechamento
-grid end
-
-
-
+end="end" grid

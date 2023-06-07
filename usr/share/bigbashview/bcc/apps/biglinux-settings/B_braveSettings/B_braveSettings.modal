@@ -1,6 +1,8 @@
 #!/bin/bash
-grid start -rowColumn 2
-grid colStart
+. /usr/share/bigbashview/bcc/shell/bbvFunctions
+
+start="start" rowColumn="2" grid
+colStart="colStart" grid
 
 #Brave disable AD
 if [ -e "$HOME/.config/browser-brave-disable-ad" ]; then
@@ -8,7 +10,7 @@ if [ -e "$HOME/.config/browser-brave-disable-ad" ]; then
 else
   checked="unchecked"
 fi
-switch -check "$checked" -marginRight 0 -text "$removeAdvertisements" -id disable-ad -run "B_braveSettings/removeAdvertisements.run" -border 1
+check="$checked" marginTop="2" text="$removeAdvertisements" id="disable-ad" run="B_braveSettings/removeAdvertisements.run" bgColor="light" shadow="shadow-sm" margin="0" padding="0" borderRadius="rounded-pill" switch
 
 #Brave disable crypto
 if [ -e "$HOME/.config/browser-brave-disable-crypto" ]; then
@@ -16,6 +18,10 @@ if [ -e "$HOME/.config/browser-brave-disable-crypto" ]; then
 else
   checked="unchecked"
 fi
-switch -check "$checked" -marginRight 0 -text "$supportCryptoCurrencies" -id disable-crypto -run "B_braveSettings/supportCryptoCurrencies.run" -border 1
 
-grid end
+
+check="$checked" marginTop="2" text="$supportCryptoCurrencies" id="disable-crypto" run="B_braveSettings/supportCryptoCurrencies.run" bgColor="light" shadow="shadow-sm" margin="0" padding="0" borderRadius="rounded-pill" switch
+
+
+
+end="end" grid
