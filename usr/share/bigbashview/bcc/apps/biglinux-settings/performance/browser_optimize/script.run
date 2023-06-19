@@ -1,0 +1,20 @@
+#!/bin/bash
+
+#Translation
+export TEXTDOMAINDIR="/usr/share/locale"
+export TEXTDOMAIN=biglinux-settings
+
+windowID="$(xprop -root '\t$0' _NET_ACTIVE_WINDOW | cut -f 2)"
+
+# Import html.run to run verification to show if checked or not
+cd "$(dirname "$0")"
+. ../../defaultValues.sh
+. html.run
+
+if [ "$checked" = "checked" ]; then
+    ./yes.run
+else
+    ./no.run
+fi
+
+showHtml

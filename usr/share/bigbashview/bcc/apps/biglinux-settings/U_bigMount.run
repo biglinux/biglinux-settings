@@ -1,7 +1,0 @@
-#!/bin/bash
-
-if systemctl -q is-enabled big-mount.service; then
-	bigsudo systemctl disable big-mount.service
-else
-	bigsudo systemctl enable big-mount.service
-fi

@@ -1,0 +1,16 @@
+#!/bin/bash
+
+# Name to show in interface
+name=$"Montar partições automaticamente"
+
+# General verification
+if LANG=C systemctl is-enabled -q big-mount.service; then
+    checked="checked"
+else
+    checked=""
+fi
+
+# Use files from /usr/share/bigbashview/bcc/shell/ to show html, all functions from shel folder imported in index.sh.htm
+showHtml () {
+    eval "$defaultConfigSwitch run=\"$sectionFolder/$id/script.sh.htm\" switch"
+}

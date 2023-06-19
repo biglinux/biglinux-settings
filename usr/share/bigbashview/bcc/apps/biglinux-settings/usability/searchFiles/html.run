@@ -1,0 +1,18 @@
+#!/bin/bash
+
+name=$"Indexar arquivos"
+
+if [[ $DESKTOP_SESSION == *plasma* ]]; then
+    if LANG=C balooctl status &>/dev/null; then
+        checked="checked"
+    else
+        checked=""
+    fi
+else
+    checked=disabled
+fi
+
+# Use files from /usr/share/bigbashview/bcc/shell/ to show html, all functions from shel folder imported in index.sh.htm
+showHtml () {
+    eval "$defaultConfigSwitch switch"
+}

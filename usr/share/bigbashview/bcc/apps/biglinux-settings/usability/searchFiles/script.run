@@ -1,0 +1,28 @@
+#!/bin/bash
+
+# Import html.run to run verification to show if checked or not
+cd "$(dirname "$0")"
+. html.run
+
+#ONLY in KDE Plasma Start
+if [ "$checked" = "checked" ]; then
+   balooctl disable
+   sleep .3
+   balooctl disable
+   sleep .3
+   balooctl disable
+   sleep .3
+   balooctl disable
+   sleep .3
+   balooctl disable
+else
+   balooctl enable
+   sleep .3
+   balooctl enable
+   sleep .3
+   balooctl enable
+   sleep .3
+   balooctl enable
+   sleep .3
+   balooctl enable
+fi

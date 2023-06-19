@@ -1,8 +1,0 @@
-#!/bin/bash
-
-
-if [ -e "$HOME/.config/browser-optimize" ]; then
-    ./D_browserOptimize-yes.run
-else
-    ./D_browserOptimize-no.run
-fi

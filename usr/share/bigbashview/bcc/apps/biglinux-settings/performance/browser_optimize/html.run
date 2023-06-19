@@ -1,0 +1,17 @@
+#!/bin/bash
+
+# Name to show in interface
+name=$"Aceleração do navegador"
+
+# General verification
+if [ -e "$HOME/.config/browser-optimize" ]; then
+    checked="checked"
+else
+    checked=""
+fi
+
+
+# Use files from /usr/share/bigbashview/bcc/shell/ to show html, all functions from shel folder imported in index.sh.htm
+showHtml () {
+    eval "$defaultConfigSwitch sectionFolder=$sectionFolder id=$id switch"
+}

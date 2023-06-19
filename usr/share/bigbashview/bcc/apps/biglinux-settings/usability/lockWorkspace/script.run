@@ -1,0 +1,14 @@
+#!/bin/bash
+
+# Import html.run to run verification to show if checked or not
+cd "$(dirname "$0")"
+. html.run
+
+#ONLY in KDE Plasma Start
+if [ "$checked" = "checked" ]; then
+   rm -f "$HOME/.config/lockplasma"
+   qdbus org.kde.plasmashell /PlasmaShell evaluateScript "lockCorona(false)"
+else
+   echo true > "$HOME/.config/lockplasma"
+   qdbus org.kde.plasmashell /PlasmaShell evaluateScript "lockCorona(true)"
+fi

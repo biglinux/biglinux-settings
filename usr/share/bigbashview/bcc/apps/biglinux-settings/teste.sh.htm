@@ -1,0 +1,56 @@
+#!/bin/bash
+##################################
+#  Author1: Bruno Goncalves (www.biglinux.com.br) 
+#  Author2: Barnabé di Kartola
+#  Author3: Rafael Ruscher (rruscher@gmail.com)  
+#  Date:    2022/02/28 
+#  Modified:2022/07/10 
+#  
+#  Description: Themes, Desktop and Ajust usage of BigLinux 
+#  
+# Licensed by GPL V2 or greater
+##################################
+
+
+# Translation
+export TEXTDOMAINDIR="/usr/share/locale"
+export TEXTDOMAIN=biglinux-settings
+
+# Don't group windows
+xprop -id "$(xprop -root '\t$0' _NET_ACTIVE_WINDOW | cut -f 2)" -f WM_CLASS 8s -set WM_CLASS "$$"
+
+# Import functions
+. /usr/share/bigbashview/bcc/shell/bbvFunctions
+
+# Add default config to switch
+defaultConfigSwitch='icon="$sectionFolder/$id/icon.svg" text="$name" check="$checked" run="$sectionFolder/$id/script.run" border="1" id="$id" paddingVertical="3"'
+
+# Add default config to line_button_modal
+defaultConfigLineButtonModal='icon="$id/icon.svg" text="$name" buttonText="$OPEN" id="$id" paddingVertical="3" border="1" buttonModal="modal"'
+
+# Define variables for translation
+OPEN=$"Abrir"
+
+# HTML START
+htmlStart
+
+# Name to show in interface
+id=btrfs
+name=$"BTRFS sem fsync"
+
+# General verification
+if LANG=C grep -q 'disable-fsync.so' /etc/ld.so.preload; then
+    checked="checked"
+fi
+
+# Use files from /usr/share/bigbashview/bcc/shell/ to show html, all functions from shel folder imported in index.sh.htm
+    eval "$defaultConfigSwitch switch"
+
+
+
+
+
+
+
+htmlEnd
+

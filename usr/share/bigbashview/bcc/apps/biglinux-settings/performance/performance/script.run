@@ -1,0 +1,17 @@
+#!/bin/bash
+
+# Import html.run to run verification to show if checked or not
+cd "$(dirname "$0")"
+. html.run
+
+if [ "$checked" = "checked" ]; then
+    #Change ONLY in KDE Plasma Start
+    #Enable performance
+    qdbus org.kde.kglobalaccel /component/kwin invokeShortcut "Suspend Compositing"
+    kwriteconfig5 --file ~/.config/kwinrc --group Compositing --key "Enabled" "true"
+else
+    #Disable performance
+    qdbus org.kde.kglobalaccel /component/kwin invokeShortcut "Suspend Compositing"
+    kwriteconfig5 --file ~/.config/kwinrc --group Compositing --key "Enabled" "false"    
+    #Change ONLY in KDE Plasma End
+fi

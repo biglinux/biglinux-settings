@@ -1,0 +1,13 @@
+#!/bin/bash
+
+# Import html.run to run verification to show if checked or not
+cd "$(dirname "$0")"
+. html.run
+
+#ONLY in KDE Plasma Start
+if [ "$checked" = "checked" ]; then
+   kwriteconfig5 --group "Mouse" --key "XLbInptNaturalScroll" --file "$HOME/.config/kcminputrc" "false"
+else
+   kwriteconfig5 --group "Mouse" --key "XLbInptNaturalScroll" --file "$HOME/.config/kcminputrc" "true"
+fi
+kcminit_startup

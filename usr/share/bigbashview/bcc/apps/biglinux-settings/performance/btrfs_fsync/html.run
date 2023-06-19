@@ -1,0 +1,16 @@
+#!/bin/bash
+
+# Name to show in interface
+name=$"BTRFS sem fsync"
+
+# General verification
+if LANG=C grep -q 'disable-fsync.so' /etc/ld.so.preload; then
+    checked="checked"
+else
+    checked=""
+fi
+
+# Use files from /usr/share/bigbashview/bcc/shell/ to show html, all functions from shel folder imported in index.sh.htm
+showHtml () {
+    eval "$defaultConfigSwitch run=\"$sectionFolder/$id/script.sh.htm\" switch"
+}

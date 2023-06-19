@@ -1,0 +1,18 @@
+#!/bin/bash
+
+# Name to show in interface
+name=$"Ligar RGB do teclado"
+
+# General verification
+if [ -e "$HOME/.config/ledkeyboard" ]; then
+    checked="checked"
+else
+    checked=""
+fi
+
+# Use files from /usr/share/bigbashview/bcc/shell/ to show html, all functions from shel folder imported in index.sh.htm
+showHtml () {
+    eval "$defaultConfigSwitch switch"
+}
+
+

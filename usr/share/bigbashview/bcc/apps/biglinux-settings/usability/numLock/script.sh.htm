@@ -1,0 +1,38 @@
+#!/bin/bash
+
+####################
+# Default code Start
+####################
+cd "$(dirname "$0")"
+
+# import Values
+. ../../defaultValues.sh
+
+# Import html.run to run verification to show if checked or not
+. html.run
+####################
+# Default code End
+####################
+
+
+
+# Change system
+if [ "$checked" = "checked" ]; then
+   bigsudo kwriteconfig5 --group "General" --key "Numlock" --file "/etc/sddm.conf" "none"
+else
+   bigsudo kwriteconfig5 --group "General" --key "Numlock" --file "/etc/sddm.conf" "on"
+fi
+
+
+
+####################
+# Default code Start
+####################
+
+# Reload verification to checked or not
+. html.run
+showHtml
+
+####################
+# Default code End
+####################

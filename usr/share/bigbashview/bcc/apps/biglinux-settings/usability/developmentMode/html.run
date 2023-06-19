@@ -1,0 +1,17 @@
+#!/bin/bash
+
+name=$"Modo Desenvolvedor"
+
+if LANG=C grep -q -E "development|beta" /etc/big-release; then
+    if LANG=C systemctl is-enabled -q development-mode.path; then
+        checked="checked"
+    else
+        checked=""
+    fi
+fi
+
+
+# Use files from /usr/share/bigbashview/bcc/shell/ to show html, all functions from shel folder imported in index.sh.htm
+showHtml () {
+    eval "$defaultConfigSwitch run=\"$sectionFolder/$id/script.sh.htm\" switch"
+}
