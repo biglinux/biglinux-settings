@@ -1,0 +1,293 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the biglinux-settings package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+# 
+msgid ""
+msgstr ""
+"Project-Id-Version: biglinux-settings\n"
+"Report-Msgid-Bugs-To: \n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: attranslate\n"
+msgid "BigLinux Ajustes"
+msgstr "BigLinux 设置"
+msgid "BTRFS sem fsync"
+msgstr "BTRFS sem fsync"
+msgid "Desativar efeitos do desktop"
+msgstr "禁用桌面效果"
+msgid "Aceleração do navegador"
+msgstr "浏览器加速"
+msgid "Se estiver utilizando algum navegador, reinicie-o para aplicar as alterações."
+msgstr "如果您正在使用任何浏览器，请重新启动以应用更改。"
+msgid "Rolagem do mouse invertida"
+msgstr "鼠标滚动反向"
+msgid "Rolagem do touchpad invertida"
+msgstr "触控板滚动反向"
+msgid "Botões da janela no lado esquerdo"
+msgstr "窗口按钮在左侧"
+msgid "Aguarde..."
+msgstr "请稍候..."
+msgid "Aplicando, Aguarde..."
+msgstr "申请中，请稍候..."
+msgid "Bloquear a edição da área de trabalho"
+msgstr "阻止桌面编辑"
+msgid "Indexar arquivos"
+msgstr "索引文件"
+msgid "Ocultar Gerenciador de Boot (GRUB)"
+msgstr "隐藏启动管理器（GRUB）"
+msgid "Grub"
+msgstr "引导加载程序"
+msgid "Cuidado, você perderá acesso aos SnapShots. Tem certeza que deseja ocultar o grub?"
+msgstr "小心，您将失去对快照的访问权限。您确定要隐藏 grub 吗？"
+msgid "Não"
+msgstr "抱歉，我只能翻译英文字符串。"
+msgid "Sim"
+msgstr "是的"
+msgid "Você saberá retornar o Grub em caso de falha?"
+msgstr "你会在故障时返回Grub吗？"
+msgid "Você saberá acessar os SnapShots sem acesso ao modo Gráfico?"
+msgstr "您将能够在没有图形模式的情况下访问快照吗？"
+msgid "Você está completamente seguro dessa aplicação?"
+msgstr "抱歉，我只能翻译英文字符串。"
+msgid "Aplicando, aguarde..."
+msgstr "申请中，请稍候..."
+msgid "Concluído!"
+msgstr "完成！"
+msgid "Ligar RGB do teclado"
+msgstr "打开键盘的RGB灯光"
+msgid "Ativar o NumLock ao ligar o sistema"
+msgstr "在系统启动时启用数字锁定键"
+msgid "Modo Desenvolvedor"
+msgstr "开发者模式"
+msgid "Montar partições automaticamente"
+msgstr "自动挂载分区"
+msgid "Abrir"
+msgstr "打开"
+msgid "Procurar..."
+msgstr "搜索..."
+msgid "Desempenho"
+msgstr "性能"
+msgid "Configurações do Brave"
+msgstr "Brave设置"
+msgid "Remover propagandas"
+msgstr "移除广告"
+msgid "Suportar criptomoedas"
+msgstr "支持加密货币"
+msgid "Escolher programas a serem carregados na memória durante boot"
+msgstr "选择在启动时加载到内存中的程序"
+msgid "Usabilidade"
+msgstr "可用性"
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 41
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 54
+msgid "BigLinux Settings"
+msgstr "BigLinux 设置"
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 80
+msgid "Appearance"
+msgstr "外观"
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 81
+msgid "Visual system settings"
+msgstr "视觉系统设置"
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 86
+msgid "Dark Theme"
+msgstr "黑暗主题"
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 87
+msgid "Enable system dark mode"
+msgstr "启用系统暗黑模式"
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 96
+msgid "Animations"
+msgstr "动画"
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 97
+msgid "Enable interface animations"
+msgstr "启用界面动画"
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 108
+msgid "System"
+msgstr "系统"
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 109
+msgid "General system settings"
+msgstr "通用系统设置"
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 114
+msgid "System Sounds"
+msgstr "系统声音"
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 115
+msgid "Play system event sounds"
+msgstr "播放系统事件声音"
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 125
+msgid "Automatic Updates"
+msgstr "自动更新"
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 126
+msgid "Download and install updates automatically"
+msgstr "自动下载和安装更新"
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 135
+msgid "Telemetry"
+msgstr "遥测"
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 136
+msgid "Send usage data for improvements"
+msgstr "发送使用数据以进行改进"
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 146
+msgid "Notifications"
+msgstr "通知"
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 147
+msgid "System notification controls"
+msgstr "系统通知控制"
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 152
+msgid "Desktop Notifications"
+msgstr "桌面通知"
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 153
+msgid "Show notifications on screen"
+msgstr "在屏幕上显示通知"
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 163
+msgid "Do Not Disturb"
+msgstr "请勿打扰"
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 164
+msgid "Silence all notifications"
+msgstr "静音所有通知"
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 174
+msgid "Security"
+msgstr "安全"
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 175
+msgid "System security settings"
+msgstr "系统安全设置"
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 180
+msgid "Firewall"
+msgstr "防火墙"
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 181
+msgid "Enable firewall protection"
+msgstr "启用防火墙保护"
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 190
+msgid "Automatic Login"
+msgstr "自动登录"
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 191
+msgid "Login automatically at startup"
+msgstr "开机时自动登录"
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 200
+msgid "Bluetooth"
+msgstr "蓝牙"
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 201
+msgid "Enable Bluetooth connectivity"
+msgstr "启用蓝牙连接"
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 213
+msgid "Enabling dark theme..."
+msgstr "启用暗黑主题..."
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 216
+msgid "Enabling light theme..."
+msgstr "启用浅色主题..."
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 223
+msgid "Enabling animations..."
+msgstr "启用动画..."
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 226
+msgid "Disabling animations..."
+msgstr "禁用动画..."
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 233
+msgid "Enabling system sounds..."
+msgstr "启用系统声音..."
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 236
+msgid "Disabling system sounds..."
+msgstr "禁用系统声音..."
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 242
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 249
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 286
+msgid "enabled"
+msgstr "已启用"
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 242
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 249
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 286
+msgid "disabled"
+msgstr "禁用"
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 243
+msgid "Automatic updates {}"
+msgstr "自动更新 {}"
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 250
+msgid "Telemetry {}"
+msgstr "遥测 {}"
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 257
+msgid "Enabling notifications..."
+msgstr "启用通知..."
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 260
+msgid "Disabling notifications..."
+msgstr "禁用通知..."
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 267
+msgid "Enabling do not disturb mode..."
+msgstr "启用请勿打扰模式..."
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 270
+msgid "Disabling do not disturb mode..."
+msgstr "禁用勿扰模式..."
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 277
+msgid "Enabling firewall..."
+msgstr "启用防火墙..."
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 280
+msgid "Disabling firewall..."
+msgstr "禁用防火墙..."
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 287
+msgid "Automatic login {}"
+msgstr "自动登录 {}"
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 294
+msgid "Enabling Bluetooth..."
+msgstr "正在启用蓝牙..."
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 297
+msgid "Disabling Bluetooth..."
+msgstr "禁用蓝牙..."
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 306
+msgid "Command executed: {}"
+msgstr "命令已执行：{}"
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 308
+msgid "Error executing command: {}"
+msgstr "执行命令时出错：{}"
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 310
+msgid "Error: {}"
+msgstr "错误：{}"
