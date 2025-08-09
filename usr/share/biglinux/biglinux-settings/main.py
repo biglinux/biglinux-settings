@@ -75,8 +75,6 @@ class SystemSettingsWindow(Adw.ApplicationWindow):
         # Grupos de configurações
         self.create_usability_group(content_box)
         self.create_system_group(content_box)
-        self.create_notifications_group(content_box)
-        self.create_security_group(content_box)
 
         # Sincronizar estados após criar todos os switches
         self.sync_all_switches()
@@ -122,9 +120,18 @@ class SystemSettingsWindow(Adw.ApplicationWindow):
         self.indexfiles_switch = self.create_switch_with_script(
             group,
             _("Index Files"),
-            _("Baloo"),
+            _("Baloo, high storage I/O consumption."),
             "usability",
             "indexFiles"
+        )
+
+        # ssh
+        self.ssh_switch = self.create_switch_with_script(
+            group,
+            _("SSH"),
+            _("Enable remote access via ssh until next boot."),
+            "system",
+            "sshStart"
         )
 
     def create_system_group(self, parent):
@@ -134,90 +141,22 @@ class SystemSettingsWindow(Adw.ApplicationWindow):
         group.set_description(_("General system settings"))
         parent.append(group)
 
-        # Sons do sistema
-        self.sounds_switch = self.create_switch_with_script(
+        # ssh
+        self.ssh_switch = self.create_switch_with_script(
             group,
-            _("System Sounds"),
-            _("Play system event sounds"),
+            _("SSH on Boot"),
+            _("Turn on ssh remote access at boot."),
             "system",
-            "system-sounds"
+            "sshEnable"
         )
 
         # Updates automáticos
-        self.updates_switch = self.create_switch_with_script(
+        self.example_switch = self.create_switch_with_script(
             group,
-            _("Automatic Updates"),
-            _("Download and install updates automatically"),
+            _("Example Name"),
+            _("Example description."),
             "system",
-            "auto-updates"
-        )
-
-        # Telemetria
-        self.telemetry_switch = self.create_switch_with_script(
-            group,
-            _("Telemetry"),
-            _("Send usage data for improvements"),
-            "system",
-            "telemetry"
-        )
-
-    def create_notifications_group(self, parent):
-        """Grupo de configurações de notificações"""
-        group = Adw.PreferencesGroup()
-        group.set_title(_("Notifications"))
-        group.set_description(_("System notification controls"))
-        parent.append(group)
-
-        # Notificações desktop
-        self.notifications_switch = self.create_switch_with_script(
-            group,
-            _("Desktop Notifications"),
-            _("Show notifications on screen"),
-            "notifications",
-            "desktop-notifications"
-        )
-
-        # Modo não perturbe
-        self.dnd_switch = self.create_switch_with_script(
-            group,
-            _("Do Not Disturb"),
-            _("Silence all notifications"),
-            "notifications",
-            "do-not-disturb"
-        )
-
-    def create_security_group(self, parent):
-        """Grupo de configurações de segurança"""
-        group = Adw.PreferencesGroup()
-        group.set_title(_("Security"))
-        group.set_description(_("System security settings"))
-        parent.append(group)
-
-        # Firewall
-        self.firewall_switch = self.create_switch_with_script(
-            group,
-            _("Firewall"),
-            _("Enable firewall protection"),
-            "security",
-            "firewall"
-        )
-
-        # Login automático
-        self.auto_login_switch = self.create_switch_with_script(
-            group,
-            _("Automatic Login"),
-            _("Login automatically at startup"),
-            "security",
-            "auto-login"
-        )
-
-        # Bluetooth
-        self.bluetooth_switch = self.create_switch_with_script(
-            group,
-            _("Bluetooth"),
-            _("Enable Bluetooth connectivity"),
-            "security",
-            "bluetooth"
+            "example" # same name as the .sh file
         )
 
     def check_script_state(self, script_path):

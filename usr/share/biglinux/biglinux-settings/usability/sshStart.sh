@@ -3,7 +3,7 @@
 # check current status
 check_state() {
   if [[ "$XDG_CURRENT_DESKTOP" == *"KDE"* ]] || [[ "$XDG_CURRENT_DESKTOP" == *"Plasma"* ]];then
-    if LANG=C balooctl6 status &>/dev/null;then
+    if [[ "$(systemctl is-active sshd)" == "active" ]];then
       echo "true"
       return 0
     else
@@ -42,10 +42,10 @@ toggle_state() {
   new_state="$1"
   if [[ "$XDG_CURRENT_DESKTOP" == *"KDE"* ]] || [[ "$XDG_CURRENT_DESKTOP" == *"Plasma"* ]];then
     if [[ "$new_state" == "true" ]];then
-        balooctl6 enable &>/dev/null
+        pkexec systemctl start sshd
         return 0
     else
-        balooctl6 disable &>/dev/null
+        pkexec systemctl stop sshd
         return 0
     fi
 #   elif [[ "$XDG_CURRENT_DESKTOP" == *"GNOME"* ]];then
