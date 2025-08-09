@@ -75,6 +75,7 @@ class SystemSettingsWindow(Adw.ApplicationWindow):
         # Grupos de configurações
         self.create_usability_group(content_box)
         self.create_system_group(content_box)
+        self.create_example_group(content_box)
 
         # Sincronizar estados após criar todos os switches
         self.sync_all_switches()
@@ -150,7 +151,14 @@ class SystemSettingsWindow(Adw.ApplicationWindow):
             "sshEnable"
         )
 
-        # Updates automáticos
+    def create_example_group(self, parent):
+        """Grupo de exemplo"""
+        group = Adw.PreferencesGroup()
+        group.set_title(_("Example"))
+        group.set_description(_("Example group description"))
+        parent.append(group)
+
+        # Example
         self.example_switch = self.create_switch_with_script(
             group,
             _("Example Name"),
