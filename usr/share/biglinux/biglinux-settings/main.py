@@ -10,16 +10,14 @@ import os
 import locale
 import gettext
 
-# Configuração do gettext
+# Configuração do gettext (mantém igual)
 DOMAIN = 'biglinux-settings'
 LOCALE_DIR = os.path.join(os.path.dirname(__file__), 'locale')
 
-# Configurar locale do sistema
 locale.setlocale(locale.LC_ALL, '')
 locale.bindtextdomain(DOMAIN, LOCALE_DIR)
 locale.textdomain(DOMAIN)
 
-# Configurar gettext
 gettext.bindtextdomain(DOMAIN, LOCALE_DIR)
 gettext.textdomain(DOMAIN)
 _ = gettext.gettext
@@ -36,11 +34,17 @@ class BiglinuxSettingsApp(Adw.Application):
 class SystemSettingsWindow(Adw.ApplicationWindow):
     def __init__(self, **kwargs):
         super().__init__(**kwargs)
-        
+
         # Configurações da janela
         self.set_title(_("BigLinux Settings"))
         self.set_default_size(600, 700)
-        
+
+        # Diretório base dos scripts
+        self.scripts_base_dir = os.path.join(os.path.dirname(__file__), '.')
+
+        # Dicionário para mapear switches aos scripts
+        self.switch_scripts = {}
+
         # Layout principal
         self.setup_ui()
 
@@ -48,18 +52,18 @@ class SystemSettingsWindow(Adw.ApplicationWindow):
         # Container principal
         main_box = Gtk.Box(orientation=Gtk.Orientation.VERTICAL)
         self.set_content(main_box)
-        
+
         # Header bar
         header_bar = Adw.HeaderBar()
         header_bar.set_title_widget(Adw.WindowTitle(title=_("BigLinux Settings")))
         main_box.append(header_bar)
-        
+
         # ScrolledWindow para conteúdo
         scrolled = Gtk.ScrolledWindow()
         scrolled.set_policy(Gtk.PolicyType.NEVER, Gtk.PolicyType.AUTOMATIC)
         scrolled.set_vexpand(True)
         main_box.append(scrolled)
-        
+
         # Container de conteúdo
         content_box = Gtk.Box(orientation=Gtk.Orientation.VERTICAL, spacing=20)
         content_box.set_margin_top(20)
@@ -67,12 +71,36 @@ class SystemSettingsWindow(Adw.ApplicationWindow):
         content_box.set_margin_start(20)
         content_box.set_margin_end(20)
         scrolled.set_child(content_box)
-        
+
         # Grupos de configurações
         self.create_appearance_group(content_box)
         self.create_system_group(content_box)
         self.create_notifications_group(content_box)
         self.create_security_group(content_box)
+
+        # Sincronizar estados após criar todos os switches
+        self.sync_all_switches()
+
+    def create_switch_with_script(self, parent_group, title, subtitle, script_group, script_name):
+        """Cria um switch associado a um script"""
+        row = Adw.ActionRow()
+        row.set_title(title)
+        row.set_subtitle(subtitle)
+
+        switch = Gtk.Switch()
+        switch.set_valign(Gtk.Align.CENTER)
+
+        # Associar o script ao switch
+        script_path = os.path.join(self.scripts_base_dir, script_group, f"{script_name}.sh")
+        self.switch_scripts[switch] = script_path
+
+        # Conectar callback
+        switch.connect("state-set", self.on_switch_changed)
+
+        row.add_suffix(switch)
+        parent_group.add(row)
+
+        return switch
 
     def create_appearance_group(self, parent):
         """Grupo de configurações de aparência"""
@@ -80,27 +108,24 @@ class SystemSettingsWindow(Adw.ApplicationWindow):
         group.set_title(_("Appearance"))
         group.set_description(_("Visual system settings"))
         parent.append(group)
-        
+
         # Tema escuro
-        dark_theme_row = Adw.ActionRow()
-        dark_theme_row.set_title(_("Dark Theme"))
-        dark_theme_row.set_subtitle(_("Enable system dark mode"))
-        dark_theme_switch = Gtk.Switch()
-        dark_theme_switch.set_valign(Gtk.Align.CENTER)
-        dark_theme_switch.connect("state-set", self.on_dark_theme_switched)
-        dark_theme_row.add_suffix(dark_theme_switch)
-        group.add(dark_theme_row)
-        
+        self.dark_theme_switch = self.create_switch_with_script(
+            group,
+            _("Dark Theme"),
+            _("Enable system dark mode"),
+            "appearance",
+            "dark-theme"
+        )
+
         # Animações
-        animations_row = Adw.ActionRow()
-        animations_row.set_title(_("Animations"))
-        animations_row.set_subtitle(_("Enable interface animations"))
-        animations_switch = Gtk.Switch()
-        animations_switch.set_valign(Gtk.Align.CENTER)
-        animations_switch.set_active(True)
-        animations_switch.connect("state-set", self.on_animations_switched)
-        animations_row.add_suffix(animations_switch)
-        group.add(animations_row)
+        self.animations_switch = self.create_switch_with_script(
+            group,
+            _("Animations"),
+            _("Enable interface animations"),
+            "appearance",
+            "animations"
+        )
 
     def create_system_group(self, parent):
         """Grupo de configurações do sistema"""
@@ -108,37 +133,33 @@ class SystemSettingsWindow(Adw.ApplicationWindow):
         group.set_title(_("System"))
         group.set_description(_("General system settings"))
         parent.append(group)
-        
+
         # Sons do sistema
-        system_sounds_row = Adw.ActionRow()
-        system_sounds_row.set_title(_("System Sounds"))
-        system_sounds_row.set_subtitle(_("Play system event sounds"))
-        sounds_switch = Gtk.Switch()
-        sounds_switch.set_valign(Gtk.Align.CENTER)
-        sounds_switch.set_active(True)
-        sounds_switch.connect("state-set", self.on_system_sounds_switched)
-        system_sounds_row.add_suffix(sounds_switch)
-        group.add(system_sounds_row)
-        
+        self.sounds_switch = self.create_switch_with_script(
+            group,
+            _("System Sounds"),
+            _("Play system event sounds"),
+            "system",
+            "system-sounds"
+        )
+
         # Updates automáticos
-        auto_updates_row = Adw.ActionRow()
-        auto_updates_row.set_title(_("Automatic Updates"))
-        auto_updates_row.set_subtitle(_("Download and install updates automatically"))
-        updates_switch = Gtk.Switch()
-        updates_switch.set_valign(Gtk.Align.CENTER)
-        updates_switch.connect("state-set", self.on_auto_updates_switched)
-        auto_updates_row.add_suffix(updates_switch)
-        group.add(auto_updates_row)
-        
+        self.updates_switch = self.create_switch_with_script(
+            group,
+            _("Automatic Updates"),
+            _("Download and install updates automatically"),
+            "system",
+            "auto-updates"
+        )
+
         # Telemetria
-        telemetry_row = Adw.ActionRow()
-        telemetry_row.set_title(_("Telemetry"))
-        telemetry_row.set_subtitle(_("Send usage data for improvements"))
-        telemetry_switch = Gtk.Switch()
-        telemetry_switch.set_valign(Gtk.Align.CENTER)
-        telemetry_switch.connect("state-set", self.on_telemetry_switched)
-        telemetry_row.add_suffix(telemetry_switch)
-        group.add(telemetry_row)
+        self.telemetry_switch = self.create_switch_with_script(
+            group,
+            _("Telemetry"),
+            _("Send usage data for improvements"),
+            "system",
+            "telemetry"
+        )
 
     def create_notifications_group(self, parent):
         """Grupo de configurações de notificações"""
@@ -146,27 +167,24 @@ class SystemSettingsWindow(Adw.ApplicationWindow):
         group.set_title(_("Notifications"))
         group.set_description(_("System notification controls"))
         parent.append(group)
-        
+
         # Notificações desktop
-        desktop_notifications_row = Adw.ActionRow()
-        desktop_notifications_row.set_title(_("Desktop Notifications"))
-        desktop_notifications_row.set_subtitle(_("Show notifications on screen"))
-        notifications_switch = Gtk.Switch()
-        notifications_switch.set_valign(Gtk.Align.CENTER)
-        notifications_switch.set_active(True)
-        notifications_switch.connect("state-set", self.on_notifications_switched)
-        desktop_notifications_row.add_suffix(notifications_switch)
-        group.add(desktop_notifications_row)
-        
+        self.notifications_switch = self.create_switch_with_script(
+            group,
+            _("Desktop Notifications"),
+            _("Show notifications on screen"),
+            "notifications",
+            "desktop-notifications"
+        )
+
         # Modo não perturbe
-        dnd_row = Adw.ActionRow()
-        dnd_row.set_title(_("Do Not Disturb"))
-        dnd_row.set_subtitle(_("Silence all notifications"))
-        dnd_switch = Gtk.Switch()
-        dnd_switch.set_valign(Gtk.Align.CENTER)
-        dnd_switch.connect("state-set", self.on_dnd_switched)
-        dnd_row.add_suffix(dnd_switch)
-        group.add(dnd_row)
+        self.dnd_switch = self.create_switch_with_script(
+            group,
+            _("Do Not Disturb"),
+            _("Silence all notifications"),
+            "notifications",
+            "do-not-disturb"
+        )
 
     def create_security_group(self, parent):
         """Grupo de configurações de segurança"""
@@ -174,140 +192,111 @@ class SystemSettingsWindow(Adw.ApplicationWindow):
         group.set_title(_("Security"))
         group.set_description(_("System security settings"))
         parent.append(group)
-        
+
         # Firewall
-        firewall_row = Adw.ActionRow()
-        firewall_row.set_title(_("Firewall"))
-        firewall_row.set_subtitle(_("Enable firewall protection"))
-        firewall_switch = Gtk.Switch()
-        firewall_switch.set_valign(Gtk.Align.CENTER)
-        firewall_switch.connect("state-set", self.on_firewall_switched)
-        firewall_row.add_suffix(firewall_switch)
-        group.add(firewall_row)
-        
+        self.firewall_switch = self.create_switch_with_script(
+            group,
+            _("Firewall"),
+            _("Enable firewall protection"),
+            "security",
+            "firewall"
+        )
+
         # Login automático
-        auto_login_row = Adw.ActionRow()
-        auto_login_row.set_title(_("Automatic Login"))
-        auto_login_row.set_subtitle(_("Login automatically at startup"))
-        auto_login_switch = Gtk.Switch()
-        auto_login_switch.set_valign(Gtk.Align.CENTER)
-        auto_login_switch.connect("state-set", self.on_auto_login_switched)
-        auto_login_row.add_suffix(auto_login_switch)
-        group.add(auto_login_row)
-        
+        self.auto_login_switch = self.create_switch_with_script(
+            group,
+            _("Automatic Login"),
+            _("Login automatically at startup"),
+            "security",
+            "auto-login"
+        )
+
         # Bluetooth
-        bluetooth_row = Adw.ActionRow()
-        bluetooth_row.set_title(_("Bluetooth"))
-        bluetooth_row.set_subtitle(_("Enable Bluetooth connectivity"))
-        bluetooth_switch = Gtk.Switch()
-        bluetooth_switch.set_valign(Gtk.Align.CENTER)
-        bluetooth_switch.set_active(True)
-        bluetooth_switch.connect("state-set", self.on_bluetooth_switched)
-        bluetooth_row.add_suffix(bluetooth_switch)
-        group.add(bluetooth_row)
+        self.bluetooth_switch = self.create_switch_with_script(
+            group,
+            _("Bluetooth"),
+            _("Enable Bluetooth connectivity"),
+            "security",
+            "bluetooth"
+        )
 
-    # Callbacks para os switches (com mensagens traduzidas)
-    def on_dark_theme_switched(self, switch, state):
-        """Callback para alternar tema escuro"""
-        if state:
-            print(_("Enabling dark theme..."))
-            self.run_command("gsettings set org.gnome.desktop.interface gtk-theme 'Adwaita-dark'")
-        else:
-            print(_("Enabling light theme..."))
-            self.run_command("gsettings set org.gnome.desktop.interface gtk-theme 'Adwaita'")
-        return False
+    def check_script_state(self, script_path):
+        """Verifica o estado atual usando o script"""
+        if not os.path.exists(script_path):
+            print(_("Script not found: {}").format(script_path))
+            return False
 
-    def on_animations_switched(self, switch, state):
-        """Callback para alternar animações"""
-        if state:
-            print(_("Enabling animations..."))
-            self.run_command("gsettings set org.gnome.desktop.interface enable-animations true")
-        else:
-            print(_("Disabling animations..."))
-            self.run_command("gsettings set org.gnome.desktop.interface enable-animations false")
-        return False
-
-    def on_system_sounds_switched(self, switch, state):
-        """Callback para alternar sons do sistema"""
-        if state:
-            print(_("Enabling system sounds..."))
-            self.run_command("gsettings set org.gnome.desktop.sound event-sounds true")
-        else:
-            print(_("Disabling system sounds..."))
-            self.run_command("gsettings set org.gnome.desktop.sound event-sounds false")
-        return False
-
-    def on_auto_updates_switched(self, switch, state):
-        """Callback para alternar atualizações automáticas"""
-        status = _("enabled") if state else _("disabled")
-        message = _("Automatic updates {}").format(status)
-        print(message)
-        self.show_toast(message)
-
-    def on_telemetry_switched(self, switch, state):
-        """Callback para alternar telemetria"""
-        status = _("enabled") if state else _("disabled")
-        message = _("Telemetry {}").format(status)
-        print(message)
-        self.show_toast(message)
-
-    def on_notifications_switched(self, switch, state):
-        """Callback para alternar notificações"""
-        if state:
-            print(_("Enabling notifications..."))
-            self.run_command("gsettings set org.gnome.desktop.notifications show-banners true")
-        else:
-            print(_("Disabling notifications..."))
-            self.run_command("gsettings set org.gnome.desktop.notifications show-banners false")
-        return False
-
-    def on_dnd_switched(self, switch, state):
-        """Callback para modo não perturbe"""
-        if state:
-            print(_("Enabling do not disturb mode..."))
-            self.run_command("gsettings set org.gnome.desktop.notifications show-banners false")
-        else:
-            print(_("Disabling do not disturb mode..."))
-            self.run_command("gsettings set org.gnome.desktop.notifications show-banners true")
-        return False
-
-    def on_firewall_switched(self, switch, state):
-        """Callback para firewall"""
-        if state:
-            print(_("Enabling firewall..."))
-            self.run_command("pkexec ufw enable")
-        else:
-            print(_("Disabling firewall..."))
-            self.run_command("pkexec ufw disable")
-        return False
-
-    def on_auto_login_switched(self, switch, state):
-        """Callback para login automático"""
-        status = _("enabled") if state else _("disabled")
-        message = _("Automatic login {}").format(status)
-        print(message)
-        self.show_toast(message)
-
-    def on_bluetooth_switched(self, switch, state):
-        """Callback para Bluetooth"""
-        if state:
-            print(_("Enabling Bluetooth..."))
-            self.run_command("bluetoothctl power on")
-        else:
-            print(_("Disabling Bluetooth..."))
-            self.run_command("bluetoothctl power off")
-        return False
-
-    def run_command(self, command):
-        """Executa comando do sistema"""
         try:
-            result = subprocess.run(command.split(), capture_output=True, text=True)
+            result = subprocess.run([script_path, "check"],
+                                  capture_output=True,
+                                  text=True,
+                                  timeout=10)
+
             if result.returncode == 0:
-                print(_("Command executed: {}").format(command))
+                output = result.stdout.strip().lower()
+                return output == "true"
             else:
-                print(_("Error executing command: {}").format(result.stderr))
+                print(_("Error checking state: {}").format(result.stderr))
+                return False
+
+        except subprocess.TimeoutExpired:
+            print(_("Script timeout: {}").format(script_path))
+            return False
         except Exception as e:
-            print(_("Error: {}").format(e))
+            print(_("Error running script {}: {}").format(script_path, e))
+            return False
+
+    def toggle_script_state(self, script_path, new_state):
+        """Altera o estado usando o script"""
+        if not os.path.exists(script_path):
+            print(_("Script not found: {}").format(script_path))
+            return False
+
+        try:
+            state_str = "true" if new_state else "false"
+            result = subprocess.run([script_path, "toggle", state_str],
+                                  capture_output=True,
+                                  text=True,
+                                  timeout=30)
+
+            if result.returncode == 0:
+                print(_("State changed successfully: {}").format(result.stdout.strip()))
+                return True
+            else:
+                print(_("Error changing state: {}").format(result.stderr))
+                return False
+
+        except subprocess.TimeoutExpired:
+            print(_("Script timeout: {}").format(script_path))
+            return False
+        except Exception as e:
+            print(_("Error running script {}: {}").format(script_path, e))
+            return False
+
+    def sync_all_switches(self):
+        """Sincroniza todos os switches com o estado atual do sistema"""
+        for switch, script_path in self.switch_scripts.items():
+            current_state = self.check_script_state(script_path)
+            switch.set_active(current_state)
+            script_name = os.path.basename(script_path)
+            print(_("Switch {} synchronized: {}").format(script_name, current_state))
+
+    def on_switch_changed(self, switch, state):
+        """Callback chamado quando qualquer switch é alterado"""
+        script_path = self.switch_scripts.get(switch)
+
+        if script_path:
+            script_name = os.path.basename(script_path)
+            print(_("Changing {} to {}").format(script_name, "on" if state else "off"))
+
+            success = self.toggle_script_state(script_path, state)
+
+            if not success:
+                # Se falhou, reverter o switch
+                switch.set_active(not state)
+                self.show_toast(_("Failed to change setting"))
+
+        return False
 
     def show_toast(self, message):
         """Mostra uma notificação toast"""
