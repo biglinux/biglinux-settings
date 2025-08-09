@@ -80,7 +80,7 @@ class SystemSettingsWindow(Adw.ApplicationWindow):
         # Sincronizar estados após criar todos os switches
         self.sync_all_switches()
 
-    def create_switch_with_script(self, parent_group, title, subtitle, script_group, script_name):
+    def create_switch_with_script(self, parent_group, title, subtitle, script_name):
         """Cria um switch associado a um script"""
         row = Adw.ActionRow()
         row.set_title(title)
@@ -90,7 +90,7 @@ class SystemSettingsWindow(Adw.ApplicationWindow):
         switch.set_valign(Gtk.Align.CENTER)
 
         # Associar o script ao switch
-        script_path = os.path.join(self.scripts_base_dir, script_group, f"{script_name}.sh")
+        script_path = os.path.join(self.scripts_base_dir, f"{script_name}.sh")
         self.switch_scripts[switch] = script_path
 
         # Conectar callback
@@ -113,7 +113,6 @@ class SystemSettingsWindow(Adw.ApplicationWindow):
             group,
             _("NumLock"),
             _("Initial NumLock state. Ignored if autologin is enabled."),
-            "usability",
             "numLock"
         )
 
@@ -122,16 +121,14 @@ class SystemSettingsWindow(Adw.ApplicationWindow):
             group,
             _("Index Files"),
             _("Baloo, high storage I/O consumption."),
-            "usability",
             "indexFiles"
         )
 
         # ssh
-        self.ssh_switch = self.create_switch_with_script(
+        self.ssh_star_switch = self.create_switch_with_script(
             group,
             _("SSH"),
             _("Enable remote access via ssh until next boot."),
-            "system",
             "sshStart"
         )
 
@@ -143,11 +140,10 @@ class SystemSettingsWindow(Adw.ApplicationWindow):
         parent.append(group)
 
         # ssh
-        self.ssh_switch = self.create_switch_with_script(
+        self.ssh_enable_switch = self.create_switch_with_script(
             group,
             _("SSH on Boot"),
             _("Turn on ssh remote access at boot."),
-            "system",
             "sshEnable"
         )
 
@@ -163,7 +159,6 @@ class SystemSettingsWindow(Adw.ApplicationWindow):
             group,
             _("Example Name"),
             _("Example description."),
-            "system",
             "example" # same name as the .sh file
         )
 
