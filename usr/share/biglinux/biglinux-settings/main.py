@@ -26,7 +26,7 @@ _ = gettext.gettext
 
 class BiglinuxSettingsApp(Adw.Application):
     def __init__(self):
-        super().__init__(application_id='com.example.systemsettings')
+        super().__init__(application_id='biglinux-settings')
         self.connect('activate', self.on_activate)
 
     def on_activate(self, app):
