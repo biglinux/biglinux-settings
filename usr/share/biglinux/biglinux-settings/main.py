@@ -110,7 +110,7 @@ class SystemSettingsWindow(Adw.ApplicationWindow):
         parent.append(group)
 
         # numLock
-        self.dark_theme_switch = self.create_switch_with_script(
+        self.num_lock_switch = self.create_switch_with_script(
             group,
             _("NumLock"),
             _("Initial NumLock state. Ignored if autologin is enabled."),
@@ -118,13 +118,13 @@ class SystemSettingsWindow(Adw.ApplicationWindow):
             "numLock"
         )
 
-        # Touchpad Scroll
-        self.animations_switch = self.create_switch_with_script(
+        # indexFiles
+        self.indexfiles_switch = self.create_switch_with_script(
             group,
-            _("Touchpad Scroll"),
-            _("Inverted touchpad scroll"),
+            _("Index Files"),
+            _("Baloo"),
             "usability",
-            "touchpad-scroll"
+            "indexFiles"
         )
 
     def create_system_group(self, parent):
@@ -276,8 +276,15 @@ class SystemSettingsWindow(Adw.ApplicationWindow):
     def sync_all_switches(self):
         """Sincroniza todos os switches com o estado atual do sistema"""
         for switch, script_path in self.switch_scripts.items():
+            # Bloquear temporariamente o sinal para evitar execução do callback
+            switch.handler_block_by_func(self.on_switch_changed)
+
             current_state = self.check_script_state(script_path)
             switch.set_active(current_state)
+
+            # Desbloquear o sinal
+            switch.handler_unblock_by_func(self.on_switch_changed)
+
             script_name = os.path.basename(script_path)
             print(_("Switch {} synchronized: {}").format(script_name, current_state))
 

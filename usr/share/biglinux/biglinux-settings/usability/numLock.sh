@@ -4,26 +4,34 @@
 check_state() {
   if [[ "$XDG_CURRENT_DESKTOP" == *"KDE"* ]] || [[ "$XDG_CURRENT_DESKTOP" == *"Plasma"* ]];then
     if [[ "$(grep Numlock=on /etc/sddm.conf)" ]] || [[ "$(kreadconfig6 --group Keyboard --key "NumLock" --file "$HOME/.config/kcminputrc")" == "0" ]];then
+      echo "true"
       return 0
     else
+      echo "false"
       return 1
     fi
 #   elif [[ "$XDG_CURRENT_DESKTOP" == *"GNOME"* ]];then
 #     if [[ "$someTest" == "true" ]];then
+#       echo "true"
 #       return 0
 #     else
+#       echo "false"
 #       return 1
 #     fi
 #   elif [[ "$XDG_CURRENT_DESKTOP" == *"XFCE"* ]];then
 #     if [[ "$someTest" == "true" ]];then
+#       echo "true"
 #       return 0
 #     else
+#       echo "false"
 #       return 1
 #     fi
 #   elif [[ "$XDG_CURRENT_DESKTOP" == *"Cinnamon"* ]] || [[ "$XDG_CURRENT_DESKTOP" == *"X-Cinnamon"* ]];then
 #     if [[ "$someTest" == "true" ]];then
+#       echo "true"
 #       return 0
 #     else
+#       echo "false"
 #       return 1
 #     fi
   fi

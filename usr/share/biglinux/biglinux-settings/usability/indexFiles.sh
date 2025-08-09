@@ -3,27 +3,35 @@
 # check current status
 check_state() {
   if [[ "$XDG_CURRENT_DESKTOP" == *"KDE"* ]] || [[ "$XDG_CURRENT_DESKTOP" == *"Plasma"* ]];then
-    if [[ "$(LANG=C kreadconfig6 --group "SynPS/2 Synaptics TouchPad" --key "naturalScroll" --file "$HOME/.config/touchpadxlibinputrc")" == "true" ]];then
+    if LANG=C balooctl6 status &>/dev/null; then
+      echo "true"
       return 0
     else
+      echo "false"
       return 1
     fi
 #   elif [[ "$XDG_CURRENT_DESKTOP" == *"GNOME"* ]];then
 #     if [[ "$someTest" == "true" ]];then
+#       echo "true"
 #       return 0
 #     else
+#       echo "false"
 #       return 1
 #     fi
 #   elif [[ "$XDG_CURRENT_DESKTOP" == *"XFCE"* ]];then
 #     if [[ "$someTest" == "true" ]];then
+#       echo "true"
 #       return 0
 #     else
+#       echo "false"
 #       return 1
 #     fi
 #   elif [[ "$XDG_CURRENT_DESKTOP" == *"Cinnamon"* ]] || [[ "$XDG_CURRENT_DESKTOP" == *"X-Cinnamon"* ]];then
 #     if [[ "$someTest" == "true" ]];then
+#       echo "true"
 #       return 0
 #     else
+#       echo "false"
 #       return 1
 #     fi
   fi
@@ -34,10 +42,10 @@ toggle_state() {
   new_state="$1"
   if [[ "$XDG_CURRENT_DESKTOP" == *"KDE"* ]] || [[ "$XDG_CURRENT_DESKTOP" == *"Plasma"* ]];then
     if [[ "$new_state" == "true" ]];then
-        kwriteconfig6 --group "SynPS/2 Synaptics TouchPad" --key "naturalScroll" --file "$HOME/.config/touchpadxlibinputrc" "true"
+        balooctl6 enable
         return 0
     else
-        kwriteconfig6 --group "SynPS/2 Synaptics TouchPad" --key "naturalScroll" --file "$HOME/.config/touchpadxlibinputrc" "false"
+        balooctl6 disable
         return 0
     fi
 #   elif [[ "$XDG_CURRENT_DESKTOP" == *"GNOME"* ]];then
