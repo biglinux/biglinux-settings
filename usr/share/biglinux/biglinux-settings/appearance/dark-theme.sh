@@ -3,24 +3,30 @@
 # Script para gerenciar tema escuro
 # Funções: check_state e toggle_state
 
+# Função para verificar estado atual
 check_state() {
-    # Função para verificar estado atual
-    local current_theme=$(gsettings get org.gnome.desktop.interface gtk-theme 2>/dev/null)
+  if [[ "$XDG_CURRENT_DESKTOP" == *"KDE"* ]] || [[ "$XDG_CURRENT_DESKTOP" == *"Plasma"* ]];;then
 
-    if [[ "$current_theme" == *"dark"* ]]; then
+  elif [[ "$XDG_CURRENT_DESKTOP" == *"GNOME"* ]];then
+    local current_theme=$(gsettings get org.gnome.desktop.interface gtk-theme 2>/dev/null)
+    if [[ "$current_theme" == *"dark"* ]];then
         echo "true"
         return 0
     else
         echo "false"
         return 1
     fi
+#   elif [[ "$XDG_CURRENT_DESKTOP" == *"XFCE"* ]]; then
+#   elif [[ "$XDG_CURRENT_DESKTOP" == *"Cinnamon"* ]] || [[ "$XDG_CURRENT_DESKTOP" == *"X-Cinnamon"* ]]; then
+  fi
 }
 
+# Função para alterar o estado
 toggle_state() {
-    # Função para alterar o estado
+  if [[ "$XDG_CURRENT_DESKTOP" == *"KDE"* ]] || [[ "$XDG_CURRENT_DESKTOP" == *"Plasma"* ]];;then
+  elif [[ "$XDG_CURRENT_DESKTOP" == *"GNOME"* ]];then
     local new_state="$1"
-
-    if [[ "$new_state" == "true" ]]; then
+    if [[ "$new_state" == "true" ]];then
         echo "Ativando tema escuro..."
         gsettings set org.gnome.desktop.interface gtk-theme 'Adwaita-dark'
         return 0
@@ -29,6 +35,9 @@ toggle_state() {
         gsettings set org.gnome.desktop.interface gtk-theme 'Adwaita'
         return 0
     fi
+#   elif [[ "$XDG_CURRENT_DESKTOP" == *"XFCE"* ]]; then
+#   elif [[ "$XDG_CURRENT_DESKTOP" == *"Cinnamon"* ]] || [[ "$XDG_CURRENT_DESKTOP" == *"X-Cinnamon"* ]]; then
+  fi
 }
 
 # Executa a função baseada no parâmetro

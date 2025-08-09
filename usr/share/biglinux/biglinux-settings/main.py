@@ -12,7 +12,7 @@ import gettext
 
 # Configuração do gettext (mantém igual)
 DOMAIN = 'biglinux-settings'
-LOCALE_DIR = os.path.join(os.path.dirname(__file__), 'locale')
+LOCALE_DIR = '/usr/share/locale'
 
 locale.setlocale(locale.LC_ALL, '')
 locale.bindtextdomain(DOMAIN, LOCALE_DIR)
@@ -73,7 +73,7 @@ class SystemSettingsWindow(Adw.ApplicationWindow):
         scrolled.set_child(content_box)
 
         # Grupos de configurações
-        self.create_appearance_group(content_box)
+        self.create_usability_group(content_box)
         self.create_system_group(content_box)
         self.create_notifications_group(content_box)
         self.create_security_group(content_box)
@@ -102,29 +102,29 @@ class SystemSettingsWindow(Adw.ApplicationWindow):
 
         return switch
 
-    def create_appearance_group(self, parent):
+    def create_usability_group(self, parent):
         """Grupo de configurações de aparência"""
         group = Adw.PreferencesGroup()
-        group.set_title(_("Appearance"))
+        group.set_title(_("Usability"))
         group.set_description(_("Visual system settings"))
         parent.append(group)
 
         # Tema escuro
         self.dark_theme_switch = self.create_switch_with_script(
             group,
-            _("Dark Theme"),
-            _("Enable system dark mode"),
-            "appearance",
-            "dark-theme"
+            _("Mouse Scroll"),
+            _("Inverted mouse scroll"),
+            "usability",
+            "mouse-scroll"
         )
 
         # Animações
         self.animations_switch = self.create_switch_with_script(
             group,
-            _("Animations"),
-            _("Enable interface animations"),
-            "appearance",
-            "animations"
+            _("Touchpad Scroll"),
+            _("Inverted touchpad scroll"),
+            "usability",
+            "touchpad-scroll"
         )
 
     def create_system_group(self, parent):
