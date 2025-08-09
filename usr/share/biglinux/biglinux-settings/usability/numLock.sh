@@ -3,7 +3,7 @@
 # check current status
 check_state() {
   if [[ "$XDG_CURRENT_DESKTOP" == *"KDE"* ]] || [[ "$XDG_CURRENT_DESKTOP" == *"Plasma"* ]];then
-    if [[ "$(LANG=C kreadconfig6  --group "Mouse" --key "XLbInptNaturalScroll" --file "$HOME/.config/kcminputrc")" == "true" ]];then
+    if [[ "$(grep Numlock=on /etc/sddm.conf)" ]] || [[ "$(kreadconfig6 --group Keyboard --key "NumLock" --file "$HOME/.config/kcminputrc")" == "0" ]];then
       return 0
     else
       return 1
@@ -34,10 +34,12 @@ toggle_state() {
   new_state="$1"
   if [[ "$XDG_CURRENT_DESKTOP" == *"KDE"* ]] || [[ "$XDG_CURRENT_DESKTOP" == *"Plasma"* ]];then
     if [[ "$new_state" == "true" ]];then
-        kwriteconfig6 --group "Mouse" --key "XLbInptNaturalScroll" --file "$HOME/.config/kcminputrc" "true"
+        pkexec kwriteconfig6 --group "General" --key "Numlock" --file "/etc/sddm.conf" "on"
+        kwriteconfig6 --group "Keyboard" --key "NumLock" --file "$HOME/.config/kcminputrc" "0"
         return 0
     else
-        kwriteconfig6 --group "Mouse" --key "XLbInptNaturalScroll" --file "$HOME/.config/kcminputrc" "false"
+        pkexec kwriteconfig6 --group "General" --key "Numlock" --file "/etc/sddm.conf" "off"
+        kwriteconfig6 --group "Keyboard" --key "NumLock" --file "$HOME/.config/kcminputrc" "1"
         return 0
     fi
 #   elif [[ "$XDG_CURRENT_DESKTOP" == *"GNOME"* ]];then

@@ -109,16 +109,16 @@ class SystemSettingsWindow(Adw.ApplicationWindow):
         group.set_description(_("Visual system settings"))
         parent.append(group)
 
-        # Tema escuro
+        # numLock
         self.dark_theme_switch = self.create_switch_with_script(
             group,
-            _("Mouse Scroll"),
-            _("Inverted mouse scroll"),
+            _("NumLock"),
+            _("Initial NumLock state. Ignored if autologin is enabled."),
             "usability",
-            "mouse-scroll"
+            "numLock"
         )
 
-        # Animações
+        # Touchpad Scroll
         self.animations_switch = self.create_switch_with_script(
             group,
             _("Touchpad Scroll"),
