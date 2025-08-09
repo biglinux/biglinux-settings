@@ -40,6 +40,8 @@ msgid "Grub"
 msgstr "Grub"
 msgid "Cuidado, você perderá acesso aos SnapShots. Tem certeza que deseja ocultar o grub?"
 msgstr "Varoitus, menetät pääsyn SnapShotteihin. Oletko varma, että haluat piilottaa grubin?"
+msgid "Não"
+msgstr ""
 msgid "Sim"
 msgstr "Kyllä"
 msgid "Você saberá retornar o Grub em caso de falha?"
@@ -84,29 +86,37 @@ msgstr "Käytettävyys"
 msgid "BigLinux Settings"
 msgstr "BigLinux Asetukset"
 # 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 80
-msgid "Appearance"
-msgstr "Ulkoasu"
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 107
+msgid "Usability"
+msgstr "Käytettävyys"
 # 
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 81
 msgid "Visual system settings"
 msgstr "Visuaaliset järjestelmäasetukset"
 # 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 86
-msgid "Dark Theme"
-msgstr "Tumma teema"
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 114
+msgid "NumLock"
+msgstr "NumLock"
 # 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 87
-msgid "Enable system dark mode"
-msgstr "Ota käyttöön järjestelmän tumma tila"
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 115
+msgid "Initial NumLock state. Ignored if autologin is enabled."
+msgstr "Alkuperäinen NumLock-tila. Ohitetaan, jos automaattinen kirjautuminen on käytössä."
 # 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 96
-msgid "Animations"
-msgstr "Animaatiot"
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 123
+msgid "Index Files"
+msgstr "Indeksoi tiedostot"
 # 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 97
-msgid "Enable interface animations"
-msgstr "Ota käyttöön käyttöliittymän animaatiot"
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 124
+msgid "Baloo, high storage I/O consumption."
+msgstr "Baloo, korkea tallennus I/O-kulutus."
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 132
+msgid "SSH"
+msgstr "SSH"
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 133
+msgid "Enable remote access via ssh until next boot."
+msgstr "Ota etäyhteys käyttöön ssh:lla seuraavaan käynnistykseen asti."
 # 
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 108
 msgid "System"
@@ -116,174 +126,65 @@ msgstr "Järjestelmä"
 msgid "General system settings"
 msgstr "Yleiset järjestelmäasetukset"
 # 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 114
-msgid "System Sounds"
-msgstr "Järjestelmän äänet"
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 148
+msgid "SSH on Boot"
+msgstr "SSH käynnistyksessä"
 # 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 115
-msgid "Play system event sounds"
-msgstr "Soita järjestelmäntapahtumien ääniä"
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 149
+msgid "Turn on ssh remote access at boot."
+msgstr "Ota SSH-etäyhteys käyttöön käynnistyksessä."
 # 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 125
-msgid "Automatic Updates"
-msgstr "Automaattiset päivitykset"
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 157
+msgid "Example"
+msgstr "Esimerkki"
 # 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 126
-msgid "Download and install updates automatically"
-msgstr "Lataa ja asenna päivitykset automaattisesti"
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 135
-msgid "Telemetry"
-msgstr "Telemetria"
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 136
-msgid "Send usage data for improvements"
-msgstr "Lähetä käyttödataa parannuksia varten"
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 146
-msgid "Notifications"
-msgstr "Ilmoitukset"
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 147
-msgid "System notification controls"
-msgstr "Järjestelmäilmoitusten hallinta"
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 152
-msgid "Desktop Notifications"
-msgstr "Työpöydän ilmoitukset"
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 153
-msgid "Show notifications on screen"
-msgstr "Näytä ilmoitukset näytöllä"
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 163
-msgid "Do Not Disturb"
-msgstr "Älä häiritse"
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 158
+msgid "Example group description"
+msgstr "Esimerkkiryhmän kuvaus"
 # 
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 164
-msgid "Silence all notifications"
-msgstr "Mykistä kaikki ilmoitukset"
+msgid "Example Name"
+msgstr "Esimerkin Nimi"
 # 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 174
-msgid "Security"
-msgstr "Turvallisuus"
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 165
+msgid "Example description."
+msgstr "Esimerkkikuvaus."
 # 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 175
-msgid "System security settings"
-msgstr "Järjestelmän turvallisuusasetukset"
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 173
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 199
+msgid "Script not found: {}"
+msgstr "Skriptiä ei löytynyt: {}"
 # 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 180
-msgid "Firewall"
-msgstr "Palomuuri"
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 181
-msgid "Enable firewall protection"
-msgstr "Ota palomuurin suojaus käyttöön"
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 186
+msgid "Error checking state: {}"
+msgstr "Virheen tarkistustila: {}"
 # 
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 190
-msgid "Automatic Login"
-msgstr "Automaattinen kirjautuminen"
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 217
+msgid "Script timeout: {}"
+msgstr "Skripti aikakatkaisu: {}"
 # 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 191
-msgid "Login automatically at startup"
-msgstr "Kirjaudu automaattisesti käynnistyksessä"
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 193
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 220
+msgid "Error running script {}: {}"
+msgstr "Virhe skriptin suorittamisessa {}: {}"
 # 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 200
-msgid "Bluetooth"
-msgstr "Bluetooth"
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 201
-msgid "Enable Bluetooth connectivity"
-msgstr "Ota Bluetooth-yhteys käyttöön"
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 210
+msgid "State changed successfully: {}"
+msgstr "Tila muutettu onnistuneesti: {}"
 # 
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 213
-msgid "Enabling dark theme..."
-msgstr "Tumman teeman käyttöönottaminen..."
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 216
-msgid "Enabling light theme..."
-msgstr "Ota käyttöön vaalea teema..."
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 223
-msgid "Enabling animations..."
-msgstr "Animaatioiden käyttöönottaminen..."
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 226
-msgid "Disabling animations..."
-msgstr "Animaatioiden poistaminen käytöstä..."
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 233
-msgid "Enabling system sounds..."
-msgstr "Järjestelmääänet käytössä..."
+msgid "Error changing state: {}"
+msgstr "Virhe tilan muuttamisessa: {}"
 # 
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 236
-msgid "Disabling system sounds..."
-msgstr "Järjestelmääänet poistetaan käytöstä..."
+msgid "Switch {} synchronized: {}"
+msgstr "Vaihda {} synkronoitu: {}"
 # 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 242
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 249
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 286
-msgid "enabled"
-msgstr "käytössä"
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 244
+msgid "Changing {} to {}"
+msgstr "Muutetaan {} {}:ksi"
 # 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 242
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 249
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 286
-msgid "disabled"
-msgstr "poistettu käytöstä"
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 243
-msgid "Automatic updates {}"
-msgstr "Automaattiset päivitykset {}"
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 250
-msgid "Telemetry {}"
-msgstr "Telemetria {}"
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 257
-msgid "Enabling notifications..."
-msgstr "Ilmoitusten aktivointi..."
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 260
-msgid "Disabling notifications..."
-msgstr "Ilmoitusten poistaminen käytöstä..."
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 267
-msgid "Enabling do not disturb mode..."
-msgstr "Häiritsemättömän tilan aktivointi..."
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 270
-msgid "Disabling do not disturb mode..."
-msgstr "Häiritsemättömän tilan poistaminen käytöstä..."
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 277
-msgid "Enabling firewall..."
-msgstr "Palomuurin aktivointi..."
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 280
-msgid "Disabling firewall..."
-msgstr "Palomuurin poistaminen käytöstä..."
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 287
-msgid "Automatic login {}"
-msgstr "Automaattinen kirjautuminen {}"
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 294
-msgid "Enabling Bluetooth..."
-msgstr "Bluetoothin käyttöönottaminen..."
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 297
-msgid "Disabling Bluetooth..."
-msgstr "Bluetoothin poistaminen käytöstä..."
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 306
-msgid "Command executed: {}"
-msgstr "Komentto suoritettu: {}"
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 308
-msgid "Error executing command: {}"
-msgstr "Virhe komennon suorittamisessa: {}"
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 310
-msgid "Error: {}"
-msgstr "Virhe: {}"
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 251
+msgid "Failed to change setting"
+msgstr "Asetuksen muuttaminen epäonnistui"

@@ -16,30 +16,26 @@ msgstr ""
 "X-Generator: attranslate\n"
 msgid "BigLinux Ajustes"
 msgstr "BigLinux Ustawienia"
-msgid "BTRFS sem fsync"
-msgstr "BTRFS sem fsync"
 msgid "Desativar efeitos do desktop"
 msgstr "Dezaktywuj efekty pulpitu"
-msgid "Aceleração do navegador"
-msgstr "Przyspieszenie przeglądarki"
 msgid "Se estiver utilizando algum navegador, reinicie-o para aplicar as alterações."
 msgstr "Jeśli używasz przeglądarki, zrestartuj ją, aby zastosować zmiany."
-msgid "Rolagem do mouse invertida"
-msgstr "Inverted mouse scrolling"
-msgid "Rolagem do touchpad invertida"
-msgstr "Rolowanie touchpada odwrócone"
-msgid "Botões da janela no lado esquerdo"
-msgstr "Przyciski okna po lewej stronie"
-msgid "Aguarde..."
-msgstr "Czekaj..."
-msgid "Aplicando, Aguarde..."
-msgstr "Aplikowanie, Proszę czekać..."
+msgid "Aceleração do navegador"
+msgstr "Przyspieszenie przeglądarki"
+msgid "BTRFS sem fsync"
+msgstr "BTRFS sem fsync"
 msgid "Bloquear a edição da área de trabalho"
 msgstr "Zablokuj edycję pulpitu."
-msgid "Indexar arquivos"
-msgstr "Indeksowanie plików"
-msgid "Ocultar Gerenciador de Boot (GRUB)"
-msgstr "Ukryj Menedżera Rozruchu (GRUB)"
+msgid "Ligar RGB do teclado"
+msgstr "Włączyć RGB klawiatury"
+msgid "Ativar o NumLock ao ligar o sistema"
+msgstr "Aktywuj NumLock przy włączaniu systemu"
+msgid "Modo Desenvolvedor"
+msgstr "Tryb dewelopera"
+msgid "Rolagem do touchpad invertida"
+msgstr "Rolowanie touchpada odwrócone"
+msgid "Montar partições automaticamente"
+msgstr "Automatyczne montowanie partycji"
 msgid "Grub"
 msgstr "Grub"
 msgid "Cuidado, você perderá acesso aos SnapShots. Tem certeza que deseja ocultar o grub?"
@@ -60,14 +56,18 @@ msgid "Concluído!"
 msgstr "Zakończono!"
 msgid "Ok"
 msgstr "Nie rozumiem."
-msgid "Ligar RGB do teclado"
-msgstr "Włączyć RGB klawiatury"
-msgid "Ativar o NumLock ao ligar o sistema"
-msgstr "Aktywuj NumLock przy włączaniu systemu"
-msgid "Modo Desenvolvedor"
-msgstr "Tryb dewelopera"
-msgid "Montar partições automaticamente"
-msgstr "Automatyczne montowanie partycji"
+msgid "Ocultar Gerenciador de Boot (GRUB)"
+msgstr "Ukryj Menedżera Rozruchu (GRUB)"
+msgid "Rolagem do mouse invertida"
+msgstr "Inverted mouse scrolling"
+msgid "Aguarde..."
+msgstr "Czekaj..."
+msgid "Aplicando, Aguarde..."
+msgstr "Aplikowanie, Proszę czekać..."
+msgid "Botões da janela no lado esquerdo"
+msgstr "Przyciski okna po lewej stronie"
+msgid "Indexar arquivos"
+msgstr "Indeksowanie plików"
 msgid "Abrir"
 msgstr "Otwórz"
 msgid "Procurar..."
@@ -90,29 +90,37 @@ msgstr "Użyteczność"
 msgid "BigLinux Settings"
 msgstr "Ustawienia BigLinux"
 # 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 80
-msgid "Appearance"
-msgstr "Wygląd"
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 107
+msgid "Usability"
+msgstr "Użyteczność"
 # 
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 81
 msgid "Visual system settings"
 msgstr "Ustawienia systemu wizualnego"
 # 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 86
-msgid "Dark Theme"
-msgstr "Ciemny motyw"
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 114
+msgid "NumLock"
+msgstr "NumLock"
 # 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 87
-msgid "Enable system dark mode"
-msgstr "Włącz tryb ciemny systemu"
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 115
+msgid "Initial NumLock state. Ignored if autologin is enabled."
+msgstr "Początkowy stan NumLock. Ignorowane, jeśli włączona jest autologowanie."
 # 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 96
-msgid "Animations"
-msgstr "Animacje"
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 123
+msgid "Index Files"
+msgstr "Indeksuj pliki"
 # 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 97
-msgid "Enable interface animations"
-msgstr "Włącz animacje interfejsu"
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 124
+msgid "Baloo, high storage I/O consumption."
+msgstr "Baloo, wysokie zużycie I/O pamięci masowej."
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 132
+msgid "SSH"
+msgstr "SSH"
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 133
+msgid "Enable remote access via ssh until next boot."
+msgstr "Włącz zdalny dostęp przez ssh do następnego uruchomienia."
 # 
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 108
 msgid "System"
@@ -122,174 +130,65 @@ msgstr "System."
 msgid "General system settings"
 msgstr "Ogólne ustawienia systemu"
 # 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 114
-msgid "System Sounds"
-msgstr "Dźwięki systemowe"
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 148
+msgid "SSH on Boot"
+msgstr "SSH przy uruchamianiu"
 # 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 115
-msgid "Play system event sounds"
-msgstr "Odtwarzaj dźwięki zdarzeń systemowych"
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 149
+msgid "Turn on ssh remote access at boot."
+msgstr "Włącz zdalny dostęp SSH przy uruchamianiu."
 # 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 125
-msgid "Automatic Updates"
-msgstr "Automatyczne aktualizacje"
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 157
+msgid "Example"
+msgstr "Przykład"
 # 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 126
-msgid "Download and install updates automatically"
-msgstr "Pobierz i zainstaluj aktualizacje automatycznie"
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 135
-msgid "Telemetry"
-msgstr "Telemetria"
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 136
-msgid "Send usage data for improvements"
-msgstr "Wyślij dane dotyczące użycia w celu ulepszeń."
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 146
-msgid "Notifications"
-msgstr "Powiadomienia"
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 147
-msgid "System notification controls"
-msgstr "Kontrola powiadomień systemowych"
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 152
-msgid "Desktop Notifications"
-msgstr "Powiadomienia na pulpicie"
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 153
-msgid "Show notifications on screen"
-msgstr "Wyświetlaj powiadomienia na ekranie"
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 163
-msgid "Do Not Disturb"
-msgstr "Nie przeszkadzać"
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 158
+msgid "Example group description"
+msgstr "Opis grupy przykładowej"
 # 
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 164
-msgid "Silence all notifications"
-msgstr "Wyłącz wszystkie powiadomienia"
+msgid "Example Name"
+msgstr "Przykładowa nazwa"
 # 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 174
-msgid "Security"
-msgstr "Bezpieczeństwo"
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 165
+msgid "Example description."
+msgstr "Przykładowy opis."
 # 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 175
-msgid "System security settings"
-msgstr "Ustawienia zabezpieczeń systemu"
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 173
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 199
+msgid "Script not found: {}"
+msgstr "Skrypt nie został znaleziony: {}"
 # 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 180
-msgid "Firewall"
-msgstr "Zapora sieciowa"
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 181
-msgid "Enable firewall protection"
-msgstr "Włącz ochronę zapory ogniowej"
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 186
+msgid "Error checking state: {}"
+msgstr "Błąd sprawdzania stanu: {}"
 # 
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 190
-msgid "Automatic Login"
-msgstr "Automatyczne logowanie"
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 217
+msgid "Script timeout: {}"
+msgstr "Przekroczenie limitu czasu skryptu: {}"
 # 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 191
-msgid "Login automatically at startup"
-msgstr "Automatyczne logowanie przy uruchamianiu"
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 193
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 220
+msgid "Error running script {}: {}"
+msgstr "Błąd podczas uruchamiania skryptu {}: {}"
 # 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 200
-msgid "Bluetooth"
-msgstr "Bluetooth"
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 201
-msgid "Enable Bluetooth connectivity"
-msgstr "Włącz łączność Bluetooth"
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 210
+msgid "State changed successfully: {}"
+msgstr "Stan zmieniony pomyślnie: {}"
 # 
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 213
-msgid "Enabling dark theme..."
-msgstr "Włączanie ciemnego motywu..."
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 216
-msgid "Enabling light theme..."
-msgstr "Włączanie jasnego motywu..."
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 223
-msgid "Enabling animations..."
-msgstr "Włączanie animacji..."
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 226
-msgid "Disabling animations..."
-msgstr "Wyłączanie animacji..."
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 233
-msgid "Enabling system sounds..."
-msgstr "Włączanie dźwięków systemowych..."
+msgid "Error changing state: {}"
+msgstr "Błąd zmiany stanu: {}"
 # 
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 236
-msgid "Disabling system sounds..."
-msgstr "Wyłączanie dźwięków systemowych..."
+msgid "Switch {} synchronized: {}"
+msgstr "Przełącz {} zsynchronizowane: {}"
 # 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 242
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 249
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 286
-msgid "enabled"
-msgstr "włączony"
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 244
+msgid "Changing {} to {}"
+msgstr "Zmiana {} na {}"
 # 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 242
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 249
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 286
-msgid "disabled"
-msgstr "wyłączony"
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 243
-msgid "Automatic updates {}"
-msgstr "Automatyczne aktualizacje {}"
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 250
-msgid "Telemetry {}"
-msgstr "Telemetria {}"
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 257
-msgid "Enabling notifications..."
-msgstr "Włączanie powiadomień..."
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 260
-msgid "Disabling notifications..."
-msgstr "Wyłączanie powiadomień..."
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 267
-msgid "Enabling do not disturb mode..."
-msgstr "Włączanie trybu nie przeszkadzać..."
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 270
-msgid "Disabling do not disturb mode..."
-msgstr "Wyłączanie trybu nie przeszkadzać..."
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 277
-msgid "Enabling firewall..."
-msgstr "Włączanie zapory sieciowej..."
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 280
-msgid "Disabling firewall..."
-msgstr "Wyłączanie zapory sieciowej..."
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 287
-msgid "Automatic login {}"
-msgstr "Automatyczne logowanie {}"
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 294
-msgid "Enabling Bluetooth..."
-msgstr "Włączanie Bluetooth..."
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 297
-msgid "Disabling Bluetooth..."
-msgstr "Wyłączanie Bluetooth..."
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 306
-msgid "Command executed: {}"
-msgstr "Polecenie wykonane: {}"
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 308
-msgid "Error executing command: {}"
-msgstr "Błąd podczas wykonywania polecenia: {}"
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 310
-msgid "Error: {}"
-msgstr "Błąd: {}"
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 251
+msgid "Failed to change setting"
+msgstr "Nie udało się zmienić ustawienia."

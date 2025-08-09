@@ -88,29 +88,37 @@ msgstr "使いやすさ"
 msgid "BigLinux Settings"
 msgstr "BigLinux 設定"
 # 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 80
-msgid "Appearance"
-msgstr "外観"
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 107
+msgid "Usability"
+msgstr "ユーザビリティ"
 # 
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 81
 msgid "Visual system settings"
 msgstr "視覚システム設定"
 # 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 86
-msgid "Dark Theme"
-msgstr "ダークテーマ"
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 114
+msgid "NumLock"
+msgstr "NumLock"
 # 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 87
-msgid "Enable system dark mode"
-msgstr "システムのダークモードを有効にする"
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 115
+msgid "Initial NumLock state. Ignored if autologin is enabled."
+msgstr "初期NumLock状態。自動ログインが有効な場合は無視されます。"
 # 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 96
-msgid "Animations"
-msgstr "アニメーション"
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 123
+msgid "Index Files"
+msgstr "インデックスファイル"
 # 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 97
-msgid "Enable interface animations"
-msgstr "インターフェースアニメーションを有効にする"
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 124
+msgid "Baloo, high storage I/O consumption."
+msgstr "Baloo、高いストレージI/O消費。"
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 132
+msgid "SSH"
+msgstr "SSH"
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 133
+msgid "Enable remote access via ssh until next boot."
+msgstr "次回のブートまでSSH経由のリモートアクセスを有効にします。"
 # 
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 108
 msgid "System"
@@ -120,174 +128,65 @@ msgstr "システム"
 msgid "General system settings"
 msgstr "一般システム設定"
 # 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 114
-msgid "System Sounds"
-msgstr "システムサウンド"
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 148
+msgid "SSH on Boot"
+msgstr "ブート時のSSH"
 # 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 115
-msgid "Play system event sounds"
-msgstr "システムイベント音を再生する"
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 149
+msgid "Turn on ssh remote access at boot."
+msgstr "ブート時にSSHリモートアクセスを有効にします。"
 # 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 125
-msgid "Automatic Updates"
-msgstr "自動更新"
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 157
+msgid "Example"
+msgstr "例"
 # 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 126
-msgid "Download and install updates automatically"
-msgstr "自動的に更新をダウンロードしてインストールする"
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 135
-msgid "Telemetry"
-msgstr "テレメトリー"
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 136
-msgid "Send usage data for improvements"
-msgstr "改善のための使用データを送信する"
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 146
-msgid "Notifications"
-msgstr "通知"
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 147
-msgid "System notification controls"
-msgstr "システム通知コントロール"
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 152
-msgid "Desktop Notifications"
-msgstr "デスクトップ通知"
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 153
-msgid "Show notifications on screen"
-msgstr "画面に通知を表示する"
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 163
-msgid "Do Not Disturb"
-msgstr "おやすみモード"
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 158
+msgid "Example group description"
+msgstr "グループの説明の例"
 # 
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 164
-msgid "Silence all notifications"
-msgstr "すべての通知を無効にする"
+msgid "Example Name"
+msgstr "例の名前"
 # 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 174
-msgid "Security"
-msgstr "セキュリティ"
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 165
+msgid "Example description."
+msgstr "例の説明。"
 # 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 175
-msgid "System security settings"
-msgstr "システムセキュリティ設定"
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 173
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 199
+msgid "Script not found: {}"
+msgstr "スクリプトが見つかりません: {}"
 # 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 180
-msgid "Firewall"
-msgstr "ファイアウォール"
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 181
-msgid "Enable firewall protection"
-msgstr "ファイアウォール保護を有効にする"
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 186
+msgid "Error checking state: {}"
+msgstr "エラー確認状態: {}"
 # 
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 190
-msgid "Automatic Login"
-msgstr "自動ログイン"
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 217
+msgid "Script timeout: {}"
+msgstr "スクリプトタイムアウト: {}"
 # 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 191
-msgid "Login automatically at startup"
-msgstr "起動時に自動的にログインする"
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 193
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 220
+msgid "Error running script {}: {}"
+msgstr "スクリプトの実行中にエラーが発生しました {}: {}"
 # 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 200
-msgid "Bluetooth"
-msgstr "ブルートゥース"
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 201
-msgid "Enable Bluetooth connectivity"
-msgstr "Bluetooth接続を有効にする"
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 210
+msgid "State changed successfully: {}"
+msgstr "状態が正常に変更されました: {}"
 # 
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 213
-msgid "Enabling dark theme..."
-msgstr "ダークテーマを有効にしています..."
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 216
-msgid "Enabling light theme..."
-msgstr "ライトテーマを有効にしています..."
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 223
-msgid "Enabling animations..."
-msgstr "アニメーションを有効にしています..."
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 226
-msgid "Disabling animations..."
-msgstr "アニメーションを無効にしています..."
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 233
-msgid "Enabling system sounds..."
-msgstr "システムサウンドを有効にしています..."
+msgid "Error changing state: {}"
+msgstr "状態の変更中にエラーが発生しました: {}"
 # 
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 236
-msgid "Disabling system sounds..."
-msgstr "システム音を無効にしています..."
+msgid "Switch {} synchronized: {}"
+msgstr "スイッチ {} 同期: {}"
 # 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 242
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 249
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 286
-msgid "enabled"
-msgstr "有効化された"
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 244
+msgid "Changing {} to {}"
+msgstr "{}を{}に変更中"
 # 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 242
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 249
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 286
-msgid "disabled"
-msgstr "無効"
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 243
-msgid "Automatic updates {}"
-msgstr "自動更新 {}"
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 250
-msgid "Telemetry {}"
-msgstr "テレメトリ {}"
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 257
-msgid "Enabling notifications..."
-msgstr "通知を有効にしています..."
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 260
-msgid "Disabling notifications..."
-msgstr "通知を無効にしています..."
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 267
-msgid "Enabling do not disturb mode..."
-msgstr "おやすみモードを有効にしています..."
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 270
-msgid "Disabling do not disturb mode..."
-msgstr "おやすみモードを無効にしています..."
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 277
-msgid "Enabling firewall..."
-msgstr "ファイアウォールを有効にしています..."
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 280
-msgid "Disabling firewall..."
-msgstr "ファイアウォールを無効にしています..."
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 287
-msgid "Automatic login {}"
-msgstr "自動ログイン {}"
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 294
-msgid "Enabling Bluetooth..."
-msgstr "Bluetoothを有効にしています..."
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 297
-msgid "Disabling Bluetooth..."
-msgstr "Bluetoothを無効にしています..."
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 306
-msgid "Command executed: {}"
-msgstr "コマンドが実行されました: {}"
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 308
-msgid "Error executing command: {}"
-msgstr "コマンドの実行中にエラーが発生しました: {}"
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 310
-msgid "Error: {}"
-msgstr "エラー: {}"
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 251
+msgid "Failed to change setting"
+msgstr "設定の変更に失敗しました。"

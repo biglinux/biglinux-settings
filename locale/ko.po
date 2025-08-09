@@ -16,30 +16,26 @@ msgstr ""
 "X-Generator: attranslate\n"
 msgid "BigLinux Ajustes"
 msgstr "빅리눅스 설정"
-msgid "BTRFS sem fsync"
-msgstr "BTRFS 세마포어 fsync"
 msgid "Desativar efeitos do desktop"
 msgstr "데스크탑 효과 비활성화"
-msgid "Aceleração do navegador"
-msgstr "브라우저 가속화"
 msgid "Se estiver utilizando algum navegador, reinicie-o para aplicar as alterações."
 msgstr "사용 중인 브라우저가 있다면 변경 사항을 적용하기 위해 재시작하십시오."
-msgid "Rolagem do mouse invertida"
-msgstr "마우스 스크롤 반전"
-msgid "Rolagem do touchpad invertida"
-msgstr "터치패드 스크롤 반전"
-msgid "Botões da janela no lado esquerdo"
-msgstr "왼쪽에 있는 창 버튼"
-msgid "Aguarde..."
-msgstr "대기 중..."
-msgid "Aplicando, Aguarde..."
-msgstr "신청 중, 잠시 기다려 주십시오..."
+msgid "Aceleração do navegador"
+msgstr "브라우저 가속화"
+msgid "BTRFS sem fsync"
+msgstr "BTRFS 세마포어 fsync"
 msgid "Bloquear a edição da área de trabalho"
 msgstr "바탕 화면 편집 차단"
-msgid "Indexar arquivos"
-msgstr "파일 인덱싱"
-msgid "Ocultar Gerenciador de Boot (GRUB)"
-msgstr "부트 관리자(GRUB) 숨기기"
+msgid "Ligar RGB do teclado"
+msgstr "키보드 RGB 켜기"
+msgid "Ativar o NumLock ao ligar o sistema"
+msgstr "시스템을 켤 때 NumLock 활성화"
+msgid "Modo Desenvolvedor"
+msgstr "개발자 모드"
+msgid "Rolagem do touchpad invertida"
+msgstr "터치패드 스크롤 반전"
+msgid "Montar partições automaticamente"
+msgstr "자동으로 파티션 마운트"
 msgid "Grub"
 msgstr "그럽"
 msgid "Cuidado, você perderá acesso aos SnapShots. Tem certeza que deseja ocultar o grub?"
@@ -60,14 +56,18 @@ msgid "Concluído!"
 msgstr "완료되었습니다!"
 msgid "Ok"
 msgstr "알겠습니다."
-msgid "Ligar RGB do teclado"
-msgstr "키보드 RGB 켜기"
-msgid "Ativar o NumLock ao ligar o sistema"
-msgstr "시스템을 켤 때 NumLock 활성화"
-msgid "Modo Desenvolvedor"
-msgstr "개발자 모드"
-msgid "Montar partições automaticamente"
-msgstr "자동으로 파티션 마운트"
+msgid "Ocultar Gerenciador de Boot (GRUB)"
+msgstr "부트 관리자(GRUB) 숨기기"
+msgid "Rolagem do mouse invertida"
+msgstr "마우스 스크롤 반전"
+msgid "Aguarde..."
+msgstr "대기 중..."
+msgid "Aplicando, Aguarde..."
+msgstr "신청 중, 잠시 기다려 주십시오..."
+msgid "Botões da janela no lado esquerdo"
+msgstr "왼쪽에 있는 창 버튼"
+msgid "Indexar arquivos"
+msgstr "파일 인덱싱"
 msgid "Abrir"
 msgstr "열기"
 msgid "Procurar..."
@@ -90,29 +90,37 @@ msgstr "사용성"
 msgid "BigLinux Settings"
 msgstr "빅리눅스 설정"
 # 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 80
-msgid "Appearance"
-msgstr "모양"
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 107
+msgid "Usability"
+msgstr "사용성"
 # 
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 81
 msgid "Visual system settings"
 msgstr "비주얼 시스템 설정"
 # 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 86
-msgid "Dark Theme"
-msgstr "어두운 테마"
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 114
+msgid "NumLock"
+msgstr "넘록"
 # 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 87
-msgid "Enable system dark mode"
-msgstr "시스템 다크 모드 활성화"
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 115
+msgid "Initial NumLock state. Ignored if autologin is enabled."
+msgstr "초기 NumLock 상태. 자동 로그인 활성화 시 무시됩니다."
 # 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 96
-msgid "Animations"
-msgstr "애니메이션"
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 123
+msgid "Index Files"
+msgstr "인덱스 파일"
 # 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 97
-msgid "Enable interface animations"
-msgstr "인터페이스 애니메이션 활성화"
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 124
+msgid "Baloo, high storage I/O consumption."
+msgstr "발루, 높은 저장소 I/O 소비."
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 132
+msgid "SSH"
+msgstr "SSH"
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 133
+msgid "Enable remote access via ssh until next boot."
+msgstr "다음 부팅까지 ssh를 통한 원격 액세스를 활성화합니다."
 # 
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 108
 msgid "System"
@@ -122,174 +130,65 @@ msgstr "시스템"
 msgid "General system settings"
 msgstr "일반 시스템 설정"
 # 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 114
-msgid "System Sounds"
-msgstr "시스템 사운드"
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 148
+msgid "SSH on Boot"
+msgstr "부팅 시 SSH"
 # 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 115
-msgid "Play system event sounds"
-msgstr "시스템 이벤트 소리 재생"
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 149
+msgid "Turn on ssh remote access at boot."
+msgstr "부팅 시 SSH 원격 액세스 활성화."
 # 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 125
-msgid "Automatic Updates"
-msgstr "자동 업데이트"
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 157
+msgid "Example"
+msgstr "예시"
 # 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 126
-msgid "Download and install updates automatically"
-msgstr "업데이트를 자동으로 다운로드하고 설치합니다."
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 135
-msgid "Telemetry"
-msgstr "원격 측정"
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 136
-msgid "Send usage data for improvements"
-msgstr "개선 사항을 위한 사용 데이터 전송"
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 146
-msgid "Notifications"
-msgstr "알림"
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 147
-msgid "System notification controls"
-msgstr "시스템 알림 제어"
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 152
-msgid "Desktop Notifications"
-msgstr "데스크톱 알림"
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 153
-msgid "Show notifications on screen"
-msgstr "화면에 알림 표시"
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 163
-msgid "Do Not Disturb"
-msgstr "방해 금지"
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 158
+msgid "Example group description"
+msgstr "예시 그룹 설명"
 # 
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 164
-msgid "Silence all notifications"
-msgstr "모든 알림 음소거"
+msgid "Example Name"
+msgstr "예제 이름"
 # 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 174
-msgid "Security"
-msgstr "보안"
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 165
+msgid "Example description."
+msgstr "예제 설명."
 # 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 175
-msgid "System security settings"
-msgstr "시스템 보안 설정"
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 173
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 199
+msgid "Script not found: {}"
+msgstr "스크립트를 찾을 수 없습니다: {}"
 # 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 180
-msgid "Firewall"
-msgstr "방화벽"
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 181
-msgid "Enable firewall protection"
-msgstr "방화벽 보호 활성화"
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 186
+msgid "Error checking state: {}"
+msgstr "오류 확인 상태: {}"
 # 
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 190
-msgid "Automatic Login"
-msgstr "자동 로그인"
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 217
+msgid "Script timeout: {}"
+msgstr "스크립트 시간 초과: {}"
 # 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 191
-msgid "Login automatically at startup"
-msgstr "시작 시 자동으로 로그인"
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 193
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 220
+msgid "Error running script {}: {}"
+msgstr "스크립트 실행 오류 {}: {}"
 # 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 200
-msgid "Bluetooth"
-msgstr "블루투스"
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 201
-msgid "Enable Bluetooth connectivity"
-msgstr "블루투스 연결 활성화"
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 210
+msgid "State changed successfully: {}"
+msgstr "상태가 성공적으로 변경되었습니다: {}"
 # 
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 213
-msgid "Enabling dark theme..."
-msgstr "어두운 테마 활성화 중..."
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 216
-msgid "Enabling light theme..."
-msgstr "라이트 테마 활성화 중..."
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 223
-msgid "Enabling animations..."
-msgstr "애니메이션 활성화 중..."
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 226
-msgid "Disabling animations..."
-msgstr "애니메이션 비활성화 중..."
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 233
-msgid "Enabling system sounds..."
-msgstr "시스템 사운드 활성화 중..."
+msgid "Error changing state: {}"
+msgstr "상태 변경 오류: {}"
 # 
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 236
-msgid "Disabling system sounds..."
-msgstr "시스템 사운드 비활성화 중..."
+msgid "Switch {} synchronized: {}"
+msgstr "스위치 {} 동기화: {}"
 # 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 242
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 249
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 286
-msgid "enabled"
-msgstr "활성화됨"
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 244
+msgid "Changing {} to {}"
+msgstr "{}를 {}로 변경 중"
 # 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 242
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 249
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 286
-msgid "disabled"
-msgstr "비활성화됨"
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 243
-msgid "Automatic updates {}"
-msgstr "자동 업데이트 {}"
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 250
-msgid "Telemetry {}"
-msgstr "원격 측정 {}"
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 257
-msgid "Enabling notifications..."
-msgstr "알림 활성화 중..."
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 260
-msgid "Disabling notifications..."
-msgstr "알림 비활성화 중..."
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 267
-msgid "Enabling do not disturb mode..."
-msgstr "방해 금지 모드 활성화 중..."
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 270
-msgid "Disabling do not disturb mode..."
-msgstr "방해 금지 모드 비활성화 중..."
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 277
-msgid "Enabling firewall..."
-msgstr "방화벽 활성화 중..."
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 280
-msgid "Disabling firewall..."
-msgstr "방화벽 비활성화 중..."
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 287
-msgid "Automatic login {}"
-msgstr "자동 로그인 {}"
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 294
-msgid "Enabling Bluetooth..."
-msgstr "블루투스 활성화 중..."
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 297
-msgid "Disabling Bluetooth..."
-msgstr "블루투스 비활성화 중..."
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 306
-msgid "Command executed: {}"
-msgstr "명령이 실행되었습니다: {}"
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 308
-msgid "Error executing command: {}"
-msgstr "명령 실행 오류: {}"
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 310
-msgid "Error: {}"
-msgstr "오류: {}"
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 251
+msgid "Failed to change setting"
+msgstr "설정 변경에 실패했습니다."

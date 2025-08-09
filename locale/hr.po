@@ -16,30 +16,26 @@ msgstr ""
 "X-Generator: attranslate\n"
 msgid "BigLinux Ajustes"
 msgstr "BigLinux Postavke"
-msgid "BTRFS sem fsync"
-msgstr "BTRFS bez fsync"
 msgid "Desativar efeitos do desktop"
 msgstr "Onemogući efekte radne površine"
-msgid "Aceleração do navegador"
-msgstr "Ubrzanje preglednika"
 msgid "Se estiver utilizando algum navegador, reinicie-o para aplicar as alterações."
 msgstr "Ako koristite neki preglednik, ponovno ga pokrenite kako biste primijenili promjene."
-msgid "Rolagem do mouse invertida"
-msgstr "Inverzija pomicanja miša"
-msgid "Rolagem do touchpad invertida"
-msgstr "Rolanje touchpada je obrnuto."
-msgid "Botões da janela no lado esquerdo"
-msgstr "Gumbi prozora s lijeve strane"
-msgid "Aguarde..."
-msgstr "Molimo pričekajte..."
-msgid "Aplicando, Aguarde..."
-msgstr "Primjena, Molimo pričekajte..."
+msgid "Aceleração do navegador"
+msgstr "Ubrzanje preglednika"
+msgid "BTRFS sem fsync"
+msgstr "BTRFS bez fsync"
 msgid "Bloquear a edição da área de trabalho"
 msgstr "Blokiraj uređivanje radne površine"
-msgid "Indexar arquivos"
-msgstr "Indexing files"
-msgid "Ocultar Gerenciador de Boot (GRUB)"
-msgstr "Ocultar upravljač pokretanja (GRUB)"
+msgid "Ligar RGB do teclado"
+msgstr "Uključite RGB na tipkovnici"
+msgid "Ativar o NumLock ao ligar o sistema"
+msgstr "Aktivirajte NumLock prilikom pokretanja sustava"
+msgid "Modo Desenvolvedor"
+msgstr "Način programera"
+msgid "Rolagem do touchpad invertida"
+msgstr "Rolanje touchpada je obrnuto."
+msgid "Montar partições automaticamente"
+msgstr "Automatski montiraj particije"
 msgid "Grub"
 msgstr "Grub"
 msgid "Cuidado, você perderá acesso aos SnapShots. Tem certeza que deseja ocultar o grub?"
@@ -60,14 +56,18 @@ msgid "Concluído!"
 msgstr "Završeno!"
 msgid "Ok"
 msgstr "U redu"
-msgid "Ligar RGB do teclado"
-msgstr "Uključite RGB na tipkovnici"
-msgid "Ativar o NumLock ao ligar o sistema"
-msgstr "Aktivirajte NumLock prilikom pokretanja sustava"
-msgid "Modo Desenvolvedor"
-msgstr "Način programera"
-msgid "Montar partições automaticamente"
-msgstr "Automatski montiraj particije"
+msgid "Ocultar Gerenciador de Boot (GRUB)"
+msgstr "Ocultar upravljač pokretanja (GRUB)"
+msgid "Rolagem do mouse invertida"
+msgstr "Inverzija pomicanja miša"
+msgid "Aguarde..."
+msgstr "Molimo pričekajte..."
+msgid "Aplicando, Aguarde..."
+msgstr "Primjena, Molimo pričekajte..."
+msgid "Botões da janela no lado esquerdo"
+msgstr "Gumbi prozora s lijeve strane"
+msgid "Indexar arquivos"
+msgstr "Indexing files"
 msgid "Abrir"
 msgstr "Otvoriti"
 msgid "Procurar..."
@@ -90,29 +90,37 @@ msgstr "Upotrebljivost"
 msgid "BigLinux Settings"
 msgstr "BigLinux Postavke"
 # 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 80
-msgid "Appearance"
-msgstr "Izgled"
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 107
+msgid "Usability"
+msgstr "Upotrebljivost"
 # 
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 81
 msgid "Visual system settings"
 msgstr "Postavke vizualnog sustava"
 # 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 86
-msgid "Dark Theme"
-msgstr "Tamna tema"
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 114
+msgid "NumLock"
+msgstr "NumLock"
 # 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 87
-msgid "Enable system dark mode"
-msgstr "Omogući tamni način rada sustava"
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 115
+msgid "Initial NumLock state. Ignored if autologin is enabled."
+msgstr "Početno stanje NumLocka. Ignorira se ako je omogućena automatska prijava."
 # 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 96
-msgid "Animations"
-msgstr "Animacije"
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 123
+msgid "Index Files"
+msgstr "Indeksne datoteke"
 # 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 97
-msgid "Enable interface animations"
-msgstr "Omogući animacije sučelja"
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 124
+msgid "Baloo, high storage I/O consumption."
+msgstr "Baloo, visoka potrošnja I/O pohrane."
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 132
+msgid "SSH"
+msgstr "SSH"
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 133
+msgid "Enable remote access via ssh until next boot."
+msgstr "Omogućite daljinski pristup putem ssh-a do sljedećeg pokretanja."
 # 
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 108
 msgid "System"
@@ -122,174 +130,65 @@ msgstr "Sustav"
 msgid "General system settings"
 msgstr "Opća sistemska podešavanja"
 # 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 114
-msgid "System Sounds"
-msgstr "Sustavi zvukovi"
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 148
+msgid "SSH on Boot"
+msgstr "SSH pri pokretanju"
 # 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 115
-msgid "Play system event sounds"
-msgstr "Reproducir zvukove sustava događaja"
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 149
+msgid "Turn on ssh remote access at boot."
+msgstr "Uključite SSH daljinski pristup pri pokretanju."
 # 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 125
-msgid "Automatic Updates"
-msgstr "Automatska ažuriranja"
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 157
+msgid "Example"
+msgstr "Primjer"
 # 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 126
-msgid "Download and install updates automatically"
-msgstr "Preuzmi i instaliraj ažuriranja automatski"
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 135
-msgid "Telemetry"
-msgstr "Telemetrija"
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 136
-msgid "Send usage data for improvements"
-msgstr "Pošaljite podatke o korištenju za poboljšanja"
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 146
-msgid "Notifications"
-msgstr "Obavijesti"
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 147
-msgid "System notification controls"
-msgstr "Kontrole obavijesti sustava"
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 152
-msgid "Desktop Notifications"
-msgstr "Obavijesti na radnoj površini"
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 153
-msgid "Show notifications on screen"
-msgstr "Prikaži obavijesti na ekranu"
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 163
-msgid "Do Not Disturb"
-msgstr "Ne ometaj"
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 158
+msgid "Example group description"
+msgstr "Primjer opisa grupe"
 # 
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 164
-msgid "Silence all notifications"
-msgstr "Isključi sve obavijesti"
+msgid "Example Name"
+msgstr "Primjer Ime"
 # 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 174
-msgid "Security"
-msgstr "Sigurnost"
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 165
+msgid "Example description."
+msgstr "Primjer opisa."
 # 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 175
-msgid "System security settings"
-msgstr "Postavke sigurnosti sustava"
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 173
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 199
+msgid "Script not found: {}"
+msgstr "Skripta nije pronađena: {}"
 # 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 180
-msgid "Firewall"
-msgstr "Vatrozid"
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 181
-msgid "Enable firewall protection"
-msgstr "Omogući zaštitu vatrozida"
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 186
+msgid "Error checking state: {}"
+msgstr "Provjera pogreške stanja: {}"
 # 
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 190
-msgid "Automatic Login"
-msgstr "Automatsko prijavljivanje"
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 217
+msgid "Script timeout: {}"
+msgstr "Izdavanje skripte isteklo: {}"
 # 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 191
-msgid "Login automatically at startup"
-msgstr "Automatski prijava pri pokretanju"
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 193
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 220
+msgid "Error running script {}: {}"
+msgstr "Greška prilikom pokretanja skripte {}: {}"
 # 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 200
-msgid "Bluetooth"
-msgstr "Bluetooth"
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 201
-msgid "Enable Bluetooth connectivity"
-msgstr "Omogući Bluetooth povezivanje"
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 210
+msgid "State changed successfully: {}"
+msgstr "Stanje je uspješno promijenjeno: {}"
 # 
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 213
-msgid "Enabling dark theme..."
-msgstr "Omogućavanje tamne teme..."
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 216
-msgid "Enabling light theme..."
-msgstr "Omogućavanje svijetle teme..."
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 223
-msgid "Enabling animations..."
-msgstr "Omogućavanje animacija..."
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 226
-msgid "Disabling animations..."
-msgstr "Onemogućavanje animacija..."
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 233
-msgid "Enabling system sounds..."
-msgstr "Omogućavanje sistemskih zvukova..."
+msgid "Error changing state: {}"
+msgstr "Greška pri promjeni stanja: {}"
 # 
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 236
-msgid "Disabling system sounds..."
-msgstr "Onemogućavanje sistemskih zvukova..."
+msgid "Switch {} synchronized: {}"
+msgstr "Prebaci {} sinkronizirano: {}"
 # 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 242
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 249
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 286
-msgid "enabled"
-msgstr "omogućeno"
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 244
+msgid "Changing {} to {}"
+msgstr "Mijenjanje {} u {}"
 # 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 242
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 249
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 286
-msgid "disabled"
-msgstr "onemogućeno"
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 243
-msgid "Automatic updates {}"
-msgstr "Automatska ažuriranja {}"
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 250
-msgid "Telemetry {}"
-msgstr "Telemetrija {}"
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 257
-msgid "Enabling notifications..."
-msgstr "Omogućavanje obavijesti..."
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 260
-msgid "Disabling notifications..."
-msgstr "Onemogućavanje obavijesti..."
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 267
-msgid "Enabling do not disturb mode..."
-msgstr "Omogućavanje načina \"Ne ometaj\"..."
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 270
-msgid "Disabling do not disturb mode..."
-msgstr "Onemogućavanje načina ne ometaj..."
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 277
-msgid "Enabling firewall..."
-msgstr "Omogućavanje vatrozida..."
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 280
-msgid "Disabling firewall..."
-msgstr "Onemogućavanje vatrozida..."
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 287
-msgid "Automatic login {}"
-msgstr "Automatsko prijavljivanje {}"
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 294
-msgid "Enabling Bluetooth..."
-msgstr "Omogućavanje Bluetootha..."
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 297
-msgid "Disabling Bluetooth..."
-msgstr "Onemogućavanje Bluetootha..."
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 306
-msgid "Command executed: {}"
-msgstr "Naredba izvršena: {}"
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 308
-msgid "Error executing command: {}"
-msgstr "Greška prilikom izvršavanja naredbe: {}"
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 310
-msgid "Error: {}"
-msgstr "Greška: {}"
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 251
+msgid "Failed to change setting"
+msgstr "Neuspješno promijenjena postavka"
