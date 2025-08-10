@@ -2,76 +2,22 @@
 
 # check current status
 check_state() {
-  if [[ "$XDG_CURRENT_DESKTOP" == *"KDE"* ]] || [[ "$XDG_CURRENT_DESKTOP" == *"Plasma"* ]];then
-    if [[ "$(systemctl is-active sshd)" == "active" ]];then
-      echo "true"
-      return 0
-    else
-      echo "false"
-      return 1
-    fi
-#   elif [[ "$XDG_CURRENT_DESKTOP" == *"GNOME"* ]];then
-#     if [[ "$someTest" == "true" ]];then
-#       echo "true"
-#       return 0
-#     else
-#       echo "false"
-#       return 1
-#     fi
-#   elif [[ "$XDG_CURRENT_DESKTOP" == *"XFCE"* ]];then
-#     if [[ "$someTest" == "true" ]];then
-#       echo "true"
-#       return 0
-#     else
-#       echo "false"
-#       return 1
-#     fi
-#   elif [[ "$XDG_CURRENT_DESKTOP" == *"Cinnamon"* ]] || [[ "$XDG_CURRENT_DESKTOP" == *"X-Cinnamon"* ]];then
-#     if [[ "$someTest" == "true" ]];then
-#       echo "true"
-#       return 0
-#     else
-#       echo "false"
-#       return 1
-#     fi
+  if [[ "$(systemctl is-active sshd)" == "active" ]];then
+    echo "true"
+  else
+    echo "false"
   fi
 }
 
 # change the state
 toggle_state() {
   new_state="$1"
-  if [[ "$XDG_CURRENT_DESKTOP" == *"KDE"* ]] || [[ "$XDG_CURRENT_DESKTOP" == *"Plasma"* ]];then
-    if [[ "$new_state" == "true" ]];then
-        pkexec systemctl start sshd
-        return 0
-    else
-        pkexec systemctl stop sshd
-        return 0
-    fi
-#   elif [[ "$XDG_CURRENT_DESKTOP" == *"GNOME"* ]];then
-#     if [[ "$new_state" == "true" ]];then
-#         some command
-#         return 0
-#     else
-#         some command
-#         return 0
-#     fi
-#   elif [[ "$XDG_CURRENT_DESKTOP" == *"XFCE"* ]];then
-#     if [[ "$new_state" == "true" ]];then
-#         some command
-#         return 0
-#     else
-#         some command
-#         return 0
-#     fi
-#   elif [[ "$XDG_CURRENT_DESKTOP" == *"Cinnamon"* ]] || [[ "$XDG_CURRENT_DESKTOP" == *"X-Cinnamon"* ]];then
-#     if [[ "$new_state" == "true" ]];then
-#         some command
-#         return 0
-#     else
-#         some command
-#         return 0
-#     fi
+  if [[ "$new_state" == "true" ]];then
+      pkexec systemctl start sshd
+      exitCode=$?
+  else
+      pkexec systemctl stop sshd
+      exitCode=$?
   fi
 }
 

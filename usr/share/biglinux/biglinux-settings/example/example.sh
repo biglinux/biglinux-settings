@@ -5,34 +5,26 @@ check_state() {
   if [[ "$XDG_CURRENT_DESKTOP" == *"KDE"* ]] || [[ "$XDG_CURRENT_DESKTOP" == *"Plasma"* ]];then
     if [[ "$(LANG=C some Command)" == "true" ]];then #or if some Command &>/dev/null;then # if command response exit 0
       echo "true"
-      return 0
     else
       echo "false"
-      return 1
     fi
 #   elif [[ "$XDG_CURRENT_DESKTOP" == *"GNOME"* ]];then
 #     if [[ "$(LANG=C some Command)" == "true" ]];then #or if some Command &>/dev/null;then # if command response exit 0
 #       echo "true"
-#       return 0
 #     else
 #       echo "false"
-#       return 1
 #     fi
 #   elif [[ "$XDG_CURRENT_DESKTOP" == *"XFCE"* ]];then
 #     if [[ "$(LANG=C some Command)" == "true" ]];then #or if some Command &>/dev/null;then # if command response exit 0
 #       echo "true"
-#       return 0
 #     else
 #       echo "false"
-#       return 1
 #     fi
 #   elif [[ "$XDG_CURRENT_DESKTOP" == *"Cinnamon"* ]] || [[ "$XDG_CURRENT_DESKTOP" == *"X-Cinnamon"* ]];then
 #     if [[ "$(LANG=C some Command)" == "true" ]];then #or if some Command &>/dev/null;then # if command response exit 0
 #       echo "true"
-#       return 0
 #     else
 #       echo "false"
-#       return 1
 #     fi
   fi
 }
@@ -44,42 +36,37 @@ toggle_state() {
     if [[ "$new_state" == "true" ]];then
         some command as user
         pkexec some command as root
-        return 0
+        exitCode=$?
     else
         some command as user
         pkexec some command as root
-        return 0
+        exitCode=$?
     fi
 #   elif [[ "$XDG_CURRENT_DESKTOP" == *"GNOME"* ]];then
 #     if [[ "$new_state" == "true" ]];then
-#         some command as user
-#         pkexec some command as root
-#         return 0
+#         some command
+#         exitCode=$?
 #     else
-#         some command as user
-#         pkexec some command as root
-#         return 0
+#         some command
+#         exitCode=$?
 #     fi
 #   elif [[ "$XDG_CURRENT_DESKTOP" == *"XFCE"* ]];then
 #     if [[ "$new_state" == "true" ]];then
-#         some command user
-#         pkexec some command as root
-#         return 0
+#         some command
+#         exitCode=$?
 #     else
-#         some command as user
-#         pkexec some command as root
-#         return 0
+#         some command
+#         exitCode=$?
 #     fi
 #   elif [[ "$XDG_CURRENT_DESKTOP" == *"Cinnamon"* ]] || [[ "$XDG_CURRENT_DESKTOP" == *"X-Cinnamon"* ]];then
 #     if [[ "$new_state" == "true" ]];then
-#         some command as user
-#         pkexec some command as root
-#         return 0
+#         some command
+#         exitCode=$?
 #     else
-#         some command as user
-#         pkexec some command as root
-#         return 0
+#         some command
+#         exitCode=$?
 #     fi
+    exit $exitCode
   fi
 }
 

@@ -181,7 +181,7 @@ class SystemSettingsWindow(Adw.ApplicationWindow):
                 output = result.stdout.strip().lower()
                 return output == "true"
             else:
-                # print(_("Error checking state: {}").format(result.stderr))
+                print(_("Error checking state: {}").format(result.stderr))
                 return False
 
         except subprocess.TimeoutExpired:
@@ -194,28 +194,42 @@ class SystemSettingsWindow(Adw.ApplicationWindow):
     def toggle_script_state(self, script_path, new_state):
         """Altera o estado usando o script"""
         if not os.path.exists(script_path):
-            print(_("Script not found: {}").format(script_path))
+            error_msg = _("Script not found: {}").format(script_path)
+            print(f"ERROR: {error_msg}")
             return False
 
         try:
             state_str = "true" if new_state else "false"
             result = subprocess.run([script_path, "toggle", state_str],
-            capture_output=True,
-            text=True,
-            timeout=30)
+                                capture_output=True,
+                                text=True,
+                                timeout=30)
 
             if result.returncode == 0:
-                print(_("State changed successfully: {}").format(result.stdout.strip()))
+                print(_("State changed successfully"))
+                if result.stdout.strip():
+                    print(_("Script output: {}").format(result.stdout.strip()))
                 return True
             else:
-                print(_("Error changing state: {}").format(result.stderr))
+                # Exit code != 0 indica falha
+                error_msg = _("Script failed with exit code: {}").format(result.returncode)
+                print(f"ERROR: {error_msg}")
+
+                if result.stderr.strip():
+                    print(f"ERROR: Script stderr: {result.stderr.strip()}")
+
+                if result.stdout.strip():
+                    print(f"ERROR: Script stdout: {result.stdout.strip()}")
+
                 return False
 
         except subprocess.TimeoutExpired:
-            print(_("Script timeout: {}").format(script_path))
+            error_msg = _("Script timeout: {}").format(script_path)
+            print(f"ERROR: {error_msg}")
             return False
         except Exception as e:
-            print(_("Error running script {}: {}").format(script_path, e))
+            error_msg = _("Error running script {}: {}").format(script_path, e)
+            print(f"ERROR: {error_msg}")
             return False
 
     def sync_all_switches(self):
@@ -244,9 +258,20 @@ class SystemSettingsWindow(Adw.ApplicationWindow):
             success = self.toggle_script_state(script_path, state)
 
             if not success:
-                # Se falhou, reverter o switch
+                # CORREÇÃO: Bloquear temporariamente o sinal para evitar loop infinito
+                switch.handler_block_by_func(self.on_switch_changed)
+
+                # Reverter o switch para a posição anterior
                 switch.set_active(not state)
-                self.show_toast(_("Failed to change setting"))
+
+                # Desbloquear o sinal
+                switch.handler_unblock_by_func(self.on_switch_changed)
+
+                # Exibir erro no console
+                print(_("ERROR: Failed to change {} to {}").format(script_name, "on" if state else "off"))
+
+                # Mostrar toast com erro (opcional)
+                self.show_toast(_("Failed to change setting: {}").format(script_name))
 
         return False
 

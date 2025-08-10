@@ -5,34 +5,26 @@ check_state() {
   if [[ "$XDG_CURRENT_DESKTOP" == *"KDE"* ]] || [[ "$XDG_CURRENT_DESKTOP" == *"Plasma"* ]];then
     if LANG=C balooctl6 status &>/dev/null;then
       echo "true"
-      return 0
     else
       echo "false"
-      return 1
     fi
 #   elif [[ "$XDG_CURRENT_DESKTOP" == *"GNOME"* ]];then
 #     if [[ "$someTest" == "true" ]];then
 #       echo "true"
-#       return 0
 #     else
 #       echo "false"
-#       return 1
 #     fi
 #   elif [[ "$XDG_CURRENT_DESKTOP" == *"XFCE"* ]];then
 #     if [[ "$someTest" == "true" ]];then
 #       echo "true"
-#       return 0
 #     else
 #       echo "false"
-#       return 1
 #     fi
 #   elif [[ "$XDG_CURRENT_DESKTOP" == *"Cinnamon"* ]] || [[ "$XDG_CURRENT_DESKTOP" == *"X-Cinnamon"* ]];then
 #     if [[ "$someTest" == "true" ]];then
 #       echo "true"
-#       return 0
 #     else
 #       echo "false"
-#       return 1
 #     fi
   fi
 }
@@ -43,35 +35,34 @@ toggle_state() {
   if [[ "$XDG_CURRENT_DESKTOP" == *"KDE"* ]] || [[ "$XDG_CURRENT_DESKTOP" == *"Plasma"* ]];then
     if [[ "$new_state" == "true" ]];then
         balooctl6 enable &>/dev/null
-        return 0
     else
         balooctl6 disable &>/dev/null
-        return 0
     fi
 #   elif [[ "$XDG_CURRENT_DESKTOP" == *"GNOME"* ]];then
 #     if [[ "$new_state" == "true" ]];then
 #         some command
-#         return 0
+#         exitCode=$?
 #     else
 #         some command
-#         return 0
+#         exitCode=$?
 #     fi
 #   elif [[ "$XDG_CURRENT_DESKTOP" == *"XFCE"* ]];then
 #     if [[ "$new_state" == "true" ]];then
 #         some command
-#         return 0
+#         exitCode=$?
 #     else
 #         some command
-#         return 0
+#         exitCode=$?
 #     fi
 #   elif [[ "$XDG_CURRENT_DESKTOP" == *"Cinnamon"* ]] || [[ "$XDG_CURRENT_DESKTOP" == *"X-Cinnamon"* ]];then
 #     if [[ "$new_state" == "true" ]];then
 #         some command
-#         return 0
+#         exitCode=$?
 #     else
 #         some command
-#         return 0
+#         exitCode=$?
 #     fi
+    exit $exitCode
   fi
 }
 
