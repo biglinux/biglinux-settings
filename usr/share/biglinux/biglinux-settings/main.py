@@ -164,6 +164,14 @@ class SystemSettingsWindow(Adw.ApplicationWindow):
             "fastGrub"
         )
 
+        # bigMount
+        self.bigMount_enable_switch = self.create_switch_with_script(
+            group,
+            _("Big AutoMount"),
+            _("Auto mount partitions in internal disks on boot."),
+            "bigMount"
+        )
+
     def create_example_group(self, parent):
         """Grupo de exemplo"""
         group = Adw.PreferencesGroup()
