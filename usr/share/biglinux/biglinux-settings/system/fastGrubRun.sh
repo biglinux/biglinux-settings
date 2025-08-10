@@ -25,7 +25,7 @@ mkfifo "$pipePath"
 
 # 2. Starts Zenity IN THE BACKGROUND, as the user, with the full environment
 zenityText=$"Applying, please wait..."
-runAsUser "zenity --progress --title='grub' --text=$zenityText --pulsate --auto-close --no-cancel < '$pipePath'" &
+runAsUser "zenity --progress --title='grub' --text=\"$zenityText\" --pulsate --auto-close --no-cancel < '$pipePath'" &
 
 # 3. Executes the root tasks.
 updateGrubTask() {
@@ -41,10 +41,10 @@ rm "$pipePath"
 # 5. Shows the final result to the user, also with the correct theme.
 if [[ "$exitCode" -eq 0 ]]; then
   zenityText=$"GRUB updated successfully!"
-  runAsUser "zenity --info --text=$zenityText"
+  runAsUser "zenity --info --text=\"$zenityText\""
 else
   zenityText=$"An error occurred while updating GRUB."
-  runAsUser "zenity --error --text=$zenityText"
+  runAsUser "zenity --error --text=\"$zenityText\""
 fi
 
 # 6. Exits the script with the correct exit code
