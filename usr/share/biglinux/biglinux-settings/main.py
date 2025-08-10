@@ -39,9 +39,6 @@ class SystemSettingsWindow(Adw.ApplicationWindow):
         self.set_title(_("BigLinux Settings"))
         self.set_default_size(600, 700)
 
-        # Diretório base dos scripts
-        self.scripts_base_dir = os.path.join(os.path.dirname(__file__), '.')
-
         # Dicionário para mapear switches aos scripts
         self.switch_scripts = {}
 
@@ -89,8 +86,11 @@ class SystemSettingsWindow(Adw.ApplicationWindow):
         switch = Gtk.Switch()
         switch.set_valign(Gtk.Align.CENTER)
 
+        # Pegar o script_group do grupo pai
+        script_group = getattr(parent_group, 'script_group', 'default')
+
         # Associar o script ao switch
-        script_path = os.path.join(self.scripts_base_dir, f"{script_name}.sh")
+        script_path = os.path.join(script_group, f"{script_name}.sh")
         self.switch_scripts[switch] = script_path
 
         # Conectar callback
@@ -105,6 +105,7 @@ class SystemSettingsWindow(Adw.ApplicationWindow):
         """Grupo de configurações de aparência"""
         group = Adw.PreferencesGroup()
         group.set_title(_("Usability"))
+        group.script_group = "usability"
         group.set_description(_("Visual system settings"))
         parent.append(group)
 
@@ -136,6 +137,7 @@ class SystemSettingsWindow(Adw.ApplicationWindow):
         """Grupo de configurações do sistema"""
         group = Adw.PreferencesGroup()
         group.set_title(_("System"))
+        group.script_group = "system"
         group.set_description(_("General system settings"))
         parent.append(group)
 
@@ -151,6 +153,7 @@ class SystemSettingsWindow(Adw.ApplicationWindow):
         """Grupo de exemplo"""
         group = Adw.PreferencesGroup()
         group.set_title(_("Example"))
+        group.script_group = "example" # scripts folder
         group.set_description(_("Example group description"))
         parent.append(group)
 
@@ -159,7 +162,7 @@ class SystemSettingsWindow(Adw.ApplicationWindow):
             group,
             _("Example Name"),
             _("Example description."),
-            "example" # same name as the .sh file
+            "example" # name of the .sh file
         )
 
     def check_script_state(self, script_path):
@@ -170,15 +173,15 @@ class SystemSettingsWindow(Adw.ApplicationWindow):
 
         try:
             result = subprocess.run([script_path, "check"],
-                                  capture_output=True,
-                                  text=True,
-                                  timeout=10)
+            capture_output=True,
+            text=True,
+            timeout=10)
 
             if result.returncode == 0:
                 output = result.stdout.strip().lower()
                 return output == "true"
             else:
-                print(_("Error checking state: {}").format(result.stderr))
+                # print(_("Error checking state: {}").format(result.stderr))
                 return False
 
         except subprocess.TimeoutExpired:
@@ -197,9 +200,9 @@ class SystemSettingsWindow(Adw.ApplicationWindow):
         try:
             state_str = "true" if new_state else "false"
             result = subprocess.run([script_path, "toggle", state_str],
-                                  capture_output=True,
-                                  text=True,
-                                  timeout=30)
+            capture_output=True,
+            text=True,
+            timeout=30)
 
             if result.returncode == 0:
                 print(_("State changed successfully: {}").format(result.stdout.strip()))
