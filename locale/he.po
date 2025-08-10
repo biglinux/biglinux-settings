@@ -155,6 +155,10 @@ msgstr "תיאור דוגמה."
 msgid "Script not found: {}"
 msgstr "סקריפט לא נמצא: {}"
 # 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 184
+msgid "Error checking state: {}"
+msgstr "שגיאת בדיקת מצב: {}"
+# 
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 190
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 217
 msgid "Script timeout: {}"
@@ -165,13 +169,17 @@ msgstr "זמן ההמתנה של הסקריפט: {}"
 msgid "Error running script {}: {}"
 msgstr "שגיאה בהרצת סקריפט {}: {}"
 # 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 210
-msgid "State changed successfully: {}"
-msgstr "המצב שונה בהצלחה: {}"
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 209
+msgid "State changed successfully"
+msgstr "המצב שונה בהצלחה"
 # 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 213
-msgid "Error changing state: {}"
-msgstr "שגיאה בשינוי מצב: {}"
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 211
+msgid "Script output: {}"
+msgstr "{}"
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 215
+msgid "Script failed with exit code: {}"
+msgstr "הסקריפט נכשל עם קוד יציאה: {}"
 # 
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 236
 msgid "Switch {} synchronized: {}"
@@ -181,6 +189,10 @@ msgstr "מחלף {} מסונכרן: {}"
 msgid "Changing {} to {}"
 msgstr "שינוי {} ל{}"
 # 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 251
-msgid "Failed to change setting"
-msgstr "כישלון בשינוי ההגדרה"
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 271
+msgid "ERROR: Failed to change {} to {}"
+msgstr "שגיאה: לא הצליח לשנות {} ל{}"
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 274
+msgid "Failed to change setting: {}"
+msgstr "שינוי ההגדרה נכשל: {}"

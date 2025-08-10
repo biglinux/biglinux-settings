@@ -151,6 +151,10 @@ msgstr "Dæmi lýsing."
 msgid "Script not found: {}"
 msgstr "Skrá fannst ekki: {}"
 # 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 184
+msgid "Error checking state: {}"
+msgstr "Villa að athuga stöðu: {}"
+# 
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 190
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 217
 msgid "Script timeout: {}"
@@ -161,13 +165,17 @@ msgstr "Skrá tímamörk: {}"
 msgid "Error running script {}: {}"
 msgstr "Villa við að keyra skrift {}: {}"
 # 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 210
-msgid "State changed successfully: {}"
-msgstr "Ástandi breytt með góðum árangri: {}"
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 209
+msgid "State changed successfully"
+msgstr "Ástandi breytt með góðum árangri"
 # 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 213
-msgid "Error changing state: {}"
-msgstr "Villa að breyta ástandi: {}"
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 211
+msgid "Script output: {}"
+msgstr "{}"
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 215
+msgid "Script failed with exit code: {}"
+msgstr "Skráning mistókst með útgöngukóða: {}"
 # 
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 236
 msgid "Switch {} synchronized: {}"
@@ -177,6 +185,10 @@ msgstr "Switch {} samstillt: {}"
 msgid "Changing {} to {}"
 msgstr "Breyta {} í {}"
 # 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 251
-msgid "Failed to change setting"
-msgstr "Mistók að breyta stillingu"
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 271
+msgid "ERROR: Failed to change {} to {}"
+msgstr "ERROR: Mistók að breyta {} í {}"
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 274
+msgid "Failed to change setting: {}"
+msgstr "Mistók að breyta stillingu: {}"

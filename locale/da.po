@@ -153,6 +153,10 @@ msgstr "Eksempelbeskrivelse."
 msgid "Script not found: {}"
 msgstr "Script ikke fundet: {}"
 # 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 184
+msgid "Error checking state: {}"
+msgstr "Fejlkontrolstatus: {}"
+# 
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 190
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 217
 msgid "Script timeout: {}"
@@ -163,13 +167,17 @@ msgstr "Script timeout: {}"
 msgid "Error running script {}: {}"
 msgstr "Fejl ved kørsel af script {}: {}"
 # 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 210
-msgid "State changed successfully: {}"
-msgstr "Tilstand ændret med succes: {}"
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 209
+msgid "State changed successfully"
+msgstr "Tilstand ændret med succes"
 # 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 213
-msgid "Error changing state: {}"
-msgstr "Fejl ved ændring af tilstand: {}"
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 211
+msgid "Script output: {}"
+msgstr "Script output: {}"
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 215
+msgid "Script failed with exit code: {}"
+msgstr "Script mislykkedes med exitkode: {}"
 # 
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 236
 msgid "Switch {} synchronized: {}"
@@ -179,6 +187,10 @@ msgstr "Skift {} synkroniseret: {}"
 msgid "Changing {} to {}"
 msgstr "Ændrer {} til {}"
 # 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 251
-msgid "Failed to change setting"
-msgstr "Mislykkedes med at ændre indstilling"
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 271
+msgid "ERROR: Failed to change {} to {}"
+msgstr "FEJL: Mislykkedes at ændre {} til {}"
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 274
+msgid "Failed to change setting: {}"
+msgstr "Mislykkedes med at ændre indstilling: {}"

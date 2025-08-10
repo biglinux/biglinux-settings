@@ -167,6 +167,10 @@ msgstr "Приклад опису."
 msgid "Script not found: {}"
 msgstr "Скрипт не знайдено: {}"
 # 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 184
+msgid "Error checking state: {}"
+msgstr "Помилка перевірки стану: {}"
+# 
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 190
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 217
 msgid "Script timeout: {}"
@@ -177,13 +181,17 @@ msgstr "Тайм-аут скрипта: {}"
 msgid "Error running script {}: {}"
 msgstr "Помилка виконання скрипту {}: {}"
 # 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 210
-msgid "State changed successfully: {}"
-msgstr "Стан змінився успішно: {}"
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 209
+msgid "State changed successfully"
+msgstr "Стан успішно змінено"
 # 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 213
-msgid "Error changing state: {}"
-msgstr "Помилка зміни стану: {}"
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 211
+msgid "Script output: {}"
+msgstr "Скрипт виводу: {}"
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 215
+msgid "Script failed with exit code: {}"
+msgstr "Скрипт завершився з кодом виходу: {}"
 # 
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 236
 msgid "Switch {} synchronized: {}"
@@ -193,6 +201,10 @@ msgstr "Перемикач {} синхронізовано: {}"
 msgid "Changing {} to {}"
 msgstr "Зміна {} на {}"
 # 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 251
-msgid "Failed to change setting"
-msgstr "Не вдалося змінити налаштування"
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 271
+msgid "ERROR: Failed to change {} to {}"
+msgstr "ПОМИЛКА: Не вдалося змінити {} на {}"
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 274
+msgid "Failed to change setting: {}"
+msgstr "Не вдалося змінити налаштування: {}"

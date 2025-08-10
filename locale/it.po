@@ -151,6 +151,10 @@ msgstr "Esempio di descrizione."
 msgid "Script not found: {}"
 msgstr "Script non trovato: {}"
 # 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 184
+msgid "Error checking state: {}"
+msgstr "Errore durante il controllo dello stato: {}"
+# 
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 190
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 217
 msgid "Script timeout: {}"
@@ -161,13 +165,17 @@ msgstr "Timeout dello script: {}"
 msgid "Error running script {}: {}"
 msgstr "Errore durante l'esecuzione dello script {}: {}"
 # 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 210
-msgid "State changed successfully: {}"
-msgstr "Stato cambiato con successo: {}"
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 209
+msgid "State changed successfully"
+msgstr "Stato cambiato con successo"
 # 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 213
-msgid "Error changing state: {}"
-msgstr "Errore durante il cambiamento di stato: {}"
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 211
+msgid "Script output: {}"
+msgstr "{}"
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 215
+msgid "Script failed with exit code: {}"
+msgstr "Lo script è terminato con codice di uscita: {}"
 # 
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 236
 msgid "Switch {} synchronized: {}"
@@ -177,6 +185,10 @@ msgstr "Cambia {} sincronizzato: {}"
 msgid "Changing {} to {}"
 msgstr "Cambiando {} in {}"
 # 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 251
-msgid "Failed to change setting"
-msgstr "Impossibile modificare l'impostazione"
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 271
+msgid "ERROR: Failed to change {} to {}"
+msgstr "ERRORE: Impossibile cambiare {} in {}"
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 274
+msgid "Failed to change setting: {}"
+msgstr "Impossibile modificare l'impostazione: {}"

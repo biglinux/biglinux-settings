@@ -138,6 +138,10 @@ msgstr "Lülita ssh kaugjuurdepääs sisse käivitamisel."
 # 
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 155
 # 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 155
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 155
+# 
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 153
 # 
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 153
@@ -163,6 +167,10 @@ msgstr "Näidis kirjeldus."
 msgid "Script not found: {}"
 msgstr "Skripti ei leitud: {}"
 # 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 184
+msgid "Error checking state: {}"
+msgstr "Viga kontrollimise olek: {}"
+# 
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 190
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 217
 msgid "Script timeout: {}"
@@ -173,13 +181,17 @@ msgstr "Skripti aegumine: {}"
 msgid "Error running script {}: {}"
 msgstr "Viga skripti käitamisel {}: {}"
 # 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 210
-msgid "State changed successfully: {}"
-msgstr "Oleku muutmine õnnestus: {}"
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 209
+msgid "State changed successfully"
+msgstr "Oleku muutmine õnnestus"
 # 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 213
-msgid "Error changing state: {}"
-msgstr "Viga oleku muutmisel: {}"
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 211
+msgid "Script output: {}"
+msgstr "Skripti väljund: {}"
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 215
+msgid "Script failed with exit code: {}"
+msgstr "Skript ebaõnnestus väljumiskoodiga: {}"
 # 
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 236
 msgid "Switch {} synchronized: {}"
@@ -189,6 +201,10 @@ msgstr "Vaheta {} sünkroonitud: {}"
 msgid "Changing {} to {}"
 msgstr "Muudab {} {}-ks"
 # 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 251
-msgid "Failed to change setting"
-msgstr "Seadist muutmine ebaõnnestus"
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 271
+msgid "ERROR: Failed to change {} to {}"
+msgstr "VIGA: {} muutmine {}-ks ebaõnnestus"
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 274
+msgid "Failed to change setting: {}"
+msgstr "Seadete muutmine ebaõnnestus: {}"

@@ -50,6 +50,8 @@ msgid "Você saberá retornar o Grub em caso de falha?"
 msgstr "Sie werden in der Lage sein, den Grub im Falle eines Fehlers zurückzugeben?"
 msgid "Você saberá acessar os SnapShots sem acesso ao modo Gráfico?"
 msgstr "Sie können auf die SnapShots zugreifen, ohne den Grafikmodus zu verwenden?"
+msgid "Você está completamente seguro dessa aplicação?"
+msgstr "Sie sind sich dieser Anwendung vollkommen sicher?"
 msgid "Aplicando, aguarde..."
 msgstr "Anwenden, bitte warten..."
 msgid "Concluído!"
@@ -157,6 +159,10 @@ msgstr "Beispielbeschreibung."
 msgid "Script not found: {}"
 msgstr "Skript nicht gefunden: {}"
 # 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 184
+msgid "Error checking state: {}"
+msgstr "Fehlerüberprüfung Zustand: {}"
+# 
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 190
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 217
 msgid "Script timeout: {}"
@@ -167,13 +173,17 @@ msgstr "Skriptzeitüberschreitung: {}"
 msgid "Error running script {}: {}"
 msgstr "Fehler beim Ausführen des Skripts {}: {}"
 # 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 210
-msgid "State changed successfully: {}"
-msgstr "Status erfolgreich geändert: {}"
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 209
+msgid "State changed successfully"
+msgstr "Status erfolgreich geändert"
 # 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 213
-msgid "Error changing state: {}"
-msgstr "Fehler beim Ändern des Status: {}"
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 211
+msgid "Script output: {}"
+msgstr "Script-Ausgabe: {}"
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 215
+msgid "Script failed with exit code: {}"
+msgstr "Das Skript ist mit dem Exit-Code {} fehlgeschlagen."
 # 
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 236
 msgid "Switch {} synchronized: {}"
@@ -183,6 +193,10 @@ msgstr "Wechseln {} synchronisiert: {}"
 msgid "Changing {} to {}"
 msgstr "Ändern von {} zu {}"
 # 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 251
-msgid "Failed to change setting"
-msgstr "Ändern der Einstellung fehlgeschlagen"
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 271
+msgid "ERROR: Failed to change {} to {}"
+msgstr "FEHLER: Ändern von {} in {} fehlgeschlagen"
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 274
+msgid "Failed to change setting: {}"
+msgstr "Fehler beim Ändern der Einstellung: {}"
