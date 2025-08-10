@@ -167,7 +167,7 @@ class SystemSettingsWindow(Adw.ApplicationWindow):
         # bigMount
         self.bigMount_enable_switch = self.create_switch_with_script(
             group,
-            _("Big AutoMount"),
+            _("Auto-mount Partitions"),
             _("Auto mount partitions in internal disks on boot."),
             "bigMount"
         )
