@@ -110,7 +110,7 @@ class SystemSettingsWindow(Adw.ApplicationWindow):
         parent.append(group)
 
         # numLock
-        self.num_lock_switch = self.create_switch_with_script(
+        self.numLock_switch = self.create_switch_with_script(
             group,
             _("NumLock"),
             _("Initial NumLock state. Ignored if autologin is enabled."),
@@ -118,15 +118,23 @@ class SystemSettingsWindow(Adw.ApplicationWindow):
         )
 
         # indexFiles
-        self.indexfiles_switch = self.create_switch_with_script(
+        self.indexFiles_switch = self.create_switch_with_script(
             group,
             _("Index Files"),
             _("Baloo, high storage I/O consumption."),
             "indexFiles"
         )
 
-        # ssh
-        self.ssh_star_switch = self.create_switch_with_script(
+        # windowButtonOnLeftSide
+        self.windowButtonOnLeftSide_switch = self.create_switch_with_script(
+            group,
+            _("Window Button On Left Side"),
+            _("Maximize, minimize, and close buttons on the left side of the window."),
+            "windowButtonOnLeftSide"
+        )
+
+        # sshStart
+        self.sshStart_switch = self.create_switch_with_script(
             group,
             _("SSH"),
             _("Enable remote access via ssh until next boot."),
@@ -141,12 +149,19 @@ class SystemSettingsWindow(Adw.ApplicationWindow):
         group.set_description(_("General system settings"))
         parent.append(group)
 
-        # ssh
-        self.ssh_enable_switch = self.create_switch_with_script(
+        # sshEnable
+        self.sshEnable_switch = self.create_switch_with_script(
             group,
             _("SSH on Boot"),
             _("Turn on ssh remote access at boot."),
             "sshEnable"
+        )
+        # fastGrub
+        self.fastGrub_enable_switch = self.create_switch_with_script(
+            group,
+            _("Fast Grub"),
+            _("Decreases grub display time."),
+            "fastGrub"
         )
 
     def create_example_group(self, parent):

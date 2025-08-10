@@ -3,7 +3,7 @@
 # check current status
 check_state() {
   if [[ "$XDG_CURRENT_DESKTOP" == *"KDE"* ]] || [[ "$XDG_CURRENT_DESKTOP" == *"Plasma"* ]];then
-    if [[ "$(LANG=C some Command)" == "true" ]];then #or if some Command &>/dev/null;then # if command response exit 0
+    if LANG=C grep -q 'FSM' $HOME/.config/kwinrc;then
       echo "true"
     else
       echo "false"
@@ -34,37 +34,45 @@ toggle_state() {
   new_state="$1"
   if [[ "$XDG_CURRENT_DESKTOP" == *"KDE"* ]] || [[ "$XDG_CURRENT_DESKTOP" == *"Plasma"* ]];then
     if [[ "$new_state" == "true" ]];then
-      some command as user
-      pkexec some command as root
+      kwriteconfig6 --file $HOME/.config/gtk-3.0/settings.ini --group Settings --key "gtk-decoration-layout" "close,maximize,minimize:menu"
+      kwriteconfig6 --file $HOME/.config/gtk-4.0/settings.ini --group Settings --key "gtk-decoration-layout" "close,maximize,minimize:menu"
+      gsettings set org.gnome.desktop.wm.preferences button-layout "close,maximize,minimize:menu"
+      kwriteconfig6 --group "org.kde.kdecoration2" --key "ButtonsOnLeft" --file "$HOME/.config/kwinrc" "XIA"
+      kwriteconfig6 --group "org.kde.kdecoration2" --key "ButtonsOnRight" --file "$HOME/.config/kwinrc" "FSM"
+      qdbus org.kde.KWin /KWin org.kde.KWin.reconfigure
       exitCode=$?
     else
-      some command as user
-      pkexec some command as root
+      kwriteconfig6 --file $HOME/.config/gtk-3.0/settings.ini --group Settings --key "gtk-decoration-layout" "menu:minimize,maximize,close"
+      kwriteconfig6 --file $HOME/.config/gtk-4.0/settings.ini --group Settings --key "gtk-decoration-layout" "menu:minimize,maximize,close"
+      gsettings set org.gnome.desktop.wm.preferences button-layout "menu:minimize,maximize,close"
+      kwriteconfig6 --group "org.kde.kdecoration2" --key "ButtonsOnLeft" --file "$HOME/.config/kwinrc" "MSF"
+      kwriteconfig6 --group "org.kde.kdecoration2" --key "ButtonsOnRight" --file "$HOME/.config/kwinrc" "IAX"
+      qdbus org.kde.KWin /KWin org.kde.KWin.reconfigure
       exitCode=$?
     fi
 #   elif [[ "$XDG_CURRENT_DESKTOP" == *"GNOME"* ]];then
 #     if [[ "$new_state" == "true" ]];then
-#       some command
-#       exitCode=$?
+#         some command
+#         exitCode=$?
 #     else
-#       some command
-#       exitCode=$?
+#         some command
+#         exitCode=$?
 #     fi
 #   elif [[ "$XDG_CURRENT_DESKTOP" == *"XFCE"* ]];then
 #     if [[ "$new_state" == "true" ]];then
-#       some command
-#       exitCode=$?
+#         some command
+#         exitCode=$?
 #     else
-#       some command
-#       exitCode=$?
+#         some command
+#         exitCode=$?
 #     fi
 #   elif [[ "$XDG_CURRENT_DESKTOP" == *"Cinnamon"* ]] || [[ "$XDG_CURRENT_DESKTOP" == *"X-Cinnamon"* ]];then
 #     if [[ "$new_state" == "true" ]];then
-#       some command
-#       exitCode=$?
+#         some command
+#         exitCode=$?
 #     else
-#       some command
-#       exitCode=$?
+#         some command
+#         exitCode=$?
 #     fi
     exit $exitCode
   fi
