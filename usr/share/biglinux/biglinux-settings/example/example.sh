@@ -66,8 +66,8 @@ toggle_state() {
 #       some command
 #       exitCode=$?
 #     fi
-    exit $exitCode
   fi
+  exit $exitCode
 }
 
 # Executes the function based on the parameter

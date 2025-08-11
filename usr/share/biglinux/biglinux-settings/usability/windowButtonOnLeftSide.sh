@@ -14,12 +14,12 @@ check_state() {
 #     else
 #       echo "false"
 #     fi
-#   elif [[ "$XDG_CURRENT_DESKTOP" == *"XFCE"* ]];then
-#     if [[ "$(LANG=C some Command)" == "true" ]];then #or if some Command &>/dev/null;then # if command response exit 0
-#       echo "true"
-#     else
-#       echo "false"
-#     fi
+  elif [[ "$XDG_CURRENT_DESKTOP" == *"XFCE"* ]];then
+    if [ -n "$(grep SHMC  $HOME/.config/xfce4/xfconf/xfce-perchannel-xml/xfwm4.xml)" ];then
+      echo "true"
+    else
+      echo "false"
+    fi
 #   elif [[ "$XDG_CURRENT_DESKTOP" == *"Cinnamon"* ]] || [[ "$XDG_CURRENT_DESKTOP" == *"X-Cinnamon"* ]];then
 #     if [[ "$(LANG=C some Command)" == "true" ]];then #or if some Command &>/dev/null;then # if command response exit 0
 #       echo "true"
@@ -58,14 +58,17 @@ toggle_state() {
 #         some command
 #         exitCode=$?
 #     fi
-#   elif [[ "$XDG_CURRENT_DESKTOP" == *"XFCE"* ]];then
-#     if [[ "$new_state" == "true" ]];then
-#         some command
-#         exitCode=$?
-#     else
-#         some command
-#         exitCode=$?
-#     fi
+  if [ -n "$(grep SHMC  $HOME/.config/xfce4/xfconf/xfce-perchannel-xml/xfwm4.xml)" ];then
+    if [[ "$new_state" == "true" ]];then
+        xfconf-query -c xfwm4 -p /general/button_layout -s "CMH|SO"
+        exitCode=$?
+    else
+        xfconf-query -c xfwm4 -p /general/button_layout -s "O|SHMC"
+        exitCode=$?
+    fi
+    export TEXTDOMAINDIR="/usr/share/locale"
+    export TEXTDOMAIN=biglinux-settings
+    sleep 5 | zenity --progress --title='grub' --text=$"Applying, please wait..." --pulsate --auto-close --no-cancel
 #   elif [[ "$XDG_CURRENT_DESKTOP" == *"Cinnamon"* ]] || [[ "$XDG_CURRENT_DESKTOP" == *"X-Cinnamon"* ]];then
 #     if [[ "$new_state" == "true" ]];then
 #         some command
@@ -74,8 +77,8 @@ toggle_state() {
 #         some command
 #         exitCode=$?
 #     fi
-    exit $exitCode
   fi
+  exit $exitCode
 }
 
 # Executes the function based on the parameter
