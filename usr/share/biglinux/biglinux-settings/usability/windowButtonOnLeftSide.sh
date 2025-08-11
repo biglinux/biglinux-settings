@@ -58,7 +58,7 @@ toggle_state() {
 #         some command
 #         exitCode=$?
 #     fi
-  if [ -n "$(grep SHMC  $HOME/.config/xfce4/xfconf/xfce-perchannel-xml/xfwm4.xml)" ];then
+  elif [ -n "$(grep SHMC  $HOME/.config/xfce4/xfconf/xfce-perchannel-xml/xfwm4.xml)" ];then
     if [[ "$new_state" == "true" ]];then
         xfconf-query -c xfwm4 -p /general/button_layout -s "CMH|SO"
         exitCode=$?
