@@ -117,13 +117,13 @@ class SystemSettingsWindow(Adw.ApplicationWindow):
             "numLock"
         )
 
-        # indexFiles
-        self.indexFiles_switch = self.create_switch_with_script(
-            group,
-            _("Index Files"),
-            _("Baloo, high storage I/O consumption."),
-            "indexFiles"
-        )
+        # # indexFiles
+        # self.indexFiles_switch = self.create_switch_with_script(
+        #     group,
+        #     _("Index Files"),
+        #     _("Baloo, high storage I/O consumption."),
+        #     "indexFiles"
+        # )
 
         # windowButtonOnLeftSide
         self.windowButtonOnLeftSide_switch = self.create_switch_with_script(
