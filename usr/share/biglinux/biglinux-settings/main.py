@@ -9,8 +9,11 @@ import subprocess
 import os
 import locale
 import gettext
+from system_usability_page import SystemUsabilityPage
+from preload_page import PreloadPage
+# from xpto_page import XPTOPage
 
-# Configuração do gettext (mantém igual)
+# Set up gettext for application localization.
 DOMAIN = 'biglinux-settings'
 LOCALE_DIR = '/usr/share/locale'
 
@@ -23,288 +26,130 @@ gettext.textdomain(DOMAIN)
 _ = gettext.gettext
 
 class BiglinuxSettingsApp(Adw.Application):
+    """The main application class."""
     def __init__(self):
-        super().__init__(application_id='biglinux-settings')
+        super().__init__(application_id='org.biglinux.biglinux-settings')
+
+        # Set the color scheme to follow the system's preference (light/dark).
+        # This prevents Adwaita from complaining about legacy GTK settings.
+        style_manager = Adw.StyleManager.get_default()
+        style_manager.set_color_scheme(Adw.ColorScheme.DEFAULT)
+
         self.connect('activate', self.on_activate)
 
     def on_activate(self, app):
-        self.window = SystemSettingsWindow(application=app)
+        """Called when the application is activated."""
+        # Use the CustomWindow class which includes the ToastOverlay
+        self.window = CustomWindow(application=app)
         self.window.present()
 
 class SystemSettingsWindow(Adw.ApplicationWindow):
+    """The main window for the application, containing all UI elements."""
     def __init__(self, **kwargs):
         super().__init__(**kwargs)
 
-        # Configurações da janela
+        # Window configuration
         self.set_title(_("BigLinux Settings"))
-        self.set_default_size(600, 700)
+        self.set_default_size(600, 800)
 
-        # Dicionário para mapear switches aos scripts
-        self.switch_scripts = {}
+        # Load custom CSS for styling
+        self.load_css()
 
-        # Layout principal
+        # Build the user interface
         self.setup_ui()
 
+    def load_css(self):
+        """Loads custom CSS for styling widgets like status indicators."""
+        provider = Gtk.CssProvider()
+        css = """
+        preferencesgroup .heading {
+            font-size: 1.3rem;
+        }
+        .status-indicator {
+            min-width: 16px;
+            min-height: 16px;
+            border-radius: 8px;
+            margin: 0 8px;
+        }
+        .status-on {
+            background-color: @success_color;
+        }
+        .status-off {
+            background-color: @error_color;
+        }
+        .status-unavailable {
+            background-color: @insensitive_fg_color;
+        }
+        """
+        provider.load_from_string(css)
+        Gtk.StyleContext.add_provider_for_display(
+            self.get_display(), provider, Gtk.STYLE_PROVIDER_PRIORITY_APPLICATION
+        )
+
     def setup_ui(self):
-        # Container principal
+        """Constructs the main UI layout and populates it with widgets."""
         main_box = Gtk.Box(orientation=Gtk.Orientation.VERTICAL)
         self.set_content(main_box)
 
-        # Header bar
         header_bar = Adw.HeaderBar()
-        header_bar.set_title_widget(Adw.WindowTitle(title=_("BigLinux Settings")))
         main_box.append(header_bar)
 
-        # ScrolledWindow para conteúdo
-        scrolled = Gtk.ScrolledWindow()
-        scrolled.set_policy(Gtk.PolicyType.NEVER, Gtk.PolicyType.AUTOMATIC)
-        scrolled.set_vexpand(True)
-        main_box.append(scrolled)
+        # ViewStack to contain the different settings pages
+        view_stack = Adw.ViewStack()
+        main_box.append(view_stack)
 
-        # Container de conteúdo
-        content_box = Gtk.Box(orientation=Gtk.Orientation.VERTICAL, spacing=20)
-        content_box.set_margin_top(20)
-        content_box.set_margin_bottom(20)
-        content_box.set_margin_start(20)
-        content_box.set_margin_end(20)
-        scrolled.set_child(content_box)
+        # ViewSwitcher to control the ViewStack, placed in the HeaderBar
+        view_switcher = Adw.ViewSwitcher()
+        view_switcher.set_stack(view_stack)
+        header_bar.set_title_widget(view_switcher)
 
-        # Grupos de configurações
-        self.create_usability_group(content_box)
-        self.create_system_group(content_box)
-        # self.create_example_group(content_box)
+        # Page creation
+        system_usability_page = self.create_system_usability_page()
+        view_stack.add_titled_with_icon(system_usability_page, "system", _("System Tweaks"), "preferences-system-symbolic")
 
-        # Sincronizar estados após criar todos os switches
-        self.sync_all_switches()
+        preload_page = self.create_preload_page()
+        view_stack.add_titled_with_icon(preload_page, "preload", _("PreLoad"), "drive-harddisk-symbolic")
 
-    def create_switch_with_script(self, parent_group, title, subtitle, script_name):
-        """Cria um switch associado a um script"""
-        row = Adw.ActionRow()
-        row.set_title(title)
-        row.set_subtitle(subtitle)
+        # xpto_page = self.create_xpto_page()
+        # view_stack.add_titled_with_icon(xpto_page, "xpto", _("XPTO Settings"), "audio-card-symbolic")
 
-        switch = Gtk.Switch()
-        switch.set_valign(Gtk.Align.CENTER)
+    def create_system_usability_page(self):
+        """Builds the page for system tweaks and checks."""
+        return SystemUsabilityPage(self)
 
-        # Pegar o script_group do grupo pai
-        script_group = getattr(parent_group, 'script_group', 'default')
+    def create_preload_page(self):
+        return PreloadPage(self)
 
-        # Associar o script ao switch
-        script_path = os.path.join(script_group, f"{script_name}.sh")
-        self.switch_scripts[switch] = script_path
+    # def create_xpto_page(self):
+    #     """Builds the page for xpto by instantiating the external class."""
+    #     return XPTOPage(self)
 
-        # Conectar callback
-        switch.connect("state-set", self.on_switch_changed)
+class CustomWindow(SystemSettingsWindow):
+    """A subclass of the main window that wraps its content in an Adw.ToastOverlay.
+    This is necessary for the `show_toast` method to work correctly."""
+    def __init__(self, **kwargs):
+        # O ToastOverlay precisa envolver o conteúdo principal.
+        self.toast_overlay = Adw.ToastOverlay()
 
-        row.add_suffix(switch)
-        parent_group.add(row)
+        # Call the parent's __init__ which builds the UI
+        super().__init__(**kwargs)
 
-        return switch
-
-    def create_usability_group(self, parent):
-        """Grupo de configurações de aparência"""
-        group = Adw.PreferencesGroup()
-        group.set_title(_("Usability"))
-        group.script_group = "usability"
-        group.set_description(_("Visual system settings"))
-        parent.append(group)
-
-        # numLock
-        self.numLock_switch = self.create_switch_with_script(
-            group,
-            _("NumLock"),
-            _("Initial NumLock state. Ignored if autologin is enabled."),
-            "numLock"
-        )
-
-        # # indexFiles
-        # self.indexFiles_switch = self.create_switch_with_script(
-        #     group,
-        #     _("Index Files"),
-        #     _("Baloo, high storage I/O consumption."),
-        #     "indexFiles"
-        # )
-
-        # windowButtonOnLeftSide
-        self.windowButtonOnLeftSide_switch = self.create_switch_with_script(
-            group,
-            _("Window Button On Left Side"),
-            _("Maximize, minimize, and close buttons on the left side of the window."),
-            "windowButtonOnLeftSide"
-        )
-
-        # sshStart
-        self.sshStart_switch = self.create_switch_with_script(
-            group,
-            _("SSH"),
-            _("Enable remote access via ssh until next boot."),
-            "sshStart"
-        )
-
-    def create_system_group(self, parent):
-        """Grupo de configurações do sistema"""
-        group = Adw.PreferencesGroup()
-        group.set_title(_("System"))
-        group.script_group = "system"
-        group.set_description(_("General system settings"))
-        parent.append(group)
-
-        # sshEnable
-        self.sshEnable_switch = self.create_switch_with_script(
-            group,
-            _("SSH on Boot"),
-            _("Turn on ssh remote access at boot."),
-            "sshEnable"
-        )
-        # fastGrub
-        self.fastGrub_enable_switch = self.create_switch_with_script(
-            group,
-            _("Fast Grub"),
-            _("Decreases grub display time."),
-            "fastGrub"
-        )
-
-        # bigMount
-        self.bigMount_enable_switch = self.create_switch_with_script(
-            group,
-            _("Auto-mount Partitions"),
-            _("Auto mount partitions in internal disks on boot."),
-            "bigMount"
-        )
-
-    # def create_example_group(self, parent):
-    #     """Grupo de exemplo"""
-    #     group = Adw.PreferencesGroup()
-    #     group.set_title(_("Example"))
-    #     group.script_group = "example" # scripts folder
-    #     group.set_description(_("Example group description"))
-    #     parent.append(group)
-    #
-    #     # Example
-    #     self.example_switch = self.create_switch_with_script(
-    #         group,
-    #         _("Example Name"),
-    #         _("Example description."),
-    #         "example" # name of the .sh file
-    #     )
-
-    def check_script_state(self, script_path):
-        """Verifica o estado atual usando o script"""
-        if not os.path.exists(script_path):
-            print(_("Script not found: {}").format(script_path))
-            return False
-
-        try:
-            result = subprocess.run([script_path, "check"],
-            capture_output=True,
-            text=True,
-            timeout=10)
-
-            if result.returncode == 0:
-                output = result.stdout.strip().lower()
-                return output == "true"
-            else:
-                print(_("Error checking state: {}").format(result.stderr))
-                return False
-
-        except subprocess.TimeoutExpired:
-            print(_("Script timeout: {}").format(script_path))
-            return False
-        except Exception as e:
-            print(_("Error running script {}: {}").format(script_path, e))
-            return False
-
-    def toggle_script_state(self, script_path, new_state):
-        """Altera o estado usando o script"""
-        if not os.path.exists(script_path):
-            error_msg = _("Script not found: {}").format(script_path)
-            print(f"ERROR: {error_msg}")
-            return False
-
-        try:
-            state_str = "true" if new_state else "false"
-            result = subprocess.run([script_path, "toggle", state_str],
-                                capture_output=True,
-                                text=True,
-                                timeout=30)
-
-            if result.returncode == 0:
-                print(_("State changed successfully"))
-                if result.stdout.strip():
-                    print(_("Script output: {}").format(result.stdout.strip()))
-                return True
-            else:
-                # Exit code != 0 indica falha
-                error_msg = _("Script failed with exit code: {}").format(result.returncode)
-                print(f"ERROR: {error_msg}")
-
-                if result.stderr.strip():
-                    print(f"ERROR: Script stderr: {result.stderr.strip()}")
-
-                if result.stdout.strip():
-                    print(f"ERROR: Script stdout: {result.stdout.strip()}")
-
-                return False
-
-        except subprocess.TimeoutExpired:
-            error_msg = _("Script timeout: {}").format(script_path)
-            print(f"ERROR: {error_msg}")
-            return False
-        except Exception as e:
-            error_msg = _("Error running script {}: {}").format(script_path, e)
-            print(f"ERROR: {error_msg}")
-            return False
-
-    def sync_all_switches(self):
-        """Sincroniza todos os switches com o estado atual do sistema"""
-        for switch, script_path in self.switch_scripts.items():
-            # Bloquear temporariamente o sinal para evitar execução do callback
-            switch.handler_block_by_func(self.on_switch_changed)
-
-            current_state = self.check_script_state(script_path)
-            switch.set_active(current_state)
-
-            # Desbloquear o sinal
-            switch.handler_unblock_by_func(self.on_switch_changed)
-
-            script_name = os.path.basename(script_path)
-            print(_("Switch {} synchronized: {}").format(script_name, current_state))
-
-    def on_switch_changed(self, switch, state):
-        """Callback chamado quando qualquer switch é alterado"""
-        script_path = self.switch_scripts.get(switch)
-
-        if script_path:
-            script_name = os.path.basename(script_path)
-            print(_("Changing {} to {}").format(script_name, "on" if state else "off"))
-
-            success = self.toggle_script_state(script_path, state)
-
-            if not success:
-                # CORREÇÃO: Bloquear temporariamente o sinal para evitar loop infinito
-                switch.handler_block_by_func(self.on_switch_changed)
-
-                # Reverter o switch para a posição anterior
-                switch.set_active(not state)
-
-                # Desbloquear o sinal
-                switch.handler_unblock_by_func(self.on_switch_changed)
-
-                # Exibir erro no console
-                print(_("ERROR: Failed to change {} to {}").format(script_name, "on" if state else "off"))
-
-                # Mostrar toast com erro (opcional)
-                self.show_toast(_("Failed to change setting: {}").format(script_name))
-
-        return False
+        # Get the UI content built by the parent...
+        content = self.get_content()
+        # ...detach it from the window...
+        self.set_content(None)
+        # ...place it inside the ToastOverlay...
+        self.toast_overlay.set_child(content)
+        # ...and set the ToastOverlay as the new window content.
+        self.set_content(self.toast_overlay)
 
     def show_toast(self, message):
-        """Mostra uma notificação toast"""
-        toast = Adw.Toast()
-        toast.set_title(message)
-        toast.set_timeout(3)
+        """Overrides the parent method to ensure it adds toasts to its own overlay."""
+        toast = Adw.Toast(title=message, timeout=3)
+        self.toast_overlay.add_toast(toast)
 
 def main():
+    # SIMPLIFICATION: We only need one Application class.
     app = BiglinuxSettingsApp()
     return app.run()
 
