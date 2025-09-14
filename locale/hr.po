@@ -14,28 +14,32 @@ msgstr ""
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "X-Generator: attranslate\n"
-msgid "BigLinux Ajustes"
-msgstr "BigLinux Postavke"
-msgid "Desativar efeitos do desktop"
-msgstr "Onemogući efekte radne površine"
-msgid "Se estiver utilizando algum navegador, reinicie-o para aplicar as alterações."
-msgstr "Ako koristite neki preglednik, ponovno ga pokrenite kako biste primijenili promjene."
-msgid "Aceleração do navegador"
-msgstr "Ubrzanje preglednika"
-msgid "BTRFS sem fsync"
-msgstr "BTRFS bez fsync"
-msgid "Bloquear a edição da área de trabalho"
-msgstr "Blokiraj uređivanje radne površine"
-msgid "Ligar RGB do teclado"
-msgstr "Uključite RGB na tipkovnici"
-msgid "Ativar o NumLock ao ligar o sistema"
-msgstr "Aktivirajte NumLock prilikom pokretanja sustava"
-msgid "Modo Desenvolvedor"
-msgstr "Način programera"
-msgid "Rolagem do touchpad invertida"
-msgstr "Rolanje touchpada je obrnuto."
-msgid "Montar partições automaticamente"
-msgstr "Automatski montiraj particije"
+msgid "Applying, please wait..."
+msgstr "Primjena, molimo pričekajte..."
+msgid ""
+"GRUB updated successfully!\\n"
+"Restart your computer for it to take effect."
+msgstr ""
+"GRUB je uspješno ažuriran!\\n"
+"Ponovno pokrenite računalo da bi promjene stupile na snagu."
+msgid "An error occurred while updating GRUB."
+msgstr "Došlo je do pogreške prilikom ažuriranja GRUB-a."
+msgid "Already disabled. No changes made."
+msgstr "Već onemogućeno. Nema promjena."
+msgid "Limits updated successfully!"
+msgstr "Ograničenja su uspješno ažurirana!"
+msgid "An error occurred while updating Limits."
+msgstr "Došlo je do pogreške prilikom ažuriranja ograničenja."
+msgid "GRUB updated successfully!"
+msgstr "GRUB je uspješno ažuriran!"
+msgid "Aguarde..."
+msgstr "Molimo pričekajte..."
+msgid "Aplicando, Aguarde..."
+msgstr "Primjena, Molimo pričekajte..."
+msgid "Botões da janela no lado esquerdo"
+msgstr "Gumbi prozora s lijeve strane"
+msgid "Ocultar Gerenciador de Boot (GRUB)"
+msgstr "Ocultar upravljač pokretanja (GRUB)"
 msgid "Grub"
 msgstr "Grub"
 msgid "Cuidado, você perderá acesso aos SnapShots. Tem certeza que deseja ocultar o grub?"
@@ -56,18 +60,30 @@ msgid "Concluído!"
 msgstr "Završeno!"
 msgid "Ok"
 msgstr "U redu"
-msgid "Ocultar Gerenciador de Boot (GRUB)"
-msgstr "Ocultar upravljač pokretanja (GRUB)"
+msgid "Ativar o NumLock ao ligar o sistema"
+msgstr "Aktivirajte NumLock prilikom pokretanja sustava"
+msgid "Montar partições automaticamente"
+msgstr "Automatski montiraj particije"
+msgid "Modo Desenvolvedor"
+msgstr "Način programera"
 msgid "Rolagem do mouse invertida"
 msgstr "Inverzija pomicanja miša"
-msgid "Aguarde..."
-msgstr "Molimo pričekajte..."
-msgid "Aplicando, Aguarde..."
-msgstr "Primjena, Molimo pričekajte..."
-msgid "Botões da janela no lado esquerdo"
-msgstr "Gumbi prozora s lijeve strane"
+msgid "Ligar RGB do teclado"
+msgstr "Uključite RGB na tipkovnici"
+msgid "Rolagem do touchpad invertida"
+msgstr "Rolanje touchpada je obrnuto."
 msgid "Indexar arquivos"
 msgstr "Indexing files"
+msgid "Bloquear a edição da área de trabalho"
+msgstr "Blokiraj uređivanje radne površine"
+msgid "Desativar efeitos do desktop"
+msgstr "Onemogući efekte radne površine"
+msgid "Se estiver utilizando algum navegador, reinicie-o para aplicar as alterações."
+msgstr "Ako koristite neki preglednik, ponovno ga pokrenite kako biste primijenili promjene."
+msgid "Aceleração do navegador"
+msgstr "Ubrzanje preglednika"
+msgid "BTRFS sem fsync"
+msgstr "BTRFS bez fsync"
 msgid "Abrir"
 msgstr "Otvoriti"
 msgid "Procurar..."
@@ -84,25 +100,23 @@ msgid "Escolher programas a serem carregados na memória durante boot"
 msgstr "Odabrati programe koji će se učitati u memoriju tijekom pokretanja."
 msgid "Usabilidade"
 msgstr "Upotrebljivost"
-msgid "Applying, please wait..."
-msgstr "Primjena, molimo pričekajte..."
-msgid "GRUB updated successfully!"
-msgstr "GRUB je uspješno ažuriran!"
-msgid "An error occurred while updating GRUB."
-msgstr "Došlo je do pogreške prilikom ažuriranja GRUB-a."
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 41
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 54
-msgid "BigLinux Settings"
+msgid "BigLinux Ajustes"
 msgstr "BigLinux Postavke"
 # 
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 107
 msgid "Usability"
 msgstr "Upotrebljivost"
 # 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 81
-msgid "Visual system settings"
-msgstr "Postavke vizualnog sustava"
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_usability_page.py, line: 104
+msgid "User and Visual system settings"
+msgstr "Postavke korisnika i vizualnog sustava"
+# 
+# #-#-#-#-#  biglinux-settings.pot (biglinux-settings)  #-#-#-#-#
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_usability_page.py, line: 111
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/preload_page.py, line: 112
+msgid "Reload all statuses"
+msgstr "Ponovno učitaj sve statuse"
 # 
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 114
 msgid "NumLock"
@@ -111,14 +125,6 @@ msgstr "NumLock"
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 115
 msgid "Initial NumLock state. Ignored if autologin is enabled."
 msgstr "Početno stanje NumLocka. Ignorira se ako je omogućena automatska prijava."
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 123
-msgid "Index Files"
-msgstr "Indeksne datoteke"
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 124
-msgid "Baloo, high storage I/O consumption."
-msgstr "Baloo, visoka potrošnja I/O pohrane."
 # 
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 131
 msgid "Window Button On Left Side"
@@ -168,35 +174,111 @@ msgstr "Automatsko montiranje particija"
 msgid "Auto mount partitions in internal disks on boot."
 msgstr "Automatski montiraj particije na unutarnjim diskovima pri pokretanju."
 # 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 157
-msgid "Example"
-msgstr "Primjer"
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_usability_page.py, line: 169
+msgid "Meltdown Mitigations off"
+msgstr "Mitigacije za Meltdown isključene"
 # 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 158
-msgid "Example group description"
-msgstr "Primjer opisa grupe"
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_usability_page.py, line: 170
+#, python-brace-format
+msgid ""
+"Using mitigations=off will make your machine faster and less secure! For more information see: <a "
+"href='{link}'>{link}</a>"
+msgstr ""
+"Korištenje mitigacija=isključeno učinit će vaš uređaj bržim, ali manje sigurnim! Za više "
+"informacija pogledajte: <a href='{link}'>{link}</a>"
 # 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 164
-msgid "Example Name"
-msgstr "Primjer Ime"
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_usability_page.py, line: 176
+msgid "noWatchdog"
+msgstr "noWatchdog"
 # 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 165
-msgid "Example description."
-msgstr "Primjer opisa."
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_usability_page.py, line: 177
+msgid ""
+"Disables the hardware watchdog and TSC clocksource systems, maintaining high performance but "
+"removing automatic protections against system crashes."
+msgstr ""
+"Onemogućuje hardverski watchdog i TSC izvor vremena, održavajući visoke performanse, ali "
+"uklanjajući automatske zaštite od rušenja sustava."
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_usability_page.py, line: 190
+msgid "Wifi"
+msgstr "Wifi"
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_usability_page.py, line: 191
+msgid "Wifi On"
+msgstr "Wifi Uključen"
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_usability_page.py, line: 197
+msgid "Bluetooth"
+msgstr "Bluetooth"
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_usability_page.py, line: 198
+msgid "Bluetooth On."
+msgstr "Bluetooth uključen."
+# 
+# #-#-#-#-#  biglinux-settings.pot (biglinux-settings)  #-#-#-#-#
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_usability_page.py, line: 206
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/preload_page.py, line: 165
+msgid "Unavailable: script not found."
+msgstr "Nedostupno: skripta nije pronađena."
 # 
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 173
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 199
 msgid "Script not found: {}"
 msgstr "Skripta nije pronađena: {}"
 # 
+# #-#-#-#-#  biglinux-settings.pot (biglinux-settings)  #-#-#-#-#
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_usability_page.py, line: 218
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/preload_page.py, line: 177
+msgid "Enabled"
+msgstr "Omogućeno"
+# 
+# #-#-#-#-#  biglinux-settings.pot (biglinux-settings)  #-#-#-#-#
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_usability_page.py, line: 220
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/preload_page.py, line: 179
+msgid "Disabled"
+msgstr "Onemogućeno"
+# 
+# #-#-#-#-#  biglinux-settings.pot (biglinux-settings)  #-#-#-#-#
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_usability_page.py, line: 223
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/preload_page.py, line: 182
+msgid "Enabled by system configuration (e.g., Real-Time Kernel) and cannot be changed here."
+msgstr "Omogućeno konfiguracijom sustava (npr. Real-Time Kernel) i ne može se promijeniti ovdje."
+# 
+# #-#-#-#-#  biglinux-settings.pot (biglinux-settings)  #-#-#-#-#
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_usability_page.py, line: 225
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/preload_page.py, line: 184
+msgid "Unavailable: script returned invalid output."
+msgstr "Nedostupno: skripta je vratila nevažeći izlaz."
+# 
+# #-#-#-#-#  biglinux-settings.pot (biglinux-settings)  #-#-#-#-#
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_usability_page.py, line: 226
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/preload_page.py, line: 185
+msgid "Invalid output from script {}: {}"
+msgstr "Nevažeći izlaz iz skripte {}: {}"
+# 
+# #-#-#-#-#  biglinux-settings.pot (biglinux-settings)  #-#-#-#-#
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_usability_page.py, line: 229
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/preload_page.py, line: 188
+msgid "Unavailable: script returned an error."
+msgstr "Nedostupno: skripta je vratila pogrešku."
+# 
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 184
 msgid "Error checking state: {}"
 msgstr "Provjera pogreške stanja: {}"
 # 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 190
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 217
-msgid "Script timeout: {}"
-msgstr "Izdavanje skripte isteklo: {}"
+# #-#-#-#-#  biglinux-settings.pot (biglinux-settings)  #-#-#-#-#
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_usability_page.py, line: 233
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/preload_page.py, line: 192
+msgid "Unavailable: failed to run script."
+msgstr "Nedostupno: nije uspjelo pokretanje skripte."
 # 
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 193
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 220
@@ -215,9 +297,21 @@ msgstr "Izlaz skripte: {}"
 msgid "Script failed with exit code: {}"
 msgstr "Skripta je neuspješno završila s izlaznim kodom: {}"
 # 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 190
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 217
+msgid "Script timeout: {}"
+msgstr "Izdavanje skripte isteklo: {}"
+# 
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 236
 msgid "Switch {} synchronized: {}"
 msgstr "Prebaci {} sinkronizirano: {}"
+# 
+# #-#-#-#-#  biglinux-settings.pot (biglinux-settings)  #-#-#-#-#
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_usability_page.py, line: 327
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/preload_page.py, line: 278
+msgid "Indicator {} synchronized: {}"
+msgstr "Pokazatelj {} sinkroniziran: {}"
 # 
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 244
 msgid "Changing {} to {}"
@@ -230,3 +324,52 @@ msgstr "GREŠKA: Nije moguće promijeniti {} u {}"
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 274
 msgid "Failed to change setting: {}"
 msgstr "Neuspješno promijenjena postavka: {}"
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 41
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 54
+msgid "BigLinux Settings"
+msgstr "BigLinux Postavke"
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 108
+msgid "System Tweaks"
+msgstr "Sistemske prilagodbe"
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 111
+msgid "PreLoad"
+msgstr "Preučavanje"
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/preload_page.py, line: 103
+msgid "Preload"
+msgstr "Predmemoriranje"
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/preload_page.py, line: 105
+msgid "Preload applications into memory to open them faster."
+msgstr "Preuzmite aplikacije u memoriju kako biste ih brže otvorili."
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/preload_page.py, line: 120
+msgid "Firefox"
+msgstr "Firefox"
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/preload_page.py, line: 126
+msgid "Brave"
+msgstr "Hrabri"
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/preload_page.py, line: 132
+msgid "Chrome"
+msgstr "Chrome"
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/preload_page.py, line: 138
+msgid "Chromium"
+msgstr "Kromium"
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/preload_page.py, line: 144
+msgid "Palemoon"
+msgstr "Palemoon"
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/preload_page.py, line: 150
+msgid "Opera"
+msgstr "Opera"
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/preload_page.py, line: 156
+msgid "Libreoffice"
+msgstr "LibreOffice"

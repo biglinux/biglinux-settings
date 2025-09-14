@@ -15,50 +15,50 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 
 #
-msgid "BigLinux Ajustes"
-msgstr "BigLinux Ajustes"
-
-#
-msgid "Desativar efeitos do desktop"
-msgstr "Desativar efeitos do desktop"
+msgid "Applying, please wait..."
+msgstr "Applying, please wait..."
 
 #
 msgid ""
-"Se estiver utilizando algum navegador, reinicie-o para aplicar as alterações."
+"GRUB updated successfully!\\nRestart your computer for it to take effect."
 msgstr ""
-"Se estiver utilizando algum navegador, reinicie-o para aplicar as alterações."
+"GRUB updated successfully!\\nRestart your computer for it to take effect."
 
 #
-msgid "Aceleração do navegador"
-msgstr "Aceleração do navegador"
+msgid "An error occurred while updating GRUB."
+msgstr "An error occurred while updating GRUB."
 
 #
-msgid "BTRFS sem fsync"
-msgstr "BTRFS sem fsync"
+msgid "Already disabled. No changes made."
+msgstr "Already disabled. No changes made."
 
 #
-msgid "Bloquear a edição da área de trabalho"
-msgstr "Bloquear a edição da área de trabalho"
+msgid "Limits updated successfully!"
+msgstr "Limits updated successfully!"
 
 #
-msgid "Ligar RGB do teclado"
-msgstr "Ligar RGB do teclado"
+msgid "An error occurred while updating Limits."
+msgstr "An error occurred while updating Limits."
 
 #
-msgid "Ativar o NumLock ao ligar o sistema"
-msgstr "Ativar o NumLock ao ligar o sistema"
+msgid "GRUB updated successfully!"
+msgstr "GRUB updated successfully!"
 
 #
-msgid "Modo Desenvolvedor"
-msgstr "Modo Desenvolvedor"
+msgid "Aguarde..."
+msgstr "Aguarde..."
 
 #
-msgid "Rolagem do touchpad invertida"
-msgstr "Rolagem do touchpad invertida"
+msgid "Aplicando, Aguarde..."
+msgstr "Aplicando, Aguarde..."
 
 #
-msgid "Montar partições automaticamente"
-msgstr "Montar partições automaticamente"
+msgid "Botões da janela no lado esquerdo"
+msgstr "Botões da janela no lado esquerdo"
+
+#
+msgid "Ocultar Gerenciador de Boot (GRUB)"
+msgstr "Ocultar Gerenciador de Boot (GRUB)"
 
 #
 msgid "Grub"
@@ -105,28 +105,54 @@ msgid "Ok"
 msgstr "Ok"
 
 #
-msgid "Ocultar Gerenciador de Boot (GRUB)"
-msgstr "Ocultar Gerenciador de Boot (GRUB)"
+msgid "Ativar o NumLock ao ligar o sistema"
+msgstr "Ativar o NumLock ao ligar o sistema"
+
+#
+msgid "Montar partições automaticamente"
+msgstr "Montar partições automaticamente"
+
+#
+msgid "Modo Desenvolvedor"
+msgstr "Modo Desenvolvedor"
 
 #
 msgid "Rolagem do mouse invertida"
 msgstr "Rolagem do mouse invertida"
 
 #
-msgid "Aguarde..."
-msgstr "Aguarde..."
+msgid "Ligar RGB do teclado"
+msgstr "Ligar RGB do teclado"
 
 #
-msgid "Aplicando, Aguarde..."
-msgstr "Aplicando, Aguarde..."
-
-#
-msgid "Botões da janela no lado esquerdo"
-msgstr "Botões da janela no lado esquerdo"
+msgid "Rolagem do touchpad invertida"
+msgstr "Rolagem do touchpad invertida"
 
 #
 msgid "Indexar arquivos"
 msgstr "Indexar arquivos"
+
+#
+msgid "Bloquear a edição da área de trabalho"
+msgstr "Bloquear a edição da área de trabalho"
+
+#
+msgid "Desativar efeitos do desktop"
+msgstr "Desativar efeitos do desktop"
+
+#
+msgid ""
+"Se estiver utilizando algum navegador, reinicie-o para aplicar as alterações."
+msgstr ""
+"Se estiver utilizando algum navegador, reinicie-o para aplicar as alterações."
+
+#
+msgid "Aceleração do navegador"
+msgstr "Aceleração do navegador"
+
+#
+msgid "BTRFS sem fsync"
+msgstr "BTRFS sem fsync"
 
 #
 msgid "Abrir"
@@ -161,187 +187,370 @@ msgid "Usabilidade"
 msgstr "Usabilidade"
 
 #
-msgid "Applying, please wait..."
-msgstr "Applying, please wait..."
+msgid "BigLinux Ajustes"
+msgstr "BigLinux Ajustes"
 
 #
-msgid "GRUB updated successfully!"
-msgstr "GRUB updated successfully!"
-
-#
-msgid "An error occurred while updating GRUB."
-msgstr "An error occurred while updating GRUB."
-
-#
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 39
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 55
-msgid "BigLinux Settings"
-msgstr "BigLinux Settings"
-
-#
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 107
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_usability_page.py, line: 102
 msgid "Usability"
 msgstr "Usability"
 
 #
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 109
-msgid "Visual system settings"
-msgstr "Visual system settings"
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_usability_page.py, line: 104
+msgid "User and Visual system settings"
+msgstr "User and Visual system settings"
 
 #
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 115
+# #-#-#-#-#  biglinux-settings.pot (biglinux-settings)  #-#-#-#-#
+#
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_usability_page.py, line: 111
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/preload_page.py, line: 112
+msgid "Reload all statuses"
+msgstr "Reload all statuses"
+
+#
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_usability_page.py, line: 119
 msgid "NumLock"
 msgstr "NumLock"
 
 #
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 116
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_usability_page.py, line: 120
 msgid "Initial NumLock state. Ignored if autologin is enabled."
 msgstr "Initial NumLock state. Ignored if autologin is enabled."
 
 #
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 123
-msgid "Index Files"
-msgstr "Index Files"
-
-#
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 124
-msgid "Baloo, high storage I/O consumption."
-msgstr "Baloo, high storage I/O consumption."
-
-#
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 131
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_usability_page.py, line: 126
 msgid "Window Button On Left Side"
 msgstr "Window Button On Left Side"
 
 #
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 132
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_usability_page.py, line: 127
 msgid "Maximize, minimize, and close buttons on the left side of the window."
 msgstr "Maximize, minimize, and close buttons on the left side of the window."
 
 #
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 139
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_usability_page.py, line: 133
 msgid "SSH"
 msgstr "SSH"
 
 #
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 140
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_usability_page.py, line: 134
 msgid "Enable remote access via ssh until next boot."
 msgstr "Enable remote access via ssh until next boot."
 
 #
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 147
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_usability_page.py, line: 140
 msgid "System"
 msgstr "System"
 
 #
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 149
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_usability_page.py, line: 142
 msgid "General system settings"
 msgstr "General system settings"
 
 #
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 155
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_usability_page.py, line: 147
 msgid "SSH on Boot"
 msgstr "SSH on Boot"
 
 #
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 156
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_usability_page.py, line: 148
 msgid "Turn on ssh remote access at boot."
 msgstr "Turn on ssh remote access at boot."
 
 #
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 162
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_usability_page.py, line: 154
 msgid "Fast Grub"
 msgstr "Fast Grub"
 
 #
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 163
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_usability_page.py, line: 155
 msgid "Decreases grub display time."
 msgstr "Decreases grub display time."
 
 #
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 170
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_usability_page.py, line: 161
 msgid "Auto-mount Partitions"
 msgstr "Auto-mount Partitions"
 
 #
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 171
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_usability_page.py, line: 162
 msgid "Auto mount partitions in internal disks on boot."
 msgstr "Auto mount partitions in internal disks on boot."
 
 #
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 178
-msgid "Example"
-msgstr "Example"
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_usability_page.py, line: 169
+msgid "Meltdown Mitigations off"
+msgstr "Meltdown Mitigations off"
 
 #
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 180
-msgid "Example group description"
-msgstr "Example group description"
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_usability_page.py, line: 170
+#, python-brace-format
+msgid ""
+"Using mitigations=off will make your machine faster and less secure! For "
+"more information see: <a href='{link}'>{link}</a>"
+msgstr ""
+"Using mitigations=off will make your machine faster and less secure! For "
+"more information see: <a href='{link}'>{link}</a>"
 
 #
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 186
-msgid "Example Name"
-msgstr "Example Name"
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_usability_page.py, line: 176
+msgid "noWatchdog"
+msgstr "noWatchdog"
 
 #
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 187
-msgid "Example description."
-msgstr "Example description."
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_usability_page.py, line: 177
+msgid ""
+"Disables the hardware watchdog and TSC clocksource systems, maintaining high "
+"performance but removing automatic protections against system crashes."
+msgstr ""
+"Disables the hardware watchdog and TSC clocksource systems, maintaining high "
+"performance but removing automatic protections against system crashes."
 
 #
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 194
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 220
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_usability_page.py, line: 190
+msgid "Wifi"
+msgstr "Wifi"
+
+#
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_usability_page.py, line: 191
+msgid "Wifi On"
+msgstr "Wifi On"
+
+#
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_usability_page.py, line: 197
+msgid "Bluetooth"
+msgstr "Bluetooth"
+
+#
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_usability_page.py, line: 198
+msgid "Bluetooth On."
+msgstr "Bluetooth On."
+
+#
+# #-#-#-#-#  biglinux-settings.pot (biglinux-settings)  #-#-#-#-#
+#
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_usability_page.py, line: 206
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/preload_page.py, line: 165
+msgid "Unavailable: script not found."
+msgstr "Unavailable: script not found."
+
+#
+# #-#-#-#-#  biglinux-settings.pot (biglinux-settings)  #-#-#-#-#
+#
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_usability_page.py, line: 207
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_usability_page.py, line: 241
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/preload_page.py, line: 166
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/preload_page.py, line: 200
 msgid "Script not found: {}"
 msgstr "Script not found: {}"
 
 #
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 207
+# #-#-#-#-#  biglinux-settings.pot (biglinux-settings)  #-#-#-#-#
+#
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_usability_page.py, line: 218
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/preload_page.py, line: 177
+msgid "Enabled"
+msgstr "Enabled"
+
+#
+# #-#-#-#-#  biglinux-settings.pot (biglinux-settings)  #-#-#-#-#
+#
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_usability_page.py, line: 220
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/preload_page.py, line: 179
+msgid "Disabled"
+msgstr "Disabled"
+
+#
+# #-#-#-#-#  biglinux-settings.pot (biglinux-settings)  #-#-#-#-#
+#
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_usability_page.py, line: 223
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/preload_page.py, line: 182
+msgid ""
+"Enabled by system configuration (e.g., Real-Time Kernel) and cannot be "
+"changed here."
+msgstr ""
+"Enabled by system configuration (e.g., Real-Time Kernel) and cannot be "
+"changed here."
+
+#
+# #-#-#-#-#  biglinux-settings.pot (biglinux-settings)  #-#-#-#-#
+#
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_usability_page.py, line: 225
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/preload_page.py, line: 184
+msgid "Unavailable: script returned invalid output."
+msgstr "Unavailable: script returned invalid output."
+
+#
+# #-#-#-#-#  biglinux-settings.pot (biglinux-settings)  #-#-#-#-#
+#
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_usability_page.py, line: 226
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/preload_page.py, line: 185
+msgid "Invalid output from script {}: {}"
+msgstr "Invalid output from script {}: {}"
+
+#
+# #-#-#-#-#  biglinux-settings.pot (biglinux-settings)  #-#-#-#-#
+#
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_usability_page.py, line: 229
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/preload_page.py, line: 188
+msgid "Unavailable: script returned an error."
+msgstr "Unavailable: script returned an error."
+
+#
+# #-#-#-#-#  biglinux-settings.pot (biglinux-settings)  #-#-#-#-#
+#
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_usability_page.py, line: 230
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/preload_page.py, line: 189
 msgid "Error checking state: {}"
 msgstr "Error checking state: {}"
 
 #
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 211
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 250
-msgid "Script timeout: {}"
-msgstr "Script timeout: {}"
+# #-#-#-#-#  biglinux-settings.pot (biglinux-settings)  #-#-#-#-#
+#
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_usability_page.py, line: 233
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/preload_page.py, line: 192
+msgid "Unavailable: failed to run script."
+msgstr "Unavailable: failed to run script."
 
 #
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 214
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 254
+# #-#-#-#-#  biglinux-settings.pot (biglinux-settings)  #-#-#-#-#
+#
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_usability_page.py, line: 234
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_usability_page.py, line: 275
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/preload_page.py, line: 193
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/preload_page.py, line: 234
 msgid "Error running script {}: {}"
 msgstr "Error running script {}: {}"
 
 #
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 232
+# #-#-#-#-#  biglinux-settings.pot (biglinux-settings)  #-#-#-#-#
+#
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_usability_page.py, line: 253
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/preload_page.py, line: 212
 msgid "State changed successfully"
 msgstr "State changed successfully"
 
 #
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 234
+# #-#-#-#-#  biglinux-settings.pot (biglinux-settings)  #-#-#-#-#
+#
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_usability_page.py, line: 255
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/preload_page.py, line: 214
 msgid "Script output: {}"
 msgstr "Script output: {}"
 
 #
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 238
+# #-#-#-#-#  biglinux-settings.pot (biglinux-settings)  #-#-#-#-#
+#
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_usability_page.py, line: 259
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/preload_page.py, line: 218
 msgid "Script failed with exit code: {}"
 msgstr "Script failed with exit code: {}"
 
 #
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 271
+# #-#-#-#-#  biglinux-settings.pot (biglinux-settings)  #-#-#-#-#
+#
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_usability_page.py, line: 271
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/preload_page.py, line: 230
+msgid "Script timeout: {}"
+msgstr "Script timeout: {}"
+
+#
+# #-#-#-#-#  biglinux-settings.pot (biglinux-settings)  #-#-#-#-#
+#
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_usability_page.py, line: 304
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/preload_page.py, line: 257
 msgid "Switch {} synchronized: {}"
 msgstr "Switch {} synchronized: {}"
 
 #
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 279
+# #-#-#-#-#  biglinux-settings.pot (biglinux-settings)  #-#-#-#-#
+#
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_usability_page.py, line: 327
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/preload_page.py, line: 278
+msgid "Indicator {} synchronized: {}"
+msgstr "Indicator {} synchronized: {}"
+
+#
+# #-#-#-#-#  biglinux-settings.pot (biglinux-settings)  #-#-#-#-#
+#
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_usability_page.py, line: 335
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/preload_page.py, line: 286
 msgid "Changing {} to {}"
 msgstr "Changing {} to {}"
 
 #
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 294
+# #-#-#-#-#  biglinux-settings.pot (biglinux-settings)  #-#-#-#-#
+#
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_usability_page.py, line: 348
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/preload_page.py, line: 299
 msgid "ERROR: Failed to change {} to {}"
 msgstr "ERROR: Failed to change {} to {}"
 
 #
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 297
+# #-#-#-#-#  biglinux-settings.pot (biglinux-settings)  #-#-#-#-#
+#
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_usability_page.py, line: 349
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/preload_page.py, line: 300
 msgid "Failed to change setting: {}"
 msgstr "Failed to change setting: {}"
+
+#
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 52
+msgid "BigLinux Settings"
+msgstr "BigLinux Settings"
+
+#
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 108
+msgid "System Tweaks"
+msgstr "System Tweaks"
+
+#
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 111
+msgid "PreLoad"
+msgstr "PreLoad"
+
+#
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/preload_page.py, line: 103
+msgid "Preload"
+msgstr "Preload"
+
+#
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/preload_page.py, line: 105
+msgid "Preload applications into memory to open them faster."
+msgstr "Preload applications into memory to open them faster."
+
+#
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/preload_page.py, line: 120
+msgid "Firefox"
+msgstr "Firefox"
+
+#
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/preload_page.py, line: 126
+msgid "Brave"
+msgstr "Brave"
+
+#
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/preload_page.py, line: 132
+msgid "Chrome"
+msgstr "Chrome"
+
+#
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/preload_page.py, line: 138
+msgid "Chromium"
+msgstr "Chromium"
+
+#
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/preload_page.py, line: 144
+msgid "Palemoon"
+msgstr "Palemoon"
+
+#
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/preload_page.py, line: 150
+msgid "Opera"
+msgstr "Opera"
+
+#
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/preload_page.py, line: 156
+msgid "Libreoffice"
+msgstr "Libreoffice"

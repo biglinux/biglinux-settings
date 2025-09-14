@@ -14,28 +14,32 @@ msgstr ""
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "X-Generator: attranslate\n"
-msgid "BigLinux Ajustes"
-msgstr "BigLinux Nastavení"
-msgid "Desativar efeitos do desktop"
-msgstr "Deaktivovat efekty plochy"
-msgid "Se estiver utilizando algum navegador, reinicie-o para aplicar as alterações."
-msgstr "Pokud používáte nějaký prohlížeč, restartujte jej, aby se změny projevily."
-msgid "Aceleração do navegador"
-msgstr "Zrychlení prohlížeče"
-msgid "BTRFS sem fsync"
-msgstr "BTRFS bez fsync"
-msgid "Bloquear a edição da área de trabalho"
-msgstr "Zablokovat úpravy plochy"
-msgid "Ligar RGB do teclado"
-msgstr "Zapnout RGB na klávesnici"
-msgid "Ativar o NumLock ao ligar o sistema"
-msgstr "Aktivovat NumLock při spuštění systému"
-msgid "Modo Desenvolvedor"
-msgstr "Režim vývojáře"
-msgid "Rolagem do touchpad invertida"
-msgstr "Rolování touchpadu je obrácené."
-msgid "Montar partições automaticamente"
-msgstr "Automaticky připojit oddíly"
+msgid "Applying, please wait..."
+msgstr "Aplikuji, prosím čekejte..."
+msgid ""
+"GRUB updated successfully!\\n"
+"Restart your computer for it to take effect."
+msgstr ""
+"GRUB byl úspěšně aktualizován!\\n"
+"Restartujte počítač, aby se změny projevily."
+msgid "An error occurred while updating GRUB."
+msgstr "Při aktualizaci GRUB došlo k chybě."
+msgid "Already disabled. No changes made."
+msgstr "Již zakázáno. Žádné změny nebyly provedeny."
+msgid "Limits updated successfully!"
+msgstr "Limity byly úspěšně aktualizovány!"
+msgid "An error occurred while updating Limits."
+msgstr "Při aktualizaci limitů došlo k chybě."
+msgid "GRUB updated successfully!"
+msgstr "GRUB byl úspěšně aktualizován!"
+msgid "Aguarde..."
+msgstr "Čekejte..."
+msgid "Aplicando, Aguarde..."
+msgstr "Aplikuji, prosím čekejte..."
+msgid "Botões da janela no lado esquerdo"
+msgstr "Tlačítka okna na levé straně"
+msgid "Ocultar Gerenciador de Boot (GRUB)"
+msgstr "Hide Boot Manager (GRUB)"
 msgid "Grub"
 msgstr "Grub"
 msgid "Cuidado, você perderá acesso aos SnapShots. Tem certeza que deseja ocultar o grub?"
@@ -52,18 +56,30 @@ msgid "Aplicando, aguarde..."
 msgstr "Aplikování, prosím čekejte..."
 msgid "Concluído!"
 msgstr "Dokončeno!"
-msgid "Ocultar Gerenciador de Boot (GRUB)"
-msgstr "Hide Boot Manager (GRUB)"
+msgid "Ativar o NumLock ao ligar o sistema"
+msgstr "Aktivovat NumLock při spuštění systému"
+msgid "Montar partições automaticamente"
+msgstr "Automaticky připojit oddíly"
+msgid "Modo Desenvolvedor"
+msgstr "Režim vývojáře"
 msgid "Rolagem do mouse invertida"
 msgstr "Inverze rolagem do myši"
-msgid "Aguarde..."
-msgstr "Čekejte..."
-msgid "Aplicando, Aguarde..."
-msgstr "Aplikuji, prosím čekejte..."
-msgid "Botões da janela no lado esquerdo"
-msgstr "Tlačítka okna na levé straně"
+msgid "Ligar RGB do teclado"
+msgstr "Zapnout RGB na klávesnici"
+msgid "Rolagem do touchpad invertida"
+msgstr "Rolování touchpadu je obrácené."
 msgid "Indexar arquivos"
 msgstr "Indexing files"
+msgid "Bloquear a edição da área de trabalho"
+msgstr "Zablokovat úpravy plochy"
+msgid "Desativar efeitos do desktop"
+msgstr "Deaktivovat efekty plochy"
+msgid "Se estiver utilizando algum navegador, reinicie-o para aplicar as alterações."
+msgstr "Pokud používáte nějaký prohlížeč, restartujte jej, aby se změny projevily."
+msgid "Aceleração do navegador"
+msgstr "Zrychlení prohlížeče"
+msgid "BTRFS sem fsync"
+msgstr "BTRFS bez fsync"
 msgid "Abrir"
 msgstr "Otevřít"
 msgid "Procurar..."
@@ -80,25 +96,23 @@ msgid "Escolher programas a serem carregados na memória durante boot"
 msgstr "Vyberte programy, které se mají načíst do paměti během spuštění."
 msgid "Usabilidade"
 msgstr "Použitelnost"
-msgid "Applying, please wait..."
-msgstr "Aplikuji, prosím čekejte..."
-msgid "GRUB updated successfully!"
-msgstr "GRUB byl úspěšně aktualizován!"
-msgid "An error occurred while updating GRUB."
-msgstr "Při aktualizaci GRUB došlo k chybě."
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 41
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 54
-msgid "BigLinux Settings"
-msgstr "Nastavení BigLinux"
+msgid "BigLinux Ajustes"
+msgstr "BigLinux Nastavení"
 # 
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 107
 msgid "Usability"
 msgstr "Použitelnost"
 # 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 81
-msgid "Visual system settings"
-msgstr "Nastavení vizuálního systému"
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_usability_page.py, line: 104
+msgid "User and Visual system settings"
+msgstr "Nastavení uživatele a vizuálního systému"
+# 
+# #-#-#-#-#  biglinux-settings.pot (biglinux-settings)  #-#-#-#-#
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_usability_page.py, line: 111
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/preload_page.py, line: 112
+msgid "Reload all statuses"
+msgstr "Načíst všechny stavy"
 # 
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 114
 msgid "NumLock"
@@ -107,14 +121,6 @@ msgstr "NumLock"
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 115
 msgid "Initial NumLock state. Ignored if autologin is enabled."
 msgstr "Počáteční stav NumLock. Ignorováno, pokud je povoleno automatické přihlášení."
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 123
-msgid "Index Files"
-msgstr "Indexové soubory"
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 124
-msgid "Baloo, high storage I/O consumption."
-msgstr "Baloo, vysoká spotřeba I/O úložiště."
 # 
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 131
 msgid "Window Button On Left Side"
@@ -164,35 +170,111 @@ msgstr "Automatické připojení oddílů"
 msgid "Auto mount partitions in internal disks on boot."
 msgstr "Automaticky připojit oddíly na interních discích při spuštění."
 # 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 157
-msgid "Example"
-msgstr "Příklad"
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_usability_page.py, line: 169
+msgid "Meltdown Mitigations off"
+msgstr "Omezení Meltdown vypnuta"
 # 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 158
-msgid "Example group description"
-msgstr "Příklad popisu skupiny"
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_usability_page.py, line: 170
+#, python-brace-format
+msgid ""
+"Using mitigations=off will make your machine faster and less secure! For more information see: <a "
+"href='{link}'>{link}</a>"
+msgstr ""
+"Použití mitigations=off zrychlí váš stroj, ale sníží jeho bezpečnost! Pro více informací navštivte: "
+"<a href='{link}'>{link}</a>"
 # 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 164
-msgid "Example Name"
-msgstr "Příklad názvu"
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_usability_page.py, line: 176
+msgid "noWatchdog"
+msgstr "žádnýDozorčíPes"
 # 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 165
-msgid "Example description."
-msgstr "Příklad popisu."
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_usability_page.py, line: 177
+msgid ""
+"Disables the hardware watchdog and TSC clocksource systems, maintaining high performance but "
+"removing automatic protections against system crashes."
+msgstr ""
+"Deaktivuje systémy hardwarového watchdogu a hodinového zdroje TSC, udržuje vysoký výkon, ale "
+"odstraňuje automatické ochrany proti selhání systému."
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_usability_page.py, line: 190
+msgid "Wifi"
+msgstr "Wifi"
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_usability_page.py, line: 191
+msgid "Wifi On"
+msgstr "Wifi Zapnuto"
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_usability_page.py, line: 197
+msgid "Bluetooth"
+msgstr "Bluetooth"
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_usability_page.py, line: 198
+msgid "Bluetooth On."
+msgstr "Bluetooth zapnuto."
+# 
+# #-#-#-#-#  biglinux-settings.pot (biglinux-settings)  #-#-#-#-#
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_usability_page.py, line: 206
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/preload_page.py, line: 165
+msgid "Unavailable: script not found."
+msgstr "Nedostupné: skript nebyl nalezen."
 # 
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 173
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 199
 msgid "Script not found: {}"
 msgstr "Skript nenalezen: {}"
 # 
+# #-#-#-#-#  biglinux-settings.pot (biglinux-settings)  #-#-#-#-#
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_usability_page.py, line: 218
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/preload_page.py, line: 177
+msgid "Enabled"
+msgstr "Povoleno"
+# 
+# #-#-#-#-#  biglinux-settings.pot (biglinux-settings)  #-#-#-#-#
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_usability_page.py, line: 220
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/preload_page.py, line: 179
+msgid "Disabled"
+msgstr "Zakázáno"
+# 
+# #-#-#-#-#  biglinux-settings.pot (biglinux-settings)  #-#-#-#-#
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_usability_page.py, line: 223
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/preload_page.py, line: 182
+msgid "Enabled by system configuration (e.g., Real-Time Kernel) and cannot be changed here."
+msgstr "Povoleno konfigurací systému (např. jádro v reálném čase) a nelze to zde změnit."
+# 
+# #-#-#-#-#  biglinux-settings.pot (biglinux-settings)  #-#-#-#-#
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_usability_page.py, line: 225
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/preload_page.py, line: 184
+msgid "Unavailable: script returned invalid output."
+msgstr "Nedostupné: skript vrátil neplatný výstup."
+# 
+# #-#-#-#-#  biglinux-settings.pot (biglinux-settings)  #-#-#-#-#
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_usability_page.py, line: 226
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/preload_page.py, line: 185
+msgid "Invalid output from script {}: {}"
+msgstr "Neplatný výstup ze skriptu {}: {}"
+# 
+# #-#-#-#-#  biglinux-settings.pot (biglinux-settings)  #-#-#-#-#
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_usability_page.py, line: 229
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/preload_page.py, line: 188
+msgid "Unavailable: script returned an error."
+msgstr "Nedostupné: skript vrátil chybu."
+# 
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 184
 msgid "Error checking state: {}"
 msgstr "Chyba při kontrole stavu: {}"
 # 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 190
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 217
-msgid "Script timeout: {}"
-msgstr "Časový limit skriptu: {}"
+# #-#-#-#-#  biglinux-settings.pot (biglinux-settings)  #-#-#-#-#
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_usability_page.py, line: 233
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/preload_page.py, line: 192
+msgid "Unavailable: failed to run script."
+msgstr "Nedostupné: selhalo spuštění skriptu."
 # 
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 193
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 220
@@ -211,9 +293,21 @@ msgstr "Výstup skriptu: {}"
 msgid "Script failed with exit code: {}"
 msgstr "Skript selhal s kódem ukončení: {}"
 # 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 190
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 217
+msgid "Script timeout: {}"
+msgstr "Časový limit skriptu: {}"
+# 
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 236
 msgid "Switch {} synchronized: {}"
 msgstr "Přepnout {} synchronizováno: {}"
+# 
+# #-#-#-#-#  biglinux-settings.pot (biglinux-settings)  #-#-#-#-#
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_usability_page.py, line: 327
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/preload_page.py, line: 278
+msgid "Indicator {} synchronized: {}"
+msgstr "Indikátor {} synchronizován: {}"
 # 
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 244
 msgid "Changing {} to {}"
@@ -226,3 +320,52 @@ msgstr "CHYBA: Nepodařilo se změnit {} na {}"
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 274
 msgid "Failed to change setting: {}"
 msgstr "Nepodařilo se změnit nastavení: {}"
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 41
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 54
+msgid "BigLinux Settings"
+msgstr "Nastavení BigLinux"
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 108
+msgid "System Tweaks"
+msgstr "Úpravy systému"
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 111
+msgid "PreLoad"
+msgstr "Přednačtení"
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/preload_page.py, line: 103
+msgid "Preload"
+msgstr "Přednačíst"
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/preload_page.py, line: 105
+msgid "Preload applications into memory to open them faster."
+msgstr "Přednačítání aplikací do paměti pro rychlejší otevření."
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/preload_page.py, line: 120
+msgid "Firefox"
+msgstr "Firefox"
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/preload_page.py, line: 126
+msgid "Brave"
+msgstr "Odvážný"
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/preload_page.py, line: 132
+msgid "Chrome"
+msgstr "Chrome"
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/preload_page.py, line: 138
+msgid "Chromium"
+msgstr "Chromium"
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/preload_page.py, line: 144
+msgid "Palemoon"
+msgstr "Palemoon"
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/preload_page.py, line: 150
+msgid "Opera"
+msgstr "Opera"
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/preload_page.py, line: 156
+msgid "Libreoffice"
+msgstr "LibreOffice"

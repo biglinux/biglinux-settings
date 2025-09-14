@@ -14,28 +14,32 @@ msgstr ""
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "X-Generator: attranslate\n"
-msgid "BigLinux Ajustes"
-msgstr "BigLinux Instellingen"
-msgid "Desativar efeitos do desktop"
-msgstr "Desktop-effecten uitschakelen"
-msgid "Se estiver utilizando algum navegador, reinicie-o para aplicar as alterações."
-msgstr "Als u een browser gebruikt, start deze dan opnieuw op om de wijzigingen toe te passen."
-msgid "Aceleração do navegador"
-msgstr "Versnelling van de browser"
-msgid "BTRFS sem fsync"
-msgstr "BTRFS sem fsync"
-msgid "Bloquear a edição da área de trabalho"
-msgstr "Bewerkingen op het bureaublad blokkeren"
-msgid "Ligar RGB do teclado"
-msgstr "RGB-toets inschakelen"
-msgid "Ativar o NumLock ao ligar o sistema"
-msgstr "NumLock inschakelen bij het opstarten van het systeem"
-msgid "Modo Desenvolvedor"
-msgstr "Ontwikkelaarsmodus"
-msgid "Rolagem do touchpad invertida"
-msgstr "Inverted touchpad scrolling"
-msgid "Montar partições automaticamente"
-msgstr "Automatisch partities koppelen"
+msgid "Applying, please wait..."
+msgstr "Toepassen, even geduld..."
+msgid ""
+"GRUB updated successfully!\\n"
+"Restart your computer for it to take effect."
+msgstr ""
+"GRUB succesvol bijgewerkt!\\n"
+"Herstart uw computer om de wijzigingen door te voeren."
+msgid "An error occurred while updating GRUB."
+msgstr "Er is een fout opgetreden tijdens het bijwerken van GRUB."
+msgid "Already disabled. No changes made."
+msgstr "Alreeds uitgeschakeld. Geen wijzigingen aangebracht."
+msgid "Limits updated successfully!"
+msgstr "Limieten succesvol bijgewerkt!"
+msgid "An error occurred while updating Limits."
+msgstr "Er is een fout opgetreden tijdens het bijwerken van Limieten."
+msgid "GRUB updated successfully!"
+msgstr "GRUB succesvol bijgewerkt!"
+msgid "Aguarde..."
+msgstr "Wacht..."
+msgid "Aplicando, Aguarde..."
+msgstr "Toepassen, Even geduld..."
+msgid "Botões da janela no lado esquerdo"
+msgstr "Knoppen van het venster aan de linkerkant"
+msgid "Ocultar Gerenciador de Boot (GRUB)"
+msgstr "Verberg Boot Manager (GRUB)"
 msgid "Grub"
 msgstr "Grub"
 msgid "Cuidado, você perderá acesso aos SnapShots. Tem certeza que deseja ocultar o grub?"
@@ -50,18 +54,30 @@ msgid "Aplicando, aguarde..."
 msgstr "Toepassen, even geduld..."
 msgid "Concluído!"
 msgstr "Voltooid!"
-msgid "Ocultar Gerenciador de Boot (GRUB)"
-msgstr "Verberg Boot Manager (GRUB)"
+msgid "Ativar o NumLock ao ligar o sistema"
+msgstr "NumLock inschakelen bij het opstarten van het systeem"
+msgid "Montar partições automaticamente"
+msgstr "Automatisch partities koppelen"
+msgid "Modo Desenvolvedor"
+msgstr "Ontwikkelaarsmodus"
 msgid "Rolagem do mouse invertida"
 msgstr "Inverted mouse scrolling"
-msgid "Aguarde..."
-msgstr "Wacht..."
-msgid "Aplicando, Aguarde..."
-msgstr "Toepassen, Even geduld..."
-msgid "Botões da janela no lado esquerdo"
-msgstr "Knoppen van het venster aan de linkerkant"
+msgid "Ligar RGB do teclado"
+msgstr "RGB-toets inschakelen"
+msgid "Rolagem do touchpad invertida"
+msgstr "Inverted touchpad scrolling"
 msgid "Indexar arquivos"
 msgstr "Index files"
+msgid "Bloquear a edição da área de trabalho"
+msgstr "Bewerkingen op het bureaublad blokkeren"
+msgid "Desativar efeitos do desktop"
+msgstr "Desktop-effecten uitschakelen"
+msgid "Se estiver utilizando algum navegador, reinicie-o para aplicar as alterações."
+msgstr "Als u een browser gebruikt, start deze dan opnieuw op om de wijzigingen toe te passen."
+msgid "Aceleração do navegador"
+msgstr "Versnelling van de browser"
+msgid "BTRFS sem fsync"
+msgstr "BTRFS sem fsync"
 msgid "Abrir"
 msgstr "Open"
 msgid "Procurar..."
@@ -78,25 +94,23 @@ msgid "Escolher programas a serem carregados na memória durante boot"
 msgstr "Kies programma's die tijdens het opstarten in het geheugen moeten worden geladen."
 msgid "Usabilidade"
 msgstr "Gebruiksvriendelijkheid"
-msgid "Applying, please wait..."
-msgstr "Toepassen, even geduld..."
-msgid "GRUB updated successfully!"
-msgstr "GRUB succesvol bijgewerkt!"
-msgid "An error occurred while updating GRUB."
-msgstr "Er is een fout opgetreden tijdens het bijwerken van GRUB."
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 41
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 54
-msgid "BigLinux Settings"
+msgid "BigLinux Ajustes"
 msgstr "BigLinux Instellingen"
 # 
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 107
 msgid "Usability"
 msgstr "Gebruiksvriendelijkheid"
 # 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 81
-msgid "Visual system settings"
-msgstr "Visuele systeeminstellingen"
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_usability_page.py, line: 104
+msgid "User and Visual system settings"
+msgstr "Gebruikers- en visuele systeeminstellingen"
+# 
+# #-#-#-#-#  biglinux-settings.pot (biglinux-settings)  #-#-#-#-#
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_usability_page.py, line: 111
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/preload_page.py, line: 112
+msgid "Reload all statuses"
+msgstr "Herlaad alle statussen"
 # 
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 114
 msgid "NumLock"
@@ -105,14 +119,6 @@ msgstr "NumLock"
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 115
 msgid "Initial NumLock state. Ignored if autologin is enabled."
 msgstr "Initiële NumLock-status. Genegeerd als automatische aanmelding is ingeschakeld."
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 123
-msgid "Index Files"
-msgstr "Indexbestanden"
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 124
-msgid "Baloo, high storage I/O consumption."
-msgstr "Baloo, hoge opslag I/O-consumptie."
 # 
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 131
 msgid "Window Button On Left Side"
@@ -162,41 +168,111 @@ msgstr "Automatisch koppelen van partities"
 msgid "Auto mount partitions in internal disks on boot."
 msgstr "Automatisch partities op interne schijven bij opstarten monteren."
 # 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 153
-msgid "Example"
-msgstr "Voorbeeld"
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_usability_page.py, line: 169
+msgid "Meltdown Mitigations off"
+msgstr "Meltdown-mitigaties uit"
 # 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 153
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_usability_page.py, line: 170
+#, python-brace-format
+msgid ""
+"Using mitigations=off will make your machine faster and less secure! For more information see: <a "
+"href='{link}'>{link}</a>"
+msgstr ""
+"Het gebruik van mitigaties=uit maakt uw machine sneller en minder veilig! Voor meer informatie zie: "
+"<a href='{link}'>{link}</a>"
 # 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 157
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_usability_page.py, line: 176
+msgid "noWatchdog"
+msgstr "geenToezichthond"
 # 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 157
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_usability_page.py, line: 177
+msgid ""
+"Disables the hardware watchdog and TSC clocksource systems, maintaining high performance but "
+"removing automatic protections against system crashes."
+msgstr ""
+"Schakelt de hardware watchdog en TSC klokbronnen uit, behoudt hoge prestaties maar verwijdert "
+"automatische bescherming tegen systeemcrashes."
 # 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 158
-msgid "Example group description"
-msgstr "Voorbeeld groepsbeschrijving"
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_usability_page.py, line: 190
+msgid "Wifi"
+msgstr "Wifi"
 # 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 164
-msgid "Example Name"
-msgstr "Voorbeeldnaam"
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_usability_page.py, line: 191
+msgid "Wifi On"
+msgstr "Wifi Aan"
 # 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 165
-msgid "Example description."
-msgstr "Voorbeeldbeschrijving."
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_usability_page.py, line: 197
+msgid "Bluetooth"
+msgstr "Bluetooth"
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_usability_page.py, line: 198
+msgid "Bluetooth On."
+msgstr "Bluetooth Aan."
+# 
+# #-#-#-#-#  biglinux-settings.pot (biglinux-settings)  #-#-#-#-#
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_usability_page.py, line: 206
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/preload_page.py, line: 165
+msgid "Unavailable: script not found."
+msgstr "Niet beschikbaar: script niet gevonden."
 # 
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 173
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 199
 msgid "Script not found: {}"
 msgstr "Script niet gevonden: {}"
 # 
+# #-#-#-#-#  biglinux-settings.pot (biglinux-settings)  #-#-#-#-#
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_usability_page.py, line: 218
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/preload_page.py, line: 177
+msgid "Enabled"
+msgstr "Ingeschakeld"
+# 
+# #-#-#-#-#  biglinux-settings.pot (biglinux-settings)  #-#-#-#-#
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_usability_page.py, line: 220
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/preload_page.py, line: 179
+msgid "Disabled"
+msgstr "Uitgeschakeld"
+# 
+# #-#-#-#-#  biglinux-settings.pot (biglinux-settings)  #-#-#-#-#
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_usability_page.py, line: 223
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/preload_page.py, line: 182
+msgid "Enabled by system configuration (e.g., Real-Time Kernel) and cannot be changed here."
+msgstr "Ingeschakeld door systeemconfiguratie (bijv. Real-Time Kernel) en kan hier niet worden gewijzigd."
+# 
+# #-#-#-#-#  biglinux-settings.pot (biglinux-settings)  #-#-#-#-#
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_usability_page.py, line: 225
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/preload_page.py, line: 184
+msgid "Unavailable: script returned invalid output."
+msgstr "Niet beschikbaar: script gaf ongeldige uitvoer terug."
+# 
+# #-#-#-#-#  biglinux-settings.pot (biglinux-settings)  #-#-#-#-#
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_usability_page.py, line: 226
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/preload_page.py, line: 185
+msgid "Invalid output from script {}: {}"
+msgstr "Ongeldige uitvoer van script {}: {}"
+# 
+# #-#-#-#-#  biglinux-settings.pot (biglinux-settings)  #-#-#-#-#
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_usability_page.py, line: 229
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/preload_page.py, line: 188
+msgid "Unavailable: script returned an error."
+msgstr "Niet beschikbaar: script heeft een fout geretourneerd."
+# 
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 184
 msgid "Error checking state: {}"
 msgstr "Fout controleer status: {}"
 # 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 190
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 217
-msgid "Script timeout: {}"
-msgstr "Script time-out: {}"
+# #-#-#-#-#  biglinux-settings.pot (biglinux-settings)  #-#-#-#-#
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_usability_page.py, line: 233
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/preload_page.py, line: 192
+msgid "Unavailable: failed to run script."
+msgstr "Niet beschikbaar: script kon niet worden uitgevoerd."
 # 
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 193
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 220
@@ -215,9 +291,21 @@ msgstr "Script-uitvoer: {}"
 msgid "Script failed with exit code: {}"
 msgstr "Script is mislukt met exitcode: {}"
 # 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 190
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 217
+msgid "Script timeout: {}"
+msgstr "Script time-out: {}"
+# 
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 236
 msgid "Switch {} synchronized: {}"
 msgstr "Schakel {} gesynchroniseerd: {}"
+# 
+# #-#-#-#-#  biglinux-settings.pot (biglinux-settings)  #-#-#-#-#
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_usability_page.py, line: 327
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/preload_page.py, line: 278
+msgid "Indicator {} synchronized: {}"
+msgstr "Indicator {} gesynchroniseerd: {}"
 # 
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 244
 msgid "Changing {} to {}"
@@ -230,3 +318,52 @@ msgstr "FOUT: Kon {} niet wijzigen naar {}"
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 274
 msgid "Failed to change setting: {}"
 msgstr "Instelling wijzigen mislukt: {}"
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 41
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 54
+msgid "BigLinux Settings"
+msgstr "BigLinux Instellingen"
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 108
+msgid "System Tweaks"
+msgstr "Systeemaanpassingen"
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 111
+msgid "PreLoad"
+msgstr "Vooraf laden"
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/preload_page.py, line: 103
+msgid "Preload"
+msgstr "Vooraf laden"
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/preload_page.py, line: 105
+msgid "Preload applications into memory to open them faster."
+msgstr "Laad applicaties vooraf in het geheugen om ze sneller te openen."
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/preload_page.py, line: 120
+msgid "Firefox"
+msgstr "Firefox"
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/preload_page.py, line: 126
+msgid "Brave"
+msgstr "Dapper"
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/preload_page.py, line: 132
+msgid "Chrome"
+msgstr "Chrome"
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/preload_page.py, line: 138
+msgid "Chromium"
+msgstr "Chromium"
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/preload_page.py, line: 144
+msgid "Palemoon"
+msgstr "Palemoon"
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/preload_page.py, line: 150
+msgid "Opera"
+msgstr "Opera"
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/preload_page.py, line: 156
+msgid "Libreoffice"
+msgstr "LibreOffice"

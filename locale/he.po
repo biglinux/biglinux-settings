@@ -14,28 +14,32 @@ msgstr ""
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "X-Generator: attranslate\n"
-msgid "BigLinux Ajustes"
-msgstr "ביגלינוקס הגדרות"
-msgid "Desativar efeitos do desktop"
-msgstr "השבתת אפקטים של שולחן עבודה"
-msgid "Se estiver utilizando algum navegador, reinicie-o para aplicar as alterações."
-msgstr "אם אתה משתמש בדפדפן כלשהו, הפעל אותו מחדש כדי ליישם את השינויים."
-msgid "Aceleração do navegador"
-msgstr "האצת דפדפן"
-msgid "BTRFS sem fsync"
-msgstr "BTRFS סמ fsync"
-msgid "Bloquear a edição da área de trabalho"
-msgstr "חסום את עריכת שולחן העבודה"
-msgid "Ligar RGB do teclado"
-msgstr "לחבר את ה-RGB במקלדת"
-msgid "Ativar o NumLock ao ligar o sistema"
-msgstr "הפעל את NumLock בעת הפעלת המערכת"
-msgid "Modo Desenvolvedor"
-msgstr "מצב מפתח"
-msgid "Rolagem do touchpad invertida"
-msgstr "Rolagem do touchpad invertida"
-msgid "Montar partições automaticamente"
-msgstr "להתקין מחיצות באופן אוטומטי"
+msgid "Applying, please wait..."
+msgstr "מגיש, אנא המתן..."
+msgid ""
+"GRUB updated successfully!\\n"
+"Restart your computer for it to take effect."
+msgstr ""
+"GRUB עודכן בהצלחה!\\n"
+"אתה צריך לאתחל את המחשב שלך כדי שזה ייכנס לתוקף."
+msgid "An error occurred while updating GRUB."
+msgstr "אירעה שגיאה בעת עדכון GRUB."
+msgid "Already disabled. No changes made."
+msgstr "כבר מושבת. לא בוצעו שינויים."
+msgid "Limits updated successfully!"
+msgstr "המגבלות עודכנו בהצלחה!"
+msgid "An error occurred while updating Limits."
+msgstr "שגיאה התרחשה בעת עדכון הגבולות."
+msgid "GRUB updated successfully!"
+msgstr "GRUB עודכן בהצלחה!"
+msgid "Aguarde..."
+msgstr "המתן..."
+msgid "Aplicando, Aguarde..."
+msgstr "מגיש בקשה, המתן..."
+msgid "Botões da janela no lado esquerdo"
+msgstr "כפתורי החלון בצד השמאלי"
+msgid "Ocultar Gerenciador de Boot (GRUB)"
+msgstr "הסתרת מנהל האתחול (GRUB)"
 msgid "Grub"
 msgstr "גרוב"
 msgid "Cuidado, você perderá acesso aos SnapShots. Tem certeza que deseja ocultar o grub?"
@@ -52,18 +56,30 @@ msgid "Concluído!"
 msgstr "הושלם!"
 msgid "Ok"
 msgstr "אוקי"
-msgid "Ocultar Gerenciador de Boot (GRUB)"
-msgstr "הסתרת מנהל האתחול (GRUB)"
+msgid "Ativar o NumLock ao ligar o sistema"
+msgstr "הפעל את NumLock בעת הפעלת המערכת"
+msgid "Montar partições automaticamente"
+msgstr "להתקין מחיצות באופן אוטומטי"
+msgid "Modo Desenvolvedor"
+msgstr "מצב מפתח"
 msgid "Rolagem do mouse invertida"
 msgstr "Rolagem של עכבר הפוכה"
-msgid "Aguarde..."
-msgstr "המתן..."
-msgid "Aplicando, Aguarde..."
-msgstr "מגיש בקשה, המתן..."
-msgid "Botões da janela no lado esquerdo"
-msgstr "כפתורי החלון בצד השמאלי"
+msgid "Ligar RGB do teclado"
+msgstr "לחבר את ה-RGB במקלדת"
+msgid "Rolagem do touchpad invertida"
+msgstr "Rolagem do touchpad invertida"
 msgid "Indexar arquivos"
 msgstr "אינדקס קבצים"
+msgid "Bloquear a edição da área de trabalho"
+msgstr "חסום את עריכת שולחן העבודה"
+msgid "Desativar efeitos do desktop"
+msgstr "השבתת אפקטים של שולחן עבודה"
+msgid "Se estiver utilizando algum navegador, reinicie-o para aplicar as alterações."
+msgstr "אם אתה משתמש בדפדפן כלשהו, הפעל אותו מחדש כדי ליישם את השינויים."
+msgid "Aceleração do navegador"
+msgstr "האצת דפדפן"
+msgid "BTRFS sem fsync"
+msgstr "BTRFS סמ fsync"
 msgid "Abrir"
 msgstr "פתח"
 msgid "Procurar..."
@@ -80,25 +96,23 @@ msgid "Escolher programas a serem carregados na memória durante boot"
 msgstr "בחר תוכניות שיטענו בזיכרון במהלך האתחול"
 msgid "Usabilidade"
 msgstr "שימושיות"
-msgid "Applying, please wait..."
-msgstr "מגיש, אנא המתן..."
-msgid "GRUB updated successfully!"
-msgstr "GRUB עודכן בהצלחה!"
-msgid "An error occurred while updating GRUB."
-msgstr "אירעה שגיאה בעת עדכון GRUB."
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 41
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 54
-msgid "BigLinux Settings"
-msgstr "הגדרות BigLinux"
+msgid "BigLinux Ajustes"
+msgstr "ביגלינוקס הגדרות"
 # 
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 107
 msgid "Usability"
 msgstr "שימושיות"
 # 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 81
-msgid "Visual system settings"
-msgstr "הגדרות מערכת חזותית"
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_usability_page.py, line: 104
+msgid "User and Visual system settings"
+msgstr "הגדרות משתמש ומערכת חזותית"
+# 
+# #-#-#-#-#  biglinux-settings.pot (biglinux-settings)  #-#-#-#-#
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_usability_page.py, line: 111
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/preload_page.py, line: 112
+msgid "Reload all statuses"
+msgstr "טען מחדש את כל הסטטוסים"
 # 
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 114
 msgid "NumLock"
@@ -107,14 +121,6 @@ msgstr "נומרוק"
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 115
 msgid "Initial NumLock state. Ignored if autologin is enabled."
 msgstr "מצב NumLock התחלתי. מתעלמים אם כניסה אוטומטית מופעלת."
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 123
-msgid "Index Files"
-msgstr "קבצי אינדקס"
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 124
-msgid "Baloo, high storage I/O consumption."
-msgstr "בלו, צריכת I/O גבוהה לאחסון."
 # 
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 131
 msgid "Window Button On Left Side"
@@ -164,35 +170,111 @@ msgstr "התקנת מחיצות אוטומטית"
 msgid "Auto mount partitions in internal disks on boot."
 msgstr "התקן אוטומטית מחיצות בדיסקים פנימיים בעת אתחול."
 # 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 157
-msgid "Example"
-msgstr "דוגמה"
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_usability_page.py, line: 169
+msgid "Meltdown Mitigations off"
+msgstr "הפחתות של מלטדאון כבויות"
 # 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 158
-msgid "Example group description"
-msgstr "תיאור קבוצת דוגמה"
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_usability_page.py, line: 170
+#, python-brace-format
+msgid ""
+"Using mitigations=off will make your machine faster and less secure! For more information see: <a "
+"href='{link}'>{link}</a>"
+msgstr ""
+"שימוש ב-mitigations=off יהפוך את המחשב שלך למהיר יותר ופחות מאובטח! למידע נוסף ראה: <a "
+"href='{link}'>{link}</a>"
 # 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 164
-msgid "Example Name"
-msgstr "שם דוגמה"
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_usability_page.py, line: 176
+msgid "noWatchdog"
+msgstr "לא מעקב"
 # 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 165
-msgid "Example description."
-msgstr "תיאור דוגמה."
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_usability_page.py, line: 177
+msgid ""
+"Disables the hardware watchdog and TSC clocksource systems, maintaining high performance but "
+"removing automatic protections against system crashes."
+msgstr ""
+"מכבה את מערכת השעון החומרתי ואת מערכות מקור השעון TSC, שומר על ביצועים גבוהים אך מסיר הגנות "
+"אוטומטיות מפני קריסות מערכת."
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_usability_page.py, line: 190
+msgid "Wifi"
+msgstr "ווי-פיי"
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_usability_page.py, line: 191
+msgid "Wifi On"
+msgstr "ווייפי מופעל"
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_usability_page.py, line: 197
+msgid "Bluetooth"
+msgstr "בלוטות'"
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_usability_page.py, line: 198
+msgid "Bluetooth On."
+msgstr "בלוטות' פועל."
+# 
+# #-#-#-#-#  biglinux-settings.pot (biglinux-settings)  #-#-#-#-#
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_usability_page.py, line: 206
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/preload_page.py, line: 165
+msgid "Unavailable: script not found."
+msgstr "לא זמין: הסקריפט לא נמצא."
 # 
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 173
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 199
 msgid "Script not found: {}"
 msgstr "סקריפט לא נמצא: {}"
 # 
+# #-#-#-#-#  biglinux-settings.pot (biglinux-settings)  #-#-#-#-#
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_usability_page.py, line: 218
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/preload_page.py, line: 177
+msgid "Enabled"
+msgstr "מופעל"
+# 
+# #-#-#-#-#  biglinux-settings.pot (biglinux-settings)  #-#-#-#-#
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_usability_page.py, line: 220
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/preload_page.py, line: 179
+msgid "Disabled"
+msgstr "מושבת"
+# 
+# #-#-#-#-#  biglinux-settings.pot (biglinux-settings)  #-#-#-#-#
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_usability_page.py, line: 223
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/preload_page.py, line: 182
+msgid "Enabled by system configuration (e.g., Real-Time Kernel) and cannot be changed here."
+msgstr "מופעל על ידי תצורת המערכת (למשל, ליבת זמן אמת) ואינו יכול להשתנות כאן."
+# 
+# #-#-#-#-#  biglinux-settings.pot (biglinux-settings)  #-#-#-#-#
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_usability_page.py, line: 225
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/preload_page.py, line: 184
+msgid "Unavailable: script returned invalid output."
+msgstr "לא זמין: הסקריפט החזיר פלט לא תקין."
+# 
+# #-#-#-#-#  biglinux-settings.pot (biglinux-settings)  #-#-#-#-#
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_usability_page.py, line: 226
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/preload_page.py, line: 185
+msgid "Invalid output from script {}: {}"
+msgstr "פלט לא תקין מהסקריפט {}: {}"
+# 
+# #-#-#-#-#  biglinux-settings.pot (biglinux-settings)  #-#-#-#-#
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_usability_page.py, line: 229
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/preload_page.py, line: 188
+msgid "Unavailable: script returned an error."
+msgstr "לא זמין: הסקריפט החזיר שגיאה."
+# 
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 184
 msgid "Error checking state: {}"
 msgstr "שגיאת בדיקת מצב: {}"
 # 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 190
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 217
-msgid "Script timeout: {}"
-msgstr "זמן ההמתנה של הסקריפט: {}"
+# #-#-#-#-#  biglinux-settings.pot (biglinux-settings)  #-#-#-#-#
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_usability_page.py, line: 233
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/preload_page.py, line: 192
+msgid "Unavailable: failed to run script."
+msgstr "לא זמין: נכשל בהרצת הסקריפט."
 # 
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 193
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 220
@@ -211,9 +293,21 @@ msgstr "{}"
 msgid "Script failed with exit code: {}"
 msgstr "הסקריפט נכשל עם קוד יציאה: {}"
 # 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 190
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 217
+msgid "Script timeout: {}"
+msgstr "זמן ההמתנה של הסקריפט: {}"
+# 
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 236
 msgid "Switch {} synchronized: {}"
 msgstr "מחלף {} מסונכרן: {}"
+# 
+# #-#-#-#-#  biglinux-settings.pot (biglinux-settings)  #-#-#-#-#
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_usability_page.py, line: 327
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/preload_page.py, line: 278
+msgid "Indicator {} synchronized: {}"
+msgstr "אינדיקטור {} מסונכרן: {}"
 # 
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 244
 msgid "Changing {} to {}"
@@ -226,3 +320,52 @@ msgstr "שגיאה: לא הצליח לשנות {} ל{}"
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 274
 msgid "Failed to change setting: {}"
 msgstr "שינוי ההגדרה נכשל: {}"
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 41
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 54
+msgid "BigLinux Settings"
+msgstr "הגדרות BigLinux"
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 108
+msgid "System Tweaks"
+msgstr "שיפוטי מערכת"
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 111
+msgid "PreLoad"
+msgstr "טען מראש"
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/preload_page.py, line: 103
+msgid "Preload"
+msgstr "טען מראש"
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/preload_page.py, line: 105
+msgid "Preload applications into memory to open them faster."
+msgstr "טען יישומים לזיכרון כדי לפתוח אותם מהר יותר."
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/preload_page.py, line: 120
+msgid "Firefox"
+msgstr "פיירפוקס"
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/preload_page.py, line: 126
+msgid "Brave"
+msgstr "ברייב"
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/preload_page.py, line: 132
+msgid "Chrome"
+msgstr "כרום"
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/preload_page.py, line: 138
+msgid "Chromium"
+msgstr "כרומיום"
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/preload_page.py, line: 144
+msgid "Palemoon"
+msgstr "פאלימון"
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/preload_page.py, line: 150
+msgid "Opera"
+msgstr "אופרה"
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/preload_page.py, line: 156
+msgid "Libreoffice"
+msgstr "ליבראOffice"

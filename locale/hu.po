@@ -14,28 +14,32 @@ msgstr ""
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "X-Generator: attranslate\n"
-msgid "BigLinux Ajustes"
-msgstr "BigLinux Beállítások"
-msgid "Desativar efeitos do desktop"
-msgstr "Asztali effektusok letiltása"
-msgid "Se estiver utilizando algum navegador, reinicie-o para aplicar as alterações."
-msgstr "Ha böngészőt használ, indítsa újra a módosítások alkalmazásához."
-msgid "Aceleração do navegador"
-msgstr "Böngésző gyorsítása"
-msgid "BTRFS sem fsync"
-msgstr "BTRFS sem fsync"
-msgid "Bloquear a edição da área de trabalho"
-msgstr "A munkaasztal szerkesztésének blokkolása"
-msgid "Ligar RGB do teclado"
-msgstr "RGB világítás bekapcsolása a billentyűzeten"
-msgid "Ativar o NumLock ao ligar o sistema"
-msgstr "A NumLock engedélyezése a rendszer indításakor"
-msgid "Modo Desenvolvedor"
-msgstr "Fejlesztői mód"
-msgid "Rolagem do touchpad invertida"
-msgstr "A touchpad görgetése megfordítva"
-msgid "Montar partições automaticamente"
-msgstr "Partíciók automatikus csatolása"
+msgid "Applying, please wait..."
+msgstr "Alkalmazás folyamatban, kérjük várjon..."
+msgid ""
+"GRUB updated successfully!\\n"
+"Restart your computer for it to take effect."
+msgstr ""
+"A GRUB sikeresen frissítve lett!\\n"
+"Indítsa újra a számítógépét, hogy érvénybe lépjen."
+msgid "An error occurred while updating GRUB."
+msgstr "Hiba történt a GRUB frissítésekor."
+msgid "Already disabled. No changes made."
+msgstr "Már le van tiltva. Nincsenek változtatások."
+msgid "Limits updated successfully!"
+msgstr "A korlátok sikeresen frissítve!"
+msgid "An error occurred while updating Limits."
+msgstr "Hiba történt a Korlátok frissítésekor."
+msgid "GRUB updated successfully!"
+msgstr "A GRUB sikeresen frissítve lett!"
+msgid "Aguarde..."
+msgstr "Várjon..."
+msgid "Aplicando, Aguarde..."
+msgstr "Jelentkezés, Kérem várjon..."
+msgid "Botões da janela no lado esquerdo"
+msgstr "Az ablak gombjai a bal oldalon."
+msgid "Ocultar Gerenciador de Boot (GRUB)"
+msgstr "Bootkezelő (GRUB) elrejtése"
 msgid "Grub"
 msgstr "Grub"
 msgid "Cuidado, você perderá acesso aos SnapShots. Tem certeza que deseja ocultar o grub?"
@@ -58,18 +62,30 @@ msgid "Concluído!"
 msgstr "Befejezve!"
 msgid "Ok"
 msgstr "Rendkívül sajnálom, de nem tudok válaszolni erre a kérdésre."
-msgid "Ocultar Gerenciador de Boot (GRUB)"
-msgstr "Bootkezelő (GRUB) elrejtése"
+msgid "Ativar o NumLock ao ligar o sistema"
+msgstr "A NumLock engedélyezése a rendszer indításakor"
+msgid "Montar partições automaticamente"
+msgstr "Partíciók automatikus csatolása"
+msgid "Modo Desenvolvedor"
+msgstr "Fejlesztői mód"
 msgid "Rolagem do mouse invertida"
 msgstr "Fordított egér görgetés"
-msgid "Aguarde..."
-msgstr "Várjon..."
-msgid "Aplicando, Aguarde..."
-msgstr "Jelentkezés, Kérem várjon..."
-msgid "Botões da janela no lado esquerdo"
-msgstr "Az ablak gombjai a bal oldalon."
+msgid "Ligar RGB do teclado"
+msgstr "RGB világítás bekapcsolása a billentyűzeten"
+msgid "Rolagem do touchpad invertida"
+msgstr "A touchpad görgetése megfordítva"
 msgid "Indexar arquivos"
 msgstr "Fájlok indexálása"
+msgid "Bloquear a edição da área de trabalho"
+msgstr "A munkaasztal szerkesztésének blokkolása"
+msgid "Desativar efeitos do desktop"
+msgstr "Asztali effektusok letiltása"
+msgid "Se estiver utilizando algum navegador, reinicie-o para aplicar as alterações."
+msgstr "Ha böngészőt használ, indítsa újra a módosítások alkalmazásához."
+msgid "Aceleração do navegador"
+msgstr "Böngésző gyorsítása"
+msgid "BTRFS sem fsync"
+msgstr "BTRFS sem fsync"
 msgid "Abrir"
 msgstr "Megnyitás"
 msgid "Procurar..."
@@ -86,25 +102,23 @@ msgid "Escolher programas a serem carregados na memória durante boot"
 msgstr "Programok kiválasztása a memória betöltésére a rendszerindítás során."
 msgid "Usabilidade"
 msgstr "Használhatóság"
-msgid "Applying, please wait..."
-msgstr "Alkalmazás folyamatban, kérjük várjon..."
-msgid "GRUB updated successfully!"
-msgstr "A GRUB sikeresen frissítve lett!"
-msgid "An error occurred while updating GRUB."
-msgstr "Hiba történt a GRUB frissítésekor."
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 41
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 54
-msgid "BigLinux Settings"
+msgid "BigLinux Ajustes"
 msgstr "BigLinux Beállítások"
 # 
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 107
 msgid "Usability"
 msgstr "Használhatóság"
 # 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 81
-msgid "Visual system settings"
-msgstr "Képbeállítások"
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_usability_page.py, line: 104
+msgid "User and Visual system settings"
+msgstr "Felhasználói és vizuális rendszerbeállítások"
+# 
+# #-#-#-#-#  biglinux-settings.pot (biglinux-settings)  #-#-#-#-#
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_usability_page.py, line: 111
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/preload_page.py, line: 112
+msgid "Reload all statuses"
+msgstr "Minden állapot újratöltése"
 # 
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 114
 msgid "NumLock"
@@ -113,14 +127,6 @@ msgstr "NumLock"
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 115
 msgid "Initial NumLock state. Ignored if autologin is enabled."
 msgstr "Kezdő NumLock állapot. Figyelmen kívül hagyva, ha az automatikus bejelentkezés engedélyezve van."
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 123
-msgid "Index Files"
-msgstr "Index fájlok"
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 124
-msgid "Baloo, high storage I/O consumption."
-msgstr "Baloo, magas tárolási I/O fogyasztás."
 # 
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 131
 msgid "Window Button On Left Side"
@@ -170,35 +176,111 @@ msgstr "Automatikus csatolás partíciók"
 msgid "Auto mount partitions in internal disks on boot."
 msgstr "Automatikus partíciók csatolása a belső lemezeken indításkor."
 # 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 157
-msgid "Example"
-msgstr "Példa"
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_usability_page.py, line: 169
+msgid "Meltdown Mitigations off"
+msgstr "Meltdown mérséklések kikapcsolva"
 # 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 158
-msgid "Example group description"
-msgstr "Példa csoportleírás"
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_usability_page.py, line: 170
+#, python-brace-format
+msgid ""
+"Using mitigations=off will make your machine faster and less secure! For more information see: <a "
+"href='{link}'>{link}</a>"
+msgstr ""
+"A mitigációk kikapcsolása gyorsabbá és kevésbé biztonsossá teszi a gépét! További információért "
+"lásd: <a href='{link}'>{link}</a>"
 # 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 164
-msgid "Example Name"
-msgstr "Példa név"
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_usability_page.py, line: 176
+msgid "noWatchdog"
+msgstr "nincsFelügyelő"
 # 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 165
-msgid "Example description."
-msgstr "Példa leírás."
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_usability_page.py, line: 177
+msgid ""
+"Disables the hardware watchdog and TSC clocksource systems, maintaining high performance but "
+"removing automatic protections against system crashes."
+msgstr ""
+"Letiltja a hardveres figyelő és a TSC óraforrás rendszereket, fenntartva a magas teljesítményt, de "
+"eltávolítva az automatikus védelmet a rendszerösszeomlások ellen."
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_usability_page.py, line: 190
+msgid "Wifi"
+msgstr "Wifi"
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_usability_page.py, line: 191
+msgid "Wifi On"
+msgstr "Wifi Bekapcsolva"
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_usability_page.py, line: 197
+msgid "Bluetooth"
+msgstr "Bluetooth"
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_usability_page.py, line: 198
+msgid "Bluetooth On."
+msgstr "Bluetooth be van kapcsolva."
+# 
+# #-#-#-#-#  biglinux-settings.pot (biglinux-settings)  #-#-#-#-#
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_usability_page.py, line: 206
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/preload_page.py, line: 165
+msgid "Unavailable: script not found."
+msgstr "Nem elérhető: a szkript nem található."
 # 
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 173
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 199
 msgid "Script not found: {}"
 msgstr "A szkript nem található: {}"
 # 
+# #-#-#-#-#  biglinux-settings.pot (biglinux-settings)  #-#-#-#-#
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_usability_page.py, line: 218
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/preload_page.py, line: 177
+msgid "Enabled"
+msgstr "Engedélyezve"
+# 
+# #-#-#-#-#  biglinux-settings.pot (biglinux-settings)  #-#-#-#-#
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_usability_page.py, line: 220
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/preload_page.py, line: 179
+msgid "Disabled"
+msgstr "Letiltva"
+# 
+# #-#-#-#-#  biglinux-settings.pot (biglinux-settings)  #-#-#-#-#
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_usability_page.py, line: 223
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/preload_page.py, line: 182
+msgid "Enabled by system configuration (e.g., Real-Time Kernel) and cannot be changed here."
+msgstr "A rendszerkonfiguráció engedélyezte (pl. Valós idejű kernel), és itt nem módosítható."
+# 
+# #-#-#-#-#  biglinux-settings.pot (biglinux-settings)  #-#-#-#-#
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_usability_page.py, line: 225
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/preload_page.py, line: 184
+msgid "Unavailable: script returned invalid output."
+msgstr "Nem elérhető: a szkript érvénytelen kimenetet adott vissza."
+# 
+# #-#-#-#-#  biglinux-settings.pot (biglinux-settings)  #-#-#-#-#
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_usability_page.py, line: 226
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/preload_page.py, line: 185
+msgid "Invalid output from script {}: {}"
+msgstr "Érvénytelen kimenet a következő szkripttől {}: {}"
+# 
+# #-#-#-#-#  biglinux-settings.pot (biglinux-settings)  #-#-#-#-#
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_usability_page.py, line: 229
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/preload_page.py, line: 188
+msgid "Unavailable: script returned an error."
+msgstr "Nem elérhető: a szkript hibaüzenetet adott vissza."
+# 
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 184
 msgid "Error checking state: {}"
 msgstr "Hibaellenőrzési állapot: {}"
 # 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 190
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 217
-msgid "Script timeout: {}"
-msgstr "Script időtúllépés: {}"
+# #-#-#-#-#  biglinux-settings.pot (biglinux-settings)  #-#-#-#-#
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_usability_page.py, line: 233
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/preload_page.py, line: 192
+msgid "Unavailable: failed to run script."
+msgstr "Nem elérhető: a szkript futtatása nem sikerült."
 # 
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 193
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 220
@@ -217,9 +299,21 @@ msgstr "{}"
 msgid "Script failed with exit code: {}"
 msgstr "A szkript hibával leállt a következő kóddal: {}"
 # 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 190
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 217
+msgid "Script timeout: {}"
+msgstr "Script időtúllépés: {}"
+# 
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 236
 msgid "Switch {} synchronized: {}"
 msgstr "Váltás {} szinkronizált: {}"
+# 
+# #-#-#-#-#  biglinux-settings.pot (biglinux-settings)  #-#-#-#-#
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_usability_page.py, line: 327
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/preload_page.py, line: 278
+msgid "Indicator {} synchronized: {}"
+msgstr "A {} szinkronizálva: {}"
 # 
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 244
 msgid "Changing {} to {}"
@@ -232,3 +326,52 @@ msgstr "HIBA: A {}-t {}-ra nem sikerült megváltoztatni."
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 274
 msgid "Failed to change setting: {}"
 msgstr "A beállítás módosítása nem sikerült: {}"
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 41
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 54
+msgid "BigLinux Settings"
+msgstr "BigLinux Beállítások"
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 108
+msgid "System Tweaks"
+msgstr "Rendszermódosítások"
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 111
+msgid "PreLoad"
+msgstr "Előbetöltés"
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/preload_page.py, line: 103
+msgid "Preload"
+msgstr "Előbetöltés"
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/preload_page.py, line: 105
+msgid "Preload applications into memory to open them faster."
+msgstr "Előregisztrálja az alkalmazásokat a memóriába, hogy gyorsabban nyithassa meg őket."
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/preload_page.py, line: 120
+msgid "Firefox"
+msgstr "Firefox"
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/preload_page.py, line: 126
+msgid "Brave"
+msgstr "Bátor"
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/preload_page.py, line: 132
+msgid "Chrome"
+msgstr "Chrome"
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/preload_page.py, line: 138
+msgid "Chromium"
+msgstr "Króm"
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/preload_page.py, line: 144
+msgid "Palemoon"
+msgstr "Palemoon"
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/preload_page.py, line: 150
+msgid "Opera"
+msgstr "Opera"
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/preload_page.py, line: 156
+msgid "Libreoffice"
+msgstr "LibreOffice"

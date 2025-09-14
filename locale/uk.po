@@ -14,28 +14,32 @@ msgstr ""
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "X-Generator: attranslate\n"
-msgid "BigLinux Ajustes"
-msgstr "BigLinux Налаштування"
-msgid "Desativar efeitos do desktop"
-msgstr "Деактивувати ефекти робочого столу"
-msgid "Se estiver utilizando algum navegador, reinicie-o para aplicar as alterações."
-msgstr "If you are using any browser, restart it to apply the changes."
-msgid "Aceleração do navegador"
-msgstr "Browser acceleration"
-msgid "BTRFS sem fsync"
-msgstr "BTRFS сем fsync"
-msgid "Bloquear a edição da área de trabalho"
-msgstr "Block desktop editing"
-msgid "Ligar RGB do teclado"
-msgstr "Turn on RGB keyboard"
-msgid "Ativar o NumLock ao ligar o sistema"
-msgstr "Activate NumLock on system startup"
-msgid "Modo Desenvolvedor"
-msgstr "Режим розробника"
-msgid "Rolagem do touchpad invertida"
-msgstr "Inverted touchpad scrolling"
-msgid "Montar partições automaticamente"
-msgstr "Automatically mount partitions"
+msgid "Applying, please wait..."
+msgstr "Застосування, будь ласка, зачекайте..."
+msgid ""
+"GRUB updated successfully!\\n"
+"Restart your computer for it to take effect."
+msgstr ""
+"GRUB успішно оновлено!\\n"
+"Перезавантажте комп'ютер, щоб зміни набрали чинності."
+msgid "An error occurred while updating GRUB."
+msgstr "Сталася помилка під час оновлення GRUB."
+msgid "Already disabled. No changes made."
+msgstr "Вже вимкнено. Змін не внесено."
+msgid "Limits updated successfully!"
+msgstr "Обмеження успішно оновлено!"
+msgid "An error occurred while updating Limits."
+msgstr "Сталася помилка під час оновлення обмежень."
+msgid "GRUB updated successfully!"
+msgstr "GRUB успішно оновлено!"
+msgid "Aguarde..."
+msgstr "Очікуйте..."
+msgid "Aplicando, Aguarde..."
+msgstr "Застосування, Зачекайте..."
+msgid "Botões da janela no lado esquerdo"
+msgstr "Кнопки вікна зліва"
+msgid "Ocultar Gerenciador de Boot (GRUB)"
+msgstr "Сховати завантажувач (GRUB)"
 msgid "Grub"
 msgstr "Grub"
 msgid "Cuidado, você perderá acesso aos SnapShots. Tem certeza que deseja ocultar o grub?"
@@ -54,18 +58,30 @@ msgid "Concluído!"
 msgstr "Завершено!"
 msgid "Ok"
 msgstr ""
-msgid "Ocultar Gerenciador de Boot (GRUB)"
-msgstr "Сховати завантажувач (GRUB)"
+msgid "Ativar o NumLock ao ligar o sistema"
+msgstr "Activate NumLock on system startup"
+msgid "Montar partições automaticamente"
+msgstr "Automatically mount partitions"
+msgid "Modo Desenvolvedor"
+msgstr "Режим розробника"
 msgid "Rolagem do mouse invertida"
 msgstr "Inversa do deslocamento do rato"
-msgid "Aguarde..."
-msgstr "Очікуйте..."
-msgid "Aplicando, Aguarde..."
-msgstr "Застосування, Зачекайте..."
-msgid "Botões da janela no lado esquerdo"
-msgstr "Кнопки вікна зліва"
+msgid "Ligar RGB do teclado"
+msgstr "Turn on RGB keyboard"
+msgid "Rolagem do touchpad invertida"
+msgstr "Inverted touchpad scrolling"
 msgid "Indexar arquivos"
 msgstr "Indexing files"
+msgid "Bloquear a edição da área de trabalho"
+msgstr "Block desktop editing"
+msgid "Desativar efeitos do desktop"
+msgstr "Деактивувати ефекти робочого столу"
+msgid "Se estiver utilizando algum navegador, reinicie-o para aplicar as alterações."
+msgstr "If you are using any browser, restart it to apply the changes."
+msgid "Aceleração do navegador"
+msgstr "Browser acceleration"
+msgid "BTRFS sem fsync"
+msgstr "BTRFS сем fsync"
 msgid "Abrir"
 msgstr "Відкрити"
 msgid "Procurar..."
@@ -82,25 +98,23 @@ msgid "Escolher programas a serem carregados na memória durante boot"
 msgstr "Choose programs to be loaded into memory during boot"
 msgid "Usabilidade"
 msgstr "Юзабіліці"
-msgid "Applying, please wait..."
-msgstr "Застосування, будь ласка, зачекайте..."
-msgid "GRUB updated successfully!"
-msgstr "GRUB успішно оновлено!"
-msgid "An error occurred while updating GRUB."
-msgstr "Сталася помилка під час оновлення GRUB."
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 41
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 54
-msgid "BigLinux Settings"
-msgstr "Налаштування BigLinux"
+msgid "BigLinux Ajustes"
+msgstr "BigLinux Налаштування"
 # 
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 107
 msgid "Usability"
 msgstr "Зручність використання"
 # 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 81
-msgid "Visual system settings"
-msgstr "Налаштування візуальної системи"
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_usability_page.py, line: 104
+msgid "User and Visual system settings"
+msgstr "Налаштування користувача та візуальної системи"
+# 
+# #-#-#-#-#  biglinux-settings.pot (biglinux-settings)  #-#-#-#-#
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_usability_page.py, line: 111
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/preload_page.py, line: 112
+msgid "Reload all statuses"
+msgstr "Перезавантажити всі статуси"
 # 
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 114
 msgid "NumLock"
@@ -109,14 +123,6 @@ msgstr "Num Lock"
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 115
 msgid "Initial NumLock state. Ignored if autologin is enabled."
 msgstr "Початковий стан NumLock. Ігнорується, якщо увімкнено автоматичний вхід."
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 123
-msgid "Index Files"
-msgstr "Індексні файли"
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 124
-msgid "Baloo, high storage I/O consumption."
-msgstr "Baloo, високе споживання I/O пам'яті."
 # 
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 131
 msgid "Window Button On Left Side"
@@ -166,45 +172,111 @@ msgstr "Автоматичне монтування розділів"
 msgid "Auto mount partitions in internal disks on boot."
 msgstr "Автоматичне монтування розділів на внутрішніх дисках під час завантаження."
 # 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 155
-msgid "Example"
-msgstr "Приклад"
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_usability_page.py, line: 169
+msgid "Meltdown Mitigations off"
+msgstr "Мітегування Meltdown вимкнено"
 # 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 155
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_usability_page.py, line: 170
+#, python-brace-format
+msgid ""
+"Using mitigations=off will make your machine faster and less secure! For more information see: <a "
+"href='{link}'>{link}</a>"
+msgstr ""
+"Використання mitigations=off зробить ваш комп'ютер швидшим, але менш безпечним! Для отримання "
+"додаткової інформації дивіться: <a href='{link}'>{link}</a>"
 # 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 153
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_usability_page.py, line: 176
+msgid "noWatchdog"
+msgstr "noWatchdog"
 # 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 153
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_usability_page.py, line: 177
+msgid ""
+"Disables the hardware watchdog and TSC clocksource systems, maintaining high performance but "
+"removing automatic protections against system crashes."
+msgstr ""
+"Вимикає апаратний контроль за станом та системи годинника TSC, підтримуючи високу продуктивність, "
+"але усуваючи автоматичний захист від збоїв системи."
 # 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 157
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_usability_page.py, line: 190
+msgid "Wifi"
+msgstr "Wi-Fi"
 # 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 157
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_usability_page.py, line: 191
+msgid "Wifi On"
+msgstr "Wi-Fi Увімкнено"
 # 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 158
-msgid "Example group description"
-msgstr "Приклад опису групи"
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_usability_page.py, line: 197
+msgid "Bluetooth"
+msgstr "Bluetooth"
 # 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 164
-msgid "Example Name"
-msgstr "Приклад назви"
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_usability_page.py, line: 198
+msgid "Bluetooth On."
+msgstr "Bluetooth Увімкнено."
 # 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 165
-msgid "Example description."
-msgstr "Приклад опису."
+# #-#-#-#-#  biglinux-settings.pot (biglinux-settings)  #-#-#-#-#
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_usability_page.py, line: 206
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/preload_page.py, line: 165
+msgid "Unavailable: script not found."
+msgstr "Недоступно: скрипт не знайдено."
 # 
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 173
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 199
 msgid "Script not found: {}"
 msgstr "Скрипт не знайдено: {}"
 # 
+# #-#-#-#-#  biglinux-settings.pot (biglinux-settings)  #-#-#-#-#
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_usability_page.py, line: 218
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/preload_page.py, line: 177
+msgid "Enabled"
+msgstr "Увімкнено"
+# 
+# #-#-#-#-#  biglinux-settings.pot (biglinux-settings)  #-#-#-#-#
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_usability_page.py, line: 220
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/preload_page.py, line: 179
+msgid "Disabled"
+msgstr "Вимкнено"
+# 
+# #-#-#-#-#  biglinux-settings.pot (biglinux-settings)  #-#-#-#-#
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_usability_page.py, line: 223
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/preload_page.py, line: 182
+msgid "Enabled by system configuration (e.g., Real-Time Kernel) and cannot be changed here."
+msgstr "Увімкнено системною конфігурацією (наприклад, реального часу ядро) і не може бути змінено тут."
+# 
+# #-#-#-#-#  biglinux-settings.pot (biglinux-settings)  #-#-#-#-#
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_usability_page.py, line: 225
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/preload_page.py, line: 184
+msgid "Unavailable: script returned invalid output."
+msgstr "Недоступно: скрипт повернув недійсний вихід."
+# 
+# #-#-#-#-#  biglinux-settings.pot (biglinux-settings)  #-#-#-#-#
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_usability_page.py, line: 226
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/preload_page.py, line: 185
+msgid "Invalid output from script {}: {}"
+msgstr "Недійсний вихід з скрипту {}: {}"
+# 
+# #-#-#-#-#  biglinux-settings.pot (biglinux-settings)  #-#-#-#-#
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_usability_page.py, line: 229
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/preload_page.py, line: 188
+msgid "Unavailable: script returned an error."
+msgstr "Недоступно: скрипт повернув помилку."
+# 
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 184
 msgid "Error checking state: {}"
 msgstr "Помилка перевірки стану: {}"
 # 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 190
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 217
-msgid "Script timeout: {}"
-msgstr "Тайм-аут скрипта: {}"
+# #-#-#-#-#  biglinux-settings.pot (biglinux-settings)  #-#-#-#-#
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_usability_page.py, line: 233
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/preload_page.py, line: 192
+msgid "Unavailable: failed to run script."
+msgstr "Недоступно: не вдалося виконати скрипт."
 # 
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 193
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 220
@@ -223,9 +295,21 @@ msgstr "Скрипт виводу: {}"
 msgid "Script failed with exit code: {}"
 msgstr "Скрипт завершився з кодом виходу: {}"
 # 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 190
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 217
+msgid "Script timeout: {}"
+msgstr "Тайм-аут скрипта: {}"
+# 
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 236
 msgid "Switch {} synchronized: {}"
 msgstr "Перемикач {} синхронізовано: {}"
+# 
+# #-#-#-#-#  biglinux-settings.pot (biglinux-settings)  #-#-#-#-#
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_usability_page.py, line: 327
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/preload_page.py, line: 278
+msgid "Indicator {} synchronized: {}"
+msgstr "Індикатор {} синхронізовано: {}"
 # 
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 244
 msgid "Changing {} to {}"
@@ -238,3 +322,52 @@ msgstr "ПОМИЛКА: Не вдалося змінити {} на {}"
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 274
 msgid "Failed to change setting: {}"
 msgstr "Не вдалося змінити налаштування: {}"
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 41
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 54
+msgid "BigLinux Settings"
+msgstr "Налаштування BigLinux"
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 108
+msgid "System Tweaks"
+msgstr "Налаштування системи"
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 111
+msgid "PreLoad"
+msgstr "Передзавантаження"
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/preload_page.py, line: 103
+msgid "Preload"
+msgstr "Попереднє завантаження"
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/preload_page.py, line: 105
+msgid "Preload applications into memory to open them faster."
+msgstr "Попередньо завантажуйте програми в пам'ять, щоб відкривати їх швидше."
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/preload_page.py, line: 120
+msgid "Firefox"
+msgstr "Firefox"
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/preload_page.py, line: 126
+msgid "Brave"
+msgstr "Brave"
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/preload_page.py, line: 132
+msgid "Chrome"
+msgstr "Хром"
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/preload_page.py, line: 138
+msgid "Chromium"
+msgstr "Хроміум"
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/preload_page.py, line: 144
+msgid "Palemoon"
+msgstr "Палемун"
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/preload_page.py, line: 150
+msgid "Opera"
+msgstr "Опера"
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/preload_page.py, line: 156
+msgid "Libreoffice"
+msgstr "ЛібреОфіс"

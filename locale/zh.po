@@ -14,28 +14,32 @@ msgstr ""
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "X-Generator: attranslate\n"
-msgid "BigLinux Ajustes"
-msgstr "BigLinux 设置"
-msgid "Desativar efeitos do desktop"
-msgstr "禁用桌面效果"
-msgid "Se estiver utilizando algum navegador, reinicie-o para aplicar as alterações."
-msgstr "如果您正在使用任何浏览器，请重新启动以应用更改。"
-msgid "Aceleração do navegador"
-msgstr "浏览器加速"
-msgid "BTRFS sem fsync"
-msgstr "BTRFS sem fsync"
-msgid "Bloquear a edição da área de trabalho"
-msgstr "阻止桌面编辑"
-msgid "Ligar RGB do teclado"
-msgstr "打开键盘的RGB灯光"
-msgid "Ativar o NumLock ao ligar o sistema"
-msgstr "在系统启动时启用数字锁定键"
-msgid "Modo Desenvolvedor"
-msgstr "开发者模式"
-msgid "Rolagem do touchpad invertida"
-msgstr "触控板滚动反向"
-msgid "Montar partições automaticamente"
-msgstr "自动挂载分区"
+msgid "Applying, please wait..."
+msgstr "正在应用，请稍候..."
+msgid ""
+"GRUB updated successfully!\\n"
+"Restart your computer for it to take effect."
+msgstr ""
+"GRUB 更新成功！\\n"
+"请重启计算机以使其生效。"
+msgid "An error occurred while updating GRUB."
+msgstr "更新 GRUB 时发生错误。"
+msgid "Already disabled. No changes made."
+msgstr "已禁用。未做任何更改。"
+msgid "Limits updated successfully!"
+msgstr "限制已成功更新！"
+msgid "An error occurred while updating Limits."
+msgstr "更新限制时发生错误。"
+msgid "GRUB updated successfully!"
+msgstr "GRUB 更新成功！"
+msgid "Aguarde..."
+msgstr "请稍候..."
+msgid "Aplicando, Aguarde..."
+msgstr "申请中，请稍候..."
+msgid "Botões da janela no lado esquerdo"
+msgstr "窗口按钮在左侧"
+msgid "Ocultar Gerenciador de Boot (GRUB)"
+msgstr "隐藏启动管理器（GRUB）"
 msgid "Grub"
 msgstr "引导加载程序"
 msgid "Cuidado, você perderá acesso aos SnapShots. Tem certeza que deseja ocultar o grub?"
@@ -54,18 +58,30 @@ msgid "Aplicando, aguarde..."
 msgstr "申请中，请稍候..."
 msgid "Concluído!"
 msgstr "完成！"
-msgid "Ocultar Gerenciador de Boot (GRUB)"
-msgstr "隐藏启动管理器（GRUB）"
+msgid "Ativar o NumLock ao ligar o sistema"
+msgstr "在系统启动时启用数字锁定键"
+msgid "Montar partições automaticamente"
+msgstr "自动挂载分区"
+msgid "Modo Desenvolvedor"
+msgstr "开发者模式"
 msgid "Rolagem do mouse invertida"
 msgstr "鼠标滚动反向"
-msgid "Aguarde..."
-msgstr "请稍候..."
-msgid "Aplicando, Aguarde..."
-msgstr "申请中，请稍候..."
-msgid "Botões da janela no lado esquerdo"
-msgstr "窗口按钮在左侧"
+msgid "Ligar RGB do teclado"
+msgstr "打开键盘的RGB灯光"
+msgid "Rolagem do touchpad invertida"
+msgstr "触控板滚动反向"
 msgid "Indexar arquivos"
 msgstr "索引文件"
+msgid "Bloquear a edição da área de trabalho"
+msgstr "阻止桌面编辑"
+msgid "Desativar efeitos do desktop"
+msgstr "禁用桌面效果"
+msgid "Se estiver utilizando algum navegador, reinicie-o para aplicar as alterações."
+msgstr "如果您正在使用任何浏览器，请重新启动以应用更改。"
+msgid "Aceleração do navegador"
+msgstr "浏览器加速"
+msgid "BTRFS sem fsync"
+msgstr "BTRFS sem fsync"
 msgid "Abrir"
 msgstr "打开"
 msgid "Procurar..."
@@ -82,25 +98,23 @@ msgid "Escolher programas a serem carregados na memória durante boot"
 msgstr "选择在启动时加载到内存中的程序"
 msgid "Usabilidade"
 msgstr "可用性"
-msgid "Applying, please wait..."
-msgstr "正在应用，请稍候..."
-msgid "GRUB updated successfully!"
-msgstr "GRUB 更新成功！"
-msgid "An error occurred while updating GRUB."
-msgstr "更新 GRUB 时发生错误。"
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 41
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 54
-msgid "BigLinux Settings"
+msgid "BigLinux Ajustes"
 msgstr "BigLinux 设置"
 # 
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 107
 msgid "Usability"
 msgstr "可用性"
 # 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 81
-msgid "Visual system settings"
-msgstr "视觉系统设置"
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_usability_page.py, line: 104
+msgid "User and Visual system settings"
+msgstr "用户和视觉系统设置"
+# 
+# #-#-#-#-#  biglinux-settings.pot (biglinux-settings)  #-#-#-#-#
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_usability_page.py, line: 111
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/preload_page.py, line: 112
+msgid "Reload all statuses"
+msgstr "重新加载所有状态"
 # 
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 114
 msgid "NumLock"
@@ -109,14 +123,6 @@ msgstr "数字锁定"
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 115
 msgid "Initial NumLock state. Ignored if autologin is enabled."
 msgstr "初始数字锁定状态。如果启用自动登录，则忽略。"
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 123
-msgid "Index Files"
-msgstr "索引文件"
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 124
-msgid "Baloo, high storage I/O consumption."
-msgstr "Baloo，高存储I/O消耗。"
 # 
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 131
 msgid "Window Button On Left Side"
@@ -166,35 +172,107 @@ msgstr "自动挂载分区"
 msgid "Auto mount partitions in internal disks on boot."
 msgstr "在启动时自动挂载内部磁盘上的分区。"
 # 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 157
-msgid "Example"
-msgstr "示例"
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_usability_page.py, line: 169
+msgid "Meltdown Mitigations off"
+msgstr "熔断缓解关闭"
 # 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 158
-msgid "Example group description"
-msgstr "示例组描述"
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_usability_page.py, line: 170
+#, python-brace-format
+msgid ""
+"Using mitigations=off will make your machine faster and less secure! For more information see: <a "
+"href='{link}'>{link}</a>"
+msgstr "使用 mitigations=off 将使您的机器更快，但安全性较低！有关更多信息，请参见：<a href='{link}'>{link}</a>"
 # 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 164
-msgid "Example Name"
-msgstr "示例名称"
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_usability_page.py, line: 176
+msgid "noWatchdog"
+msgstr "无监视器"
 # 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 165
-msgid "Example description."
-msgstr "示例描述。"
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_usability_page.py, line: 177
+msgid ""
+"Disables the hardware watchdog and TSC clocksource systems, maintaining high performance but "
+"removing automatic protections against system crashes."
+msgstr "禁用硬件看门狗和TSC时钟源系统，保持高性能但移除对系统崩溃的自动保护。"
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_usability_page.py, line: 190
+msgid "Wifi"
+msgstr "无线网络"
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_usability_page.py, line: 191
+msgid "Wifi On"
+msgstr "无线网络开启"
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_usability_page.py, line: 197
+msgid "Bluetooth"
+msgstr "蓝牙"
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_usability_page.py, line: 198
+msgid "Bluetooth On."
+msgstr "蓝牙开启。"
+# 
+# #-#-#-#-#  biglinux-settings.pot (biglinux-settings)  #-#-#-#-#
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_usability_page.py, line: 206
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/preload_page.py, line: 165
+msgid "Unavailable: script not found."
+msgstr "不可用：未找到脚本。"
 # 
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 173
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 199
 msgid "Script not found: {}"
 msgstr "未找到脚本：{}"
 # 
+# #-#-#-#-#  biglinux-settings.pot (biglinux-settings)  #-#-#-#-#
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_usability_page.py, line: 218
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/preload_page.py, line: 177
+msgid "Enabled"
+msgstr "已启用"
+# 
+# #-#-#-#-#  biglinux-settings.pot (biglinux-settings)  #-#-#-#-#
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_usability_page.py, line: 220
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/preload_page.py, line: 179
+msgid "Disabled"
+msgstr "禁用"
+# 
+# #-#-#-#-#  biglinux-settings.pot (biglinux-settings)  #-#-#-#-#
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_usability_page.py, line: 223
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/preload_page.py, line: 182
+msgid "Enabled by system configuration (e.g., Real-Time Kernel) and cannot be changed here."
+msgstr "由系统配置启用（例如，实时内核），无法在此更改。"
+# 
+# #-#-#-#-#  biglinux-settings.pot (biglinux-settings)  #-#-#-#-#
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_usability_page.py, line: 225
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/preload_page.py, line: 184
+msgid "Unavailable: script returned invalid output."
+msgstr "不可用：脚本返回无效输出。"
+# 
+# #-#-#-#-#  biglinux-settings.pot (biglinux-settings)  #-#-#-#-#
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_usability_page.py, line: 226
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/preload_page.py, line: 185
+msgid "Invalid output from script {}: {}"
+msgstr "脚本{}的输出无效：{}"
+# 
+# #-#-#-#-#  biglinux-settings.pot (biglinux-settings)  #-#-#-#-#
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_usability_page.py, line: 229
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/preload_page.py, line: 188
+msgid "Unavailable: script returned an error."
+msgstr "不可用：脚本返回了一个错误。"
+# 
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 184
 msgid "Error checking state: {}"
 msgstr "错误检查状态：{}"
 # 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 190
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 217
-msgid "Script timeout: {}"
-msgstr "脚本超时：{}"
+# #-#-#-#-#  biglinux-settings.pot (biglinux-settings)  #-#-#-#-#
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_usability_page.py, line: 233
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/preload_page.py, line: 192
+msgid "Unavailable: failed to run script."
+msgstr "不可用：脚本运行失败。"
 # 
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 193
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 220
@@ -213,9 +291,21 @@ msgstr "脚本输出：{}"
 msgid "Script failed with exit code: {}"
 msgstr "脚本失败，退出代码：{}"
 # 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 190
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 217
+msgid "Script timeout: {}"
+msgstr "脚本超时：{}"
+# 
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 236
 msgid "Switch {} synchronized: {}"
 msgstr "切换 {} 同步: {}"
+# 
+# #-#-#-#-#  biglinux-settings.pot (biglinux-settings)  #-#-#-#-#
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_usability_page.py, line: 327
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/preload_page.py, line: 278
+msgid "Indicator {} synchronized: {}"
+msgstr "指示器 {} 已同步：{}"
 # 
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 244
 msgid "Changing {} to {}"
@@ -228,3 +318,52 @@ msgstr "错误：无法将 {} 更改为 {}"
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 274
 msgid "Failed to change setting: {}"
 msgstr "无法更改设置：{}"
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 41
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 54
+msgid "BigLinux Settings"
+msgstr "BigLinux 设置"
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 108
+msgid "System Tweaks"
+msgstr "系统调整"
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 111
+msgid "PreLoad"
+msgstr "预加载"
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/preload_page.py, line: 103
+msgid "Preload"
+msgstr "预加载"
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/preload_page.py, line: 105
+msgid "Preload applications into memory to open them faster."
+msgstr "将应用程序预加载到内存中以更快地打开它们。"
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/preload_page.py, line: 120
+msgid "Firefox"
+msgstr "火狐浏览器"
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/preload_page.py, line: 126
+msgid "Brave"
+msgstr "勇敢"
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/preload_page.py, line: 132
+msgid "Chrome"
+msgstr "Chrome"
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/preload_page.py, line: 138
+msgid "Chromium"
+msgstr "铬浏览器"
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/preload_page.py, line: 144
+msgid "Palemoon"
+msgstr "帕尔月"
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/preload_page.py, line: 150
+msgid "Opera"
+msgstr "歌剧"
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/preload_page.py, line: 156
+msgid "Libreoffice"
+msgstr "自由办公软件"

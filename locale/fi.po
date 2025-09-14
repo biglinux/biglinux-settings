@@ -14,28 +14,32 @@ msgstr ""
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "X-Generator: attranslate\n"
-msgid "BigLinux Ajustes"
-msgstr "BigLinux Asetukset"
-msgid "Desativar efeitos do desktop"
-msgstr "Poista työpöydän tehosteet käytöstä"
-msgid "Se estiver utilizando algum navegador, reinicie-o para aplicar as alterações."
-msgstr "Jos käytät jotain selainta, käynnistä se uudelleen muutosten voimaantulemiseksi."
-msgid "Aceleração do navegador"
-msgstr "Selaimen nopeuttaminen"
-msgid "BTRFS sem fsync"
-msgstr "BTRFS sem fsync"
-msgid "Bloquear a edição da área de trabalho"
-msgstr "Estä työpöydän muokkaaminen."
-msgid "Ligar RGB do teclado"
-msgstr "Kytkin RGB-näppäimistö."
-msgid "Ativar o NumLock ao ligar o sistema"
-msgstr "Ota NumLock päälle järjestelmän käynnistyessä"
-msgid "Modo Desenvolvedor"
-msgstr "Kehittäjätila"
-msgid "Rolagem do touchpad invertida"
-msgstr "Käänteinen kosketuslevyn vieritys"
-msgid "Montar partições automaticamente"
-msgstr "Montaa osiot automaattisesti"
+msgid "Applying, please wait..."
+msgstr "Käytetään, ole hyvä ja odota..."
+msgid ""
+"GRUB updated successfully!\\n"
+"Restart your computer for it to take effect."
+msgstr ""
+"GRUB päivitettiin onnistuneesti!\\n"
+"Käynnistä tietokoneesi uudelleen, jotta muutokset tulevat voimaan."
+msgid "An error occurred while updating GRUB."
+msgstr "Päivityksessä tapahtui virhe GRUB:issa."
+msgid "Already disabled. No changes made."
+msgstr "Jo poistettu käytöstä. Ei muutoksia tehty."
+msgid "Limits updated successfully!"
+msgstr "Rajat päivitettiin onnistuneesti!"
+msgid "An error occurred while updating Limits."
+msgstr "Päivityksessä tapahtui virhe Limits."
+msgid "GRUB updated successfully!"
+msgstr "GRUB päivitettiin onnistuneesti!"
+msgid "Aguarde..."
+msgstr "Odota..."
+msgid "Aplicando, Aguarde..."
+msgstr "Hakemassa, Odota..."
+msgid "Botões da janela no lado esquerdo"
+msgstr "Ikkunan painikkeet vasemmalla puolella"
+msgid "Ocultar Gerenciador de Boot (GRUB)"
+msgstr "Piilota Käynnistysmanageri (GRUB)"
 msgid "Grub"
 msgstr "Grub"
 msgid "Cuidado, você perderá acesso aos SnapShots. Tem certeza que deseja ocultar o grub?"
@@ -52,18 +56,30 @@ msgid "Aplicando, aguarde..."
 msgstr "Hakeminen, odota..."
 msgid "Concluído!"
 msgstr "Valmis!"
-msgid "Ocultar Gerenciador de Boot (GRUB)"
-msgstr "Piilota Käynnistysmanageri (GRUB)"
+msgid "Ativar o NumLock ao ligar o sistema"
+msgstr "Ota NumLock päälle järjestelmän käynnistyessä"
+msgid "Montar partições automaticamente"
+msgstr "Montaa osiot automaattisesti"
+msgid "Modo Desenvolvedor"
+msgstr "Kehittäjätila"
 msgid "Rolagem do mouse invertida"
 msgstr "Käänteinen hiiren vieritys"
-msgid "Aguarde..."
-msgstr "Odota..."
-msgid "Aplicando, Aguarde..."
-msgstr "Hakemassa, Odota..."
-msgid "Botões da janela no lado esquerdo"
-msgstr "Ikkunan painikkeet vasemmalla puolella"
+msgid "Ligar RGB do teclado"
+msgstr "Kytkin RGB-näppäimistö."
+msgid "Rolagem do touchpad invertida"
+msgstr "Käänteinen kosketuslevyn vieritys"
 msgid "Indexar arquivos"
 msgstr "Indeksoi tiedostoja"
+msgid "Bloquear a edição da área de trabalho"
+msgstr "Estä työpöydän muokkaaminen."
+msgid "Desativar efeitos do desktop"
+msgstr "Poista työpöydän tehosteet käytöstä"
+msgid "Se estiver utilizando algum navegador, reinicie-o para aplicar as alterações."
+msgstr "Jos käytät jotain selainta, käynnistä se uudelleen muutosten voimaantulemiseksi."
+msgid "Aceleração do navegador"
+msgstr "Selaimen nopeuttaminen"
+msgid "BTRFS sem fsync"
+msgstr "BTRFS sem fsync"
 msgid "Abrir"
 msgstr "Avaa"
 msgid "Procurar..."
@@ -80,25 +96,23 @@ msgid "Escolher programas a serem carregados na memória durante boot"
 msgstr "Valitse ohjelmat, jotka ladataan muistiin käynnistyksen aikana."
 msgid "Usabilidade"
 msgstr "Käytettävyys"
-msgid "Applying, please wait..."
-msgstr "Käytetään, ole hyvä ja odota..."
-msgid "GRUB updated successfully!"
-msgstr "GRUB päivitettiin onnistuneesti!"
-msgid "An error occurred while updating GRUB."
-msgstr "Päivityksessä tapahtui virhe GRUB:issa."
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 41
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 54
-msgid "BigLinux Settings"
+msgid "BigLinux Ajustes"
 msgstr "BigLinux Asetukset"
 # 
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 107
 msgid "Usability"
 msgstr "Käytettävyys"
 # 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 81
-msgid "Visual system settings"
-msgstr "Visuaaliset järjestelmäasetukset"
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_usability_page.py, line: 104
+msgid "User and Visual system settings"
+msgstr "Käyttäjä- ja visuaalijärjestelmäasetukset"
+# 
+# #-#-#-#-#  biglinux-settings.pot (biglinux-settings)  #-#-#-#-#
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_usability_page.py, line: 111
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/preload_page.py, line: 112
+msgid "Reload all statuses"
+msgstr "Lataa kaikki tilat uudelleen"
 # 
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 114
 msgid "NumLock"
@@ -107,14 +121,6 @@ msgstr "NumLock"
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 115
 msgid "Initial NumLock state. Ignored if autologin is enabled."
 msgstr "Alkuperäinen NumLock-tila. Ohitetaan, jos automaattinen kirjautuminen on käytössä."
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 123
-msgid "Index Files"
-msgstr "Indeksoi tiedostot"
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 124
-msgid "Baloo, high storage I/O consumption."
-msgstr "Baloo, korkea tallennus I/O-kulutus."
 # 
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 131
 msgid "Window Button On Left Side"
@@ -164,35 +170,111 @@ msgstr "Automaattisesti liitetyt osiot"
 msgid "Auto mount partitions in internal disks on boot."
 msgstr "Automaattisesti liitä osiot sisäisillä levyillä käynnistyksen yhteydessä."
 # 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 157
-msgid "Example"
-msgstr "Esimerkki"
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_usability_page.py, line: 169
+msgid "Meltdown Mitigations off"
+msgstr "Meltdown-mitigoinnit pois päältä"
 # 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 158
-msgid "Example group description"
-msgstr "Esimerkkiryhmän kuvaus"
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_usability_page.py, line: 170
+#, python-brace-format
+msgid ""
+"Using mitigations=off will make your machine faster and less secure! For more information see: <a "
+"href='{link}'>{link}</a>"
+msgstr ""
+"Käyttämällä mitigations=off nopeutat konettasi, mutta se on vähemmän turvallinen! Lisätietoja saat "
+"osoitteesta: <a href='{link}'>{link}</a>"
 # 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 164
-msgid "Example Name"
-msgstr "Esimerkin Nimi"
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_usability_page.py, line: 176
+msgid "noWatchdog"
+msgstr "eiValvoja"
 # 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 165
-msgid "Example description."
-msgstr "Esimerkkikuvaus."
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_usability_page.py, line: 177
+msgid ""
+"Disables the hardware watchdog and TSC clocksource systems, maintaining high performance but "
+"removing automatic protections against system crashes."
+msgstr ""
+"Poistaa käytöstä laitteiston valvontakellon ja TSC-aikakellolähteet, säilyttäen korkean "
+"suorituskyvyn mutta poistaen automaattiset suojat järjestelmän kaatumisia vastaan."
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_usability_page.py, line: 190
+msgid "Wifi"
+msgstr "Wifi"
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_usability_page.py, line: 191
+msgid "Wifi On"
+msgstr "Wifi päällä"
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_usability_page.py, line: 197
+msgid "Bluetooth"
+msgstr "Bluetooth"
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_usability_page.py, line: 198
+msgid "Bluetooth On."
+msgstr "Bluetooth päällä."
+# 
+# #-#-#-#-#  biglinux-settings.pot (biglinux-settings)  #-#-#-#-#
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_usability_page.py, line: 206
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/preload_page.py, line: 165
+msgid "Unavailable: script not found."
+msgstr "Ei saatavilla: skriptiä ei löytynyt."
 # 
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 173
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 199
 msgid "Script not found: {}"
 msgstr "Skriptiä ei löytynyt: {}"
 # 
+# #-#-#-#-#  biglinux-settings.pot (biglinux-settings)  #-#-#-#-#
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_usability_page.py, line: 218
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/preload_page.py, line: 177
+msgid "Enabled"
+msgstr "Oma käytössä"
+# 
+# #-#-#-#-#  biglinux-settings.pot (biglinux-settings)  #-#-#-#-#
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_usability_page.py, line: 220
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/preload_page.py, line: 179
+msgid "Disabled"
+msgstr "Poistettu käytöstä"
+# 
+# #-#-#-#-#  biglinux-settings.pot (biglinux-settings)  #-#-#-#-#
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_usability_page.py, line: 223
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/preload_page.py, line: 182
+msgid "Enabled by system configuration (e.g., Real-Time Kernel) and cannot be changed here."
+msgstr "Oletettu järjestelmäasetusten (esim. Reaaliaikainen ydin) avulla, eikä sitä voida muuttaa täällä."
+# 
+# #-#-#-#-#  biglinux-settings.pot (biglinux-settings)  #-#-#-#-#
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_usability_page.py, line: 225
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/preload_page.py, line: 184
+msgid "Unavailable: script returned invalid output."
+msgstr "Ei saatavilla: skripti palautti virheellisen tuloksen."
+# 
+# #-#-#-#-#  biglinux-settings.pot (biglinux-settings)  #-#-#-#-#
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_usability_page.py, line: 226
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/preload_page.py, line: 185
+msgid "Invalid output from script {}: {}"
+msgstr "Virheellinen tuloste skriptistä {}: {}"
+# 
+# #-#-#-#-#  biglinux-settings.pot (biglinux-settings)  #-#-#-#-#
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_usability_page.py, line: 229
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/preload_page.py, line: 188
+msgid "Unavailable: script returned an error."
+msgstr "Ei saatavilla: skripti palautti virheen."
+# 
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 184
 msgid "Error checking state: {}"
 msgstr "Virheen tarkistustila: {}"
 # 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 190
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 217
-msgid "Script timeout: {}"
-msgstr "Skripti aikakatkaisu: {}"
+# #-#-#-#-#  biglinux-settings.pot (biglinux-settings)  #-#-#-#-#
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_usability_page.py, line: 233
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/preload_page.py, line: 192
+msgid "Unavailable: failed to run script."
+msgstr "Ei saatavilla: skriptin suorittaminen epäonnistui."
 # 
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 193
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 220
@@ -211,9 +293,21 @@ msgstr "{}"
 msgid "Script failed with exit code: {}"
 msgstr "Skripti epäonnistui poistumiskoodilla: {}"
 # 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 190
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 217
+msgid "Script timeout: {}"
+msgstr "Skripti aikakatkaisu: {}"
+# 
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 236
 msgid "Switch {} synchronized: {}"
 msgstr "Vaihda {} synkronoitu: {}"
+# 
+# #-#-#-#-#  biglinux-settings.pot (biglinux-settings)  #-#-#-#-#
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_usability_page.py, line: 327
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/preload_page.py, line: 278
+msgid "Indicator {} synchronized: {}"
+msgstr "Indikaattori {} synkronoitu: {}"
 # 
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 244
 msgid "Changing {} to {}"
@@ -226,3 +320,52 @@ msgstr "VIRHE: Muutosta {} {} ei voitu suorittaa."
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 274
 msgid "Failed to change setting: {}"
 msgstr "Asetuksen muuttaminen epäonnistui: {}"
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 41
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 54
+msgid "BigLinux Settings"
+msgstr "BigLinux Asetukset"
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 108
+msgid "System Tweaks"
+msgstr "Järjestelmäasetukset"
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 111
+msgid "PreLoad"
+msgstr "Esilataus"
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/preload_page.py, line: 103
+msgid "Preload"
+msgstr "Esilataus"
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/preload_page.py, line: 105
+msgid "Preload applications into memory to open them faster."
+msgstr "Esilataa sovelluksia muistiin avatakseen ne nopeammin."
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/preload_page.py, line: 120
+msgid "Firefox"
+msgstr "Firefox"
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/preload_page.py, line: 126
+msgid "Brave"
+msgstr "Rohkea"
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/preload_page.py, line: 132
+msgid "Chrome"
+msgstr "Chrome"
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/preload_page.py, line: 138
+msgid "Chromium"
+msgstr "Chromium"
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/preload_page.py, line: 144
+msgid "Palemoon"
+msgstr "Palemoon"
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/preload_page.py, line: 150
+msgid "Opera"
+msgstr "Opera"
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/preload_page.py, line: 156
+msgid "Libreoffice"
+msgstr "LibreOffice"
