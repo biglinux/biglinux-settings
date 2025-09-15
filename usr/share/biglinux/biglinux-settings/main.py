@@ -49,7 +49,7 @@ class SystemSettingsWindow(Adw.ApplicationWindow):
         super().__init__(**kwargs)
 
         # Window configuration
-        self.set_title(_("BigLinux Settings"))
+        self.set_title(_("General adjustments"))
         self.set_default_size(600, 800)
 
         # Load custom CSS for styling
