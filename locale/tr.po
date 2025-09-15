@@ -46,6 +46,8 @@ msgid "Cuidado, você perderá acesso aos SnapShots. Tem certeza que deseja ocul
 msgstr "Dikkat, SnapShot'lara erişiminizi kaybedeceksiniz. Grub'u gizlemek istediğinizden emin misiniz?"
 msgid "Sim"
 msgstr "Evet"
+msgid "Você saberá retornar o Grub em caso de falha?"
+msgstr "Veri kaybı durumunda Grub'u geri yükleyebilecek misiniz?"
 msgid "Você saberá acessar os SnapShots sem acesso ao modo Gráfico?"
 msgstr "Erişim moduna ihtiyaç duymadan SnapShot'lara erişebileceksiniz."
 msgid "Você está completamente seguro dessa aplicação?"
@@ -323,10 +325,9 @@ msgstr "HATA: {}'yi {}'ye değiştirme başarısız oldu."
 msgid "Failed to change setting: {}"
 msgstr "Ayar değiştirilemedi: {}"
 # 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 41
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 54
-msgid "BigLinux Settings"
-msgstr "BigLinux Ayarları"
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 52
+msgid "General adjustments"
+msgstr "Genel ayarlar"
 # 
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 108
 msgid "System Tweaks"
