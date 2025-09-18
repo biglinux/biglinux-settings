@@ -2,7 +2,7 @@
 
 #Translation
 export TEXTDOMAINDIR="/usr/share/locale"
-export TEXTDOMAIN=pipewire-proaudio-config
+export TEXTDOMAIN=biglinux-settings
 
 # Assign the received arguments to variables with clear names
 function="$1"

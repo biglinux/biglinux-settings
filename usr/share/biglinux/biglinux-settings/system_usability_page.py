@@ -198,6 +198,13 @@ class SystemUsabilityPage(Adw.Bin):
             _("Bluetooth On."),
             "bluetooth"
         )
+        # Docker
+        self.Docker_switch = self.create_row_with_clickable_link(
+            group,
+            _("Docker"),
+            _("Docker Enabled."),
+            "dockerEnable"
+        )
 
     def check_script_state(self, script_path):
         """Executes a script with the 'check' argument to get its current state.

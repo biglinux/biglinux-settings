@@ -20,46 +20,32 @@ runAsUser() {
 }
 
 # 1. Creates a named pipe (FIFO) for communication with Zenity
-pipePath="/tmp/limits_pipe_$$"
+pipePath="/tmp/grub_pipe_$$"
 mkfifo "$pipePath"
 
 # 2. Starts Zenity IN THE BACKGROUND, as the user, with the full environment
-zenityText=$"Applying, please wait..."
-runAsUser "zenity --progress --title='Limits' --text=\"$zenityText\" --pulsate --auto-close --no-cancel < '$pipePath'" &
-
-limitsFinalMessage() {
-if [[ "$updateSucesse" == "true" ]]; then
-  zenityText=$"Limits updated successfully!"
-  runAsUser "zenity --info --text=\"$zenityText\""
-else
-  zenityText=$"An error occurred while updating Limits."
-  runAsUser "zenity --error --text=\"$zenityText\""
-fi
-}
+zenityTitle=$"Docker Install"
+zenityText=$'Instaling Docker, Please wait...'
+runAsUser "zenity --progress --title=\"$zenityTitle\" --text=\"$zenityText\" --pulsate --auto-close --no-cancel < '$pipePath'" &
 
 # 3. Executes the root tasks.
-updateLimitsTask() {
-  if [[ "$function" == "enable" ]]; then
-    # Add the parameter
-    echo '@audio - rtprio 90' | tee -a /etc/security/limits.conf
-    echo '@audio - memlock unlimited' | tee -a /etc/security/limits.conf
-  else
-    # remove the parameter
-    sed -i -E "/rtprio/d" /etc/security/limits.conf
-    sed -i -E "/memlock unlimited/d" /etc/security/limits.conf
+updateGrubTask() {
+  if [[ "$function" == "install" ]]; then
+    pacman -Syu biglinux-docker-config > "$pipePath"
   fi
+  exitCode=$?
 }
-updateLimitsTask
+updateGrubTask
 
 # 4. Cleans up the pipe
 rm "$pipePath"
 
 # 5. Shows the final result to the user, also with the correct theme.
 if [[ "$exitCode" -eq 0 ]]; then
-  zenityText=$"Limits updated successfully!"
+  zenityText=$"Docker installed successfully!"
   runAsUser "zenity --info --text=\"$zenityText\""
 else
-  zenityText=$"An error occurred while updating Limits."
+  zenityText=$"An error occurred while install docker."
   runAsUser "zenity --error --text=\"$zenityText\""
 fi
 
