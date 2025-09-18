@@ -16,6 +16,12 @@ msgstr ""
 "X-Generator: attranslate\n"
 msgid "Applying, please wait..."
 msgstr "적용 중입니다. 잠시만 기다려 주십시오..."
+msgid "Docker Install"
+msgstr "도커 설치"
+msgid "Docker installed successfully!"
+msgstr "Docker가 성공적으로 설치되었습니다!"
+msgid "An error occurred while install docker."
+msgstr "도커 설치 중 오류가 발생했습니다."
 msgid ""
 "GRUB updated successfully!\\n"
 "Restart your computer for it to take effect."
@@ -211,6 +217,14 @@ msgstr "블루투스"
 msgid "Bluetooth On."
 msgstr "블루투스 켜짐."
 # 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_usability_page.py, line: 204
+msgid "Docker"
+msgstr "도커"
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_usability_page.py, line: 205
+msgid "Docker Enabled."
+msgstr "도커 사용 가능."
+# 
 # #-#-#-#-#  biglinux-settings.pot (biglinux-settings)  #-#-#-#-#
 # 
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_usability_page.py, line: 206
@@ -321,10 +335,9 @@ msgstr "오류: {}를 {}로 변경하지 못했습니다."
 msgid "Failed to change setting: {}"
 msgstr "설정을 변경하지 못했습니다: {}"
 # 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 41
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 54
-msgid "BigLinux Settings"
-msgstr "빅리눅스 설정"
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 52
+msgid "General adjustments"
+msgstr "일반 조정"
 # 
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 108
 msgid "System Tweaks"

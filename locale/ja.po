@@ -16,6 +16,12 @@ msgstr ""
 "X-Generator: attranslate\n"
 msgid "Applying, please wait..."
 msgstr "適用中です。お待ちください..."
+msgid "Docker Install"
+msgstr "Dockerのインストール"
+msgid "Docker installed successfully!"
+msgstr "Dockerが正常にインストールされました！"
+msgid "An error occurred while install docker."
+msgstr "Dockerのインストール中にエラーが発生しました。"
 msgid ""
 "GRUB updated successfully!\\n"
 "Restart your computer for it to take effect."
@@ -209,6 +215,14 @@ msgstr "ブルートゥース"
 msgid "Bluetooth On."
 msgstr "Bluetoothオン。"
 # 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_usability_page.py, line: 204
+msgid "Docker"
+msgstr "ドッカー"
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_usability_page.py, line: 205
+msgid "Docker Enabled."
+msgstr "Dockerが有効になっています。"
+# 
 # #-#-#-#-#  biglinux-settings.pot (biglinux-settings)  #-#-#-#-#
 # 
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_usability_page.py, line: 206
@@ -319,10 +333,9 @@ msgstr "エラー: {} を {} に変更できませんでした。"
 msgid "Failed to change setting: {}"
 msgstr "設定の変更に失敗しました: {}"
 # 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 41
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 54
-msgid "BigLinux Settings"
-msgstr "BigLinux 設定"
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 52
+msgid "General adjustments"
+msgstr "一般的な調整"
 # 
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 108
 msgid "System Tweaks"

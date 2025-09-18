@@ -16,6 +16,12 @@ msgstr ""
 "X-Generator: attranslate\n"
 msgid "Applying, please wait..."
 msgstr "Se aplică, vă rugăm să așteptați..."
+msgid "Docker Install"
+msgstr "Instalare Docker"
+msgid "Docker installed successfully!"
+msgstr "Docker instalat cu succes!"
+msgid "An error occurred while install docker."
+msgstr "A apărut o eroare în timpul instalării docker."
 msgid ""
 "GRUB updated successfully!\\n"
 "Restart your computer for it to take effect."
@@ -209,6 +215,14 @@ msgstr "Bluetooth"
 msgid "Bluetooth On."
 msgstr "Bluetooth Activat."
 # 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_usability_page.py, line: 204
+msgid "Docker"
+msgstr "Docker"
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_usability_page.py, line: 205
+msgid "Docker Enabled."
+msgstr "Docker activat."
+# 
 # #-#-#-#-#  biglinux-settings.pot (biglinux-settings)  #-#-#-#-#
 # 
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_usability_page.py, line: 206
@@ -319,10 +333,9 @@ msgstr "EROARE: Nu s-a reușit schimbarea {} în {}"
 msgid "Failed to change setting: {}"
 msgstr "Eșec la schimbarea setării: {}"
 # 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 41
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 54
-msgid "BigLinux Settings"
-msgstr "Setări BigLinux"
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 52
+msgid "General adjustments"
+msgstr "Ajustări generale"
 # 
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 108
 msgid "System Tweaks"

@@ -19,6 +19,18 @@ msgid "Applying, please wait..."
 msgstr "Applying, please wait..."
 
 #
+msgid "Docker Install"
+msgstr "Docker Install"
+
+#
+msgid "Docker installed successfully!"
+msgstr "Docker installed successfully!"
+
+#
+msgid "An error occurred while install docker."
+msgstr "An error occurred while install docker."
+
+#
 msgid ""
 "GRUB updated successfully!\\nRestart your computer for it to take effect."
 msgstr ""
@@ -328,9 +340,19 @@ msgid "Bluetooth On."
 msgstr "Bluetooth On."
 
 #
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_usability_page.py, line: 204
+msgid "Docker"
+msgstr "Docker"
+
+#
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_usability_page.py, line: 205
+msgid "Docker Enabled."
+msgstr "Docker Enabled."
+
+#
 # #-#-#-#-#  biglinux-settings.pot (biglinux-settings)  #-#-#-#-#
 #
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_usability_page.py, line: 206
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_usability_page.py, line: 213
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings/preload_page.py, line: 165
 msgid "Unavailable: script not found."
 msgstr "Unavailable: script not found."
@@ -338,8 +360,8 @@ msgstr "Unavailable: script not found."
 #
 # #-#-#-#-#  biglinux-settings.pot (biglinux-settings)  #-#-#-#-#
 #
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_usability_page.py, line: 207
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_usability_page.py, line: 241
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_usability_page.py, line: 214
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_usability_page.py, line: 248
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings/preload_page.py, line: 166
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings/preload_page.py, line: 200
 msgid "Script not found: {}"
@@ -348,7 +370,7 @@ msgstr "Script not found: {}"
 #
 # #-#-#-#-#  biglinux-settings.pot (biglinux-settings)  #-#-#-#-#
 #
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_usability_page.py, line: 218
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_usability_page.py, line: 225
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings/preload_page.py, line: 177
 msgid "Enabled"
 msgstr "Enabled"
@@ -356,7 +378,7 @@ msgstr "Enabled"
 #
 # #-#-#-#-#  biglinux-settings.pot (biglinux-settings)  #-#-#-#-#
 #
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_usability_page.py, line: 220
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_usability_page.py, line: 227
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings/preload_page.py, line: 179
 msgid "Disabled"
 msgstr "Disabled"
@@ -364,7 +386,7 @@ msgstr "Disabled"
 #
 # #-#-#-#-#  biglinux-settings.pot (biglinux-settings)  #-#-#-#-#
 #
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_usability_page.py, line: 223
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_usability_page.py, line: 230
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings/preload_page.py, line: 182
 msgid ""
 "Enabled by system configuration (e.g., Real-Time Kernel) and cannot be "
@@ -376,7 +398,7 @@ msgstr ""
 #
 # #-#-#-#-#  biglinux-settings.pot (biglinux-settings)  #-#-#-#-#
 #
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_usability_page.py, line: 225
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_usability_page.py, line: 232
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings/preload_page.py, line: 184
 msgid "Unavailable: script returned invalid output."
 msgstr "Unavailable: script returned invalid output."
@@ -384,7 +406,7 @@ msgstr "Unavailable: script returned invalid output."
 #
 # #-#-#-#-#  biglinux-settings.pot (biglinux-settings)  #-#-#-#-#
 #
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_usability_page.py, line: 226
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_usability_page.py, line: 233
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings/preload_page.py, line: 185
 msgid "Invalid output from script {}: {}"
 msgstr "Invalid output from script {}: {}"
@@ -392,7 +414,7 @@ msgstr "Invalid output from script {}: {}"
 #
 # #-#-#-#-#  biglinux-settings.pot (biglinux-settings)  #-#-#-#-#
 #
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_usability_page.py, line: 229
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_usability_page.py, line: 236
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings/preload_page.py, line: 188
 msgid "Unavailable: script returned an error."
 msgstr "Unavailable: script returned an error."
@@ -400,7 +422,7 @@ msgstr "Unavailable: script returned an error."
 #
 # #-#-#-#-#  biglinux-settings.pot (biglinux-settings)  #-#-#-#-#
 #
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_usability_page.py, line: 230
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_usability_page.py, line: 237
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings/preload_page.py, line: 189
 msgid "Error checking state: {}"
 msgstr "Error checking state: {}"
@@ -408,7 +430,7 @@ msgstr "Error checking state: {}"
 #
 # #-#-#-#-#  biglinux-settings.pot (biglinux-settings)  #-#-#-#-#
 #
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_usability_page.py, line: 233
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_usability_page.py, line: 240
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings/preload_page.py, line: 192
 msgid "Unavailable: failed to run script."
 msgstr "Unavailable: failed to run script."
@@ -416,8 +438,8 @@ msgstr "Unavailable: failed to run script."
 #
 # #-#-#-#-#  biglinux-settings.pot (biglinux-settings)  #-#-#-#-#
 #
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_usability_page.py, line: 234
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_usability_page.py, line: 275
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_usability_page.py, line: 241
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_usability_page.py, line: 282
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings/preload_page.py, line: 193
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings/preload_page.py, line: 234
 msgid "Error running script {}: {}"
@@ -426,7 +448,7 @@ msgstr "Error running script {}: {}"
 #
 # #-#-#-#-#  biglinux-settings.pot (biglinux-settings)  #-#-#-#-#
 #
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_usability_page.py, line: 253
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_usability_page.py, line: 260
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings/preload_page.py, line: 212
 msgid "State changed successfully"
 msgstr "State changed successfully"
@@ -434,7 +456,7 @@ msgstr "State changed successfully"
 #
 # #-#-#-#-#  biglinux-settings.pot (biglinux-settings)  #-#-#-#-#
 #
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_usability_page.py, line: 255
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_usability_page.py, line: 262
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings/preload_page.py, line: 214
 msgid "Script output: {}"
 msgstr "Script output: {}"
@@ -442,7 +464,7 @@ msgstr "Script output: {}"
 #
 # #-#-#-#-#  biglinux-settings.pot (biglinux-settings)  #-#-#-#-#
 #
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_usability_page.py, line: 259
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_usability_page.py, line: 266
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings/preload_page.py, line: 218
 msgid "Script failed with exit code: {}"
 msgstr "Script failed with exit code: {}"
@@ -450,7 +472,7 @@ msgstr "Script failed with exit code: {}"
 #
 # #-#-#-#-#  biglinux-settings.pot (biglinux-settings)  #-#-#-#-#
 #
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_usability_page.py, line: 271
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_usability_page.py, line: 278
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings/preload_page.py, line: 230
 msgid "Script timeout: {}"
 msgstr "Script timeout: {}"
@@ -458,7 +480,7 @@ msgstr "Script timeout: {}"
 #
 # #-#-#-#-#  biglinux-settings.pot (biglinux-settings)  #-#-#-#-#
 #
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_usability_page.py, line: 304
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_usability_page.py, line: 311
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings/preload_page.py, line: 257
 msgid "Switch {} synchronized: {}"
 msgstr "Switch {} synchronized: {}"
@@ -466,7 +488,7 @@ msgstr "Switch {} synchronized: {}"
 #
 # #-#-#-#-#  biglinux-settings.pot (biglinux-settings)  #-#-#-#-#
 #
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_usability_page.py, line: 327
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_usability_page.py, line: 334
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings/preload_page.py, line: 278
 msgid "Indicator {} synchronized: {}"
 msgstr "Indicator {} synchronized: {}"
@@ -474,7 +496,7 @@ msgstr "Indicator {} synchronized: {}"
 #
 # #-#-#-#-#  biglinux-settings.pot (biglinux-settings)  #-#-#-#-#
 #
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_usability_page.py, line: 335
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_usability_page.py, line: 342
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings/preload_page.py, line: 286
 msgid "Changing {} to {}"
 msgstr "Changing {} to {}"
@@ -482,7 +504,7 @@ msgstr "Changing {} to {}"
 #
 # #-#-#-#-#  biglinux-settings.pot (biglinux-settings)  #-#-#-#-#
 #
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_usability_page.py, line: 348
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_usability_page.py, line: 355
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings/preload_page.py, line: 299
 msgid "ERROR: Failed to change {} to {}"
 msgstr "ERROR: Failed to change {} to {}"
@@ -490,15 +512,15 @@ msgstr "ERROR: Failed to change {} to {}"
 #
 # #-#-#-#-#  biglinux-settings.pot (biglinux-settings)  #-#-#-#-#
 #
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_usability_page.py, line: 349
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_usability_page.py, line: 356
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings/preload_page.py, line: 300
 msgid "Failed to change setting: {}"
 msgstr "Failed to change setting: {}"
 
 #
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 52
-msgid "BigLinux Settings"
-msgstr "BigLinux Settings"
+msgid "General adjustments"
+msgstr "General adjustments"
 
 #
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 108

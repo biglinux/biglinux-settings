@@ -16,6 +16,12 @@ msgstr ""
 "X-Generator: attranslate\n"
 msgid "Applying, please wait..."
 msgstr "Alkalmazás folyamatban, kérjük várjon..."
+msgid "Docker Install"
+msgstr "Docker telepítése"
+msgid "Docker installed successfully!"
+msgstr "A Docker sikeresen telepítve lett!"
+msgid "An error occurred while install docker."
+msgstr "Hiba történt a Docker telepítése során."
 msgid ""
 "GRUB updated successfully!\\n"
 "Restart your computer for it to take effect."
@@ -217,6 +223,14 @@ msgstr "Bluetooth"
 msgid "Bluetooth On."
 msgstr "Bluetooth be van kapcsolva."
 # 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_usability_page.py, line: 204
+msgid "Docker"
+msgstr "Docker"
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_usability_page.py, line: 205
+msgid "Docker Enabled."
+msgstr "Docker engedélyezve."
+# 
 # #-#-#-#-#  biglinux-settings.pot (biglinux-settings)  #-#-#-#-#
 # 
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_usability_page.py, line: 206
@@ -327,10 +341,9 @@ msgstr "HIBA: A {}-t {}-ra nem sikerült megváltoztatni."
 msgid "Failed to change setting: {}"
 msgstr "A beállítás módosítása nem sikerült: {}"
 # 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 41
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 54
-msgid "BigLinux Settings"
-msgstr "BigLinux Beállítások"
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 52
+msgid "General adjustments"
+msgstr "Általános beállítások"
 # 
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 108
 msgid "System Tweaks"

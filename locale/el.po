@@ -16,6 +16,12 @@ msgstr ""
 "X-Generator: attranslate\n"
 msgid "Applying, please wait..."
 msgstr "Εφαρμογή, παρακαλώ περιμένετε..."
+msgid "Docker Install"
+msgstr "Εγκατάσταση Docker"
+msgid "Docker installed successfully!"
+msgstr "Το Docker εγκαταστάθηκε με επιτυχία!"
+msgid "An error occurred while install docker."
+msgstr "Παρουσιάστηκε σφάλμα κατά την εγκατάσταση του docker."
 msgid ""
 "GRUB updated successfully!\\n"
 "Restart your computer for it to take effect."
@@ -211,6 +217,14 @@ msgstr "Μπλουτούθ"
 msgid "Bluetooth On."
 msgstr "Bluetooth Ενεργό."
 # 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_usability_page.py, line: 204
+msgid "Docker"
+msgstr "Ντόκερ"
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_usability_page.py, line: 205
+msgid "Docker Enabled."
+msgstr "Ενεργοποιημένο Docker."
+# 
 # #-#-#-#-#  biglinux-settings.pot (biglinux-settings)  #-#-#-#-#
 # 
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_usability_page.py, line: 206
@@ -323,10 +337,9 @@ msgstr "ΣΦΑΛΜΑ: Αποτυχία αλλαγής {} σε {}"
 msgid "Failed to change setting: {}"
 msgstr "Αποτυχία αλλαγής ρύθμισης: {}"
 # 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 41
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 54
-msgid "BigLinux Settings"
-msgstr "Ρυθμίσεις BigLinux"
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 52
+msgid "General adjustments"
+msgstr "Γενικές ρυθμίσεις"
 # 
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 108
 msgid "System Tweaks"
