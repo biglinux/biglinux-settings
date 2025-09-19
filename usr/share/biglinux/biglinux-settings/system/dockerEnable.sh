@@ -13,14 +13,14 @@ check_state() {
 toggle_state() {
   new_state="$1"
   if [[ "$new_state" == "true" ]];then
-    if pacman -Q biglinux-docker-config &>/dev/null; then
+    if ! pacman -Q biglinux-docker-config &>/dev/null; then
       pkexec $PWD/system/dockerEnableRun.sh "install" "$USER" "$DISPLAY" "$XAUTHORITY" "$DBUS_SESSION_BUS_ADDRESS" "$LANG" "$LANGUAGE"
     fi
-      pkexec systemctl enable docker
-      exitCode=$?
+    pkexec systemctl enable docker
+    exitCode=$?
   else
-      pkexec systemctl disable docker
-      exitCode=$?
+    pkexec systemctl disable docker
+    exitCode=$?
   fi
   exit $exitCode
 }

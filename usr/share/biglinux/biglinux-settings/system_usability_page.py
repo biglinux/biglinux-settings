@@ -357,11 +357,3 @@ class SystemUsabilityPage(Adw.Bin):
 
         return False
 
-
-
-
-
-
-
-
-

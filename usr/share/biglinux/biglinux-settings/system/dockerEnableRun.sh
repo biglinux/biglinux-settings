@@ -20,7 +20,7 @@ runAsUser() {
 }
 
 # 1. Creates a named pipe (FIFO) for communication with Zenity
-pipePath="/tmp/grub_pipe_$$"
+pipePath="/tmp/docker_pipe_$$"
 mkfifo "$pipePath"
 
 # 2. Starts Zenity IN THE BACKGROUND, as the user, with the full environment
@@ -29,13 +29,13 @@ zenityText=$'Instaling Docker, Please wait...'
 runAsUser "zenity --progress --title=\"$zenityTitle\" --text=\"$zenityText\" --pulsate --auto-close --no-cancel < '$pipePath'" &
 
 # 3. Executes the root tasks.
-updateGrubTask() {
+updateDockerTask() {
   if [[ "$function" == "install" ]]; then
-    pacman -Syu biglinux-docker-config > "$pipePath"
+    pacman -Syu --noconfirm biglinux-docker-config > "$pipePath"
   fi
   exitCode=$?
 }
-updateGrubTask
+updateDockerTask
 
 # 4. Cleans up the pipe
 rm "$pipePath"
