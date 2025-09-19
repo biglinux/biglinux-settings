@@ -25,17 +25,23 @@ mkfifo "$pipePath"
 
 # 2. Starts Zenity IN THE BACKGROUND, as the user, with the full environment
 zenityTitle=$"Docker Install"
-zenityText=$'Instaling Docker, Please wait...'
+zenityText=$"Instaling Docker, Please wait..."
 runAsUser "zenity --progress --title=\"$zenityTitle\" --text=\"$zenityText\" --pulsate --auto-close --no-cancel < '$pipePath'" &
 
 # 3. Executes the root tasks.
 updateDockerTask() {
-  if [[ "$function" == "install" ]]; then
-    pacman -Syu --noconfirm biglinux-docker-config > "$pipePath"
+  if [[ "$function" == "enable" ]]; then
+    if ! pacman -Q biglinux-docker-config &>/dev/null; then
+      pacman -Syu --noconfirm biglinux-docker-config
+    fi
+    systemctl enable --now docker.service
+  elif [[ "$function" == "disable" ]]; then
+    systemctl disable --now docker.service
+    systemctl stop docker.socket
   fi
   exitCode=$?
 }
-updateDockerTask
+updateDockerTask > "$pipePath"
 
 # 4. Cleans up the pipe
 rm "$pipePath"
