@@ -34,9 +34,9 @@ toggle_state() {
   new_state="$1"
   if [[ "$XDG_CURRENT_DESKTOP" == *"KDE"* ]] || [[ "$XDG_CURRENT_DESKTOP" == *"Plasma"* ]];then
     if [[ "$new_state" == "true" ]];then
-      kwriteconfig6 --file $HOME/.config/gtk-3.0/settings.ini --group Settings --key "gtk-decoration-layout" "close,maximize,minimize:menu"
-      kwriteconfig6 --file $HOME/.config/gtk-4.0/settings.ini --group Settings --key "gtk-decoration-layout" "close,maximize,minimize:menu"
-      gsettings set org.gnome.desktop.wm.preferences button-layout "close,maximize,minimize:menu"
+      kwriteconfig6 --file $HOME/.config/gtk-3.0/settings.ini --group Settings --key "gtk-decoration-layout" "close,minimize,maximize:menu"
+      kwriteconfig6 --file $HOME/.config/gtk-4.0/settings.ini --group Settings --key "gtk-decoration-layout" "close,minimize,maximize:menu"
+      gsettings set org.gnome.desktop.wm.preferences button-layout "close,minimize,maximize:menu"
       kwriteconfig6 --group "org.kde.kdecoration2" --key "ButtonsOnLeft" --file "$HOME/.config/kwinrc" "XIA"
       kwriteconfig6 --group "org.kde.kdecoration2" --key "ButtonsOnRight" --file "$HOME/.config/kwinrc" "FSM"
       qdbus org.kde.KWin /KWin org.kde.KWin.reconfigure
