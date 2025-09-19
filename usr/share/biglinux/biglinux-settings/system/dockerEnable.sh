@@ -2,7 +2,7 @@
 
 # check current status
 check_state() {
-  if [[ "$(systemctl is-enabled docker)" == "enabled" ]] && [[ "$(systemctl is-active docker)" == "active" ]];then
+  if [[ "$(systemctl is-enabled docker)" == "enabled" ]] && [[ "$(systemctl is-active docker)" == "active" ]] && [[ "$(systemctl is-active docker.socket)" == "active" ]];then
     echo "true"
   else
     echo "false"
@@ -13,7 +13,11 @@ check_state() {
 toggle_state() {
   new_state="$1"
   if [[ "$new_state" == "true" ]];then
-    pkexec $PWD/system/dockerEnableRun.sh "enable" "$USER" "$DISPLAY" "$XAUTHORITY" "$DBUS_SESSION_BUS_ADDRESS" "$LANG" "$LANGUAGE"
+    if ! pacman -Q biglinux-docker-config &>/dev/null; then
+      pkexec $PWD/system/dockerEnableRun.sh "install" "$USER" "$DISPLAY" "$XAUTHORITY" "$DBUS_SESSION_BUS_ADDRESS" "$LANG" "$LANGUAGE"
+    else
+      pkexec $PWD/system/dockerEnableRun.sh "enable" "$USER" "$DISPLAY" "$XAUTHORITY" "$DBUS_SESSION_BUS_ADDRESS" "$LANG" "$LANGUAGE"
+    fi
     exitCode=$?
   else
     pkexec $PWD/system/dockerEnableRun.sh "disable" "$USER" "$DISPLAY" "$XAUTHORITY" "$DBUS_SESSION_BUS_ADDRESS" "$LANG" "$LANGUAGE"

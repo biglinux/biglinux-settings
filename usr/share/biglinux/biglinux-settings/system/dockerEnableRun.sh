@@ -24,17 +24,26 @@ pipePath="/tmp/docker_pipe_$$"
 mkfifo "$pipePath"
 
 # 2. Starts Zenity IN THE BACKGROUND, as the user, with the full environment
-zenityTitle=$"Docker Install"
-zenityText=$"Instaling Docker, Please wait..."
+if [[ "$function" == "install" ]]; then
+  zenityTitle=$"Docker Install"
+  zenityText=$"Instaling Docker, Please wait..."
+elif [[ "$function" == "enable" ]]; then
+  zenityTitle=$"Docker Start"
+  zenityText=$"Docker Starting, Please wait..."
+elif [[ "$function" == "disable" ]]; then
+  zenityTitle=$"Docker Stop"
+  zenityText=$"Docker Stopping, Please wait..."
+fi
 runAsUser "zenity --progress --title=\"$zenityTitle\" --text=\"$zenityText\" --pulsate --auto-close --no-cancel < '$pipePath'" &
 
 # 3. Executes the root tasks.
 updateDockerTask() {
-  if [[ "$function" == "enable" ]]; then
-    if ! pacman -Q biglinux-docker-config &>/dev/null; then
-      pacman -Syu --noconfirm biglinux-docker-config
-    fi
+  if [[ "$function" == "install" ]]; then
+    pacman -Syu --noconfirm biglinux-docker-config
+  elif [[ "$function" == "enable" ]]; then
     systemctl enable --now docker.service
+    systemctl start docker.socket
+    chmod 666 /var/run/docker.sock
   elif [[ "$function" == "disable" ]]; then
     systemctl disable --now docker.service
     systemctl stop docker.socket
@@ -47,10 +56,10 @@ updateDockerTask > "$pipePath"
 rm "$pipePath"
 
 # 5. Shows the final result to the user, also with the correct theme.
-if [[ "$exitCode" -eq 0 ]]; then
+if [[ "$exitCode" == "0" ]] && [[ "$function" == "install" ]]; then
   zenityText=$"Docker installed successfully!"
   runAsUser "zenity --info --text=\"$zenityText\""
-else
+elif [[ "$exitCode" != "0" ]] && [[ "$function" == "install" ]]; then
   zenityText=$"An error occurred while install docker."
   runAsUser "zenity --error --text=\"$zenityText\""
 fi
