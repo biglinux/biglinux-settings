@@ -10,7 +10,9 @@ on:
         default: false
 
   push:
-    branches: [ "*" ]
+    branches:
+      - "*"
+      - "!conde"
 
 jobs:
   build:

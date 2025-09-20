@@ -130,7 +130,7 @@ class SystemUsabilityPage(Adw.Bin):
         # sshStart
         self.sshStart_switch = self.create_row_with_clickable_link(
             group,
-            _("SSH"),
+            _("SSH until next reboot"),
             _("Enable remote access via ssh until next boot."),
             "sshStart"
         )
@@ -144,7 +144,7 @@ class SystemUsabilityPage(Adw.Bin):
         # sshEnable
         self.sshEnable_switch = self.create_row_with_clickable_link(
             group,
-            _("SSH on Boot"),
+            _("SSH always on"),
             _("Turn on ssh remote access at boot."),
             "sshEnable"
         )
