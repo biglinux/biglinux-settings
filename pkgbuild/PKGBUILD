@@ -11,9 +11,9 @@ url="https://github.com/biglinux/$pkgname"
 conflicts=('biglinux-settings-gnome')
 source=("git+${url}.git")
 md5sums=(SKIP)
-if [ -e "${pkgname}.install" ];then
-    install=${pkgname}.install
-fi
+# if [ -e "${pkgname}.install" ];then
+#     install=${pkgname}.install
+# fi
 
 package() {
     # Verify default folder
