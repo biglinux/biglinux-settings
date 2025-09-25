@@ -124,7 +124,7 @@ class PreloadPage(Adw.Bin):
         self.librewolf_switch = self.create_row_with_clickable_link(
             group,
             _("Librewolf"),
-            "Librewolf"
+            "librewolf"
         )
         # brave
         self.brave_switch = self.create_row_with_clickable_link(
