@@ -16,6 +16,22 @@ msgstr ""
 "X-Generator: attranslate\n"
 msgid "Applying, please wait..."
 msgstr "Aplikowanie, proszę czekać..."
+msgid "GRUB updated successfully!"
+msgstr "GRUB został pomyślnie zaktualizowany!"
+msgid "An error occurred while updating GRUB."
+msgstr "Wystąpił błąd podczas aktualizacji GRUB."
+msgid ""
+"GRUB updated successfully!\\n"
+"Restart your computer for it to take effect."
+msgstr ""
+"GRUB zaktualizowany pomyślnie!\\n"
+"Uruchom ponownie komputer, aby zmiany zaczęły obowiązywać."
+msgid "Already disabled. No changes made."
+msgstr "Już wyłączone. Nie wprowadzono żadnych zmian."
+msgid "Limits updated successfully!"
+msgstr "Limity zaktualizowane pomyślnie!"
+msgid "An error occurred while updating Limits."
+msgstr "Wystąpił błąd podczas aktualizacji limitów."
 msgid "Docker Install"
 msgstr "Instalacja Dockera"
 msgid "Instaling Docker, Please wait..."
@@ -32,30 +48,34 @@ msgid "Docker installed successfully!"
 msgstr "Docker zainstalowany pomyślnie!"
 msgid "An error occurred while install docker."
 msgstr "Wystąpił błąd podczas instalacji dockera."
-msgid ""
-"GRUB updated successfully!\\n"
-"Restart your computer for it to take effect."
-msgstr ""
-"GRUB zaktualizowany pomyślnie!\\n"
-"Uruchom ponownie komputer, aby zmiany zaczęły obowiązywać."
-msgid "An error occurred while updating GRUB."
-msgstr "Wystąpił błąd podczas aktualizacji GRUB."
-msgid "Already disabled. No changes made."
-msgstr "Już wyłączone. Nie wprowadzono żadnych zmian."
-msgid "Limits updated successfully!"
-msgstr "Limity zaktualizowane pomyślnie!"
-msgid "An error occurred while updating Limits."
-msgstr "Wystąpił błąd podczas aktualizacji limitów."
-msgid "GRUB updated successfully!"
-msgstr "GRUB został pomyślnie zaktualizowany!"
+msgid "BigLinux Ajustes"
+msgstr "BigLinux Ustawienia"
+msgid "Se estiver utilizando algum navegador, reinicie-o para aplicar as alterações."
+msgstr "Jeśli używasz przeglądarki, zrestartuj ją, aby zastosować zmiany."
+msgid "Aceleração do navegador"
+msgstr "Przyspieszenie przeglądarki"
+msgid "Desativar efeitos do desktop"
+msgstr "Dezaktywuj efekty pulpitu"
+msgid "BTRFS sem fsync"
+msgstr "BTRFS sem fsync"
+msgid "Rolagem do touchpad invertida"
+msgstr "Rolowanie touchpada odwrócone"
+msgid "Ligar RGB do teclado"
+msgstr "Włączyć RGB klawiatury"
+msgid "Modo Desenvolvedor"
+msgstr "Tryb dewelopera"
+msgid "Botões da janela no lado esquerdo"
+msgstr "Przyciski okna po lewej stronie"
 msgid "Aguarde..."
 msgstr "Czekaj..."
 msgid "Aplicando, Aguarde..."
 msgstr "Aplikowanie, Proszę czekać..."
-msgid "Botões da janela no lado esquerdo"
-msgstr "Przyciski okna po lewej stronie"
-msgid "Ocultar Gerenciador de Boot (GRUB)"
-msgstr "Ukryj Menedżera Rozruchu (GRUB)"
+msgid "Rolagem do mouse invertida"
+msgstr "Inverted mouse scrolling"
+msgid "Ativar o NumLock ao ligar o sistema"
+msgstr "Aktywuj NumLock przy włączaniu systemu"
+msgid "Indexar arquivos"
+msgstr "Indeksowanie plików"
 msgid "Grub"
 msgstr "Grub"
 msgid "Cuidado, você perderá acesso aos SnapShots. Tem certeza que deseja ocultar o grub?"
@@ -76,30 +96,12 @@ msgid "Concluído!"
 msgstr "Zakończono!"
 msgid "Ok"
 msgstr "Nie rozumiem."
-msgid "Ativar o NumLock ao ligar o sistema"
-msgstr "Aktywuj NumLock przy włączaniu systemu"
-msgid "Montar partições automaticamente"
-msgstr "Automatyczne montowanie partycji"
-msgid "Modo Desenvolvedor"
-msgstr "Tryb dewelopera"
-msgid "Rolagem do mouse invertida"
-msgstr "Inverted mouse scrolling"
-msgid "Ligar RGB do teclado"
-msgstr "Włączyć RGB klawiatury"
-msgid "Rolagem do touchpad invertida"
-msgstr "Rolowanie touchpada odwrócone"
-msgid "Indexar arquivos"
-msgstr "Indeksowanie plików"
+msgid "Ocultar Gerenciador de Boot (GRUB)"
+msgstr "Ukryj Menedżera Rozruchu (GRUB)"
 msgid "Bloquear a edição da área de trabalho"
 msgstr "Zablokuj edycję pulpitu."
-msgid "Desativar efeitos do desktop"
-msgstr "Dezaktywuj efekty pulpitu"
-msgid "Se estiver utilizando algum navegador, reinicie-o para aplicar as alterações."
-msgstr "Jeśli używasz przeglądarki, zrestartuj ją, aby zastosować zmiany."
-msgid "Aceleração do navegador"
-msgstr "Przyspieszenie przeglądarki"
-msgid "BTRFS sem fsync"
-msgstr "BTRFS sem fsync"
+msgid "Montar partições automaticamente"
+msgstr "Automatyczne montowanie partycji"
 msgid "Abrir"
 msgstr "Otwórz"
 msgid "Procurar..."
@@ -116,16 +118,26 @@ msgid "Escolher programas a serem carregados na memória durante boot"
 msgstr "Wybierz programy do załadowania do pamięci podczas rozruchu."
 msgid "Usabilidade"
 msgstr "Użyteczność"
-msgid "BigLinux Ajustes"
-msgstr "BigLinux Ustawienia"
 # 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 107
-msgid "Usability"
-msgstr "Użyteczność"
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 52
+msgid "General adjustments"
+msgstr "Ogólne ustawienia"
 # 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_usability_page.py, line: 104
-msgid "User and Visual system settings"
-msgstr "Ustawienia użytkownika i systemu wizualnego"
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 108
+msgid "System Tweaks"
+msgstr "Dostosowania systemu"
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 111
+msgid "PreLoad"
+msgstr "Wstępne ładowanie"
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/preload_page.py, line: 103
+msgid "Preload"
+msgstr "Wstępne ładowanie"
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/preload_page.py, line: 105
+msgid "Preload applications into memory to open them faster."
+msgstr "Wstępnie załaduj aplikacje do pamięci, aby otwierały się szybciej."
 # 
 # #-#-#-#-#  biglinux-settings.pot (biglinux-settings)  #-#-#-#-#
 # 
@@ -134,110 +146,37 @@ msgstr "Ustawienia użytkownika i systemu wizualnego"
 msgid "Reload all statuses"
 msgstr "Przeładuj wszystkie statusy"
 # 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 114
-msgid "NumLock"
-msgstr "NumLock"
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/preload_page.py, line: 120
+msgid "Firefox"
+msgstr "Firefox"
 # 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 115
-msgid "Initial NumLock state. Ignored if autologin is enabled."
-msgstr "Początkowy stan NumLock. Ignorowane, jeśli włączona jest autologowanie."
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/preload_page.py, line: 126
+msgid "Librewolf"
+msgstr "Librewolf"
 # 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 131
-msgid "Window Button On Left Side"
-msgstr "Przycisk okna po lewej stronie"
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/preload_page.py, line: 126
+msgid "Brave"
+msgstr "Brave"
 # 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 132
-msgid "Maximize, minimize, and close buttons on the left side of the window."
-msgstr "Przyciski maksymalizacji, minimalizacji i zamykania po lewej stronie okna."
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/preload_page.py, line: 132
+msgid "Chrome"
+msgstr "Chrome"
 # 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_usability_page.py, line: 133
-msgid "SSH until next reboot"
-msgstr "SSH do następnego ponownego uruchomienia"
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/preload_page.py, line: 138
+msgid "Chromium"
+msgstr "Chromium"
 # 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 133
-msgid "Enable remote access via ssh until next boot."
-msgstr "Włącz zdalny dostęp przez ssh do następnego uruchomienia."
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/preload_page.py, line: 144
+msgid "Palemoon"
+msgstr "Palemoon"
 # 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 108
-msgid "System"
-msgstr "System."
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/preload_page.py, line: 150
+msgid "Opera"
+msgstr "Opera"
 # 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 109
-msgid "General system settings"
-msgstr "Ogólne ustawienia systemu"
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_usability_page.py, line: 147
-msgid "SSH always on"
-msgstr "SSH zawsze włączone"
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 149
-msgid "Turn on ssh remote access at boot."
-msgstr "Włącz zdalny dostęp SSH przy uruchamianiu."
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 162
-msgid "Fast Grub"
-msgstr "Szybki Grub"
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 163
-msgid "Decreases grub display time."
-msgstr "Zmniejsza czas wyświetlania grub."
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 170
-msgid "Auto-mount Partitions"
-msgstr "Automatyczne montowanie partycji"
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 171
-msgid "Auto mount partitions in internal disks on boot."
-msgstr "Automatyczne montowanie partycji na dyskach wewnętrznych podczas uruchamiania."
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_usability_page.py, line: 169
-msgid "Meltdown Mitigations off"
-msgstr "Mitigacje Meltdown wyłączone"
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_usability_page.py, line: 170
-#, python-brace-format
-msgid ""
-"Using mitigations=off will make your machine faster and less secure! For more information see: <a "
-"href='{link}'>{link}</a>"
-msgstr ""
-"Używanie mitigations=off sprawi, że twój komputer będzie szybszy, ale mniej bezpieczny! Aby uzyskać "
-"więcej informacji, zobacz: <a href='{link}'>{link}</a>"
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_usability_page.py, line: 176
-msgid "noWatchdog"
-msgstr "brakNadzoru"
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_usability_page.py, line: 177
-msgid ""
-"Disables the hardware watchdog and TSC clocksource systems, maintaining high performance but "
-"removing automatic protections against system crashes."
-msgstr ""
-"Wyłącza systemy sprzętowego watchdog i źródła zegara TSC, utrzymując wysoką wydajność, ale usuwając "
-"automatyczne zabezpieczenia przed awariami systemu."
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_usability_page.py, line: 190
-msgid "Wifi"
-msgstr "Wifi"
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_usability_page.py, line: 191
-msgid "Wifi On"
-msgstr "Wifi Włączone"
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_usability_page.py, line: 197
-msgid "Bluetooth"
-msgstr "Bluetooth"
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_usability_page.py, line: 198
-msgid "Bluetooth On."
-msgstr "Bluetooth włączony."
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_usability_page.py, line: 204
-msgid "Docker"
-msgstr "Docker"
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_usability_page.py, line: 205
-msgid "Docker Enabled."
-msgstr "Docker włączony."
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/preload_page.py, line: 156
+msgid "Libreoffice"
+msgstr "LibreOffice"
 # 
 # #-#-#-#-#  biglinux-settings.pot (biglinux-settings)  #-#-#-#-#
 # 
@@ -349,50 +288,115 @@ msgstr "BŁĄD: Nie udało się zmienić {} na {}"
 msgid "Failed to change setting: {}"
 msgstr "Nie udało się zmienić ustawienia: {}"
 # 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 52
-msgid "General adjustments"
-msgstr "Ogólne ustawienia"
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 107
+msgid "Usability"
+msgstr "Użyteczność"
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_usability_page.py, line: 104
+msgid "User and Visual system settings"
+msgstr "Ustawienia użytkownika i systemu wizualnego"
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 114
+msgid "NumLock"
+msgstr "NumLock"
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 115
+msgid "Initial NumLock state. Ignored if autologin is enabled."
+msgstr "Początkowy stan NumLock. Ignorowane, jeśli włączona jest autologowanie."
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 131
+msgid "Window Button On Left Side"
+msgstr "Przycisk okna po lewej stronie"
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 132
+msgid "Maximize, minimize, and close buttons on the left side of the window."
+msgstr "Przyciski maksymalizacji, minimalizacji i zamykania po lewej stronie okna."
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_usability_page.py, line: 133
+msgid "SSH until next reboot"
+msgstr "SSH do następnego ponownego uruchomienia"
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 133
+msgid "Enable remote access via ssh until next boot."
+msgstr "Włącz zdalny dostęp przez ssh do następnego uruchomienia."
 # 
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 108
-msgid "System Tweaks"
-msgstr "Dostosowania systemu"
+msgid "System"
+msgstr "System."
 # 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 111
-msgid "PreLoad"
-msgstr "Wstępne ładowanie"
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 109
+msgid "General system settings"
+msgstr "Ogólne ustawienia systemu"
 # 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/preload_page.py, line: 103
-msgid "Preload"
-msgstr "Wstępne ładowanie"
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_usability_page.py, line: 147
+msgid "SSH always on"
+msgstr "SSH zawsze włączone"
 # 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/preload_page.py, line: 105
-msgid "Preload applications into memory to open them faster."
-msgstr "Wstępnie załaduj aplikacje do pamięci, aby otwierały się szybciej."
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 149
+msgid "Turn on ssh remote access at boot."
+msgstr "Włącz zdalny dostęp SSH przy uruchamianiu."
 # 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/preload_page.py, line: 120
-msgid "Firefox"
-msgstr "Firefox"
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 162
+msgid "Fast Grub"
+msgstr "Szybki Grub"
 # 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/preload_page.py, line: 126
-msgid "Brave"
-msgstr "Brave"
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 163
+msgid "Decreases grub display time."
+msgstr "Zmniejsza czas wyświetlania grub."
 # 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/preload_page.py, line: 132
-msgid "Chrome"
-msgstr "Chrome"
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 170
+msgid "Auto-mount Partitions"
+msgstr "Automatyczne montowanie partycji"
 # 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/preload_page.py, line: 138
-msgid "Chromium"
-msgstr "Chromium"
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 171
+msgid "Auto mount partitions in internal disks on boot."
+msgstr "Automatyczne montowanie partycji na dyskach wewnętrznych podczas uruchamiania."
 # 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/preload_page.py, line: 144
-msgid "Palemoon"
-msgstr "Palemoon"
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_usability_page.py, line: 169
+msgid "Meltdown Mitigations off"
+msgstr "Mitigacje Meltdown wyłączone"
 # 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/preload_page.py, line: 150
-msgid "Opera"
-msgstr "Opera"
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_usability_page.py, line: 170
+#, python-brace-format
+msgid ""
+"Using mitigations=off will make your machine faster and less secure! For more information see: <a "
+"href='{link}'>{link}</a>"
+msgstr ""
+"Używanie mitigations=off sprawi, że twój komputer będzie szybszy, ale mniej bezpieczny! Aby uzyskać "
+"więcej informacji, zobacz: <a href='{link}'>{link}</a>"
 # 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/preload_page.py, line: 156
-msgid "Libreoffice"
-msgstr "LibreOffice"
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_usability_page.py, line: 176
+msgid "noWatchdog"
+msgstr "brakNadzoru"
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_usability_page.py, line: 177
+msgid ""
+"Disables the hardware watchdog and TSC clocksource systems, maintaining high performance but "
+"removing automatic protections against system crashes."
+msgstr ""
+"Wyłącza systemy sprzętowego watchdog i źródła zegara TSC, utrzymując wysoką wydajność, ale usuwając "
+"automatyczne zabezpieczenia przed awariami systemu."
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_usability_page.py, line: 190
+msgid "Wifi"
+msgstr "Wifi"
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_usability_page.py, line: 191
+msgid "Wifi On"
+msgstr "Wifi Włączone"
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_usability_page.py, line: 197
+msgid "Bluetooth"
+msgstr "Bluetooth"
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_usability_page.py, line: 198
+msgid "Bluetooth On."
+msgstr "Bluetooth włączony."
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_usability_page.py, line: 204
+msgid "Docker"
+msgstr "Docker"
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_usability_page.py, line: 205
+msgid "Docker Enabled."
+msgstr "Docker włączony."

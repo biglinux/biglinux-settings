@@ -16,6 +16,22 @@ msgstr ""
 "X-Generator: attranslate\n"
 msgid "Applying, please wait..."
 msgstr "적용 중입니다. 잠시만 기다려 주십시오..."
+msgid "GRUB updated successfully!"
+msgstr "GRUB이 성공적으로 업데이트되었습니다!"
+msgid "An error occurred while updating GRUB."
+msgstr "GRUB을 업데이트하는 동안 오류가 발생했습니다."
+msgid ""
+"GRUB updated successfully!\\n"
+"Restart your computer for it to take effect."
+msgstr ""
+"GRUB이 성공적으로 업데이트되었습니다!\\n"
+"변경 사항을 적용하려면 컴퓨터를 재시작하세요."
+msgid "Already disabled. No changes made."
+msgstr "이미 비활성화되었습니다. 변경 사항이 없습니다."
+msgid "Limits updated successfully!"
+msgstr "제한이 성공적으로 업데이트되었습니다!"
+msgid "An error occurred while updating Limits."
+msgstr "Limits를 업데이트하는 동안 오류가 발생했습니다."
 msgid "Docker Install"
 msgstr "도커 설치"
 msgid "Instaling Docker, Please wait..."
@@ -32,30 +48,34 @@ msgid "Docker installed successfully!"
 msgstr "Docker가 성공적으로 설치되었습니다!"
 msgid "An error occurred while install docker."
 msgstr "도커 설치 중 오류가 발생했습니다."
-msgid ""
-"GRUB updated successfully!\\n"
-"Restart your computer for it to take effect."
-msgstr ""
-"GRUB이 성공적으로 업데이트되었습니다!\\n"
-"변경 사항을 적용하려면 컴퓨터를 재시작하세요."
-msgid "An error occurred while updating GRUB."
-msgstr "GRUB을 업데이트하는 동안 오류가 발생했습니다."
-msgid "Already disabled. No changes made."
-msgstr "이미 비활성화되었습니다. 변경 사항이 없습니다."
-msgid "Limits updated successfully!"
-msgstr "제한이 성공적으로 업데이트되었습니다!"
-msgid "An error occurred while updating Limits."
-msgstr "Limits를 업데이트하는 동안 오류가 발생했습니다."
-msgid "GRUB updated successfully!"
-msgstr "GRUB이 성공적으로 업데이트되었습니다!"
+msgid "BigLinux Ajustes"
+msgstr "빅리눅스 설정"
+msgid "Se estiver utilizando algum navegador, reinicie-o para aplicar as alterações."
+msgstr "사용 중인 브라우저가 있다면 변경 사항을 적용하기 위해 재시작하십시오."
+msgid "Aceleração do navegador"
+msgstr "브라우저 가속화"
+msgid "Desativar efeitos do desktop"
+msgstr "데스크탑 효과 비활성화"
+msgid "BTRFS sem fsync"
+msgstr "BTRFS 세마포어 fsync"
+msgid "Rolagem do touchpad invertida"
+msgstr "터치패드 스크롤 반전"
+msgid "Ligar RGB do teclado"
+msgstr "키보드 RGB 켜기"
+msgid "Modo Desenvolvedor"
+msgstr "개발자 모드"
+msgid "Botões da janela no lado esquerdo"
+msgstr "왼쪽에 있는 창 버튼"
 msgid "Aguarde..."
 msgstr "대기 중..."
 msgid "Aplicando, Aguarde..."
 msgstr "신청 중, 잠시 기다려 주십시오..."
-msgid "Botões da janela no lado esquerdo"
-msgstr "왼쪽에 있는 창 버튼"
-msgid "Ocultar Gerenciador de Boot (GRUB)"
-msgstr "부트 관리자(GRUB) 숨기기"
+msgid "Rolagem do mouse invertida"
+msgstr "마우스 스크롤 반전"
+msgid "Ativar o NumLock ao ligar o sistema"
+msgstr "시스템을 켤 때 NumLock 활성화"
+msgid "Indexar arquivos"
+msgstr "파일 인덱싱"
 msgid "Grub"
 msgstr "그럽"
 msgid "Cuidado, você perderá acesso aos SnapShots. Tem certeza que deseja ocultar o grub?"
@@ -76,30 +96,12 @@ msgid "Concluído!"
 msgstr "완료되었습니다!"
 msgid "Ok"
 msgstr "알겠습니다."
-msgid "Ativar o NumLock ao ligar o sistema"
-msgstr "시스템을 켤 때 NumLock 활성화"
-msgid "Montar partições automaticamente"
-msgstr "자동으로 파티션 마운트"
-msgid "Modo Desenvolvedor"
-msgstr "개발자 모드"
-msgid "Rolagem do mouse invertida"
-msgstr "마우스 스크롤 반전"
-msgid "Ligar RGB do teclado"
-msgstr "키보드 RGB 켜기"
-msgid "Rolagem do touchpad invertida"
-msgstr "터치패드 스크롤 반전"
-msgid "Indexar arquivos"
-msgstr "파일 인덱싱"
+msgid "Ocultar Gerenciador de Boot (GRUB)"
+msgstr "부트 관리자(GRUB) 숨기기"
 msgid "Bloquear a edição da área de trabalho"
 msgstr "바탕 화면 편집 차단"
-msgid "Desativar efeitos do desktop"
-msgstr "데스크탑 효과 비활성화"
-msgid "Se estiver utilizando algum navegador, reinicie-o para aplicar as alterações."
-msgstr "사용 중인 브라우저가 있다면 변경 사항을 적용하기 위해 재시작하십시오."
-msgid "Aceleração do navegador"
-msgstr "브라우저 가속화"
-msgid "BTRFS sem fsync"
-msgstr "BTRFS 세마포어 fsync"
+msgid "Montar partições automaticamente"
+msgstr "자동으로 파티션 마운트"
 msgid "Abrir"
 msgstr "열기"
 msgid "Procurar..."
@@ -116,16 +118,26 @@ msgid "Escolher programas a serem carregados na memória durante boot"
 msgstr "부팅 중 메모리에 로드할 프로그램 선택"
 msgid "Usabilidade"
 msgstr "사용성"
-msgid "BigLinux Ajustes"
-msgstr "빅리눅스 설정"
 # 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 107
-msgid "Usability"
-msgstr "사용성"
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 52
+msgid "General adjustments"
+msgstr "일반 조정"
 # 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_usability_page.py, line: 104
-msgid "User and Visual system settings"
-msgstr "사용자 및 시각 시스템 설정"
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 108
+msgid "System Tweaks"
+msgstr "시스템 조정"
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 111
+msgid "PreLoad"
+msgstr "프리로드"
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/preload_page.py, line: 103
+msgid "Preload"
+msgstr "프리로드"
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/preload_page.py, line: 105
+msgid "Preload applications into memory to open them faster."
+msgstr "애플리케이션을 메모리에 미리 로드하여 더 빠르게 열 수 있습니다."
 # 
 # #-#-#-#-#  biglinux-settings.pot (biglinux-settings)  #-#-#-#-#
 # 
@@ -134,106 +146,37 @@ msgstr "사용자 및 시각 시스템 설정"
 msgid "Reload all statuses"
 msgstr "모든 상태 새로 고침"
 # 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 114
-msgid "NumLock"
-msgstr "넘록"
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/preload_page.py, line: 120
+msgid "Firefox"
+msgstr "파이어폭스"
 # 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 115
-msgid "Initial NumLock state. Ignored if autologin is enabled."
-msgstr "초기 NumLock 상태. 자동 로그인 활성화 시 무시됩니다."
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/preload_page.py, line: 126
+msgid "Librewolf"
+msgstr "리브레울프"
 # 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 131
-msgid "Window Button On Left Side"
-msgstr "왼쪽에 있는 창 버튼"
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/preload_page.py, line: 126
+msgid "Brave"
+msgstr "브레이브"
 # 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 132
-msgid "Maximize, minimize, and close buttons on the left side of the window."
-msgstr "창의 왼쪽에 있는 최대화, 최소화 및 닫기 버튼."
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/preload_page.py, line: 132
+msgid "Chrome"
+msgstr "크롬"
 # 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_usability_page.py, line: 133
-msgid "SSH until next reboot"
-msgstr "재부팅할 때까지 SSH"
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/preload_page.py, line: 138
+msgid "Chromium"
+msgstr "크로미움"
 # 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 133
-msgid "Enable remote access via ssh until next boot."
-msgstr "다음 부팅까지 ssh를 통한 원격 액세스를 활성화합니다."
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/preload_page.py, line: 144
+msgid "Palemoon"
+msgstr "팔레문"
 # 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 108
-msgid "System"
-msgstr "시스템"
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/preload_page.py, line: 150
+msgid "Opera"
+msgstr "오페라"
 # 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 109
-msgid "General system settings"
-msgstr "일반 시스템 설정"
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_usability_page.py, line: 147
-msgid "SSH always on"
-msgstr "SSH 항상 켜짐"
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 149
-msgid "Turn on ssh remote access at boot."
-msgstr "부팅 시 SSH 원격 액세스 활성화."
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 162
-msgid "Fast Grub"
-msgstr "빠른 그럽"
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 163
-msgid "Decreases grub display time."
-msgstr "grub 표시 시간을 줄입니다."
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 170
-msgid "Auto-mount Partitions"
-msgstr "자동 마운트 파티션"
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 171
-msgid "Auto mount partitions in internal disks on boot."
-msgstr "부팅 시 내부 디스크의 파티션 자동 마운트."
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_usability_page.py, line: 169
-msgid "Meltdown Mitigations off"
-msgstr "멜트다운 완화 비활성화"
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_usability_page.py, line: 170
-#, python-brace-format
-msgid ""
-"Using mitigations=off will make your machine faster and less secure! For more information see: <a "
-"href='{link}'>{link}</a>"
-msgstr "완화 조치를 사용하지 않으면 기계가 더 빨라지지만 보안이 떨어집니다! 자세한 내용은 다음을 참조하십시오: <a href='{link}'>{link}</a>"
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_usability_page.py, line: 176
-msgid "noWatchdog"
-msgstr "노워치독"
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_usability_page.py, line: 177
-msgid ""
-"Disables the hardware watchdog and TSC clocksource systems, maintaining high performance but "
-"removing automatic protections against system crashes."
-msgstr "하드웨어 감시 타이머 및 TSC 클록 소스 시스템을 비활성화하여 높은 성능을 유지하지만 시스템 충돌에 대한 자동 보호 기능을 제거합니다."
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_usability_page.py, line: 190
-msgid "Wifi"
-msgstr "와이파이"
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_usability_page.py, line: 191
-msgid "Wifi On"
-msgstr "와이파이 켜기"
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_usability_page.py, line: 197
-msgid "Bluetooth"
-msgstr "블루투스"
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_usability_page.py, line: 198
-msgid "Bluetooth On."
-msgstr "블루투스 켜짐."
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_usability_page.py, line: 204
-msgid "Docker"
-msgstr "도커"
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_usability_page.py, line: 205
-msgid "Docker Enabled."
-msgstr "도커 사용 가능."
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/preload_page.py, line: 156
+msgid "Libreoffice"
+msgstr "리브레오피스"
 # 
 # #-#-#-#-#  biglinux-settings.pot (biglinux-settings)  #-#-#-#-#
 # 
@@ -345,50 +288,111 @@ msgstr "오류: {}를 {}로 변경하지 못했습니다."
 msgid "Failed to change setting: {}"
 msgstr "설정을 변경하지 못했습니다: {}"
 # 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 52
-msgid "General adjustments"
-msgstr "일반 조정"
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 107
+msgid "Usability"
+msgstr "사용성"
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_usability_page.py, line: 104
+msgid "User and Visual system settings"
+msgstr "사용자 및 시각 시스템 설정"
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 114
+msgid "NumLock"
+msgstr "넘록"
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 115
+msgid "Initial NumLock state. Ignored if autologin is enabled."
+msgstr "초기 NumLock 상태. 자동 로그인 활성화 시 무시됩니다."
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 131
+msgid "Window Button On Left Side"
+msgstr "왼쪽에 있는 창 버튼"
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 132
+msgid "Maximize, minimize, and close buttons on the left side of the window."
+msgstr "창의 왼쪽에 있는 최대화, 최소화 및 닫기 버튼."
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_usability_page.py, line: 133
+msgid "SSH until next reboot"
+msgstr "재부팅할 때까지 SSH"
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 133
+msgid "Enable remote access via ssh until next boot."
+msgstr "다음 부팅까지 ssh를 통한 원격 액세스를 활성화합니다."
 # 
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 108
-msgid "System Tweaks"
-msgstr "시스템 조정"
+msgid "System"
+msgstr "시스템"
 # 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 111
-msgid "PreLoad"
-msgstr "프리로드"
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 109
+msgid "General system settings"
+msgstr "일반 시스템 설정"
 # 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/preload_page.py, line: 103
-msgid "Preload"
-msgstr "프리로드"
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_usability_page.py, line: 147
+msgid "SSH always on"
+msgstr "SSH 항상 켜짐"
 # 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/preload_page.py, line: 105
-msgid "Preload applications into memory to open them faster."
-msgstr "애플리케이션을 메모리에 미리 로드하여 더 빠르게 열 수 있습니다."
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 149
+msgid "Turn on ssh remote access at boot."
+msgstr "부팅 시 SSH 원격 액세스 활성화."
 # 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/preload_page.py, line: 120
-msgid "Firefox"
-msgstr "파이어폭스"
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 162
+msgid "Fast Grub"
+msgstr "빠른 그럽"
 # 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/preload_page.py, line: 126
-msgid "Brave"
-msgstr "브레이브"
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 163
+msgid "Decreases grub display time."
+msgstr "grub 표시 시간을 줄입니다."
 # 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/preload_page.py, line: 132
-msgid "Chrome"
-msgstr "크롬"
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 170
+msgid "Auto-mount Partitions"
+msgstr "자동 마운트 파티션"
 # 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/preload_page.py, line: 138
-msgid "Chromium"
-msgstr "크로미움"
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 171
+msgid "Auto mount partitions in internal disks on boot."
+msgstr "부팅 시 내부 디스크의 파티션 자동 마운트."
 # 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/preload_page.py, line: 144
-msgid "Palemoon"
-msgstr "팔레문"
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_usability_page.py, line: 169
+msgid "Meltdown Mitigations off"
+msgstr "멜트다운 완화 비활성화"
 # 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/preload_page.py, line: 150
-msgid "Opera"
-msgstr "오페라"
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_usability_page.py, line: 170
+#, python-brace-format
+msgid ""
+"Using mitigations=off will make your machine faster and less secure! For more information see: <a "
+"href='{link}'>{link}</a>"
+msgstr "완화 조치를 사용하지 않으면 기계가 더 빨라지지만 보안이 떨어집니다! 자세한 내용은 다음을 참조하십시오: <a href='{link}'>{link}</a>"
 # 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/preload_page.py, line: 156
-msgid "Libreoffice"
-msgstr "리브레오피스"
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_usability_page.py, line: 176
+msgid "noWatchdog"
+msgstr "노워치독"
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_usability_page.py, line: 177
+msgid ""
+"Disables the hardware watchdog and TSC clocksource systems, maintaining high performance but "
+"removing automatic protections against system crashes."
+msgstr "하드웨어 감시 타이머 및 TSC 클록 소스 시스템을 비활성화하여 높은 성능을 유지하지만 시스템 충돌에 대한 자동 보호 기능을 제거합니다."
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_usability_page.py, line: 190
+msgid "Wifi"
+msgstr "와이파이"
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_usability_page.py, line: 191
+msgid "Wifi On"
+msgstr "와이파이 켜기"
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_usability_page.py, line: 197
+msgid "Bluetooth"
+msgstr "블루투스"
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_usability_page.py, line: 198
+msgid "Bluetooth On."
+msgstr "블루투스 켜짐."
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_usability_page.py, line: 204
+msgid "Docker"
+msgstr "도커"
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_usability_page.py, line: 205
+msgid "Docker Enabled."
+msgstr "도커 사용 가능."

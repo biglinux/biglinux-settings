@@ -16,6 +16,22 @@ msgstr ""
 "X-Generator: attranslate\n"
 msgid "Applying, please wait..."
 msgstr "Alkalmazás folyamatban, kérjük várjon..."
+msgid "GRUB updated successfully!"
+msgstr "A GRUB sikeresen frissítve lett!"
+msgid "An error occurred while updating GRUB."
+msgstr "Hiba történt a GRUB frissítésekor."
+msgid ""
+"GRUB updated successfully!\\n"
+"Restart your computer for it to take effect."
+msgstr ""
+"A GRUB sikeresen frissítve lett!\\n"
+"Indítsa újra a számítógépét, hogy érvénybe lépjen."
+msgid "Already disabled. No changes made."
+msgstr "Már le van tiltva. Nincsenek változtatások."
+msgid "Limits updated successfully!"
+msgstr "A korlátok sikeresen frissítve!"
+msgid "An error occurred while updating Limits."
+msgstr "Hiba történt a Korlátok frissítésekor."
 msgid "Docker Install"
 msgstr "Docker telepítése"
 msgid "Instaling Docker, Please wait..."
@@ -32,30 +48,34 @@ msgid "Docker installed successfully!"
 msgstr "A Docker sikeresen telepítve lett!"
 msgid "An error occurred while install docker."
 msgstr "Hiba történt a Docker telepítése során."
-msgid ""
-"GRUB updated successfully!\\n"
-"Restart your computer for it to take effect."
-msgstr ""
-"A GRUB sikeresen frissítve lett!\\n"
-"Indítsa újra a számítógépét, hogy érvénybe lépjen."
-msgid "An error occurred while updating GRUB."
-msgstr "Hiba történt a GRUB frissítésekor."
-msgid "Already disabled. No changes made."
-msgstr "Már le van tiltva. Nincsenek változtatások."
-msgid "Limits updated successfully!"
-msgstr "A korlátok sikeresen frissítve!"
-msgid "An error occurred while updating Limits."
-msgstr "Hiba történt a Korlátok frissítésekor."
-msgid "GRUB updated successfully!"
-msgstr "A GRUB sikeresen frissítve lett!"
+msgid "BigLinux Ajustes"
+msgstr "BigLinux Beállítások"
+msgid "Se estiver utilizando algum navegador, reinicie-o para aplicar as alterações."
+msgstr "Ha böngészőt használ, indítsa újra a módosítások alkalmazásához."
+msgid "Aceleração do navegador"
+msgstr "Böngésző gyorsítása"
+msgid "Desativar efeitos do desktop"
+msgstr "Asztali effektusok letiltása"
+msgid "BTRFS sem fsync"
+msgstr "BTRFS sem fsync"
+msgid "Rolagem do touchpad invertida"
+msgstr "A touchpad görgetése megfordítva"
+msgid "Ligar RGB do teclado"
+msgstr "RGB világítás bekapcsolása a billentyűzeten"
+msgid "Modo Desenvolvedor"
+msgstr "Fejlesztői mód"
+msgid "Botões da janela no lado esquerdo"
+msgstr "Az ablak gombjai a bal oldalon."
 msgid "Aguarde..."
 msgstr "Várjon..."
 msgid "Aplicando, Aguarde..."
 msgstr "Jelentkezés, Kérem várjon..."
-msgid "Botões da janela no lado esquerdo"
-msgstr "Az ablak gombjai a bal oldalon."
-msgid "Ocultar Gerenciador de Boot (GRUB)"
-msgstr "Bootkezelő (GRUB) elrejtése"
+msgid "Rolagem do mouse invertida"
+msgstr "Fordított egér görgetés"
+msgid "Ativar o NumLock ao ligar o sistema"
+msgstr "A NumLock engedélyezése a rendszer indításakor"
+msgid "Indexar arquivos"
+msgstr "Fájlok indexálása"
 msgid "Grub"
 msgstr "Grub"
 msgid "Cuidado, você perderá acesso aos SnapShots. Tem certeza que deseja ocultar o grub?"
@@ -78,30 +98,12 @@ msgid "Concluído!"
 msgstr "Befejezve!"
 msgid "Ok"
 msgstr "Rendkívül sajnálom, de nem tudok válaszolni erre a kérdésre."
-msgid "Ativar o NumLock ao ligar o sistema"
-msgstr "A NumLock engedélyezése a rendszer indításakor"
-msgid "Montar partições automaticamente"
-msgstr "Partíciók automatikus csatolása"
-msgid "Modo Desenvolvedor"
-msgstr "Fejlesztői mód"
-msgid "Rolagem do mouse invertida"
-msgstr "Fordított egér görgetés"
-msgid "Ligar RGB do teclado"
-msgstr "RGB világítás bekapcsolása a billentyűzeten"
-msgid "Rolagem do touchpad invertida"
-msgstr "A touchpad görgetése megfordítva"
-msgid "Indexar arquivos"
-msgstr "Fájlok indexálása"
+msgid "Ocultar Gerenciador de Boot (GRUB)"
+msgstr "Bootkezelő (GRUB) elrejtése"
 msgid "Bloquear a edição da área de trabalho"
 msgstr "A munkaasztal szerkesztésének blokkolása"
-msgid "Desativar efeitos do desktop"
-msgstr "Asztali effektusok letiltása"
-msgid "Se estiver utilizando algum navegador, reinicie-o para aplicar as alterações."
-msgstr "Ha böngészőt használ, indítsa újra a módosítások alkalmazásához."
-msgid "Aceleração do navegador"
-msgstr "Böngésző gyorsítása"
-msgid "BTRFS sem fsync"
-msgstr "BTRFS sem fsync"
+msgid "Montar partições automaticamente"
+msgstr "Partíciók automatikus csatolása"
 msgid "Abrir"
 msgstr "Megnyitás"
 msgid "Procurar..."
@@ -118,16 +120,26 @@ msgid "Escolher programas a serem carregados na memória durante boot"
 msgstr "Programok kiválasztása a memória betöltésére a rendszerindítás során."
 msgid "Usabilidade"
 msgstr "Használhatóság"
-msgid "BigLinux Ajustes"
-msgstr "BigLinux Beállítások"
 # 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 107
-msgid "Usability"
-msgstr "Használhatóság"
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 52
+msgid "General adjustments"
+msgstr "Általános beállítások"
 # 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_usability_page.py, line: 104
-msgid "User and Visual system settings"
-msgstr "Felhasználói és vizuális rendszerbeállítások"
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 108
+msgid "System Tweaks"
+msgstr "Rendszermódosítások"
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 111
+msgid "PreLoad"
+msgstr "Előbetöltés"
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/preload_page.py, line: 103
+msgid "Preload"
+msgstr "Előbetöltés"
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/preload_page.py, line: 105
+msgid "Preload applications into memory to open them faster."
+msgstr "Előregisztrálja az alkalmazásokat a memóriába, hogy gyorsabban nyithassa meg őket."
 # 
 # #-#-#-#-#  biglinux-settings.pot (biglinux-settings)  #-#-#-#-#
 # 
@@ -136,110 +148,37 @@ msgstr "Felhasználói és vizuális rendszerbeállítások"
 msgid "Reload all statuses"
 msgstr "Minden állapot újratöltése"
 # 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 114
-msgid "NumLock"
-msgstr "NumLock"
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/preload_page.py, line: 120
+msgid "Firefox"
+msgstr "Firefox"
 # 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 115
-msgid "Initial NumLock state. Ignored if autologin is enabled."
-msgstr "Kezdő NumLock állapot. Figyelmen kívül hagyva, ha az automatikus bejelentkezés engedélyezve van."
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/preload_page.py, line: 126
+msgid "Librewolf"
+msgstr "Librewolf"
 # 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 131
-msgid "Window Button On Left Side"
-msgstr "Ablak gomb bal oldalon"
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/preload_page.py, line: 126
+msgid "Brave"
+msgstr "Brave"
 # 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 132
-msgid "Maximize, minimize, and close buttons on the left side of the window."
-msgstr "Ablak bal oldalán található maximalizálás, minimalizálás és bezárás gombok."
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/preload_page.py, line: 132
+msgid "Chrome"
+msgstr "Chrome"
 # 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_usability_page.py, line: 133
-msgid "SSH until next reboot"
-msgstr "SSH a következő újraindításig"
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/preload_page.py, line: 138
+msgid "Chromium"
+msgstr "Króm"
 # 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 133
-msgid "Enable remote access via ssh until next boot."
-msgstr "Engedélyezze a távoli hozzáférést ssh-n keresztül a következő indításig."
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/preload_page.py, line: 144
+msgid "Palemoon"
+msgstr "Palemoon"
 # 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 108
-msgid "System"
-msgstr "Rendszer"
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/preload_page.py, line: 150
+msgid "Opera"
+msgstr "Opera"
 # 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 109
-msgid "General system settings"
-msgstr "Általános rendszerbeállítások"
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_usability_page.py, line: 147
-msgid "SSH always on"
-msgstr "SSH mindig be van kapcsolva"
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 149
-msgid "Turn on ssh remote access at boot."
-msgstr "Kapcsolja be az SSH távoli hozzáférést indításkor."
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 162
-msgid "Fast Grub"
-msgstr "Gyors Grub"
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 163
-msgid "Decreases grub display time."
-msgstr "Csökkenti a grub megjelenítési időt."
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 170
-msgid "Auto-mount Partitions"
-msgstr "Automatikus csatolás partíciók"
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 171
-msgid "Auto mount partitions in internal disks on boot."
-msgstr "Automatikus partíciók csatolása a belső lemezeken indításkor."
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_usability_page.py, line: 169
-msgid "Meltdown Mitigations off"
-msgstr "Meltdown mérséklések kikapcsolva"
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_usability_page.py, line: 170
-#, python-brace-format
-msgid ""
-"Using mitigations=off will make your machine faster and less secure! For more information see: <a "
-"href='{link}'>{link}</a>"
-msgstr ""
-"A mitigációk kikapcsolása gyorsabbá és kevésbé biztonsossá teszi a gépét! További információért "
-"lásd: <a href='{link}'>{link}</a>"
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_usability_page.py, line: 176
-msgid "noWatchdog"
-msgstr "nincsFelügyelő"
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_usability_page.py, line: 177
-msgid ""
-"Disables the hardware watchdog and TSC clocksource systems, maintaining high performance but "
-"removing automatic protections against system crashes."
-msgstr ""
-"Letiltja a hardveres figyelő és a TSC óraforrás rendszereket, fenntartva a magas teljesítményt, de "
-"eltávolítva az automatikus védelmet a rendszerösszeomlások ellen."
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_usability_page.py, line: 190
-msgid "Wifi"
-msgstr "Wifi"
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_usability_page.py, line: 191
-msgid "Wifi On"
-msgstr "Wifi Bekapcsolva"
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_usability_page.py, line: 197
-msgid "Bluetooth"
-msgstr "Bluetooth"
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_usability_page.py, line: 198
-msgid "Bluetooth On."
-msgstr "Bluetooth be van kapcsolva."
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_usability_page.py, line: 204
-msgid "Docker"
-msgstr "Docker"
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_usability_page.py, line: 205
-msgid "Docker Enabled."
-msgstr "Docker engedélyezve."
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/preload_page.py, line: 156
+msgid "Libreoffice"
+msgstr "LibreOffice"
 # 
 # #-#-#-#-#  biglinux-settings.pot (biglinux-settings)  #-#-#-#-#
 # 
@@ -351,50 +290,115 @@ msgstr "HIBA: A {}-t {}-ra nem sikerült megváltoztatni."
 msgid "Failed to change setting: {}"
 msgstr "A beállítás módosítása nem sikerült: {}"
 # 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 52
-msgid "General adjustments"
-msgstr "Általános beállítások"
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 107
+msgid "Usability"
+msgstr "Használhatóság"
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_usability_page.py, line: 104
+msgid "User and Visual system settings"
+msgstr "Felhasználói és vizuális rendszerbeállítások"
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 114
+msgid "NumLock"
+msgstr "NumLock"
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 115
+msgid "Initial NumLock state. Ignored if autologin is enabled."
+msgstr "Kezdő NumLock állapot. Figyelmen kívül hagyva, ha az automatikus bejelentkezés engedélyezve van."
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 131
+msgid "Window Button On Left Side"
+msgstr "Ablak gomb bal oldalon"
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 132
+msgid "Maximize, minimize, and close buttons on the left side of the window."
+msgstr "Ablak bal oldalán található maximalizálás, minimalizálás és bezárás gombok."
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_usability_page.py, line: 133
+msgid "SSH until next reboot"
+msgstr "SSH a következő újraindításig"
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 133
+msgid "Enable remote access via ssh until next boot."
+msgstr "Engedélyezze a távoli hozzáférést ssh-n keresztül a következő indításig."
 # 
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 108
-msgid "System Tweaks"
-msgstr "Rendszermódosítások"
+msgid "System"
+msgstr "Rendszer"
 # 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 111
-msgid "PreLoad"
-msgstr "Előbetöltés"
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 109
+msgid "General system settings"
+msgstr "Általános rendszerbeállítások"
 # 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/preload_page.py, line: 103
-msgid "Preload"
-msgstr "Előbetöltés"
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_usability_page.py, line: 147
+msgid "SSH always on"
+msgstr "SSH mindig be van kapcsolva"
 # 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/preload_page.py, line: 105
-msgid "Preload applications into memory to open them faster."
-msgstr "Előregisztrálja az alkalmazásokat a memóriába, hogy gyorsabban nyithassa meg őket."
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 149
+msgid "Turn on ssh remote access at boot."
+msgstr "Kapcsolja be az SSH távoli hozzáférést indításkor."
 # 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/preload_page.py, line: 120
-msgid "Firefox"
-msgstr "Firefox"
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 162
+msgid "Fast Grub"
+msgstr "Gyors Grub"
 # 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/preload_page.py, line: 126
-msgid "Brave"
-msgstr "Brave"
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 163
+msgid "Decreases grub display time."
+msgstr "Csökkenti a grub megjelenítési időt."
 # 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/preload_page.py, line: 132
-msgid "Chrome"
-msgstr "Chrome"
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 170
+msgid "Auto-mount Partitions"
+msgstr "Automatikus csatolás partíciók"
 # 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/preload_page.py, line: 138
-msgid "Chromium"
-msgstr "Króm"
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 171
+msgid "Auto mount partitions in internal disks on boot."
+msgstr "Automatikus partíciók csatolása a belső lemezeken indításkor."
 # 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/preload_page.py, line: 144
-msgid "Palemoon"
-msgstr "Palemoon"
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_usability_page.py, line: 169
+msgid "Meltdown Mitigations off"
+msgstr "Meltdown mérséklések kikapcsolva"
 # 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/preload_page.py, line: 150
-msgid "Opera"
-msgstr "Opera"
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_usability_page.py, line: 170
+#, python-brace-format
+msgid ""
+"Using mitigations=off will make your machine faster and less secure! For more information see: <a "
+"href='{link}'>{link}</a>"
+msgstr ""
+"A mitigációk kikapcsolása gyorsabbá és kevésbé biztonsossá teszi a gépét! További információért "
+"lásd: <a href='{link}'>{link}</a>"
 # 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/preload_page.py, line: 156
-msgid "Libreoffice"
-msgstr "LibreOffice"
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_usability_page.py, line: 176
+msgid "noWatchdog"
+msgstr "nincsFelügyelő"
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_usability_page.py, line: 177
+msgid ""
+"Disables the hardware watchdog and TSC clocksource systems, maintaining high performance but "
+"removing automatic protections against system crashes."
+msgstr ""
+"Letiltja a hardveres figyelő és a TSC óraforrás rendszereket, fenntartva a magas teljesítményt, de "
+"eltávolítva az automatikus védelmet a rendszerösszeomlások ellen."
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_usability_page.py, line: 190
+msgid "Wifi"
+msgstr "Wifi"
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_usability_page.py, line: 191
+msgid "Wifi On"
+msgstr "Wifi Bekapcsolva"
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_usability_page.py, line: 197
+msgid "Bluetooth"
+msgstr "Bluetooth"
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_usability_page.py, line: 198
+msgid "Bluetooth On."
+msgstr "Bluetooth be van kapcsolva."
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_usability_page.py, line: 204
+msgid "Docker"
+msgstr "Docker"
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_usability_page.py, line: 205
+msgid "Docker Enabled."
+msgstr "Docker engedélyezve."
