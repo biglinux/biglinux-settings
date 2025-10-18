@@ -120,12 +120,6 @@ class PreloadPage(Adw.Bin):
             _("Firefox"),
             "firefox"
         )
-        # librewolf
-        self.librewolf_switch = self.create_row_with_clickable_link(
-            group,
-            _("Librewolf"),
-            "librewolf"
-        )
         # brave
         self.brave_switch = self.create_row_with_clickable_link(
             group,
@@ -143,6 +137,12 @@ class PreloadPage(Adw.Bin):
             group,
             _("Chromium"),
             "chromium"
+        )
+        # librewolf
+        self.librewolf_switch = self.create_row_with_clickable_link(
+            group,
+            _("Librewolf"),
+            "librewolf"
         )
         # palemoon
         self.palemoon_switch = self.create_row_with_clickable_link(
