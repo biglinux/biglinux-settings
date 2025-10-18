@@ -14,68 +14,12 @@ msgstr ""
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "X-Generator: attranslate\n"
-msgid "Applying, please wait..."
-msgstr "Kandideerimine, palun oota..."
-msgid "GRUB updated successfully!"
-msgstr "GRUB uuendatud edukalt!"
-msgid "An error occurred while updating GRUB."
-msgstr "GRUB-i värskendamisel tekkis viga."
-msgid ""
-"GRUB updated successfully!\\n"
-"Restart your computer for it to take effect."
-msgstr ""
-"GRUB uuendatud edukalt!\\n"
-"Taaskäivitage oma arvuti, et muudatused jõustuksid."
-msgid "Already disabled. No changes made."
-msgstr "Juba keelatud. Muudatusi ei tehtud."
-msgid "Limits updated successfully!"
-msgstr "Piirangud on edukalt uuendatud!"
-msgid "An error occurred while updating Limits."
-msgstr "Piiride värskendamisel tekkis viga."
-msgid "Docker Install"
-msgstr "Dockeri installimine"
-msgid "Instaling Docker, Please wait..."
-msgstr "Dockerit installitakse, palun oodake..."
-msgid "Docker Start"
-msgstr "Dockeri käivitamine"
-msgid "Docker Starting, Please wait..."
-msgstr "Docker käivitamine, palun oota..."
-msgid "Docker Stop"
-msgstr "Dockeri peatamine"
-msgid "Docker Stopping, Please wait..."
-msgstr "Docker peatub, palun oota..."
-msgid "Docker installed successfully!"
-msgstr "Docker on edukas edukalt!"
-msgid "An error occurred while install docker."
-msgstr "Dockerit installides tekkis viga."
 msgid "BigLinux Ajustes"
 msgstr "BigLinux Seaded"
-msgid "Se estiver utilizando algum navegador, reinicie-o para aplicar as alterações."
-msgstr "Kui kasutate mõnda brauserit, taaskäivitage see muudatuste rakendamiseks."
-msgid "Aceleração do navegador"
-msgstr "Brahvi kiirus"
-msgid "Desativar efeitos do desktop"
-msgstr "Desaktiveeri töölaua efektid"
-msgid "BTRFS sem fsync"
-msgstr "BTRFS sem fsync"
-msgid "Rolagem do touchpad invertida"
-msgstr "Touchpadi pööratud kerimine"
-msgid "Ligar RGB do teclado"
-msgstr "RGB klaviatuuri sisselülitamine"
-msgid "Modo Desenvolvedor"
-msgstr "Arenduse režiim"
-msgid "Botões da janela no lado esquerdo"
-msgstr "Akenupõhja nupud vasakul küljel"
-msgid "Aguarde..."
-msgstr "Oota..."
-msgid "Aplicando, Aguarde..."
-msgstr "Rakendamine, Palun oota..."
-msgid "Rolagem do mouse invertida"
-msgstr "Hiirete pööratud"
-msgid "Ativar o NumLock ao ligar o sistema"
-msgstr "NumLocki aktiveerimine süsteemi käivitamisel"
 msgid "Indexar arquivos"
 msgstr "Indekseerige faile"
+msgid "Rolagem do touchpad invertida"
+msgstr "Touchpadi pööratud kerimine"
 msgid "Grub"
 msgstr "Grub"
 msgid "Cuidado, você perderá acesso aos SnapShots. Tem certeza que deseja ocultar o grub?"
@@ -94,10 +38,26 @@ msgid "Concluído!"
 msgstr "Lõpetatud!"
 msgid "Ocultar Gerenciador de Boot (GRUB)"
 msgstr "Peida Boot Manager (GRUB)"
-msgid "Bloquear a edição da área de trabalho"
-msgstr "Töölaua redigeerimise blokeerimine"
+msgid "Ativar o NumLock ao ligar o sistema"
+msgstr "NumLocki aktiveerimine süsteemi käivitamisel"
+msgid "Rolagem do mouse invertida"
+msgstr "Hiirete pööratud"
+msgid "Ligar RGB do teclado"
+msgstr "RGB klaviatuuri sisselülitamine"
 msgid "Montar partições automaticamente"
 msgstr "Automaatne partitsioonide mountimine"
+msgid "Bloquear a edição da área de trabalho"
+msgstr "Töölaua redigeerimise blokeerimine"
+msgid "Aguarde..."
+msgstr "Oota..."
+msgid "Aplicando, Aguarde..."
+msgstr "Rakendamine, Palun oota..."
+msgid "Botões da janela no lado esquerdo"
+msgstr "Akenupõhja nupud vasakul küljel"
+msgid "Modo Desenvolvedor"
+msgstr "Arenduse režiim"
+msgid "Se estiver utilizando algum navegador, reinicie-o para aplicar as alterações."
+msgstr "Kui kasutate mõnda brauserit, taaskäivitage see muudatuste rakendamiseks."
 msgid "Abrir"
 msgstr "Ava."
 msgid "Procurar..."
@@ -114,26 +74,54 @@ msgid "Escolher programas a serem carregados na memória durante boot"
 msgstr "Valige mälus käivitamise ajal laaditavaid programme."
 msgid "Usabilidade"
 msgstr "Kasutatavus"
+msgid "Aceleração do navegador"
+msgstr "Brahvi kiirus"
+msgid "BTRFS sem fsync"
+msgstr "BTRFS sem fsync"
+msgid "Desativar efeitos do desktop"
+msgstr "Desaktiveeri töölaua efektid"
+msgid "Applying, please wait..."
+msgstr "Kandideerimine, palun oota..."
+msgid "Limits updated successfully!"
+msgstr "Piirangud on edukalt uuendatud!"
+msgid "An error occurred while updating Limits."
+msgstr "Piiride värskendamisel tekkis viga."
+msgid ""
+"GRUB updated successfully!\\n"
+"Restart your computer for it to take effect."
+msgstr ""
+"GRUB uuendatud edukalt!\\n"
+"Taaskäivitage oma arvuti, et muudatused jõustuksid."
+msgid "An error occurred while updating GRUB."
+msgstr "GRUB-i värskendamisel tekkis viga."
+msgid "Already disabled. No changes made."
+msgstr "Juba keelatud. Muudatusi ei tehtud."
+msgid "Docker Install"
+msgstr "Dockeri installimine"
+msgid "Instaling Docker, Please wait..."
+msgstr "Dockerit installitakse, palun oodake..."
+msgid "Docker Start"
+msgstr "Dockeri käivitamine"
+msgid "Docker Starting, Please wait..."
+msgstr "Docker käivitamine, palun oota..."
+msgid "Docker Stop"
+msgstr "Dockeri peatamine"
+msgid "Docker Stopping, Please wait..."
+msgstr "Docker peatub, palun oota..."
+msgid "Docker installed successfully!"
+msgstr "Docker on edukas edukalt!"
+msgid "An error occurred while install docker."
+msgstr "Dockerit installides tekkis viga."
+msgid "GRUB updated successfully!"
+msgstr "GRUB uuendatud edukalt!"
 # 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 52
-msgid "General adjustments"
-msgstr "Üldised seadistused"
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 107
+msgid "Usability"
+msgstr "Kasutatavus"
 # 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 108
-msgid "System Tweaks"
-msgstr "Süsteemi kohandused"
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 111
-msgid "PreLoad"
-msgstr "Eelkoormus"
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/preload_page.py, line: 103
-msgid "Preload"
-msgstr "Eelkoormus"
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/preload_page.py, line: 105
-msgid "Preload applications into memory to open them faster."
-msgstr "Laadi rakendused mällu, et neid kiiremini avada."
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_usability_page.py, line: 104
+msgid "User and Visual system settings"
+msgstr "Kasutaja ja visuaalsed süsteemi seaded"
 # 
 # #-#-#-#-#  biglinux-settings.pot (biglinux-settings)  #-#-#-#-#
 # 
@@ -142,37 +130,110 @@ msgstr "Laadi rakendused mällu, et neid kiiremini avada."
 msgid "Reload all statuses"
 msgstr "Laadi kõik olekud uuesti"
 # 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/preload_page.py, line: 120
-msgid "Firefox"
-msgstr "Firefox"
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 114
+msgid "NumLock"
+msgstr "NumLock"
 # 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/preload_page.py, line: 126
-msgid "Librewolf"
-msgstr "Librewolf"
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 115
+msgid "Initial NumLock state. Ignored if autologin is enabled."
+msgstr "Esialgne NumLock olek. Ignoreeritakse, kui automaatne sisselogimine on lubatud."
 # 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/preload_page.py, line: 126
-msgid "Brave"
-msgstr "Brave"
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 131
+msgid "Window Button On Left Side"
+msgstr "Akenupp nupp vasakul küljel"
 # 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/preload_page.py, line: 132
-msgid "Chrome"
-msgstr "Chrome"
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 132
+msgid "Maximize, minimize, and close buttons on the left side of the window."
+msgstr "Akna vasakul küljel asuvad maksimeeri, minimeeri ja sulge nupud."
 # 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/preload_page.py, line: 138
-msgid "Chromium"
-msgstr "Kroomium"
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_usability_page.py, line: 133
+msgid "SSH until next reboot"
+msgstr "SSH kuni järgmise taaskäivitamiseni"
 # 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/preload_page.py, line: 144
-msgid "Palemoon"
-msgstr "Palemoon"
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 133
+msgid "Enable remote access via ssh until next boot."
+msgstr "Luba kaugjuurdepääs ssh kaudu kuni järgmise taaskäivitamiseni."
 # 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/preload_page.py, line: 150
-msgid "Opera"
-msgstr "Opera"
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 108
+msgid "System"
+msgstr "Süsteem"
 # 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/preload_page.py, line: 156
-msgid "Libreoffice"
-msgstr "LibreOffice"
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 109
+msgid "General system settings"
+msgstr "Üldised süsteemi seaded"
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_usability_page.py, line: 147
+msgid "SSH always on"
+msgstr "SSH alati sisse"
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 149
+msgid "Turn on ssh remote access at boot."
+msgstr "Lülita ssh kaugjuurdepääs sisse käivitamisel."
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 162
+msgid "Fast Grub"
+msgstr "Kiire Grub"
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 163
+msgid "Decreases grub display time."
+msgstr "Vähendab grub'i kuvamise aega."
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 170
+msgid "Auto-mount Partitions"
+msgstr "Automaatne partitsioonide monteerimine"
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 171
+msgid "Auto mount partitions in internal disks on boot."
+msgstr "Automaatne partitsioonide monteerimine sisemistel ketastel käivitamisel."
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_usability_page.py, line: 169
+msgid "Meltdown Mitigations off"
+msgstr "Meltdown'i leevendamine välja lülitatud"
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_usability_page.py, line: 170
+#, python-brace-format
+msgid ""
+"Using mitigations=off will make your machine faster and less secure! For more information see: <a "
+"href='{link}'>{link}</a>"
+msgstr ""
+"Kaitsmise väljalülitamine=off muudab teie masina kiiremaks ja vähem turvaliseks! Lisainformatsiooni "
+"saamiseks vaadake: <a href='{link}'>{link}</a>"
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_usability_page.py, line: 176
+msgid "noWatchdog"
+msgstr "eiJälgija"
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_usability_page.py, line: 177
+msgid ""
+"Disables the hardware watchdog and TSC clocksource systems, maintaining high performance but "
+"removing automatic protections against system crashes."
+msgstr ""
+"Keelab riistvara jälgijat ja TSC kellaallika süsteeme, säilitades kõrge jõudluse, kuid eemaldades "
+"automaatsed kaitsed süsteemi kokkuvarisemise eest."
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_usability_page.py, line: 190
+msgid "Wifi"
+msgstr "Wifi"
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_usability_page.py, line: 191
+msgid "Wifi On"
+msgstr "Wifi sisse"
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_usability_page.py, line: 197
+msgid "Bluetooth"
+msgstr "Bluetooth"
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_usability_page.py, line: 198
+msgid "Bluetooth On."
+msgstr "Bluetooth sisse."
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_usability_page.py, line: 204
+msgid "Docker"
+msgstr "Docker"
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_usability_page.py, line: 205
+msgid "Docker Enabled."
+msgstr "Docker on."
 # 
 # #-#-#-#-#  biglinux-settings.pot (biglinux-settings)  #-#-#-#-#
 # 
@@ -284,115 +345,54 @@ msgstr "VIGA: {} muutmine {}-ks ebaõnnestus"
 msgid "Failed to change setting: {}"
 msgstr "Seadete muutmine ebaõnnestus: {}"
 # 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 107
-msgid "Usability"
-msgstr "Kasutatavus"
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/preload_page.py, line: 103
+msgid "Preload"
+msgstr "Eelkoormus"
 # 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_usability_page.py, line: 104
-msgid "User and Visual system settings"
-msgstr "Kasutaja ja visuaalsed süsteemi seaded"
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/preload_page.py, line: 105
+msgid "Preload applications into memory to open them faster."
+msgstr "Laadi rakendused mällu, et neid kiiremini avada."
 # 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 114
-msgid "NumLock"
-msgstr "NumLock"
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/preload_page.py, line: 120
+msgid "Firefox"
+msgstr "Firefox"
 # 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 115
-msgid "Initial NumLock state. Ignored if autologin is enabled."
-msgstr "Esialgne NumLock olek. Ignoreeritakse, kui automaatne sisselogimine on lubatud."
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/preload_page.py, line: 126
+msgid "Brave"
+msgstr "Brave"
 # 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 131
-msgid "Window Button On Left Side"
-msgstr "Akenupp nupp vasakul küljel"
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/preload_page.py, line: 132
+msgid "Chrome"
+msgstr "Chrome"
 # 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 132
-msgid "Maximize, minimize, and close buttons on the left side of the window."
-msgstr "Akna vasakul küljel asuvad maksimeeri, minimeeri ja sulge nupud."
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/preload_page.py, line: 138
+msgid "Chromium"
+msgstr "Kroomium"
 # 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_usability_page.py, line: 133
-msgid "SSH until next reboot"
-msgstr "SSH kuni järgmise taaskäivitamiseni"
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/preload_page.py, line: 126
+msgid "Librewolf"
+msgstr "Librewolf"
 # 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 133
-msgid "Enable remote access via ssh until next boot."
-msgstr "Luba kaugjuurdepääs ssh kaudu kuni järgmise taaskäivitamiseni."
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/preload_page.py, line: 144
+msgid "Palemoon"
+msgstr "Palemoon"
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/preload_page.py, line: 150
+msgid "Opera"
+msgstr "Opera"
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/preload_page.py, line: 156
+msgid "Libreoffice"
+msgstr "LibreOffice"
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 52
+msgid "General adjustments"
+msgstr "Üldised seadistused"
 # 
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 108
-msgid "System"
-msgstr "Süsteem"
+msgid "System Tweaks"
+msgstr "Süsteemi kohandused"
 # 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 109
-msgid "General system settings"
-msgstr "Üldised süsteemi seaded"
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_usability_page.py, line: 147
-msgid "SSH always on"
-msgstr "SSH alati sisse"
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 149
-msgid "Turn on ssh remote access at boot."
-msgstr "Lülita ssh kaugjuurdepääs sisse käivitamisel."
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 162
-msgid "Fast Grub"
-msgstr "Kiire Grub"
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 163
-msgid "Decreases grub display time."
-msgstr "Vähendab grub'i kuvamise aega."
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 170
-msgid "Auto-mount Partitions"
-msgstr "Automaatne partitsioonide monteerimine"
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 171
-msgid "Auto mount partitions in internal disks on boot."
-msgstr "Automaatne partitsioonide monteerimine sisemistel ketastel käivitamisel."
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_usability_page.py, line: 169
-msgid "Meltdown Mitigations off"
-msgstr "Meltdown'i leevendamine välja lülitatud"
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_usability_page.py, line: 170
-#, python-brace-format
-msgid ""
-"Using mitigations=off will make your machine faster and less secure! For more information see: <a "
-"href='{link}'>{link}</a>"
-msgstr ""
-"Kaitsmise väljalülitamine=off muudab teie masina kiiremaks ja vähem turvaliseks! Lisainformatsiooni "
-"saamiseks vaadake: <a href='{link}'>{link}</a>"
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_usability_page.py, line: 176
-msgid "noWatchdog"
-msgstr "eiJälgija"
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_usability_page.py, line: 177
-msgid ""
-"Disables the hardware watchdog and TSC clocksource systems, maintaining high performance but "
-"removing automatic protections against system crashes."
-msgstr ""
-"Keelab riistvara jälgijat ja TSC kellaallika süsteeme, säilitades kõrge jõudluse, kuid eemaldades "
-"automaatsed kaitsed süsteemi kokkuvarisemise eest."
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_usability_page.py, line: 190
-msgid "Wifi"
-msgstr "Wifi"
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_usability_page.py, line: 191
-msgid "Wifi On"
-msgstr "Wifi sisse"
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_usability_page.py, line: 197
-msgid "Bluetooth"
-msgstr "Bluetooth"
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_usability_page.py, line: 198
-msgid "Bluetooth On."
-msgstr "Bluetooth sisse."
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_usability_page.py, line: 204
-msgid "Docker"
-msgstr "Docker"
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_usability_page.py, line: 205
-msgid "Docker Enabled."
-msgstr "Docker on."
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 111
+msgid "PreLoad"
+msgstr "Eelkoormus"

@@ -14,68 +14,12 @@ msgstr ""
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "X-Generator: attranslate\n"
-msgid "Applying, please wait..."
-msgstr "Εφαρμογή, παρακαλώ περιμένετε..."
-msgid "GRUB updated successfully!"
-msgstr "Ο GRUB ενημερώθηκε με επιτυχία!"
-msgid "An error occurred while updating GRUB."
-msgstr "Παρουσιάστηκε σφάλμα κατά την ενημέρωση του GRUB."
-msgid ""
-"GRUB updated successfully!\\n"
-"Restart your computer for it to take effect."
-msgstr ""
-"Ο GRUB ενημερώθηκε με επιτυχία!\\n"
-"Επανεκκινήστε τον υπολογιστή σας για να ισχύσει."
-msgid "Already disabled. No changes made."
-msgstr "Ήδη απενεργοποιημένο. Δεν έγιναν αλλαγές."
-msgid "Limits updated successfully!"
-msgstr "Οι περιορισμοί ενημερώθηκαν με επιτυχία!"
-msgid "An error occurred while updating Limits."
-msgstr "Παρουσιάστηκε σφάλμα κατά την ενημέρωση των Ορίων."
-msgid "Docker Install"
-msgstr "Εγκατάσταση Docker"
-msgid "Instaling Docker, Please wait..."
-msgstr "Εγκατάσταση του Docker, Παρακαλώ περιμένετε..."
-msgid "Docker Start"
-msgstr "Εκκίνηση Docker"
-msgid "Docker Starting, Please wait..."
-msgstr "Docker Ξεκινά, Παρακαλώ περιμένετε..."
-msgid "Docker Stop"
-msgstr "Διακοπή Docker"
-msgid "Docker Stopping, Please wait..."
-msgstr "Docker Σταμάτημα, Παρακαλώ περιμένετε..."
-msgid "Docker installed successfully!"
-msgstr "Το Docker εγκαταστάθηκε με επιτυχία!"
-msgid "An error occurred while install docker."
-msgstr "Παρουσιάστηκε σφάλμα κατά την εγκατάσταση του docker."
 msgid "BigLinux Ajustes"
 msgstr "BigLinux Ρυθμίσεις"
-msgid "Se estiver utilizando algum navegador, reinicie-o para aplicar as alterações."
-msgstr "Εάν χρησιμοποιείτε κάποιον περιηγητή, επανεκκινήστε τον για να εφαρμόσετε τις αλλαγές."
-msgid "Aceleração do navegador"
-msgstr "Επιτάχυνση προγράμματος περιήγησης"
-msgid "Desativar efeitos do desktop"
-msgstr "Απενεργοποίηση εφέ επιφάνειας εργασίας"
-msgid "BTRFS sem fsync"
-msgstr "BTRFS χωρίς fsync"
-msgid "Rolagem do touchpad invertida"
-msgstr "Rolagem do touchpad invertida"
-msgid "Ligar RGB do teclado"
-msgstr "Ενεργοποίηση RGB του πληκτρολογίου"
-msgid "Modo Desenvolvedor"
-msgstr "Λειτουργία Προγραμματιστή"
-msgid "Botões da janela no lado esquerdo"
-msgstr "Κουμπιά παραθύρου στα αριστερά"
-msgid "Aguarde..."
-msgstr "Αναμονή..."
-msgid "Aplicando, Aguarde..."
-msgstr "Εφαρμόζοντας, Παρακαλώ περιμένετε..."
-msgid "Rolagem do mouse invertida"
-msgstr "Αντίστροφη κύλιση ποντικιού"
-msgid "Ativar o NumLock ao ligar o sistema"
-msgstr "Ενεργοποίηση του NumLock κατά την εκκίνηση του συστήματος"
 msgid "Indexar arquivos"
 msgstr "Ευρετηρίαση αρχείων"
+msgid "Rolagem do touchpad invertida"
+msgstr "Rolagem do touchpad invertida"
 msgid "Grub"
 msgstr "Γκρουμπ"
 msgid "Cuidado, você perderá acesso aos SnapShots. Tem certeza que deseja ocultar o grub?"
@@ -94,10 +38,26 @@ msgid "Concluído!"
 msgstr "Ολοκληρώθηκε!"
 msgid "Ocultar Gerenciador de Boot (GRUB)"
 msgstr "Απόκρυψη Διαχειριστή Εκκίνησης (GRUB)"
-msgid "Bloquear a edição da área de trabalho"
-msgstr "Αποκλεισμός της επεξεργασίας της επιφάνειας εργασίας"
+msgid "Ativar o NumLock ao ligar o sistema"
+msgstr "Ενεργοποίηση του NumLock κατά την εκκίνηση του συστήματος"
+msgid "Rolagem do mouse invertida"
+msgstr "Αντίστροφη κύλιση ποντικιού"
+msgid "Ligar RGB do teclado"
+msgstr "Ενεργοποίηση RGB του πληκτρολογίου"
 msgid "Montar partições automaticamente"
 msgstr "Αυτόματη τοποθέτηση κατατμήσεων"
+msgid "Bloquear a edição da área de trabalho"
+msgstr "Αποκλεισμός της επεξεργασίας της επιφάνειας εργασίας"
+msgid "Aguarde..."
+msgstr "Αναμονή..."
+msgid "Aplicando, Aguarde..."
+msgstr "Εφαρμόζοντας, Παρακαλώ περιμένετε..."
+msgid "Botões da janela no lado esquerdo"
+msgstr "Κουμπιά παραθύρου στα αριστερά"
+msgid "Modo Desenvolvedor"
+msgstr "Λειτουργία Προγραμματιστή"
+msgid "Se estiver utilizando algum navegador, reinicie-o para aplicar as alterações."
+msgstr "Εάν χρησιμοποιείτε κάποιον περιηγητή, επανεκκινήστε τον για να εφαρμόσετε τις αλλαγές."
 msgid "Abrir"
 msgstr "Άνοιγμα"
 msgid "Procurar..."
@@ -114,26 +74,54 @@ msgid "Escolher programas a serem carregados na memória durante boot"
 msgstr "Επιλέξτε προγράμματα που θα φορτωθούν στη μνήμη κατά την εκκίνηση."
 msgid "Usabilidade"
 msgstr "Χρηστικότητα"
+msgid "Aceleração do navegador"
+msgstr "Επιτάχυνση προγράμματος περιήγησης"
+msgid "BTRFS sem fsync"
+msgstr "BTRFS χωρίς fsync"
+msgid "Desativar efeitos do desktop"
+msgstr "Απενεργοποίηση εφέ επιφάνειας εργασίας"
+msgid "Applying, please wait..."
+msgstr "Εφαρμογή, παρακαλώ περιμένετε..."
+msgid "Limits updated successfully!"
+msgstr "Οι περιορισμοί ενημερώθηκαν με επιτυχία!"
+msgid "An error occurred while updating Limits."
+msgstr "Παρουσιάστηκε σφάλμα κατά την ενημέρωση των Ορίων."
+msgid ""
+"GRUB updated successfully!\\n"
+"Restart your computer for it to take effect."
+msgstr ""
+"Ο GRUB ενημερώθηκε με επιτυχία!\\n"
+"Επανεκκινήστε τον υπολογιστή σας για να ισχύσει."
+msgid "An error occurred while updating GRUB."
+msgstr "Παρουσιάστηκε σφάλμα κατά την ενημέρωση του GRUB."
+msgid "Already disabled. No changes made."
+msgstr "Ήδη απενεργοποιημένο. Δεν έγιναν αλλαγές."
+msgid "Docker Install"
+msgstr "Εγκατάσταση Docker"
+msgid "Instaling Docker, Please wait..."
+msgstr "Εγκατάσταση του Docker, Παρακαλώ περιμένετε..."
+msgid "Docker Start"
+msgstr "Εκκίνηση Docker"
+msgid "Docker Starting, Please wait..."
+msgstr "Docker Ξεκινά, Παρακαλώ περιμένετε..."
+msgid "Docker Stop"
+msgstr "Διακοπή Docker"
+msgid "Docker Stopping, Please wait..."
+msgstr "Docker Σταμάτημα, Παρακαλώ περιμένετε..."
+msgid "Docker installed successfully!"
+msgstr "Το Docker εγκαταστάθηκε με επιτυχία!"
+msgid "An error occurred while install docker."
+msgstr "Παρουσιάστηκε σφάλμα κατά την εγκατάσταση του docker."
+msgid "GRUB updated successfully!"
+msgstr "Ο GRUB ενημερώθηκε με επιτυχία!"
 # 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 52
-msgid "General adjustments"
-msgstr "Γενικές ρυθμίσεις"
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 107
+msgid "Usability"
+msgstr "Χρηστικότητα"
 # 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 108
-msgid "System Tweaks"
-msgstr "Ρυθμίσεις Συστήματος"
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 111
-msgid "PreLoad"
-msgstr "Προφόρτωση"
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/preload_page.py, line: 103
-msgid "Preload"
-msgstr "Προφόρτωση"
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/preload_page.py, line: 105
-msgid "Preload applications into memory to open them faster."
-msgstr "Φορτώστε τις εφαρμογές στη μνήμη για να τις ανοίξετε πιο γρήγορα."
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_usability_page.py, line: 104
+msgid "User and Visual system settings"
+msgstr "Ρυθμίσεις χρήστη και οπτικού συστήματος"
 # 
 # #-#-#-#-#  biglinux-settings.pot (biglinux-settings)  #-#-#-#-#
 # 
@@ -142,37 +130,110 @@ msgstr "Φορτώστε τις εφαρμογές στη μνήμη για να
 msgid "Reload all statuses"
 msgstr "Επαναφόρτωση όλων των καταστάσεων"
 # 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/preload_page.py, line: 120
-msgid "Firefox"
-msgstr "ΦαIREFOX"
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 114
+msgid "NumLock"
+msgstr "NumLock"
 # 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/preload_page.py, line: 126
-msgid "Librewolf"
-msgstr "Λιμπρέγουλφ"
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 115
+msgid "Initial NumLock state. Ignored if autologin is enabled."
+msgstr "Αρχική κατάσταση NumLock. Αγνοείται αν είναι ενεργοποιημένη η αυτόματη σύνδεση."
 # 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/preload_page.py, line: 126
-msgid "Brave"
-msgstr "Γενναίος"
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 131
+msgid "Window Button On Left Side"
+msgstr "Κουμπί Παραθύρου Αριστερά"
 # 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/preload_page.py, line: 132
-msgid "Chrome"
-msgstr "Κρόμειο"
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 132
+msgid "Maximize, minimize, and close buttons on the left side of the window."
+msgstr "Κουμπιά μεγιστοποίησης, ελαχιστοποίησης και κλεισίματος στην αριστερή πλευρά του παραθύρου."
 # 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/preload_page.py, line: 138
-msgid "Chromium"
-msgstr "Χρωμίου"
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_usability_page.py, line: 133
+msgid "SSH until next reboot"
+msgstr "SSH μέχρι την επόμενη επανεκκίνηση"
 # 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/preload_page.py, line: 144
-msgid "Palemoon"
-msgstr "Παλέμουν"
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 133
+msgid "Enable remote access via ssh until next boot."
+msgstr "Ενεργοποιήστε την απομακρυσμένη πρόσβαση μέσω ssh μέχρι την επόμενη εκκίνηση."
 # 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/preload_page.py, line: 150
-msgid "Opera"
-msgstr "Όπερα"
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 108
+msgid "System"
+msgstr "Σύστημα"
 # 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/preload_page.py, line: 156
-msgid "Libreoffice"
-msgstr "ΛιμπρέΟφις"
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 109
+msgid "General system settings"
+msgstr "Γενικές ρυθμίσεις συστήματος"
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_usability_page.py, line: 147
+msgid "SSH always on"
+msgstr "SSH πάντα ενεργό"
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 149
+msgid "Turn on ssh remote access at boot."
+msgstr "Ενεργοποιήστε την απομακρυσμένη πρόσβαση ssh κατά την εκκίνηση."
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 162
+msgid "Fast Grub"
+msgstr "Γρήγορος Grub"
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 163
+msgid "Decreases grub display time."
+msgstr "Μειώνει τον χρόνο εμφάνισης του grub."
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 170
+msgid "Auto-mount Partitions"
+msgstr "Αυτόματη τοποθέτηση κατατμήσεων"
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 171
+msgid "Auto mount partitions in internal disks on boot."
+msgstr "Αυτόματη τοποθέτηση κατατμήσεων σε εσωτερικούς δίσκους κατά την εκκίνηση."
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_usability_page.py, line: 169
+msgid "Meltdown Mitigations off"
+msgstr "Απενεργοποίηση μετριασμών Meltdown"
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_usability_page.py, line: 170
+#, python-brace-format
+msgid ""
+"Using mitigations=off will make your machine faster and less secure! For more information see: <a "
+"href='{link}'>{link}</a>"
+msgstr ""
+"Η χρήση του mitigations=off θα κάνει τη μηχανή σας ταχύτερη και λιγότερο ασφαλή! Για περισσότερες "
+"πληροφορίες δείτε: <a href='{link}'>{link}</a>"
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_usability_page.py, line: 176
+msgid "noWatchdog"
+msgstr "χωρίςΕπιτήρηση"
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_usability_page.py, line: 177
+msgid ""
+"Disables the hardware watchdog and TSC clocksource systems, maintaining high performance but "
+"removing automatic protections against system crashes."
+msgstr ""
+"Απενεργοποιεί το υλικό παρακολούθησης και τα συστήματα χρονισμού TSC, διατηρώντας υψηλή απόδοση "
+"αλλά αφαιρώντας τις αυτόματες προστασίες κατά των κρασαρισμάτων του συστήματος."
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_usability_page.py, line: 190
+msgid "Wifi"
+msgstr "Wifi"
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_usability_page.py, line: 191
+msgid "Wifi On"
+msgstr "Wifi Ενεργό"
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_usability_page.py, line: 197
+msgid "Bluetooth"
+msgstr "Μπλουτούθ"
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_usability_page.py, line: 198
+msgid "Bluetooth On."
+msgstr "Bluetooth Ενεργό."
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_usability_page.py, line: 204
+msgid "Docker"
+msgstr "Ντόκερ"
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_usability_page.py, line: 205
+msgid "Docker Enabled."
+msgstr "Ενεργοποιημένο Docker."
 # 
 # #-#-#-#-#  biglinux-settings.pot (biglinux-settings)  #-#-#-#-#
 # 
@@ -286,115 +347,54 @@ msgstr "ΣΦΑΛΜΑ: Αποτυχία αλλαγής {} σε {}"
 msgid "Failed to change setting: {}"
 msgstr "Αποτυχία αλλαγής ρύθμισης: {}"
 # 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 107
-msgid "Usability"
-msgstr "Χρηστικότητα"
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/preload_page.py, line: 103
+msgid "Preload"
+msgstr "Προφόρτωση"
 # 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_usability_page.py, line: 104
-msgid "User and Visual system settings"
-msgstr "Ρυθμίσεις χρήστη και οπτικού συστήματος"
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/preload_page.py, line: 105
+msgid "Preload applications into memory to open them faster."
+msgstr "Φορτώστε τις εφαρμογές στη μνήμη για να τις ανοίξετε πιο γρήγορα."
 # 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 114
-msgid "NumLock"
-msgstr "NumLock"
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/preload_page.py, line: 120
+msgid "Firefox"
+msgstr "ΦαIREFOX"
 # 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 115
-msgid "Initial NumLock state. Ignored if autologin is enabled."
-msgstr "Αρχική κατάσταση NumLock. Αγνοείται αν είναι ενεργοποιημένη η αυτόματη σύνδεση."
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/preload_page.py, line: 126
+msgid "Brave"
+msgstr "Γενναίος"
 # 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 131
-msgid "Window Button On Left Side"
-msgstr "Κουμπί Παραθύρου Αριστερά"
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/preload_page.py, line: 132
+msgid "Chrome"
+msgstr "Κρόμειο"
 # 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 132
-msgid "Maximize, minimize, and close buttons on the left side of the window."
-msgstr "Κουμπιά μεγιστοποίησης, ελαχιστοποίησης και κλεισίματος στην αριστερή πλευρά του παραθύρου."
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/preload_page.py, line: 138
+msgid "Chromium"
+msgstr "Χρωμίου"
 # 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_usability_page.py, line: 133
-msgid "SSH until next reboot"
-msgstr "SSH μέχρι την επόμενη επανεκκίνηση"
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/preload_page.py, line: 126
+msgid "Librewolf"
+msgstr "Λιμπρέγουλφ"
 # 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 133
-msgid "Enable remote access via ssh until next boot."
-msgstr "Ενεργοποιήστε την απομακρυσμένη πρόσβαση μέσω ssh μέχρι την επόμενη εκκίνηση."
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/preload_page.py, line: 144
+msgid "Palemoon"
+msgstr "Παλέμουν"
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/preload_page.py, line: 150
+msgid "Opera"
+msgstr "Όπερα"
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/preload_page.py, line: 156
+msgid "Libreoffice"
+msgstr "ΛιμπρέΟφις"
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 52
+msgid "General adjustments"
+msgstr "Γενικές ρυθμίσεις"
 # 
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 108
-msgid "System"
-msgstr "Σύστημα"
+msgid "System Tweaks"
+msgstr "Ρυθμίσεις Συστήματος"
 # 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 109
-msgid "General system settings"
-msgstr "Γενικές ρυθμίσεις συστήματος"
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_usability_page.py, line: 147
-msgid "SSH always on"
-msgstr "SSH πάντα ενεργό"
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 149
-msgid "Turn on ssh remote access at boot."
-msgstr "Ενεργοποιήστε την απομακρυσμένη πρόσβαση ssh κατά την εκκίνηση."
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 162
-msgid "Fast Grub"
-msgstr "Γρήγορος Grub"
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 163
-msgid "Decreases grub display time."
-msgstr "Μειώνει τον χρόνο εμφάνισης του grub."
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 170
-msgid "Auto-mount Partitions"
-msgstr "Αυτόματη τοποθέτηση κατατμήσεων"
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 171
-msgid "Auto mount partitions in internal disks on boot."
-msgstr "Αυτόματη τοποθέτηση κατατμήσεων σε εσωτερικούς δίσκους κατά την εκκίνηση."
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_usability_page.py, line: 169
-msgid "Meltdown Mitigations off"
-msgstr "Απενεργοποίηση μετριασμών Meltdown"
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_usability_page.py, line: 170
-#, python-brace-format
-msgid ""
-"Using mitigations=off will make your machine faster and less secure! For more information see: <a "
-"href='{link}'>{link}</a>"
-msgstr ""
-"Η χρήση του mitigations=off θα κάνει τη μηχανή σας ταχύτερη και λιγότερο ασφαλή! Για περισσότερες "
-"πληροφορίες δείτε: <a href='{link}'>{link}</a>"
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_usability_page.py, line: 176
-msgid "noWatchdog"
-msgstr "χωρίςΕπιτήρηση"
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_usability_page.py, line: 177
-msgid ""
-"Disables the hardware watchdog and TSC clocksource systems, maintaining high performance but "
-"removing automatic protections against system crashes."
-msgstr ""
-"Απενεργοποιεί το υλικό παρακολούθησης και τα συστήματα χρονισμού TSC, διατηρώντας υψηλή απόδοση "
-"αλλά αφαιρώντας τις αυτόματες προστασίες κατά των κρασαρισμάτων του συστήματος."
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_usability_page.py, line: 190
-msgid "Wifi"
-msgstr "Wifi"
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_usability_page.py, line: 191
-msgid "Wifi On"
-msgstr "Wifi Ενεργό"
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_usability_page.py, line: 197
-msgid "Bluetooth"
-msgstr "Μπλουτούθ"
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_usability_page.py, line: 198
-msgid "Bluetooth On."
-msgstr "Bluetooth Ενεργό."
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_usability_page.py, line: 204
-msgid "Docker"
-msgstr "Ντόκερ"
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_usability_page.py, line: 205
-msgid "Docker Enabled."
-msgstr "Ενεργοποιημένο Docker."
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 111
+msgid "PreLoad"
+msgstr "Προφόρτωση"
