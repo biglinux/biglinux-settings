@@ -14,68 +14,12 @@ msgstr ""
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "X-Generator: attranslate\n"
-msgid "Applying, please wait..."
-msgstr "מגיש, אנא המתן..."
-msgid "GRUB updated successfully!"
-msgstr "GRUB עודכן בהצלחה!"
-msgid "An error occurred while updating GRUB."
-msgstr "אירעה שגיאה בעת עדכון GRUB."
-msgid ""
-"GRUB updated successfully!\\n"
-"Restart your computer for it to take effect."
-msgstr ""
-"GRUB עודכן בהצלחה!\\n"
-"אתה צריך לאתחל את המחשב שלך כדי שזה ייכנס לתוקף."
-msgid "Already disabled. No changes made."
-msgstr "כבר מושבת. לא בוצעו שינויים."
-msgid "Limits updated successfully!"
-msgstr "המגבלות עודכנו בהצלחה!"
-msgid "An error occurred while updating Limits."
-msgstr "שגיאה התרחשה בעת עדכון הגבולות."
-msgid "Docker Install"
-msgstr "התקנת דוקר"
-msgid "Instaling Docker, Please wait..."
-msgstr "מתקין את דוקר, אנא המתן..."
-msgid "Docker Start"
-msgstr "הפעלת דוקר"
-msgid "Docker Starting, Please wait..."
-msgstr "דוקר מתחיל, אנא המתן..."
-msgid "Docker Stop"
-msgstr "דוקר עצור"
-msgid "Docker Stopping, Please wait..."
-msgstr "דוקר עוצר, אנא המתן..."
-msgid "Docker installed successfully!"
-msgstr "דוקר הותקן בהצלחה!"
-msgid "An error occurred while install docker."
-msgstr "אירעה שגיאה במהלך התקנת דוקר."
 msgid "BigLinux Ajustes"
 msgstr "ביגלינוקס הגדרות"
-msgid "Se estiver utilizando algum navegador, reinicie-o para aplicar as alterações."
-msgstr "אם אתה משתמש בדפדפן כלשהו, הפעל אותו מחדש כדי ליישם את השינויים."
-msgid "Aceleração do navegador"
-msgstr "האצת דפדפן"
-msgid "Desativar efeitos do desktop"
-msgstr "השבתת אפקטים של שולחן עבודה"
-msgid "BTRFS sem fsync"
-msgstr "BTRFS סמ fsync"
-msgid "Rolagem do touchpad invertida"
-msgstr "Rolagem do touchpad invertida"
-msgid "Ligar RGB do teclado"
-msgstr "לחבר את ה-RGB במקלדת"
-msgid "Modo Desenvolvedor"
-msgstr "מצב מפתח"
-msgid "Botões da janela no lado esquerdo"
-msgstr "כפתורי החלון בצד השמאלי"
-msgid "Aguarde..."
-msgstr "המתן..."
-msgid "Aplicando, Aguarde..."
-msgstr "מגיש בקשה, המתן..."
-msgid "Rolagem do mouse invertida"
-msgstr "Rolagem של עכבר הפוכה"
-msgid "Ativar o NumLock ao ligar o sistema"
-msgstr "הפעל את NumLock בעת הפעלת המערכת"
 msgid "Indexar arquivos"
 msgstr "אינדקס קבצים"
+msgid "Rolagem do touchpad invertida"
+msgstr "Rolagem do touchpad invertida"
 msgid "Grub"
 msgstr "גרוב"
 msgid "Cuidado, você perderá acesso aos SnapShots. Tem certeza que deseja ocultar o grub?"
@@ -96,10 +40,26 @@ msgid "Ok"
 msgstr "אוקי"
 msgid "Ocultar Gerenciador de Boot (GRUB)"
 msgstr "הסתרת מנהל האתחול (GRUB)"
-msgid "Bloquear a edição da área de trabalho"
-msgstr "חסום את עריכת שולחן העבודה"
+msgid "Ativar o NumLock ao ligar o sistema"
+msgstr "הפעל את NumLock בעת הפעלת המערכת"
+msgid "Rolagem do mouse invertida"
+msgstr "Rolagem של עכבר הפוכה"
+msgid "Ligar RGB do teclado"
+msgstr "לחבר את ה-RGB במקלדת"
 msgid "Montar partições automaticamente"
 msgstr "להתקין מחיצות באופן אוטומטי"
+msgid "Bloquear a edição da área de trabalho"
+msgstr "חסום את עריכת שולחן העבודה"
+msgid "Aguarde..."
+msgstr "המתן..."
+msgid "Aplicando, Aguarde..."
+msgstr "מגיש בקשה, המתן..."
+msgid "Botões da janela no lado esquerdo"
+msgstr "כפתורי החלון בצד השמאלי"
+msgid "Modo Desenvolvedor"
+msgstr "מצב מפתח"
+msgid "Se estiver utilizando algum navegador, reinicie-o para aplicar as alterações."
+msgstr "אם אתה משתמש בדפדפן כלשהו, הפעל אותו מחדש כדי ליישם את השינויים."
 msgid "Abrir"
 msgstr "פתח"
 msgid "Procurar..."
@@ -116,26 +76,54 @@ msgid "Escolher programas a serem carregados na memória durante boot"
 msgstr "בחר תוכניות שיטענו בזיכרון במהלך האתחול"
 msgid "Usabilidade"
 msgstr "שימושיות"
+msgid "Aceleração do navegador"
+msgstr "האצת דפדפן"
+msgid "BTRFS sem fsync"
+msgstr "BTRFS סמ fsync"
+msgid "Desativar efeitos do desktop"
+msgstr "השבתת אפקטים של שולחן עבודה"
+msgid "Applying, please wait..."
+msgstr "מגיש, אנא המתן..."
+msgid "Limits updated successfully!"
+msgstr "המגבלות עודכנו בהצלחה!"
+msgid "An error occurred while updating Limits."
+msgstr "שגיאה התרחשה בעת עדכון הגבולות."
+msgid ""
+"GRUB updated successfully!\\n"
+"Restart your computer for it to take effect."
+msgstr ""
+"GRUB עודכן בהצלחה!\\n"
+"אתה צריך לאתחל את המחשב שלך כדי שזה ייכנס לתוקף."
+msgid "An error occurred while updating GRUB."
+msgstr "אירעה שגיאה בעת עדכון GRUB."
+msgid "Already disabled. No changes made."
+msgstr "כבר מושבת. לא בוצעו שינויים."
+msgid "Docker Install"
+msgstr "התקנת דוקר"
+msgid "Instaling Docker, Please wait..."
+msgstr "מתקין את דוקר, אנא המתן..."
+msgid "Docker Start"
+msgstr "הפעלת דוקר"
+msgid "Docker Starting, Please wait..."
+msgstr "דוקר מתחיל, אנא המתן..."
+msgid "Docker Stop"
+msgstr "דוקר עצור"
+msgid "Docker Stopping, Please wait..."
+msgstr "דוקר עוצר, אנא המתן..."
+msgid "Docker installed successfully!"
+msgstr "דוקר הותקן בהצלחה!"
+msgid "An error occurred while install docker."
+msgstr "אירעה שגיאה במהלך התקנת דוקר."
+msgid "GRUB updated successfully!"
+msgstr "GRUB עודכן בהצלחה!"
 # 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 52
-msgid "General adjustments"
-msgstr "התאמות כלליות"
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 107
+msgid "Usability"
+msgstr "שימושיות"
 # 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 108
-msgid "System Tweaks"
-msgstr "שיפוטי מערכת"
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 111
-msgid "PreLoad"
-msgstr "טען מראש"
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/preload_page.py, line: 103
-msgid "Preload"
-msgstr "טען מראש"
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/preload_page.py, line: 105
-msgid "Preload applications into memory to open them faster."
-msgstr "טען יישומים לזיכרון כדי לפתוח אותם מהר יותר."
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_usability_page.py, line: 104
+msgid "User and Visual system settings"
+msgstr "הגדרות משתמש ומערכת חזותית"
 # 
 # #-#-#-#-#  biglinux-settings.pot (biglinux-settings)  #-#-#-#-#
 # 
@@ -144,37 +132,110 @@ msgstr "טען יישומים לזיכרון כדי לפתוח אותם מהר �
 msgid "Reload all statuses"
 msgstr "טען מחדש את כל הסטטוסים"
 # 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/preload_page.py, line: 120
-msgid "Firefox"
-msgstr "פיירפוקס"
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 114
+msgid "NumLock"
+msgstr "נומרוק"
 # 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/preload_page.py, line: 126
-msgid "Librewolf"
-msgstr "ליברווולף"
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 115
+msgid "Initial NumLock state. Ignored if autologin is enabled."
+msgstr "מצב NumLock התחלתי. מתעלמים אם כניסה אוטומטית מופעלת."
 # 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/preload_page.py, line: 126
-msgid "Brave"
-msgstr "ברייב"
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 131
+msgid "Window Button On Left Side"
+msgstr "כפתור חלון בצד שמאל"
 # 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/preload_page.py, line: 132
-msgid "Chrome"
-msgstr "כרום"
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 132
+msgid "Maximize, minimize, and close buttons on the left side of the window."
+msgstr "כפתורי מקסימום, מינימום וסגירה בצד השמאלי של החלון."
 # 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/preload_page.py, line: 138
-msgid "Chromium"
-msgstr "כרומיום"
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_usability_page.py, line: 133
+msgid "SSH until next reboot"
+msgstr "SSH עד הפעלה מחדש הבאה"
 # 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/preload_page.py, line: 144
-msgid "Palemoon"
-msgstr "פאלימון"
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 133
+msgid "Enable remote access via ssh until next boot."
+msgstr "אפשר גישה מרחוק באמצעות ssh עד אתחול הבא."
 # 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/preload_page.py, line: 150
-msgid "Opera"
-msgstr "אופרה"
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 108
+msgid "System"
+msgstr "מערכת"
 # 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/preload_page.py, line: 156
-msgid "Libreoffice"
-msgstr "ליבראOffice"
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 109
+msgid "General system settings"
+msgstr "הגדרות מערכת כלליות"
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_usability_page.py, line: 147
+msgid "SSH always on"
+msgstr "SSH תמיד פעיל"
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 149
+msgid "Turn on ssh remote access at boot."
+msgstr "הפעל גישה מרחוק באמצעות SSH בעת אתחול."
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 162
+msgid "Fast Grub"
+msgstr "גרוב מהיר"
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 163
+msgid "Decreases grub display time."
+msgstr "מקטין את זמן התצוגה של גרוב."
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 170
+msgid "Auto-mount Partitions"
+msgstr "התקנת מחיצות אוטומטית"
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 171
+msgid "Auto mount partitions in internal disks on boot."
+msgstr "התקן אוטומטית מחיצות בדיסקים פנימיים בעת אתחול."
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_usability_page.py, line: 169
+msgid "Meltdown Mitigations off"
+msgstr "הפחתות של מלטדאון כבויות"
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_usability_page.py, line: 170
+#, python-brace-format
+msgid ""
+"Using mitigations=off will make your machine faster and less secure! For more information see: <a "
+"href='{link}'>{link}</a>"
+msgstr ""
+"שימוש ב-mitigations=off יהפוך את המחשב שלך למהיר יותר ופחות מאובטח! למידע נוסף ראה: <a "
+"href='{link}'>{link}</a>"
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_usability_page.py, line: 176
+msgid "noWatchdog"
+msgstr "לא מעקב"
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_usability_page.py, line: 177
+msgid ""
+"Disables the hardware watchdog and TSC clocksource systems, maintaining high performance but "
+"removing automatic protections against system crashes."
+msgstr ""
+"מכבה את מערכת השעון החומרתי ואת מערכות מקור השעון TSC, שומר על ביצועים גבוהים אך מסיר הגנות "
+"אוטומטיות מפני קריסות מערכת."
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_usability_page.py, line: 190
+msgid "Wifi"
+msgstr "ווי-פיי"
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_usability_page.py, line: 191
+msgid "Wifi On"
+msgstr "ווייפי מופעל"
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_usability_page.py, line: 197
+msgid "Bluetooth"
+msgstr "בלוטות'"
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_usability_page.py, line: 198
+msgid "Bluetooth On."
+msgstr "בלוטות' פועל."
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_usability_page.py, line: 204
+msgid "Docker"
+msgstr "דוקר"
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_usability_page.py, line: 205
+msgid "Docker Enabled."
+msgstr "דוקר מופעל."
 # 
 # #-#-#-#-#  biglinux-settings.pot (biglinux-settings)  #-#-#-#-#
 # 
@@ -286,115 +347,54 @@ msgstr "שגיאה: לא הצליח לשנות {} ל{}"
 msgid "Failed to change setting: {}"
 msgstr "שינוי ההגדרה נכשל: {}"
 # 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 107
-msgid "Usability"
-msgstr "שימושיות"
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/preload_page.py, line: 103
+msgid "Preload"
+msgstr "טען מראש"
 # 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_usability_page.py, line: 104
-msgid "User and Visual system settings"
-msgstr "הגדרות משתמש ומערכת חזותית"
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/preload_page.py, line: 105
+msgid "Preload applications into memory to open them faster."
+msgstr "טען יישומים לזיכרון כדי לפתוח אותם מהר יותר."
 # 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 114
-msgid "NumLock"
-msgstr "נומרוק"
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/preload_page.py, line: 120
+msgid "Firefox"
+msgstr "פיירפוקס"
 # 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 115
-msgid "Initial NumLock state. Ignored if autologin is enabled."
-msgstr "מצב NumLock התחלתי. מתעלמים אם כניסה אוטומטית מופעלת."
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/preload_page.py, line: 126
+msgid "Brave"
+msgstr "ברייב"
 # 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 131
-msgid "Window Button On Left Side"
-msgstr "כפתור חלון בצד שמאל"
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/preload_page.py, line: 132
+msgid "Chrome"
+msgstr "כרום"
 # 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 132
-msgid "Maximize, minimize, and close buttons on the left side of the window."
-msgstr "כפתורי מקסימום, מינימום וסגירה בצד השמאלי של החלון."
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/preload_page.py, line: 138
+msgid "Chromium"
+msgstr "כרומיום"
 # 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_usability_page.py, line: 133
-msgid "SSH until next reboot"
-msgstr "SSH עד הפעלה מחדש הבאה"
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/preload_page.py, line: 126
+msgid "Librewolf"
+msgstr "ליברווולף"
 # 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 133
-msgid "Enable remote access via ssh until next boot."
-msgstr "אפשר גישה מרחוק באמצעות ssh עד אתחול הבא."
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/preload_page.py, line: 144
+msgid "Palemoon"
+msgstr "פאלימון"
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/preload_page.py, line: 150
+msgid "Opera"
+msgstr "אופרה"
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/preload_page.py, line: 156
+msgid "Libreoffice"
+msgstr "ליבראOffice"
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 52
+msgid "General adjustments"
+msgstr "התאמות כלליות"
 # 
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 108
-msgid "System"
-msgstr "מערכת"
+msgid "System Tweaks"
+msgstr "שיפוטי מערכת"
 # 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 109
-msgid "General system settings"
-msgstr "הגדרות מערכת כלליות"
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_usability_page.py, line: 147
-msgid "SSH always on"
-msgstr "SSH תמיד פעיל"
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 149
-msgid "Turn on ssh remote access at boot."
-msgstr "הפעל גישה מרחוק באמצעות SSH בעת אתחול."
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 162
-msgid "Fast Grub"
-msgstr "גרוב מהיר"
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 163
-msgid "Decreases grub display time."
-msgstr "מקטין את זמן התצוגה של גרוב."
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 170
-msgid "Auto-mount Partitions"
-msgstr "התקנת מחיצות אוטומטית"
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 171
-msgid "Auto mount partitions in internal disks on boot."
-msgstr "התקן אוטומטית מחיצות בדיסקים פנימיים בעת אתחול."
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_usability_page.py, line: 169
-msgid "Meltdown Mitigations off"
-msgstr "הפחתות של מלטדאון כבויות"
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_usability_page.py, line: 170
-#, python-brace-format
-msgid ""
-"Using mitigations=off will make your machine faster and less secure! For more information see: <a "
-"href='{link}'>{link}</a>"
-msgstr ""
-"שימוש ב-mitigations=off יהפוך את המחשב שלך למהיר יותר ופחות מאובטח! למידע נוסף ראה: <a "
-"href='{link}'>{link}</a>"
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_usability_page.py, line: 176
-msgid "noWatchdog"
-msgstr "לא מעקב"
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_usability_page.py, line: 177
-msgid ""
-"Disables the hardware watchdog and TSC clocksource systems, maintaining high performance but "
-"removing automatic protections against system crashes."
-msgstr ""
-"מכבה את מערכת השעון החומרתי ואת מערכות מקור השעון TSC, שומר על ביצועים גבוהים אך מסיר הגנות "
-"אוטומטיות מפני קריסות מערכת."
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_usability_page.py, line: 190
-msgid "Wifi"
-msgstr "ווי-פיי"
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_usability_page.py, line: 191
-msgid "Wifi On"
-msgstr "ווייפי מופעל"
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_usability_page.py, line: 197
-msgid "Bluetooth"
-msgstr "בלוטות'"
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_usability_page.py, line: 198
-msgid "Bluetooth On."
-msgstr "בלוטות' פועל."
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_usability_page.py, line: 204
-msgid "Docker"
-msgstr "דוקר"
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_usability_page.py, line: 205
-msgid "Docker Enabled."
-msgstr "דוקר מופעל."
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 111
+msgid "PreLoad"
+msgstr "טען מראש"
