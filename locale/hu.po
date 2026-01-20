@@ -373,6 +373,14 @@ msgstr "Telepítés befejeződött!"
 msgid "Installation Failed."
 msgstr "Telepítés meghiúsult."
 # 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/ai/chatai_dialog.py, line: 17
+msgid "ChatAI Installation"
+msgstr "ChatAI Telepítés"
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/ai/chatai_dialog.py, line: 28
+msgid "Installing ChatAI..."
+msgstr "ChatAI telepítése..."
+# 
 # #-#-#-#-#  biglinux-settings.pot (biglinux-settings)  #-#-#-#-#
 # 
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_usability_page.py, line: 206
@@ -555,6 +563,42 @@ msgid "This is a plugin to use generative AI in painting and image editing workf
 msgstr ""
 "Ez egy bővítmény, amely lehetővé teszi a generatív mesterséges intelligencia használatát festési és "
 "képszerkesztési munkafolyamatokban közvetlenül a Kritában."
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/ai_page.py, line: 46
+msgid "ChatAI"
+msgstr "ChatAI"
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/ai_page.py, line: 47
+msgid "A variety of chats like Plasmoid for your KDE Plasma desktop."
+msgstr "Különböző csevegések, mint a Plasmoid, a KDE Plasma asztali környezetedhez."
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/ai_page.py, line: 59
+msgid "ChatAI Requirements"
+msgstr "ChatAI követelmények"
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/ai_page.py, line: 60
+msgid "This resource requires at least 16 GB of RAM and is not recommended for legacy computers."
+msgstr "Ez az erőforrás legalább 16 GB RAM-ot igényel, és nem ajánlott régi számítógépekhez."
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/ai_page.py, line: 63
+msgid "Accept"
+msgstr "Elfogadom"
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/ai_page.py, line: 90
+msgid "Restart Plasma Shell"
+msgstr "Indítsa újra a Plasma Shell-t"
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/ai_page.py, line: 91
+msgid "To apply changes, it is recommended to restart Plasma Shell. Do you want to restart it now?"
+msgstr "A változtatások alkalmazásához ajánlott újraindítani a Plasma Shell-t. Szeretné most újraindítani?"
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_usability_page.py, line: 165
+msgid "No"
+msgstr "Nincs"
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_usability_page.py, line: 166
+msgid "Yes"
+msgstr "Igen"
 # 
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings/ai_page.py, line: 59
 msgid "Disable Krita AI"
@@ -783,11 +827,3 @@ msgstr "KWin újraindítása?"
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_usability_page.py, line: 163
 msgid "To apply the changes, the KWin window manager needs to be restarted. Do you want to restart it now?"
 msgstr "A változtatások alkalmazásához a KWin ablakkezelőt újra kell indítani. Szeretné most újraindítani?"
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_usability_page.py, line: 165
-msgid "No"
-msgstr "Nincs"
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_usability_page.py, line: 166
-msgid "Yes"
-msgstr "Igen"

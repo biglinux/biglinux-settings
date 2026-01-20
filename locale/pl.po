@@ -370,6 +370,14 @@ msgstr "Instalacja zakończona!"
 msgid "Installation Failed."
 msgstr "Instalacja nie powiodła się."
 # 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/ai/chatai_dialog.py, line: 17
+msgid "ChatAI Installation"
+msgstr "Instalacja ChatAI"
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/ai/chatai_dialog.py, line: 28
+msgid "Installing ChatAI..."
+msgstr "Instalowanie ChatAI..."
+# 
 # #-#-#-#-#  biglinux-settings.pot (biglinux-settings)  #-#-#-#-#
 # 
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_usability_page.py, line: 206
@@ -552,6 +560,44 @@ msgid "This is a plugin to use generative AI in painting and image editing workf
 msgstr ""
 "To jest wtyczka do używania generatywnej sztucznej inteligencji w procesach malarskich i edycji "
 "obrazów bezpośrednio w Krita."
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/ai_page.py, line: 46
+msgid "ChatAI"
+msgstr "ChatAI"
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/ai_page.py, line: 47
+msgid "A variety of chats like Plasmoid for your KDE Plasma desktop."
+msgstr "Różnorodność czatów, takich jak Plasmoid, dla twojego pulpitu KDE Plasma."
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/ai_page.py, line: 59
+msgid "ChatAI Requirements"
+msgstr "Wymagania ChatAI"
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/ai_page.py, line: 60
+msgid "This resource requires at least 16 GB of RAM and is not recommended for legacy computers."
+msgstr "Ten zasób wymaga co najmniej 16 GB pamięci RAM i nie jest zalecany dla starszych komputerów."
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/ai_page.py, line: 63
+msgid "Accept"
+msgstr "Akceptuj"
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/ai_page.py, line: 90
+msgid "Restart Plasma Shell"
+msgstr "Uruchom ponownie powłokę Plasma"
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/ai_page.py, line: 91
+msgid "To apply changes, it is recommended to restart Plasma Shell. Do you want to restart it now?"
+msgstr ""
+"Aby zastosować zmiany, zaleca się ponowne uruchomienie Plasma Shell. Czy chcesz teraz go ponownie "
+"uruchomić?"
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_usability_page.py, line: 165
+msgid "No"
+msgstr "Nie"
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_usability_page.py, line: 166
+msgid "Yes"
+msgstr "Tak"
 # 
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings/ai_page.py, line: 59
 msgid "Disable Krita AI"
@@ -782,11 +828,3 @@ msgid "To apply the changes, the KWin window manager needs to be restarted. Do y
 msgstr ""
 "Aby zastosować zmiany, menedżer okien KWin musi zostać ponownie uruchomiony. Czy chcesz go teraz "
 "uruchomić ponownie?"
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_usability_page.py, line: 165
-msgid "No"
-msgstr "Nie"
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_usability_page.py, line: 166
-msgid "Yes"
-msgstr "Tak"

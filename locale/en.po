@@ -295,6 +295,7 @@ msgstr "JamesDSP daemon is not currently running. Would you like to start it?"
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings/ai/krita_ai_dialog.py, line: 61
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings/ai/krita_ai_dialog.py, line: 115
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings/ai_page.py, line: 62
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/ai_page.py, line: 128
 msgid "Cancel"
 msgstr "Cancel"
 
@@ -477,14 +478,20 @@ msgid "Details"
 msgstr "Details"
 
 #
+# #-#-#-#-#  biglinux-settings.pot (biglinux-settings)  #-#-#-#-#
+#
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings/ai/krita_ai_dialog.py, line: 53
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/ai/chatai_dialog.py, line: 40
 msgid "Show Details"
 msgstr "Show Details"
 
 #
 # #-#-#-#-#  biglinux-settings.pot (biglinux-settings)  #-#-#-#-#
 #
+# #-#-#-#-#  biglinux-settings.pot (biglinux-settings)  #-#-#-#-#
+#
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings/ai/krita_ai_dialog.py, line: 65
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/ai/chatai_dialog.py, line: 55
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings/devices/jamesdsp_dialog.py, line: 70
 msgid "Close"
 msgstr "Close"
@@ -520,14 +527,30 @@ msgid "Installing..."
 msgstr "Installing..."
 
 #
+# #-#-#-#-#  biglinux-settings.pot (biglinux-settings)  #-#-#-#-#
+#
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings/ai/krita_ai_dialog.py, line: 172
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/ai/chatai_dialog.py, line: 100
 msgid "Installation Complete!"
 msgstr "Installation Complete!"
 
 #
+# #-#-#-#-#  biglinux-settings.pot (biglinux-settings)  #-#-#-#-#
+#
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings/ai/krita_ai_dialog.py, line: 178
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/ai/chatai_dialog.py, line: 106
 msgid "Installation Failed."
 msgstr "Installation Failed."
+
+#
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/ai/chatai_dialog.py, line: 17
+msgid "ChatAI Installation"
+msgstr "ChatAI Installation"
+
+#
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/ai/chatai_dialog.py, line: 28
+msgid "Installing ChatAI..."
+msgstr "Installing ChatAI..."
 
 #
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings/base_page.py, line: 100
@@ -716,22 +739,22 @@ msgid "Libreoffice"
 msgstr "Libreoffice"
 
 #
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/ai_page.py, line: 28
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/ai_page.py, line: 29
 msgid "Artificial Intelligence"
 msgstr "Artificial Intelligence"
 
 #
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/ai_page.py, line: 30
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/ai_page.py, line: 31
 msgid "AI settings and tools"
 msgstr "AI settings and tools"
 
 #
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/ai_page.py, line: 36
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/ai_page.py, line: 37
 msgid "Generative AI for Krita"
 msgstr "Generative AI for Krita"
 
 #
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/ai_page.py, line: 37
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/ai_page.py, line: 38
 msgid ""
 "This is a plugin to use generative AI in painting and image editing "
 "workflows directly in Krita."
@@ -740,22 +763,81 @@ msgstr ""
 "workflows directly in Krita."
 
 #
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/ai_page.py, line: 46
+msgid "ChatAI"
+msgstr "ChatAI"
+
+#
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/ai_page.py, line: 47
+msgid "A variety of chats like Plasmoid for your KDE Plasma desktop."
+msgstr "A variety of chats like Plasmoid for your KDE Plasma desktop."
+
+#
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings/ai_page.py, line: 59
+msgid "ChatAI Requirements"
+msgstr "ChatAI Requirements"
+
+#
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/ai_page.py, line: 60
+msgid ""
+"This resource requires at least 16 GB of RAM and is not recommended for "
+"legacy computers."
+msgstr ""
+"This resource requires at least 16 GB of RAM and is not recommended for "
+"legacy computers."
+
+#
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/ai_page.py, line: 63
+msgid "Accept"
+msgstr "Accept"
+
+#
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/ai_page.py, line: 90
+msgid "Restart Plasma Shell"
+msgstr "Restart Plasma Shell"
+
+#
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/ai_page.py, line: 91
+msgid ""
+"To apply changes, it is recommended to restart Plasma Shell. Do you want to "
+"restart it now?"
+msgstr ""
+"To apply changes, it is recommended to restart Plasma Shell. Do you want to "
+"restart it now?"
+
+#
+# #-#-#-#-#  biglinux-settings.pot (biglinux-settings)  #-#-#-#-#
+#
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/ai_page.py, line: 93
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_usability_page.py, line: 165
+msgid "No"
+msgstr "No"
+
+#
+# #-#-#-#-#  biglinux-settings.pot (biglinux-settings)  #-#-#-#-#
+#
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/ai_page.py, line: 94
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_usability_page.py, line: 166
+msgid "Yes"
+msgstr "Yes"
+
+#
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/ai_page.py, line: 125
 msgid "Disable Krita AI"
 msgstr "Disable Krita AI"
 
 #
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/ai_page.py, line: 60
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/ai_page.py, line: 126
 msgid "How do you want to disable/remove the plugin?"
 msgstr "How do you want to disable/remove the plugin?"
 
 #
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/ai_page.py, line: 63
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/ai_page.py, line: 129
 msgid "Disable Only"
 msgstr "Disable Only"
 
 #
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/ai_page.py, line: 64
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/ai_page.py, line: 130
 msgid "Remove Krita & Data"
 msgstr "Remove Krita & Data"
 
@@ -1024,13 +1106,3 @@ msgid ""
 msgstr ""
 "To apply the changes, the KWin window manager needs to be restarted. Do you "
 "want to restart it now?"
-
-#
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_usability_page.py, line: 165
-msgid "No"
-msgstr "No"
-
-#
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_usability_page.py, line: 166
-msgid "Yes"
-msgstr "Yes"

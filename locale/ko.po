@@ -370,6 +370,14 @@ msgstr "설치 완료!"
 msgid "Installation Failed."
 msgstr "설치 실패."
 # 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/ai/chatai_dialog.py, line: 17
+msgid "ChatAI Installation"
+msgstr "ChatAI 설치"
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/ai/chatai_dialog.py, line: 28
+msgid "Installing ChatAI..."
+msgstr "ChatAI 설치 중..."
+# 
 # #-#-#-#-#  biglinux-settings.pot (biglinux-settings)  #-#-#-#-#
 # 
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_usability_page.py, line: 206
@@ -550,6 +558,42 @@ msgstr "크리타를 위한 생성적 AI"
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings/ai_page.py, line: 37
 msgid "This is a plugin to use generative AI in painting and image editing workflows directly in Krita."
 msgstr "이것은 Krita에서 직접 생성적 AI를 사용하여 그림 및 이미지 편집 작업 흐름에 사용하는 플러그인입니다."
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/ai_page.py, line: 46
+msgid "ChatAI"
+msgstr "챗AI"
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/ai_page.py, line: 47
+msgid "A variety of chats like Plasmoid for your KDE Plasma desktop."
+msgstr "KDE Plasma 데스크탑을 위한 Plasmoid와 같은 다양한 채팅."
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/ai_page.py, line: 59
+msgid "ChatAI Requirements"
+msgstr "ChatAI 요구 사항"
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/ai_page.py, line: 60
+msgid "This resource requires at least 16 GB of RAM and is not recommended for legacy computers."
+msgstr "이 리소스는 최소 16GB의 RAM이 필요하며 구형 컴퓨터에는 권장되지 않습니다."
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/ai_page.py, line: 63
+msgid "Accept"
+msgstr "수락하다"
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/ai_page.py, line: 90
+msgid "Restart Plasma Shell"
+msgstr "플라즈마 셸 재시작"
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/ai_page.py, line: 91
+msgid "To apply changes, it is recommended to restart Plasma Shell. Do you want to restart it now?"
+msgstr "변경 사항을 적용하려면 Plasma Shell을 다시 시작하는 것이 좋습니다. 지금 다시 시작하시겠습니까?"
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_usability_page.py, line: 165
+msgid "No"
+msgstr "아니요"
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_usability_page.py, line: 166
+msgid "Yes"
+msgstr ""
 # 
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings/ai_page.py, line: 59
 msgid "Disable Krita AI"
@@ -774,11 +818,3 @@ msgstr "KWin을 재시작하시겠습니까?"
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_usability_page.py, line: 163
 msgid "To apply the changes, the KWin window manager needs to be restarted. Do you want to restart it now?"
 msgstr "변경 사항을 적용하려면 KWin 창 관리자 를 다시 시작해야 합니다. 지금 다시 시작하시겠습니까?"
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_usability_page.py, line: 165
-msgid "No"
-msgstr "아니요"
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_usability_page.py, line: 166
-msgid "Yes"
-msgstr ""
