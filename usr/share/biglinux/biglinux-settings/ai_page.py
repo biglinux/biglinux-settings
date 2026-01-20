@@ -18,6 +18,7 @@ current_dir = os.path.dirname(os.path.abspath(__file__))
 sys.path.append(os.path.join(current_dir, 'ai'))
 
 from krita_ai_dialog import KritaAIDialog
+from chatai_dialog import ChatAIDialog
 
 class AIPage(BaseSettingsPage):
     def populate_content(self, content_box):
@@ -39,7 +40,72 @@ class AIPage(BaseSettingsPage):
             icon_name="krita"
         )
 
+        # ChatAI
+        self.chatai_switch = self.create_row_with_clickable_link(
+            group,
+            _("ChatAI"),
+            _("A variety of chats like Plasmoid for your KDE Plasma desktop."),
+            "chatai",
+            icon_name="utilities-terminal" # Placeholder icon, user didn't specify
+        )
+
     def on_switch_changed(self, switch, state):
+        if switch == self.chatai_switch:
+            script_path = self.switch_scripts.get(switch)
+            if state:
+                # Show Disclaimer Dialog
+                dialog = Adw.MessageDialog(
+                    transient_for=self.main_window,
+                    heading=_("ChatAI Requirements"),
+                    body=_("This resource requires at least 16 GB of RAM and is not recommended for legacy computers.")
+                )
+                dialog.add_response("cancel", _("Cancel"))
+                dialog.add_response("accept", _("Accept"))
+                
+                dialog.set_default_response("accept")
+                dialog.set_close_response("cancel")
+                
+                def on_disclaimer_response(dlg, response):
+                    if response == "accept":
+                        # Proceed to install
+                        install_dialog = ChatAIDialog(self.main_window, script_path, on_close_callback=lambda success: self.on_chatai_dialog_closed(switch, success))
+                        install_dialog.present()
+                    else:
+                        # Cancelled - Toggle switch back to OFF
+                        switch.handler_block_by_func(self.on_switch_changed)
+                        switch.set_active(False)
+                        switch.handler_unblock_by_func(self.on_switch_changed)
+
+                dialog.connect("response", on_disclaimer_response)
+                dialog.present()
+                return False
+                
+            else:
+                # Remove process
+                subprocess.run([script_path, "remove"])
+                
+                # Ask to restart Plasma Shell
+                dialog = Adw.MessageDialog(
+                    transient_for=self.main_window,
+                    heading=_("Restart Plasma Shell"),
+                    body=_("To apply changes, it is recommended to restart Plasma Shell. Do you want to restart it now?")
+                )
+                dialog.add_response("cancel", _("No"))
+                dialog.add_response("restart", _("Yes"))
+                
+                dialog.set_default_response("restart")
+                dialog.set_close_response("cancel")
+                
+                def on_restart_response(dlg, response):
+                    if response == "restart":
+                        # Execute restart command
+                        subprocess.run("killall plasmashell && plasmashell &", shell=True)
+                
+                dialog.connect("response", on_restart_response)
+                dialog.present()
+                
+                return False
+
         if switch == self.krita_ai_switch:
             if state:
                 # Install process
@@ -98,3 +164,9 @@ class AIPage(BaseSettingsPage):
         else:
              # Sync state?
             pass
+
+    def on_chatai_dialog_closed(self, switch, success):
+        if not success:
+            switch.handler_block_by_func(self.on_switch_changed)
+            switch.set_active(False)
+            switch.handler_unblock_by_func(self.on_switch_changed)
