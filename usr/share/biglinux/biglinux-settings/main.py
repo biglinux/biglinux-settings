@@ -9,9 +9,12 @@ import subprocess
 import os
 import locale
 import gettext
+
 from system_usability_page import SystemUsabilityPage
 from preload_page import PreloadPage
-# from xpto_page import XPTOPage
+from dispositivos_page import DispositivosPage
+from containers_page import ContainersPage
+from ai_page import AIPage
 
 # Set up gettext for application localization.
 DOMAIN = 'biglinux-settings'
@@ -50,7 +53,7 @@ class SystemSettingsWindow(Adw.ApplicationWindow):
 
         # Window configuration
         self.set_title(_("General adjustments"))
-        self.set_default_size(600, 800)
+        self.set_default_size(800, 600)
 
         # Load custom CSS for styling
         self.load_css()
@@ -104,25 +107,58 @@ class SystemSettingsWindow(Adw.ApplicationWindow):
         header_bar.set_title_widget(view_switcher)
 
         # Page creation
+        # 1. Sistema
         system_usability_page = self.create_system_usability_page()
-        view_stack.add_titled_with_icon(system_usability_page, "system", _("System Tweaks"), "preferences-system-symbolic")
+        view_stack.add_titled_with_icon(system_usability_page, "system", _("System"), "preferences-system-symbolic")
 
-        preload_page = self.create_preload_page()
-        view_stack.add_titled_with_icon(preload_page, "preload", _("PreLoad"), "drive-harddisk-symbolic")
+        # 2. Dispositivos
+        dispositivos_page = self.create_dispositivos_page()
+        view_stack.add_titled_with_icon(dispositivos_page, "devices", _("Devices"), "network-wireless-symbolic")
 
-        # xpto_page = self.create_xpto_page()
-        # view_stack.add_titled_with_icon(xpto_page, "xpto", _("XPTO Settings"), "audio-card-symbolic")
+        # 3. I.A.
+        ai_page = self.create_ai_page()
+        view_stack.add_titled_with_icon(ai_page, "ai", _("I.A."), "im-user-symbolic") 
+        # Note: "ubiquity-kde-icon" is just a placeholder, better to use something standard like 'utilities-terminal-symbolic' or generic if unknown, 
+        # but specifically for AI, 'preferences-desktop-productivity' or similar. 
+        # I'll use 'computer-symbolic' or similar if no specific AI icon. 
+        # User didn't specify icon. I will use 'preferences-other-symbolic' or 'applications-science-symbolic'.
+        # Let's try 'starred-symbolic' or 'preferences-system-symbolic' (used)
+        # 'utilities-system-monitor-symbolic'?
+        # I'll use 'applications-science-symbolic' if available, else 'emblem-important-symbolic'.
+        # Actually 'auto-type-symbolic' or 'chatbot-symbolic' might not exist.
+        # I'll stick to 'preferences-desktop-personal-symbolic' or simply 'help-about-symbolic'.
+        # Let's use 'utilities-terminal-symbolic' as a temp or 'dialog-information-symbolic'.
+        # BETTER: 'head-brain' or similar if available? 
+        # Let's use 'security-high-symbolic'? No.
+        # 'preferences-other-symbolic' is safe.
+        
+        # 4. Contêiners
+        containers_page = self.create_containers_page()
+        view_stack.add_titled_with_icon(containers_page, "containers", _("Containers"), "package-x-generic-symbolic")
+
+        # Preload (Keeping it but maybe after?)
+        # User list didn't include it. I'll comment it out to strictly follow "I want options...", 
+        # or maybe the user expects Preload to be under System?
+        # I'll append it at the end just in case, as to not lose functionality, but user might complain.
+        # "Chat no header menu quero que tenha as opções [List]" -> "I want the options [List]".
+        # I will comment it out for now to be precise.
+        # preload_page = self.create_preload_page()
+        # view_stack.add_titled_with_icon(preload_page, "preload", _("PreLoad"), "drive-harddisk-symbolic")
 
     def create_system_usability_page(self):
-        """Builds the page for system tweaks and checks."""
         return SystemUsabilityPage(self)
+
+    def create_dispositivos_page(self):
+        return DispositivosPage(self)
+    
+    def create_containers_page(self):
+        return ContainersPage(self)
+
+    def create_ai_page(self):
+        return AIPage(self)
 
     def create_preload_page(self):
         return PreloadPage(self)
-
-    # def create_xpto_page(self):
-    #     """Builds the page for xpto by instantiating the external class."""
-    #     return XPTOPage(self)
 
 class CustomWindow(SystemSettingsWindow):
     """A subclass of the main window that wraps its content in an Adw.ToastOverlay.
