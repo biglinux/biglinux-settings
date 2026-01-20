@@ -115,64 +115,256 @@ msgstr "Valige mälus käivitamise ajal laaditavaid programme."
 msgid "Usabilidade"
 msgstr "Kasutatavus"
 # 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 52
-msgid "General adjustments"
-msgstr "Üldised seadistused"
+# #-#-#-#-#  biglinux-settings.pot (biglinux-settings)  #-#-#-#-#
 # 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 108
-msgid "System Tweaks"
-msgstr "Süsteemi kohandused"
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/dispositivos_page.py, line: 25
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 116
+msgid "Devices"
+msgstr "Seadmed"
 # 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 111
-msgid "PreLoad"
-msgstr "Eelkoormus"
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/dispositivos_page.py, line: 27
+msgid "Manage physical devices"
+msgstr "Haldage füüsilisi seadmeid"
 # 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/preload_page.py, line: 103
-msgid "Preload"
-msgstr "Eelkoormus"
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_usability_page.py, line: 190
+msgid "Wifi"
+msgstr "Wifi"
 # 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/preload_page.py, line: 105
-msgid "Preload applications into memory to open them faster."
-msgstr "Laadi rakendused mällu, et neid kiiremini avada."
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_usability_page.py, line: 191
+msgid "Wifi On"
+msgstr "Wifi sisse"
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_usability_page.py, line: 197
+msgid "Bluetooth"
+msgstr "Bluetooth"
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_usability_page.py, line: 198
+msgid "Bluetooth On."
+msgstr "Bluetooth sisse."
 # 
 # #-#-#-#-#  biglinux-settings.pot (biglinux-settings)  #-#-#-#-#
 # 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_usability_page.py, line: 111
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/preload_page.py, line: 112
-msgid "Reload all statuses"
-msgstr "Laadi kõik olekud uuesti"
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/dispositivos_page.py, line: 77
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/devices/jamesdsp_dialog.py, line: 155
+msgid "JamesDSP"
+msgstr "JamesDSP"
 # 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/preload_page.py, line: 120
-msgid "Firefox"
-msgstr "Firefox"
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/dispositivos_page.py, line: 84
+msgid "Advanced audio effects processor that improves sound quality."
+msgstr "Täpne heliefektide töötleja, mis parandab helikvaliteeti."
 # 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/preload_page.py, line: 126
-msgid "Librewolf"
-msgstr "Librewolf"
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/dispositivos_page.py, line: 140
+msgid "Error starting JamesDSP daemon"
+msgstr "Viga JamesDSP deemonit käivitamisel"
 # 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/preload_page.py, line: 126
-msgid "Brave"
-msgstr "Brave"
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/dispositivos_page.py, line: 145
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/dispositivos_page.py, line: 171
+msgid "JamesDSP Not Running"
+msgstr "JamesDSP ei tööta"
 # 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/preload_page.py, line: 132
-msgid "Chrome"
-msgstr "Chrome"
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/dispositivos_page.py, line: 146
+msgid "JamesDSP daemon is not currently running. Would you like to start it?"
+msgstr "JamesDSP deemon ei tööta praegu. Kas soovite selle käivitada?"
 # 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/preload_page.py, line: 138
-msgid "Chromium"
-msgstr "Kroomium"
+# #-#-#-#-#  biglinux-settings.pot (biglinux-settings)  #-#-#-#-#
 # 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/preload_page.py, line: 144
-msgid "Palemoon"
-msgstr "Palemoon"
+# #-#-#-#-#  biglinux-settings.pot (biglinux-settings)  #-#-#-#-#
 # 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/preload_page.py, line: 150
-msgid "Opera"
-msgstr "Opera"
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/dispositivos_page.py, line: 148
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/dispositivos_page.py, line: 304
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/dispositivos_page.py, line: 400
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/ai/krita_ai_dialog.py, line: 61
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/ai/krita_ai_dialog.py, line: 115
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/ai_page.py, line: 62
+msgid "Cancel"
+msgstr "Tühista"
 # 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/preload_page.py, line: 156
-msgid "Libreoffice"
-msgstr "LibreOffice"
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/dispositivos_page.py, line: 149
+msgid "Start JamesDSP"
+msgstr "Käivita JamesDSP"
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/dispositivos_page.py, line: 172
+msgid "JamesDSP daemon is not currently running. Would you like to start it first?"
+msgstr "JamesDSP deemon ei tööta praegu. Kas soovite selle esmalt käivitada?"
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/dispositivos_page.py, line: 174
+msgid "No, Turn Off Switch"
+msgstr "Ei, lülita välja lüliti"
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/dispositivos_page.py, line: 175
+msgid "Yes, Start JamesDSP"
+msgstr "Jah, käivita JamesDSP"
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/dispositivos_page.py, line: 247
+msgid "JamesDSP Installed"
+msgstr "JamesDSP installitud"
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/dispositivos_page.py, line: 248
+msgid ""
+"JamesDSP has been successfully installed.\n"
+"\n"
+"Would you like to open the application interface now to configure it?\n"
+"(You can also configure it later via the presets list)"
+msgstr ""
+"JamesDSP on edukalt installitud.\n"
+"\n"
+"Kas soovite rakenduse liidest nüüd avada, et seda konfigureerida?\n"
+"(Saate seda konfigureerida ka hiljem eelmääratlemise nimekirja kaudu)"
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/dispositivos_page.py, line: 250
+msgid "No, Show Presets"
+msgstr "Ei, näita eelmääratletud seadeid."
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/dispositivos_page.py, line: 251
+msgid "Yes, Open App"
+msgstr "Jah, Ava rakendust"
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/dispositivos_page.py, line: 301
+msgid "Disable JamesDSP"
+msgstr "Keela JamesDSP"
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/dispositivos_page.py, line: 302
+msgid ""
+"Choose how to disable JamesDSP:\n"
+"\n"
+"• Just Disable: Sets master_enable=false (keeps installed)\n"
+"• Remove Completely: Uninstalls package and deletes all configuration files"
+msgstr ""
+"Vali, kuidas JamesDSP keelata:\n"
+"\n"
+"• Lihtsalt keelata: Seab master_enable=false (hoiab installitud)\n"
+"• Täielikult eemaldada: Eemaldab paketi ja kustutab kõik konfiguratsioonifailid"
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/dispositivos_page.py, line: 305
+msgid "Just Disable"
+msgstr "Lihtsalt keelake"
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/dispositivos_page.py, line: 306
+msgid "Remove Completely"
+msgstr "Eemalda täielikult"
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/dispositivos_page.py, line: 382
+msgid "JamesDSP package removed"
+msgstr "JamesDSP pakett eemaldatud"
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/dispositivos_page.py, line: 397
+msgid "Removal Failed"
+msgstr "Eemaldamine ebaõnnestus"
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/dispositivos_page.py, line: 398
+msgid ""
+"JamesDSP package is still installed.\n"
+"\n"
+"The removal process may have been cancelled or failed.\n"
+"Would you like to try again?"
+msgstr ""
+"JamesDSP pakett on endiselt installitud.\n"
+"\n"
+"Eemaldamise protsess võis olla tühistatud või ebaõnnestunud.\n"
+"Kas soovite proovida uuesti?"
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/dispositivos_page.py, line: 401
+msgid "Try Again"
+msgstr "Proovi uuesti"
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/dispositivos_page.py, line: 424
+msgid "Remove Configuration Files?"
+msgstr "Eemalda konfiguratsioonifailid?"
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/dispositivos_page.py, line: 425
+msgid ""
+"JamesDSP package has been removed.\n"
+"\n"
+"Would you like to also delete all configuration files and presets located in:\n"
+"\n"
+"• ~/.config/jamesdsp\n"
+"• ~/.local/share/jamesdsp"
+msgstr ""
+"JamesDSP pakett on eemaldatud.\n"
+"\n"
+"Kas soovite ka kustutada kõik konfiguratsioonifailid ja eelseaded, mis asuvad:\n"
+"\n"
+"• ~/.config/jamesdsp\n"
+"• ~/.local/share/jamesdsp"
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/dispositivos_page.py, line: 427
+msgid "Keep Files"
+msgstr "Hoia failid"
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/dispositivos_page.py, line: 428
+msgid "Delete Files"
+msgstr "Kustuta failid"
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/dispositivos_page.py, line: 448
+msgid "JamesDSP removed completely"
+msgstr "JamesDSP eemaldati täielikult"
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/dispositivos_page.py, line: 454
+msgid "JamesDSP package removed (config files kept)"
+msgstr "JamesDSP pakett eemaldatud (konfiguratsioonifailid säilitatud)"
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/dispositivos_page.py, line: 479
+msgid "Error opening preset dialog"
+msgstr "Viga preset dialooge avamisel"
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 236
+msgid "Switch {} synchronized: {}"
+msgstr "Vaheta {} sünkroonitud: {}"
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/ai/krita_ai_dialog.py, line: 18
+msgid "Krita AI Installation"
+msgstr "Krita AI installimine"
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/ai/krita_ai_dialog.py, line: 29
+msgid "Preparing..."
+msgstr "Valmistamine..."
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/ai/krita_ai_dialog.py, line: 40
+msgid "Details"
+msgstr "Üksikasjad"
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/ai/krita_ai_dialog.py, line: 53
+msgid "Show Details"
+msgstr "Kuva üksikasju"
+# 
+# #-#-#-#-#  biglinux-settings.pot (biglinux-settings)  #-#-#-#-#
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/ai/krita_ai_dialog.py, line: 65
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/devices/jamesdsp_dialog.py, line: 70
+msgid "Close"
+msgstr "Sulge"
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/ai/krita_ai_dialog.py, line: 95
+msgid "Detecting GPU..."
+msgstr "GPU tuvastamine..."
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/ai/krita_ai_dialog.py, line: 112
+msgid "Choose Render Mode"
+msgstr "Vali renderdamise režiim"
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/ai/krita_ai_dialog.py, line: 113
+msgid "GPU detected: {}. How do you want to render?"
+msgstr "GPU tuvastatud: {}. Kuidas soovite renderdada?"
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/ai/krita_ai_dialog.py, line: 116
+msgid "CPU (Software)"
+msgstr "CPU (Tarkvara)"
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/ai/krita_ai_dialog.py, line: 117
+msgid "GPU (Recommended)"
+msgstr "GPU (Soovitatav)"
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/ai/krita_ai_dialog.py, line: 140
+msgid "Installing..."
+msgstr "Installeerimine..."
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/ai/krita_ai_dialog.py, line: 172
+msgid "Installation Complete!"
+msgstr "Installeerimine lõpetatud!"
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/ai/krita_ai_dialog.py, line: 178
+msgid "Installation Failed."
+msgstr "Installeerimine ebaõnnestus."
 # 
 # #-#-#-#-#  biglinux-settings.pot (biglinux-settings)  #-#-#-#-#
 # 
@@ -261,17 +453,6 @@ msgstr "Skript ebaõnnestus väljumiskoodiga: {}"
 msgid "Script timeout: {}"
 msgstr "Skripti aegumine: {}"
 # 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 236
-msgid "Switch {} synchronized: {}"
-msgstr "Vaheta {} sünkroonitud: {}"
-# 
-# #-#-#-#-#  biglinux-settings.pot (biglinux-settings)  #-#-#-#-#
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_usability_page.py, line: 327
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/preload_page.py, line: 278
-msgid "Indicator {} synchronized: {}"
-msgstr "Indikaator {} sünkroonitud: {}"
-# 
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 244
 msgid "Changing {} to {}"
 msgstr "Muudab {} {}-ks"
@@ -283,6 +464,213 @@ msgstr "VIGA: {} muutmine {}-ks ebaõnnestus"
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 274
 msgid "Failed to change setting: {}"
 msgstr "Seadete muutmine ebaõnnestus: {}"
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 52
+msgid "General adjustments"
+msgstr "Üldised seadistused"
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 108
+msgid "System"
+msgstr "Süsteem"
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 120
+msgid "I.A."
+msgstr "I.A."
+# 
+# #-#-#-#-#  biglinux-settings.pot (biglinux-settings)  #-#-#-#-#
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 137
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/containers_page.py, line: 18
+msgid "Containers"
+msgstr "Konteinerid"
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/preload_page.py, line: 103
+msgid "Preload"
+msgstr "Eelkoormus"
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/preload_page.py, line: 105
+msgid "Preload applications into memory to open them faster."
+msgstr "Laadi rakendused mällu, et neid kiiremini avada."
+# 
+# #-#-#-#-#  biglinux-settings.pot (biglinux-settings)  #-#-#-#-#
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_usability_page.py, line: 111
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/preload_page.py, line: 112
+msgid "Reload all statuses"
+msgstr "Laadi kõik olekud uuesti"
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/preload_page.py, line: 120
+msgid "Firefox"
+msgstr "Firefox"
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/preload_page.py, line: 126
+msgid "Brave"
+msgstr "Brave"
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/preload_page.py, line: 132
+msgid "Chrome"
+msgstr "Chrome"
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/preload_page.py, line: 138
+msgid "Chromium"
+msgstr "Kroomium"
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/preload_page.py, line: 126
+msgid "Librewolf"
+msgstr "Librewolf"
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/preload_page.py, line: 144
+msgid "Palemoon"
+msgstr "Palemoon"
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/preload_page.py, line: 150
+msgid "Opera"
+msgstr "Opera"
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/preload_page.py, line: 156
+msgid "Libreoffice"
+msgstr "LibreOffice"
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/ai_page.py, line: 28
+msgid "Artificial Intelligence"
+msgstr "Tehisintellekt"
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/ai_page.py, line: 30
+msgid "AI settings and tools"
+msgstr "AI seaded ja tööriistad"
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/ai_page.py, line: 36
+msgid "Generative AI for Krita"
+msgstr "Generatiivne tehisintellekt Krita jaoks"
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/ai_page.py, line: 37
+msgid "This is a plugin to use generative AI in painting and image editing workflows directly in Krita."
+msgstr ""
+"See on plugin, mis võimaldab kasutada generatiivset tehisintellekti maalimise ja pilditöötluse "
+"töövoogudes otse Kritas."
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/ai_page.py, line: 59
+msgid "Disable Krita AI"
+msgstr "Keela AI välja lülitada"
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/ai_page.py, line: 60
+msgid "How do you want to disable/remove the plugin?"
+msgstr "Kuidas soovite plugina keelata/eemaldada?"
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/ai_page.py, line: 63
+msgid "Disable Only"
+msgstr "Ainult keelata"
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/ai_page.py, line: 64
+msgid "Remove Krita & Data"
+msgstr "Eemalda Krita ja andmed"
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/containers_page.py, line: 20
+msgid "Manage container technologies"
+msgstr "Haldage konteineritehnoloogiaid"
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_usability_page.py, line: 204
+msgid "Docker"
+msgstr "Docker"
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_usability_page.py, line: 205
+msgid "Docker Enabled."
+msgstr "Docker on."
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/devices/jamesdsp_dialog.py, line: 18
+msgid "JamesDSP Preset Selector"
+msgstr "JamesDSP eelseade valija"
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/devices/jamesdsp_dialog.py, line: 34
+msgid "JamesDSP Presets"
+msgstr "JamesDSP eelseaded"
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/devices/jamesdsp_dialog.py, line: 64
+msgid "Refresh"
+msgstr "Värskenda"
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/devices/jamesdsp_dialog.py, line: 94
+msgid "Unknown error"
+msgstr "Tundmatu viga"
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/devices/jamesdsp_dialog.py, line: 96
+msgid "Error fetching presets"
+msgstr "Vigade hankimine ebaõnnestus"
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/devices/jamesdsp_dialog.py, line: 100
+msgid "❌ Error loading presets"
+msgstr "❌ Väär laadimine eelseadeid"
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/devices/jamesdsp_dialog.py, line: 116
+msgid "No presets found"
+msgstr "Eelhäälestusi ei leitud"
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/devices/jamesdsp_dialog.py, line: 118
+msgid "No presets available"
+msgstr "Eelhäälestusi pole saadaval"
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/devices/jamesdsp_dialog.py, line: 133
+msgid "Load {}"
+msgstr "Laadi {}"
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/devices/jamesdsp_dialog.py, line: 139
+msgid "✅ Found {} presets"
+msgstr "✅ Leiti leitud {} eelseade"
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/devices/jamesdsp_dialog.py, line: 142
+msgid "JamesDSP not installed"
+msgstr "JamesDSP ei ole installitud"
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/devices/jamesdsp_dialog.py, line: 144
+msgid "❌ JamesDSP not found"
+msgstr "❌ JamesDSP ei leitud"
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/devices/jamesdsp_dialog.py, line: 146
+msgid "Error: {}"
+msgstr "Viga: {}"
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/devices/jamesdsp_dialog.py, line: 148
+msgid "❌ Error"
+msgstr "❌ Viga"
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/devices/jamesdsp_dialog.py, line: 185
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/devices/jamesdsp_dialog.py, line: 198
+msgid "Error"
+msgstr "Viga"
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/devices/jamesdsp_dialog.py, line: 186
+msgid ""
+"Failed to load preset:\n"
+"\n"
+"{}"
+msgstr ""
+"Eelmine seadistus ei laadinud: \n"
+"\n"
+"{}"
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/devices/jamesdsp_dialog.py, line: 191
+msgid "Success"
+msgstr "Edukasuccess"
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/devices/jamesdsp_dialog.py, line: 192
+msgid "Preset '{}' loaded successfully!"
+msgstr "Eelseade '{}' laaditi edukalt!"
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/devices/jamesdsp_dialog.py, line: 194
+msgid "Preset '{}' loaded"
+msgstr "Eelseade '{}' laaditud"
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/devices/jamesdsp_dialog.py, line: 199
+msgid ""
+"Exception loading preset:\n"
+"{}"
+msgstr ""
+"Erand preset'i laadimisel:\n"
+"{}"
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/devices/jamesdsp_dialog.py, line: 208
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/devices/jamesdsp_dialog.py, line: 208
 # 
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 107
 msgid "Usability"
@@ -316,9 +704,17 @@ msgstr "SSH kuni järgmise taaskäivitamiseni"
 msgid "Enable remote access via ssh until next boot."
 msgstr "Luba kaugjuurdepääs ssh kaudu kuni järgmise taaskäivitamiseni."
 # 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 108
-msgid "System"
-msgstr "Süsteem"
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_usability_page.py, line: 72
+msgid "KZones"
+msgstr "KZones"
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_usability_page.py, line: 73
+msgid "Script for the KWin window manager of the KDE Plasma desktop environment"
+msgstr "KDE Plasma töölaua keskkonna KWin aknahalduri skript"
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_usability_page.py, line: 83
+msgid "This feature is only available for KDE Plasma."
+msgstr "See funktsioon on saadaval ainult KDE Plasma jaoks."
 # 
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 109
 msgid "General system settings"
@@ -373,26 +769,18 @@ msgstr ""
 "Keelab riistvara jälgijat ja TSC kellaallika süsteeme, säilitades kõrge jõudluse, kuid eemaldades "
 "automaatsed kaitsed süsteemi kokkuvarisemise eest."
 # 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_usability_page.py, line: 190
-msgid "Wifi"
-msgstr "Wifi"
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_usability_page.py, line: 162
+msgid "Restart KWin?"
+msgstr "KWin taaskäivita?"
 # 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_usability_page.py, line: 191
-msgid "Wifi On"
-msgstr "Wifi sisse"
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_usability_page.py, line: 163
+msgid "To apply the changes, the KWin window manager needs to be restarted. Do you want to restart it now?"
+msgstr "KChanges rakendamiseks tuleb KWin aknahaldur taaskäivitada. Kas soovite seda nüüd taaskäivitada?"
 # 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_usability_page.py, line: 197
-msgid "Bluetooth"
-msgstr "Bluetooth"
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_usability_page.py, line: 165
+msgid "No"
+msgstr "Ei"
 # 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_usability_page.py, line: 198
-msgid "Bluetooth On."
-msgstr "Bluetooth sisse."
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_usability_page.py, line: 204
-msgid "Docker"
-msgstr "Docker"
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_usability_page.py, line: 205
-msgid "Docker Enabled."
-msgstr "Docker on."
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_usability_page.py, line: 166
+msgid "Yes"
+msgstr "Jah"

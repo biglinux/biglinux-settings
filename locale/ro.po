@@ -113,64 +113,256 @@ msgstr "Alegeți programele care să fie încărcate în memorie în timpul boot
 msgid "Usabilidade"
 msgstr "Utilizabilitate"
 # 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 52
-msgid "General adjustments"
-msgstr "Ajustări generale"
+# #-#-#-#-#  biglinux-settings.pot (biglinux-settings)  #-#-#-#-#
 # 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 108
-msgid "System Tweaks"
-msgstr "Ajustări de sistem"
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/dispositivos_page.py, line: 25
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 116
+msgid "Devices"
+msgstr "Dispozitive"
 # 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 111
-msgid "PreLoad"
-msgstr "Preîncărcare"
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/dispositivos_page.py, line: 27
+msgid "Manage physical devices"
+msgstr "Gestionați dispozitivele fizice"
 # 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/preload_page.py, line: 103
-msgid "Preload"
-msgstr "Preîncărcare"
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_usability_page.py, line: 190
+msgid "Wifi"
+msgstr "Wifi"
 # 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/preload_page.py, line: 105
-msgid "Preload applications into memory to open them faster."
-msgstr "Preîncărcați aplicațiile în memorie pentru a le deschide mai repede."
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_usability_page.py, line: 191
+msgid "Wifi On"
+msgstr "Wifi Activat"
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_usability_page.py, line: 197
+msgid "Bluetooth"
+msgstr "Bluetooth"
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_usability_page.py, line: 198
+msgid "Bluetooth On."
+msgstr "Bluetooth Activat."
 # 
 # #-#-#-#-#  biglinux-settings.pot (biglinux-settings)  #-#-#-#-#
 # 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_usability_page.py, line: 111
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/preload_page.py, line: 112
-msgid "Reload all statuses"
-msgstr "Reîncarcă toate stările"
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/dispositivos_page.py, line: 77
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/devices/jamesdsp_dialog.py, line: 155
+msgid "JamesDSP"
+msgstr "JamesDSP"
 # 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/preload_page.py, line: 120
-msgid "Firefox"
-msgstr "Firefox"
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/dispositivos_page.py, line: 84
+msgid "Advanced audio effects processor that improves sound quality."
+msgstr "Procesor avansat de efecte audio care îmbunătățește calitatea sunetului."
 # 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/preload_page.py, line: 126
-msgid "Librewolf"
-msgstr "Librewolf"
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/dispositivos_page.py, line: 140
+msgid "Error starting JamesDSP daemon"
+msgstr "Eroare la pornirea daemon-ului JamesDSP"
 # 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/preload_page.py, line: 126
-msgid "Brave"
-msgstr "Brave"
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/dispositivos_page.py, line: 145
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/dispositivos_page.py, line: 171
+msgid "JamesDSP Not Running"
+msgstr "JamesDSP nu rulează"
 # 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/preload_page.py, line: 132
-msgid "Chrome"
-msgstr "Chrome"
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/dispositivos_page.py, line: 146
+msgid "JamesDSP daemon is not currently running. Would you like to start it?"
+msgstr "Demonul JamesDSP nu rulează în prezent. Doriți să-l porniți?"
 # 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/preload_page.py, line: 138
-msgid "Chromium"
-msgstr "Chromium"
+# #-#-#-#-#  biglinux-settings.pot (biglinux-settings)  #-#-#-#-#
 # 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/preload_page.py, line: 144
-msgid "Palemoon"
-msgstr "Palemoon"
+# #-#-#-#-#  biglinux-settings.pot (biglinux-settings)  #-#-#-#-#
 # 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/preload_page.py, line: 150
-msgid "Opera"
-msgstr "Opera"
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/dispositivos_page.py, line: 148
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/dispositivos_page.py, line: 304
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/dispositivos_page.py, line: 400
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/ai/krita_ai_dialog.py, line: 61
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/ai/krita_ai_dialog.py, line: 115
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/ai_page.py, line: 62
+msgid "Cancel"
+msgstr "Anulează"
 # 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/preload_page.py, line: 156
-msgid "Libreoffice"
-msgstr "LibreOffice"
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/dispositivos_page.py, line: 149
+msgid "Start JamesDSP"
+msgstr "Pornește JamesDSP"
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/dispositivos_page.py, line: 172
+msgid "JamesDSP daemon is not currently running. Would you like to start it first?"
+msgstr "Demonul JamesDSP nu rulează în prezent. Doriți să-l porniți mai întâi?"
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/dispositivos_page.py, line: 174
+msgid "No, Turn Off Switch"
+msgstr "Nu, Dezactivează comutatorul"
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/dispositivos_page.py, line: 175
+msgid "Yes, Start JamesDSP"
+msgstr "Da, Pornește JamesDSP"
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/dispositivos_page.py, line: 247
+msgid "JamesDSP Installed"
+msgstr "JamesDSP instalat"
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/dispositivos_page.py, line: 248
+msgid ""
+"JamesDSP has been successfully installed.\n"
+"\n"
+"Would you like to open the application interface now to configure it?\n"
+"(You can also configure it later via the presets list)"
+msgstr ""
+"JamesDSP a fost instalat cu succes.\n"
+"\n"
+"Doriți să deschideți acum interfața aplicației pentru a o configura?\n"
+"(Puteți, de asemenea, să o configurați mai târziu prin lista de presetări)"
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/dispositivos_page.py, line: 250
+msgid "No, Show Presets"
+msgstr "Nu, Arată Presetări"
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/dispositivos_page.py, line: 251
+msgid "Yes, Open App"
+msgstr "Da, deschide aplicația"
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/dispositivos_page.py, line: 301
+msgid "Disable JamesDSP"
+msgstr "Dezactivează JamesDSP"
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/dispositivos_page.py, line: 302
+msgid ""
+"Choose how to disable JamesDSP:\n"
+"\n"
+"• Just Disable: Sets master_enable=false (keeps installed)\n"
+"• Remove Completely: Uninstalls package and deletes all configuration files"
+msgstr ""
+"Alege cum să dezactivezi JamesDSP:\n"
+"\n"
+"• Doar Dezactivează: Setează master_enable=false (păstrează instalat)\n"
+"• Elimină Complet: Dezinstalează pachetul și șterge toate fișierele de configurare"
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/dispositivos_page.py, line: 305
+msgid "Just Disable"
+msgstr "Doar dezactivează"
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/dispositivos_page.py, line: 306
+msgid "Remove Completely"
+msgstr "Eliminare complet."
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/dispositivos_page.py, line: 382
+msgid "JamesDSP package removed"
+msgstr "Pachetul JamesDSP a fost eliminat."
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/dispositivos_page.py, line: 397
+msgid "Removal Failed"
+msgstr "Eliminare eșuată"
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/dispositivos_page.py, line: 398
+msgid ""
+"JamesDSP package is still installed.\n"
+"\n"
+"The removal process may have been cancelled or failed.\n"
+"Would you like to try again?"
+msgstr ""
+"Pachetul JamesDSP este încă instalat.\n"
+"\n"
+"Procesul de eliminare poate fi fost anulat sau a eșuat.\n"
+"Doriți să încercați din nou?"
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/dispositivos_page.py, line: 401
+msgid "Try Again"
+msgstr "Încercați din nou"
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/dispositivos_page.py, line: 424
+msgid "Remove Configuration Files?"
+msgstr "Eliminare fișierele de configurare?"
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/dispositivos_page.py, line: 425
+msgid ""
+"JamesDSP package has been removed.\n"
+"\n"
+"Would you like to also delete all configuration files and presets located in:\n"
+"\n"
+"• ~/.config/jamesdsp\n"
+"• ~/.local/share/jamesdsp"
+msgstr ""
+"Pachetul JamesDSP a fost eliminat.\n"
+"\n"
+"Doriți să ștergeți și toate fișierele de configurare și presetările situate în:\n"
+"\n"
+"• ~/.config/jamesdsp\n"
+"• ~/.local/share/jamesdsp"
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/dispositivos_page.py, line: 427
+msgid "Keep Files"
+msgstr "Păstrează fișierele"
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/dispositivos_page.py, line: 428
+msgid "Delete Files"
+msgstr "Șterge fișierele"
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/dispositivos_page.py, line: 448
+msgid "JamesDSP removed completely"
+msgstr "JamesDSP a fost eliminat complet."
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/dispositivos_page.py, line: 454
+msgid "JamesDSP package removed (config files kept)"
+msgstr "Pachetul JamesDSP a fost eliminat (fișierele de configurare păstrate)"
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/dispositivos_page.py, line: 479
+msgid "Error opening preset dialog"
+msgstr "Eroare la deschiderea dialogului presetărilor"
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 236
+msgid "Switch {} synchronized: {}"
+msgstr "Comutare {} sincronizat: {}"
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/ai/krita_ai_dialog.py, line: 18
+msgid "Krita AI Installation"
+msgstr "Instalare Krita AI"
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/ai/krita_ai_dialog.py, line: 29
+msgid "Preparing..."
+msgstr "Se pregătește..."
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/ai/krita_ai_dialog.py, line: 40
+msgid "Details"
+msgstr "Detalii"
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/ai/krita_ai_dialog.py, line: 53
+msgid "Show Details"
+msgstr "Arată detalii"
+# 
+# #-#-#-#-#  biglinux-settings.pot (biglinux-settings)  #-#-#-#-#
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/ai/krita_ai_dialog.py, line: 65
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/devices/jamesdsp_dialog.py, line: 70
+msgid "Close"
+msgstr "Închide"
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/ai/krita_ai_dialog.py, line: 95
+msgid "Detecting GPU..."
+msgstr "Detectarea GPU..."
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/ai/krita_ai_dialog.py, line: 112
+msgid "Choose Render Mode"
+msgstr "Alegeți modul de redare"
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/ai/krita_ai_dialog.py, line: 113
+msgid "GPU detected: {}. How do you want to render?"
+msgstr "GPU detectat: {}. Cum doriți să redați?"
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/ai/krita_ai_dialog.py, line: 116
+msgid "CPU (Software)"
+msgstr "CPU (Software)"
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/ai/krita_ai_dialog.py, line: 117
+msgid "GPU (Recommended)"
+msgstr "GPU (Recomandat)"
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/ai/krita_ai_dialog.py, line: 140
+msgid "Installing..."
+msgstr "Se instalează..."
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/ai/krita_ai_dialog.py, line: 172
+msgid "Installation Complete!"
+msgstr "Instalare completă!"
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/ai/krita_ai_dialog.py, line: 178
+msgid "Installation Failed."
+msgstr "Instalare eșuată."
 # 
 # #-#-#-#-#  biglinux-settings.pot (biglinux-settings)  #-#-#-#-#
 # 
@@ -259,17 +451,6 @@ msgstr "Scriptul a eșuat cu codul de ieșire: {}"
 msgid "Script timeout: {}"
 msgstr "Timp de așteptare a scriptului: {}"
 # 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 236
-msgid "Switch {} synchronized: {}"
-msgstr "Comutare {} sincronizat: {}"
-# 
-# #-#-#-#-#  biglinux-settings.pot (biglinux-settings)  #-#-#-#-#
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_usability_page.py, line: 327
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/preload_page.py, line: 278
-msgid "Indicator {} synchronized: {}"
-msgstr "Indicator {} sincronizat: {}"
-# 
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 244
 msgid "Changing {} to {}"
 msgstr "Schimbarea {} în {}"
@@ -281,6 +462,213 @@ msgstr "EROARE: Nu s-a reușit schimbarea {} în {}"
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 274
 msgid "Failed to change setting: {}"
 msgstr "Eșec la schimbarea setării: {}"
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 52
+msgid "General adjustments"
+msgstr "Ajustări generale"
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 108
+msgid "System"
+msgstr "Sistem"
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 120
+msgid "I.A."
+msgstr "I.A."
+# 
+# #-#-#-#-#  biglinux-settings.pot (biglinux-settings)  #-#-#-#-#
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 137
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/containers_page.py, line: 18
+msgid "Containers"
+msgstr "Containere"
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/preload_page.py, line: 103
+msgid "Preload"
+msgstr "Preîncărcare"
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/preload_page.py, line: 105
+msgid "Preload applications into memory to open them faster."
+msgstr "Preîncărcați aplicațiile în memorie pentru a le deschide mai repede."
+# 
+# #-#-#-#-#  biglinux-settings.pot (biglinux-settings)  #-#-#-#-#
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_usability_page.py, line: 111
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/preload_page.py, line: 112
+msgid "Reload all statuses"
+msgstr "Reîncarcă toate stările"
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/preload_page.py, line: 120
+msgid "Firefox"
+msgstr "Firefox"
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/preload_page.py, line: 126
+msgid "Brave"
+msgstr "Brave"
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/preload_page.py, line: 132
+msgid "Chrome"
+msgstr "Chrome"
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/preload_page.py, line: 138
+msgid "Chromium"
+msgstr "Chromium"
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/preload_page.py, line: 126
+msgid "Librewolf"
+msgstr "Librewolf"
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/preload_page.py, line: 144
+msgid "Palemoon"
+msgstr "Palemoon"
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/preload_page.py, line: 150
+msgid "Opera"
+msgstr "Opera"
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/preload_page.py, line: 156
+msgid "Libreoffice"
+msgstr "LibreOffice"
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/ai_page.py, line: 28
+msgid "Artificial Intelligence"
+msgstr "Inteligență Artificială"
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/ai_page.py, line: 30
+msgid "AI settings and tools"
+msgstr "Setări și instrumente AI"
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/ai_page.py, line: 36
+msgid "Generative AI for Krita"
+msgstr "AI generativ pentru Krita"
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/ai_page.py, line: 37
+msgid "This is a plugin to use generative AI in painting and image editing workflows directly in Krita."
+msgstr ""
+"Acesta este un plugin pentru a utiliza AI generativ în fluxurile de lucru de pictură și editare a "
+"imaginilor direct în Krita."
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/ai_page.py, line: 59
+msgid "Disable Krita AI"
+msgstr "Dezactivează AI-ul Krita"
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/ai_page.py, line: 60
+msgid "How do you want to disable/remove the plugin?"
+msgstr "Cum doriți să dezactivați/eliminați pluginul?"
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/ai_page.py, line: 63
+msgid "Disable Only"
+msgstr "Dezactivează doar"
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/ai_page.py, line: 64
+msgid "Remove Krita & Data"
+msgstr "Elimină Krita și Datele"
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/containers_page.py, line: 20
+msgid "Manage container technologies"
+msgstr "Gestionați tehnologiile containerelor"
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_usability_page.py, line: 204
+msgid "Docker"
+msgstr "Docker"
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_usability_page.py, line: 205
+msgid "Docker Enabled."
+msgstr "Docker activat."
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/devices/jamesdsp_dialog.py, line: 18
+msgid "JamesDSP Preset Selector"
+msgstr "Selector de preseturi JamesDSP"
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/devices/jamesdsp_dialog.py, line: 34
+msgid "JamesDSP Presets"
+msgstr "Preseturi JamesDSP"
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/devices/jamesdsp_dialog.py, line: 64
+msgid "Refresh"
+msgstr "Actualizează"
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/devices/jamesdsp_dialog.py, line: 94
+msgid "Unknown error"
+msgstr "Eroare necunoscută"
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/devices/jamesdsp_dialog.py, line: 96
+msgid "Error fetching presets"
+msgstr "Eroare la preluarea presetărilor"
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/devices/jamesdsp_dialog.py, line: 100
+msgid "❌ Error loading presets"
+msgstr "❌ Eroare la încărcarea presetărilor"
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/devices/jamesdsp_dialog.py, line: 116
+msgid "No presets found"
+msgstr "Nu au fost găsite presetări."
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/devices/jamesdsp_dialog.py, line: 118
+msgid "No presets available"
+msgstr "Nu sunt presetări disponibile"
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/devices/jamesdsp_dialog.py, line: 133
+msgid "Load {}"
+msgstr "Încărcați {}"
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/devices/jamesdsp_dialog.py, line: 139
+msgid "✅ Found {} presets"
+msgstr "✅ Am găsit {} preseturi"
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/devices/jamesdsp_dialog.py, line: 142
+msgid "JamesDSP not installed"
+msgstr "JamesDSP nu este instalat"
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/devices/jamesdsp_dialog.py, line: 144
+msgid "❌ JamesDSP not found"
+msgstr "❌ JamesDSP nu a fost găsit"
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/devices/jamesdsp_dialog.py, line: 146
+msgid "Error: {}"
+msgstr "Eroare: {}"
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/devices/jamesdsp_dialog.py, line: 148
+msgid "❌ Error"
+msgstr "❌ Eroare"
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/devices/jamesdsp_dialog.py, line: 185
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/devices/jamesdsp_dialog.py, line: 198
+msgid "Error"
+msgstr "Eroare"
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/devices/jamesdsp_dialog.py, line: 186
+msgid ""
+"Failed to load preset:\n"
+"\n"
+"{}"
+msgstr ""
+"Eșec la încărcarea presetului:\n"
+"\n"
+"{}"
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/devices/jamesdsp_dialog.py, line: 191
+msgid "Success"
+msgstr "Succes"
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/devices/jamesdsp_dialog.py, line: 192
+msgid "Preset '{}' loaded successfully!"
+msgstr "Preset '{}' încărcat cu succes!"
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/devices/jamesdsp_dialog.py, line: 194
+msgid "Preset '{}' loaded"
+msgstr "Preset '{}' încărcat"
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/devices/jamesdsp_dialog.py, line: 199
+msgid ""
+"Exception loading preset:\n"
+"{}"
+msgstr ""
+"Excepție la încărcarea presetului:\n"
+"{}"
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/devices/jamesdsp_dialog.py, line: 208
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/devices/jamesdsp_dialog.py, line: 208
 # 
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 107
 msgid "Usability"
@@ -314,9 +702,17 @@ msgstr "SSH până la următoarea repornire"
 msgid "Enable remote access via ssh until next boot."
 msgstr "Activați accesul la distanță prin ssh până la următoarea repornire."
 # 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 108
-msgid "System"
-msgstr "Sistem"
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_usability_page.py, line: 72
+msgid "KZones"
+msgstr "KZones"
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_usability_page.py, line: 73
+msgid "Script for the KWin window manager of the KDE Plasma desktop environment"
+msgstr "Script pentru managerul de feronier KWin al mediului desktop KDE Plasma"
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_usability_page.py, line: 83
+msgid "This feature is only available for KDE Plasma."
+msgstr "Această funcție este disponibilă doar pentru KDE Plasma."
 # 
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 109
 msgid "General system settings"
@@ -371,26 +767,20 @@ msgstr ""
 "Dezactivează sistemele de supraveghere hardware și sursa de ceas TSC, menținând performanțe "
 "ridicate, dar eliminând protecțiile automate împotriva blocărilor sistemului."
 # 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_usability_page.py, line: 190
-msgid "Wifi"
-msgstr "Wifi"
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_usability_page.py, line: 162
+msgid "Restart KWin?"
+msgstr "Repornire KWin?"
 # 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_usability_page.py, line: 191
-msgid "Wifi On"
-msgstr "Wifi Activat"
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_usability_page.py, line: 163
+msgid "To apply the changes, the KWin window manager needs to be restarted. Do you want to restart it now?"
+msgstr ""
+"Pentru a aplica modificările, managerul de feronici KWin trebuie să fie repornit. Doriți să-l "
+"reporniți acum?"
 # 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_usability_page.py, line: 197
-msgid "Bluetooth"
-msgstr "Bluetooth"
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_usability_page.py, line: 165
+msgid "No"
+msgstr ""
 # 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_usability_page.py, line: 198
-msgid "Bluetooth On."
-msgstr "Bluetooth Activat."
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_usability_page.py, line: 204
-msgid "Docker"
-msgstr "Docker"
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_usability_page.py, line: 205
-msgid "Docker Enabled."
-msgstr "Docker activat."
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_usability_page.py, line: 166
+msgid "Yes"
+msgstr ""
