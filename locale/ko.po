@@ -16,6 +16,20 @@ msgstr ""
 "X-Generator: attranslate\n"
 msgid "Applying, please wait..."
 msgstr "적용 중입니다. 잠시만 기다려 주십시오..."
+msgid "Installing $package"
+msgstr "$package 설치 중"
+msgid "Installing $package, Please wait..."
+msgstr "$package 설치 중, 잠시만 기다려 주십시오..."
+msgid "Removing $package"
+msgstr "$package 제거 중"
+msgid "Removing $package, Please wait..."
+msgstr "$package 제거 중, 잠시만 기다려 주세요..."
+msgid "$package installed successfully!"
+msgstr "$패키지가 성공적으로 설치되었습니다!"
+msgid "$package removed successfully!"
+msgstr "$패키지가 성공적으로 제거되었습니다!"
+msgid "An error occurred with $package."
+msgstr "$package에서 오류가 발생했습니다."
 msgid "GRUB updated successfully!"
 msgstr "GRUB이 성공적으로 업데이트되었습니다!"
 msgid "An error occurred while updating GRUB."
@@ -543,6 +557,58 @@ msgstr "오페라"
 msgid "Libreoffice"
 msgstr "리브레오피스"
 # 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/usability/gamemode_dialog.py, line: 25
+msgid "Game Mode Booster Activation"
+msgstr "게임 모드 부스터 활성화"
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/usability/gamemode_dialog.py, line: 25
+msgid "Game Mode Booster Deactivation"
+msgstr "게임 모드 부스터 비활성화"
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/usability/gamemode_dialog.py, line: 34
+msgid "Initializing..."
+msgstr "초기화 중..."
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/usability/gamemode_dialog.py, line: 58
+msgid "Optimizing system..."
+msgstr "시스템 최적화 중..."
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/usability/gamemode_dialog.py, line: 100
+msgid "Cancelled"
+msgstr "취소됨"
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/usability/gamemode_dialog.py, line: 101
+msgid "Authentication was cancelled."
+msgstr "인증이 취소되었습니다."
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/usability/gamemode_dialog.py, line: 106
+msgid "Failed"
+msgstr "실패했습니다."
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/usability/gamemode_dialog.py, line: 107
+msgid "Process failed. Check logs."
+msgstr "프로세스가 실패했습니다. 로그를 확인하세요."
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/usability/gamemode_dialog.py, line: 121
+msgid "Game Mode Enabled"
+msgstr "게임 모드 활성화됨"
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/usability/gamemode_dialog.py, line: 122
+msgid "System is optimized for gaming."
+msgstr "시스템은 게임을 위해 최적화되어 있습니다."
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/usability/gamemode_dialog.py, line: 125
+msgid "Game Mode Disabled"
+msgstr "게임 모드 비활성화"
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/usability/gamemode_dialog.py, line: 126
+msgid "System restored to desktop mode."
+msgstr "시스템이 데스크톱 모드로 복원되었습니다."
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/usability/gamemode_dialog.py, line: 174
+msgid "Configure Steam Games"
+msgstr "스팀 게임 구성"
+# 
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings/ai_page.py, line: 28
 msgid "Artificial Intelligence"
 msgstr "인공지능"
@@ -622,6 +688,78 @@ msgstr "도커"
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_usability_page.py, line: 205
 msgid "Docker Enabled."
 msgstr "도커 사용 가능."
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/containers_page.py, line: 35
+msgid "Nextcloud Plus"
+msgstr "넥스트클라우드 플러스"
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/containers_page.py, line: 36
+msgid "Nextcloud Plus container."
+msgstr "넥스트클라우드 플러스 컨테이너."
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/containers_page.py, line: 44
+msgid "AdGuard"
+msgstr "애드가드"
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/containers_page.py, line: 45
+msgid "AdGuard Home container."
+msgstr "AdGuard Home 컨테이너."
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/containers_page.py, line: 53
+msgid "Django"
+msgstr "장고"
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/containers_page.py, line: 54
+msgid "Django developer environment."
+msgstr "장고 개발 환경."
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/containers_page.py, line: 62
+msgid "Duplicati"
+msgstr "듀플리카티"
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/containers_page.py, line: 63
+msgid "Duplicati backup solution."
+msgstr "Duplicati 백업 솔루션."
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/containers_page.py, line: 71
+msgid "Jellyfin"
+msgstr "젤리핀"
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/containers_page.py, line: 72
+msgid "Jellyfin media server."
+msgstr "젤리핀 미디어 서버."
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/containers_page.py, line: 80
+msgid "LAMP"
+msgstr "램프"
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/containers_page.py, line: 81
+msgid "LAMP stack (Linux, Apache, MySQL, PHP)."
+msgstr "LAMP 스택 (리눅스, 아파치, MySQL, PHP)."
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/containers_page.py, line: 89
+msgid "Portainer Client"
+msgstr "포테이너 클라이언트"
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/containers_page.py, line: 90
+msgid "Portainer Agent for cluster management."
+msgstr "클러스터 관리를 위한 Portainer 에이전트."
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/containers_page.py, line: 98
+msgid "SWS"
+msgstr "SWS"
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/containers_page.py, line: 99
+msgid "SWS static web server."
+msgstr "SWS 정적 웹 서버."
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/containers_page.py, line: 107
+msgid "V2RayA"
+msgstr "V2RayA"
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/containers_page.py, line: 108
+msgid "V2RayA network tool."
+msgstr "V2RayA 네트워크 도구."
 # 
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings/devices/jamesdsp_dialog.py, line: 18
 msgid "JamesDSP Preset Selector"
@@ -762,6 +900,16 @@ msgstr "KDE Plasma 데스크탑 환경의 KWin 윈도우 관리자용 스크립�
 msgid "This feature is only available for KDE Plasma."
 msgstr "이 기능은 KDE Plasma에서만 사용할 수 있습니다."
 # 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_usability_page.py, line: 94
+msgid "Game Mode Booster"
+msgstr "게임 모드 부스터"
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_usability_page.py, line: 95
+msgid ""
+"Combination of daemon and library that allows games to request a set of optimizations be "
+"temporarily applied to the operating system and/or the game process."
+msgstr "운영 체제 및/또는 게임 프로세스에 일시적으로 적용될 최적화 집합을 게임이 요청할 수 있도록 하는 데몬과 라이브러리의 조합."
+# 
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 109
 msgid "General system settings"
 msgstr "일반 시스템 설정"
@@ -810,6 +958,46 @@ msgid ""
 "Disables the hardware watchdog and TSC clocksource systems, maintaining high performance but "
 "removing automatic protections against system crashes."
 msgstr "하드웨어 감시 타이머 및 TSC 클록 소스 시스템을 비활성화하여 높은 성능을 유지하지만 시스템 충돌에 대한 자동 보호 기능을 제거합니다."
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_usability_page.py, line: 178
+msgid "Game Mode Booster Instructions"
+msgstr "게임 모드 부스터 설명서"
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_usability_page.py, line: 179
+msgid "To ensure Game Mode works correctly, you may need to apply specific launch options for your games."
+msgstr "게임 모드가 올바르게 작동하도록 하려면 게임에 대해 특정 실행 옵션을 적용해야 할 수 있습니다."
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_usability_page.py, line: 187
+msgid "Launch Options"
+msgstr "실행 옵션"
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_usability_page.py, line: 188
+msgid "Copy and paste these commands into your game's launch options."
+msgstr "이 명령어를 게임의 실행 옵션에 복사하여 붙여넣으세요."
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_usability_page.py, line: 201
+msgid "Copy to clipboard"
+msgstr "클립보드에 복사"
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_usability_page.py, line: 207
+msgid "Run manually"
+msgstr "수동으로 실행하십시오."
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_usability_page.py, line: 208
+msgid "Steam Launch Options"
+msgstr "스팀 실행 옵션"
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_usability_page.py, line: 209
+msgid "Older Versions (< 1.3)"
+msgstr "이전 버전 (< 1.3)"
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_usability_page.py, line: 212
+msgid "Note: The backslash in $LIB is required for the older versions command."
+msgstr "참고: $LIB의 백슬래시는 이전 버전 명령에 필요합니다."
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_usability_page.py, line: 221
+msgid "Enable"
+msgstr "활성화"
 # 
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_usability_page.py, line: 162
 msgid "Restart KWin?"

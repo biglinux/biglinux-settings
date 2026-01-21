@@ -16,6 +16,20 @@ msgstr ""
 "X-Generator: attranslate\n"
 msgid "Applying, please wait..."
 msgstr "Alkalmazás folyamatban, kérjük várjon..."
+msgid "Installing $package"
+msgstr "$package telepítése"
+msgid "Installing $package, Please wait..."
+msgstr "A(z) $package telepítése, Kérem várjon..."
+msgid "Removing $package"
+msgstr "$package eltávolítása"
+msgid "Removing $package, Please wait..."
+msgstr "A(z) $package eltávolítása, Kérem várjon..."
+msgid "$package installed successfully!"
+msgstr "A(z) $package sikeresen telepítve!"
+msgid "$package removed successfully!"
+msgstr "A csomag sikeresen eltávolítva!"
+msgid "An error occurred with $package."
+msgstr "Hiba történt a $package használatakor."
 msgid "GRUB updated successfully!"
 msgstr "A GRUB sikeresen frissítve lett!"
 msgid "An error occurred while updating GRUB."
@@ -546,6 +560,58 @@ msgstr "Opera"
 msgid "Libreoffice"
 msgstr "LibreOffice"
 # 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/usability/gamemode_dialog.py, line: 25
+msgid "Game Mode Booster Activation"
+msgstr "Játék Mód Fokozó Aktiválás"
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/usability/gamemode_dialog.py, line: 25
+msgid "Game Mode Booster Deactivation"
+msgstr "Játék Mód Fokozó Kikapcsolása"
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/usability/gamemode_dialog.py, line: 34
+msgid "Initializing..."
+msgstr "Inicializálás..."
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/usability/gamemode_dialog.py, line: 58
+msgid "Optimizing system..."
+msgstr "Rendszer optimalizálása..."
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/usability/gamemode_dialog.py, line: 100
+msgid "Cancelled"
+msgstr "Törölve"
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/usability/gamemode_dialog.py, line: 101
+msgid "Authentication was cancelled."
+msgstr "A hitelesítés megszakadt."
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/usability/gamemode_dialog.py, line: 106
+msgid "Failed"
+msgstr "Sikertelen"
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/usability/gamemode_dialog.py, line: 107
+msgid "Process failed. Check logs."
+msgstr "A folyamat meghiúsult. Ellenőrizze a naplókat."
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/usability/gamemode_dialog.py, line: 121
+msgid "Game Mode Enabled"
+msgstr "Játék mód engedélyezve"
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/usability/gamemode_dialog.py, line: 122
+msgid "System is optimized for gaming."
+msgstr "A rendszer játékra optimalizált."
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/usability/gamemode_dialog.py, line: 125
+msgid "Game Mode Disabled"
+msgstr "Játék mód letiltva"
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/usability/gamemode_dialog.py, line: 126
+msgid "System restored to desktop mode."
+msgstr "A rendszer visszaállt az asztali módra."
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/usability/gamemode_dialog.py, line: 174
+msgid "Configure Steam Games"
+msgstr "Steam játékok konfigurálása"
+# 
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings/ai_page.py, line: 28
 msgid "Artificial Intelligence"
 msgstr "Mesterséges Intelligencia"
@@ -627,6 +693,78 @@ msgstr "Docker"
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_usability_page.py, line: 205
 msgid "Docker Enabled."
 msgstr "Docker engedélyezve."
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/containers_page.py, line: 35
+msgid "Nextcloud Plus"
+msgstr "Nextcloud Plus"
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/containers_page.py, line: 36
+msgid "Nextcloud Plus container."
+msgstr "Nextcloud Plus tartály."
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/containers_page.py, line: 44
+msgid "AdGuard"
+msgstr "AdGuard"
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/containers_page.py, line: 45
+msgid "AdGuard Home container."
+msgstr "AdGuard Home konténer."
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/containers_page.py, line: 53
+msgid "Django"
+msgstr "Django"
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/containers_page.py, line: 54
+msgid "Django developer environment."
+msgstr "Django fejlesztői környezet."
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/containers_page.py, line: 62
+msgid "Duplicati"
+msgstr "Duplicati"
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/containers_page.py, line: 63
+msgid "Duplicati backup solution."
+msgstr "Duplicati biztonsági megoldás."
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/containers_page.py, line: 71
+msgid "Jellyfin"
+msgstr "Jellyfin"
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/containers_page.py, line: 72
+msgid "Jellyfin media server."
+msgstr "Jellyfin média szerver."
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/containers_page.py, line: 80
+msgid "LAMP"
+msgstr "LAMP"
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/containers_page.py, line: 81
+msgid "LAMP stack (Linux, Apache, MySQL, PHP)."
+msgstr "LAMP verem (Linux, Apache, MySQL, PHP)."
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/containers_page.py, line: 89
+msgid "Portainer Client"
+msgstr "Portainer kliens"
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/containers_page.py, line: 90
+msgid "Portainer Agent for cluster management."
+msgstr "Portainer ügynök a klaszter kezeléséhez."
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/containers_page.py, line: 98
+msgid "SWS"
+msgstr "SWS"
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/containers_page.py, line: 99
+msgid "SWS static web server."
+msgstr "SWS statikus webkiszolgáló."
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/containers_page.py, line: 107
+msgid "V2RayA"
+msgstr "V2RayA"
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/containers_page.py, line: 108
+msgid "V2RayA network tool."
+msgstr "V2RayA hálózati eszköz."
 # 
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings/devices/jamesdsp_dialog.py, line: 18
 msgid "JamesDSP Preset Selector"
@@ -767,6 +905,18 @@ msgstr "A KDE Plasma asztali környezet KWin ablakkezelőjének scriptje"
 msgid "This feature is only available for KDE Plasma."
 msgstr "Ez a funkció csak a KDE Plasma számára érhető el."
 # 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_usability_page.py, line: 94
+msgid "Game Mode Booster"
+msgstr "Játék Mód Fokozó"
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_usability_page.py, line: 95
+msgid ""
+"Combination of daemon and library that allows games to request a set of optimizations be "
+"temporarily applied to the operating system and/or the game process."
+msgstr ""
+"A daemon és könyvtár kombinációja, amely lehetővé teszi a játékok számára, hogy kérjenek egy sor "
+"optimalizálás ideiglenes alkalmazását az operációs rendszeren és/vagy a játékfolyamaton."
+# 
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 109
 msgid "General system settings"
 msgstr "Általános rendszerbeállítások"
@@ -819,6 +969,48 @@ msgid ""
 msgstr ""
 "Letiltja a hardveres figyelő és a TSC óraforrás rendszereket, fenntartva a magas teljesítményt, de "
 "eltávolítva az automatikus védelmet a rendszerösszeomlások ellen."
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_usability_page.py, line: 178
+msgid "Game Mode Booster Instructions"
+msgstr "Játék Mód Növelő Utasítások"
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_usability_page.py, line: 179
+msgid "To ensure Game Mode works correctly, you may need to apply specific launch options for your games."
+msgstr ""
+"A Játék mód megfelelő működésének biztosítása érdekében szükség lehet arra, hogy speciális indítási "
+"lehetőségeket alkalmazzon a játékaihoz."
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_usability_page.py, line: 187
+msgid "Launch Options"
+msgstr "Indítási lehetőségek"
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_usability_page.py, line: 188
+msgid "Copy and paste these commands into your game's launch options."
+msgstr "Másold és illeszd be ezeket a parancsokat a játékod indítási beállításaiba."
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_usability_page.py, line: 201
+msgid "Copy to clipboard"
+msgstr "Másolás a vágólapra"
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_usability_page.py, line: 207
+msgid "Run manually"
+msgstr "Futtatás kézzel"
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_usability_page.py, line: 208
+msgid "Steam Launch Options"
+msgstr "Steam Indítási Beállítások"
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_usability_page.py, line: 209
+msgid "Older Versions (< 1.3)"
+msgstr "Régebbi verziók (< 1.3)"
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_usability_page.py, line: 212
+msgid "Note: The backslash in $LIB is required for the older versions command."
+msgstr "Megjegyzés: A $LIB-ben található visszaperjel szükséges az idősebb verziók parancsához."
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_usability_page.py, line: 221
+msgid "Enable"
+msgstr "Engedélyezés"
 # 
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_usability_page.py, line: 162
 msgid "Restart KWin?"

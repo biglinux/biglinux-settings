@@ -16,6 +16,20 @@ msgstr ""
 "X-Generator: attranslate\n"
 msgid "Applying, please wait..."
 msgstr "Aplikuji, prosím čekejte..."
+msgid "Installing $package"
+msgstr "Instalace $package"
+msgid "Installing $package, Please wait..."
+msgstr "Instaluji $package, prosím čekejte..."
+msgid "Removing $package"
+msgstr "Odstranění $package"
+msgid "Removing $package, Please wait..."
+msgstr "Odstraňuji $package, prosím čekejte..."
+msgid "$package installed successfully!"
+msgstr "$balíček byl úspěšně nainstalován!"
+msgid "$package removed successfully!"
+msgstr "$balíček byl úspěšně odstraněn!"
+msgid "An error occurred with $package."
+msgstr "Došlo k chybě s $package."
 msgid "GRUB updated successfully!"
 msgstr "GRUB byl úspěšně aktualizován!"
 msgid "An error occurred while updating GRUB."
@@ -539,6 +553,58 @@ msgstr "Opera"
 msgid "Libreoffice"
 msgstr "LibreOffice"
 # 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/usability/gamemode_dialog.py, line: 25
+msgid "Game Mode Booster Activation"
+msgstr "Aktivace herního režimu Booster"
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/usability/gamemode_dialog.py, line: 25
+msgid "Game Mode Booster Deactivation"
+msgstr "Deaktivace herního režimu booster"
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/usability/gamemode_dialog.py, line: 34
+msgid "Initializing..."
+msgstr "Inicializace..."
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/usability/gamemode_dialog.py, line: 58
+msgid "Optimizing system..."
+msgstr "Optimalizace systému..."
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/usability/gamemode_dialog.py, line: 100
+msgid "Cancelled"
+msgstr "Zrušeno"
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/usability/gamemode_dialog.py, line: 101
+msgid "Authentication was cancelled."
+msgstr "Ověření bylo zrušeno."
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/usability/gamemode_dialog.py, line: 106
+msgid "Failed"
+msgstr "Selhalo"
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/usability/gamemode_dialog.py, line: 107
+msgid "Process failed. Check logs."
+msgstr "Zpracování selhalo. Zkontrolujte protokoly."
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/usability/gamemode_dialog.py, line: 121
+msgid "Game Mode Enabled"
+msgstr "Režim hry povolen"
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/usability/gamemode_dialog.py, line: 122
+msgid "System is optimized for gaming."
+msgstr "Systém je optimalizován pro hraní her."
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/usability/gamemode_dialog.py, line: 125
+msgid "Game Mode Disabled"
+msgstr "Herní režim zakázán"
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/usability/gamemode_dialog.py, line: 126
+msgid "System restored to desktop mode."
+msgstr "Systém byl obnoven do režimu plochy."
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/usability/gamemode_dialog.py, line: 174
+msgid "Configure Steam Games"
+msgstr "Nastavit hry na Steamu"
+# 
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings/ai_page.py, line: 28
 msgid "Artificial Intelligence"
 msgstr "Umělá inteligence"
@@ -618,6 +684,78 @@ msgstr "Docker"
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_usability_page.py, line: 205
 msgid "Docker Enabled."
 msgstr "Docker povolen."
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/containers_page.py, line: 35
+msgid "Nextcloud Plus"
+msgstr "Nextcloud Plus"
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/containers_page.py, line: 36
+msgid "Nextcloud Plus container."
+msgstr "Nextcloud Plus kontejner."
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/containers_page.py, line: 44
+msgid "AdGuard"
+msgstr "AdGuard"
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/containers_page.py, line: 45
+msgid "AdGuard Home container."
+msgstr "Kontejner AdGuard Home."
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/containers_page.py, line: 53
+msgid "Django"
+msgstr "Django"
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/containers_page.py, line: 54
+msgid "Django developer environment."
+msgstr "Vývojové prostředí Django."
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/containers_page.py, line: 62
+msgid "Duplicati"
+msgstr "Duplicati"
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/containers_page.py, line: 63
+msgid "Duplicati backup solution."
+msgstr "Zálohovací řešení Duplicati."
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/containers_page.py, line: 71
+msgid "Jellyfin"
+msgstr "Jellyfin"
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/containers_page.py, line: 72
+msgid "Jellyfin media server."
+msgstr "Jellyfin mediální server."
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/containers_page.py, line: 80
+msgid "LAMP"
+msgstr "LAMP"
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/containers_page.py, line: 81
+msgid "LAMP stack (Linux, Apache, MySQL, PHP)."
+msgstr "LAMP stack (Linux, Apache, MySQL, PHP)."
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/containers_page.py, line: 89
+msgid "Portainer Client"
+msgstr "Portainer Klient"
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/containers_page.py, line: 90
+msgid "Portainer Agent for cluster management."
+msgstr "Portainer Agent pro správu clusteru."
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/containers_page.py, line: 98
+msgid "SWS"
+msgstr "SWS"
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/containers_page.py, line: 99
+msgid "SWS static web server."
+msgstr "SWS statický webový server."
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/containers_page.py, line: 107
+msgid "V2RayA"
+msgstr "V2RayA"
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/containers_page.py, line: 108
+msgid "V2RayA network tool."
+msgstr "Nástroj pro síť V2RayA."
 # 
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings/devices/jamesdsp_dialog.py, line: 18
 msgid "JamesDSP Preset Selector"
@@ -718,6 +856,10 @@ msgstr ""
 # 
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings/devices/jamesdsp_dialog.py, line: 208
 # 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/devices/jamesdsp_dialog.py, line: 208
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/devices/jamesdsp_dialog.py, line: 208
+# 
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 107
 msgid "Usability"
 msgstr "Použitelnost"
@@ -761,6 +903,18 @@ msgstr "Skript pro správce oken KWin v desktopovém prostředí KDE Plasma"
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_usability_page.py, line: 83
 msgid "This feature is only available for KDE Plasma."
 msgstr "Tato funkce je k dispozici pouze pro KDE Plasma."
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_usability_page.py, line: 94
+msgid "Game Mode Booster"
+msgstr "Režim hry Booster"
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_usability_page.py, line: 95
+msgid ""
+"Combination of daemon and library that allows games to request a set of optimizations be "
+"temporarily applied to the operating system and/or the game process."
+msgstr ""
+"Kombinace démona a knihovny, která umožňuje hrám požadovat, aby byla dočasně aplikována sada "
+"optimalizací na operační systém a/nebo proces hry."
 # 
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 109
 msgid "General system settings"
@@ -814,6 +968,48 @@ msgid ""
 msgstr ""
 "Deaktivuje systémy hardwarového watchdogu a hodinového zdroje TSC, udržuje vysoký výkon, ale "
 "odstraňuje automatické ochrany proti selhání systému."
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_usability_page.py, line: 178
+msgid "Game Mode Booster Instructions"
+msgstr "Pokyny pro zrychlení herního režimu"
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_usability_page.py, line: 179
+msgid "To ensure Game Mode works correctly, you may need to apply specific launch options for your games."
+msgstr ""
+"Aby bylo zajištěno správné fungování herního režimu, možná budete muset použít specifické možnosti "
+"spuštění pro vaše hry."
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_usability_page.py, line: 187
+msgid "Launch Options"
+msgstr "Možnosti spuštění"
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_usability_page.py, line: 188
+msgid "Copy and paste these commands into your game's launch options."
+msgstr "Zkopírujte a vložte tyto příkazy do možností spuštění vaší hry."
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_usability_page.py, line: 201
+msgid "Copy to clipboard"
+msgstr "Kopírovat do schránky"
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_usability_page.py, line: 207
+msgid "Run manually"
+msgstr "Spusťte ručně"
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_usability_page.py, line: 208
+msgid "Steam Launch Options"
+msgstr "Možnosti spuštění Steam"
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_usability_page.py, line: 209
+msgid "Older Versions (< 1.3)"
+msgstr "Starší verze (< 1.3)"
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_usability_page.py, line: 212
+msgid "Note: The backslash in $LIB is required for the older versions command."
+msgstr "Poznámka: Zpětné lomítko v $LIB je vyžadováno pro příkaz starších verzí."
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_usability_page.py, line: 221
+msgid "Enable"
+msgstr "Povolit"
 # 
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_usability_page.py, line: 162
 msgid "Restart KWin?"

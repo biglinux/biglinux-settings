@@ -16,6 +16,20 @@ msgstr ""
 "X-Generator: attranslate\n"
 msgid "Applying, please wait..."
 msgstr "Aplikowanie, proszę czekać..."
+msgid "Installing $package"
+msgstr "Instalowanie $package"
+msgid "Installing $package, Please wait..."
+msgstr "Instalowanie $package, Proszę czekać..."
+msgid "Removing $package"
+msgstr "Usuwanie $package"
+msgid "Removing $package, Please wait..."
+msgstr "Usuwanie $package, Proszę czekać..."
+msgid "$package installed successfully!"
+msgstr "$pakiet zainstalowany pomyślnie!"
+msgid "$package removed successfully!"
+msgstr "$pakiet usunięty pomyślnie!"
+msgid "An error occurred with $package."
+msgstr "Wystąpił błąd z $package."
 msgid "GRUB updated successfully!"
 msgstr "GRUB został pomyślnie zaktualizowany!"
 msgid "An error occurred while updating GRUB."
@@ -543,6 +557,58 @@ msgstr "Opera"
 msgid "Libreoffice"
 msgstr "LibreOffice"
 # 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/usability/gamemode_dialog.py, line: 25
+msgid "Game Mode Booster Activation"
+msgstr "Aktywacja trybu gry Booster"
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/usability/gamemode_dialog.py, line: 25
+msgid "Game Mode Booster Deactivation"
+msgstr "Dezaktywacja trybu gry booster"
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/usability/gamemode_dialog.py, line: 34
+msgid "Initializing..."
+msgstr "Inicjowanie..."
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/usability/gamemode_dialog.py, line: 58
+msgid "Optimizing system..."
+msgstr "Optymalizacja systemu..."
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/usability/gamemode_dialog.py, line: 100
+msgid "Cancelled"
+msgstr "Anulowane"
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/usability/gamemode_dialog.py, line: 101
+msgid "Authentication was cancelled."
+msgstr "Autoryzacja została anulowana."
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/usability/gamemode_dialog.py, line: 106
+msgid "Failed"
+msgstr "Nie powiodło się"
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/usability/gamemode_dialog.py, line: 107
+msgid "Process failed. Check logs."
+msgstr "Proces nie powiódł się. Sprawdź dzienniki."
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/usability/gamemode_dialog.py, line: 121
+msgid "Game Mode Enabled"
+msgstr "Tryb gry włączony"
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/usability/gamemode_dialog.py, line: 122
+msgid "System is optimized for gaming."
+msgstr "System jest zoptymalizowany do gier."
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/usability/gamemode_dialog.py, line: 125
+msgid "Game Mode Disabled"
+msgstr "Tryb gry wyłączony"
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/usability/gamemode_dialog.py, line: 126
+msgid "System restored to desktop mode."
+msgstr "System przywrócony do trybu pulpitu."
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/usability/gamemode_dialog.py, line: 174
+msgid "Configure Steam Games"
+msgstr "Skonfiguruj gry Steam"
+# 
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings/ai_page.py, line: 28
 msgid "Artificial Intelligence"
 msgstr "Sztuczna inteligencja"
@@ -626,6 +692,78 @@ msgstr "Docker"
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_usability_page.py, line: 205
 msgid "Docker Enabled."
 msgstr "Docker włączony."
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/containers_page.py, line: 35
+msgid "Nextcloud Plus"
+msgstr "Nextcloud Plus"
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/containers_page.py, line: 36
+msgid "Nextcloud Plus container."
+msgstr "Kontener Nextcloud Plus."
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/containers_page.py, line: 44
+msgid "AdGuard"
+msgstr "AdGuard"
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/containers_page.py, line: 45
+msgid "AdGuard Home container."
+msgstr "Kontener AdGuard Home."
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/containers_page.py, line: 53
+msgid "Django"
+msgstr "Django"
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/containers_page.py, line: 54
+msgid "Django developer environment."
+msgstr "Środowisko deweloperskie Django."
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/containers_page.py, line: 62
+msgid "Duplicati"
+msgstr "Duplicati"
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/containers_page.py, line: 63
+msgid "Duplicati backup solution."
+msgstr "Rozwiązanie kopii zapasowej Duplicati."
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/containers_page.py, line: 71
+msgid "Jellyfin"
+msgstr "Jellyfin"
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/containers_page.py, line: 72
+msgid "Jellyfin media server."
+msgstr "Serwer multimedialny Jellyfin."
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/containers_page.py, line: 80
+msgid "LAMP"
+msgstr "LAMP"
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/containers_page.py, line: 81
+msgid "LAMP stack (Linux, Apache, MySQL, PHP)."
+msgstr "Stos LAMP (Linux, Apache, MySQL, PHP)."
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/containers_page.py, line: 89
+msgid "Portainer Client"
+msgstr "Klient Portainer"
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/containers_page.py, line: 90
+msgid "Portainer Agent for cluster management."
+msgstr "Agent Portainera do zarządzania klastrem."
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/containers_page.py, line: 98
+msgid "SWS"
+msgstr "SWS"
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/containers_page.py, line: 99
+msgid "SWS static web server."
+msgstr "SWS statyczny serwer WWW."
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/containers_page.py, line: 107
+msgid "V2RayA"
+msgstr "V2RayA"
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/containers_page.py, line: 108
+msgid "V2RayA network tool."
+msgstr "Narzędzie sieciowe V2RayA."
 # 
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings/devices/jamesdsp_dialog.py, line: 18
 msgid "JamesDSP Preset Selector"
@@ -766,6 +904,18 @@ msgstr "Skrypt dla menedżera okien KWin w środowisku pulpitu KDE Plasma"
 msgid "This feature is only available for KDE Plasma."
 msgstr "Ta funkcja jest dostępna tylko dla KDE Plasma."
 # 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_usability_page.py, line: 94
+msgid "Game Mode Booster"
+msgstr "Tryb gry Booster"
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_usability_page.py, line: 95
+msgid ""
+"Combination of daemon and library that allows games to request a set of optimizations be "
+"temporarily applied to the operating system and/or the game process."
+msgstr ""
+"Kombinacja demona i biblioteki, która pozwala grom żądać tymczasowego zastosowania zestawu "
+"optymalizacji do systemu operacyjnego i/lub procesu gry."
+# 
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 109
 msgid "General system settings"
 msgstr "Ogólne ustawienia systemu"
@@ -818,6 +968,48 @@ msgid ""
 msgstr ""
 "Wyłącza systemy sprzętowego watchdog i źródła zegara TSC, utrzymując wysoką wydajność, ale usuwając "
 "automatyczne zabezpieczenia przed awariami systemu."
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_usability_page.py, line: 178
+msgid "Game Mode Booster Instructions"
+msgstr "Instrukcje dotyczące Wzmacniacza Trybu Gry"
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_usability_page.py, line: 179
+msgid "To ensure Game Mode works correctly, you may need to apply specific launch options for your games."
+msgstr ""
+"Aby upewnić się, że Tryb gry działa poprawnie, może być konieczne zastosowanie określonych opcji "
+"uruchamiania dla twoich gier."
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_usability_page.py, line: 187
+msgid "Launch Options"
+msgstr "Opcje uruchamiania"
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_usability_page.py, line: 188
+msgid "Copy and paste these commands into your game's launch options."
+msgstr "Skopiuj i wklej te polecenia do opcji uruchamiania swojej gry."
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_usability_page.py, line: 201
+msgid "Copy to clipboard"
+msgstr "Skopiuj do schowka"
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_usability_page.py, line: 207
+msgid "Run manually"
+msgstr "Uruchom ręcznie"
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_usability_page.py, line: 208
+msgid "Steam Launch Options"
+msgstr "Opcje uruchamiania Steam"
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_usability_page.py, line: 209
+msgid "Older Versions (< 1.3)"
+msgstr "Starsze wersje (< 1.3)"
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_usability_page.py, line: 212
+msgid "Note: The backslash in $LIB is required for the older versions command."
+msgstr "Uwaga: Backslash w $LIB jest wymagany dla polecenia starszych wersji."
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_usability_page.py, line: 221
+msgid "Enable"
+msgstr "Włącz"
 # 
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_usability_page.py, line: 162
 msgid "Restart KWin?"

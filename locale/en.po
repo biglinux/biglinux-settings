@@ -19,6 +19,34 @@ msgid "Applying, please wait..."
 msgstr "Applying, please wait..."
 
 #
+msgid "Installing $package"
+msgstr "Installing $package"
+
+#
+msgid "Installing $package, Please wait..."
+msgstr "Installing $package, Please wait..."
+
+#
+msgid "Removing $package"
+msgstr "Removing $package"
+
+#
+msgid "Removing $package, Please wait..."
+msgstr "Removing $package, Please wait..."
+
+#
+msgid "$package installed successfully!"
+msgstr "$package installed successfully!"
+
+#
+msgid "$package removed successfully!"
+msgstr "$package removed successfully!"
+
+#
+msgid "An error occurred with $package."
+msgstr "An error occurred with $package."
+
+#
 msgid "GRUB updated successfully!"
 msgstr "GRUB updated successfully!"
 
@@ -289,6 +317,8 @@ msgstr "JamesDSP daemon is not currently running. Would you like to start it?"
 #
 # #-#-#-#-#  biglinux-settings.pot (biglinux-settings)  #-#-#-#-#
 #
+# #-#-#-#-#  biglinux-settings.pot (biglinux-settings)  #-#-#-#-#
+#
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings/dispositivos_page.py, line: 148
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings/dispositivos_page.py, line: 304
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings/dispositivos_page.py, line: 400
@@ -296,6 +326,7 @@ msgstr "JamesDSP daemon is not currently running. Would you like to start it?"
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings/ai/krita_ai_dialog.py, line: 115
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings/ai_page.py, line: 62
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings/ai_page.py, line: 128
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_usability_page.py, line: 220
 msgid "Cancel"
 msgstr "Cancel"
 
@@ -490,8 +521,11 @@ msgstr "Show Details"
 #
 # #-#-#-#-#  biglinux-settings.pot (biglinux-settings)  #-#-#-#-#
 #
+# #-#-#-#-#  biglinux-settings.pot (biglinux-settings)  #-#-#-#-#
+#
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings/ai/krita_ai_dialog.py, line: 65
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings/ai/chatai_dialog.py, line: 55
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/usability/gamemode_dialog.py, line: 180
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings/devices/jamesdsp_dialog.py, line: 70
 msgid "Close"
 msgstr "Close"
@@ -637,7 +671,7 @@ msgstr "Script timeout: {}"
 # #-#-#-#-#  biglinux-settings.pot (biglinux-settings)  #-#-#-#-#
 #
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings/base_page.py, line: 204
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_usability_page.py, line: 141
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_usability_page.py, line: 156
 msgid "Changing {} to {}"
 msgstr "Changing {} to {}"
 
@@ -650,7 +684,7 @@ msgstr "ERROR: Failed to change {} to {}"
 # #-#-#-#-#  biglinux-settings.pot (biglinux-settings)  #-#-#-#-#
 #
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings/base_page.py, line: 214
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_usability_page.py, line: 150
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_usability_page.py, line: 165
 msgid "Failed to change setting: {}"
 msgstr "Failed to change setting: {}"
 
@@ -663,7 +697,7 @@ msgstr "General adjustments"
 # #-#-#-#-#  biglinux-settings.pot (biglinux-settings)  #-#-#-#-#
 #
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 112
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_usability_page.py, line: 88
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_usability_page.py, line: 103
 msgid "System"
 msgstr "System"
 
@@ -694,7 +728,7 @@ msgstr "Preload applications into memory to open them faster."
 # #-#-#-#-#  biglinux-settings.pot (biglinux-settings)  #-#-#-#-#
 #
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings/preload_page.py, line: 33
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_usability_page.py, line: 39
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_usability_page.py, line: 45
 msgid "Reload all statuses"
 msgstr "Reload all statuses"
 
@@ -737,6 +771,71 @@ msgstr "Opera"
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings/preload_page.py, line: 97
 msgid "Libreoffice"
 msgstr "Libreoffice"
+
+#
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/usability/gamemode_dialog.py, line: 25
+msgid "Game Mode Booster Activation"
+msgstr "Game Mode Booster Activation"
+
+#
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/usability/gamemode_dialog.py, line: 25
+msgid "Game Mode Booster Deactivation"
+msgstr "Game Mode Booster Deactivation"
+
+#
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/usability/gamemode_dialog.py, line: 34
+msgid "Initializing..."
+msgstr "Initializing..."
+
+#
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/usability/gamemode_dialog.py, line: 58
+msgid "Optimizing system..."
+msgstr "Optimizing system..."
+
+#
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/usability/gamemode_dialog.py, line: 100
+msgid "Cancelled"
+msgstr "Cancelled"
+
+#
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/usability/gamemode_dialog.py, line: 101
+msgid "Authentication was cancelled."
+msgstr "Authentication was cancelled."
+
+#
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/usability/gamemode_dialog.py, line: 106
+msgid "Failed"
+msgstr "Failed"
+
+#
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/usability/gamemode_dialog.py, line: 107
+msgid "Process failed. Check logs."
+msgstr "Process failed. Check logs."
+
+#
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/usability/gamemode_dialog.py, line: 121
+msgid "Game Mode Enabled"
+msgstr "Game Mode Enabled"
+
+#
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/usability/gamemode_dialog.py, line: 122
+msgid "System is optimized for gaming."
+msgstr "System is optimized for gaming."
+
+#
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/usability/gamemode_dialog.py, line: 125
+msgid "Game Mode Disabled"
+msgstr "Game Mode Disabled"
+
+#
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/usability/gamemode_dialog.py, line: 126
+msgid "System restored to desktop mode."
+msgstr "System restored to desktop mode."
+
+#
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/usability/gamemode_dialog.py, line: 174
+msgid "Configure Steam Games"
+msgstr "Configure Steam Games"
 
 #
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings/ai_page.py, line: 29
@@ -809,7 +908,7 @@ msgstr ""
 # #-#-#-#-#  biglinux-settings.pot (biglinux-settings)  #-#-#-#-#
 #
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings/ai_page.py, line: 93
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_usability_page.py, line: 165
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_usability_page.py, line: 279
 msgid "No"
 msgstr "No"
 
@@ -817,7 +916,7 @@ msgstr "No"
 # #-#-#-#-#  biglinux-settings.pot (biglinux-settings)  #-#-#-#-#
 #
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings/ai_page.py, line: 94
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_usability_page.py, line: 166
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_usability_page.py, line: 280
 msgid "Yes"
 msgstr "Yes"
 
@@ -855,6 +954,96 @@ msgstr "Docker"
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings/containers_page.py, line: 27
 msgid "Docker Enabled."
 msgstr "Docker Enabled."
+
+#
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/containers_page.py, line: 35
+msgid "Nextcloud Plus"
+msgstr "Nextcloud Plus"
+
+#
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/containers_page.py, line: 36
+msgid "Nextcloud Plus container."
+msgstr "Nextcloud Plus container."
+
+#
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/containers_page.py, line: 44
+msgid "AdGuard"
+msgstr "AdGuard"
+
+#
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/containers_page.py, line: 45
+msgid "AdGuard Home container."
+msgstr "AdGuard Home container."
+
+#
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/containers_page.py, line: 53
+msgid "Django"
+msgstr "Django"
+
+#
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/containers_page.py, line: 54
+msgid "Django developer environment."
+msgstr "Django developer environment."
+
+#
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/containers_page.py, line: 62
+msgid "Duplicati"
+msgstr "Duplicati"
+
+#
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/containers_page.py, line: 63
+msgid "Duplicati backup solution."
+msgstr "Duplicati backup solution."
+
+#
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/containers_page.py, line: 71
+msgid "Jellyfin"
+msgstr "Jellyfin"
+
+#
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/containers_page.py, line: 72
+msgid "Jellyfin media server."
+msgstr "Jellyfin media server."
+
+#
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/containers_page.py, line: 80
+msgid "LAMP"
+msgstr "LAMP"
+
+#
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/containers_page.py, line: 81
+msgid "LAMP stack (Linux, Apache, MySQL, PHP)."
+msgstr "LAMP stack (Linux, Apache, MySQL, PHP)."
+
+#
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/containers_page.py, line: 89
+msgid "Portainer Client"
+msgstr "Portainer Client"
+
+#
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/containers_page.py, line: 90
+msgid "Portainer Agent for cluster management."
+msgstr "Portainer Agent for cluster management."
+
+#
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/containers_page.py, line: 98
+msgid "SWS"
+msgstr "SWS"
+
+#
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/containers_page.py, line: 99
+msgid "SWS static web server."
+msgstr "SWS static web server."
+
+#
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/containers_page.py, line: 107
+msgid "V2RayA"
+msgstr "V2RayA"
+
+#
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/containers_page.py, line: 108
+msgid "V2RayA network tool."
+msgstr "V2RayA network tool."
 
 #
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings/devices/jamesdsp_dialog.py, line: 18
@@ -973,104 +1162,120 @@ msgid "OK"
 msgstr "OK"
 
 #
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_usability_page.py, line: 30
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_usability_page.py, line: 36
 msgid "Usability"
 msgstr "Usability"
 
 #
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_usability_page.py, line: 32
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_usability_page.py, line: 38
 msgid "User and Visual system settings"
 msgstr "User and Visual system settings"
 
 #
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_usability_page.py, line: 47
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_usability_page.py, line: 53
 msgid "NumLock"
 msgstr "NumLock"
 
 #
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_usability_page.py, line: 48
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_usability_page.py, line: 54
 msgid "Initial NumLock state. Ignored if autologin is enabled."
 msgstr "Initial NumLock state. Ignored if autologin is enabled."
 
 #
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_usability_page.py, line: 55
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_usability_page.py, line: 61
 msgid "Window Button On Left Side"
 msgstr "Window Button On Left Side"
 
 #
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_usability_page.py, line: 56
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_usability_page.py, line: 62
 msgid "Maximize, minimize, and close buttons on the left side of the window."
 msgstr "Maximize, minimize, and close buttons on the left side of the window."
 
 #
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_usability_page.py, line: 63
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_usability_page.py, line: 69
 msgid "SSH until next reboot"
 msgstr "SSH until next reboot"
 
 #
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_usability_page.py, line: 64
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_usability_page.py, line: 70
 msgid "Enable remote access via ssh until next boot."
 msgstr "Enable remote access via ssh until next boot."
 
 #
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_usability_page.py, line: 72
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_usability_page.py, line: 78
 msgid "KZones"
 msgstr "KZones"
 
 #
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_usability_page.py, line: 73
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_usability_page.py, line: 79
 msgid ""
 "Script for the KWin window manager of the KDE Plasma desktop environment"
 msgstr ""
 "Script for the KWin window manager of the KDE Plasma desktop environment"
 
 #
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_usability_page.py, line: 83
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_usability_page.py, line: 89
 msgid "This feature is only available for KDE Plasma."
 msgstr "This feature is only available for KDE Plasma."
 
 #
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_usability_page.py, line: 90
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_usability_page.py, line: 94
+msgid "Game Mode Booster"
+msgstr "Game Mode Booster"
+
+#
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_usability_page.py, line: 95
+msgid ""
+"Combination of daemon and library that allows games to request a set of "
+"optimizations be temporarily applied to the operating system and/or the game "
+"process."
+msgstr ""
+"Combination of daemon and library that allows games to request a set of "
+"optimizations be temporarily applied to the operating system and/or the game "
+"process."
+
+#
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_usability_page.py, line: 105
 msgid "General system settings"
 msgstr "General system settings"
 
 #
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_usability_page.py, line: 95
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_usability_page.py, line: 110
 msgid "SSH always on"
 msgstr "SSH always on"
 
 #
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_usability_page.py, line: 96
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_usability_page.py, line: 111
 msgid "Turn on ssh remote access at boot."
 msgstr "Turn on ssh remote access at boot."
 
 #
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_usability_page.py, line: 103
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_usability_page.py, line: 118
 msgid "Fast Grub"
 msgstr "Fast Grub"
 
 #
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_usability_page.py, line: 104
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_usability_page.py, line: 119
 msgid "Decreases grub display time."
 msgstr "Decreases grub display time."
 
 #
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_usability_page.py, line: 111
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_usability_page.py, line: 126
 msgid "Auto-mount Partitions"
 msgstr "Auto-mount Partitions"
 
 #
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_usability_page.py, line: 112
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_usability_page.py, line: 127
 msgid "Auto mount partitions in internal disks on boot."
 msgstr "Auto mount partitions in internal disks on boot."
 
 #
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_usability_page.py, line: 120
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_usability_page.py, line: 135
 msgid "Meltdown Mitigations off"
 msgstr "Meltdown Mitigations off"
 
 #
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_usability_page.py, line: 121
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_usability_page.py, line: 136
 #, python-brace-format
 msgid ""
 "Using mitigations=off will make your machine faster and less secure! For "
@@ -1080,12 +1285,12 @@ msgstr ""
 "more information see: <a href='{link}'>{link}</a>"
 
 #
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_usability_page.py, line: 128
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_usability_page.py, line: 143
 msgid "noWatchdog"
 msgstr "noWatchdog"
 
 #
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_usability_page.py, line: 129
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_usability_page.py, line: 144
 msgid ""
 "Disables the hardware watchdog and TSC clocksource systems, maintaining high "
 "performance but removing automatic protections against system crashes."
@@ -1094,12 +1299,67 @@ msgstr ""
 "performance but removing automatic protections against system crashes."
 
 #
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_usability_page.py, line: 162
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_usability_page.py, line: 178
+msgid "Game Mode Booster Instructions"
+msgstr "Game Mode Booster Instructions"
+
+#
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_usability_page.py, line: 179
+msgid ""
+"To ensure Game Mode works correctly, you may need to apply specific launch "
+"options for your games."
+msgstr ""
+"To ensure Game Mode works correctly, you may need to apply specific launch "
+"options for your games."
+
+#
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_usability_page.py, line: 187
+msgid "Launch Options"
+msgstr "Launch Options"
+
+#
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_usability_page.py, line: 188
+msgid "Copy and paste these commands into your game's launch options."
+msgstr "Copy and paste these commands into your game's launch options."
+
+#
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_usability_page.py, line: 201
+msgid "Copy to clipboard"
+msgstr "Copy to clipboard"
+
+#
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_usability_page.py, line: 207
+msgid "Run manually"
+msgstr "Run manually"
+
+#
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_usability_page.py, line: 208
+msgid "Steam Launch Options"
+msgstr "Steam Launch Options"
+
+#
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_usability_page.py, line: 209
+msgid "Older Versions (< 1.3)"
+msgstr "Older Versions (< 1.3)"
+
+#
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_usability_page.py, line: 212
+msgid "Note: The backslash in $LIB is required for the older versions command."
+msgstr ""
+"Note: The backslash in $LIB is required for the older versions command."
+
+#
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_usability_page.py, line: 221
+msgid "Enable"
+msgstr "Enable"
+
+#
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_usability_page.py, line: 276
 msgid "Restart KWin?"
 msgstr "Restart KWin?"
 
 #
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_usability_page.py, line: 163
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_usability_page.py, line: 277
 msgid ""
 "To apply the changes, the KWin window manager needs to be restarted. Do you "
 "want to restart it now?"
