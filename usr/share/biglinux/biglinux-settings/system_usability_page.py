@@ -3,7 +3,7 @@ import gi
 gi.require_version('Gtk', '4.0')
 gi.require_version('Adw', '1')
 
-from gi.repository import Gtk, Adw
+from gi.repository import Gtk, Adw, Gdk
 from base_page import BaseSettingsPage
 import gettext
 
@@ -17,6 +17,12 @@ _ = gettext.gettext
 
 import os
 import subprocess
+import sys
+
+# Add 'usability' folder to path for GameModeDialog
+current_dir = os.path.dirname(os.path.abspath(__file__))
+sys.path.append(os.path.join(current_dir, 'usability'))
+from gamemode_dialog import GameModeDialog
 
 class SystemUsabilityPage(BaseSettingsPage):
     """A self-contained page for managing System Tweaks."""
@@ -81,6 +87,15 @@ class SystemUsabilityPage(BaseSettingsPage):
         if not is_kde:
             self.kzones_switch.set_sensitive(False)
             self.kzones_switch.set_tooltip_text(_("This feature is only available for KDE Plasma."))
+
+        # Game Mode Booster
+        self.gamemode_switch = self.create_row_with_clickable_link(
+            group,
+            _("Game Mode Booster"),
+            _("Combination of daemon and library that allows games to request a set of optimizations be temporarily applied to the operating system and/or the game process."),
+            "biglinux_ultimate_booster",
+            icon_name="input-gaming"
+        )
 
     def system_group(self, parent):
         """Builds the 'System' preferences group."""
@@ -153,8 +168,107 @@ class SystemUsabilityPage(BaseSettingsPage):
                     self.show_restart_kwin_dialog()
                 
                 return True # We handled it
-        
+
+        if hasattr(self, 'gamemode_switch') and switch == self.gamemode_switch:
+            script_path = self.switch_scripts.get(switch)
+            if state:
+                # Enable: Show Disclaimer first
+                dialog = Adw.MessageDialog(
+                    transient_for=self.main_window,
+                    heading=_("Game Mode Booster Instructions"),
+                    body=_("To ensure Game Mode works correctly, you may need to apply specific launch options for your games.")
+                )
+
+                # Content Box
+                content_box = Gtk.Box(orientation=Gtk.Orientation.VERTICAL, spacing=12)
+                
+                # Instructions Group
+                group = Adw.PreferencesGroup()
+                group.set_title(_("Launch Options"))
+                group.set_description(_("Copy and paste these commands into your game's launch options."))
+                content_box.append(group)
+
+                # Helper to add command rows
+                def add_command_row(title, command, icon):
+                    row = Adw.ActionRow()
+                    row.set_title(title)
+                    row.set_subtitle(command)
+                    row.add_prefix(Gtk.Image.new_from_icon_name(icon))
+                    
+                    # Copy Button
+                    btn_copy = Gtk.Button(icon_name="edit-copy-symbolic")
+                    btn_copy.add_css_class("flat")
+                    btn_copy.set_tooltip_text(_("Copy to clipboard"))
+                    btn_copy.connect("clicked", lambda b: Gdk.Display.get_default().get_clipboard().set(command))
+                    
+                    row.add_suffix(btn_copy)
+                    group.add(row)
+
+                add_command_row(_("Run manually"), "gamemoderun ./game", "utilities-terminal-symbolic")
+                add_command_row(_("Steam Launch Options"), "gamemoderun %command%", "steam")
+                add_command_row(_("Older Versions (< 1.3)"), 'LD_PRELOAD="$LD_PRELOAD:/usr/$LIB/libgamemodeauto.so.0"', "application-legacy-symbolic")
+
+                # Note Label
+                note_label = Gtk.Label(label=_("Note: The backslash in $LIB is required for the older versions command."))
+                note_label.add_css_class("dim-label")
+                note_label.set_wrap(True)
+                note_label.set_halign(Gtk.Align.START)
+                content_box.append(note_label)
+
+                dialog.set_extra_child(content_box)
+
+                dialog.add_response("cancel", _("Cancel"))
+                dialog.add_response("enable", _("Enable"))
+                dialog.set_default_response("enable")
+                dialog.set_close_response("cancel")
+                
+                def on_disclaimer_response(dlg, response):
+                    if response == "enable":
+                        # Launch Progress Dialog to Enable
+                        progress_dlg = GameModeDialog(
+                            self.main_window, 
+                            script_path, 
+                            action="start",
+                            on_close_callback=lambda success: self.on_gamemode_dialog_closed(switch, success, True)
+                        )
+                        progress_dlg.present()
+                    else:
+                        # Cancelled
+                        switch.handler_block_by_func(self.on_switch_changed)
+                        switch.set_active(False)
+                        switch.handler_unblock_by_func(self.on_switch_changed)
+
+                dialog.connect("response", on_disclaimer_response)
+                # Expand width for better readabilty
+                dialog.set_body_use_markup(True) 
+                
+                # We need to present it
+                dialog.present()
+                return True
+            else:
+                # Disable: Just launch Progress Dialog
+                progress_dlg = GameModeDialog(
+                    self.main_window, 
+                    script_path, 
+                    action="stop",
+                    on_close_callback=lambda success: self.on_gamemode_dialog_closed(switch, success, False)
+                )
+                progress_dlg.present()
+                return True
+
         return super().on_switch_changed(switch, state)
+
+    def on_gamemode_dialog_closed(self, switch, success, target_state):
+        if not success:
+            # Revert switch if failed
+            switch.handler_block_by_func(self.on_switch_changed)
+            switch.set_active(not target_state)
+            switch.handler_unblock_by_func(self.on_switch_changed)
+        else:
+            # Success, switch is already in correct state visually
+            pass
+        
+            pass
 
     def show_restart_kwin_dialog(self):
         dialog = Adw.MessageDialog(
