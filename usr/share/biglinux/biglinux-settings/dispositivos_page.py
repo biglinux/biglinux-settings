@@ -46,6 +46,9 @@ class DispositivosPage(BaseSettingsPage):
         
         # JamesDSP - with custom handler
         self.JamesDSP_switch = self.create_jamesdsp_row(group)
+        
+        # Keyboard LED - with custom handler
+        self.keyboard_led_switch = self.create_keyboard_led_row(group)
     
     def create_jamesdsp_row(self, parent_group):
         """Create JamesDSP row with custom switch handling"""
@@ -103,6 +106,135 @@ class DispositivosPage(BaseSettingsPage):
         
         parent_group.add(row)
         return switch
+    
+    def create_keyboard_led_row(self, parent_group):
+        """Create Keyboard LED row with custom switch handling"""
+        row = Adw.PreferencesRow()
+        
+        main_box = Gtk.Box(
+            orientation=Gtk.Orientation.HORIZONTAL,
+            spacing=12,
+            margin_top=6,
+            margin_bottom=6,
+            margin_start=12,
+            margin_end=12
+        )
+        row.set_child(main_box)
+        
+        # Icon
+        icon_image = Gtk.Image.new_from_icon_name("keyboard-brightness-symbolic")
+        icon_image.set_pixel_size(32)
+        main_box.append(icon_image)
+        
+        # Title area
+        title_area = Gtk.Box(
+            orientation=Gtk.Orientation.VERTICAL,
+            hexpand=True,
+            valign=Gtk.Align.CENTER
+        )
+        main_box.append(title_area)
+        
+        title_label = Gtk.Label(xalign=0, label=_("Keyboard with LED"))
+        title_label.add_css_class("title-4")
+        title_area.append(title_label)
+        
+        subtitle_label = Gtk.Label(
+            xalign=0,
+            wrap=True,
+            label=_("If your keyboard has LED you can enable this feature to turn it on with the system.")
+        )
+        subtitle_label.add_css_class("caption")
+        subtitle_label.add_css_class("dim-label")
+        title_area.append(subtitle_label)
+        
+        # Switch
+        switch = Gtk.Switch(valign=Gtk.Align.CENTER)
+        main_box.append(switch)
+        
+        # Store reference for syncing
+        script_path = os.path.join("system", "keyboard_led.sh")
+        self.switch_scripts[switch] = script_path
+        
+        # Connect custom handler
+        switch.connect("state-set", self.on_keyboard_led_switch_changed)
+        
+        # Store reference for custom sync
+        self.keyboard_led_switch_ref = switch
+        
+        parent_group.add(row)
+        return switch
+    
+    def on_keyboard_led_switch_changed(self, switch, state):
+        """Custom handler for Keyboard LED switch"""
+        script_path = self.switch_scripts.get(switch)
+        
+        if state:
+            # Enabling - check if configured first
+            try:
+                result = subprocess.run(
+                    [script_path, "is_configured"],
+                    capture_output=True,
+                    text=True,
+                    timeout=5
+                )
+                is_configured = result.stdout.strip() == "yes"
+            except:
+                is_configured = False
+            
+            if not is_configured:
+                # Not configured - show configuration dialog
+                self.show_keyboard_led_config_dialog(switch, script_path)
+            else:
+                # Already configured - just enable
+                success = self.toggle_script_state(script_path, True)
+                if not success:
+                    switch.handler_block_by_func(self.on_keyboard_led_switch_changed)
+                    switch.set_active(False)
+                    switch.handler_unblock_by_func(self.on_keyboard_led_switch_changed)
+        else:
+            # Disabling
+            success = self.toggle_script_state(script_path, False)
+            if not success:
+                switch.handler_block_by_func(self.on_keyboard_led_switch_changed)
+                switch.set_active(True)
+                switch.handler_unblock_by_func(self.on_keyboard_led_switch_changed)
+        
+        return True  # Prevent default handler
+    
+    def show_keyboard_led_config_dialog(self, switch, script_path):
+        """Show the keyboard LED configuration dialog"""
+        try:
+            import sys
+            devices_path = os.path.join(
+                os.path.dirname(os.path.abspath(__file__)),
+                'devices'
+            )
+            if devices_path not in sys.path:
+                sys.path.insert(0, devices_path)
+            
+            from keyboard_led_dialog import KeyboardLEDDialog
+            
+            def on_complete(success):
+                if not success:
+                    # Revert switch
+                    switch.handler_block_by_func(self.on_keyboard_led_switch_changed)
+                    switch.set_active(False)
+                    switch.handler_unblock_by_func(self.on_keyboard_led_switch_changed)
+            
+            dialog = KeyboardLEDDialog(
+                self.main_window,
+                script_path,
+                on_complete_callback=on_complete
+            )
+            dialog.present(self.main_window)
+            
+        except Exception as e:
+            print(f"Error showing Keyboard LED dialog: {e}")
+            switch.handler_block_by_func(self.on_keyboard_led_switch_changed)
+            switch.set_active(False)
+            switch.handler_unblock_by_func(self.on_keyboard_led_switch_changed)
+            if hasattr(self.main_window, 'show_toast'):
+                self.main_window.show_toast(_("Error opening configuration dialog"))
     
     def on_jamesdsp_switch_changed(self, switch, state):
         """Custom handler for JamesDSP switch"""
@@ -479,7 +611,7 @@ class DispositivosPage(BaseSettingsPage):
                 self.main_window.show_toast(_("Error opening preset dialog"))
     
     def sync_all_switches(self):
-        """Override to handle JamesDSP switch with custom handler"""
+        """Override to handle custom switch handlers"""
         for switch, script_path in self.switch_scripts.items():
             row = switch.get_parent().get_parent()
             status, message = self.check_script_state(script_path)
@@ -487,6 +619,8 @@ class DispositivosPage(BaseSettingsPage):
             # Determine which handler to use
             if switch == self.jamesdsp_switch_ref:
                 handler = self.on_jamesdsp_switch_changed
+            elif hasattr(self, 'keyboard_led_switch_ref') and switch == self.keyboard_led_switch_ref:
+                handler = self.on_keyboard_led_switch_changed
             else:
                 handler = self.on_switch_changed
             
@@ -506,3 +640,4 @@ class DispositivosPage(BaseSettingsPage):
 
             switch.handler_unblock_by_func(handler)
             print(_("Switch {} synchronized: {}").format(os.path.basename(script_path), status))
+

@@ -89,6 +89,7 @@ class SystemUsabilityPage(BaseSettingsPage):
             self.kzones_switch.set_tooltip_text(_("This feature is only available for KDE Plasma."))
 
         # Game Mode Booster
+        # Game Mode Booster
         self.gamemode_switch = self.create_row_with_clickable_link(
             group,
             _("Game Mode Booster"),
@@ -96,6 +97,18 @@ class SystemUsabilityPage(BaseSettingsPage):
             "biglinux_ultimate_booster",
             icon_name="input-gaming"
         )
+        
+        # Info Button
+        self.gamemode_info_btn = Gtk.Button(icon_name="dialog-information-symbolic")
+        self.gamemode_info_btn.add_css_class("flat")
+        self.gamemode_info_btn.set_tooltip_text(_("Instructions"))
+        self.gamemode_info_btn.set_valign(Gtk.Align.CENTER)
+        self.gamemode_info_btn.set_visible(False)
+        
+        self.gamemode_switch.get_parent().append(self.gamemode_info_btn)
+        
+        self.gamemode_info_btn.connect("clicked", self.on_gamemode_info_clicked)
+        self.gamemode_switch.connect("notify::active", self.update_gamemode_info_visibility)
 
     def system_group(self, parent):
         """Builds the 'System' preferences group."""
@@ -173,77 +186,21 @@ class SystemUsabilityPage(BaseSettingsPage):
             script_path = self.switch_scripts.get(switch)
             if state:
                 # Enable: Show Disclaimer first
-                dialog = Adw.MessageDialog(
-                    transient_for=self.main_window,
-                    heading=_("Game Mode Booster Instructions"),
-                    body=_("To ensure Game Mode works correctly, you may need to apply specific launch options for your games.")
-                )
-
-                # Content Box
-                content_box = Gtk.Box(orientation=Gtk.Orientation.VERTICAL, spacing=12)
+                def on_confirm():
+                    progress_dlg = GameModeDialog(
+                        self.main_window, 
+                        script_path, 
+                        action="start",
+                        on_close_callback=lambda success: self.on_gamemode_dialog_closed(switch, success, True)
+                    )
+                    progress_dlg.present()
                 
-                # Instructions Group
-                group = Adw.PreferencesGroup()
-                group.set_title(_("Launch Options"))
-                group.set_description(_("Copy and paste these commands into your game's launch options."))
-                content_box.append(group)
+                def on_cancel():
+                    switch.handler_block_by_func(self.on_switch_changed)
+                    switch.set_active(False)
+                    switch.handler_unblock_by_func(self.on_switch_changed)
 
-                # Helper to add command rows
-                def add_command_row(title, command, icon):
-                    row = Adw.ActionRow()
-                    row.set_title(title)
-                    row.set_subtitle(command)
-                    row.add_prefix(Gtk.Image.new_from_icon_name(icon))
-                    
-                    # Copy Button
-                    btn_copy = Gtk.Button(icon_name="edit-copy-symbolic")
-                    btn_copy.add_css_class("flat")
-                    btn_copy.set_tooltip_text(_("Copy to clipboard"))
-                    btn_copy.connect("clicked", lambda b: Gdk.Display.get_default().get_clipboard().set(command))
-                    
-                    row.add_suffix(btn_copy)
-                    group.add(row)
-
-                add_command_row(_("Run manually"), "gamemoderun ./game", "utilities-terminal-symbolic")
-                add_command_row(_("Steam Launch Options"), "gamemoderun %command%", "steam")
-                add_command_row(_("Older Versions (< 1.3)"), 'LD_PRELOAD="$LD_PRELOAD:/usr/$LIB/libgamemodeauto.so.0"', "application-legacy-symbolic")
-
-                # Note Label
-                note_label = Gtk.Label(label=_("Note: The backslash in $LIB is required for the older versions command."))
-                note_label.add_css_class("dim-label")
-                note_label.set_wrap(True)
-                note_label.set_halign(Gtk.Align.START)
-                content_box.append(note_label)
-
-                dialog.set_extra_child(content_box)
-
-                dialog.add_response("cancel", _("Cancel"))
-                dialog.add_response("enable", _("Enable"))
-                dialog.set_default_response("enable")
-                dialog.set_close_response("cancel")
-                
-                def on_disclaimer_response(dlg, response):
-                    if response == "enable":
-                        # Launch Progress Dialog to Enable
-                        progress_dlg = GameModeDialog(
-                            self.main_window, 
-                            script_path, 
-                            action="start",
-                            on_close_callback=lambda success: self.on_gamemode_dialog_closed(switch, success, True)
-                        )
-                        progress_dlg.present()
-                    else:
-                        # Cancelled
-                        switch.handler_block_by_func(self.on_switch_changed)
-                        switch.set_active(False)
-                        switch.handler_unblock_by_func(self.on_switch_changed)
-
-                dialog.connect("response", on_disclaimer_response)
-                # Expand width for better readabilty
-                dialog.set_body_use_markup(True) 
-                
-                # We need to present it
-                dialog.present()
+                self.show_gamemode_disclaimer(script_path, on_confirm, on_cancel)
                 return True
             else:
                 # Disable: Just launch Progress Dialog
@@ -288,3 +245,85 @@ class SystemUsabilityPage(BaseSettingsPage):
              script_path = self.switch_scripts.get(self.kzones_switch)
              if script_path:
                  subprocess.run([script_path, "reload"])
+
+    def update_gamemode_info_visibility(self, switch, param):
+        self.gamemode_info_btn.set_visible(switch.get_active())
+
+    def on_gamemode_info_clicked(self, button):
+        script_path = self.switch_scripts.get(self.gamemode_switch)
+        
+        def on_confirm():
+             # Re-start/Verify if user clicks enable again
+             progress_dlg = GameModeDialog(
+                self.main_window, 
+                script_path, 
+                action="start",
+                on_close_callback=lambda success: self.on_gamemode_dialog_closed(self.gamemode_switch, success, True)
+            )
+             progress_dlg.present()
+
+        self.show_gamemode_disclaimer(script_path, on_confirm)
+
+    def show_gamemode_disclaimer(self, script_path, on_confirm, on_cancel=None):
+        dialog = Adw.MessageDialog(
+            transient_for=self.main_window,
+            heading=_("Game Mode Booster Instructions"),
+            body=_("To ensure Game Mode works correctly, you may need to apply specific launch options for your games.")
+        )
+
+        # Content Box
+        content_box = Gtk.Box(orientation=Gtk.Orientation.VERTICAL, spacing=12)
+        
+        # Instructions Group
+        group = Adw.PreferencesGroup()
+        group.set_title(_("Launch Options"))
+        group.set_description(_("Copy and paste these commands into your game's launch options."))
+        content_box.append(group)
+
+        # Helper to add command rows
+        def add_command_row(title, command, icon):
+            row = Adw.ActionRow()
+            row.set_title(title)
+            row.set_subtitle(command)
+            row.add_prefix(Gtk.Image.new_from_icon_name(icon))
+            
+            # Copy Button
+            btn_copy = Gtk.Button(icon_name="edit-copy-symbolic")
+            btn_copy.add_css_class("flat")
+            btn_copy.set_tooltip_text(_("Copy to clipboard"))
+            btn_copy.connect("clicked", lambda b: Gdk.Display.get_default().get_clipboard().set(command))
+            
+            row.add_suffix(btn_copy)
+            group.add(row)
+
+        add_command_row(_("Run manually"), "gamemoderun ./game", "utilities-terminal-symbolic")
+        add_command_row(_("Steam Launch Options"), "gamemoderun %command%", "steam")
+        add_command_row(_("Older Versions (< 1.3)"), 'LD_PRELOAD="$LD_PRELOAD:/usr/$LIB/libgamemodeauto.so.0"', "application-legacy-symbolic")
+
+        # Note Label
+        note_label = Gtk.Label(label=_("Note: The backslash in $LIB is required for the older versions command."))
+        note_label.add_css_class("dim-label")
+        note_label.set_wrap(True)
+        note_label.set_halign(Gtk.Align.START)
+        content_box.append(note_label)
+
+        dialog.set_extra_child(content_box)
+
+        dialog.add_response("cancel", _("Cancel"))
+        dialog.add_response("enable", _("Enable"))
+        dialog.set_default_response("enable")
+        dialog.set_close_response("cancel")
+        
+        def on_response(dlg, response):
+            if response == "enable":
+                on_confirm()
+            else:
+                if on_cancel:
+                    on_cancel()
+
+        dialog.connect("response", on_response)
+        # Expand width for better readabilty
+        dialog.set_body_use_markup(True) 
+        
+        # We need to present it
+        dialog.present()
