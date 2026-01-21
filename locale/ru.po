@@ -169,6 +169,20 @@ msgstr "JamesDSP"
 msgid "Advanced audio effects processor that improves sound quality."
 msgstr "Расширенный процессор аудиоэффектов, который улучшает качество звука."
 # 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/dispositivos_page.py, line: 137
+msgid "Keyboard with LED"
+msgstr "Клавиатура с LED-подсветкой"
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/dispositivos_page.py, line: 144
+msgid "If your keyboard has LED you can enable this feature to turn it on with the system."
+msgstr ""
+"Если ваша клавиатура имеет светодиоды, вы можете включить эту функцию, чтобы включать их вместе с "
+"системой."
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/dispositivos_page.py, line: 237
+msgid "Error opening configuration dialog"
+msgstr "Ошибка при открытии диалога конфигурации"
+# 
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings/dispositivos_page.py, line: 140
 msgid "Error starting JamesDSP daemon"
 msgstr "Ошибка при запуске демона JamesDSP"
@@ -858,6 +872,76 @@ msgstr ""
 # 
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings/devices/jamesdsp_dialog.py, line: 208
 # 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/devices/keyboard_led_dialog.py, line: 35
+msgid "Keyboard LED Configuration"
+msgstr "Конфигурация светодиодов клавиатуры"
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/devices/keyboard_led_dialog.py, line: 96
+msgid "Configure Keyboard LED"
+msgstr "Настроить светодиоды клавиатуры"
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/devices/keyboard_led_dialog.py, line: 102
+msgid ""
+"We will test the available LED devices on your system.\n"
+"The script will turn on each device one by one so you can identify which one is your keyboard LED."
+msgstr ""
+"Мы протестируем доступные LED-устройства на вашей системе. Скрипт будет включать каждое устройство "
+"по одному, чтобы вы могли определить, какое из них является LED-клавиатуры."
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/devices/keyboard_led_dialog.py, line: 110
+msgid "Start Configuration"
+msgstr "Начать настройку"
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/devices/keyboard_led_dialog.py, line: 131
+msgid "Did the keyboard LED turn on?"
+msgstr "Включился ли светодиод клавиатуры?"
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/devices/keyboard_led_dialog.py, line: 157
+msgid "Yes, this is it!"
+msgstr "Да, это оно!"
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/devices/keyboard_led_dialog.py, line: 177
+msgid "Configuration Complete!"
+msgstr "Конфигурация завершена!"
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/devices/keyboard_led_dialog.py, line: 189
+msgid "Your keyboard LED will now turn on automatically when the system starts."
+msgstr "Теперь ваша клавиатура будет автоматически включать светодиоды при запуске системы."
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/devices/keyboard_led_dialog.py, line: 197
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/devices/keyboard_led_dialog.py, line: 197
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/devices/keyboard_led_dialog.py, line: 218
+msgid "No Compatible Device Found"
+msgstr "Совместимое устройство не найдено"
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/devices/keyboard_led_dialog.py, line: 224
+msgid ""
+"Could not find a compatible keyboard LED device.\n"
+"\n"
+"Make sure your keyboard has LED support and that brightnessctl is installed."
+msgstr ""
+"Не удалось найти совместимое устройство LED клавиатуры.\n"
+"\n"
+"Убедитесь, что ваша клавиатура поддерживает LED и что установлен brightnessctl."
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/devices/keyboard_led_dialog.py, line: 273
+msgid "Testing device: {}"
+msgstr "Устройство для тестирования: {}"
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/devices/keyboard_led_dialog.py, line: 274
+msgid "Device {} of {}"
+msgstr "Устройство {} из {}"
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/devices/keyboard_led_dialog.py, line: 325
+msgid "Saved device: {}"
+msgstr "Сохраненное устройство: {}"
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/devices/jamesdsp_dialog.py, line: 208
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/devices/jamesdsp_dialog.py, line: 208
+# 
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings/devices/jamesdsp_dialog.py, line: 208
 # 
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings/devices/jamesdsp_dialog.py, line: 208
@@ -922,6 +1006,10 @@ msgstr ""
 "Комбинация демона и библиотеки, которая позволяет играм запрашивать временное применение набора "
 "оптимизаций к операционной системе и/или игровому процессу."
 # 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_usability_page.py, line: 104
+msgid "Instructions"
+msgstr "Инструкции"
+# 
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 109
 msgid "General system settings"
 msgstr "Общие системные настройки"
@@ -975,6 +1063,16 @@ msgstr ""
 "Отключает аппаратный сторожевой таймер и системы тактирования TSC, поддерживая высокую "
 "производительность, но удаляя автоматические защиты от сбоев системы."
 # 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_usability_page.py, line: 162
+msgid "Restart KWin?"
+msgstr "Перезапустить KWin?"
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_usability_page.py, line: 163
+msgid "To apply the changes, the KWin window manager needs to be restarted. Do you want to restart it now?"
+msgstr ""
+"Чтобы применить изменения, необходимо перезапустить менеджер окон KWin. Вы хотите перезапустить его "
+"сейчас?"
+# 
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_usability_page.py, line: 178
 msgid "Game Mode Booster Instructions"
 msgstr "Инструкции по ускорителю игрового режима"
@@ -1016,13 +1114,3 @@ msgstr "Примечание: Обратный слэш в $LIB необходи
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_usability_page.py, line: 221
 msgid "Enable"
 msgstr "Включить"
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_usability_page.py, line: 162
-msgid "Restart KWin?"
-msgstr "Перезапустить KWin?"
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_usability_page.py, line: 163
-msgid "To apply the changes, the KWin window manager needs to be restarted. Do you want to restart it now?"
-msgstr ""
-"Чтобы применить изменения, необходимо перезапустить менеджер окон KWin. Вы хотите перезапустить его "
-"сейчас?"

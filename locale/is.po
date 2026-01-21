@@ -165,6 +165,18 @@ msgstr "JamesDSP"
 msgid "Advanced audio effects processor that improves sound quality."
 msgstr "Vanda hljóðáhrifavinnsla sem bætir hljóðgæði."
 # 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/dispositivos_page.py, line: 137
+msgid "Keyboard with LED"
+msgstr "Tangentbord með LED."
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/dispositivos_page.py, line: 144
+msgid "If your keyboard has LED you can enable this feature to turn it on with the system."
+msgstr "Ef lyklaborðið þitt hefur LED geturðu virkjað þessa eiginleika til að kveikja á því með kerfinu."
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/dispositivos_page.py, line: 237
+msgid "Error opening configuration dialog"
+msgstr "Villa að opna stillingarglugga"
+# 
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings/dispositivos_page.py, line: 140
 msgid "Error starting JamesDSP daemon"
 msgstr "Villa við að hefja JamesDSP þjón."
@@ -852,6 +864,76 @@ msgstr ""
 # 
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings/devices/jamesdsp_dialog.py, line: 208
 # 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/devices/keyboard_led_dialog.py, line: 35
+msgid "Keyboard LED Configuration"
+msgstr "Tenging á LED-ljósum á lyklaborði"
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/devices/keyboard_led_dialog.py, line: 96
+msgid "Configure Keyboard LED"
+msgstr "Stillir LED á lyklaborðinu"
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/devices/keyboard_led_dialog.py, line: 102
+msgid ""
+"We will test the available LED devices on your system.\n"
+"The script will turn on each device one by one so you can identify which one is your keyboard LED."
+msgstr ""
+"Við munum prófa LED tækin sem eru tiltæk á kerfinu þínu. Skiptin munu kveikja á hverju tæki eitt af "
+"öðru svo þú getir auðkennt hvaða LED er á lyklaborðinu þínu."
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/devices/keyboard_led_dialog.py, line: 110
+msgid "Start Configuration"
+msgstr "Byrjun stillingar"
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/devices/keyboard_led_dialog.py, line: 131
+msgid "Did the keyboard LED turn on?"
+msgstr "Kveikti LED á lyklaborðinu?"
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/devices/keyboard_led_dialog.py, line: 157
+msgid "Yes, this is it!"
+msgstr "Já, þetta er það!"
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/devices/keyboard_led_dialog.py, line: 177
+msgid "Configuration Complete!"
+msgstr "Uppsetning lokið!"
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/devices/keyboard_led_dialog.py, line: 189
+msgid "Your keyboard LED will now turn on automatically when the system starts."
+msgstr "LED-tastaturinn þinn mun nú kveikna sjálfkrafa þegar kerfið byrjar."
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/devices/keyboard_led_dialog.py, line: 197
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/devices/keyboard_led_dialog.py, line: 197
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/devices/keyboard_led_dialog.py, line: 218
+msgid "No Compatible Device Found"
+msgstr "Engin samhæfð tæki fundin"
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/devices/keyboard_led_dialog.py, line: 224
+msgid ""
+"Could not find a compatible keyboard LED device.\n"
+"\n"
+"Make sure your keyboard has LED support and that brightnessctl is installed."
+msgstr ""
+"Gat ekki að finna samhæfan LED tæki fyrir lyklaborð.\n"
+"\n"
+"Vinsamlegast tryggðu að lyklaborðið þitt styðji LED og að brightnessctl sé uppsett."
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/devices/keyboard_led_dialog.py, line: 273
+msgid "Testing device: {}"
+msgstr "Prófunartæki: {}"
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/devices/keyboard_led_dialog.py, line: 274
+msgid "Device {} of {}"
+msgstr "Tæki {} af {}"
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/devices/keyboard_led_dialog.py, line: 325
+msgid "Saved device: {}"
+msgstr "Vistaður tæki: {}"
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/devices/jamesdsp_dialog.py, line: 208
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/devices/jamesdsp_dialog.py, line: 208
+# 
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings/devices/jamesdsp_dialog.py, line: 208
 # 
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings/devices/jamesdsp_dialog.py, line: 208
@@ -916,6 +998,10 @@ msgstr ""
 "Samsetning af daemoni og bókasafni sem gerir leikjum kleift að biðja um að sett af hámarkun sé "
 "tímabundið beitt á stýrikerfið og/eða leikferlið."
 # 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_usability_page.py, line: 104
+msgid "Instructions"
+msgstr "Leiðbeiningar"
+# 
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 109
 msgid "General system settings"
 msgstr "Almennar kerfisskilyrði"
@@ -969,6 +1055,14 @@ msgstr ""
 "Veitir harðvaru vöktunina og TSC klukkuheimildir, viðhalda háum frammistöðu en fjarlægja "
 "sjálfvirkar verndaraðgerðir gegn kerfisfalli."
 # 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_usability_page.py, line: 162
+msgid "Restart KWin?"
+msgstr "Endurrætta KWin?"
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_usability_page.py, line: 163
+msgid "To apply the changes, the KWin window manager needs to be restarted. Do you want to restart it now?"
+msgstr "Til að beita breytingunum þarf KWin gluggastjórinn að vera endurræstur. Viltu endurræsa hann núna?"
+# 
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_usability_page.py, line: 178
 msgid "Game Mode Booster Instructions"
 msgstr "Leiðbeiningar um leikjaskipta."
@@ -1010,11 +1104,3 @@ msgstr "Athugið: Bakstrikinn í $LIB er nauðsynlegur fyrir eldri útgáfur ski
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_usability_page.py, line: 221
 msgid "Enable"
 msgstr "Virkja"
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_usability_page.py, line: 162
-msgid "Restart KWin?"
-msgstr "Endurrætta KWin?"
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_usability_page.py, line: 163
-msgid "To apply the changes, the KWin window manager needs to be restarted. Do you want to restart it now?"
-msgstr "Til að beita breytingunum þarf KWin gluggastjórinn að vera endurræstur. Viltu endurræsa hann núna?"

@@ -167,6 +167,20 @@ msgstr "JamesDSP"
 msgid "Advanced audio effects processor that improves sound quality."
 msgstr "Προηγμένος επεξεργαστής ηχητικών εφέ που βελτιώνει την ποιότητα ήχου."
 # 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/dispositivos_page.py, line: 137
+msgid "Keyboard with LED"
+msgstr "Πληκτρολόγιο με LED"
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/dispositivos_page.py, line: 144
+msgid "If your keyboard has LED you can enable this feature to turn it on with the system."
+msgstr ""
+"Αν το πληκτρολόγιό σας έχει LED, μπορείτε να ενεργοποιήσετε αυτή τη δυνατότητα για να το "
+"ενεργοποιείτε με το σύστημα."
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/dispositivos_page.py, line: 237
+msgid "Error opening configuration dialog"
+msgstr "Σφάλμα κατά το άνοιγμα του διαλόγου ρύθμισης παραμέτρων"
+# 
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings/dispositivos_page.py, line: 140
 msgid "Error starting JamesDSP daemon"
 msgstr "Σφάλμα κατά την εκκίνηση του δαίμονα JamesDSP"
@@ -858,6 +872,76 @@ msgstr ""
 # 
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings/devices/jamesdsp_dialog.py, line: 208
 # 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/devices/keyboard_led_dialog.py, line: 35
+msgid "Keyboard LED Configuration"
+msgstr "Διαμόρφωση LED Πληκτρολογίου"
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/devices/keyboard_led_dialog.py, line: 96
+msgid "Configure Keyboard LED"
+msgstr "Ρυθμίστε το LED πληκτρολογίου"
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/devices/keyboard_led_dialog.py, line: 102
+msgid ""
+"We will test the available LED devices on your system.\n"
+"The script will turn on each device one by one so you can identify which one is your keyboard LED."
+msgstr ""
+"Θα δοκιμάσουμε τις διαθέσιμες συσκευές LED στο σύστημά σας. Το σενάριο θα ενεργοποιήσει κάθε "
+"συσκευή μία προς μία ώστε να μπορείτε να προσδιορίσετε ποια είναι η LED του πληκτρολογίου σας."
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/devices/keyboard_led_dialog.py, line: 110
+msgid "Start Configuration"
+msgstr "Έναρξη Διαμόρφωσης"
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/devices/keyboard_led_dialog.py, line: 131
+msgid "Did the keyboard LED turn on?"
+msgstr "Άναψε το LED του πληκτρολογίου;"
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/devices/keyboard_led_dialog.py, line: 157
+msgid "Yes, this is it!"
+msgstr "Ναι, αυτό είναι!"
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/devices/keyboard_led_dialog.py, line: 177
+msgid "Configuration Complete!"
+msgstr "Η διαμόρφωση ολοκληρώθηκε!"
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/devices/keyboard_led_dialog.py, line: 189
+msgid "Your keyboard LED will now turn on automatically when the system starts."
+msgstr "Το LED του πληκτρολογίου σας θα ενεργοποιείται αυτόματα όταν ξεκινά το σύστημα."
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/devices/keyboard_led_dialog.py, line: 197
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/devices/keyboard_led_dialog.py, line: 197
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/devices/keyboard_led_dialog.py, line: 218
+msgid "No Compatible Device Found"
+msgstr "Δεν βρέθηκε συμβατή συσκευή"
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/devices/keyboard_led_dialog.py, line: 224
+msgid ""
+"Could not find a compatible keyboard LED device.\n"
+"\n"
+"Make sure your keyboard has LED support and that brightnessctl is installed."
+msgstr ""
+"Δεν βρέθηκε συμβατή συσκευή LED πληκτρολογίου.\n"
+"\n"
+"Βεβαιωθείτε ότι το πληκτρολόγιό σας υποστηρίζει LED και ότι το brightnessctl είναι εγκατεστημένο."
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/devices/keyboard_led_dialog.py, line: 273
+msgid "Testing device: {}"
+msgstr "Συσκευή δοκιμής: {}"
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/devices/keyboard_led_dialog.py, line: 274
+msgid "Device {} of {}"
+msgstr "Συσκευή {} από {}"
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/devices/keyboard_led_dialog.py, line: 325
+msgid "Saved device: {}"
+msgstr "Αποθηκευμένη συσκευή: {}"
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/devices/jamesdsp_dialog.py, line: 208
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/devices/jamesdsp_dialog.py, line: 208
+# 
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings/devices/jamesdsp_dialog.py, line: 208
 # 
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings/devices/jamesdsp_dialog.py, line: 208
@@ -923,6 +1007,10 @@ msgstr ""
 "βελτιστοποιήσεων να εφαρμοστούν προσωρινά στο λειτουργικό σύστημα και/ή στη διαδικασία του "
 "παιχνιδιού."
 # 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_usability_page.py, line: 104
+msgid "Instructions"
+msgstr "Οδηγίες"
+# 
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 109
 msgid "General system settings"
 msgstr "Γενικές ρυθμίσεις συστήματος"
@@ -976,6 +1064,16 @@ msgstr ""
 "Απενεργοποιεί το υλικό παρακολούθησης και τα συστήματα χρονισμού TSC, διατηρώντας υψηλή απόδοση "
 "αλλά αφαιρώντας τις αυτόματες προστασίες κατά των κρασαρισμάτων του συστήματος."
 # 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_usability_page.py, line: 162
+msgid "Restart KWin?"
+msgstr "Επανεκκίνηση του KWin;"
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_usability_page.py, line: 163
+msgid "To apply the changes, the KWin window manager needs to be restarted. Do you want to restart it now?"
+msgstr ""
+"Για να εφαρμοστούν οι αλλαγές, ο διαχειριστής παραθύρων KWin πρέπει να επανεκκινηθεί. Θέλετε να τον "
+"επανεκκινήσετε τώρα;"
+# 
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_usability_page.py, line: 178
 msgid "Game Mode Booster Instructions"
 msgstr "Οδηγίες Ενίσχυσης Λειτουργίας Παιχνιδιού"
@@ -1017,13 +1115,3 @@ msgstr "Σημείωση: Ο χαρακτήρας backslash στο $LIB είνα
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_usability_page.py, line: 221
 msgid "Enable"
 msgstr "Ενεργοποίηση"
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_usability_page.py, line: 162
-msgid "Restart KWin?"
-msgstr "Επανεκκίνηση του KWin;"
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_usability_page.py, line: 163
-msgid "To apply the changes, the KWin window manager needs to be restarted. Do you want to restart it now?"
-msgstr ""
-"Για να εφαρμοστούν οι αλλαγές, ο διαχειριστής παραθύρων KWin πρέπει να επανεκκινηθεί. Θέλετε να τον "
-"επανεκκινήσετε τώρα;"

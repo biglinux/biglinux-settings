@@ -169,6 +169,18 @@ msgstr "ג'יימסDSP"
 msgid "Advanced audio effects processor that improves sound quality."
 msgstr "מעבד אפקטים קוליים מתקדם שמשפר את איכות הסאונד."
 # 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/dispositivos_page.py, line: 137
+msgid "Keyboard with LED"
+msgstr "מקלדת עם LED"
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/dispositivos_page.py, line: 144
+msgid "If your keyboard has LED you can enable this feature to turn it on with the system."
+msgstr "אם המקלדת שלך כוללת LED, תוכל להפעיל תכונה זו כדי להדליק אותה עם המערכת."
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/dispositivos_page.py, line: 237
+msgid "Error opening configuration dialog"
+msgstr "שגיאה בפתיחת דיאלוג ההגדרות"
+# 
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings/dispositivos_page.py, line: 140
 msgid "Error starting JamesDSP daemon"
 msgstr "שגיאה בהפעלה של דמון JamesDSP"
@@ -854,6 +866,76 @@ msgstr ""
 # 
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings/devices/jamesdsp_dialog.py, line: 208
 # 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/devices/keyboard_led_dialog.py, line: 35
+msgid "Keyboard LED Configuration"
+msgstr "הגדרת נוריות מקלדת"
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/devices/keyboard_led_dialog.py, line: 96
+msgid "Configure Keyboard LED"
+msgstr "הגדר נורית מקלדת"
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/devices/keyboard_led_dialog.py, line: 102
+msgid ""
+"We will test the available LED devices on your system.\n"
+"The script will turn on each device one by one so you can identify which one is your keyboard LED."
+msgstr ""
+"נבחן את מכשירי ה-LED הזמינים במערכת שלך. הסקריפט ידליק כל מכשיר אחד אחרי השני כך שתוכל לזהות איזה "
+"מהם הוא ה-LED של המקלדת שלך."
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/devices/keyboard_led_dialog.py, line: 110
+msgid "Start Configuration"
+msgstr "התחל תצורה"
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/devices/keyboard_led_dialog.py, line: 131
+msgid "Did the keyboard LED turn on?"
+msgstr "האם נורת ה-LED של המקלדת נדלקה?"
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/devices/keyboard_led_dialog.py, line: 157
+msgid "Yes, this is it!"
+msgstr "כן, זה זה!"
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/devices/keyboard_led_dialog.py, line: 177
+msgid "Configuration Complete!"
+msgstr "הגדרה הושלמה!"
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/devices/keyboard_led_dialog.py, line: 189
+msgid "Your keyboard LED will now turn on automatically when the system starts."
+msgstr "הנורית של המקלדת שלך תידלק אוטומטית כאשר המערכת תתחיל."
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/devices/keyboard_led_dialog.py, line: 197
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/devices/keyboard_led_dialog.py, line: 197
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/devices/keyboard_led_dialog.py, line: 218
+msgid "No Compatible Device Found"
+msgstr "לא נמצא מכשיר תואם"
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/devices/keyboard_led_dialog.py, line: 224
+msgid ""
+"Could not find a compatible keyboard LED device.\n"
+"\n"
+"Make sure your keyboard has LED support and that brightnessctl is installed."
+msgstr ""
+"לא ניתן למצוא מכשיר LED מקלדת תואם.\n"
+"\n"
+"ודא שהמקלדת שלך תומכת ב-LED ושהיישום brightnessctl מותקן."
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/devices/keyboard_led_dialog.py, line: 273
+msgid "Testing device: {}"
+msgstr "מכשיר בדיקה: {}"
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/devices/keyboard_led_dialog.py, line: 274
+msgid "Device {} of {}"
+msgstr "התקן {} מתוך {}"
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/devices/keyboard_led_dialog.py, line: 325
+msgid "Saved device: {}"
+msgstr "מכשיר שנשמר: {}"
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/devices/jamesdsp_dialog.py, line: 208
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/devices/jamesdsp_dialog.py, line: 208
+# 
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings/devices/jamesdsp_dialog.py, line: 208
 # 
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings/devices/jamesdsp_dialog.py, line: 208
@@ -918,6 +1000,10 @@ msgstr ""
 "שילוב של דמון וספרייה המאפשר למשחקים לבקש סט של אופטימיזציות שיחולו באופן זמני על מערכת ההפעלה ו/או "
 "על תהליך המשחק."
 # 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_usability_page.py, line: 104
+msgid "Instructions"
+msgstr "הוראות"
+# 
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 109
 msgid "General system settings"
 msgstr "הגדרות מערכת כלליות"
@@ -971,6 +1057,14 @@ msgstr ""
 "מכבה את מערכת השעון החומרתי ואת מערכות מקור השעון TSC, שומר על ביצועים גבוהים אך מסיר הגנות "
 "אוטומטיות מפני קריסות מערכת."
 # 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_usability_page.py, line: 162
+msgid "Restart KWin?"
+msgstr "האם להפעיל מחדש את KWin?"
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_usability_page.py, line: 163
+msgid "To apply the changes, the KWin window manager needs to be restarted. Do you want to restart it now?"
+msgstr "כדי להחיל את השינויים, מנהל החלונות KWin צריך להתאפס. האם אתה רוצה לאפס אותו עכשיו?"
+# 
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_usability_page.py, line: 178
 msgid "Game Mode Booster Instructions"
 msgstr "הוראות מאיץ מצב משחק"
@@ -1010,11 +1104,3 @@ msgstr "הערה: הסימן הפוך ב-$LIB נדרש עבור פקודת הג�
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_usability_page.py, line: 221
 msgid "Enable"
 msgstr "אפשר"
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_usability_page.py, line: 162
-msgid "Restart KWin?"
-msgstr "האם להפעיל מחדש את KWin?"
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_usability_page.py, line: 163
-msgid "To apply the changes, the KWin window manager needs to be restarted. Do you want to restart it now?"
-msgstr "כדי להחיל את השינויים, מנהל החלונות KWin צריך להתאפס. האם אתה רוצה לאפס אותו עכשיו?"

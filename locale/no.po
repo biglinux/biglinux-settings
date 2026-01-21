@@ -165,6 +165,18 @@ msgstr "JamesDSP"
 msgid "Advanced audio effects processor that improves sound quality."
 msgstr "Avansert lydbehandlingsprosessor som forbedrer lydkvaliteten."
 # 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/dispositivos_page.py, line: 137
+msgid "Keyboard with LED"
+msgstr "Tastatur med LED"
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/dispositivos_page.py, line: 144
+msgid "If your keyboard has LED you can enable this feature to turn it on with the system."
+msgstr "Hvis tastaturet ditt har LED, kan du aktivere denne funksjonen for å slå det på med systemet."
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/dispositivos_page.py, line: 237
+msgid "Error opening configuration dialog"
+msgstr "Feil ved åpning av konfigurasjonsdialog."
+# 
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings/dispositivos_page.py, line: 140
 msgid "Error starting JamesDSP daemon"
 msgstr "Feil ved oppstart av JamesDSP-daemon."
@@ -651,6 +663,22 @@ msgstr "For å bruke endringene, anbefales det å starte Plasma Shell på nytt. 
 # 
 # #-#-#-#-#  biglinux-settings.pot (biglinux-settings)  #-#-#-#-#
 # 
+# #-#-#-#-#  biglinux-settings.pot (biglinux-settings)  #-#-#-#-#
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/ai_page.py, line: 93
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/devices/keyboard_led_dialog.py, line: 151
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_usability_page.py, line: 236
+# 
+# #-#-#-#-#  biglinux-settings.pot (biglinux-settings)  #-#-#-#-#
+# 
+# #-#-#-#-#  biglinux-settings.pot (biglinux-settings)  #-#-#-#-#
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/ai_page.py, line: 93
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/devices/keyboard_led_dialog.py, line: 151
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_usability_page.py, line: 236
+# 
+# #-#-#-#-#  biglinux-settings.pot (biglinux-settings)  #-#-#-#-#
+# 
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings/ai_page.py, line: 93
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_usability_page.py, line: 279
 # 
@@ -872,6 +900,76 @@ msgstr ""
 # 
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings/devices/jamesdsp_dialog.py, line: 208
 # 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/devices/keyboard_led_dialog.py, line: 35
+msgid "Keyboard LED Configuration"
+msgstr "Tastatur LED-konfigurasjon"
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/devices/keyboard_led_dialog.py, line: 96
+msgid "Configure Keyboard LED"
+msgstr "Konfigurer tastatur-LED"
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/devices/keyboard_led_dialog.py, line: 102
+msgid ""
+"We will test the available LED devices on your system.\n"
+"The script will turn on each device one by one so you can identify which one is your keyboard LED."
+msgstr ""
+"Vi vil teste de tilgjengelige LED-enhetene på systemet ditt. Skriptet vil slå på hver enhet én "
+"etter én, slik at du kan identifisere hvilken som er LED-en til tastaturet ditt."
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/devices/keyboard_led_dialog.py, line: 110
+msgid "Start Configuration"
+msgstr "Start konfigurasjon"
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/devices/keyboard_led_dialog.py, line: 131
+msgid "Did the keyboard LED turn on?"
+msgstr "Slått tastaturets LED på?"
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/devices/keyboard_led_dialog.py, line: 157
+msgid "Yes, this is it!"
+msgstr "Ja, dette er det!"
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/devices/keyboard_led_dialog.py, line: 177
+msgid "Configuration Complete!"
+msgstr "Konfigurasjon fullført!"
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/devices/keyboard_led_dialog.py, line: 189
+msgid "Your keyboard LED will now turn on automatically when the system starts."
+msgstr "Tastaturets LED vil nå slå seg på automatisk når systemet starter."
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/devices/keyboard_led_dialog.py, line: 197
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/devices/keyboard_led_dialog.py, line: 197
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/devices/keyboard_led_dialog.py, line: 218
+msgid "No Compatible Device Found"
+msgstr "Ingen kompatibel enhet funnet"
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/devices/keyboard_led_dialog.py, line: 224
+msgid ""
+"Could not find a compatible keyboard LED device.\n"
+"\n"
+"Make sure your keyboard has LED support and that brightnessctl is installed."
+msgstr ""
+"Fant ikke en kompatibel tastatur LED-enhet.\n"
+"\n"
+"Sørg for at tastaturet ditt har LED-støtte og at brightnessctl er installert."
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/devices/keyboard_led_dialog.py, line: 273
+msgid "Testing device: {}"
+msgstr "Testenhet: {}"
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/devices/keyboard_led_dialog.py, line: 274
+msgid "Device {} of {}"
+msgstr "Enhet {} av {}"
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/devices/keyboard_led_dialog.py, line: 325
+msgid "Saved device: {}"
+msgstr "Lagring av enhet: {}"
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/devices/jamesdsp_dialog.py, line: 208
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/devices/jamesdsp_dialog.py, line: 208
+# 
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings/devices/jamesdsp_dialog.py, line: 208
 # 
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings/devices/jamesdsp_dialog.py, line: 208
@@ -936,6 +1034,10 @@ msgstr ""
 "Kombinasjon av daemon og bibliotek som lar spill be om at et sett med optimaliseringer midlertidig "
 "blir anvendt på operativsystemet og/eller spillprosessen."
 # 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_usability_page.py, line: 104
+msgid "Instructions"
+msgstr "Instruksjoner"
+# 
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 109
 msgid "General system settings"
 msgstr "Generelle systeminnstillinger"
@@ -989,6 +1091,14 @@ msgstr ""
 "Deaktiverer maskinvare-vakthund og TSC klokke-kilde systemer, opprettholder høy ytelse, men fjerner "
 "automatiske beskyttelser mot systemkrasj."
 # 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_usability_page.py, line: 162
+msgid "Restart KWin?"
+msgstr "Restarte KWin?"
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_usability_page.py, line: 163
+msgid "To apply the changes, the KWin window manager needs to be restarted. Do you want to restart it now?"
+msgstr "For å bruke endringene, må KWin-vindubehandleren startes på nytt. Vil du starte den på nytt nå?"
+# 
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_usability_page.py, line: 178
 msgid "Game Mode Booster Instructions"
 msgstr "Instruksjoner for spillmodusforsterker"
@@ -1030,11 +1140,3 @@ msgstr "Merk: Bakoverstrek i $LIB er nødvendig for eldre versjoner av kommandoe
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_usability_page.py, line: 221
 msgid "Enable"
 msgstr "Aktiver"
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_usability_page.py, line: 162
-msgid "Restart KWin?"
-msgstr "Restarte KWin?"
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_usability_page.py, line: 163
-msgid "To apply the changes, the KWin window manager needs to be restarted. Do you want to restart it now?"
-msgstr "For å bruke endringene, må KWin-vindubehandleren startes på nytt. Vil du starte den på nytt nå?"
