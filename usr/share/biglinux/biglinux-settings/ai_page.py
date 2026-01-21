@@ -46,7 +46,7 @@ class AIPage(BaseSettingsPage):
             _("ChatAI"),
             _("A variety of chats like Plasmoid for your KDE Plasma desktop."),
             "chatai",
-            icon_name="utilities-terminal" # Placeholder icon, user didn't specify
+            icon_name="gnome-robots" # Placeholder icon, user didn't specify
         )
 
     def on_switch_changed(self, switch, state):
