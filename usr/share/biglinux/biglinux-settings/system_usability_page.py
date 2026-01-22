@@ -24,6 +24,10 @@ current_dir = os.path.dirname(os.path.abspath(__file__))
 sys.path.append(os.path.join(current_dir, 'usability'))
 from gamemode_dialog import GameModeDialog
 
+# Add 'system' folder to path for RecentFilesDialog
+sys.path.append(os.path.join(current_dir, 'system'))
+from recent_files_dialog import RecentFilesDialog
+
 class SystemUsabilityPage(BaseSettingsPage):
     """A self-contained page for managing System Tweaks."""
     def populate_content(self, content_box):
@@ -159,6 +163,23 @@ class SystemUsabilityPage(BaseSettingsPage):
             icon_name="mail-thread-watch"
         )
 
+        # Recent Files & Locations
+        self.recentFiles_switch = self.create_row_with_clickable_link(
+            group,
+            _("Recent Files & Locations"),
+            _("Restores the 'Recent Files' and 'Recent Locations' functionality that appears empty in Dolphin and the Application Menu."),
+            "recent_files",
+            icon_name="document-open-recent-symbolic"
+        )
+        
+        # Check if KDE environment
+        is_kde = os.environ.get("XDG_CURRENT_DESKTOP", "").upper().find("KDE") >= 0 or \
+                 os.environ.get("XDG_CURRENT_DESKTOP", "").upper().find("PLASMA") >= 0
+        
+        if not is_kde:
+            self.recentFiles_switch.set_sensitive(False)
+            self.recentFiles_switch.set_tooltip_text(_("This feature is only available for KDE Plasma."))
+
 
 
     def on_switch_changed(self, switch, state):
@@ -213,6 +234,20 @@ class SystemUsabilityPage(BaseSettingsPage):
                 progress_dlg.present()
                 return True
 
+        # Recent Files & Locations handler
+        if hasattr(self, 'recentFiles_switch') and switch == self.recentFiles_switch:
+            script_path = self.switch_scripts.get(switch)
+            if script_path:
+                action = "enable" if state else "disable"
+                progress_dlg = RecentFilesDialog(
+                    self.main_window,
+                    script_path,
+                    action=action,
+                    on_close_callback=lambda success: self.on_recent_files_dialog_closed(switch, success, state)
+                )
+                progress_dlg.present()
+                return True
+
         return super().on_switch_changed(switch, state)
 
     def on_gamemode_dialog_closed(self, switch, success, target_state):
@@ -226,6 +261,16 @@ class SystemUsabilityPage(BaseSettingsPage):
             pass
         
             pass
+
+    def on_recent_files_dialog_closed(self, switch, success, target_state):
+        """Callback when Recent Files dialog closes."""
+        if not success:
+            # Revert switch if failed
+            switch.handler_block_by_func(self.on_switch_changed)
+            switch.set_active(not target_state)
+            switch.handler_unblock_by_func(self.on_switch_changed)
+            if hasattr(self.main_window, 'show_toast'):
+                self.main_window.show_toast(_("Failed to change Recent Files & Locations setting."))
 
     def show_restart_kwin_dialog(self):
         dialog = Adw.MessageDialog(
