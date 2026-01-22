@@ -11,13 +11,15 @@ _ = gettext.gettext
 
 class ContainersPage(BaseSettingsPage):
     def populate_content(self, content_box):
+        self.docker_group(content_box)
         self.containers_group(content_box)
 
-    def containers_group(self, parent):
+    def docker_group(self, parent):
+        """Docker service - required for containers to work"""
         group = Adw.PreferencesGroup()
-        group.set_title(_("Containers"))
-        group.script_group = "system" # Docker script is in 'system'
-        group.set_description(_("Manage container technologies"))
+        group.set_title(_("Docker"))
+        group.script_group = "system"
+        group.set_description(_("Container service - enable to use containers below"))
         parent.append(group)
 
         # Docker
@@ -28,6 +30,13 @@ class ContainersPage(BaseSettingsPage):
             "dockerEnable",
             icon_name="docker"
         )
+
+    def containers_group(self, parent):
+        group = Adw.PreferencesGroup()
+        group.set_title(_("Containers"))
+        group.script_group = "system"
+        group.set_description(_("Manage container technologies"))
+        parent.append(group)
 
         # BigLinux Docker Nextcloud Plus
         self.create_row_with_clickable_link(

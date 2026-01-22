@@ -23,6 +23,7 @@ import sys
 current_dir = os.path.dirname(os.path.abspath(__file__))
 sys.path.append(os.path.join(current_dir, 'usability'))
 from gamemode_dialog import GameModeDialog
+from gamemode_config_dialog import GameModeConfigDialog
 
 # Add 'system' folder to path for RecentFilesDialog
 sys.path.append(os.path.join(current_dir, 'system'))
@@ -206,8 +207,11 @@ class SystemUsabilityPage(BaseSettingsPage):
         if hasattr(self, 'gamemode_switch') and switch == self.gamemode_switch:
             script_path = self.switch_scripts.get(switch)
             if state:
-                # Enable: Show Disclaimer first
-                def on_confirm():
+                # Enable: Show Configuration Dialog first
+                def on_confirm(config):
+                    # Store config for later use if needed
+                    self.gamemode_config = config
+                    
                     progress_dlg = GameModeDialog(
                         self.main_window, 
                         script_path, 
@@ -221,7 +225,13 @@ class SystemUsabilityPage(BaseSettingsPage):
                     switch.set_active(False)
                     switch.handler_unblock_by_func(self.on_switch_changed)
 
-                self.show_gamemode_disclaimer(script_path, on_confirm, on_cancel)
+                # Show configuration dialog
+                config_dlg = GameModeConfigDialog(
+                    self.main_window,
+                    on_confirm_callback=on_confirm,
+                    on_cancel_callback=on_cancel
+                )
+                config_dlg.present()
                 return True
             else:
                 # Disable: Just launch Progress Dialog
@@ -295,80 +305,28 @@ class SystemUsabilityPage(BaseSettingsPage):
         self.gamemode_info_btn.set_visible(switch.get_active())
 
     def on_gamemode_info_clicked(self, button):
-        script_path = self.switch_scripts.get(self.gamemode_switch)
-        
-        def on_confirm():
-             # Re-start/Verify if user clicks enable again
-             progress_dlg = GameModeDialog(
-                self.main_window, 
-                script_path, 
-                action="start",
-                on_close_callback=lambda success: self.on_gamemode_dialog_closed(self.gamemode_switch, success, True)
+        """Open Steam Games dialog when info button is clicked (only shows when Game Mode is active)."""
+        try:
+            try:
+                from .steam_games_dialog import SteamGamesDialog
+            except ImportError:
+                import sys
+                import os
+                current_dir = os.path.dirname(os.path.abspath(__file__))
+                usability_dir = os.path.join(current_dir, 'usability')
+                if usability_dir not in sys.path:
+                    sys.path.append(usability_dir)
+                import steam_games_dialog
+                SteamGamesDialog = steam_games_dialog.SteamGamesDialog
+
+            dlg = SteamGamesDialog(parent=self.main_window)
+            dlg.present()
+        except Exception as e:
+            # Handle case where vdf or module is missing or other errors
+            error_dlg = Adw.MessageDialog(
+                heading=_("Error"), 
+                body=f"Cannot load Steam configuration tool: {e}",
+                transient_for=self.main_window
             )
-             progress_dlg.present()
-
-        self.show_gamemode_disclaimer(script_path, on_confirm)
-
-    def show_gamemode_disclaimer(self, script_path, on_confirm, on_cancel=None):
-        dialog = Adw.MessageDialog(
-            transient_for=self.main_window,
-            heading=_("Game Mode Booster Instructions"),
-            body=_("To ensure Game Mode works correctly, you may need to apply specific launch options for your games.")
-        )
-
-        # Content Box
-        content_box = Gtk.Box(orientation=Gtk.Orientation.VERTICAL, spacing=12)
-        
-        # Instructions Group
-        group = Adw.PreferencesGroup()
-        group.set_title(_("Launch Options"))
-        group.set_description(_("Copy and paste these commands into your game's launch options."))
-        content_box.append(group)
-
-        # Helper to add command rows
-        def add_command_row(title, command, icon):
-            row = Adw.ActionRow()
-            row.set_title(title)
-            row.set_subtitle(command)
-            row.add_prefix(Gtk.Image.new_from_icon_name(icon))
-            
-            # Copy Button
-            btn_copy = Gtk.Button(icon_name="edit-copy-symbolic")
-            btn_copy.add_css_class("flat")
-            btn_copy.set_tooltip_text(_("Copy to clipboard"))
-            btn_copy.connect("clicked", lambda b: Gdk.Display.get_default().get_clipboard().set(command))
-            
-            row.add_suffix(btn_copy)
-            group.add(row)
-
-        add_command_row(_("Run manually"), "gamemoderun ./game", "utilities-terminal-symbolic")
-        add_command_row(_("Steam Launch Options"), "gamemoderun %command%", "steam")
-        add_command_row(_("Older Versions (< 1.3)"), 'LD_PRELOAD="$LD_PRELOAD:/usr/$LIB/libgamemodeauto.so.0"', "application-legacy-symbolic")
-
-        # Note Label
-        note_label = Gtk.Label(label=_("Note: The backslash in $LIB is required for the older versions command."))
-        note_label.add_css_class("dim-label")
-        note_label.set_wrap(True)
-        note_label.set_halign(Gtk.Align.START)
-        content_box.append(note_label)
-
-        dialog.set_extra_child(content_box)
-
-        dialog.add_response("cancel", _("Cancel"))
-        dialog.add_response("enable", _("Enable"))
-        dialog.set_default_response("enable")
-        dialog.set_close_response("cancel")
-        
-        def on_response(dlg, response):
-            if response == "enable":
-                on_confirm()
-            else:
-                if on_cancel:
-                    on_cancel()
-
-        dialog.connect("response", on_response)
-        # Expand width for better readabilty
-        dialog.set_body_use_markup(True) 
-        
-        # We need to present it
-        dialog.present()
+            error_dlg.add_response("ok", "OK")
+            error_dlg.present()

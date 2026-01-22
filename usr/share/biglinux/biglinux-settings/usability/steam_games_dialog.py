@@ -97,6 +97,10 @@ class SteamGamesDialog(Adw.Window):
         btn_cancel.connect("clicked", lambda x: self.close())
         bottom_box.append(btn_cancel)
         
+        btn_manually = Gtk.Button(label="Manually")
+        btn_manually.connect("clicked", self.on_show_instructions)
+        bottom_box.append(btn_manually)
+        
         btn_apply = Gtk.Button(label="Apply Changes")
         btn_apply.add_css_class("suggested-action")
         btn_apply.connect("clicked", self.on_apply)
@@ -340,3 +344,77 @@ class SteamGamesDialog(Adw.Window):
         if close_app:
             dlg.connect("response", lambda d, r: self.close())
         dlg.present()
+
+    def on_show_instructions(self, btn):
+        """Show Game Mode Booster Instructions in a window."""
+        instructions_window = Adw.Window(modal=True, transient_for=self)
+        instructions_window.set_default_size(500, 400)
+        instructions_window.set_title("Game Mode Booster Instructions")
+        
+        # Main box
+        main_box = Gtk.Box(orientation=Gtk.Orientation.VERTICAL, spacing=0)
+        instructions_window.set_content(main_box)
+        
+        # Header with Icon
+        header = Adw.HeaderBar()
+        
+        # Add icon to header
+        header_icon = Gtk.Image.new_from_icon_name("input-gaming-symbolic")
+        header_icon.set_pixel_size(24)
+        header.pack_start(header_icon)
+        
+        main_box.append(header)
+        
+        # Scrolled window
+        scroll = Gtk.ScrolledWindow()
+        scroll.set_vexpand(True)
+        scroll.set_policy(Gtk.PolicyType.NEVER, Gtk.PolicyType.AUTOMATIC)
+        main_box.append(scroll)
+        
+        # Content box
+        content_box = Gtk.Box(orientation=Gtk.Orientation.VERTICAL, spacing=0)
+        content_box.set_margin_start(12)
+        content_box.set_margin_end(12)
+        content_box.set_margin_top(12)
+        content_box.set_margin_bottom(12)
+        scroll.set_child(content_box)
+        
+        # Instructions Group
+        instructions_group = Adw.PreferencesGroup()
+        instructions_group.set_title("Available Commands")
+        content_box.append(instructions_group)
+        
+        # Helper to add command rows
+        def add_command_row(title, command, icon):
+            row = Adw.ActionRow()
+            row.set_title(title)
+            row.set_subtitle(command)
+            row.add_prefix(Gtk.Image.new_from_icon_name(icon))
+            
+            # Copy Button
+            from gi.repository import Gdk
+            btn_copy = Gtk.Button(icon_name="edit-copy-symbolic")
+            btn_copy.add_css_class("flat")
+            btn_copy.set_tooltip_text("Copy to clipboard")
+            btn_copy.connect("clicked", lambda b: Gdk.Display.get_default().get_clipboard().set(command))
+            
+            row.add_suffix(btn_copy)
+            instructions_group.add(row)
+        
+        add_command_row("Run manually", "gamemoderun ./game", "utilities-terminal-symbolic")
+        add_command_row("Steam Launch Options", "gamemoderun %command%", "input-gaming-symbolic")
+        add_command_row("Older Versions", 'LD_PRELOAD="$LD_PRELOAD:/usr/$LIB/libgamemodeauto.so.0"', "focus-legacy-systray")
+        
+        # Close button
+        button_box = Gtk.Box(orientation=Gtk.Orientation.HORIZONTAL, halign=Gtk.Align.CENTER)
+        button_box.set_margin_top(20)
+        button_box.set_margin_bottom(20)
+        
+        close_btn = Gtk.Button(label="Close")
+        close_btn.add_css_class("pill")
+        close_btn.connect("clicked", lambda b: instructions_window.close())
+        button_box.append(close_btn)
+        
+        main_box.append(button_box)
+        
+        instructions_window.present()
