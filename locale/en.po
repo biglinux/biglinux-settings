@@ -19,6 +19,34 @@ msgid "Applying, please wait..."
 msgstr "Applying, please wait..."
 
 #
+msgid "Installing $package"
+msgstr "Installing $package"
+
+#
+msgid "Installing $package, Please wait..."
+msgstr "Installing $package, Please wait..."
+
+#
+msgid "Removing $package"
+msgstr "Removing $package"
+
+#
+msgid "Removing $package, Please wait..."
+msgstr "Removing $package, Please wait..."
+
+#
+msgid "$package installed successfully!"
+msgstr "$package installed successfully!"
+
+#
+msgid "$package removed successfully!"
+msgstr "$package removed successfully!"
+
+#
+msgid "An error occurred with $package."
+msgstr "An error occurred with $package."
+
+#
 msgid "GRUB updated successfully!"
 msgstr "GRUB updated successfully!"
 
@@ -223,117 +251,415 @@ msgid "Usabilidade"
 msgstr "Usabilidade"
 
 #
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 52
-msgid "General adjustments"
-msgstr "General adjustments"
+# #-#-#-#-#  biglinux-settings.pot (biglinux-settings)  #-#-#-#-#
+#
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/dispositivos_page.py, line: 25
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 120
+msgid "Devices"
+msgstr "Devices"
 
 #
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 108
-msgid "System Tweaks"
-msgstr "System Tweaks"
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/dispositivos_page.py, line: 27
+msgid "Manage physical devices"
+msgstr "Manage physical devices"
 
 #
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 111
-msgid "PreLoad"
-msgstr "PreLoad"
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/dispositivos_page.py, line: 33
+msgid "Wifi"
+msgstr "Wifi"
 
 #
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/preload_page.py, line: 103
-msgid "Preload"
-msgstr "Preload"
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/dispositivos_page.py, line: 34
+msgid "Wifi On"
+msgstr "Wifi On"
 
 #
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/preload_page.py, line: 105
-msgid "Preload applications into memory to open them faster."
-msgstr "Preload applications into memory to open them faster."
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/dispositivos_page.py, line: 41
+msgid "Bluetooth"
+msgstr "Bluetooth"
+
+#
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/dispositivos_page.py, line: 42
+msgid "Bluetooth On."
+msgstr "Bluetooth On."
+
+#
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/dispositivos_page.py, line: 56
+msgid "Invert Mouse Scroll"
+msgstr "Invert Mouse Scroll"
+
+#
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/dispositivos_page.py, line: 57
+msgid "Inverts mouse scrolling without restarting the session."
+msgstr "Inverts mouse scrolling without restarting the session."
 
 #
 # #-#-#-#-#  biglinux-settings.pot (biglinux-settings)  #-#-#-#-#
 #
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/preload_page.py, line: 112
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_usability_page.py, line: 111
-msgid "Reload all statuses"
-msgstr "Reload all statuses"
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/dispositivos_page.py, line: 89
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/devices/jamesdsp_dialog.py, line: 155
+msgid "JamesDSP"
+msgstr "JamesDSP"
 
 #
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/preload_page.py, line: 120
-msgid "Firefox"
-msgstr "Firefox"
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/dispositivos_page.py, line: 96
+msgid "Advanced audio effects processor that improves sound quality."
+msgstr "Advanced audio effects processor that improves sound quality."
 
 #
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/preload_page.py, line: 126
-msgid "Librewolf"
-msgstr "Librewolf"
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/dispositivos_page.py, line: 146
+msgid "Keyboard with LED"
+msgstr "Keyboard with LED"
 
 #
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/preload_page.py, line: 132
-msgid "Brave"
-msgstr "Brave"
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/dispositivos_page.py, line: 153
+msgid ""
+"If your keyboard has LED you can enable this feature to turn it on with the "
+"system."
+msgstr ""
+"If your keyboard has LED you can enable this feature to turn it on with the "
+"system."
 
 #
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/preload_page.py, line: 138
-msgid "Chrome"
-msgstr "Chrome"
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/dispositivos_page.py, line: 166
+msgid "Reconfigure LED device"
+msgstr "Reconfigure LED device"
 
 #
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/preload_page.py, line: 144
-msgid "Chromium"
-msgstr "Chromium"
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/dispositivos_page.py, line: 281
+msgid "Error opening configuration dialog"
+msgstr "Error opening configuration dialog"
 
 #
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/preload_page.py, line: 150
-msgid "Palemoon"
-msgstr "Palemoon"
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/dispositivos_page.py, line: 316
+msgid "Error starting JamesDSP daemon"
+msgstr "Error starting JamesDSP daemon"
 
 #
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/preload_page.py, line: 156
-msgid "Opera"
-msgstr "Opera"
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/dispositivos_page.py, line: 321
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/dispositivos_page.py, line: 347
+msgid "JamesDSP Not Running"
+msgstr "JamesDSP Not Running"
 
 #
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/preload_page.py, line: 162
-msgid "Libreoffice"
-msgstr "Libreoffice"
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/dispositivos_page.py, line: 322
+msgid "JamesDSP daemon is not currently running. Would you like to start it?"
+msgstr "JamesDSP daemon is not currently running. Would you like to start it?"
 
 #
 # #-#-#-#-#  biglinux-settings.pot (biglinux-settings)  #-#-#-#-#
 #
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/preload_page.py, line: 171
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_usability_page.py, line: 213
+# #-#-#-#-#  biglinux-settings.pot (biglinux-settings)  #-#-#-#-#
+#
+# #-#-#-#-#  biglinux-settings.pot (biglinux-settings)  #-#-#-#-#
+#
+# #-#-#-#-#  biglinux-settings.pot (biglinux-settings)  #-#-#-#-#
+#
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/dispositivos_page.py, line: 324
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/dispositivos_page.py, line: 480
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/dispositivos_page.py, line: 576
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/ai/krita_ai_dialog.py, line: 61
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/ai/krita_ai_dialog.py, line: 115
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/usability/gamemode_config_dialog.py, line: 152
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/ai_page.py, line: 62
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/ai_page.py, line: 128
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/devices/keyboard_led_dialog.py, line: 71
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/devices/keyboard_led_dialog.py, line: 368
+msgid "Cancel"
+msgstr "Cancel"
+
+#
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/dispositivos_page.py, line: 325
+msgid "Start JamesDSP"
+msgstr "Start JamesDSP"
+
+#
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/dispositivos_page.py, line: 348
+msgid ""
+"JamesDSP daemon is not currently running. Would you like to start it first?"
+msgstr ""
+"JamesDSP daemon is not currently running. Would you like to start it first?"
+
+#
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/dispositivos_page.py, line: 350
+msgid "No, Turn Off Switch"
+msgstr "No, Turn Off Switch"
+
+#
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/dispositivos_page.py, line: 351
+msgid "Yes, Start JamesDSP"
+msgstr "Yes, Start JamesDSP"
+
+#
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/dispositivos_page.py, line: 423
+msgid "JamesDSP Installed"
+msgstr "JamesDSP Installed"
+
+#
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/dispositivos_page.py, line: 424
+msgid ""
+"JamesDSP has been successfully installed.\n"
+"\n"
+"Would you like to open the application interface now to configure it?\n"
+"(You can also configure it later via the presets list)"
+msgstr ""
+"JamesDSP has been successfully installed.\n"
+"\n"
+"Would you like to open the application interface now to configure it?\n"
+"(You can also configure it later via the presets list)"
+
+#
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/dispositivos_page.py, line: 426
+msgid "No, Show Presets"
+msgstr "No, Show Presets"
+
+#
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/dispositivos_page.py, line: 427
+msgid "Yes, Open App"
+msgstr "Yes, Open App"
+
+#
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/dispositivos_page.py, line: 477
+msgid "Disable JamesDSP"
+msgstr "Disable JamesDSP"
+
+#
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/dispositivos_page.py, line: 478
+msgid ""
+"Choose how to disable JamesDSP:\n"
+"\n"
+"• Just Disable: Sets master_enable=false (keeps installed)\n"
+"• Remove Completely: Uninstalls package and deletes all configuration files"
+msgstr ""
+"Choose how to disable JamesDSP:\n"
+"\n"
+"• Just Disable: Sets master_enable=false (keeps installed)\n"
+"• Remove Completely: Uninstalls package and deletes all configuration files"
+
+#
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/dispositivos_page.py, line: 481
+msgid "Just Disable"
+msgstr "Just Disable"
+
+#
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/dispositivos_page.py, line: 482
+msgid "Remove Completely"
+msgstr "Remove Completely"
+
+#
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/dispositivos_page.py, line: 558
+msgid "JamesDSP package removed"
+msgstr "JamesDSP package removed"
+
+#
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/dispositivos_page.py, line: 573
+msgid "Removal Failed"
+msgstr "Removal Failed"
+
+#
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/dispositivos_page.py, line: 574
+msgid ""
+"JamesDSP package is still installed.\n"
+"\n"
+"The removal process may have been cancelled or failed.\n"
+"Would you like to try again?"
+msgstr ""
+"JamesDSP package is still installed.\n"
+"\n"
+"The removal process may have been cancelled or failed.\n"
+"Would you like to try again?"
+
+#
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/dispositivos_page.py, line: 577
+msgid "Try Again"
+msgstr "Try Again"
+
+#
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/dispositivos_page.py, line: 600
+msgid "Remove Configuration Files?"
+msgstr "Remove Configuration Files?"
+
+#
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/dispositivos_page.py, line: 601
+msgid ""
+"JamesDSP package has been removed.\n"
+"\n"
+"Would you like to also delete all configuration files and presets located "
+"in:\n"
+"\n"
+"• ~/.config/jamesdsp\n"
+"• ~/.local/share/jamesdsp"
+msgstr ""
+"JamesDSP package has been removed.\n"
+"\n"
+"Would you like to also delete all configuration files and presets located "
+"in:\n"
+"\n"
+"• ~/.config/jamesdsp\n"
+"• ~/.local/share/jamesdsp"
+
+#
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/dispositivos_page.py, line: 603
+msgid "Keep Files"
+msgstr "Keep Files"
+
+#
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/dispositivos_page.py, line: 604
+msgid "Delete Files"
+msgstr "Delete Files"
+
+#
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/dispositivos_page.py, line: 624
+msgid "JamesDSP removed completely"
+msgstr "JamesDSP removed completely"
+
+#
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/dispositivos_page.py, line: 630
+msgid "JamesDSP package removed (config files kept)"
+msgstr "JamesDSP package removed (config files kept)"
+
+#
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/dispositivos_page.py, line: 655
+msgid "Error opening preset dialog"
+msgstr "Error opening preset dialog"
+
+#
+# #-#-#-#-#  biglinux-settings.pot (biglinux-settings)  #-#-#-#-#
+#
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/dispositivos_page.py, line: 686
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/base_page.py, line: 194
+msgid "Switch {} synchronized: {}"
+msgstr "Switch {} synchronized: {}"
+
+#
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/ai/krita_ai_dialog.py, line: 18
+msgid "Krita AI Installation"
+msgstr "Krita AI Installation"
+
+#
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/ai/krita_ai_dialog.py, line: 29
+msgid "Preparing..."
+msgstr "Preparing..."
+
+#
+# #-#-#-#-#  biglinux-settings.pot (biglinux-settings)  #-#-#-#-#
+#
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/ai/krita_ai_dialog.py, line: 40
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system/recent_files_dialog.py, line: 72
+msgid "Details"
+msgstr "Details"
+
+#
+# #-#-#-#-#  biglinux-settings.pot (biglinux-settings)  #-#-#-#-#
+#
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/ai/krita_ai_dialog.py, line: 53
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/ai/chatai_dialog.py, line: 40
+msgid "Show Details"
+msgstr "Show Details"
+
+#
+# #-#-#-#-#  biglinux-settings.pot (biglinux-settings)  #-#-#-#-#
+#
+# #-#-#-#-#  biglinux-settings.pot (biglinux-settings)  #-#-#-#-#
+#
+# #-#-#-#-#  biglinux-settings.pot (biglinux-settings)  #-#-#-#-#
+#
+# #-#-#-#-#  biglinux-settings.pot (biglinux-settings)  #-#-#-#-#
+#
+# #-#-#-#-#  biglinux-settings.pot (biglinux-settings)  #-#-#-#-#
+#
+# #-#-#-#-#  biglinux-settings.pot (biglinux-settings)  #-#-#-#-#
+#
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/ai/krita_ai_dialog.py, line: 65
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/ai/chatai_dialog.py, line: 55
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/usability/kwin_ram_dialog.py, line: 205
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/usability/gamemode_dialog.py, line: 121
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/usability/gamemode_dialog.py, line: 289
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system/recent_files_dialog.py, line: 95
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/devices/jamesdsp_dialog.py, line: 70
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/devices/keyboard_led_dialog.py, line: 469
+msgid "Close"
+msgstr "Close"
+
+#
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/ai/krita_ai_dialog.py, line: 95
+msgid "Detecting GPU..."
+msgstr "Detecting GPU..."
+
+#
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/ai/krita_ai_dialog.py, line: 112
+msgid "Choose Render Mode"
+msgstr "Choose Render Mode"
+
+#
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/ai/krita_ai_dialog.py, line: 113
+msgid "GPU detected: {}. How do you want to render?"
+msgstr "GPU detected: {}. How do you want to render?"
+
+#
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/ai/krita_ai_dialog.py, line: 116
+msgid "CPU (Software)"
+msgstr "CPU (Software)"
+
+#
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/ai/krita_ai_dialog.py, line: 117
+msgid "GPU (Recommended)"
+msgstr "GPU (Recommended)"
+
+#
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/ai/krita_ai_dialog.py, line: 140
+msgid "Installing..."
+msgstr "Installing..."
+
+#
+# #-#-#-#-#  biglinux-settings.pot (biglinux-settings)  #-#-#-#-#
+#
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/ai/krita_ai_dialog.py, line: 172
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/ai/chatai_dialog.py, line: 100
+msgid "Installation Complete!"
+msgstr "Installation Complete!"
+
+#
+# #-#-#-#-#  biglinux-settings.pot (biglinux-settings)  #-#-#-#-#
+#
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/ai/krita_ai_dialog.py, line: 178
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/ai/chatai_dialog.py, line: 106
+msgid "Installation Failed."
+msgstr "Installation Failed."
+
+#
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/ai/chatai_dialog.py, line: 17
+msgid "ChatAI Installation"
+msgstr "ChatAI Installation"
+
+#
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/ai/chatai_dialog.py, line: 28
+msgid "Installing ChatAI..."
+msgstr "Installing ChatAI..."
+
+#
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/base_page.py, line: 100
 msgid "Unavailable: script not found."
 msgstr "Unavailable: script not found."
 
 #
-# #-#-#-#-#  biglinux-settings.pot (biglinux-settings)  #-#-#-#-#
-#
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/preload_page.py, line: 172
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/preload_page.py, line: 206
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_usability_page.py, line: 214
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_usability_page.py, line: 248
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/base_page.py, line: 101
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/base_page.py, line: 132
 msgid "Script not found: {}"
 msgstr "Script not found: {}"
 
 #
-# #-#-#-#-#  biglinux-settings.pot (biglinux-settings)  #-#-#-#-#
-#
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/preload_page.py, line: 183
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_usability_page.py, line: 225
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/base_page.py, line: 112
 msgid "Enabled"
 msgstr "Enabled"
 
 #
-# #-#-#-#-#  biglinux-settings.pot (biglinux-settings)  #-#-#-#-#
-#
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/preload_page.py, line: 185
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_usability_page.py, line: 227
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/base_page.py, line: 114
 msgid "Disabled"
 msgstr "Disabled"
 
 #
-# #-#-#-#-#  biglinux-settings.pot (biglinux-settings)  #-#-#-#-#
-#
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/preload_page.py, line: 188
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_usability_page.py, line: 230
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/base_page.py, line: 116
 msgid ""
 "Enabled by system configuration (e.g., Real-Time Kernel) and cannot be "
 "changed here."
@@ -342,214 +668,1540 @@ msgstr ""
 "changed here."
 
 #
-# #-#-#-#-#  biglinux-settings.pot (biglinux-settings)  #-#-#-#-#
-#
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/preload_page.py, line: 190
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_usability_page.py, line: 232
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/base_page.py, line: 118
 msgid "Unavailable: script returned invalid output."
 msgstr "Unavailable: script returned invalid output."
 
 #
-# #-#-#-#-#  biglinux-settings.pot (biglinux-settings)  #-#-#-#-#
-#
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/preload_page.py, line: 191
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_usability_page.py, line: 233
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/base_page.py, line: 119
 msgid "Invalid output from script {}: {}"
 msgstr "Invalid output from script {}: {}"
 
 #
-# #-#-#-#-#  biglinux-settings.pot (biglinux-settings)  #-#-#-#-#
-#
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/preload_page.py, line: 194
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_usability_page.py, line: 236
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/base_page.py, line: 122
 msgid "Unavailable: script returned an error."
 msgstr "Unavailable: script returned an error."
 
 #
-# #-#-#-#-#  biglinux-settings.pot (biglinux-settings)  #-#-#-#-#
-#
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/preload_page.py, line: 195
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_usability_page.py, line: 237
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/base_page.py, line: 123
 msgid "Error checking state: {}"
 msgstr "Error checking state: {}"
 
 #
-# #-#-#-#-#  biglinux-settings.pot (biglinux-settings)  #-#-#-#-#
-#
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/preload_page.py, line: 198
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_usability_page.py, line: 240
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/base_page.py, line: 126
 msgid "Unavailable: failed to run script."
 msgstr "Unavailable: failed to run script."
 
 #
-# #-#-#-#-#  biglinux-settings.pot (biglinux-settings)  #-#-#-#-#
-#
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/preload_page.py, line: 199
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/preload_page.py, line: 240
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_usability_page.py, line: 241
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_usability_page.py, line: 282
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/base_page.py, line: 127
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/base_page.py, line: 160
 msgid "Error running script {}: {}"
 msgstr "Error running script {}: {}"
 
 #
-# #-#-#-#-#  biglinux-settings.pot (biglinux-settings)  #-#-#-#-#
-#
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/preload_page.py, line: 218
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_usability_page.py, line: 260
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/base_page.py, line: 144
 msgid "State changed successfully"
 msgstr "State changed successfully"
 
 #
-# #-#-#-#-#  biglinux-settings.pot (biglinux-settings)  #-#-#-#-#
-#
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/preload_page.py, line: 220
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_usability_page.py, line: 262
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/base_page.py, line: 146
 msgid "Script output: {}"
 msgstr "Script output: {}"
 
 #
-# #-#-#-#-#  biglinux-settings.pot (biglinux-settings)  #-#-#-#-#
-#
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/preload_page.py, line: 224
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_usability_page.py, line: 266
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/base_page.py, line: 149
 msgid "Script failed with exit code: {}"
 msgstr "Script failed with exit code: {}"
 
 #
-# #-#-#-#-#  biglinux-settings.pot (biglinux-settings)  #-#-#-#-#
-#
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/preload_page.py, line: 236
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_usability_page.py, line: 278
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/base_page.py, line: 156
 msgid "Script timeout: {}"
 msgstr "Script timeout: {}"
 
 #
 # #-#-#-#-#  biglinux-settings.pot (biglinux-settings)  #-#-#-#-#
 #
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/preload_page.py, line: 263
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_usability_page.py, line: 311
-msgid "Switch {} synchronized: {}"
-msgstr "Switch {} synchronized: {}"
-
-#
-# #-#-#-#-#  biglinux-settings.pot (biglinux-settings)  #-#-#-#-#
-#
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/preload_page.py, line: 284
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_usability_page.py, line: 334
-msgid "Indicator {} synchronized: {}"
-msgstr "Indicator {} synchronized: {}"
-
-#
-# #-#-#-#-#  biglinux-settings.pot (biglinux-settings)  #-#-#-#-#
-#
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/preload_page.py, line: 292
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_usability_page.py, line: 342
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/base_page.py, line: 204
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_usability_page.py, line: 191
 msgid "Changing {} to {}"
 msgstr "Changing {} to {}"
 
 #
-# #-#-#-#-#  biglinux-settings.pot (biglinux-settings)  #-#-#-#-#
-#
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/preload_page.py, line: 305
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_usability_page.py, line: 355
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/base_page.py, line: 210
 msgid "ERROR: Failed to change {} to {}"
 msgstr "ERROR: Failed to change {} to {}"
 
 #
 # #-#-#-#-#  biglinux-settings.pot (biglinux-settings)  #-#-#-#-#
 #
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/preload_page.py, line: 306
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_usability_page.py, line: 356
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/base_page.py, line: 214
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_usability_page.py, line: 200
 msgid "Failed to change setting: {}"
 msgstr "Failed to change setting: {}"
 
 #
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_usability_page.py, line: 102
-msgid "Usability"
-msgstr "Usability"
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 55
+msgid "General adjustments"
+msgstr "General adjustments"
 
 #
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_usability_page.py, line: 104
-msgid "User and Visual system settings"
-msgstr "User and Visual system settings"
-
+# #-#-#-#-#  biglinux-settings.pot (biglinux-settings)  #-#-#-#-#
 #
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_usability_page.py, line: 119
-msgid "NumLock"
-msgstr "NumLock"
-
-#
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_usability_page.py, line: 120
-msgid "Initial NumLock state. Ignored if autologin is enabled."
-msgstr "Initial NumLock state. Ignored if autologin is enabled."
-
-#
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_usability_page.py, line: 126
-msgid "Window Button On Left Side"
-msgstr "Window Button On Left Side"
-
-#
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_usability_page.py, line: 127
-msgid "Maximize, minimize, and close buttons on the left side of the window."
-msgstr "Maximize, minimize, and close buttons on the left side of the window."
-
-#
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_usability_page.py, line: 133
-msgid "SSH until next reboot"
-msgstr "SSH until next reboot"
-
-#
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_usability_page.py, line: 134
-msgid "Enable remote access via ssh until next boot."
-msgstr "Enable remote access via ssh until next boot."
-
-#
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_usability_page.py, line: 140
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 116
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_usability_page.py, line: 121
 msgid "System"
 msgstr "System"
 
 #
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_usability_page.py, line: 142
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 124
+msgid "I.A."
+msgstr "I.A."
+
+#
+# #-#-#-#-#  biglinux-settings.pot (biglinux-settings)  #-#-#-#-#
+#
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 141
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/containers_page.py, line: 36
+msgid "Containers"
+msgstr "Containers"
+
+#
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 145
+msgid "Pre-loading"
+msgstr "Pre-loading"
+
+#
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/preload_page.py, line: 24
+msgid "Preload"
+msgstr "Preload"
+
+#
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/preload_page.py, line: 26
+msgid "Preload applications into memory to open them faster."
+msgstr "Preload applications into memory to open them faster."
+
+#
+# #-#-#-#-#  biglinux-settings.pot (biglinux-settings)  #-#-#-#-#
+#
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/preload_page.py, line: 33
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_usability_page.py, line: 50
+msgid "Reload all statuses"
+msgstr "Reload all statuses"
+
+#
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/preload_page.py, line: 41
+msgid "Firefox"
+msgstr "Firefox"
+
+#
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/preload_page.py, line: 49
+msgid "Brave"
+msgstr "Brave"
+
+#
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/preload_page.py, line: 57
+msgid "Chrome"
+msgstr "Chrome"
+
+#
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/preload_page.py, line: 65
+msgid "Chromium"
+msgstr "Chromium"
+
+#
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/preload_page.py, line: 73
+msgid "Librewolf"
+msgstr "Librewolf"
+
+#
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/preload_page.py, line: 81
+msgid "Palemoon"
+msgstr "Palemoon"
+
+#
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/preload_page.py, line: 89
+msgid "Opera"
+msgstr "Opera"
+
+#
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/preload_page.py, line: 97
+msgid "Libreoffice"
+msgstr "Libreoffice"
+
+#
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/usability/kwin_ram_dialog.py, line: 26
+msgid "KWin & RAM Controller"
+msgstr "KWin & RAM Controller"
+
+#
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/usability/kwin_ram_dialog.py, line: 64
+msgid "Master Control"
+msgstr "Master Control"
+
+#
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/usability/kwin_ram_dialog.py, line: 65
+msgid "Enable Performance Mode to apply all optimizations at once"
+msgstr "Enable Performance Mode to apply all optimizations at once"
+
+#
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/usability/kwin_ram_dialog.py, line: 70
+msgid "Performance Mode"
+msgstr "Performance Mode"
+
+#
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/usability/kwin_ram_dialog.py, line: 71
+msgid "Disable all effects and optimize RAM"
+msgstr "Disable all effects and optimize RAM"
+
+#
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/usability/kwin_ram_dialog.py, line: 90
+msgid "GPU & Visual Effects"
+msgstr "GPU & Visual Effects"
+
+#
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/usability/kwin_ram_dialog.py, line: 91
+msgid "Control KWin compositor effects"
+msgstr "Control KWin compositor effects"
+
+#
+# #-#-#-#-#  biglinux-settings.pot (biglinux-settings)  #-#-#-#-#
+#
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/usability/kwin_ram_dialog.py, line: 96
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/usability/gamemode_dialog.py, line: 195
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/usability/gamemode_dialog.py, line: 238
+msgid "Visual Effects"
+msgstr "Visual Effects"
+
+#
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/usability/kwin_ram_dialog.py, line: 97
+msgid "Blur, Wobbly Windows, Shadows, Animations"
+msgstr "Blur, Wobbly Windows, Shadows, Animations"
+
+#
+# #-#-#-#-#  biglinux-settings.pot (biglinux-settings)  #-#-#-#-#
+#
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/usability/kwin_ram_dialog.py, line: 109
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/usability/gamemode_config_dialog.py, line: 100
+msgid "Compositor Settings"
+msgstr "Compositor Settings"
+
+#
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/usability/kwin_ram_dialog.py, line: 110
+msgid "Animations, Latency Policy, Tearing"
+msgstr "Animations, Latency Policy, Tearing"
+
+#
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/usability/kwin_ram_dialog.py, line: 122
+msgid "Memory & Services"
+msgstr "Memory & Services"
+
+#
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/usability/kwin_ram_dialog.py, line: 123
+msgid "Control background services that consume RAM"
+msgstr "Control background services that consume RAM"
+
+#
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/usability/kwin_ram_dialog.py, line: 128
+msgid "Baloo File Indexer"
+msgstr "Baloo File Indexer"
+
+#
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/usability/kwin_ram_dialog.py, line: 129
+msgid "File search indexing service"
+msgstr "File search indexing service"
+
+#
+# #-#-#-#-#  biglinux-settings.pot (biglinux-settings)  #-#-#-#-#
+#
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/usability/kwin_ram_dialog.py, line: 141
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/usability/gamemode_dialog.py, line: 219
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/usability/gamemode_dialog.py, line: 262
+msgid "Akonadi Server"
+msgstr "Akonadi Server"
+
+#
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/usability/kwin_ram_dialog.py, line: 142
+msgid "PIM storage service (Contacts, Calendar)"
+msgstr "PIM storage service (Contacts, Calendar)"
+
+#
+# #-#-#-#-#  biglinux-settings.pot (biglinux-settings)  #-#-#-#-#
+#
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/usability/kwin_ram_dialog.py, line: 154
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/usability/gamemode_dialog.py, line: 225
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/usability/gamemode_dialog.py, line: 268
+msgid "S.M.A.R.T Monitor"
+msgstr "S.M.A.R.T Monitor"
+
+#
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/usability/kwin_ram_dialog.py, line: 155
+msgid "Disk health monitoring daemon"
+msgstr "Disk health monitoring daemon"
+
+#
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/usability/kwin_ram_dialog.py, line: 167
+msgid "Cache Management"
+msgstr "Cache Management"
+
+#
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/usability/kwin_ram_dialog.py, line: 168
+msgid "Clear system memory caches"
+msgstr "Clear system memory caches"
+
+#
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/usability/kwin_ram_dialog.py, line: 173
+msgid "Clear RAM Cache"
+msgstr "Clear RAM Cache"
+
+#
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/usability/kwin_ram_dialog.py, line: 174
+msgid "Free memory marked as Buff/Cache (requires sudo)"
+msgstr "Free memory marked as Buff/Cache (requires sudo)"
+
+#
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/usability/kwin_ram_dialog.py, line: 177
+msgid "Clean Now"
+msgstr "Clean Now"
+
+#
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/usability/kwin_ram_dialog.py, line: 195
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/usability/kwin_ram_dialog.py, line: 282
+msgid "Ready"
+msgstr "Ready"
+
+#
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/usability/kwin_ram_dialog.py, line: 215
+msgid "Loading..."
+msgstr "Loading..."
+
+#
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/usability/kwin_ram_dialog.py, line: 261
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/usability/kwin_ram_dialog.py, line: 268
+msgid "Not installed"
+msgstr "Not installed"
+
+#
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/usability/kwin_ram_dialog.py, line: 345
+msgid "Enabling Performance Mode..."
+msgstr "Enabling Performance Mode..."
+
+#
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/usability/kwin_ram_dialog.py, line: 349
+msgid "Performance Mode Active"
+msgstr "Performance Mode Active"
+
+#
+# #-#-#-#-#  biglinux-settings.pot (biglinux-settings)  #-#-#-#-#
+#
+# #-#-#-#-#  biglinux-settings.pot (biglinux-settings)  #-#-#-#-#
+#
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/usability/kwin_ram_dialog.py, line: 361
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/usability/kwin_ram_dialog.py, line: 383
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/usability/kwin_ram_dialog.py, line: 402
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/usability/kwin_ram_dialog.py, line: 420
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/usability/kwin_ram_dialog.py, line: 438
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/usability/kwin_ram_dialog.py, line: 456
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/usability/kwin_ram_dialog.py, line: 474
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/usability/gamemode_dialog.py, line: 108
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system/recent_files_dialog.py, line: 193
+msgid "Failed"
+msgstr "Failed"
+
+#
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/usability/kwin_ram_dialog.py, line: 367
+msgid "Restoring Desktop Mode..."
+msgstr "Restoring Desktop Mode..."
+
+#
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/usability/kwin_ram_dialog.py, line: 371
+msgid "Desktop Mode Restored"
+msgstr "Desktop Mode Restored"
+
+#
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/usability/kwin_ram_dialog.py, line: 395
+msgid "Toggling Effects..."
+msgstr "Toggling Effects..."
+
+#
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/usability/kwin_ram_dialog.py, line: 400
+msgid "Effects {}"
+msgstr "Effects {}"
+
+#
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/usability/kwin_ram_dialog.py, line: 400
+msgid "enabled"
+msgstr "enabled"
+
+#
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/usability/kwin_ram_dialog.py, line: 400
+msgid "disabled"
+msgstr "disabled"
+
+#
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/usability/kwin_ram_dialog.py, line: 413
+msgid "Updating Compositor..."
+msgstr "Updating Compositor..."
+
+#
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/usability/kwin_ram_dialog.py, line: 418
+msgid "Compositor settings updated"
+msgstr "Compositor settings updated"
+
+#
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/usability/kwin_ram_dialog.py, line: 431
+msgid "Toggling Baloo..."
+msgstr "Toggling Baloo..."
+
+#
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/usability/kwin_ram_dialog.py, line: 436
+msgid "Baloo {}"
+msgstr "Baloo {}"
+
+#
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/usability/kwin_ram_dialog.py, line: 436
+msgid "resumed"
+msgstr "resumed"
+
+#
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/usability/kwin_ram_dialog.py, line: 436
+msgid "suspended"
+msgstr "suspended"
+
+#
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/usability/kwin_ram_dialog.py, line: 449
+msgid "Toggling Akonadi..."
+msgstr "Toggling Akonadi..."
+
+#
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/usability/kwin_ram_dialog.py, line: 454
+msgid "Akonadi {}"
+msgstr "Akonadi {}"
+
+#
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/usability/kwin_ram_dialog.py, line: 454
+msgid "started"
+msgstr "started"
+
+#
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/usability/kwin_ram_dialog.py, line: 454
+msgid "stopped"
+msgstr "stopped"
+
+#
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/usability/kwin_ram_dialog.py, line: 467
+msgid "Toggling SMART Monitor..."
+msgstr "Toggling SMART Monitor..."
+
+#
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/usability/kwin_ram_dialog.py, line: 472
+msgid "SMART {}"
+msgstr "SMART {}"
+
+#
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/usability/kwin_ram_dialog.py, line: 472
+msgid "loaded"
+msgstr "loaded"
+
+#
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/usability/kwin_ram_dialog.py, line: 472
+msgid "unloaded"
+msgstr "unloaded"
+
+#
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/usability/kwin_ram_dialog.py, line: 482
+msgid "Cleaning Cache..."
+msgstr "Cleaning Cache..."
+
+#
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/usability/kwin_ram_dialog.py, line: 488
+msgid "Cache cleaned successfully!"
+msgstr "Cache cleaned successfully!"
+
+#
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/usability/kwin_ram_dialog.py, line: 490
+msgid "Failed to clean cache"
+msgstr "Failed to clean cache"
+
+#
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/usability/gamemode_config_dialog.py, line: 18
+msgid "Game Mode Booster Configuration"
+msgstr "Game Mode Booster Configuration"
+
+#
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/usability/gamemode_config_dialog.py, line: 77
+msgid "Optimizations"
+msgstr "Optimizations"
+
+#
+# #-#-#-#-#  biglinux-settings.pot (biglinux-settings)  #-#-#-#-#
+#
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/usability/gamemode_config_dialog.py, line: 82
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/usability/gamemode_dialog.py, line: 189
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/usability/gamemode_dialog.py, line: 232
+msgid "GameMode Daemon"
+msgstr "GameMode Daemon"
+
+#
+# #-#-#-#-#  biglinux-settings.pot (biglinux-settings)  #-#-#-#-#
+#
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/usability/gamemode_config_dialog.py, line: 83
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/usability/gamemode_dialog.py, line: 190
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/usability/gamemode_dialog.py, line: 233
+msgid "System-wide performance daemon"
+msgstr "System-wide performance daemon"
+
+#
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/usability/gamemode_config_dialog.py, line: 91
+msgid "Disable Visual Effects"
+msgstr "Disable Visual Effects"
+
+#
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/usability/gamemode_config_dialog.py, line: 92
+msgid "Turn off KWin effects (blur, shadows, animations)"
+msgstr "Turn off KWin effects (blur, shadows, animations)"
+
+#
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/usability/gamemode_config_dialog.py, line: 101
+msgid "Low latency, allow tearing, no animations"
+msgstr "Low latency, allow tearing, no animations"
+
+#
+# #-#-#-#-#  biglinux-settings.pot (biglinux-settings)  #-#-#-#-#
+#
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/usability/gamemode_config_dialog.py, line: 109
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/usability/gamemode_dialog.py, line: 207
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/usability/gamemode_dialog.py, line: 250
+msgid "GPU Maximum Performance"
+msgstr "GPU Maximum Performance"
+
+#
+# #-#-#-#-#  biglinux-settings.pot (biglinux-settings)  #-#-#-#-#
+#
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/usability/gamemode_config_dialog.py, line: 110
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/usability/gamemode_dialog.py, line: 208
+msgid "Force maximum performance mode (NVIDIA/AMD)"
+msgstr "Force maximum performance mode (NVIDIA/AMD)"
+
+#
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/usability/gamemode_config_dialog.py, line: 118
+msgid "Suspend Baloo Indexer"
+msgstr "Suspend Baloo Indexer"
+
+#
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/usability/gamemode_config_dialog.py, line: 119
+msgid "Stop file indexing service"
+msgstr "Stop file indexing service"
+
+#
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/usability/gamemode_config_dialog.py, line: 127
+msgid "Stop Akonadi Server"
+msgstr "Stop Akonadi Server"
+
+#
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/usability/gamemode_config_dialog.py, line: 128
+msgid "Stop PIM storage service"
+msgstr "Stop PIM storage service"
+
+#
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/usability/gamemode_config_dialog.py, line: 136
+msgid "Unload S.M.A.R.T Monitor"
+msgstr "Unload S.M.A.R.T Monitor"
+
+#
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/usability/gamemode_config_dialog.py, line: 137
+msgid "Stop disk health monitoring"
+msgstr "Stop disk health monitoring"
+
+#
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/usability/gamemode_config_dialog.py, line: 158
+msgid "Apply Optimizations"
+msgstr "Apply Optimizations"
+
+#
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/usability/gamemode_dialog.py, line: 25
+msgid "Game Mode Booster Activation"
+msgstr "Game Mode Booster Activation"
+
+#
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/usability/gamemode_dialog.py, line: 25
+msgid "Game Mode Booster Deactivation"
+msgstr "Game Mode Booster Deactivation"
+
+#
+# #-#-#-#-#  biglinux-settings.pot (biglinux-settings)  #-#-#-#-#
+#
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/usability/gamemode_dialog.py, line: 34
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system/recent_files_dialog.py, line: 64
+msgid "Initializing..."
+msgstr "Initializing..."
+
+#
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/usability/gamemode_dialog.py, line: 59
+msgid "Optimizing system..."
+msgstr "Optimizing system..."
+
+#
+# #-#-#-#-#  biglinux-settings.pot (biglinux-settings)  #-#-#-#-#
+#
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/usability/gamemode_dialog.py, line: 101
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system/recent_files_dialog.py, line: 186
+msgid "Cancelled"
+msgstr "Cancelled"
+
+#
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/usability/gamemode_dialog.py, line: 102
+msgid "Authentication was cancelled."
+msgstr "Authentication was cancelled."
+
+#
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/usability/gamemode_dialog.py, line: 109
+msgid "Process failed. Check logs."
+msgstr "Process failed. Check logs."
+
+#
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/usability/gamemode_dialog.py, line: 164
+msgid "Applied Optimizations"
+msgstr "Applied Optimizations"
+
+#
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/usability/gamemode_dialog.py, line: 165
+msgid "The following changes were applied to your system"
+msgstr "The following changes were applied to your system"
+
+#
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/usability/gamemode_dialog.py, line: 167
+msgid "Restored Settings"
+msgstr "Restored Settings"
+
+#
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/usability/gamemode_dialog.py, line: 168
+msgid "The following settings were restored"
+msgstr "The following settings were restored"
+
+#
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/usability/gamemode_dialog.py, line: 192
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/usability/gamemode_dialog.py, line: 259
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/usability/gamemode_dialog.py, line: 271
+msgid "Active"
+msgstr "Active"
+
+#
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/usability/gamemode_dialog.py, line: 196
+msgid "All KWin effects disabled"
+msgstr "All KWin effects disabled"
+
+#
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/usability/gamemode_dialog.py, line: 198
+msgid "OFF"
+msgstr "OFF"
+
+#
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/usability/gamemode_dialog.py, line: 201
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/usability/gamemode_dialog.py, line: 244
+msgid "Compositor"
+msgstr "Compositor"
+
+#
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/usability/gamemode_dialog.py, line: 202
+msgid "Low latency, tearing allowed, animations = 0"
+msgstr "Low latency, tearing allowed, animations = 0"
+
+#
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/usability/gamemode_dialog.py, line: 204
+msgid "Performance"
+msgstr "Performance"
+
+#
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/usability/gamemode_dialog.py, line: 210
+msgid "Max Perf"
+msgstr "Max Perf"
+
+#
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/usability/gamemode_dialog.py, line: 213
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/usability/gamemode_dialog.py, line: 256
+msgid "Baloo Indexer"
+msgstr "Baloo Indexer"
+
+#
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/usability/gamemode_dialog.py, line: 214
+msgid "File indexing suspended"
+msgstr "File indexing suspended"
+
+#
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/usability/gamemode_dialog.py, line: 216
+msgid "Suspended"
+msgstr "Suspended"
+
+#
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/usability/gamemode_dialog.py, line: 220
+msgid "PIM storage service stopped"
+msgstr "PIM storage service stopped"
+
+#
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/usability/gamemode_dialog.py, line: 222
+msgid "Stopped"
+msgstr "Stopped"
+
+#
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/usability/gamemode_dialog.py, line: 226
+msgid "Disk health monitoring unloaded"
+msgstr "Disk health monitoring unloaded"
+
+#
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/usability/gamemode_dialog.py, line: 228
+msgid "Unloaded"
+msgstr "Unloaded"
+
+#
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/usability/gamemode_dialog.py, line: 235
+msgid "Inactive"
+msgstr "Inactive"
+
+#
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/usability/gamemode_dialog.py, line: 239
+msgid "All KWin effects restored"
+msgstr "All KWin effects restored"
+
+#
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/usability/gamemode_dialog.py, line: 241
+msgid "ON"
+msgstr "ON"
+
+#
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/usability/gamemode_dialog.py, line: 245
+msgid "Balanced latency, animations restored"
+msgstr "Balanced latency, animations restored"
+
+#
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/usability/gamemode_dialog.py, line: 247
+msgid "Balanced"
+msgstr "Balanced"
+
+#
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/usability/gamemode_dialog.py, line: 251
+msgid "Restored to auto/balanced mode"
+msgstr "Restored to auto/balanced mode"
+
+#
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/usability/gamemode_dialog.py, line: 253
+msgid "Auto"
+msgstr "Auto"
+
+#
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/usability/gamemode_dialog.py, line: 257
+msgid "File indexing resumed"
+msgstr "File indexing resumed"
+
+#
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/usability/gamemode_dialog.py, line: 263
+msgid "PIM storage service restored"
+msgstr "PIM storage service restored"
+
+#
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/usability/gamemode_dialog.py, line: 265
+msgid "Restored"
+msgstr "Restored"
+
+#
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/usability/gamemode_dialog.py, line: 269
+msgid "Disk health monitoring restored"
+msgstr "Disk health monitoring restored"
+
+#
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/usability/gamemode_dialog.py, line: 283
+msgid "Configure Steam Games"
+msgstr "Configure Steam Games"
+
+#
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/ai_page.py, line: 29
+msgid "Artificial Intelligence"
+msgstr "Artificial Intelligence"
+
+#
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/ai_page.py, line: 31
+msgid "AI settings and tools"
+msgstr "AI settings and tools"
+
+#
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/ai_page.py, line: 37
+msgid "Generative AI for Krita"
+msgstr "Generative AI for Krita"
+
+#
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/ai_page.py, line: 38
+msgid ""
+"This is a plugin to use generative AI in painting and image editing "
+"workflows directly in Krita."
+msgstr ""
+"This is a plugin to use generative AI in painting and image editing "
+"workflows directly in Krita."
+
+#
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/ai_page.py, line: 46
+msgid "ChatAI"
+msgstr "ChatAI"
+
+#
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/ai_page.py, line: 47
+msgid "A variety of chats like Plasmoid for your KDE Plasma desktop."
+msgstr "A variety of chats like Plasmoid for your KDE Plasma desktop."
+
+#
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/ai_page.py, line: 59
+msgid "ChatAI Requirements"
+msgstr "ChatAI Requirements"
+
+#
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/ai_page.py, line: 60
+msgid ""
+"This resource requires at least 16 GB of RAM and is not recommended for "
+"legacy computers."
+msgstr ""
+"This resource requires at least 16 GB of RAM and is not recommended for "
+"legacy computers."
+
+#
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/ai_page.py, line: 63
+msgid "Accept"
+msgstr "Accept"
+
+#
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/ai_page.py, line: 90
+msgid "Restart Plasma Shell"
+msgstr "Restart Plasma Shell"
+
+#
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/ai_page.py, line: 91
+msgid ""
+"To apply changes, it is recommended to restart Plasma Shell. Do you want to "
+"restart it now?"
+msgstr ""
+"To apply changes, it is recommended to restart Plasma Shell. Do you want to "
+"restart it now?"
+
+#
+# #-#-#-#-#  biglinux-settings.pot (biglinux-settings)  #-#-#-#-#
+#
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/ai_page.py, line: 93
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_usability_page.py, line: 291
+msgid "No"
+msgstr "No"
+
+#
+# #-#-#-#-#  biglinux-settings.pot (biglinux-settings)  #-#-#-#-#
+#
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/ai_page.py, line: 94
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_usability_page.py, line: 292
+msgid "Yes"
+msgstr "Yes"
+
+#
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/ai_page.py, line: 125
+msgid "Disable Krita AI"
+msgstr "Disable Krita AI"
+
+#
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/ai_page.py, line: 126
+msgid "How do you want to disable/remove the plugin?"
+msgstr "How do you want to disable/remove the plugin?"
+
+#
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/ai_page.py, line: 129
+msgid "Disable Only"
+msgstr "Disable Only"
+
+#
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/ai_page.py, line: 130
+msgid "Remove Krita & Data"
+msgstr "Remove Krita & Data"
+
+#
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/containers_page.py, line: 20
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/containers_page.py, line: 28
+msgid "Docker"
+msgstr "Docker"
+
+#
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/containers_page.py, line: 22
+msgid "Container service - enable to use containers below"
+msgstr "Container service - enable to use containers below"
+
+#
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/containers_page.py, line: 29
+msgid "Docker Enabled."
+msgstr "Docker Enabled."
+
+#
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/containers_page.py, line: 38
+msgid "Manage container technologies"
+msgstr "Manage container technologies"
+
+#
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/containers_page.py, line: 44
+msgid "Nextcloud Plus"
+msgstr "Nextcloud Plus"
+
+#
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/containers_page.py, line: 45
+msgid "Nextcloud Plus container."
+msgstr "Nextcloud Plus container."
+
+#
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/containers_page.py, line: 53
+msgid "AdGuard"
+msgstr "AdGuard"
+
+#
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/containers_page.py, line: 54
+msgid "AdGuard Home container."
+msgstr "AdGuard Home container."
+
+#
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/containers_page.py, line: 62
+msgid "Django"
+msgstr "Django"
+
+#
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/containers_page.py, line: 63
+msgid "Django developer environment."
+msgstr "Django developer environment."
+
+#
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/containers_page.py, line: 71
+msgid "Duplicati"
+msgstr "Duplicati"
+
+#
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/containers_page.py, line: 72
+msgid "Duplicati backup solution."
+msgstr "Duplicati backup solution."
+
+#
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/containers_page.py, line: 80
+msgid "Jellyfin"
+msgstr "Jellyfin"
+
+#
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/containers_page.py, line: 81
+msgid "Jellyfin media server."
+msgstr "Jellyfin media server."
+
+#
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/containers_page.py, line: 89
+msgid "LAMP"
+msgstr "LAMP"
+
+#
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/containers_page.py, line: 90
+msgid "LAMP stack (Linux, Apache, MySQL, PHP)."
+msgstr "LAMP stack (Linux, Apache, MySQL, PHP)."
+
+#
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/containers_page.py, line: 98
+msgid "Portainer Client"
+msgstr "Portainer Client"
+
+#
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/containers_page.py, line: 99
+msgid "Portainer Agent for cluster management."
+msgstr "Portainer Agent for cluster management."
+
+#
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/containers_page.py, line: 107
+msgid "SWS"
+msgstr "SWS"
+
+#
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/containers_page.py, line: 108
+msgid "SWS static web server."
+msgstr "SWS static web server."
+
+#
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/containers_page.py, line: 116
+msgid "V2RayA"
+msgstr "V2RayA"
+
+#
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/containers_page.py, line: 117
+msgid "V2RayA network tool."
+msgstr "V2RayA network tool."
+
+#
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system/recent_files_dialog.py, line: 27
+msgid "Enabling Recent Files & Locations"
+msgstr "Enabling Recent Files & Locations"
+
+#
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system/recent_files_dialog.py, line: 27
+msgid "Disabling Recent Files & Locations"
+msgstr "Disabling Recent Files & Locations"
+
+#
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system/recent_files_dialog.py, line: 48
+msgid "Starting..."
+msgstr "Starting..."
+
+#
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system/recent_files_dialog.py, line: 130
+msgid "Starting process..."
+msgstr "Starting process..."
+
+#
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system/recent_files_dialog.py, line: 187
+msgid "Operation was cancelled."
+msgstr "Operation was cancelled."
+
+#
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system/recent_files_dialog.py, line: 194
+msgid "Process failed. Check details for more info."
+msgstr "Process failed. Check details for more info."
+
+#
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system/recent_files_dialog.py, line: 203
+msgid "Recent Files & Locations Enabled"
+msgstr "Recent Files & Locations Enabled"
+
+#
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system/recent_files_dialog.py, line: 206
+msgid "Recent Files & Locations Disabled"
+msgstr "Recent Files & Locations Disabled"
+
+#
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system/recent_files_dialog.py, line: 223
+msgid "Important"
+msgstr "Important"
+
+#
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system/recent_files_dialog.py, line: 231
+msgid "• To fully apply changes, restart your computer."
+msgstr "• To fully apply changes, restart your computer."
+
+#
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system/recent_files_dialog.py, line: 237
+msgid ""
+"• Dolphin creates a visual cache. Close it completely and reopen for recent "
+"files/locations to appear."
+msgstr ""
+"• Dolphin creates a visual cache. Close it completely and reopen for recent "
+"files/locations to appear."
+
+#
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/devices/jamesdsp_dialog.py, line: 18
+msgid "JamesDSP Preset Selector"
+msgstr "JamesDSP Preset Selector"
+
+#
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/devices/jamesdsp_dialog.py, line: 34
+msgid "JamesDSP Presets"
+msgstr "JamesDSP Presets"
+
+#
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/devices/jamesdsp_dialog.py, line: 64
+msgid "Refresh"
+msgstr "Refresh"
+
+#
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/devices/jamesdsp_dialog.py, line: 94
+msgid "Unknown error"
+msgstr "Unknown error"
+
+#
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/devices/jamesdsp_dialog.py, line: 96
+msgid "Error fetching presets"
+msgstr "Error fetching presets"
+
+#
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/devices/jamesdsp_dialog.py, line: 100
+msgid "❌ Error loading presets"
+msgstr "❌ Error loading presets"
+
+#
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/devices/jamesdsp_dialog.py, line: 116
+msgid "No presets found"
+msgstr "No presets found"
+
+#
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/devices/jamesdsp_dialog.py, line: 118
+msgid "No presets available"
+msgstr "No presets available"
+
+#
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/devices/jamesdsp_dialog.py, line: 133
+msgid "Load {}"
+msgstr "Load {}"
+
+#
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/devices/jamesdsp_dialog.py, line: 139
+msgid "✅ Found {} presets"
+msgstr "✅ Found {} presets"
+
+#
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/devices/jamesdsp_dialog.py, line: 142
+msgid "JamesDSP not installed"
+msgstr "JamesDSP not installed"
+
+#
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/devices/jamesdsp_dialog.py, line: 144
+msgid "❌ JamesDSP not found"
+msgstr "❌ JamesDSP not found"
+
+#
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/devices/jamesdsp_dialog.py, line: 146
+msgid "Error: {}"
+msgstr "Error: {}"
+
+#
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/devices/jamesdsp_dialog.py, line: 148
+msgid "❌ Error"
+msgstr "❌ Error"
+
+#
+# #-#-#-#-#  biglinux-settings.pot (biglinux-settings)  #-#-#-#-#
+#
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/devices/jamesdsp_dialog.py, line: 185
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/devices/jamesdsp_dialog.py, line: 198
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_usability_page.py, line: 327
+msgid "Error"
+msgstr "Error"
+
+#
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/devices/jamesdsp_dialog.py, line: 186
+msgid ""
+"Failed to load preset:\n"
+"\n"
+"{}"
+msgstr ""
+"Failed to load preset:\n"
+"\n"
+"{}"
+
+#
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/devices/jamesdsp_dialog.py, line: 191
+msgid "Success"
+msgstr "Success"
+
+#
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/devices/jamesdsp_dialog.py, line: 192
+msgid "Preset '{}' loaded successfully!"
+msgstr "Preset '{}' loaded successfully!"
+
+#
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/devices/jamesdsp_dialog.py, line: 194
+msgid "Preset '{}' loaded"
+msgstr "Preset '{}' loaded"
+
+#
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/devices/jamesdsp_dialog.py, line: 199
+msgid ""
+"Exception loading preset:\n"
+"{}"
+msgstr ""
+"Exception loading preset:\n"
+"{}"
+
+#
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/devices/jamesdsp_dialog.py, line: 208
+msgid "OK"
+msgstr "OK"
+
+#
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/devices/keyboard_led_dialog.py, line: 38
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/devices/keyboard_led_dialog.py, line: 117
+msgid "LED Master"
+msgstr "LED Master"
+
+#
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/devices/keyboard_led_dialog.py, line: 122
+msgid "Advanced Keyboard LED Control"
+msgstr "Advanced Keyboard LED Control"
+
+#
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/devices/keyboard_led_dialog.py, line: 129
+msgid ""
+"This wizard will help you configure your keyboard LED.\n"
+"\n"
+"We will:\n"
+"• Detect available LED devices\n"
+"• Test each device to find your keyboard LED\n"
+"• Configure options like hotkeys and autostart"
+msgstr ""
+"This wizard will help you configure your keyboard LED.\n"
+"\n"
+"We will:\n"
+"• Detect available LED devices\n"
+"• Test each device to find your keyboard LED\n"
+"• Configure options like hotkeys and autostart"
+
+#
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/devices/keyboard_led_dialog.py, line: 142
+msgid "Session: {}"
+msgstr "Session: {}"
+
+#
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/devices/keyboard_led_dialog.py, line: 154
+msgid "Start Configuration"
+msgstr "Start Configuration"
+
+#
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/devices/keyboard_led_dialog.py, line: 174
+msgid "Did the LED turn on?"
+msgstr "Did the LED turn on?"
+
+#
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/devices/keyboard_led_dialog.py, line: 223
+msgid "No, try next"
+msgstr "No, try next"
+
+#
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/devices/keyboard_led_dialog.py, line: 229
+msgid "Yes, this is my LED!"
+msgstr "Yes, this is my LED!"
+
+#
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/devices/keyboard_led_dialog.py, line: 242
+msgid "Additional Options"
+msgstr "Additional Options"
+
+#
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/devices/keyboard_led_dialog.py, line: 249
+msgid "Settings"
+msgstr "Settings"
+
+#
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/devices/keyboard_led_dialog.py, line: 254
+msgid "Apply Scroll Lock Fix"
+msgstr "Apply Scroll Lock Fix"
+
+#
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/devices/keyboard_led_dialog.py, line: 255
+msgid "Fix for keyboards where Scroll Lock doesn't work properly (xmodmap)"
+msgstr "Fix for keyboards where Scroll Lock doesn't work properly (xmodmap)"
+
+#
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/devices/keyboard_led_dialog.py, line: 260
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/devices/keyboard_led_dialog.py, line: 285
+msgid "Only available on X11 sessions"
+msgstr "Only available on X11 sessions"
+
+#
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/devices/keyboard_led_dialog.py, line: 266
+msgid "Start with System"
+msgstr "Start with System"
+
+#
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/devices/keyboard_led_dialog.py, line: 267
+msgid "Turn on LED automatically when you log in"
+msgstr "Turn on LED automatically when you log in"
+
+#
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/devices/keyboard_led_dialog.py, line: 274
+msgid "Keyboard Shortcut"
+msgstr "Keyboard Shortcut"
+
+#
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/devices/keyboard_led_dialog.py, line: 279
+msgid "Toggle LED Hotkey"
+msgstr "Toggle LED Hotkey"
+
+#
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/devices/keyboard_led_dialog.py, line: 280
+msgid "Press a key to toggle the LED on/off"
+msgstr "Press a key to toggle the LED on/off"
+
+#
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/devices/keyboard_led_dialog.py, line: 288
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/devices/keyboard_led_dialog.py, line: 677
+msgid "Not set"
+msgstr "Not set"
+
+#
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/devices/keyboard_led_dialog.py, line: 297
+msgid "Set hotkey"
+msgstr "Set hotkey"
+
+#
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/devices/keyboard_led_dialog.py, line: 311
+msgid "Back"
+msgstr "Back"
+
+#
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/devices/keyboard_led_dialog.py, line: 316
+msgid "Finish Configuration"
+msgstr "Finish Configuration"
+
+#
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/devices/keyboard_led_dialog.py, line: 336
+msgid "Press the desired key"
+msgstr "Press the desired key"
+
+#
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/devices/keyboard_led_dialog.py, line: 342
+msgid ""
+"A small window will appear.\n"
+"Click on it and press the key you want to use\n"
+"to toggle the LED on/off."
+msgstr ""
+"A small window will appear.\n"
+"Click on it and press the key you want to use\n"
+"to toggle the LED on/off."
+
+#
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/devices/keyboard_led_dialog.py, line: 357
+msgid "Waiting..."
+msgstr "Waiting..."
+
+#
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/devices/keyboard_led_dialog.py, line: 387
+msgid "Configuration Complete!"
+msgstr "Configuration Complete!"
+
+#
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/devices/keyboard_led_dialog.py, line: 419
+msgid "Your keyboard LED is now configured and ready to use."
+msgstr "Your keyboard LED is now configured and ready to use."
+
+#
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/devices/keyboard_led_dialog.py, line: 428
+msgid "Done"
+msgstr "Done"
+
+#
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/devices/keyboard_led_dialog.py, line: 450
+msgid "No Compatible Device Found"
+msgstr "No Compatible Device Found"
+
+#
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/devices/keyboard_led_dialog.py, line: 456
+msgid ""
+"Could not find a compatible keyboard LED device.\n"
+"\n"
+"Troubleshooting tips:\n"
+"• Make sure your keyboard has LED support\n"
+"• Install brightnessctl: sudo pacman -S brightnessctl\n"
+"• On X11, xset is also used to control LEDs\n"
+"• Try running: brightnessctl -l"
+msgstr ""
+"Could not find a compatible keyboard LED device.\n"
+"\n"
+"Troubleshooting tips:\n"
+"• Make sure your keyboard has LED support\n"
+"• Install brightnessctl: sudo pacman -S brightnessctl\n"
+"• On X11, xset is also used to control LEDs\n"
+"• Try running: brightnessctl -l"
+
+#
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/devices/keyboard_led_dialog.py, line: 520
+msgid "Method: {}"
+msgstr "Method: {}"
+
+#
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/devices/keyboard_led_dialog.py, line: 521
+msgid "Testing {} of {}"
+msgstr "Testing {} of {}"
+
+#
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/devices/keyboard_led_dialog.py, line: 586
+msgid "Launching capture window..."
+msgstr "Launching capture window..."
+
+#
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/devices/keyboard_led_dialog.py, line: 607
+msgid "Key captured!"
+msgstr "Key captured!"
+
+#
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/devices/keyboard_led_dialog.py, line: 622
+msgid "No key detected"
+msgstr "No key detected"
+
+#
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/devices/keyboard_led_dialog.py, line: 626
+msgid "Timeout - no key pressed"
+msgstr "Timeout - no key pressed"
+
+#
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/devices/keyboard_led_dialog.py, line: 630
+msgid "Error capturing hotkey"
+msgstr "Error capturing hotkey"
+
+#
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/devices/keyboard_led_dialog.py, line: 670
+msgid "Device: {}"
+msgstr "Device: {}"
+
+#
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/devices/keyboard_led_dialog.py, line: 674
+msgid "Autostart enabled"
+msgstr "Autostart enabled"
+
+#
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/devices/keyboard_led_dialog.py, line: 676
+msgid "Scroll Lock fix applied"
+msgstr "Scroll Lock fix applied"
+
+#
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/devices/keyboard_led_dialog.py, line: 678
+msgid "Hotkey configured"
+msgstr "Hotkey configured"
+
+#
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/devices/keyboard_led_dialog.py, line: 680
+msgid "No additional options"
+msgstr "No additional options"
+
+#
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/devices/keyboard_led_dialog.py, line: 732
+msgid "LED Control"
+msgstr "LED Control"
+
+#
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/devices/keyboard_led_dialog.py, line: 753
+msgid "Reconfigure"
+msgstr "Reconfigure"
+
+#
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/devices/keyboard_led_dialog.py, line: 774
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/devices/keyboard_led_dialog.py, line: 845
+msgid "LED is OFF"
+msgstr "LED is OFF"
+
+#
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/devices/keyboard_led_dialog.py, line: 785
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/devices/keyboard_led_dialog.py, line: 846
+msgid "Turn ON"
+msgstr "Turn ON"
+
+#
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/devices/keyboard_led_dialog.py, line: 838
+msgid "LED is ON"
+msgstr "LED is ON"
+
+#
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/devices/keyboard_led_dialog.py, line: 839
+msgid "Turn OFF"
+msgstr "Turn OFF"
+
+#
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_usability_page.py, line: 41
+msgid "Usability"
+msgstr "Usability"
+
+#
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_usability_page.py, line: 43
+msgid "User and Visual system settings"
+msgstr "User and Visual system settings"
+
+#
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_usability_page.py, line: 58
+msgid "NumLock"
+msgstr "NumLock"
+
+#
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_usability_page.py, line: 59
+msgid "Initial NumLock state. Ignored if autologin is enabled."
+msgstr "Initial NumLock state. Ignored if autologin is enabled."
+
+#
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_usability_page.py, line: 66
+msgid "Window Button On Left Side"
+msgstr "Window Button On Left Side"
+
+#
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_usability_page.py, line: 67
+msgid "Maximize, minimize, and close buttons on the left side of the window."
+msgstr "Maximize, minimize, and close buttons on the left side of the window."
+
+#
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_usability_page.py, line: 74
+msgid "SSH until next reboot"
+msgstr "SSH until next reboot"
+
+#
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_usability_page.py, line: 75
+msgid "Enable remote access via ssh until next boot."
+msgstr "Enable remote access via ssh until next boot."
+
+#
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_usability_page.py, line: 83
+msgid "KZones"
+msgstr "KZones"
+
+#
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_usability_page.py, line: 84
+msgid ""
+"Script for the KWin window manager of the KDE Plasma desktop environment"
+msgstr ""
+"Script for the KWin window manager of the KDE Plasma desktop environment"
+
+#
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_usability_page.py, line: 94
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_usability_page.py, line: 182
+msgid "This feature is only available for KDE Plasma."
+msgstr "This feature is only available for KDE Plasma."
+
+#
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_usability_page.py, line: 100
+msgid "Game Mode Booster"
+msgstr "Game Mode Booster"
+
+#
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_usability_page.py, line: 101
+msgid ""
+"Combination of daemon and library that allows games to request a set of "
+"optimizations be temporarily applied to the operating system and/or the game "
+"process."
+msgstr ""
+"Combination of daemon and library that allows games to request a set of "
+"optimizations be temporarily applied to the operating system and/or the game "
+"process."
+
+#
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_usability_page.py, line: 109
+msgid "Instructions"
+msgstr "Instructions"
+
+#
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_usability_page.py, line: 123
 msgid "General system settings"
 msgstr "General system settings"
 
 #
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_usability_page.py, line: 147
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_usability_page.py, line: 128
 msgid "SSH always on"
 msgstr "SSH always on"
 
 #
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_usability_page.py, line: 148
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_usability_page.py, line: 129
 msgid "Turn on ssh remote access at boot."
 msgstr "Turn on ssh remote access at boot."
 
 #
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_usability_page.py, line: 154
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_usability_page.py, line: 136
 msgid "Fast Grub"
 msgstr "Fast Grub"
 
 #
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_usability_page.py, line: 155
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_usability_page.py, line: 137
 msgid "Decreases grub display time."
 msgstr "Decreases grub display time."
 
 #
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_usability_page.py, line: 161
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_usability_page.py, line: 144
 msgid "Auto-mount Partitions"
 msgstr "Auto-mount Partitions"
 
 #
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_usability_page.py, line: 162
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_usability_page.py, line: 145
 msgid "Auto mount partitions in internal disks on boot."
 msgstr "Auto mount partitions in internal disks on boot."
 
 #
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_usability_page.py, line: 169
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_usability_page.py, line: 153
 msgid "Meltdown Mitigations off"
 msgstr "Meltdown Mitigations off"
 
 #
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_usability_page.py, line: 170
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_usability_page.py, line: 154
 #, python-brace-format
 msgid ""
 "Using mitigations=off will make your machine faster and less secure! For "
@@ -559,12 +2211,12 @@ msgstr ""
 "more information see: <a href='{link}'>{link}</a>"
 
 #
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_usability_page.py, line: 176
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_usability_page.py, line: 161
 msgid "noWatchdog"
 msgstr "noWatchdog"
 
 #
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_usability_page.py, line: 177
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_usability_page.py, line: 162
 msgid ""
 "Disables the hardware watchdog and TSC clocksource systems, maintaining high "
 "performance but removing automatic protections against system crashes."
@@ -573,31 +2225,34 @@ msgstr ""
 "performance but removing automatic protections against system crashes."
 
 #
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_usability_page.py, line: 190
-msgid "Wifi"
-msgstr "Wifi"
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_usability_page.py, line: 170
+msgid "Recent Files & Locations"
+msgstr "Recent Files & Locations"
 
 #
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_usability_page.py, line: 191
-msgid "Wifi On"
-msgstr "Wifi On"
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_usability_page.py, line: 171
+msgid ""
+"Restores the 'Recent Files' and 'Recent Locations' functionality that "
+"appears empty in Dolphin and the Application Menu."
+msgstr ""
+"Restores the 'Recent Files' and 'Recent Locations' functionality that "
+"appears empty in Dolphin and the Application Menu."
 
 #
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_usability_page.py, line: 197
-msgid "Bluetooth"
-msgstr "Bluetooth"
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_usability_page.py, line: 283
+msgid "Failed to change Recent Files & Locations setting."
+msgstr "Failed to change Recent Files & Locations setting."
 
 #
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_usability_page.py, line: 198
-msgid "Bluetooth On."
-msgstr "Bluetooth On."
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_usability_page.py, line: 288
+msgid "Restart KWin?"
+msgstr "Restart KWin?"
 
 #
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_usability_page.py, line: 204
-msgid "Docker"
-msgstr "Docker"
-
-#
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_usability_page.py, line: 205
-msgid "Docker Enabled."
-msgstr "Docker Enabled."
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_usability_page.py, line: 289
+msgid ""
+"To apply the changes, the KWin window manager needs to be restarted. Do you "
+"want to restart it now?"
+msgstr ""
+"To apply the changes, the KWin window manager needs to be restarted. Do you "
+"want to restart it now?"
