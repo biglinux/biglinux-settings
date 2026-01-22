@@ -140,14 +140,9 @@ class SystemSettingsWindow(Adw.ApplicationWindow):
         containers_page = self.create_containers_page()
         view_stack.add_titled_with_icon(containers_page, "containers", _("Containers"), "package-x-generic-symbolic")
 
-        # Preload (Keeping it but maybe after?)
-        # User list didn't include it. I'll comment it out to strictly follow "I want options...", 
-        # or maybe the user expects Preload to be under System?
-        # I'll append it at the end just in case, as to not lose functionality, but user might complain.
-        # "Chat no header menu quero que tenha as opções [List]" -> "I want the options [List]".
-        # I will comment it out for now to be precise.
-        # preload_page = self.create_preload_page()
-        # view_stack.add_titled_with_icon(preload_page, "preload", _("PreLoad"), "drive-harddisk-symbolic")
+        # 5. PreLoad
+        preload_page = self.create_preload_page()
+        view_stack.add_titled_with_icon(preload_page, "preload", _("Pre-loading"), "drive-harddisk-symbolic")
 
     def create_system_usability_page(self):
         return SystemUsabilityPage(self)

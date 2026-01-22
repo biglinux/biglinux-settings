@@ -44,18 +44,30 @@ elif command -v balooctl &>/dev/null; then
     BALOO_CMD="balooctl"
 fi
 
+# Detect Akonadi (PIM Server)
+AKONADI_CMD=""
+if command -v akonadictl &>/dev/null; then
+    AKONADI_CMD="akonadictl"
+fi
+
 # Detect kwriteconfig (Plasma 5 vs 6)
 if command -v kwriteconfig6 &>/dev/null; then
     K_CONFIG="kwriteconfig6"
+    K_READ="kreadconfig6"
 elif command -v kwriteconfig5 &>/dev/null; then
     K_CONFIG="kwriteconfig5"
+    K_READ="kreadconfig5"
 else
     # Fallback or empty if not found
-    K_CONFIG="kwriteconfig5" 
+    K_CONFIG="kwriteconfig5"
+    K_READ="kreadconfig5"
 fi
 
 KWINRC="$USER_HOME/.config/kwinrc"
 GLOBALS="$USER_HOME/.config/kdeglobals"
+
+# List of Visual Effects to control
+EFFECTS=("wobblywindows" "blur" "backgroundcontrast" "slide" "fadingpopups" "maximize" "minimize" "dialogparent" "dimscreen" "blendchanges" "startupfeedback" "screentransform" "magiclamp" "squash")
 
 # --- Helper Functions ---
 
@@ -89,34 +101,29 @@ check_root() {
     fi
 }
 
-# --- Optimization Functions ---
+# Helper to check if effect is active
+is_effect_active() {
+    local status=$(run_as_user $QDBUS_CMD org.kde.KWin /Effects org.kde.kwin.Effects.isEffectLoaded "$1" 2>/dev/null)
+    [ "$status" == "true" ]
+}
 
-network_tweaks() {
-    MODE=$1
-    if [ "$MODE" == "enable" ]; then
-        log_action "[NETWORK] Enabling TCP BBR and FQ_CODEL (Anti-Lag)..."
-        
-        modprobe tcp_bbr 2>/dev/null
-        sysctl -w net.core.default_qdisc=fq_codel > /dev/null
-        sysctl -w net.ipv4.tcp_congestion_control=bbr > /dev/null
-        
-        WIFI_IFACE=$(iw dev | awk '$1=="Interface"{print $2}')
-        if [ ! -z "$WIFI_IFACE" ]; then
-            log_action "[NETWORK] Disabling Wi-Fi Power Save ($WIFI_IFACE)..."
-            iw dev $WIFI_IFACE set power_save off 2>/dev/null
-        fi
-        
+# Helper to check if process is active
+is_process_active() {
+    pgrep -f "$1" > /dev/null 2>&1
+}
+
+# Helper to run command as user
+run_as_user() {
+    if [ "$EUID" -eq 0 ]; then
+        sudo -u "$CURRENT_USER" DBUS_SESSION_BUS_ADDRESS="$DBUS_SESSION_BUS_ADDRESS" XDG_RUNTIME_DIR="$XDG_RUNTIME_DIR" "$@"
     else
-        log_action "[NETWORK] Restoring network defaults..."
-        sysctl -w net.core.default_qdisc=pfifo_fast > /dev/null
-        sysctl -w net.ipv4.tcp_congestion_control=cubic > /dev/null
-        
-        WIFI_IFACE=$(iw dev | awk '$1=="Interface"{print $2}')
-        if [ ! -z "$WIFI_IFACE" ]; then
-            iw dev $WIFI_IFACE set power_save on 2>/dev/null
-        fi
+        "$@"
     fi
 }
+
+# --- Optimization Functions ---
+
+
 
 gpu_tweaks() {
     MODE=$1
@@ -180,29 +187,26 @@ enable_boost() {
     progress 30
 
     # RAM
-    log_action "[RAM] Reducing Swappiness to 10..."
-    sysctl -w vm.swappiness=10 > /dev/null
+
+
+    # KDE/KWin Visual Effects - Direct Control
+    log_action "[GPU] Disabling KWin Visual Effects..."
+    for effect in "${EFFECTS[@]}"; do
+        run_as_user $QDBUS_CMD org.kde.KWin /Effects org.kde.kwin.Effects.unloadEffect "$effect" > /dev/null 2>&1
+    done
     progress 50
 
-    # DEEP KDE OPTIMIZATION (Via Python Helper)
-    SCRIPT_DIR=$(dirname "$0")
-    PYTHON_HELPER="$SCRIPT_DIR/kde_booster.py"
+    # Compositor Settings - Direct kwriteconfig
+    log_action "[COMPOSITOR] Applying Performance Settings..."
+    run_as_user $K_CONFIG --file kdeglobals --group KDE --key AnimationDurationFactor "0"
+    run_as_user $K_CONFIG --file kwinrc --group Plugins --key "kzonesEnabled" "false"
+    run_as_user $K_CONFIG --file kwinrc --group Plugins --key "poloniumEnabled" "false"
+    run_as_user $K_CONFIG --file kwinrc --group Compositing --key "LatencyPolicy" "Low"
+    run_as_user $K_CONFIG --file kwinrc --group Compositing --key "allowTearing" "true"
     
-    if [ -f "$PYTHON_HELPER" ]; then
-        log_action "[PLASMA] Running advanced KDE optimization..."
-        # Run as user, as these are user configs
-        sudo -u $CURRENT_USER python3 "$PYTHON_HELPER" on
-    fi
-
-    # Compositor & Reload (Legacy Fallback / Double Check)
-    if pgrep -x "kwin_x11" > /dev/null || pgrep -x "kwin_wayland" > /dev/null; then
-        log_action "[DESKTOP] Reloading KWin to apply changes..."
-        # Reconfigure call to apply kwriteconfig changes immediately
-        sudo -u $CURRENT_USER DBUS_SESSION_BUS_ADDRESS="$DBUS_SESSION_BUS_ADDRESS" XDG_RUNTIME_DIR="$XDG_RUNTIME_DIR" $QDBUS_CMD org.kde.KWin /KWin reconfigure > /dev/null 2>&1
-        # Explicit suspend call just in case
-        sudo -u $CURRENT_USER DBUS_SESSION_BUS_ADDRESS="$DBUS_SESSION_BUS_ADDRESS" XDG_RUNTIME_DIR="$XDG_RUNTIME_DIR" $QDBUS_CMD org.kde.KWin /Compositor suspend > /dev/null 2>&1
-    fi
-    progress 70
+    # Reconfigure KWin
+    run_as_user $QDBUS_CMD org.kde.KWin /KWin reconfigure > /dev/null 2>&1
+    progress 60
 
     # Baloo Indexer
     if [ -n "$BALOO_CMD" ]; then
@@ -215,9 +219,7 @@ enable_boost() {
     gpu_tweaks "enable"
     progress 80
 
-    # Network
-    network_tweaks "enable"
-    progress 90
+
     
     # GameMode Daemon
     log_action "[SYSTEM] Starting GameMode daemon..."
@@ -244,14 +246,14 @@ setup_gamemode_config() {
     # Build Start/End Commands
     # We use semicolons to chain commands in gamemode.ini
     
-    # 1. Compositor
-    GM_START="${QDBUS_CMD} org.kde.KWin /Compositor suspend"
-    GM_END="${QDBUS_CMD} org.kde.KWin /Compositor resume"
+    # 1. Compositor (Removed as per system default)
+    GM_START=""
+    GM_END=""
     
     # 2. Baloo
     if [ -n "$BALOO_CMD" ]; then
-        GM_START="${GM_START} ; ${BALOO_CMD} suspend"
-        GM_END="${GM_END} ; ${BALOO_CMD} resume"
+        GM_START="${BALOO_CMD} suspend"
+        GM_END="${BALOO_CMD} resume"
     fi
 
     # Write config
@@ -291,49 +293,72 @@ disable_boost() {
     done
     progress 30
 
-    # RAM
-    sysctl -w vm.swappiness=60 > /dev/null
+
+
+    # KDE/KWin Visual Effects - Restore
+    log_action "[GPU] Restoring KWin Visual Effects..."
+    for effect in "${EFFECTS[@]}"; do
+        run_as_user $QDBUS_CMD org.kde.KWin /Effects org.kde.kwin.Effects.loadEffect "$effect" > /dev/null 2>&1
+    done
     progress 50
 
-    # DEEP KDE RESTORATION (Via Python Helper)
-    SCRIPT_DIR=$(dirname "$0")
-    PYTHON_HELPER="$SCRIPT_DIR/kde_booster.py"
-
-    if [ -f "$PYTHON_HELPER" ]; then
-        log_action "[PLASMA] Restoring default configuration..."
-        sudo -u $CURRENT_USER python3 "$PYTHON_HELPER" off
-    fi
-
-    # Compositor Reload (Legacy Fallback)
-    log_action "[DESKTOP] Reloading KWin settings..."
-    sudo -u $CURRENT_USER DBUS_SESSION_BUS_ADDRESS="$DBUS_SESSION_BUS_ADDRESS" XDG_RUNTIME_DIR="$XDG_RUNTIME_DIR" $QDBUS_CMD org.kde.KWin /KWin reconfigure > /dev/null 2>&1
-    sudo -u $CURRENT_USER DBUS_SESSION_BUS_ADDRESS="$DBUS_SESSION_BUS_ADDRESS" XDG_RUNTIME_DIR="$XDG_RUNTIME_DIR" $QDBUS_CMD org.kde.KWin /Compositor resume > /dev/null 2>&1
+    # Compositor Settings - Restore Defaults
+    log_action "[COMPOSITOR] Restoring Desktop Settings..."
+    run_as_user $K_CONFIG --file kdeglobals --group KDE --key AnimationDurationFactor ""
+    run_as_user $K_CONFIG --file kwinrc --group Plugins --key "kzonesEnabled" "true"
+    run_as_user $K_CONFIG --file kwinrc --group Compositing --key "LatencyPolicy" "Balance"
+    run_as_user $K_CONFIG --file kwinrc --group Compositing --key "allowTearing" "false"
+    
+    # Reconfigure KWin
+    run_as_user $QDBUS_CMD org.kde.KWin /KWin reconfigure > /dev/null 2>&1
+    run_as_user $QDBUS_CMD org.kde.KWin /Compositor resume > /dev/null 2>&1
+    progress 60
     
     # Baloo
     if [ -n "$BALOO_CMD" ]; then
          log_action "[DESKTOP] Resuming File Indexer..."
-         sudo -u $CURRENT_USER DBUS_SESSION_BUS_ADDRESS="$DBUS_SESSION_BUS_ADDRESS" XDG_RUNTIME_DIR="$XDG_RUNTIME_DIR" $BALOO_CMD enable > /dev/null 2>&1
-         sudo -u $CURRENT_USER DBUS_SESSION_BUS_ADDRESS="$DBUS_SESSION_BUS_ADDRESS" XDG_RUNTIME_DIR="$XDG_RUNTIME_DIR" $BALOO_CMD resume > /dev/null 2>&1
+         run_as_user $BALOO_CMD enable > /dev/null 2>&1
+         run_as_user $BALOO_CMD resume > /dev/null 2>&1
     fi
     
     progress 70
 
+    # Stop GameMode Daemon
+    log_action "[SYSTEM] Stopping GameMode daemon..."
+    run_as_user systemctl --user stop gamemoded > /dev/null 2>&1
+    # Check if we should disable it too (optional, but requested)
+    # run_as_user systemctl --user disable gamemoded > /dev/null 2>&1
+
     # GPU & Network
     gpu_tweaks "disable"
     progress 80
-    network_tweaks "disable"
-    progress 90
+
 
     log_action "System Restored."
     progress 100
 }
 
 check_status() {
-    GOVERNOR=$(cat /sys/devices/system/cpu/cpu0/cpufreq/scaling_governor 2>/dev/null)
-    if [ "$GOVERNOR" == "performance" ]; then
-        echo "true"
+    # STRICT CHECK: Only consider active if our specific KDE optimizations are applied.
+    # We use AnimationDurationFactor=0 as the "signature" of our Game Mode.
+    
+    if [ -n "$K_READ" ]; then
+        ANIM_FACTOR=$(run_as_user $K_READ --file kdeglobals --group KDE --key AnimationDurationFactor 2>/dev/null)
+        if [ "$ANIM_FACTOR" == "0" ]; then
+            echo "true"
+        else
+            # If we are in KDE and animation is NOT 0, then our mode is NOT active.
+            # Even if CPU is high, it's not "Game Mode Booster" managing it.
+            echo "false"
+        fi
+        return
+    fi
+    
+    # Fallback for non-KDE (if ever used there): Check GameMode daemon status
+    if systemctl --user is-active gamemoded --quiet; then
+         echo "true"
     else
-        echo "false"
+         echo "false"
     fi
 }
 
@@ -345,20 +370,9 @@ generate_report_gui() {
     GOV=$(cat /sys/devices/system/cpu/cpu0/cpufreq/scaling_governor 2>/dev/null)
     echo "CPU Governor: $GOV"
 
-    SWAP=$(cat /proc/sys/vm/swappiness 2>/dev/null)
-    echo "Swappiness: $SWAP"
 
-    # Compositor Check - Suppress errors if method not found
-    RAW_SUSPEND=$(sudo -u $CURRENT_USER DBUS_SESSION_BUS_ADDRESS="$DBUS_SESSION_BUS_ADDRESS" XDG_RUNTIME_DIR="$XDG_RUNTIME_DIR" $QDBUS_CMD org.kde.KWin /Compositor isSuspended 2>/dev/null)
-    if [[ "$RAW_SUSPEND" == "true" || "$RAW_SUSPEND" == "false" ]]; then
-        IS_SUSPENDED="$RAW_SUSPEND"
-    else
-        IS_SUSPENDED="N/A"
-    fi
-    echo "Compositor Suspended: $IS_SUSPENDED"
 
-    TCP=$(sysctl -n net.ipv4.tcp_congestion_control 2>/dev/null)
-    echo "TCP Congestion: $TCP"
+
     
     GM_STATUS=$(sudo -u $CURRENT_USER DBUS_SESSION_BUS_ADDRESS="$DBUS_SESSION_BUS_ADDRESS" XDG_RUNTIME_DIR="$XDG_RUNTIME_DIR" systemctl --user is-active gamemoded 2>/dev/null)
     echo "GameMode Daemon: $GM_STATUS"
