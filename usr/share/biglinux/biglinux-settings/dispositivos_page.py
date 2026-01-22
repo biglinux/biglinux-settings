@@ -49,6 +49,15 @@ class DispositivosPage(BaseSettingsPage):
         
         # Keyboard LED - with custom handler
         self.keyboard_led_switch = self.create_keyboard_led_row(group)
+        
+        # Inverter rolagem do mouse
+        self.mouse_scroll_switch = self.create_row_with_clickable_link(
+            group,
+            _("Invert Mouse Scroll"),
+            _("Inverts mouse scrolling without restarting the session."),
+            "mouse_scroll",
+            icon_name="input-mouse"
+        )
     
     def create_jamesdsp_row(self, parent_group):
         """Create JamesDSP row with custom switch handling"""
@@ -147,12 +156,25 @@ class DispositivosPage(BaseSettingsPage):
         subtitle_label.add_css_class("dim-label")
         title_area.append(subtitle_label)
         
+        # Reconfigure button
+        script_path = os.path.join("system", "keyboard_led.sh")
+        
+        reconfigure_btn = Gtk.Button()
+        reconfigure_btn.set_icon_name("view-refresh-symbolic")
+        reconfigure_btn.add_css_class("flat")
+        reconfigure_btn.set_valign(Gtk.Align.CENTER)
+        reconfigure_btn.set_tooltip_text(_("Reconfigure LED device"))
+        reconfigure_btn.connect("clicked", self.on_keyboard_led_reconfigure_clicked, script_path)
+        main_box.append(reconfigure_btn)
+        
+        # Store reference to reconfigure button for visibility control
+        self.keyboard_led_reconfigure_btn = reconfigure_btn
+        
         # Switch
         switch = Gtk.Switch(valign=Gtk.Align.CENTER)
         main_box.append(switch)
         
         # Store reference for syncing
-        script_path = os.path.join("system", "keyboard_led.sh")
         self.switch_scripts[switch] = script_path
         
         # Connect custom handler
@@ -163,6 +185,28 @@ class DispositivosPage(BaseSettingsPage):
         
         parent_group.add(row)
         return switch
+    
+    def on_keyboard_led_reconfigure_clicked(self, button, script_path):
+        """Handle reconfigure button click - reset config and show wizard"""
+        # Reset configuration
+        try:
+            subprocess.run(
+                [script_path, "reset"],
+                capture_output=True,
+                timeout=5
+            )
+        except Exception as e:
+            print(f"Error resetting LED config: {e}")
+        
+        # Update switch state
+        if hasattr(self, 'keyboard_led_switch_ref'):
+            switch = self.keyboard_led_switch_ref
+            switch.handler_block_by_func(self.on_keyboard_led_switch_changed)
+            switch.set_active(False)
+            switch.handler_unblock_by_func(self.on_keyboard_led_switch_changed)
+        
+        # Show configuration dialog
+        self.show_keyboard_led_config_dialog(self.keyboard_led_switch_ref, script_path)
     
     def on_keyboard_led_switch_changed(self, switch, state):
         """Custom handler for Keyboard LED switch"""

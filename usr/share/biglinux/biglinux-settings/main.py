@@ -83,6 +83,10 @@ class SystemSettingsWindow(Adw.ApplicationWindow):
         .status-unavailable {
             background-color: @insensitive_fg_color;
         }
+        /* Increase header ViewSwitcher icon size */
+        viewswitcher > button image {
+            -gtk-icon-size: 24px;
+        }
         """
         provider.load_from_string(css)
         Gtk.StyleContext.add_provider_for_display(
