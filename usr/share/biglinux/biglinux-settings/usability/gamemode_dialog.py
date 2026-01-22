@@ -26,8 +26,10 @@ class GameModeDialog(Adw.Window):
         self.set_title(title)
 
         # Main content box
+        self.toast_overlay = Adw.ToastOverlay()
         self.main_box = Gtk.Box(orientation=Gtk.Orientation.VERTICAL, spacing=0)
-        self.set_content(self.main_box)
+        self.toast_overlay.set_child(self.main_box)
+        self.set_content(self.toast_overlay)
 
         # Status Page (Initially showing progress)
         self.status_page = Adw.StatusPage()
@@ -128,7 +130,7 @@ class GameModeDialog(Adw.Window):
     def show_report_view(self):
         # Clear main box
         self.main_box = Gtk.Box(orientation=Gtk.Orientation.VERTICAL, spacing=0)
-        self.set_content(self.main_box)
+        self.toast_overlay.set_child(self.main_box)
         
         # Header Bar with Icon
         header = Adw.HeaderBar()
@@ -309,11 +311,66 @@ class GameModeDialog(Adw.Window):
             dlg = SteamGamesDialog(parent=self)
             dlg.present()
         except Exception as e:
-            # Handle case where vdf or module is missing or other errors
-            d = Adw.MessageDialog(heading="Error", body=f"Cannot load Steam configuration tool: {e}")
-            d.add_response("ok", "OK")
-            d.set_transient_for(self)
-            d.present()
+            if "vdf" in str(e):
+                self.prompt_install_vdf()
+            else:
+                d = Adw.MessageDialog(heading="Error", body=f"Cannot load Steam configuration tool: {e}")
+                d.add_response("ok", "OK")
+                d.set_transient_for(self)
+                d.present()
+
+    def prompt_install_vdf(self):
+        d = Adw.MessageDialog(
+            heading=_("Missing Dependency"),
+            body=_("The 'vdf' module is required to configure Steam games. Do you want to install it now?")
+        )
+        d.add_response("cancel", _("Cancel"))
+        d.add_response("install", _("Install"))
+        d.set_response_appearance("install", Adw.ResponseAppearance.SUGGESTED)
+        d.set_transient_for(self)
+        d.connect("response", self.on_install_vdf_response)
+        d.present()
+
+    def on_install_vdf_response(self, dialog, response):
+        if response == "install":
+            self.install_vdf()
+        dialog.close()
+
+    def install_vdf(self):
+        # Show a installing toast or dialog
+        toast = Adw.Toast(title=_("Installing vdf module..."))
+        self.toast_overlay.add_toast(toast)
+        
+        def run_install():
+            try:
+                # Try pip install
+                cmd = ["pip", "install", "vdf", "--break-system-packages"]
+                subprocess.check_call(cmd)
+                GLib.idle_add(self.on_install_success)
+            except subprocess.CalledProcessError:
+                # If failed, try without break-system-packages or with --user
+                try:
+                    cmd = ["pip", "install", "--user", "vdf"]
+                    subprocess.check_call(cmd)
+                    GLib.idle_add(self.on_install_success)
+                except Exception as e:
+                    GLib.idle_add(self.on_install_error, str(e))
+            except Exception as e:
+                 GLib.idle_add(self.on_install_error, str(e))
+
+        threading.Thread(target=run_install, daemon=True).start()
+
+    def on_install_success(self):
+        toast = Adw.Toast(title=_("Module installed successfully!"))
+        self.toast_overlay.add_toast(toast)
+        # Retry opening
+        self.on_steam_config(None)
+
+    def on_install_error(self, error_msg):
+        d = Adw.MessageDialog(heading=_("Installation Failed"), body=f"Could not install vdf: {error_msg}")
+        d.add_response("ok", "OK")
+        d.set_transient_for(self)
+        d.present()
 
     def on_close(self, btn):
         self.close()
