@@ -158,6 +158,14 @@ msgstr "בלוטות'"
 msgid "Bluetooth On."
 msgstr "בלוטות' פועל."
 # 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/dispositivos_page.py, line: 56
+msgid "Invert Mouse Scroll"
+msgstr "הפוך גלילת עכבר"
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/dispositivos_page.py, line: 57
+msgid "Inverts mouse scrolling without restarting the session."
+msgstr "מחליף את גלילת העכבר ללא צורך בהפעלה מחדש של המושב."
+# 
 # #-#-#-#-#  biglinux-settings.pot (biglinux-settings)  #-#-#-#-#
 # 
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings/dispositivos_page.py, line: 77
@@ -176,6 +184,10 @@ msgstr "מקלדת עם LED"
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings/dispositivos_page.py, line: 144
 msgid "If your keyboard has LED you can enable this feature to turn it on with the system."
 msgstr "אם המקלדת שלך כוללת LED, תוכל להפעיל תכונה זו כדי להדליק אותה עם המערכת."
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/dispositivos_page.py, line: 166
+msgid "Reconfigure LED device"
+msgstr "שנה את תצורת מכשיר ה-LED"
 # 
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings/dispositivos_page.py, line: 237
 msgid "Error opening configuration dialog"
@@ -771,6 +783,52 @@ msgstr "V2RayA"
 msgid "V2RayA network tool."
 msgstr "כלי רשת V2RayA."
 # 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system/recent_files_dialog.py, line: 27
+msgid "Enabling Recent Files & Locations"
+msgstr "הפעלת קבצים ומיקומים אחרונים"
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system/recent_files_dialog.py, line: 27
+msgid "Disabling Recent Files & Locations"
+msgstr "השבתת קבצים ומיקומים אחרונים"
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system/recent_files_dialog.py, line: 48
+msgid "Starting..."
+msgstr "מתחיל..."
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system/recent_files_dialog.py, line: 130
+msgid "Starting process..."
+msgstr "מתחיל תהליך..."
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system/recent_files_dialog.py, line: 187
+msgid "Operation was cancelled."
+msgstr "הפעולה בוטלה."
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system/recent_files_dialog.py, line: 194
+msgid "Process failed. Check details for more info."
+msgstr "ההליך נכשל. בדוק את הפרטים למידע נוסף."
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system/recent_files_dialog.py, line: 203
+msgid "Recent Files & Locations Enabled"
+msgstr "קבצים ומיקומים אחרונים מופעלים"
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system/recent_files_dialog.py, line: 206
+msgid "Recent Files & Locations Disabled"
+msgstr "קבצים ומיקומים אחרונים מושבתים"
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system/recent_files_dialog.py, line: 223
+msgid "Important"
+msgstr "חשוב"
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system/recent_files_dialog.py, line: 231
+msgid "• To fully apply changes, restart your computer."
+msgstr "• כדי ליישם את השינויים במלואם, הפעל מחדש את המחשב שלך."
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system/recent_files_dialog.py, line: 237
+msgid ""
+"• Dolphin creates a visual cache. Close it completely and reopen for recent files/locations to "
+"appear."
+msgstr "• דולפין יוצר מטמון חזותי. סגור אותו לחלוטין ופתח מחדש כדי שהקבצים/מיקומים האחרונים יופיעו."
+# 
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings/devices/jamesdsp_dialog.py, line: 18
 msgid "JamesDSP Preset Selector"
 msgstr "בוחר פריסות JamesDSP"
@@ -866,41 +924,138 @@ msgstr ""
 # 
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings/devices/jamesdsp_dialog.py, line: 208
 # 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/devices/keyboard_led_dialog.py, line: 35
-msgid "Keyboard LED Configuration"
-msgstr "הגדרת נוריות מקלדת"
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/devices/keyboard_led_dialog.py, line: 38
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/devices/keyboard_led_dialog.py, line: 117
+msgid "LED Master"
+msgstr "מאסטר LED"
 # 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/devices/keyboard_led_dialog.py, line: 96
-msgid "Configure Keyboard LED"
-msgstr "הגדר נורית מקלדת"
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/devices/keyboard_led_dialog.py, line: 122
+msgid "Advanced Keyboard LED Control"
+msgstr "בקרת LED מתקדמת למקלדת"
 # 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/devices/keyboard_led_dialog.py, line: 102
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/devices/keyboard_led_dialog.py, line: 129
 msgid ""
-"We will test the available LED devices on your system.\n"
-"The script will turn on each device one by one so you can identify which one is your keyboard LED."
+"This wizard will help you configure your keyboard LED.\n"
+"\n"
+"We will:\n"
+"• Detect available LED devices\n"
+"• Test each device to find your keyboard LED\n"
+"• Configure options like hotkeys and autostart"
 msgstr ""
-"נבחן את מכשירי ה-LED הזמינים במערכת שלך. הסקריפט ידליק כל מכשיר אחד אחרי השני כך שתוכל לזהות איזה "
-"מהם הוא ה-LED של המקלדת שלך."
+"ה wizard הזה יעזור לך להגדיר את ה-LED של המקלדת שלך.\n"
+"\n"
+"אנחנו נ:\n"
+"• נזהה את מכשירי ה-LED הזמינים\n"
+"• נבדוק כל מכשיר כדי למצוא את ה-LED של המקלדת שלך\n"
+"• נבצע הגדרות כמו מקשי חם והפעלה אוטומטית"
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/devices/keyboard_led_dialog.py, line: 142
+msgid "Session: {}"
+msgstr "סשן: {}"
 # 
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings/devices/keyboard_led_dialog.py, line: 110
 msgid "Start Configuration"
 msgstr "התחל תצורה"
 # 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/devices/keyboard_led_dialog.py, line: 131
-msgid "Did the keyboard LED turn on?"
-msgstr "האם נורת ה-LED של המקלדת נדלקה?"
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/devices/keyboard_led_dialog.py, line: 174
+msgid "Did the LED turn on?"
+msgstr "האם ה-LED נדלק?"
 # 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/devices/keyboard_led_dialog.py, line: 157
-msgid "Yes, this is it!"
-msgstr "כן, זה זה!"
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/devices/keyboard_led_dialog.py, line: 223
+msgid "No, try next"
+msgstr "לא, נסה הבא."
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/devices/keyboard_led_dialog.py, line: 229
+msgid "Yes, this is my LED!"
+msgstr "כן, זה ה-LED שלי!"
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/devices/keyboard_led_dialog.py, line: 242
+msgid "Additional Options"
+msgstr "אפשרויות נוספות"
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/devices/keyboard_led_dialog.py, line: 249
+msgid "Settings"
+msgstr "הגדרות"
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/devices/keyboard_led_dialog.py, line: 254
+msgid "Apply Scroll Lock Fix"
+msgstr "החל תיקון נעילת גלילה"
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/devices/keyboard_led_dialog.py, line: 255
+msgid "Fix for keyboards where Scroll Lock doesn't work properly (xmodmap)"
+msgstr "תיקון למקלדות שבהן Scroll Lock לא פועל כראוי (xmodmap)"
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/devices/keyboard_led_dialog.py, line: 260
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/devices/keyboard_led_dialog.py, line: 285
+msgid "Only available on X11 sessions"
+msgstr "זמין רק במושבים של X11"
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/devices/keyboard_led_dialog.py, line: 266
+msgid "Start with System"
+msgstr "התחל עם מערכת"
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/devices/keyboard_led_dialog.py, line: 267
+msgid "Turn on LED automatically when you log in"
+msgstr "הפעל את ה-LED אוטומטית כאשר אתה נכנס."
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/devices/keyboard_led_dialog.py, line: 274
+msgid "Keyboard Shortcut"
+msgstr "קיצור מקשים"
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/devices/keyboard_led_dialog.py, line: 279
+msgid "Toggle LED Hotkey"
+msgstr "הפעל/כבה מקש חם LED"
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/devices/keyboard_led_dialog.py, line: 280
+msgid "Press a key to toggle the LED on/off"
+msgstr "לחץ על מקש כדי להפעיל/לכבות את ה-LED"
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/devices/keyboard_led_dialog.py, line: 288
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/devices/keyboard_led_dialog.py, line: 677
+msgid "Not set"
+msgstr "לא מוגדר"
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/devices/keyboard_led_dialog.py, line: 297
+msgid "Set hotkey"
+msgstr "הגדר מקש חם"
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/devices/keyboard_led_dialog.py, line: 311
+msgid "Back"
+msgstr "חזור"
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/devices/keyboard_led_dialog.py, line: 316
+msgid "Finish Configuration"
+msgstr "סיום קונפיגורציה"
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/devices/keyboard_led_dialog.py, line: 336
+msgid "Press the desired key"
+msgstr "לחץ על המקש הרצוי"
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/devices/keyboard_led_dialog.py, line: 342
+msgid ""
+"A small window will appear.\n"
+"Click on it and press the key you want to use\n"
+"to toggle the LED on/off."
+msgstr ""
+"חלון קטן יופיע.  \n"
+"לחץ עליו ולחץ על המקש שברצונך להשתמש בו  \n"
+"כדי להפעיל/לכבות את ה-LED."
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/devices/keyboard_led_dialog.py, line: 357
+msgid "Waiting..."
+msgstr "ממתין..."
 # 
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings/devices/keyboard_led_dialog.py, line: 177
 msgid "Configuration Complete!"
 msgstr "הגדרה הושלמה!"
 # 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/devices/keyboard_led_dialog.py, line: 189
-msgid "Your keyboard LED will now turn on automatically when the system starts."
-msgstr "הנורית של המקלדת שלך תידלק אוטומטית כאשר המערכת תתחיל."
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/devices/keyboard_led_dialog.py, line: 419
+msgid "Your keyboard LED is now configured and ready to use."
+msgstr "הנורית של המקלדת שלך כעת מוגדרת ומוכנה לשימוש."
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/devices/keyboard_led_dialog.py, line: 428
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/devices/keyboard_led_dialog.py, line: 428
 # 
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings/devices/keyboard_led_dialog.py, line: 197
 # 
@@ -910,27 +1065,97 @@ msgstr "הנורית של המקלדת שלך תידלק אוטומטית כאש
 msgid "No Compatible Device Found"
 msgstr "לא נמצא מכשיר תואם"
 # 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/devices/keyboard_led_dialog.py, line: 224
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/devices/keyboard_led_dialog.py, line: 456
 msgid ""
 "Could not find a compatible keyboard LED device.\n"
 "\n"
-"Make sure your keyboard has LED support and that brightnessctl is installed."
+"Troubleshooting tips:\n"
+"• Make sure your keyboard has LED support\n"
+"• Install brightnessctl: sudo pacman -S brightnessctl\n"
+"• On X11, xset is also used to control LEDs\n"
+"• Try running: brightnessctl -l"
 msgstr ""
-"לא ניתן למצוא מכשיר LED מקלדת תואם.\n"
+"לא ניתן למצוא מכשיר LED תואם למקלדת.\n"
 "\n"
-"ודא שהמקלדת שלך תומכת ב-LED ושהיישום brightnessctl מותקן."
+"טיפים לפתרון בעיות:\n"
+"• ודא שהמקלדת שלך תומכת ב-LED\n"
+"• התקן את brightnessctl: sudo pacman -S brightnessctl\n"
+"• ב-X11, xset משמש גם לשליטה ב-LED\n"
+"• נסה להריץ: brightnessctl -l"
 # 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/devices/keyboard_led_dialog.py, line: 273
-msgid "Testing device: {}"
-msgstr "מכשיר בדיקה: {}"
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/devices/keyboard_led_dialog.py, line: 520
+msgid "Method: {}"
+msgstr "שיטה: {}"
 # 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/devices/keyboard_led_dialog.py, line: 274
-msgid "Device {} of {}"
-msgstr "התקן {} מתוך {}"
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/devices/keyboard_led_dialog.py, line: 521
+msgid "Testing {} of {}"
+msgstr "בוחן {} מתוך {}"
 # 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/devices/keyboard_led_dialog.py, line: 325
-msgid "Saved device: {}"
-msgstr "מכשיר שנשמר: {}"
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/devices/keyboard_led_dialog.py, line: 586
+msgid "Launching capture window..."
+msgstr "מפעיל חלון תפיסה..."
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/devices/keyboard_led_dialog.py, line: 607
+msgid "Key captured!"
+msgstr "המפתח נתפס!"
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/devices/keyboard_led_dialog.py, line: 622
+msgid "No key detected"
+msgstr "לא זוהה מפתח"
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/devices/keyboard_led_dialog.py, line: 626
+msgid "Timeout - no key pressed"
+msgstr "זמן פג - לא נלחץ מקש"
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/devices/keyboard_led_dialog.py, line: 630
+msgid "Error capturing hotkey"
+msgstr "שגיאה בלכידת מקש חם"
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/devices/keyboard_led_dialog.py, line: 670
+msgid "Device: {}"
+msgstr "מכשיר: {}"
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/devices/keyboard_led_dialog.py, line: 674
+msgid "Autostart enabled"
+msgstr "הפעלה אוטומטית מופעלת"
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/devices/keyboard_led_dialog.py, line: 676
+msgid "Scroll Lock fix applied"
+msgstr "תיקון נעילת גלילה הוחל"
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/devices/keyboard_led_dialog.py, line: 678
+msgid "Hotkey configured"
+msgstr "מקש חם מוגדר"
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/devices/keyboard_led_dialog.py, line: 680
+msgid "No additional options"
+msgstr "אין אפשרויות נוספות"
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/devices/keyboard_led_dialog.py, line: 732
+msgid "LED Control"
+msgstr "בקרת LED"
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/devices/keyboard_led_dialog.py, line: 753
+msgid "Reconfigure"
+msgstr "שנה הגדרה"
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/devices/keyboard_led_dialog.py, line: 774
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/devices/keyboard_led_dialog.py, line: 845
+msgid "LED is OFF"
+msgstr "ה-LED כבוי"
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/devices/keyboard_led_dialog.py, line: 785
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/devices/keyboard_led_dialog.py, line: 846
+msgid "Turn ON"
+msgstr "הפעל את המכשיר"
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/devices/keyboard_led_dialog.py, line: 838
+msgid "LED is ON"
+msgstr "ה-LED דולק"
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/devices/keyboard_led_dialog.py, line: 839
+msgid "Turn OFF"
+msgstr "כבה"
 # 
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings/devices/jamesdsp_dialog.py, line: 208
 # 
@@ -1056,6 +1281,22 @@ msgid ""
 msgstr ""
 "מכבה את מערכת השעון החומרתי ואת מערכות מקור השעון TSC, שומר על ביצועים גבוהים אך מסיר הגנות "
 "אוטומטיות מפני קריסות מערכת."
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_usability_page.py, line: 169
+msgid "Recent Files & Locations"
+msgstr "קבצים ומיקומים אחרונים"
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_usability_page.py, line: 170
+msgid ""
+"Restores the 'Recent Files' and 'Recent Locations' functionality that appears empty in Dolphin and "
+"the Application Menu."
+msgstr ""
+"ש restores את הפונקציונליות של 'קבצים אחרונים' ו'מיקומים אחרונים' שמופיעה ריקה ב-Dolphin ובתפריט "
+"היישומים."
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_usability_page.py, line: 273
+msgid "Failed to change Recent Files & Locations setting."
+msgstr "שינוי הגדרות קבצים ומיקומים אחרונים נכשל."
 # 
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_usability_page.py, line: 162
 msgid "Restart KWin?"

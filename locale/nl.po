@@ -154,6 +154,14 @@ msgstr "Bluetooth"
 msgid "Bluetooth On."
 msgstr "Bluetooth Aan."
 # 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/dispositivos_page.py, line: 56
+msgid "Invert Mouse Scroll"
+msgstr "Omgekeerde muis scrollen"
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/dispositivos_page.py, line: 57
+msgid "Inverts mouse scrolling without restarting the session."
+msgstr "Draait de muisscrolling om zonder de sessie opnieuw te starten."
+# 
 # #-#-#-#-#  biglinux-settings.pot (biglinux-settings)  #-#-#-#-#
 # 
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings/dispositivos_page.py, line: 77
@@ -174,6 +182,10 @@ msgid "If your keyboard has LED you can enable this feature to turn it on with t
 msgstr ""
 "Als je toetsenbord LED's heeft, kun je deze functie inschakelen om het samen met het systeem in te "
 "schakelen."
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/dispositivos_page.py, line: 166
+msgid "Reconfigure LED device"
+msgstr "Herschik LED-apparaat"
 # 
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings/dispositivos_page.py, line: 237
 msgid "Error opening configuration dialog"
@@ -773,6 +785,54 @@ msgstr "V2RayA"
 msgid "V2RayA network tool."
 msgstr "V2RayA netwerktool."
 # 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system/recent_files_dialog.py, line: 27
+msgid "Enabling Recent Files & Locations"
+msgstr "Recente bestanden en locaties inschakelen"
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system/recent_files_dialog.py, line: 27
+msgid "Disabling Recent Files & Locations"
+msgstr "Recente bestanden en locaties uitschakelen"
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system/recent_files_dialog.py, line: 48
+msgid "Starting..."
+msgstr "Starten..."
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system/recent_files_dialog.py, line: 130
+msgid "Starting process..."
+msgstr "Proces starten..."
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system/recent_files_dialog.py, line: 187
+msgid "Operation was cancelled."
+msgstr "De bewerking is geannuleerd."
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system/recent_files_dialog.py, line: 194
+msgid "Process failed. Check details for more info."
+msgstr "Proces mislukt. Controleer de details voor meer informatie."
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system/recent_files_dialog.py, line: 203
+msgid "Recent Files & Locations Enabled"
+msgstr "Recente bestanden en locaties ingeschakeld"
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system/recent_files_dialog.py, line: 206
+msgid "Recent Files & Locations Disabled"
+msgstr "Recente bestanden en locaties uitgeschakeld"
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system/recent_files_dialog.py, line: 223
+msgid "Important"
+msgstr "Belangrijk"
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system/recent_files_dialog.py, line: 231
+msgid "• To fully apply changes, restart your computer."
+msgstr "• Om wijzigingen volledig toe te passen, herstart uw computer."
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system/recent_files_dialog.py, line: 237
+msgid ""
+"• Dolphin creates a visual cache. Close it completely and reopen for recent files/locations to "
+"appear."
+msgstr ""
+"• Dolphin maakt een visuele cache. Sluit het volledig af en open het opnieuw om recente "
+"bestanden/locaties weer te geven."
+# 
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings/devices/jamesdsp_dialog.py, line: 18
 msgid "JamesDSP Preset Selector"
 msgstr "JamesDSP Voorinstelling Selector"
@@ -868,41 +928,138 @@ msgstr ""
 # 
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings/devices/jamesdsp_dialog.py, line: 208
 # 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/devices/keyboard_led_dialog.py, line: 35
-msgid "Keyboard LED Configuration"
-msgstr "Toetsenbord LED-configuratie"
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/devices/keyboard_led_dialog.py, line: 38
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/devices/keyboard_led_dialog.py, line: 117
+msgid "LED Master"
+msgstr "LED Master"
 # 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/devices/keyboard_led_dialog.py, line: 96
-msgid "Configure Keyboard LED"
-msgstr "Configureer toetsenbord LED"
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/devices/keyboard_led_dialog.py, line: 122
+msgid "Advanced Keyboard LED Control"
+msgstr "Geavanceerde toetsenbord LED-besturing"
 # 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/devices/keyboard_led_dialog.py, line: 102
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/devices/keyboard_led_dialog.py, line: 129
 msgid ""
-"We will test the available LED devices on your system.\n"
-"The script will turn on each device one by one so you can identify which one is your keyboard LED."
+"This wizard will help you configure your keyboard LED.\n"
+"\n"
+"We will:\n"
+"• Detect available LED devices\n"
+"• Test each device to find your keyboard LED\n"
+"• Configure options like hotkeys and autostart"
 msgstr ""
-"We zullen de beschikbare LED-apparaten op uw systeem testen. Het script zal elk apparaat één voor "
-"één inschakelen, zodat u kunt identificeren welk apparaat uw toetsenbord-LED is."
+"Deze wizard helpt je bij het configureren van je toetsenbord-LED.\n"
+"\n"
+"We zullen:\n"
+"• Beschikbare LED-apparaten detecteren\n"
+"• Elk apparaat testen om je toetsenbord-LED te vinden\n"
+"• Opties configureren zoals sneltoetsen en automatisch starten"
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/devices/keyboard_led_dialog.py, line: 142
+msgid "Session: {}"
+msgstr "Sessie: {}"
 # 
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings/devices/keyboard_led_dialog.py, line: 110
 msgid "Start Configuration"
 msgstr "Configuratie starten"
 # 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/devices/keyboard_led_dialog.py, line: 131
-msgid "Did the keyboard LED turn on?"
-msgstr "Is het toetsenbord LED ingeschakeld?"
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/devices/keyboard_led_dialog.py, line: 174
+msgid "Did the LED turn on?"
+msgstr "Is de LED ingeschakeld?"
 # 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/devices/keyboard_led_dialog.py, line: 157
-msgid "Yes, this is it!"
-msgstr "Ja, dit is het!"
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/devices/keyboard_led_dialog.py, line: 223
+msgid "No, try next"
+msgstr "Sorry, I can only translate the provided string."
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/devices/keyboard_led_dialog.py, line: 229
+msgid "Yes, this is my LED!"
+msgstr "Ja, dit is mijn LED!"
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/devices/keyboard_led_dialog.py, line: 242
+msgid "Additional Options"
+msgstr "Aanvullende opties"
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/devices/keyboard_led_dialog.py, line: 249
+msgid "Settings"
+msgstr "Instellingen"
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/devices/keyboard_led_dialog.py, line: 254
+msgid "Apply Scroll Lock Fix"
+msgstr "Scroll Lock Fix Toepassen"
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/devices/keyboard_led_dialog.py, line: 255
+msgid "Fix for keyboards where Scroll Lock doesn't work properly (xmodmap)"
+msgstr "Oplossing voor toetsenborden waarbij Scroll Lock niet goed werkt (xmodmap)"
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/devices/keyboard_led_dialog.py, line: 260
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/devices/keyboard_led_dialog.py, line: 285
+msgid "Only available on X11 sessions"
+msgstr "Alleen beschikbaar op X11-sessies"
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/devices/keyboard_led_dialog.py, line: 266
+msgid "Start with System"
+msgstr "Begin met Systeem"
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/devices/keyboard_led_dialog.py, line: 267
+msgid "Turn on LED automatically when you log in"
+msgstr "Zet LED automatisch aan wanneer je inlogt"
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/devices/keyboard_led_dialog.py, line: 274
+msgid "Keyboard Shortcut"
+msgstr "Toetsenbord sneltoets"
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/devices/keyboard_led_dialog.py, line: 279
+msgid "Toggle LED Hotkey"
+msgstr "Schakel LED-sneltoets in"
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/devices/keyboard_led_dialog.py, line: 280
+msgid "Press a key to toggle the LED on/off"
+msgstr "Druk op een toets om de LED in/uit te schakelen"
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/devices/keyboard_led_dialog.py, line: 288
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/devices/keyboard_led_dialog.py, line: 677
+msgid "Not set"
+msgstr "Niet ingesteld"
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/devices/keyboard_led_dialog.py, line: 297
+msgid "Set hotkey"
+msgstr "Stel sneltoets in"
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/devices/keyboard_led_dialog.py, line: 311
+msgid "Back"
+msgstr "Terug"
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/devices/keyboard_led_dialog.py, line: 316
+msgid "Finish Configuration"
+msgstr "Configuratie Voltooien"
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/devices/keyboard_led_dialog.py, line: 336
+msgid "Press the desired key"
+msgstr "Druk op de gewenste toets"
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/devices/keyboard_led_dialog.py, line: 342
+msgid ""
+"A small window will appear.\n"
+"Click on it and press the key you want to use\n"
+"to toggle the LED on/off."
+msgstr ""
+"Er verschijnt een klein venster.\n"
+"Klik erop en druk op de toets die je wilt gebruiken\n"
+"om de LED in/uit te schakelen."
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/devices/keyboard_led_dialog.py, line: 357
+msgid "Waiting..."
+msgstr "Wachten..."
 # 
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings/devices/keyboard_led_dialog.py, line: 177
 msgid "Configuration Complete!"
 msgstr "Configuratie Voltooid!"
 # 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/devices/keyboard_led_dialog.py, line: 189
-msgid "Your keyboard LED will now turn on automatically when the system starts."
-msgstr "Je toetsenbord-LED zal nu automatisch inschakelen wanneer het systeem opstart."
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/devices/keyboard_led_dialog.py, line: 419
+msgid "Your keyboard LED is now configured and ready to use."
+msgstr "Je toetsenbord-LED is nu geconfigureerd en klaar voor gebruik."
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/devices/keyboard_led_dialog.py, line: 428
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/devices/keyboard_led_dialog.py, line: 428
 # 
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings/devices/keyboard_led_dialog.py, line: 197
 # 
@@ -912,27 +1069,97 @@ msgstr "Je toetsenbord-LED zal nu automatisch inschakelen wanneer het systeem op
 msgid "No Compatible Device Found"
 msgstr "Geen compatibel apparaat gevonden"
 # 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/devices/keyboard_led_dialog.py, line: 224
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/devices/keyboard_led_dialog.py, line: 456
 msgid ""
 "Could not find a compatible keyboard LED device.\n"
 "\n"
-"Make sure your keyboard has LED support and that brightnessctl is installed."
+"Troubleshooting tips:\n"
+"• Make sure your keyboard has LED support\n"
+"• Install brightnessctl: sudo pacman -S brightnessctl\n"
+"• On X11, xset is also used to control LEDs\n"
+"• Try running: brightnessctl -l"
 msgstr ""
-"Kon niet een compatibele toetsenbord-LED-apparaat vinden.\n"
+"Kon geen compatibel toetsenbord LED-apparaat vinden.\n"
 "\n"
-"Zorg ervoor dat je toetsenbord LED-ondersteuning heeft en dat brightnessctl is geïnstalleerd."
+"Probleemoplossingstips:\n"
+"• Zorg ervoor dat uw toetsenbord LED-ondersteuning heeft\n"
+"• Installeer brightnessctl: sudo pacman -S brightnessctl\n"
+"• Op X11 wordt xset ook gebruikt om LED's te bedienen\n"
+"• Probeer uit te voeren: brightnessctl -l"
 # 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/devices/keyboard_led_dialog.py, line: 273
-msgid "Testing device: {}"
-msgstr "Testapparaat: {}"
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/devices/keyboard_led_dialog.py, line: 520
+msgid "Method: {}"
+msgstr "Methode: {}"
 # 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/devices/keyboard_led_dialog.py, line: 274
-msgid "Device {} of {}"
-msgstr "Apparaat {} van {}"
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/devices/keyboard_led_dialog.py, line: 521
+msgid "Testing {} of {}"
+msgstr "Testen {} van {}"
 # 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/devices/keyboard_led_dialog.py, line: 325
-msgid "Saved device: {}"
-msgstr "Opgeslagen apparaat: {}"
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/devices/keyboard_led_dialog.py, line: 586
+msgid "Launching capture window..."
+msgstr "Capturevenster wordt gestart..."
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/devices/keyboard_led_dialog.py, line: 607
+msgid "Key captured!"
+msgstr "Sleutel vastgelegd!"
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/devices/keyboard_led_dialog.py, line: 622
+msgid "No key detected"
+msgstr "Geen sleutel gedetecteerd"
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/devices/keyboard_led_dialog.py, line: 626
+msgid "Timeout - no key pressed"
+msgstr "Time-out - geen toets ingedrukt"
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/devices/keyboard_led_dialog.py, line: 630
+msgid "Error capturing hotkey"
+msgstr "Fout bij het vastleggen van sneltoets."
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/devices/keyboard_led_dialog.py, line: 670
+msgid "Device: {}"
+msgstr "Apparaat: {}"
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/devices/keyboard_led_dialog.py, line: 674
+msgid "Autostart enabled"
+msgstr "Autostart ingeschakeld"
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/devices/keyboard_led_dialog.py, line: 676
+msgid "Scroll Lock fix applied"
+msgstr "Scroll Lock-fix toegepast"
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/devices/keyboard_led_dialog.py, line: 678
+msgid "Hotkey configured"
+msgstr "Sneltoets geconfigureerd"
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/devices/keyboard_led_dialog.py, line: 680
+msgid "No additional options"
+msgstr "Geen extra opties"
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/devices/keyboard_led_dialog.py, line: 732
+msgid "LED Control"
+msgstr "LED-besturing"
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/devices/keyboard_led_dialog.py, line: 753
+msgid "Reconfigure"
+msgstr "Herschikken"
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/devices/keyboard_led_dialog.py, line: 774
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/devices/keyboard_led_dialog.py, line: 845
+msgid "LED is OFF"
+msgstr "LED is UIT"
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/devices/keyboard_led_dialog.py, line: 785
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/devices/keyboard_led_dialog.py, line: 846
+msgid "Turn ON"
+msgstr "Zet AAN"
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/devices/keyboard_led_dialog.py, line: 838
+msgid "LED is ON"
+msgstr "LED is AAN"
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/devices/keyboard_led_dialog.py, line: 839
+msgid "Turn OFF"
+msgstr "Zet UIT"
 # 
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings/devices/jamesdsp_dialog.py, line: 208
 # 
@@ -1058,6 +1285,22 @@ msgid ""
 msgstr ""
 "Schakelt de hardware watchdog en TSC klokbronnen uit, behoudt hoge prestaties maar verwijdert "
 "automatische bescherming tegen systeemcrashes."
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_usability_page.py, line: 169
+msgid "Recent Files & Locations"
+msgstr "Recente Bestanden & Locaties"
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_usability_page.py, line: 170
+msgid ""
+"Restores the 'Recent Files' and 'Recent Locations' functionality that appears empty in Dolphin and "
+"the Application Menu."
+msgstr ""
+"Herstelt de functionaliteit 'Recente Bestanden' en 'Recente Locaties' die leeg verschijnt in "
+"Dolphin en het Toepassingsmenu."
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_usability_page.py, line: 273
+msgid "Failed to change Recent Files & Locations setting."
+msgstr "Kon niet instellen Recent Bestanden & Locaties."
 # 
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_usability_page.py, line: 162
 msgid "Restart KWin?"
