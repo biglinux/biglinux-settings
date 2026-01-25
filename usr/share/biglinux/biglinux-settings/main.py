@@ -11,8 +11,10 @@ import os
 from gi.repository import Adw, Gdk, Gio, Gtk
 from preload_page import PreloadPage
 from system_usability_page import SystemUsabilityPage
+from devices_page import DevicesPage
+from ai_page import AIPage
+from docker_page import DockerPage
 
-# from xpto_page import XPTOPage
 
 DOMAIN = "biglinux-settings"
 LOCALE_DIR = "/usr/share/locale"
@@ -152,31 +154,23 @@ class SystemSettingsWindow(Adw.ApplicationWindow):
         content_box.append(view_stack)
 
         ## Sidebar Buttons ##
-        # Button System Tweaks
-        btn_system = self.create_sidebar_button(
-            _("System Tweaks"), "system-tweaks-symbolic", "system", view_stack
-        )
-        side_box.append(btn_system)
+        pages_config = [
+            {"label": _("System Tweaks"), "icon": "system-tweaks-symbolic", "id": "system",  "class": SystemUsabilityPage},
+            {"label": _("PreLoad"),       "icon": "preload-symbolic",       "id": "preload", "class": PreloadPage},
+            {"label": _("Devices"),       "icon": "devices-symbolic",       "id": "devices", "class": DevicesPage},
+            {"label": _("A.I."),          "icon": "ai-symbolic",            "id": "ai",      "class": AIPage},
+            {"label": _("Docker"),        "icon": "docker-symbolic",        "id": "docker",  "class": DockerPage},
+        ]
 
-        # Button Preload
-        btn_preload = self.create_sidebar_button(
-            _("PreLoad"), "preload-symbolic", "preload", view_stack
-        )
-        side_box.append(btn_preload)
+        # Loop to automatically create buttons and pages
+        for page in pages_config:
+            # Cria o botão na barra lateral
+            btn = self.create_sidebar_button(page["label"], page["icon"], page["id"], view_stack)
+            side_box.append(btn)
 
-        # Page configuration
-        system_usability_page = self.create_system_usability_page()
-        view_stack.add_titled(system_usability_page, "system", _("System Tweaks"))
-
-        preload_page = self.create_preload_page()
-        view_stack.add_titled(preload_page, "preload", _("PreLoad"))
-
-    def create_system_usability_page(self):
-        return SystemUsabilityPage(self)
-
-    def create_preload_page(self):
-        return PreloadPage(self)
-
+            # Cria a instância da página e adiciona ao stack
+            page_instance = page["class"](self)
+            view_stack.add_titled(page_instance, page["id"], page["label"])
 
 class CustomWindow(SystemSettingsWindow):
     def __init__(self, **kwargs):
