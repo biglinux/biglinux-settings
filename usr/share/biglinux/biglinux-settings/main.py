@@ -8,7 +8,7 @@ import gettext
 import locale
 import os
 
-from gi.repository import Adw, Gdk, Gtk
+from gi.repository import Adw, Gdk, Gio, Gtk
 from preload_page import PreloadPage
 from system_usability_page import SystemUsabilityPage
 
@@ -100,8 +100,13 @@ class SystemSettingsWindow(Adw.ApplicationWindow):
 
         box = Gtk.Box(orientation=Gtk.Orientation.HORIZONTAL, spacing=10)
 
-        img = Gtk.Image.new_from_icon_name(icon_name)
+        icon_path = os.path.join(ICONS_DIR, f"{icon_name}.svg")
+        gfile = Gio.File.new_for_path(icon_path)
+        icon = Gio.FileIcon.new(gfile)
+
+        img = Gtk.Image.new_from_gicon(icon)
         img.set_pixel_size(24)
+        img.add_css_class("symbolic-icon")
 
         lbl = Gtk.Label(label=label_text, xalign=0)
 
@@ -113,14 +118,14 @@ class SystemSettingsWindow(Adw.ApplicationWindow):
         return btn
 
     def setup_ui(self):
-        # Container principal
+        # Main container
         main_box = Gtk.Box(orientation=Gtk.Orientation.VERTICAL)
         self.set_content(main_box)
 
         header_bar = Adw.HeaderBar()
         main_box.append(header_bar)
 
-        # Container do corpo (Sidebar + Conteúdo)
+        # Body Container (Sidebar + Content)
         content_box = Gtk.Box(orientation=Gtk.Orientation.HORIZONTAL)
         main_box.append(content_box)
 
@@ -129,7 +134,7 @@ class SystemSettingsWindow(Adw.ApplicationWindow):
         view_stack.set_hexpand(True)
         view_stack.set_vexpand(True)
 
-        # CONFIGURAÇÃO DA BARRA LATERAL
+        # Sidebar settings
         scrolled = Gtk.ScrolledWindow()
         scrolled.set_policy(Gtk.PolicyType.NEVER, Gtk.PolicyType.AUTOMATIC)
         scrolled.set_propagate_natural_width(True)
@@ -146,10 +151,10 @@ class SystemSettingsWindow(Adw.ApplicationWindow):
         content_box.append(scrolled)
         content_box.append(view_stack)
 
-        ## Botões da Sidebar ##
+        ## Sidebar Buttons ##
         # Button System Tweaks
         btn_system = self.create_sidebar_button(
-            _("System Tweaks"), "system-symbolic", "system", view_stack
+            _("System Tweaks"), "system-tweaks-symbolic", "system", view_stack
         )
         side_box.append(btn_system)
 
@@ -159,7 +164,7 @@ class SystemSettingsWindow(Adw.ApplicationWindow):
         )
         side_box.append(btn_preload)
 
-        # Configuração das páginas
+        # Page configuration
         system_usability_page = self.create_system_usability_page()
         view_stack.add_titled(system_usability_page, "system", _("System Tweaks"))
 

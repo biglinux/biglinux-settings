@@ -1,18 +1,23 @@
 import gi
-gi.require_version('Gtk', '4.0')
-gi.require_version('Adw', '1')
 
-from gi.repository import Gtk, Adw
-import subprocess
-import os
-import locale
+gi.require_version("Gtk", "4.0")
+gi.require_version("Adw", "1")
+
 import gettext
+import locale
+import os
+import subprocess
+
+from gi.repository import Adw, Gio, Gtk
 
 # Set up gettext for application localization.
-DOMAIN = 'biglinux-settings'
-LOCALE_DIR = '/usr/share/locale'
+DOMAIN = "biglinux-settings"
+LOCALE_DIR = "/usr/share/locale"
 
-locale.setlocale(locale.LC_ALL, '')
+BASE_DIR = os.path.dirname(os.path.abspath(__file__))
+ICONS_DIR = os.path.join(BASE_DIR, "icons")
+
+locale.setlocale(locale.LC_ALL, "")
 locale.bindtextdomain(DOMAIN, LOCALE_DIR)
 locale.textdomain(DOMAIN)
 
@@ -20,11 +25,13 @@ gettext.bindtextdomain(DOMAIN, LOCALE_DIR)
 gettext.textdomain(DOMAIN)
 _ = gettext.gettext
 
+
 class SystemUsabilityPage(Adw.Bin):
     """A self-contained page for managing System Tweaks."""
+
     def __init__(self, main_window, **kwargs):
         super().__init__(**kwargs)
-        self.main_window = main_window # Reference to the main window to show toasts
+        self.main_window = main_window  # Reference to the main window to show toasts
 
         # Dictionaries to map UI widgets to their corresponding shell scripts
         self.switch_scripts = {}
@@ -41,7 +48,14 @@ class SystemUsabilityPage(Adw.Bin):
         scrolled = Gtk.ScrolledWindow()
         scrolled.set_vexpand(True)
         scrolled.set_policy(Gtk.PolicyType.NEVER, Gtk.PolicyType.AUTOMATIC)
-        content_box = Gtk.Box(orientation=Gtk.Orientation.VERTICAL, spacing=20, margin_top=20, margin_bottom=20, margin_start=20, margin_end=20)
+        content_box = Gtk.Box(
+            orientation=Gtk.Orientation.VERTICAL,
+            spacing=20,
+            margin_top=20,
+            margin_bottom=20,
+            margin_start=20,
+            margin_end=20,
+        )
         scrolled.set_child(content_box)
 
         self.usability_group(content_box)
@@ -55,17 +69,34 @@ class SystemUsabilityPage(Adw.Bin):
         self.sync_all_switches()
 
     # Function to create a switch with a details area and clickable link.
-    def create_row_with_clickable_link(self, parent_group, title, subtitle_with_markup, script_name):
+    def create_row_with_clickable_link(
+        self, parent_group, title, subtitle_with_markup, script_name, icon_name
+    ):
         """Builds a custom row mimicking Adw.ActionRow to allow for a clickable link in the subtitle."""
         # Uses Adw.PreferencesRow as a base to get the correct background and border style.
         row = Adw.PreferencesRow()
 
         # Main horizontal box to contain the title area and the switch.
-        main_box = Gtk.Box(orientation=Gtk.Orientation.HORIZONTAL, spacing=12, margin_top=6, margin_bottom=6, margin_start=12, margin_end=12)
+        main_box = Gtk.Box(
+            orientation=Gtk.Orientation.HORIZONTAL,
+            spacing=12,
+            margin_top=6,
+            margin_bottom=6,
+            margin_start=12,
+            margin_end=12,
+        )
         row.set_child(main_box)
 
+        icon_path = os.path.join(ICONS_DIR, f"{icon_name}.svg")
+        gfile = Gio.File.new_for_path(icon_path)
+        icon = Gio.FileIcon.new(gfile)
+
+        img = Gtk.Image.new_from_gicon(icon)
+        img.set_pixel_size(24)
+        img.add_css_class("symbolic-icon")
+        main_box.append(img)
+
         # Vertical box for title and clickable subtitle.
-        # hexpand=True é crucial para empurrar o switch para a direita.
         title_area = Gtk.Box(orientation=Gtk.Orientation.VERTICAL, hexpand=True)
         main_box.append(title_area)
 
@@ -74,10 +105,7 @@ class SystemUsabilityPage(Adw.Bin):
         title_area.append(title_label)
 
         subtitle_label = Gtk.Label(
-            xalign=0,
-            wrap=True,
-            use_markup=True,
-            label=subtitle_with_markup
+            xalign=0, wrap=True, use_markup=True, label=subtitle_with_markup
         )
         subtitle_label.add_css_class("caption")
         subtitle_label.add_css_class("dim-label")
@@ -88,7 +116,7 @@ class SystemUsabilityPage(Adw.Bin):
         main_box.append(switch)
 
         # Associate the script with the switch
-        script_group = getattr(parent_group, 'script_group', 'default')
+        script_group = getattr(parent_group, "script_group", "default")
         script_path = os.path.join(script_group, f"{script_name}.sh")
         self.switch_scripts[switch] = script_path
         switch.connect("state-set", self.on_switch_changed)
@@ -108,7 +136,7 @@ class SystemUsabilityPage(Adw.Bin):
         reload_button = Gtk.Button(
             icon_name="view-refresh-symbolic",
             valign=Gtk.Align.CENTER,
-            tooltip_text=_("Reload all statuses")
+            tooltip_text=_("Reload all statuses"),
         )
         reload_button.connect("clicked", self.on_reload_clicked)
         group.set_header_suffix(reload_button)
@@ -118,22 +146,26 @@ class SystemUsabilityPage(Adw.Bin):
             group,
             _("NumLock"),
             _("Initial NumLock state. Ignored if autologin is enabled."),
-            "numLock"
+            "numLock",
+            "numlock-symbolic",
         )
         # windowButtonOnLeftSide
         self.windowButtonOnLeftSide_switch = self.create_row_with_clickable_link(
             group,
             _("Window Button On Left Side"),
             _("Maximize, minimize, and close buttons on the left side of the window."),
-            "windowButtonOnLeftSide"
+            "windowButtonOnLeftSide",
+            "window-controls-symbolic",
         )
         # sshStart
         self.sshStart_switch = self.create_row_with_clickable_link(
             group,
             _("SSH until next reboot"),
             _("Enable remote access via ssh until next boot."),
-            "sshStart"
+            "sshStart",
+            "ssh-symbolic",
         )
+
     def system_group(self, parent):
         """Builds the 'System' preferences group."""
         group = Adw.PreferencesGroup()
@@ -146,36 +178,45 @@ class SystemUsabilityPage(Adw.Bin):
             group,
             _("SSH always on"),
             _("Turn on ssh remote access at boot."),
-            "sshEnable"
+            "sshEnable",
+            "ssh-symbolic",
         )
         # fastGrub
         self.fastGrub_enable_switch = self.create_row_with_clickable_link(
             group,
             _("Fast Grub"),
             _("Decreases grub display time."),
-            "fastGrub"
+            "fastGrub",
+            "grub-symbolic",
         )
         # bigMount
         self.bigMount_enable_switch = self.create_row_with_clickable_link(
             group,
             _("Auto-mount Partitions"),
             _("Auto mount partitions in internal disks on boot."),
-            "bigMount"
+            "bigMount",
+            "bigmount-symbolic",
         )
         # Meltdown mitigations
         link_meltdown = "https://meltdownattack.com"
         self.meltdownMitigations_switch = self.create_row_with_clickable_link(
             group,
             _("Meltdown Mitigations off"),
-            _("Using mitigations=off will make your machine faster and less secure! For more information see: <a href='{link}'>{link}</a>").format(link=link_meltdown),
-            "meltdownMitigations"
+            _(
+                "Using mitigations=off will make your machine faster and less secure! For more information see: <a href='{link}'>{link}</a>"
+            ).format(link=link_meltdown),
+            "meltdownMitigations",
+            "meltdown-mitigations-symbolic",
         )
         # noWatchdog
         self.noWatchdog_switch = self.create_row_with_clickable_link(
             group,
             _("noWatchdog"),
-            _("Disables the hardware watchdog and TSC clocksource systems, maintaining high performance but removing automatic protections against system crashes."),
-            "noWatchdog"
+            _(
+                "Disables the hardware watchdog and TSC clocksource systems, maintaining high performance but removing automatic protections against system crashes."
+            ),
+            "noWatchdog",
+            "watchdog-symbolic",
         )
         # # Limits
         # self.limits_switch = self.create_row_with_clickable_link(
@@ -186,24 +227,15 @@ class SystemUsabilityPage(Adw.Bin):
         # )
         # Wifi
         self.Wifi_switch = self.create_row_with_clickable_link(
-            group,
-            _("Wifi"),
-            _("Wifi On"),
-            "wifi"
+            group, _("Wifi"), _("Wifi On"), "wifi", "wirefi-symbolic"
         )
         # Bluetooth
         self.Bluetooth_switch = self.create_row_with_clickable_link(
-            group,
-            _("Bluetooth"),
-            _("Bluetooth On."),
-            "bluetooth"
+            group, _("Bluetooth"), _("Bluetooth On."), "bluetooth", "bluetooth-symbolic"
         )
         # Docker
         self.Docker_switch = self.create_row_with_clickable_link(
-            group,
-            _("Docker"),
-            _("Docker Enabled."),
-            "dockerEnable"
+            group, _("Docker"), _("Docker Enabled."), "dockerEnable", "docker-symbolic"
         )
 
     def check_script_state(self, script_path):
@@ -215,10 +247,9 @@ class SystemUsabilityPage(Adw.Bin):
             return (None, msg)
 
         try:
-            result = subprocess.run([script_path, "check"],
-            capture_output=True,
-            text=True,
-            timeout=10)
+            result = subprocess.run(
+                [script_path, "check"], capture_output=True, text=True, timeout=10
+            )
             if result.returncode == 0:
                 output = result.stdout.strip().lower()
                 if output == "true":
@@ -227,10 +258,19 @@ class SystemUsabilityPage(Adw.Bin):
                     return (False, _("Disabled"))
                 elif output == "true_disabled":
                     # Returns a special string state and an explanatory message.
-                    return ("true_disabled", _("Enabled by system configuration (e.g., Real-Time Kernel) and cannot be changed here."))
+                    return (
+                        "true_disabled",
+                        _(
+                            "Enabled by system configuration (e.g., Real-Time Kernel) and cannot be changed here."
+                        ),
+                    )
                 else:
                     msg = _("Unavailable: script returned invalid output.")
-                    print(_("Invalid output from script {}: {}").format(script_path, result.stdout.strip()))
+                    print(
+                        _("Invalid output from script {}: {}").format(
+                            script_path, result.stdout.strip()
+                        )
+                    )
                     return (None, msg)
             else:
                 msg = _("Unavailable: script returned an error.")
@@ -251,10 +291,12 @@ class SystemUsabilityPage(Adw.Bin):
 
         try:
             state_str = "true" if new_state else "false"
-            result = subprocess.run([script_path, "toggle", state_str],
-            capture_output=True,
-            text=True,
-            timeout=30)
+            result = subprocess.run(
+                [script_path, "toggle", state_str],
+                capture_output=True,
+                text=True,
+                timeout=30,
+            )
 
             if result.returncode == 0:
                 print(_("State changed successfully"))
@@ -263,7 +305,9 @@ class SystemUsabilityPage(Adw.Bin):
                 return True
             else:
                 # Exit code != 0 indicates failure
-                error_msg = _("Script failed with exit code: {}").format(result.returncode)
+                error_msg = _("Script failed with exit code: {}").format(
+                    result.returncode
+                )
                 print(f"ERROR: {error_msg}")
 
                 if result.stderr.strip():
@@ -308,7 +352,11 @@ class SystemUsabilityPage(Adw.Bin):
                 switch.handler_unblock_by_func(self.on_switch_changed)
 
             switch.handler_unblock_by_func(self.on_switch_changed)
-            print(_("Switch {} synchronized: {}").format(os.path.basename(script_path), status))
+            print(
+                _("Switch {} synchronized: {}").format(
+                    os.path.basename(script_path), status
+                )
+            )
 
         # Sync all status indicators
         for indicator, script_path in self.status_indicators.items():
@@ -331,7 +379,11 @@ class SystemUsabilityPage(Adw.Bin):
                     indicator.add_css_class("status-on")
                 else:
                     indicator.add_css_class("status-off")
-            print(_("Indicator {} synchronized: {}").format(os.path.basename(script_path), status))
+            print(
+                _("Indicator {} synchronized: {}").format(
+                    os.path.basename(script_path), status
+                )
+            )
 
     def on_switch_changed(self, switch, state):
         """Callback executed when a user manually toggles a switch."""
@@ -352,8 +404,11 @@ class SystemUsabilityPage(Adw.Bin):
                 switch.set_active(not state)
                 switch.handler_unblock_by_func(self.on_switch_changed)
 
-                print(_("ERROR: Failed to change {} to {}").format(script_name, "on" if state else "off"))
+                print(
+                    _("ERROR: Failed to change {} to {}").format(
+                        script_name, "on" if state else "off"
+                    )
+                )
                 self.show_toast(_("Failed to change setting: {}").format(script_name))
 
         return False
-
