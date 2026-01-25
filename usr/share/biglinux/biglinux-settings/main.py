@@ -3,12 +3,12 @@ import gi
 
 gi.require_version("Gtk", "4.0")
 gi.require_version("Adw", "1")
+gi.require_version("Gdk", "4.0")
 import gettext
 import locale
 import os
 
-from gi.repository import Adw, Gtk
-
+from gi.repository import Adw, Gdk, Gtk
 from preload_page import PreloadPage
 from system_usability_page import SystemUsabilityPage
 
@@ -46,6 +46,8 @@ class SystemSettingsWindow(Adw.ApplicationWindow):
         super().__init__(**kwargs)
         self.set_title(_("General adjustments"))
         self.set_default_size(1000, 860)
+        icon_theme = Gtk.IconTheme.get_for_display(Gdk.Display.get_default())
+        icon_theme.add_search_path(ICONS_DIR)
         self.load_css()
         self.setup_ui()
 
@@ -98,10 +100,8 @@ class SystemSettingsWindow(Adw.ApplicationWindow):
 
         box = Gtk.Box(orientation=Gtk.Orientation.HORIZONTAL, spacing=10)
 
-        icon_path = os.path.join(ICONS_DIR, icon_name)
-        img = Gtk.Image.new_from_file(icon_path)
+        img = Gtk.Image.new_from_icon_name(icon_name)
         img.set_pixel_size(24)
-        img.add_css_class("symbolic-icon")
 
         lbl = Gtk.Label(label=label_text, xalign=0)
 
@@ -149,13 +149,13 @@ class SystemSettingsWindow(Adw.ApplicationWindow):
         ## Botões da Sidebar ##
         # Button System Tweaks
         btn_system = self.create_sidebar_button(
-            _("System Tweaks"), "system.svg", "system", view_stack
+            _("System Tweaks"), "system-symbolic", "system", view_stack
         )
         side_box.append(btn_system)
 
         # Button Preload
         btn_preload = self.create_sidebar_button(
-            _("PreLoad"), "preload.svg", "preload", view_stack
+            _("PreLoad"), "preload-symbolic", "preload", view_stack
         )
         side_box.append(btn_preload)
 
