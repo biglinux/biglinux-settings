@@ -24,12 +24,16 @@ toggle_state() {
   new_state="$1"
   if [[ "$new_state" == "true" ]];then
     if ! pacman -Q kwin-scripts-kzones &>/dev/null; then
-      pkexec $PWD/system/kzonesRun.sh "install" "$USER" "$DISPLAY" "$XAUTHORITY" "$DBUS_SESSION_BUS_ADDRESS" "$LANG" "$LANGUAGE"
+      pkexec $PWD/usability/kzonesRun.sh "install" "$USER" "$DISPLAY" "$XAUTHORITY" "$DBUS_SESSION_BUS_ADDRESS" "$LANG" "$LANGUAGE"
     fi
+    zenityText=$"Kzones will RESTART Plasma, SAVE all programs!!!"
+    "zenity --info --text=\"$zenityText\""
     kwriteconfig6 --file kwinrc --group Plugins --key kzonesEnabled true
     reload_kwin
     exitCode=$?
   else
+    zenityText=$"Kzones will RESTART Plasma, SAVE all programs!!!"
+    "zenity --info --text=\"$zenityText\""
     kwriteconfig6 --file kwinrc --group Plugins --key kzonesEnabled false
     reload_kwin
     exitCode=$?
