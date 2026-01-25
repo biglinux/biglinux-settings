@@ -1,26 +1,26 @@
 #!/usr/bin/env python3
-
 import gi
-gi.require_version('Gtk', '4.0')
-gi.require_version('Adw', '1')
 
-from gi.repository import Gtk, Adw, GLib
-import subprocess
-import os
-import locale
+gi.require_version("Gtk", "4.0")
+gi.require_version("Adw", "1")
 import gettext
+import locale
+import os
 
-from system_usability_page import SystemUsabilityPage
+from gi.repository import Adw, Gtk
+
 from preload_page import PreloadPage
-from dispositivos_page import DispositivosPage
-from containers_page import ContainersPage
-from ai_page import AIPage
+from system_usability_page import SystemUsabilityPage
 
-# Set up gettext for application localization.
-DOMAIN = 'biglinux-settings'
-LOCALE_DIR = '/usr/share/locale'
+# from xpto_page import XPTOPage
 
-locale.setlocale(locale.LC_ALL, '')
+DOMAIN = "biglinux-settings"
+LOCALE_DIR = "/usr/share/locale"
+
+BASE_DIR = os.path.dirname(os.path.abspath(__file__))
+ICONS_DIR = os.path.join(BASE_DIR, "icons")
+
+locale.setlocale(locale.LC_ALL, "")
 locale.bindtextdomain(DOMAIN, LOCALE_DIR)
 locale.textdomain(DOMAIN)
 
@@ -28,43 +28,45 @@ gettext.bindtextdomain(DOMAIN, LOCALE_DIR)
 gettext.textdomain(DOMAIN)
 _ = gettext.gettext
 
-class BiglinuxSettingsApp(Adw.Application):
-    """The main application class."""
-    def __init__(self):
-        super().__init__(application_id='org.biglinux.biglinux-settings')
 
-        # Set the color scheme to follow the system's preference (light/dark).
-        # This prevents Adwaita from complaining about legacy GTK settings.
+class BiglinuxSettingsApp(Adw.Application):
+    def __init__(self):
+        super().__init__(application_id="org.biglinux.biglinux-settings")
         style_manager = Adw.StyleManager.get_default()
         style_manager.set_color_scheme(Adw.ColorScheme.DEFAULT)
-
-        self.connect('activate', self.on_activate)
+        self.connect("activate", self.on_activate)
 
     def on_activate(self, app):
-        """Called when the application is activated."""
-        # Use the CustomWindow class which includes the ToastOverlay
         self.window = CustomWindow(application=app)
         self.window.present()
 
+
 class SystemSettingsWindow(Adw.ApplicationWindow):
-    """The main window for the application, containing all UI elements."""
     def __init__(self, **kwargs):
         super().__init__(**kwargs)
-
-        # Window configuration
         self.set_title(_("General adjustments"))
-        self.set_default_size(800, 600)
-
-        # Load custom CSS for styling
+        self.set_default_size(1000, 860)
         self.load_css()
-
-        # Build the user interface
         self.setup_ui()
 
     def load_css(self):
-        """Loads custom CSS for styling widgets like status indicators."""
         provider = Gtk.CssProvider()
         css = """
+        .sidebar-container {
+            background-color: @card_bg_color;
+            border-right: 1px solid alpha(@window_fg_color, 0.05);
+        }
+        .content-area {
+            background-color: @window_bg_color;
+        }
+        .symbolic-icon {
+            -gtk-icon-filter: -gtk-recolor();
+            color: @window_fg_color;
+        }
+        .sidebar-button {
+            padding: 8px;
+            border-radius: 8px;
+        }
         preferencesgroup .heading {
             font-size: 1.3rem;
         }
@@ -83,110 +85,112 @@ class SystemSettingsWindow(Adw.ApplicationWindow):
         .status-unavailable {
             background-color: @insensitive_fg_color;
         }
-        /* Increase header ViewSwitcher icon size */
-        viewswitcher > button image {
-            -gtk-icon-size: 24px;
-        }
         """
         provider.load_from_string(css)
         Gtk.StyleContext.add_provider_for_display(
             self.get_display(), provider, Gtk.STYLE_PROVIDER_PRIORITY_APPLICATION
         )
 
+    def create_sidebar_button(self, label_text, icon_name, stack_name, view_stack):
+        btn = Gtk.Button()
+        btn.add_css_class("flat")
+        btn.add_css_class("sidebar-button")
+
+        box = Gtk.Box(orientation=Gtk.Orientation.HORIZONTAL, spacing=10)
+
+        icon_path = os.path.join(ICONS_DIR, icon_name)
+        img = Gtk.Image.new_from_file(icon_path)
+        img.set_pixel_size(24)
+        img.add_css_class("symbolic-icon")
+
+        lbl = Gtk.Label(label=label_text, xalign=0)
+
+        box.append(img)
+        box.append(lbl)
+
+        btn.set_child(box)
+        btn.connect("clicked", lambda _: view_stack.set_visible_child_name(stack_name))
+        return btn
+
     def setup_ui(self):
-        """Constructs the main UI layout and populates it with widgets."""
+        # Container principal
         main_box = Gtk.Box(orientation=Gtk.Orientation.VERTICAL)
         self.set_content(main_box)
 
         header_bar = Adw.HeaderBar()
         main_box.append(header_bar)
 
-        # ViewStack to contain the different settings pages
+        # Container do corpo (Sidebar + Conteúdo)
+        content_box = Gtk.Box(orientation=Gtk.Orientation.HORIZONTAL)
+        main_box.append(content_box)
+
         view_stack = Adw.ViewStack()
-        main_box.append(view_stack)
+        view_stack.add_css_class("content-area")
+        view_stack.set_hexpand(True)
+        view_stack.set_vexpand(True)
 
-        # ViewSwitcher to control the ViewStack, placed in the HeaderBar
-        view_switcher = Adw.ViewSwitcher()
-        view_switcher.set_stack(view_stack)
-        header_bar.set_title_widget(view_switcher)
+        # CONFIGURAÇÃO DA BARRA LATERAL
+        scrolled = Gtk.ScrolledWindow()
+        scrolled.set_policy(Gtk.PolicyType.NEVER, Gtk.PolicyType.AUTOMATIC)
+        scrolled.set_propagate_natural_width(True)
+        scrolled.add_css_class("sidebar-container")
 
-        # Page creation
-        # 1. Sistema
+        side_box = Gtk.Box(orientation=Gtk.Orientation.VERTICAL, spacing=2)
+        side_box.set_margin_start(12)
+        side_box.set_margin_end(12)
+        side_box.set_margin_top(22)
+        side_box.set_margin_bottom(12)
+        side_box.set_size_request(220, -1)
+
+        scrolled.set_child(side_box)
+        content_box.append(scrolled)
+        content_box.append(view_stack)
+
+        ## Botões da Sidebar ##
+        # Button System Tweaks
+        btn_system = self.create_sidebar_button(
+            _("System Tweaks"), "system.svg", "system", view_stack
+        )
+        side_box.append(btn_system)
+
+        # Button Preload
+        btn_preload = self.create_sidebar_button(
+            _("PreLoad"), "preload.svg", "preload", view_stack
+        )
+        side_box.append(btn_preload)
+
+        # Configuração das páginas
         system_usability_page = self.create_system_usability_page()
-        view_stack.add_titled_with_icon(system_usability_page, "system", _("System"), "preferences-system-symbolic")
+        view_stack.add_titled(system_usability_page, "system", _("System Tweaks"))
 
-        # 2. Dispositivos
-        dispositivos_page = self.create_dispositivos_page()
-        view_stack.add_titled_with_icon(dispositivos_page, "devices", _("Devices"), "network-wireless-symbolic")
-
-        # 3. I.A.
-        ai_page = self.create_ai_page()
-        view_stack.add_titled_with_icon(ai_page, "ai", _("I.A."), "im-user-symbolic") 
-        # Note: "ubiquity-kde-icon" is just a placeholder, better to use something standard like 'utilities-terminal-symbolic' or generic if unknown, 
-        # but specifically for AI, 'preferences-desktop-productivity' or similar. 
-        # I'll use 'computer-symbolic' or similar if no specific AI icon. 
-        # User didn't specify icon. I will use 'preferences-other-symbolic' or 'applications-science-symbolic'.
-        # Let's try 'starred-symbolic' or 'preferences-system-symbolic' (used)
-        # 'utilities-system-monitor-symbolic'?
-        # I'll use 'applications-science-symbolic' if available, else 'emblem-important-symbolic'.
-        # Actually 'auto-type-symbolic' or 'chatbot-symbolic' might not exist.
-        # I'll stick to 'preferences-desktop-personal-symbolic' or simply 'help-about-symbolic'.
-        # Let's use 'utilities-terminal-symbolic' as a temp or 'dialog-information-symbolic'.
-        # BETTER: 'head-brain' or similar if available? 
-        # Let's use 'security-high-symbolic'? No.
-        # 'preferences-other-symbolic' is safe.
-        
-        # 4. Contêiners
-        containers_page = self.create_containers_page()
-        view_stack.add_titled_with_icon(containers_page, "containers", _("Containers"), "package-x-generic-symbolic")
-
-        # 5. PreLoad
         preload_page = self.create_preload_page()
-        view_stack.add_titled_with_icon(preload_page, "preload", _("Pre-loading"), "drive-harddisk-symbolic")
+        view_stack.add_titled(preload_page, "preload", _("PreLoad"))
 
     def create_system_usability_page(self):
         return SystemUsabilityPage(self)
 
-    def create_dispositivos_page(self):
-        return DispositivosPage(self)
-    
-    def create_containers_page(self):
-        return ContainersPage(self)
-
-    def create_ai_page(self):
-        return AIPage(self)
-
     def create_preload_page(self):
         return PreloadPage(self)
 
+
 class CustomWindow(SystemSettingsWindow):
-    """A subclass of the main window that wraps its content in an Adw.ToastOverlay.
-    This is necessary for the `show_toast` method to work correctly."""
     def __init__(self, **kwargs):
-        # O ToastOverlay precisa envolver o conteúdo principal.
         self.toast_overlay = Adw.ToastOverlay()
-
-        # Call the parent's __init__ which builds the UI
         super().__init__(**kwargs)
-
-        # Get the UI content built by the parent...
         content = self.get_content()
-        # ...detach it from the window...
         self.set_content(None)
-        # ...place it inside the ToastOverlay...
         self.toast_overlay.set_child(content)
-        # ...and set the ToastOverlay as the new window content.
         self.set_content(self.toast_overlay)
 
     def show_toast(self, message):
-        """Overrides the parent method to ensure it adds toasts to its own overlay."""
         toast = Adw.Toast(title=message, timeout=3)
         self.toast_overlay.add_toast(toast)
 
+
 def main():
-    # SIMPLIFICATION: We only need one Application class.
     app = BiglinuxSettingsApp()
     return app.run()
+
 
 if __name__ == "__main__":
     main()

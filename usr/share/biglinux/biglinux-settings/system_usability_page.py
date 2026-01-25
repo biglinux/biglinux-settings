@@ -1,39 +1,100 @@
-
 import gi
 gi.require_version('Gtk', '4.0')
 gi.require_version('Adw', '1')
 
-from gi.repository import Gtk, Adw, Gdk
-from base_page import BaseSettingsPage
+from gi.repository import Gtk, Adw
+import subprocess
+import os
+import locale
 import gettext
 
 # Set up gettext for application localization.
 DOMAIN = 'biglinux-settings'
 LOCALE_DIR = '/usr/share/locale'
 
+locale.setlocale(locale.LC_ALL, '')
+locale.bindtextdomain(DOMAIN, LOCALE_DIR)
+locale.textdomain(DOMAIN)
+
 gettext.bindtextdomain(DOMAIN, LOCALE_DIR)
 gettext.textdomain(DOMAIN)
 _ = gettext.gettext
 
-import os
-import subprocess
-import sys
-
-# Add 'usability' folder to path for GameModeDialog
-current_dir = os.path.dirname(os.path.abspath(__file__))
-sys.path.append(os.path.join(current_dir, 'usability'))
-from gamemode_dialog import GameModeDialog
-from gamemode_config_dialog import GameModeConfigDialog
-
-# Add 'system' folder to path for RecentFilesDialog
-sys.path.append(os.path.join(current_dir, 'system'))
-from recent_files_dialog import RecentFilesDialog
-
-class SystemUsabilityPage(BaseSettingsPage):
+class SystemUsabilityPage(Adw.Bin):
     """A self-contained page for managing System Tweaks."""
-    def populate_content(self, content_box):
+    def __init__(self, main_window, **kwargs):
+        super().__init__(**kwargs)
+        self.main_window = main_window # Reference to the main window to show toasts
+
+        # Dictionaries to map UI widgets to their corresponding shell scripts
+        self.switch_scripts = {}
+        self.status_indicators = {}
+
+        # Build the user interface
+        self.setup_ui()
+
+        # Sync the state of the switches on initialization
+        self.sync_all_switches()
+
+    def setup_ui(self):
+        """Constructs the main UI layout and populates it with widgets."""
+        scrolled = Gtk.ScrolledWindow()
+        scrolled.set_vexpand(True)
+        scrolled.set_policy(Gtk.PolicyType.NEVER, Gtk.PolicyType.AUTOMATIC)
+        content_box = Gtk.Box(orientation=Gtk.Orientation.VERTICAL, spacing=20, margin_top=20, margin_bottom=20, margin_start=20, margin_end=20)
+        scrolled.set_child(content_box)
+
         self.usability_group(content_box)
         self.system_group(content_box)
+
+        self.set_child(scrolled)
+
+    def on_reload_clicked(self, widget):
+        """Callback for the reload button. Triggers a full UI state sync."""
+        print("Reloading all statuses...")
+        self.sync_all_switches()
+
+    # Function to create a switch with a details area and clickable link.
+    def create_row_with_clickable_link(self, parent_group, title, subtitle_with_markup, script_name):
+        """Builds a custom row mimicking Adw.ActionRow to allow for a clickable link in the subtitle."""
+        # Uses Adw.PreferencesRow as a base to get the correct background and border style.
+        row = Adw.PreferencesRow()
+
+        # Main horizontal box to contain the title area and the switch.
+        main_box = Gtk.Box(orientation=Gtk.Orientation.HORIZONTAL, spacing=12, margin_top=6, margin_bottom=6, margin_start=12, margin_end=12)
+        row.set_child(main_box)
+
+        # Vertical box for title and clickable subtitle.
+        # hexpand=True é crucial para empurrar o switch para a direita.
+        title_area = Gtk.Box(orientation=Gtk.Orientation.VERTICAL, hexpand=True)
+        main_box.append(title_area)
+
+        title_label = Gtk.Label(xalign=0, label=title)
+        title_label.add_css_class("title-4")
+        title_area.append(title_label)
+
+        subtitle_label = Gtk.Label(
+            xalign=0,
+            wrap=True,
+            use_markup=True,
+            label=subtitle_with_markup
+        )
+        subtitle_label.add_css_class("caption")
+        subtitle_label.add_css_class("dim-label")
+        title_area.append(subtitle_label)
+
+        # The switch, aligned vertically center.
+        switch = Gtk.Switch(valign=Gtk.Align.CENTER)
+        main_box.append(switch)
+
+        # Associate the script with the switch
+        script_group = getattr(parent_group, 'script_group', 'default')
+        script_path = os.path.join(script_group, f"{script_name}.sh")
+        self.switch_scripts[switch] = script_path
+        switch.connect("state-set", self.on_switch_changed)
+
+        parent_group.add(row)
+        return switch
 
     def usability_group(self, parent):
         """Builds the 'Usability' preferences group."""
@@ -57,64 +118,22 @@ class SystemUsabilityPage(BaseSettingsPage):
             group,
             _("NumLock"),
             _("Initial NumLock state. Ignored if autologin is enabled."),
-            "numLock",
-            icon_name="system-config-keyboard"
+            "numLock"
         )
         # windowButtonOnLeftSide
         self.windowButtonOnLeftSide_switch = self.create_row_with_clickable_link(
             group,
             _("Window Button On Left Side"),
             _("Maximize, minimize, and close buttons on the left side of the window."),
-            "windowButtonOnLeftSide",
-            icon_name="preferences-desktop-theme-windowdecorations"
+            "windowButtonOnLeftSide"
         )
         # sshStart
         self.sshStart_switch = self.create_row_with_clickable_link(
             group,
             _("SSH until next reboot"),
             _("Enable remote access via ssh until next boot."),
-            "sshStart",
-            icon_name="network-server"
+            "sshStart"
         )
-
-        # KZones
-        self.kzones_switch = self.create_row_with_clickable_link(
-            group,
-            _("KZones"),
-            _("Script for the KWin window manager of the KDE Plasma desktop environment"),
-            "kzones",
-            icon_name="preferences-system-windows-effect-flipswitch"
-        )
-        # Check environment
-        is_kde = os.environ.get("XDG_CURRENT_DESKTOP", "").upper().find("KDE") >= 0 or \
-                 os.environ.get("XDG_CURRENT_DESKTOP", "").upper().find("PLASMA") >= 0
-        
-        if not is_kde:
-            self.kzones_switch.set_sensitive(False)
-            self.kzones_switch.set_tooltip_text(_("This feature is only available for KDE Plasma."))
-
-        # Game Mode Booster
-        # Game Mode Booster
-        self.gamemode_switch = self.create_row_with_clickable_link(
-            group,
-            _("Game Mode Booster"),
-            _("Combination of daemon and library that allows games to request a set of optimizations be temporarily applied to the operating system and/or the game process."),
-            "biglinux_ultimate_booster",
-            icon_name="input-gaming"
-        )
-        
-        # Info Button
-        self.gamemode_info_btn = Gtk.Button(icon_name="dialog-information-symbolic")
-        self.gamemode_info_btn.add_css_class("flat")
-        self.gamemode_info_btn.set_tooltip_text(_("Instructions"))
-        self.gamemode_info_btn.set_valign(Gtk.Align.CENTER)
-        self.gamemode_info_btn.set_visible(False)
-        
-        self.gamemode_switch.get_parent().append(self.gamemode_info_btn)
-        
-        self.gamemode_info_btn.connect("clicked", self.on_gamemode_info_clicked)
-        self.gamemode_switch.connect("notify::active", self.update_gamemode_info_visibility)
-
     def system_group(self, parent):
         """Builds the 'System' preferences group."""
         group = Adw.PreferencesGroup()
@@ -127,24 +146,21 @@ class SystemUsabilityPage(BaseSettingsPage):
             group,
             _("SSH always on"),
             _("Turn on ssh remote access at boot."),
-            "sshEnable",
-            icon_name="network-server"
+            "sshEnable"
         )
         # fastGrub
         self.fastGrub_enable_switch = self.create_row_with_clickable_link(
             group,
             _("Fast Grub"),
             _("Decreases grub display time."),
-            "fastGrub",
-            icon_name="biglinux-grub-restore"
+            "fastGrub"
         )
         # bigMount
         self.bigMount_enable_switch = self.create_row_with_clickable_link(
             group,
             _("Auto-mount Partitions"),
             _("Auto mount partitions in internal disks on boot."),
-            "bigMount",
-            icon_name="partitionmanager"
+            "bigMount"
         )
         # Meltdown mitigations
         link_meltdown = "https://meltdownattack.com"
@@ -152,181 +168,192 @@ class SystemUsabilityPage(BaseSettingsPage):
             group,
             _("Meltdown Mitigations off"),
             _("Using mitigations=off will make your machine faster and less secure! For more information see: <a href='{link}'>{link}</a>").format(link=link_meltdown),
-            "meltdownMitigations",
-            icon_name="security-high"
+            "meltdownMitigations"
         )
         # noWatchdog
         self.noWatchdog_switch = self.create_row_with_clickable_link(
             group,
             _("noWatchdog"),
             _("Disables the hardware watchdog and TSC clocksource systems, maintaining high performance but removing automatic protections against system crashes."),
-            "noWatchdog",
-            icon_name="mail-thread-watch"
+            "noWatchdog"
         )
-
-        # Recent Files & Locations
-        self.recentFiles_switch = self.create_row_with_clickable_link(
+        # # Limits
+        # self.limits_switch = self.create_row_with_clickable_link(
+        #     group,
+        #     _("Memlock and rtprio"),
+        #     _("Set memlock to unlimited and rtprio to 90."),
+        #     "limits"
+        # )
+        # Wifi
+        self.Wifi_switch = self.create_row_with_clickable_link(
             group,
-            _("Recent Files & Locations"),
-            _("Restores the 'Recent Files' and 'Recent Locations' functionality that appears empty in Dolphin and the Application Menu."),
-            "recent_files",
-            icon_name="document-open-recent-symbolic"
+            _("Wifi"),
+            _("Wifi On"),
+            "wifi"
         )
-        
-        # Check if KDE environment
-        is_kde = os.environ.get("XDG_CURRENT_DESKTOP", "").upper().find("KDE") >= 0 or \
-                 os.environ.get("XDG_CURRENT_DESKTOP", "").upper().find("PLASMA") >= 0
-        
-        if not is_kde:
-            self.recentFiles_switch.set_sensitive(False)
-            self.recentFiles_switch.set_tooltip_text(_("This feature is only available for KDE Plasma."))
+        # Bluetooth
+        self.Bluetooth_switch = self.create_row_with_clickable_link(
+            group,
+            _("Bluetooth"),
+            _("Bluetooth On."),
+            "bluetooth"
+        )
+        # Docker
+        self.Docker_switch = self.create_row_with_clickable_link(
+            group,
+            _("Docker"),
+            _("Docker Enabled."),
+            "dockerEnable"
+        )
 
+    def check_script_state(self, script_path):
+        """Executes a script with the 'check' argument to get its current state.
+        Returns True if the script's stdout is 'true', False otherwise."""
+        if not os.path.exists(script_path):
+            msg = _("Unavailable: script not found.")
+            print(_("Script not found: {}").format(script_path))
+            return (None, msg)
 
-
-    def on_switch_changed(self, switch, state):
-        if hasattr(self, 'kzones_switch') and switch == self.kzones_switch:
-             # Custom logic for KZones
-            script_path = self.switch_scripts.get(switch)
-            if script_path:
-                print(_("Changing {} to {}").format("KZones", "on" if state else "off"))
-                success = self.toggle_script_state(script_path, state)
-                
-                if not success:
-                    # Revert
-                    switch.handler_block_by_func(self.on_switch_changed)
-                    switch.set_active(not state)
-                    switch.handler_unblock_by_func(self.on_switch_changed)
-                    if hasattr(self.main_window, 'show_toast'):
-                            self.main_window.show_toast(_("Failed to change setting: {}").format("KZones"))
+        try:
+            result = subprocess.run([script_path, "check"],
+            capture_output=True,
+            text=True,
+            timeout=10)
+            if result.returncode == 0:
+                output = result.stdout.strip().lower()
+                if output == "true":
+                    return (True, _("Enabled"))
+                elif output == "false":
+                    return (False, _("Disabled"))
+                elif output == "true_disabled":
+                    # Returns a special string state and an explanatory message.
+                    return ("true_disabled", _("Enabled by system configuration (e.g., Real-Time Kernel) and cannot be changed here."))
                 else:
-                    # Success - Ask for restart
-                    self.show_restart_kwin_dialog()
-                
-                return True # We handled it
+                    msg = _("Unavailable: script returned invalid output.")
+                    print(_("Invalid output from script {}: {}").format(script_path, result.stdout.strip()))
+                    return (None, msg)
+            else:
+                msg = _("Unavailable: script returned an error.")
+                print(_("Error checking state: {}").format(result.stderr))
+                return (None, msg)
+        except (subprocess.TimeoutExpired, Exception) as e:
+            msg = _("Unavailable: failed to run script.")
+            print(_("Error running script {}: {}").format(script_path, e))
+            return (None, msg)
 
-        if hasattr(self, 'gamemode_switch') and switch == self.gamemode_switch:
-            script_path = self.switch_scripts.get(switch)
-            if state:
-                # Enable: Show Configuration Dialog first
-                def on_confirm(config):
-                    # Store config for later use if needed
-                    self.gamemode_config = config
-                    
-                    progress_dlg = GameModeDialog(
-                        self.main_window, 
-                        script_path, 
-                        action="start",
-                        on_close_callback=lambda success: self.on_gamemode_dialog_closed(switch, success, True)
-                    )
-                    progress_dlg.present()
-                
-                def on_cancel():
-                    switch.handler_block_by_func(self.on_switch_changed)
-                    switch.set_active(False)
-                    switch.handler_unblock_by_func(self.on_switch_changed)
+    def toggle_script_state(self, script_path, new_state):
+        """Executes a script with the 'toggle' argument to change the system state.
+        Returns True on success, False on failure."""
+        if not os.path.exists(script_path):
+            error_msg = _("Script not found: {}").format(script_path)
+            print(f"ERROR: {error_msg}")
+            return False
 
-                # Show configuration dialog
-                config_dlg = GameModeConfigDialog(
-                    self.main_window,
-                    on_confirm_callback=on_confirm,
-                    on_cancel_callback=on_cancel
-                )
-                config_dlg.present()
+        try:
+            state_str = "true" if new_state else "false"
+            result = subprocess.run([script_path, "toggle", state_str],
+            capture_output=True,
+            text=True,
+            timeout=30)
+
+            if result.returncode == 0:
+                print(_("State changed successfully"))
+                if result.stdout.strip():
+                    print(_("Script output: {}").format(result.stdout.strip()))
                 return True
             else:
-                # Disable: Just launch Progress Dialog
-                progress_dlg = GameModeDialog(
-                    self.main_window, 
-                    script_path, 
-                    action="stop",
-                    on_close_callback=lambda success: self.on_gamemode_dialog_closed(switch, success, False)
-                )
-                progress_dlg.present()
-                return True
+                # Exit code != 0 indicates failure
+                error_msg = _("Script failed with exit code: {}").format(result.returncode)
+                print(f"ERROR: {error_msg}")
 
-        # Recent Files & Locations handler
-        if hasattr(self, 'recentFiles_switch') and switch == self.recentFiles_switch:
-            script_path = self.switch_scripts.get(switch)
-            if script_path:
-                action = "enable" if state else "disable"
-                progress_dlg = RecentFilesDialog(
-                    self.main_window,
-                    script_path,
-                    action=action,
-                    on_close_callback=lambda success: self.on_recent_files_dialog_closed(switch, success, state)
-                )
-                progress_dlg.present()
-                return True
+                if result.stderr.strip():
+                    print(f"ERROR: Script stderr: {result.stderr.strip()}")
 
-        return super().on_switch_changed(switch, state)
+                if result.stdout.strip():
+                    print(f"ERROR: Script stdout: {result.stdout.strip()}")
 
-    def on_gamemode_dialog_closed(self, switch, success, target_state):
-        if not success:
-            # Revert switch if failed
-            switch.handler_block_by_func(self.on_switch_changed)
-            switch.set_active(not target_state)
-            switch.handler_unblock_by_func(self.on_switch_changed)
-        else:
-            # Success, switch is already in correct state visually
-            pass
-        
-            pass
+                return False
 
-    def on_recent_files_dialog_closed(self, switch, success, target_state):
-        """Callback when Recent Files dialog closes."""
-        if not success:
-            # Revert switch if failed
-            switch.handler_block_by_func(self.on_switch_changed)
-            switch.set_active(not target_state)
-            switch.handler_unblock_by_func(self.on_switch_changed)
-            if hasattr(self.main_window, 'show_toast'):
-                self.main_window.show_toast(_("Failed to change Recent Files & Locations setting."))
-
-    def show_restart_kwin_dialog(self):
-        dialog = Adw.MessageDialog(
-            transient_for=self.main_window,
-            heading=_("Restart KWin?"),
-            body=_("To apply the changes, the KWin window manager needs to be restarted. Do you want to restart it now?"),
-        )
-        dialog.add_response("cancel", _("No"))
-        dialog.add_response("restart", _("Yes"))
-        dialog.set_default_response("restart")
-        dialog.set_close_response("cancel")
-        dialog.connect("response", self.on_restart_kwin_response)
-        dialog.present()
-
-    def on_restart_kwin_response(self, dialog, response):
-        if response == "restart":
-             script_path = self.switch_scripts.get(self.kzones_switch)
-             if script_path:
-                 subprocess.run([script_path, "reload"])
-
-    def update_gamemode_info_visibility(self, switch, param):
-        self.gamemode_info_btn.set_visible(switch.get_active())
-
-    def on_gamemode_info_clicked(self, button):
-        """Open Steam Games dialog when info button is clicked (only shows when Game Mode is active)."""
-        try:
-            try:
-                from .steam_games_dialog import SteamGamesDialog
-            except ImportError:
-                import sys
-                import os
-                current_dir = os.path.dirname(os.path.abspath(__file__))
-                usability_dir = os.path.join(current_dir, 'usability')
-                if usability_dir not in sys.path:
-                    sys.path.append(usability_dir)
-                import steam_games_dialog
-                SteamGamesDialog = steam_games_dialog.SteamGamesDialog
-
-            dlg = SteamGamesDialog(parent=self.main_window)
-            dlg.present()
+        except subprocess.TimeoutExpired:
+            error_msg = _("Script timeout: {}").format(script_path)
+            print(f"ERROR: {error_msg}")
+            return False
         except Exception as e:
-            # Handle case where vdf or module is missing or other errors
-            error_dlg = Adw.MessageDialog(
-                heading=_("Error"), 
-                body=f"Cannot load Steam configuration tool: {e}",
-                transient_for=self.main_window
-            )
-            error_dlg.add_response("ok", "OK")
-            error_dlg.present()
+            error_msg = _("Error running script {}: {}").format(script_path, e)
+            print(f"ERROR: {error_msg}")
+            return False
+
+    def sync_all_switches(self):
+        """Synchronizes all UI widgets and disables them if their script is invalid, providing a tooltip with the reason."""
+        # Sync all switches
+        for switch, script_path in self.switch_scripts.items():
+            row = switch.get_parent().get_parent()
+            status, message = self.check_script_state(script_path)
+
+            switch.handler_block_by_func(self.on_switch_changed)
+
+            if status == "true_disabled":
+                # State: Enabled but cannot be changed.
+                row.set_sensitive(False)
+                row.set_tooltip_text(message)
+                switch.set_active(True)
+            elif status is None:
+                row.set_sensitive(False)
+                row.set_tooltip_text(message)
+            else:
+                row.set_sensitive(True)
+                row.set_tooltip_text(None)
+                switch.handler_block_by_func(self.on_switch_changed)
+                switch.set_active(status)
+                switch.handler_unblock_by_func(self.on_switch_changed)
+
+            switch.handler_unblock_by_func(self.on_switch_changed)
+            print(_("Switch {} synchronized: {}").format(os.path.basename(script_path), status))
+
+        # Sync all status indicators
+        for indicator, script_path in self.status_indicators.items():
+            row = indicator.get_parent().get_parent()
+            status, message = self.check_script_state(script_path)
+
+            # Always remove all state classes first to ensure a clean slate
+            indicator.remove_css_class("status-on")
+            indicator.remove_css_class("status-off")
+            indicator.remove_css_class("status-unavailable")
+
+            if status is None:
+                row.set_sensitive(False)
+                row.set_tooltip_text(message)
+                indicator.add_css_class("status-unavailable")
+            else:
+                row.set_sensitive(True)
+                row.set_tooltip_text(None)
+                if status:
+                    indicator.add_css_class("status-on")
+                else:
+                    indicator.add_css_class("status-off")
+            print(_("Indicator {} synchronized: {}").format(os.path.basename(script_path), status))
+
+    def on_switch_changed(self, switch, state):
+        """Callback executed when a user manually toggles a switch."""
+        script_path = self.switch_scripts.get(switch)
+
+        if script_path:
+            script_name = os.path.basename(script_path)
+            print(_("Changing {} to {}").format(script_name, "on" if state else "off"))
+
+            # Attempt to change the system state
+            success = self.toggle_script_state(script_path, state)
+
+            # If the script fails, revert the switch to its previous state
+            # to keep the UI consistent with the actual system state.
+            if not success:
+                # Block signal to prevent an infinite loop
+                switch.handler_block_by_func(self.on_switch_changed)
+                switch.set_active(not state)
+                switch.handler_unblock_by_func(self.on_switch_changed)
+
+                print(_("ERROR: Failed to change {} to {}").format(script_name, "on" if state else "off"))
+                self.show_toast(_("Failed to change setting: {}").format(script_name))
+
+        return False
+
