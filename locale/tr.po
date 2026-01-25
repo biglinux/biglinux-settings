@@ -62,6 +62,12 @@ msgid "Docker installed successfully!"
 msgstr "Docker başarıyla yüklendi!"
 msgid "An error occurred while install docker."
 msgstr "Docker yüklenirken bir hata oluştu."
+msgid "kzones Install"
+msgstr "kzones Kurulumu"
+msgid "Instaling Kzones, Please wait..."
+msgstr "Kzones kuruluyor, lütfen bekleyin..."
+msgid "Kzones installed successfully!"
+msgstr "Kzones başarıyla yüklendi!"
 # 
 # #-#-#-#-#  biglinux-settings.pot (biglinux-settings)  #-#-#-#-#
 # 
@@ -1312,6 +1318,10 @@ msgstr ""
 # 
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings-ruscher/devices/jamesdsp_dialog.py, line: 208
 # 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings-ruscher/devices/jamesdsp_dialog.py, line: 208
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings-ruscher/devices/jamesdsp_dialog.py, line: 208
+# 
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings/devices/jamesdsp_dialog.py, line: 208
 # 
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings/devices/jamesdsp_dialog.py, line: 208
@@ -1459,6 +1469,10 @@ msgstr "Yapılandırma Tamamlandı!"
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings/devices/keyboard_led_dialog.py, line: 419
 msgid "Your keyboard LED is now configured and ready to use."
 msgstr "Klavye LED'iniz artık yapılandırıldı ve kullanıma hazır."
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings-ruscher/devices/keyboard_led_dialog.py, line: 428
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings-ruscher/devices/keyboard_led_dialog.py, line: 428
 # 
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings-ruscher/devices/keyboard_led_dialog.py, line: 428
 # 
@@ -1743,6 +1757,17 @@ msgstr ""
 "Değişiklikleri uygulamak için KWin pencere yöneticisinin yeniden başlatılması gerekiyor. Şimdi "
 "yeniden başlatmak istiyor musunuz?"
 # 
+# #-#-#-#-#  biglinux-settings.pot (biglinux-settings)  #-#-#-#-#
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/preload_page.py, line: 284
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_usability_page.py, line: 334
+msgid "Indicator {} synchronized: {}"
+msgstr "Göstergeler {} senkronize edildi: {}"
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/devices_page.py, line: 15
+msgid "Manage physical devices."
+msgstr "Fiziksel cihazları yönetin."
+# 
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 152
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 164
 msgid "System Tweaks"
@@ -1753,9 +1778,42 @@ msgstr "Sistem Ayarları"
 msgid "PreLoad"
 msgstr "Ön Yükleme"
 # 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 161
+msgid "A.I."
+msgstr "Yapay Zeka"
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/ai_page.py, line: 15
+msgid "AI settings and tools."
+msgstr "Yapay zeka ayarları ve araçları."
+# 
 # #-#-#-#-#  biglinux-settings.pot (biglinux-settings)  #-#-#-#-#
 # 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/preload_page.py, line: 284
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_usability_page.py, line: 334
-msgid "Indicator {} synchronized: {}"
-msgstr "Göstergeler {} senkronize edildi: {}"
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/ai_page.py, line: 32
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_usability_page.py, line: 50
+msgid "Script for the KWin window manager of the KDE Plasma desktop environment."
+msgstr "KDE Plasma masaüstü ortamının KWin pencere yöneticisi için betik."
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/docker_page.py, line: 15
+msgid "Container service - enable to use containers below."
+msgstr "Konteyner hizmeti - aşağıdaki konteynerleri kullanmayı etkinleştir."
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/docker_page.py, line: 23
+msgid "Manage container technologies."
+msgstr "Konteyner teknolojilerini yönetin."
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_usability_page.py, line: 14
+msgid "User and Visual system settings."
+msgstr "Kullanıcı ve Görsel sistem ayarları."
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_usability_page.py, line: 31
+msgid "Window Button..."
+msgstr "Pencere Düğmesi..."
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_usability_page.py, line: 113
+#, python-brace-format
+msgid ""
+"Using mitigations=off will make your machine faster and less secure! For more information see: <a "
+"href='{l}'>{l}</a>"
+msgstr ""
+"Mitigasyonlar kapalı olduğunda, makineniz daha hızlı ancak daha az güvenli olacaktır! Daha fazla "
+"bilgi için: <a href='{l}'>{l}</a>"

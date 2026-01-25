@@ -62,6 +62,12 @@ msgid "Docker installed successfully!"
 msgstr "Docker가 성공적으로 설치되었습니다!"
 msgid "An error occurred while install docker."
 msgstr "도커 설치 중 오류가 발생했습니다."
+msgid "kzones Install"
+msgstr "kzones 설치"
+msgid "Instaling Kzones, Please wait..."
+msgstr "Kzones 설치 중입니다. 잠시만 기다려 주십시오..."
+msgid "Kzones installed successfully!"
+msgstr "Kzones가 성공적으로 설치되었습니다!"
 # 
 # #-#-#-#-#  biglinux-settings.pot (biglinux-settings)  #-#-#-#-#
 # 
@@ -1653,6 +1659,17 @@ msgstr "KWin을 재시작하시겠습니까?"
 msgid "To apply the changes, the KWin window manager needs to be restarted. Do you want to restart it now?"
 msgstr "변경 사항을 적용하려면 KWin 창 관리자 를 다시 시작해야 합니다. 지금 다시 시작하시겠습니까?"
 # 
+# #-#-#-#-#  biglinux-settings.pot (biglinux-settings)  #-#-#-#-#
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/preload_page.py, line: 284
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_usability_page.py, line: 334
+msgid "Indicator {} synchronized: {}"
+msgstr "지표 {} 동기화됨: {}"
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/devices_page.py, line: 15
+msgid "Manage physical devices."
+msgstr "물리적 장치 관리."
+# 
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 152
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 164
 msgid "System Tweaks"
@@ -1663,9 +1680,40 @@ msgstr "시스템 조정"
 msgid "PreLoad"
 msgstr "프리로드"
 # 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 161
+msgid "A.I."
+msgstr "인공지능"
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/ai_page.py, line: 15
+msgid "AI settings and tools."
+msgstr "AI 설정 및 도구."
+# 
 # #-#-#-#-#  biglinux-settings.pot (biglinux-settings)  #-#-#-#-#
 # 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/preload_page.py, line: 284
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_usability_page.py, line: 334
-msgid "Indicator {} synchronized: {}"
-msgstr "지표 {} 동기화됨: {}"
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/ai_page.py, line: 32
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_usability_page.py, line: 50
+msgid "Script for the KWin window manager of the KDE Plasma desktop environment."
+msgstr "KDE Plasma 데스크탑 환경의 KWin 윈도우 관리자용 스크립트."
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/docker_page.py, line: 15
+msgid "Container service - enable to use containers below."
+msgstr "컨테이너 서비스 - 아래의 컨테이너 사용을 활성화합니다."
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/docker_page.py, line: 23
+msgid "Manage container technologies."
+msgstr "컨테이너 기술 관리."
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_usability_page.py, line: 14
+msgid "User and Visual system settings."
+msgstr "사용자 및 시각 시스템 설정."
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_usability_page.py, line: 31
+msgid "Window Button..."
+msgstr "창 버튼..."
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_usability_page.py, line: 113
+#, python-brace-format
+msgid ""
+"Using mitigations=off will make your machine faster and less secure! For more information see: <a "
+"href='{l}'>{l}</a>"
+msgstr "완화 조치를 사용하지 않으면 기계가 더 빨라지지만 보안이 떨어집니다! 자세한 내용은 다음을 참조하십시오: <a href='{l}'>{l}</a>"

@@ -62,6 +62,12 @@ msgid "Docker installed successfully!"
 msgstr "A Docker sikeresen telepítve lett!"
 msgid "An error occurred while install docker."
 msgstr "Hiba történt a Docker telepítése során."
+msgid "kzones Install"
+msgstr "kzones Telepítés"
+msgid "Instaling Kzones, Please wait..."
+msgstr "Kzones telepítése, kérem várjon..."
+msgid "Kzones installed successfully!"
+msgstr "A Kzones sikeresen telepítve lett!"
 # 
 # #-#-#-#-#  biglinux-settings.pot (biglinux-settings)  #-#-#-#-#
 # 
@@ -1670,6 +1676,17 @@ msgstr "KWin újraindítása?"
 msgid "To apply the changes, the KWin window manager needs to be restarted. Do you want to restart it now?"
 msgstr "A változtatások alkalmazásához a KWin ablakkezelőt újra kell indítani. Szeretné most újraindítani?"
 # 
+# #-#-#-#-#  biglinux-settings.pot (biglinux-settings)  #-#-#-#-#
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/preload_page.py, line: 284
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_usability_page.py, line: 334
+msgid "Indicator {} synchronized: {}"
+msgstr "A {} szinkronizálva: {}"
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/devices_page.py, line: 15
+msgid "Manage physical devices."
+msgstr "Fizikai eszközök kezelése."
+# 
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 152
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 164
 msgid "System Tweaks"
@@ -1680,9 +1697,42 @@ msgstr "Rendszerfinomítások"
 msgid "PreLoad"
 msgstr "Előbetöltés"
 # 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 161
+msgid "A.I."
+msgstr "Mesterséges intelligencia."
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/ai_page.py, line: 15
+msgid "AI settings and tools."
+msgstr "AI beállítások és eszközök."
+# 
 # #-#-#-#-#  biglinux-settings.pot (biglinux-settings)  #-#-#-#-#
 # 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/preload_page.py, line: 284
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_usability_page.py, line: 334
-msgid "Indicator {} synchronized: {}"
-msgstr "A {} szinkronizálva: {}"
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/ai_page.py, line: 32
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_usability_page.py, line: 50
+msgid "Script for the KWin window manager of the KDE Plasma desktop environment."
+msgstr "A KWin ablakkezelőhöz készült script a KDE Plasma asztali környezethez."
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/docker_page.py, line: 15
+msgid "Container service - enable to use containers below."
+msgstr "Konténer szolgáltatás - engedélyezze a konténerek használatát az alábbiakban."
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/docker_page.py, line: 23
+msgid "Manage container technologies."
+msgstr "Kezelje a konténertechnológiákat."
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_usability_page.py, line: 14
+msgid "User and Visual system settings."
+msgstr "Felhasználói és vizuális rendszerbeállítások."
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_usability_page.py, line: 31
+msgid "Window Button..."
+msgstr "Ablak gomb..."
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_usability_page.py, line: 113
+#, python-brace-format
+msgid ""
+"Using mitigations=off will make your machine faster and less secure! For more information see: <a "
+"href='{l}'>{l}</a>"
+msgstr ""
+"A mitigációk kikapcsolása gyorsabbá és kevésbé biztonsossá teszi a gépét! További információért "
+"lásd: <a href='{l}'>{l}</a>"

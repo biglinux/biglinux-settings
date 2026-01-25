@@ -62,6 +62,12 @@ msgid "Docker installed successfully!"
 msgstr "Docker bol úspešne nainštalovaný!"
 msgid "An error occurred while install docker."
 msgstr "Pri inštalácii dockera došlo k chybe."
+msgid "kzones Install"
+msgstr "kzones Inštalácia"
+msgid "Instaling Kzones, Please wait..."
+msgstr "Inštalácia Kzones, prosím čakajte..."
+msgid "Kzones installed successfully!"
+msgstr "Kzones boli úspešne nainštalované!"
 # 
 # #-#-#-#-#  biglinux-settings.pot (biglinux-settings)  #-#-#-#-#
 # 
@@ -1306,6 +1312,10 @@ msgstr ""
 # 
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings-ruscher/devices/jamesdsp_dialog.py, line: 208
 # 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings-ruscher/devices/jamesdsp_dialog.py, line: 208
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings-ruscher/devices/jamesdsp_dialog.py, line: 208
+# 
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings/devices/jamesdsp_dialog.py, line: 208
 # 
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings/devices/jamesdsp_dialog.py, line: 208
@@ -1453,6 +1463,10 @@ msgstr "Konfigurácia dokončená!"
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings/devices/keyboard_led_dialog.py, line: 419
 msgid "Your keyboard LED is now configured and ready to use."
 msgstr "Vaša klávesnica LED je teraz nakonfigurovaná a pripravená na použitie."
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings-ruscher/devices/keyboard_led_dialog.py, line: 428
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings-ruscher/devices/keyboard_led_dialog.py, line: 428
 # 
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings-ruscher/devices/keyboard_led_dialog.py, line: 428
 # 
@@ -1735,6 +1749,17 @@ msgstr "Reštartovať KWin?"
 msgid "To apply the changes, the KWin window manager needs to be restarted. Do you want to restart it now?"
 msgstr "Aby sa zmeny uplatnili, je potrebné reštartovať správcu okien KWin. Chcete ho reštartovať teraz?"
 # 
+# #-#-#-#-#  biglinux-settings.pot (biglinux-settings)  #-#-#-#-#
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/preload_page.py, line: 284
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_usability_page.py, line: 334
+msgid "Indicator {} synchronized: {}"
+msgstr "Indikátor {} synchronizovaný: {}"
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/devices_page.py, line: 15
+msgid "Manage physical devices."
+msgstr "Spravovať fyzické zariadenia."
+# 
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 152
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 164
 msgid "System Tweaks"
@@ -1745,9 +1770,42 @@ msgstr "Systémové úpravy"
 msgid "PreLoad"
 msgstr "Prednačítanie"
 # 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 161
+msgid "A.I."
+msgstr "A.I."
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/ai_page.py, line: 15
+msgid "AI settings and tools."
+msgstr "Nastavenia a nástroje AI."
+# 
 # #-#-#-#-#  biglinux-settings.pot (biglinux-settings)  #-#-#-#-#
 # 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/preload_page.py, line: 284
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_usability_page.py, line: 334
-msgid "Indicator {} synchronized: {}"
-msgstr "Indikátor {} synchronizovaný: {}"
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/ai_page.py, line: 32
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_usability_page.py, line: 50
+msgid "Script for the KWin window manager of the KDE Plasma desktop environment."
+msgstr "Skript pre správcu okien KWin v prostredí desktopu KDE Plasma."
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/docker_page.py, line: 15
+msgid "Container service - enable to use containers below."
+msgstr "Služba kontajnerov - povoliť používanie kontajnerov nižšie."
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/docker_page.py, line: 23
+msgid "Manage container technologies."
+msgstr "Spravujte technológie kontajnerov."
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_usability_page.py, line: 14
+msgid "User and Visual system settings."
+msgstr "Nastavenia používateľa a vizuálneho systému."
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_usability_page.py, line: 31
+msgid "Window Button..."
+msgstr "Tlačidlo okna..."
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_usability_page.py, line: 113
+#, python-brace-format
+msgid ""
+"Using mitigations=off will make your machine faster and less secure! For more information see: <a "
+"href='{l}'>{l}</a>"
+msgstr ""
+"Použitie mitigations=off zrychlí váš stroj, ale zníži jeho bezpečnosť! Pre viac informácií "
+"navštívte: <a href='{l}'>{l}</a>"

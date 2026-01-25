@@ -62,6 +62,12 @@ msgid "Docker installed successfully!"
 msgstr "Docker je uspješno instaliran!"
 msgid "An error occurred while install docker."
 msgstr "Došlo je do pogreške prilikom instalacije dockera."
+msgid "kzones Install"
+msgstr "kzones Instaliraj"
+msgid "Instaling Kzones, Please wait..."
+msgstr "Instalacija Kzones, molimo pričekajte..."
+msgid "Kzones installed successfully!"
+msgstr "Kzones je uspješno instaliran!"
 # 
 # #-#-#-#-#  biglinux-settings.pot (biglinux-settings)  #-#-#-#-#
 # 
@@ -1667,6 +1673,17 @@ msgstr ""
 "Da biste primijenili promjene, KWin upravitelj prozora treba biti ponovno pokrenut. Želite li ga "
 "sada ponovno pokrenuti?"
 # 
+# #-#-#-#-#  biglinux-settings.pot (biglinux-settings)  #-#-#-#-#
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/preload_page.py, line: 284
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_usability_page.py, line: 334
+msgid "Indicator {} synchronized: {}"
+msgstr "Pokazatelj {} sinkroniziran: {}"
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/devices_page.py, line: 15
+msgid "Manage physical devices."
+msgstr "Upravljajte fizičkim uređajima."
+# 
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 152
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 164
 msgid "System Tweaks"
@@ -1677,9 +1694,42 @@ msgstr "Sistemske prilagodbe"
 msgid "PreLoad"
 msgstr "PreLoad"
 # 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 161
+msgid "A.I."
+msgstr "A.I."
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/ai_page.py, line: 15
+msgid "AI settings and tools."
+msgstr "Postavke i alati za AI."
+# 
 # #-#-#-#-#  biglinux-settings.pot (biglinux-settings)  #-#-#-#-#
 # 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/preload_page.py, line: 284
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_usability_page.py, line: 334
-msgid "Indicator {} synchronized: {}"
-msgstr "Pokazatelj {} sinkroniziran: {}"
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/ai_page.py, line: 32
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_usability_page.py, line: 50
+msgid "Script for the KWin window manager of the KDE Plasma desktop environment."
+msgstr "Skripta za KWin upravitelja prozora KDE Plasma radnog okruženja."
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/docker_page.py, line: 15
+msgid "Container service - enable to use containers below."
+msgstr "Usluga kontejnera - omogućite korištenje kontejnera u nastavku."
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/docker_page.py, line: 23
+msgid "Manage container technologies."
+msgstr "Upravljajte tehnologijama kontejnera."
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_usability_page.py, line: 14
+msgid "User and Visual system settings."
+msgstr "Postavke korisnika i vizualnog sustava."
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_usability_page.py, line: 31
+msgid "Window Button..."
+msgstr "Gumb za prozor..."
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_usability_page.py, line: 113
+#, python-brace-format
+msgid ""
+"Using mitigations=off will make your machine faster and less secure! For more information see: <a "
+"href='{l}'>{l}</a>"
+msgstr ""
+"Korištenje mitigacija=isključeno učinit će vaš uređaj bržim, ali manje sigurnim! Za više "
+"informacija pogledajte: <a href='{l}'>{l}</a>"
