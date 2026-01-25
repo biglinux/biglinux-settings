@@ -62,70 +62,6 @@ msgid "Docker installed successfully!"
 msgstr "Docker var sett upp með góðum árangri!"
 msgid "An error occurred while install docker."
 msgstr "Villa kom að uppsetningu docker."
-msgid "BigLinux Ajustes"
-msgstr "BigLinux Stillingar"
-msgid "Se estiver utilizando algum navegador, reinicie-o para aplicar as alterações."
-msgstr "Ef þú ert að nota vafra, endurræstu hann til að beita breytingunum."
-msgid "Aceleração do navegador"
-msgstr "Vöxtun vafrans"
-msgid "Desativar efeitos do desktop"
-msgstr "Aftengja skrifborðsáhrif"
-msgid "BTRFS sem fsync"
-msgstr "BTRFS án fsync"
-msgid "Rolagem do touchpad invertida"
-msgstr "Rolagem do touchpad invertida"
-msgid "Ligar RGB do teclado"
-msgstr "Tengja RGB á lyklaborðinu"
-msgid "Modo Desenvolvedor"
-msgstr "Þróunaraðgerð"
-msgid "Botões da janela no lado esquerdo"
-msgstr "Gluggar gluggans til vinstri"
-msgid "Aguarde..."
-msgstr "Please provide a string to translate."
-msgid "Aplicando, Aguarde..."
-msgstr "Applying, Please wait..."
-msgid "Rolagem do mouse invertida"
-msgstr "Rolagem do mouse invertida"
-msgid "Ativar o NumLock ao ligar o sistema"
-msgstr "Aktivera NumLock við að kveikja á kerfinu"
-msgid "Indexar arquivos"
-msgstr "Indexing files"
-msgid "Grub"
-msgstr "Grub"
-msgid "Cuidado, você perderá acesso aos SnapShots. Tem certeza que deseja ocultar o grub?"
-msgstr "Vinsamlegast athugaðu, þú munt missa aðgang að SnapShots. Ertu viss um að þú viljir fela grub?"
-msgid "Você saberá retornar o Grub em caso de falha?"
-msgstr "Þú munt vita að skila Grub í tilfelli mistaka?"
-msgid "Você saberá acessar os SnapShots sem acesso ao modo Gráfico?"
-msgstr "Þú munt geta aðgang að SnapShots án aðgangs að grafísku módinu?"
-msgid "Você está completamente seguro dessa aplicação?"
-msgstr ""
-msgid "Aplicando, aguarde..."
-msgstr "Applying, please wait..."
-msgid "Concluído!"
-msgstr "Farið!"
-msgid "Ocultar Gerenciador de Boot (GRUB)"
-msgstr "Hide Boot Manager (GRUB)"
-msgid "Bloquear a edição da área de trabalho"
-msgstr "Lokaðu ritun á skrifborðinu"
-msgid "Montar partições automaticamente"
-msgstr "Automatically mount partitions"
-msgid "Abrir"
-msgstr "Opna"
-msgid "Procurar..."
-msgstr "Leita..."
-msgid "Desempenho"
-msgstr "Frammistað."
-msgid "Configurações do Brave"
-msgstr "Brave stilla"
-msgid "Remover propagandas"
-msgstr "Fjarlægja auglýsingar"
-msgid "Suportar criptomoedas"
-msgstr "Stuðla að rafmyntum"
-msgid "Escolher programas a serem carregados na memória durante boot"
-msgstr "Velja forrit til að hlaða í minni við ræsingu."
-msgid "Usabilidade"
-msgstr "Notkunarhæfi"
 # 
 # #-#-#-#-#  biglinux-settings.pot (biglinux-settings)  #-#-#-#-#
 # 
@@ -689,6 +625,12 @@ msgstr "Minnis sem frjáls merkt sem Buff/Cache (krafist sudo)"
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings/usability/kwin_ram_dialog.py, line: 177
 msgid "Clean Now"
 msgstr "Hreinsaðu núna"
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings-ruscher/usability/kwin_ram_dialog.py, line: 195
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings-ruscher/usability/kwin_ram_dialog.py, line: 282
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings-ruscher/usability/kwin_ram_dialog.py, line: 195
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings-ruscher/usability/kwin_ram_dialog.py, line: 282
 # 
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings/usability/kwin_ram_dialog.py, line: 195
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings/usability/kwin_ram_dialog.py, line: 282
@@ -1393,6 +1335,10 @@ msgstr ""
 "Undantekning við að hlaða forstillingu:\n"
 "{}"
 # 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings-ruscher/devices/jamesdsp_dialog.py, line: 208
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings-ruscher/devices/jamesdsp_dialog.py, line: 208
+# 
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings/devices/jamesdsp_dialog.py, line: 208
 # 
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings/devices/jamesdsp_dialog.py, line: 208
@@ -1449,6 +1395,10 @@ msgstr "Byrjun stillingar"
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings/devices/keyboard_led_dialog.py, line: 174
 msgid "Did the LED turn on?"
 msgstr "Tændte LED'en?"
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings-ruscher/devices/keyboard_led_dialog.py, line: 223
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings-ruscher/devices/keyboard_led_dialog.py, line: 223
 # 
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings/devices/keyboard_led_dialog.py, line: 223
 # 
@@ -1556,6 +1506,10 @@ msgstr "Uppsetning lokið!"
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings/devices/keyboard_led_dialog.py, line: 419
 msgid "Your keyboard LED is now configured and ready to use."
 msgstr "Takkstýran þín er nú stillt og tilbúin til notkunar."
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings-ruscher/devices/keyboard_led_dialog.py, line: 428
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings-ruscher/devices/keyboard_led_dialog.py, line: 428
 # 
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings/devices/keyboard_led_dialog.py, line: 428
 # 
@@ -1823,3 +1777,20 @@ msgstr "Endurrætta KWin?"
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_usability_page.py, line: 163
 msgid "To apply the changes, the KWin window manager needs to be restarted. Do you want to restart it now?"
 msgstr "Til að beita breytingunum þarf KWin gluggastjórinn að vera endurræstur. Viltu endurræsa hann núna?"
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 152
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 164
+msgid "System Tweaks"
+msgstr "Kerfissarstillingar"
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 158
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 167
+msgid "PreLoad"
+msgstr "PreLoad"
+# 
+# #-#-#-#-#  biglinux-settings.pot (biglinux-settings)  #-#-#-#-#
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/preload_page.py, line: 284
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_usability_page.py, line: 334
+msgid "Indicator {} synchronized: {}"
+msgstr "Vísir {} samstilltur: {}"

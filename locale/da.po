@@ -62,72 +62,6 @@ msgid "Docker installed successfully!"
 msgstr "Docker installeret med succes!"
 msgid "An error occurred while install docker."
 msgstr "Der opstod en fejl under installationen af docker."
-msgid "BigLinux Ajustes"
-msgstr "BigLinux Indstillinger"
-msgid "Se estiver utilizando algum navegador, reinicie-o para aplicar as alterações."
-msgstr "Hvis du bruger en browser, skal du genstarte den for at anvende ændringerne."
-msgid "Aceleração do navegador"
-msgstr "Browser acceleration"
-msgid "Desativar efeitos do desktop"
-msgstr "Deaktivere skrivebordeffekter"
-msgid "BTRFS sem fsync"
-msgstr "BTRFS sem fsync"
-msgid "Rolagem do touchpad invertida"
-msgstr "Rolning af touchpad er omvendt"
-msgid "Ligar RGB do teclado"
-msgstr "Tænd RGB på tastaturet"
-msgid "Modo Desenvolvedor"
-msgstr "Udviklertilstand"
-msgid "Botões da janela no lado esquerdo"
-msgstr "Knapper i vinduet til venstre"
-msgid "Aguarde..."
-msgstr ""
-msgid "Aplicando, Aguarde..."
-msgstr "Anvender, Vent venligst..."
-msgid "Rolagem do mouse invertida"
-msgstr "Inverter musehjul"
-msgid "Ativar o NumLock ao ligar o sistema"
-msgstr "Aktiver NumLock ved opstart af systemet"
-msgid "Indexar arquivos"
-msgstr "Indekser filer"
-msgid "Grub"
-msgstr "Grub"
-msgid "Cuidado, você perderá acesso aos SnapShots. Tem certeza que deseja ocultar o grub?"
-msgstr "Pas på, du vil miste adgangen til SnapShots. Er du sikker på, at du ønsker at skjule grub?"
-msgid "Sim"
-msgstr "Ja"
-msgid "Você saberá retornar o Grub em caso de falha?"
-msgstr "Du kan returnere Grub i tilfælde af fejl?"
-msgid "Você saberá acessar os SnapShots sem acesso ao modo Gráfico?"
-msgstr "Du kan få adgang til SnapShots uden adgang til grafisk tilstand?"
-msgid "Você está completamente seguro dessa aplicação?"
-msgstr "Du er helt sikker på denne applikation?"
-msgid "Aplicando, aguarde..."
-msgstr "Anvender, vent venligst..."
-msgid "Concluído!"
-msgstr "Færdig!"
-msgid "Ocultar Gerenciador de Boot (GRUB)"
-msgstr "Skjul Boot Manager (GRUB)"
-msgid "Bloquear a edição da área de trabalho"
-msgstr "Bloker redigering af skrivebordet"
-msgid "Montar partições automaticamente"
-msgstr "Automatisk montering af partitioner"
-msgid "Abrir"
-msgstr "Åbne"
-msgid "Procurar..."
-msgstr "Søger..."
-msgid "Desempenho"
-msgstr "Ydeevne"
-msgid "Configurações do Brave"
-msgstr "Brave-indstillinger"
-msgid "Remover propagandas"
-msgstr "Fjern annoncer"
-msgid "Suportar criptomoedas"
-msgstr "Understøtte kryptovalutaer"
-msgid "Escolher programas a serem carregados na memória durante boot"
-msgstr "Vælg programmer, der skal indlæses i hukommelsen under opstart."
-msgid "Usabilidade"
-msgstr "Brugervenlighed"
 # 
 # #-#-#-#-#  biglinux-settings.pot (biglinux-settings)  #-#-#-#-#
 # 
@@ -1409,6 +1343,10 @@ msgstr "Start konfiguration"
 msgid "Did the LED turn on?"
 msgstr "Tændte LED'en?"
 # 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings-ruscher/devices/keyboard_led_dialog.py, line: 223
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings-ruscher/devices/keyboard_led_dialog.py, line: 223
+# 
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings/devices/keyboard_led_dialog.py, line: 223
 # 
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings/devices/keyboard_led_dialog.py, line: 223
@@ -1515,6 +1453,10 @@ msgstr "Konfiguration Fuldført!"
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings/devices/keyboard_led_dialog.py, line: 419
 msgid "Your keyboard LED is now configured and ready to use."
 msgstr "Dit tastatur-LED er nu konfigureret og klar til brug."
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings-ruscher/devices/keyboard_led_dialog.py, line: 428
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings-ruscher/devices/keyboard_led_dialog.py, line: 428
 # 
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings/devices/keyboard_led_dialog.py, line: 428
 # 
@@ -1784,3 +1726,20 @@ msgstr "Genstart KWin?"
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_usability_page.py, line: 163
 msgid "To apply the changes, the KWin window manager needs to be restarted. Do you want to restart it now?"
 msgstr "For at anvende ændringerne skal KWin-vindueshåndtereren genstartes. Vil du genstarte den nu?"
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 152
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 164
+msgid "System Tweaks"
+msgstr "Systemjusteringer"
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 158
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 167
+msgid "PreLoad"
+msgstr "Forudindlæsning"
+# 
+# #-#-#-#-#  biglinux-settings.pot (biglinux-settings)  #-#-#-#-#
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/preload_page.py, line: 284
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_usability_page.py, line: 334
+msgid "Indicator {} synchronized: {}"
+msgstr "Indikator {} synkroniseret: {}"

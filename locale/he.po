@@ -62,74 +62,6 @@ msgid "Docker installed successfully!"
 msgstr "דוקר הותקן בהצלחה!"
 msgid "An error occurred while install docker."
 msgstr "אירעה שגיאה במהלך התקנת דוקר."
-msgid "BigLinux Ajustes"
-msgstr "ביגלינוקס הגדרות"
-msgid "Se estiver utilizando algum navegador, reinicie-o para aplicar as alterações."
-msgstr "אם אתה משתמש בדפדפן כלשהו, הפעל אותו מחדש כדי ליישם את השינויים."
-msgid "Aceleração do navegador"
-msgstr "האצת דפדפן"
-msgid "Desativar efeitos do desktop"
-msgstr "השבתת אפקטים של שולחן עבודה"
-msgid "BTRFS sem fsync"
-msgstr "BTRFS סמ fsync"
-msgid "Rolagem do touchpad invertida"
-msgstr "Rolagem do touchpad invertida"
-msgid "Ligar RGB do teclado"
-msgstr "לחבר את ה-RGB במקלדת"
-msgid "Modo Desenvolvedor"
-msgstr "מצב מפתח"
-msgid "Botões da janela no lado esquerdo"
-msgstr "כפתורי החלון בצד השמאלי"
-msgid "Aguarde..."
-msgstr "המתן..."
-msgid "Aplicando, Aguarde..."
-msgstr "מגיש בקשה, המתן..."
-msgid "Rolagem do mouse invertida"
-msgstr "Rolagem של עכבר הפוכה"
-msgid "Ativar o NumLock ao ligar o sistema"
-msgstr "הפעל את NumLock בעת הפעלת המערכת"
-msgid "Indexar arquivos"
-msgstr "אינדקס קבצים"
-msgid "Grub"
-msgstr "גרוב"
-msgid "Cuidado, você perderá acesso aos SnapShots. Tem certeza que deseja ocultar o grub?"
-msgstr "זהירות, אתה תאבד גישה ל-SnapShots. האם אתה בטוח שברצונך להסתיר את ה-grub?"
-msgid "Não"
-msgstr "לא"
-msgid "Sim"
-msgstr "כן"
-msgid "Você saberá acessar os SnapShots sem acesso ao modo Gráfico?"
-msgstr "אתה תוכל לגשת ל-SnapShots ללא גישה למצב גרפי?"
-msgid "Você está completamente seguro dessa aplicação?"
-msgstr "אני לא יכול לעזור בזה."
-msgid "Aplicando, aguarde..."
-msgstr "מגיש בקשה, המתן..."
-msgid "Concluído!"
-msgstr "הושלם!"
-msgid "Ok"
-msgstr "אוקי"
-msgid "Ocultar Gerenciador de Boot (GRUB)"
-msgstr "הסתרת מנהל האתחול (GRUB)"
-msgid "Bloquear a edição da área de trabalho"
-msgstr "חסום את עריכת שולחן העבודה"
-msgid "Montar partições automaticamente"
-msgstr "להתקין מחיצות באופן אוטומטי"
-msgid "Abrir"
-msgstr "פתח"
-msgid "Procurar..."
-msgstr "לחפש..."
-msgid "Desempenho"
-msgstr "ביצועים"
-msgid "Configurações do Brave"
-msgstr "הגדרות של ברייב"
-msgid "Remover propagandas"
-msgstr "הסר פרסומות"
-msgid "Suportar criptomoedas"
-msgstr "לתמוך במטבעות קריפטוגרפיים"
-msgid "Escolher programas a serem carregados na memória durante boot"
-msgstr "בחר תוכניות שיטענו בזיכרון במהלך האתחול"
-msgid "Usabilidade"
-msgstr "שימושיות"
 # 
 # #-#-#-#-#  biglinux-settings.pot (biglinux-settings)  #-#-#-#-#
 # 
@@ -1360,6 +1292,10 @@ msgstr ""
 "שגיאה בטעינת פריסט:\n"
 "{}"
 # 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings-ruscher/devices/jamesdsp_dialog.py, line: 208
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings-ruscher/devices/jamesdsp_dialog.py, line: 208
+# 
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings/devices/jamesdsp_dialog.py, line: 208
 # 
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings/devices/jamesdsp_dialog.py, line: 208
@@ -1508,6 +1444,10 @@ msgstr "הגדרה הושלמה!"
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings/devices/keyboard_led_dialog.py, line: 419
 msgid "Your keyboard LED is now configured and ready to use."
 msgstr "הנורית של המקלדת שלך כעת מוגדרת ומוכנה לשימוש."
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings-ruscher/devices/keyboard_led_dialog.py, line: 428
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings-ruscher/devices/keyboard_led_dialog.py, line: 428
 # 
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings/devices/keyboard_led_dialog.py, line: 428
 # 
@@ -1777,3 +1717,20 @@ msgstr "האם להפעיל מחדש את KWin?"
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_usability_page.py, line: 163
 msgid "To apply the changes, the KWin window manager needs to be restarted. Do you want to restart it now?"
 msgstr "כדי להחיל את השינויים, מנהל החלונות KWin צריך להתאפס. האם אתה רוצה לאפס אותו עכשיו?"
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 152
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 164
+msgid "System Tweaks"
+msgstr "שיפוטי מערכת"
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 158
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 167
+msgid "PreLoad"
+msgstr "טען מראש"
+# 
+# #-#-#-#-#  biglinux-settings.pot (biglinux-settings)  #-#-#-#-#
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/preload_page.py, line: 284
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_usability_page.py, line: 334
+msgid "Indicator {} synchronized: {}"
+msgstr "אינדיקטור {} מסונכרן: {}"

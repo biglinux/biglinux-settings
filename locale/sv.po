@@ -62,72 +62,6 @@ msgid "Docker installed successfully!"
 msgstr "Docker installerades framgångsrikt!"
 msgid "An error occurred while install docker."
 msgstr "Ett fel uppstod vid installation av docker."
-msgid "BigLinux Ajustes"
-msgstr "BigLinux Inställningar"
-msgid "Se estiver utilizando algum navegador, reinicie-o para aplicar as alterações."
-msgstr "Du använder en webbläsare, starta om den för att tillämpa ändringarna."
-msgid "Aceleração do navegador"
-msgstr "Webbläsaraccelerering"
-msgid "Desativar efeitos do desktop"
-msgstr "Inaktivera skrivbords effekter"
-msgid "BTRFS sem fsync"
-msgstr "BTRFS utan fsync"
-msgid "Rolagem do touchpad invertida"
-msgstr "Inverter rullning av pekplattan"
-msgid "Ligar RGB do teclado"
-msgstr "Slå på RGB-tangentbordet"
-msgid "Modo Desenvolvedor"
-msgstr "Utvecklarläge"
-msgid "Botões da janela no lado esquerdo"
-msgstr "Fönsterknappar på vänster sida"
-msgid "Aguarde..."
-msgstr "Vänta..."
-msgid "Aplicando, Aguarde..."
-msgstr "Tillämpning, Vänta..."
-msgid "Rolagem do mouse invertida"
-msgstr "Omvänd musrullning"
-msgid "Ativar o NumLock ao ligar o sistema"
-msgstr "Aktivera NumLock vid systemstart"
-msgid "Indexar arquivos"
-msgstr "Indexera filer"
-msgid "Grub"
-msgstr "Grub"
-msgid "Cuidado, você perderá acesso aos SnapShots. Tem certeza que deseja ocultar o grub?"
-msgstr "Varning, du kommer att förlora åtkomst till SnapShots. Är du säker på att du vill dölja grub?"
-msgid "Sim"
-msgstr "Ja"
-msgid "Você saberá retornar o Grub em caso de falha?"
-msgstr "Du kommer att kunna återställa Grub vid fel?"
-msgid "Você saberá acessar os SnapShots sem acesso ao modo Gráfico?"
-msgstr "Du kommer att kunna få åtkomst till SnapShots utan att använda grafiskt läge?"
-msgid "Você está completamente seguro dessa aplicação?"
-msgstr "Du är helt säker på denna applikation?"
-msgid "Aplicando, aguarde..."
-msgstr "Tillämpning pågår, vänligen vänta..."
-msgid "Concluído!"
-msgstr "Slutfört!"
-msgid "Ocultar Gerenciador de Boot (GRUB)"
-msgstr "Dölj Boot Manager (GRUB)"
-msgid "Bloquear a edição da área de trabalho"
-msgstr "Blockera redigering av skrivbordet"
-msgid "Montar partições automaticamente"
-msgstr "Automatiskt montera partitioner"
-msgid "Abrir"
-msgstr "Öppna"
-msgid "Procurar..."
-msgstr "Söka..."
-msgid "Desempenho"
-msgstr "Prestanda"
-msgid "Configurações do Brave"
-msgstr "Inställningar för Brave"
-msgid "Remover propagandas"
-msgstr "Ta bort annonser"
-msgid "Suportar criptomoedas"
-msgstr "Stödja kryptovalutor"
-msgid "Escolher programas a serem carregados na memória durante boot"
-msgstr "Välj program som ska laddas i minnet under uppstart."
-msgid "Usabilidade"
-msgstr "Användbarhet"
 # 
 # #-#-#-#-#  biglinux-settings.pot (biglinux-settings)  #-#-#-#-#
 # 
@@ -1493,6 +1427,10 @@ msgstr "Konfiguration slutförd!"
 msgid "Your keyboard LED is now configured and ready to use."
 msgstr "Din tangentbords-LED är nu konfigurerad och redo att användas."
 # 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings-ruscher/devices/keyboard_led_dialog.py, line: 428
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings-ruscher/devices/keyboard_led_dialog.py, line: 428
+# 
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings/devices/keyboard_led_dialog.py, line: 428
 # 
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings/devices/keyboard_led_dialog.py, line: 428
@@ -1761,3 +1699,20 @@ msgstr "Starta om KWin?"
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_usability_page.py, line: 163
 msgid "To apply the changes, the KWin window manager needs to be restarted. Do you want to restart it now?"
 msgstr "För att tillämpa ändringarna måste KWin-fönsterhanteraren startas om. Vill du starta om den nu?"
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 152
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 164
+msgid "System Tweaks"
+msgstr "Systemjusteringar"
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 158
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 167
+msgid "PreLoad"
+msgstr "Förladdning"
+# 
+# #-#-#-#-#  biglinux-settings.pot (biglinux-settings)  #-#-#-#-#
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/preload_page.py, line: 284
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_usability_page.py, line: 334
+msgid "Indicator {} synchronized: {}"
+msgstr "Indikator {} synkroniserad: {}"

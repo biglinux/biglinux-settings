@@ -62,70 +62,6 @@ msgid "Docker installed successfully!"
 msgstr "Docker installato con successo!"
 msgid "An error occurred while install docker."
 msgstr "Si è verificato un errore durante l'installazione di docker."
-msgid "BigLinux Ajustes"
-msgstr "BigLinux Impostazioni"
-msgid "Se estiver utilizando algum navegador, reinicie-o para aplicar as alterações."
-msgstr "Se stai utilizzando un browser, riavvialo per applicare le modifiche."
-msgid "Aceleração do navegador"
-msgstr "Browser acceleration"
-msgid "Desativar efeitos do desktop"
-msgstr "Disattiva effetti del desktop"
-msgid "BTRFS sem fsync"
-msgstr "BTRFS senza fsync"
-msgid "Rolagem do touchpad invertida"
-msgstr "Rolamento del touchpad invertito"
-msgid "Ligar RGB do teclado"
-msgstr "Accendere RGB della tastiera"
-msgid "Modo Desenvolvedor"
-msgstr "Developer Mode"
-msgid "Botões da janela no lado esquerdo"
-msgstr "Bottoni della finestra a sinistra"
-msgid "Aguarde..."
-msgstr "Attendere..."
-msgid "Aplicando, Aguarde..."
-msgstr "Applicando, Attendere..."
-msgid "Rolagem do mouse invertida"
-msgstr "Rolaggio del mouse invertito"
-msgid "Ativar o NumLock ao ligar o sistema"
-msgstr "Enable NumLock on system startup"
-msgid "Indexar arquivos"
-msgstr "Indexing files"
-msgid "Grub"
-msgstr "Grub"
-msgid "Cuidado, você perderá acesso aos SnapShots. Tem certeza que deseja ocultar o grub?"
-msgstr "Attenzione, perderai l'accesso agli SnapShots. Sei sicuro di voler nascondere il grub?"
-msgid "Não"
-msgstr "Sei."
-msgid "Você saberá retornar o Grub em caso de falha?"
-msgstr "Sarai in grado di ripristinare il Grub in caso di errore?"
-msgid "Você saberá acessar os SnapShots sem acesso ao modo Gráfico?"
-msgstr "Sarai in grado di accedere agli SnapShots senza accesso alla modalità Grafica?"
-msgid "Aplicando, aguarde..."
-msgstr "Applying, please wait..."
-msgid "Concluído!"
-msgstr "Completato!"
-msgid "Ocultar Gerenciador de Boot (GRUB)"
-msgstr "Hide Boot Manager (GRUB)"
-msgid "Bloquear a edição da área de trabalho"
-msgstr "Block desktop editing"
-msgid "Montar partições automaticamente"
-msgstr "Automatically mount partitions"
-msgid "Abrir"
-msgstr "Apri"
-msgid "Procurar..."
-msgstr "Cercare..."
-msgid "Desempenho"
-msgstr "Performance"
-msgid "Configurações do Brave"
-msgstr "Impostazioni di Brave"
-msgid "Remover propagandas"
-msgstr "Rimuovi pubblicità"
-msgid "Suportar criptomoedas"
-msgstr "Supporto per criptovalute"
-msgid "Escolher programas a serem carregados na memória durante boot"
-msgstr "Choose programs to be loaded into memory during boot"
-msgid "Usabilidade"
-msgstr "Usability"
 # 
 # #-#-#-#-#  biglinux-settings.pot (biglinux-settings)  #-#-#-#-#
 # 
@@ -1362,6 +1298,10 @@ msgstr ""
 "Eccezione durante il caricamento del preset:\n"
 "{}"
 # 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings-ruscher/devices/jamesdsp_dialog.py, line: 208
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings-ruscher/devices/jamesdsp_dialog.py, line: 208
+# 
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings/devices/jamesdsp_dialog.py, line: 208
 # 
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings/devices/jamesdsp_dialog.py, line: 208
@@ -1509,6 +1449,10 @@ msgstr "Configurazione completata!"
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings/devices/keyboard_led_dialog.py, line: 419
 msgid "Your keyboard LED is now configured and ready to use."
 msgstr "Il LED della tua tastiera è ora configurato e pronto per l'uso."
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings-ruscher/devices/keyboard_led_dialog.py, line: 428
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings-ruscher/devices/keyboard_led_dialog.py, line: 428
 # 
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings/devices/keyboard_led_dialog.py, line: 428
 # 
@@ -1778,3 +1722,20 @@ msgstr "Riavvia KWin?"
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_usability_page.py, line: 163
 msgid "To apply the changes, the KWin window manager needs to be restarted. Do you want to restart it now?"
 msgstr "Per applicare le modifiche, il gestore di finestre KWin deve essere riavviato. Vuoi riavviarlo ora?"
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 152
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 164
+msgid "System Tweaks"
+msgstr "Ottimizzazioni di sistema"
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 158
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 167
+msgid "PreLoad"
+msgstr "PreCaricamento"
+# 
+# #-#-#-#-#  biglinux-settings.pot (biglinux-settings)  #-#-#-#-#
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/preload_page.py, line: 284
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_usability_page.py, line: 334
+msgid "Indicator {} synchronized: {}"
+msgstr "Indicatore {} sincronizzato: {}"

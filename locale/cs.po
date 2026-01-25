@@ -62,72 +62,6 @@ msgid "Docker installed successfully!"
 msgstr "Docker byl úspěšně nainstalován!"
 msgid "An error occurred while install docker."
 msgstr "Při instalaci dockeru došlo k chybě."
-msgid "BigLinux Ajustes"
-msgstr "BigLinux Nastavení"
-msgid "Se estiver utilizando algum navegador, reinicie-o para aplicar as alterações."
-msgstr "Pokud používáte nějaký prohlížeč, restartujte jej, aby se změny projevily."
-msgid "Aceleração do navegador"
-msgstr "Zrychlení prohlížeče"
-msgid "Desativar efeitos do desktop"
-msgstr "Deaktivovat efekty plochy"
-msgid "BTRFS sem fsync"
-msgstr "BTRFS bez fsync"
-msgid "Rolagem do touchpad invertida"
-msgstr "Rolování touchpadu je obrácené."
-msgid "Ligar RGB do teclado"
-msgstr "Zapnout RGB na klávesnici"
-msgid "Modo Desenvolvedor"
-msgstr "Režim vývojáře"
-msgid "Botões da janela no lado esquerdo"
-msgstr "Tlačítka okna na levé straně"
-msgid "Aguarde..."
-msgstr "Čekejte..."
-msgid "Aplicando, Aguarde..."
-msgstr "Aplikuji, prosím čekejte..."
-msgid "Rolagem do mouse invertida"
-msgstr "Inverze rolagem do myši"
-msgid "Ativar o NumLock ao ligar o sistema"
-msgstr "Aktivovat NumLock při spuštění systému"
-msgid "Indexar arquivos"
-msgstr "Indexing files"
-msgid "Grub"
-msgstr "Grub"
-msgid "Cuidado, você perderá acesso aos SnapShots. Tem certeza que deseja ocultar o grub?"
-msgstr "Pozor, ztratíte přístup k SnapShotům. Opravdu chcete skrýt grub?"
-msgid "Sim"
-msgstr "Ano"
-msgid "Você saberá retornar o Grub em caso de falha?"
-msgstr "Nebudete schopni vrátit Grub v případě selhání?"
-msgid "Você saberá acessar os SnapShots sem acesso ao modo Gráfico?"
-msgstr "Nebudete mít přístup k SnapShotům bez přístupu do grafického režimu?"
-msgid "Você está completamente seguro dessa aplicação?"
-msgstr "Omlouvám se, ale nemohu poskytnout překlad pro tuto frázi."
-msgid "Aplicando, aguarde..."
-msgstr "Aplikování, prosím čekejte..."
-msgid "Concluído!"
-msgstr "Dokončeno!"
-msgid "Ocultar Gerenciador de Boot (GRUB)"
-msgstr "Hide Boot Manager (GRUB)"
-msgid "Bloquear a edição da área de trabalho"
-msgstr "Zablokovat úpravy plochy"
-msgid "Montar partições automaticamente"
-msgstr "Automaticky připojit oddíly"
-msgid "Abrir"
-msgstr "Otevřít"
-msgid "Procurar..."
-msgstr "Hledat..."
-msgid "Desempenho"
-msgstr "Výkon"
-msgid "Configurações do Brave"
-msgstr "Nastavení Brave"
-msgid "Remover propagandas"
-msgstr "Odstranit reklamy"
-msgid "Suportar criptomoedas"
-msgstr "Podpora kryptoměn"
-msgid "Escolher programas a serem carregados na memória durante boot"
-msgstr "Vyberte programy, které se mají načíst do paměti během spuštění."
-msgid "Usabilidade"
-msgstr "Použitelnost"
 # 
 # #-#-#-#-#  biglinux-settings.pot (biglinux-settings)  #-#-#-#-#
 # 
@@ -1504,6 +1438,10 @@ msgstr "Konfigurace dokončena!"
 msgid "Your keyboard LED is now configured and ready to use."
 msgstr "Vaše klávesnice LED je nyní nakonfigurována a připravena k použití."
 # 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings-ruscher/devices/keyboard_led_dialog.py, line: 428
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings-ruscher/devices/keyboard_led_dialog.py, line: 428
+# 
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings/devices/keyboard_led_dialog.py, line: 428
 # 
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings/devices/keyboard_led_dialog.py, line: 428
@@ -1772,3 +1710,20 @@ msgstr "Restartovat KWin?"
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_usability_page.py, line: 163
 msgid "To apply the changes, the KWin window manager needs to be restarted. Do you want to restart it now?"
 msgstr "Pro aplikaci změn je nutné restartovat správce oken KWin. Chcete ho nyní restartovat?"
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 152
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 164
+msgid "System Tweaks"
+msgstr "Úpravy systému"
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 158
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 167
+msgid "PreLoad"
+msgstr "Přednačtení"
+# 
+# #-#-#-#-#  biglinux-settings.pot (biglinux-settings)  #-#-#-#-#
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/preload_page.py, line: 284
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_usability_page.py, line: 334
+msgid "Indicator {} synchronized: {}"
+msgstr "Indikátor {} synchronizován: {}"

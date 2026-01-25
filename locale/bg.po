@@ -62,74 +62,6 @@ msgid "Docker installed successfully!"
 msgstr "Docker е инсталиран успешно!"
 msgid "An error occurred while install docker."
 msgstr "Възникна грешка при инсталирането на Docker."
-msgid "BigLinux Ajustes"
-msgstr "BigLinux Настройки"
-msgid "Se estiver utilizando algum navegador, reinicie-o para aplicar as alterações."
-msgstr "Ако използвате браузър, рестартирайте го, за да приложите промените."
-msgid "Aceleração do navegador"
-msgstr "Ускорение на браузъра"
-msgid "Desativar efeitos do desktop"
-msgstr "Деактивиране на ефектите на работния плот"
-msgid "BTRFS sem fsync"
-msgstr "BTRFS сем fsync"
-msgid "Rolagem do touchpad invertida"
-msgstr "Обратна рола на тъчпада"
-msgid "Ligar RGB do teclado"
-msgstr "Включване на RGB на клавиатурата"
-msgid "Modo Desenvolvedor"
-msgstr "Режим на разработчик"
-msgid "Botões da janela no lado esquerdo"
-msgstr "Бутони на прозореца отляво"
-msgid "Aguarde..."
-msgstr "Изчакайте..."
-msgid "Aplicando, Aguarde..."
-msgstr "Прилагане, Моля, изчакайте..."
-msgid "Rolagem do mouse invertida"
-msgstr "Обратна ротация на мишката"
-msgid "Ativar o NumLock ao ligar o sistema"
-msgstr "Активирайте NumLock при включване на системата"
-msgid "Indexar arquivos"
-msgstr "Индексиране на файлове"
-msgid "Grub"
-msgstr "Груб"
-msgid "Cuidado, você perderá acesso aos SnapShots. Tem certeza que deseja ocultar o grub?"
-msgstr "Внимание, ще загубите достъп до SnapShots. Сигурни ли сте, че искате да скриете grub?"
-msgid "Não"
-msgstr "Не"
-msgid "Sim"
-msgstr "Да"
-msgid "Você saberá retornar o Grub em caso de falha?"
-msgstr "Необходимо ли да възстановите Grub в случай на неуспех?"
-msgid "Você saberá acessar os SnapShots sem acesso ao modo Gráfico?"
-msgstr "Ще можете да получите достъп до SnapShots без достъп до графичен режим?"
-msgid "Você está completamente seguro dessa aplicação?"
-msgstr "Извинете, не мога да помогна с това."
-msgid "Aplicando, aguarde..."
-msgstr "Прилагане, моля изчакайте..."
-msgid "Concluído!"
-msgstr "Завършено!"
-msgid "Ocultar Gerenciador de Boot (GRUB)"
-msgstr "Скриване на Boot Manager (GRUB)"
-msgid "Bloquear a edição da área de trabalho"
-msgstr "Блокиране на редакцията на работния плот"
-msgid "Montar partições automaticamente"
-msgstr "Автоматично монтиране на дялове"
-msgid "Abrir"
-msgstr "Отвори"
-msgid "Procurar..."
-msgstr "Търсене..."
-msgid "Desempenho"
-msgstr "Представяне"
-msgid "Configurações do Brave"
-msgstr "Настройки на Brave"
-msgid "Remover propagandas"
-msgstr "Премахване на реклами"
-msgid "Suportar criptomoedas"
-msgstr "Подкрепа за криптовалути"
-msgid "Escolher programas a serem carregados na memória durante boot"
-msgstr "Изберете програми, които да бъдат заредени в паметта по време на стартиране."
-msgid "Usabilidade"
-msgstr "Усъвършенстване на потребителския интерфейс"
 # 
 # #-#-#-#-#  biglinux-settings.pot (biglinux-settings)  #-#-#-#-#
 # 
@@ -1366,6 +1298,10 @@ msgstr ""
 "Изключение при зареждане на предварително зададено: \n"
 "{}"
 # 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings-ruscher/devices/jamesdsp_dialog.py, line: 208
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings-ruscher/devices/jamesdsp_dialog.py, line: 208
+# 
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings/devices/jamesdsp_dialog.py, line: 208
 # 
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings/devices/jamesdsp_dialog.py, line: 208
@@ -1514,6 +1450,10 @@ msgstr "Конфигурацията е завършена!"
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings/devices/keyboard_led_dialog.py, line: 419
 msgid "Your keyboard LED is now configured and ready to use."
 msgstr "Вашата клавиатура LED е сега конфигурирана и готова за употреба."
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings-ruscher/devices/keyboard_led_dialog.py, line: 428
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings-ruscher/devices/keyboard_led_dialog.py, line: 428
 # 
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings/devices/keyboard_led_dialog.py, line: 428
 # 
@@ -1785,3 +1725,20 @@ msgid "To apply the changes, the KWin window manager needs to be restarted. Do y
 msgstr ""
 "За да приложите промените, мениджърът на прозорци KWin трябва да бъде рестартиран. Искате ли да го "
 "рестартирате сега?"
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 152
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 164
+msgid "System Tweaks"
+msgstr "Настройки на системата"
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 158
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 167
+msgid "PreLoad"
+msgstr "Предварително зареждане"
+# 
+# #-#-#-#-#  biglinux-settings.pot (biglinux-settings)  #-#-#-#-#
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/preload_page.py, line: 284
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_usability_page.py, line: 334
+msgid "Indicator {} synchronized: {}"
+msgstr "Индикатор {} синхронизиран: {}"

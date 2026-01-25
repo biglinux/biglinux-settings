@@ -62,70 +62,6 @@ msgid "Docker installed successfully!"
 msgstr "Docker instalat cu succes!"
 msgid "An error occurred while install docker."
 msgstr "A apărut o eroare în timpul instalării docker."
-msgid "BigLinux Ajustes"
-msgstr "BigLinux Setări"
-msgid "Se estiver utilizando algum navegador, reinicie-o para aplicar as alterações."
-msgstr "Dacă utilizați un browser, reporniți-l pentru a aplica modificările."
-msgid "Aceleração do navegador"
-msgstr "Accelerare browserului"
-msgid "Desativar efeitos do desktop"
-msgstr "Disable desktop effects"
-msgid "BTRFS sem fsync"
-msgstr "BTRFS fără fsync"
-msgid "Rolagem do touchpad invertida"
-msgstr "Rolarea touchpad-ului inversată"
-msgid "Ligar RGB do teclado"
-msgstr "Activare RGB pe tastatură"
-msgid "Modo Desenvolvedor"
-msgstr "Modul Dezvoltator"
-msgid "Botões da janela no lado esquerdo"
-msgstr "Butonii feronului în partea stângă"
-msgid "Aguarde..."
-msgstr "Așteptați..."
-msgid "Aplicando, Aguarde..."
-msgstr "Aplicând, Vă rugăm să așteptați..."
-msgid "Rolagem do mouse invertida"
-msgstr "Rolare inversat a mouse-ului"
-msgid "Ativar o NumLock ao ligar o sistema"
-msgstr "Activate NumLock on system startup"
-msgid "Indexar arquivos"
-msgstr "Indexing files"
-msgid "Grub"
-msgstr "Grub"
-msgid "Cuidado, você perderá acesso aos SnapShots. Tem certeza que deseja ocultar o grub?"
-msgstr "Atenție, veți pierde accesul la SnapShots. Ești sigur că dorești să ascunzi grub?"
-msgid "Você saberá retornar o Grub em caso de falha?"
-msgstr "Nu știi să returnezi Grub în caz de eșec?"
-msgid "Você saberá acessar os SnapShots sem acesso ao modo Gráfico?"
-msgstr "Nu ai acces la SnapShots fără acces la modul Grafic?"
-msgid "Você está completamente seguro dessa aplicação?"
-msgstr "Nu am un echivalent pentru acest text."
-msgid "Aplicando, aguarde..."
-msgstr "Aplicând, vă rugăm să așteptați..."
-msgid "Concluído!"
-msgstr "Finalizat!"
-msgid "Ocultar Gerenciador de Boot (GRUB)"
-msgstr "Ascundeți Managerul de Boot (GRUB)"
-msgid "Bloquear a edição da área de trabalho"
-msgstr "Blocați editarea desktopului."
-msgid "Montar partições automaticamente"
-msgstr "Montare partiții automat."
-msgid "Abrir"
-msgstr "Deschide"
-msgid "Procurar..."
-msgstr "Căutare..."
-msgid "Desempenho"
-msgstr "Performanță"
-msgid "Configurações do Brave"
-msgstr "Configurări Brave"
-msgid "Remover propagandas"
-msgstr "Eliminare reclame"
-msgid "Suportar criptomoedas"
-msgstr "Suportă criptomonede"
-msgid "Escolher programas a serem carregados na memória durante boot"
-msgstr "Alegeți programele care să fie încărcate în memorie în timpul boot-ului."
-msgid "Usabilidade"
-msgstr "Utilizabilitate"
 # 
 # #-#-#-#-#  biglinux-settings.pot (biglinux-settings)  #-#-#-#-#
 # 
@@ -1360,6 +1296,10 @@ msgstr ""
 "Excepție la încărcarea presetului:\n"
 "{}"
 # 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings-ruscher/devices/jamesdsp_dialog.py, line: 208
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings-ruscher/devices/jamesdsp_dialog.py, line: 208
+# 
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings/devices/jamesdsp_dialog.py, line: 208
 # 
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings/devices/jamesdsp_dialog.py, line: 208
@@ -1508,6 +1448,10 @@ msgstr "Configurare finalizată!"
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings/devices/keyboard_led_dialog.py, line: 419
 msgid "Your keyboard LED is now configured and ready to use."
 msgstr "LED-ul tastaturii tale este acum configurat și gata de utilizare."
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings-ruscher/devices/keyboard_led_dialog.py, line: 428
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings-ruscher/devices/keyboard_led_dialog.py, line: 428
 # 
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings/devices/keyboard_led_dialog.py, line: 428
 # 
@@ -1779,3 +1723,20 @@ msgid "To apply the changes, the KWin window manager needs to be restarted. Do y
 msgstr ""
 "Pentru a aplica modificările, managerul de feronici KWin trebuie să fie repornit. Doriți să-l "
 "reporniți acum?"
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 152
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 164
+msgid "System Tweaks"
+msgstr "Ajustări de sistem"
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 158
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 167
+msgid "PreLoad"
+msgstr "Preîncărcare"
+# 
+# #-#-#-#-#  biglinux-settings.pot (biglinux-settings)  #-#-#-#-#
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/preload_page.py, line: 284
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_usability_page.py, line: 334
+msgid "Indicator {} synchronized: {}"
+msgstr "Indicator {} sincronizat: {}"

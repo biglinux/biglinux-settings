@@ -62,72 +62,6 @@ msgid "Docker installed successfully!"
 msgstr "Docker on edukas edukalt!"
 msgid "An error occurred while install docker."
 msgstr "Dockerit installides tekkis viga."
-msgid "BigLinux Ajustes"
-msgstr "BigLinux Seaded"
-msgid "Se estiver utilizando algum navegador, reinicie-o para aplicar as alterações."
-msgstr "Kui kasutate mõnda brauserit, taaskäivitage see muudatuste rakendamiseks."
-msgid "Aceleração do navegador"
-msgstr "Brahvi kiirus"
-msgid "Desativar efeitos do desktop"
-msgstr "Desaktiveeri töölaua efektid"
-msgid "BTRFS sem fsync"
-msgstr "BTRFS sem fsync"
-msgid "Rolagem do touchpad invertida"
-msgstr "Touchpadi pööratud kerimine"
-msgid "Ligar RGB do teclado"
-msgstr "RGB klaviatuuri sisselülitamine"
-msgid "Modo Desenvolvedor"
-msgstr "Arenduse režiim"
-msgid "Botões da janela no lado esquerdo"
-msgstr "Akenupõhja nupud vasakul küljel"
-msgid "Aguarde..."
-msgstr "Oota..."
-msgid "Aplicando, Aguarde..."
-msgstr "Rakendamine, Palun oota..."
-msgid "Rolagem do mouse invertida"
-msgstr "Hiirete pööratud"
-msgid "Ativar o NumLock ao ligar o sistema"
-msgstr "NumLocki aktiveerimine süsteemi käivitamisel"
-msgid "Indexar arquivos"
-msgstr "Indekseerige faile"
-msgid "Grub"
-msgstr "Grub"
-msgid "Cuidado, você perderá acesso aos SnapShots. Tem certeza que deseja ocultar o grub?"
-msgstr "Hoidke, te kaotate SnapShotidele juurdepääsu. Kas olete kindel, et soovite grub'i peita?"
-msgid "Sim"
-msgstr "Jah"
-msgid "Você saberá retornar o Grub em caso de falha?"
-msgstr "Te olete tagasi Grubi, kui see ebaõnnestub?"
-msgid "Você saberá acessar os SnapShots sem acesso ao modo Gráfico?"
-msgstr "Te saate pääseda SnapShot'idele ilma graafilise režiimita?"
-msgid "Você está completamente seguro dessa aplicação?"
-msgstr "Sa oled selle rakenduse osas täiesti kindel?"
-msgid "Aplicando, aguarde..."
-msgstr "Rakendamine, palun oodake..."
-msgid "Concluído!"
-msgstr "Lõpetatud!"
-msgid "Ocultar Gerenciador de Boot (GRUB)"
-msgstr "Peida Boot Manager (GRUB)"
-msgid "Bloquear a edição da área de trabalho"
-msgstr "Töölaua redigeerimise blokeerimine"
-msgid "Montar partições automaticamente"
-msgstr "Automaatne partitsioonide mountimine"
-msgid "Abrir"
-msgstr "Ava."
-msgid "Procurar..."
-msgstr "Otsima..."
-msgid "Desempenho"
-msgstr "Jõudlus"
-msgid "Configurações do Brave"
-msgstr "Brave'i seaded"
-msgid "Remover propagandas"
-msgstr "Reklaamide eemaldamine"
-msgid "Suportar criptomoedas"
-msgstr "Toetada krüptovaluutasid"
-msgid "Escolher programas a serem carregados na memória durante boot"
-msgstr "Valige mälus käivitamise ajal laaditavaid programme."
-msgid "Usabilidade"
-msgstr "Kasutatavus"
 # 
 # #-#-#-#-#  biglinux-settings.pot (biglinux-settings)  #-#-#-#-#
 # 
@@ -1364,6 +1298,10 @@ msgstr ""
 "Erand preset'i laadimisel:\n"
 "{}"
 # 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings-ruscher/devices/jamesdsp_dialog.py, line: 208
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings-ruscher/devices/jamesdsp_dialog.py, line: 208
+# 
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings/devices/jamesdsp_dialog.py, line: 208
 # 
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings/devices/jamesdsp_dialog.py, line: 208
@@ -1512,6 +1450,10 @@ msgstr "Konfiguratsioon lõpetatud!"
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings/devices/keyboard_led_dialog.py, line: 419
 msgid "Your keyboard LED is now configured and ready to use."
 msgstr "Teie klaviatuuri LED on nüüd seadistatud ja valmis kasutamiseks."
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings-ruscher/devices/keyboard_led_dialog.py, line: 428
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings-ruscher/devices/keyboard_led_dialog.py, line: 428
 # 
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings/devices/keyboard_led_dialog.py, line: 428
 # 
@@ -1781,3 +1723,20 @@ msgstr "KWin taaskäivita?"
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_usability_page.py, line: 163
 msgid "To apply the changes, the KWin window manager needs to be restarted. Do you want to restart it now?"
 msgstr "KChanges rakendamiseks tuleb KWin aknahaldur taaskäivitada. Kas soovite seda nüüd taaskäivitada?"
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 152
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 164
+msgid "System Tweaks"
+msgstr "Süsteemi kohandused"
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 158
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 167
+msgid "PreLoad"
+msgstr "Eelkoormus"
+# 
+# #-#-#-#-#  biglinux-settings.pot (biglinux-settings)  #-#-#-#-#
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/preload_page.py, line: 284
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_usability_page.py, line: 334
+msgid "Indicator {} synchronized: {}"
+msgstr "Indikaator {} sünkroniseeritud: {}"

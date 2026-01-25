@@ -62,70 +62,6 @@ msgid "Docker installed successfully!"
 msgstr "Docker is succesvol geïnstalleerd!"
 msgid "An error occurred while install docker."
 msgstr "Er is een fout opgetreden tijdens het installeren van docker."
-msgid "BigLinux Ajustes"
-msgstr "BigLinux Instellingen"
-msgid "Se estiver utilizando algum navegador, reinicie-o para aplicar as alterações."
-msgstr "Als u een browser gebruikt, start deze dan opnieuw op om de wijzigingen toe te passen."
-msgid "Aceleração do navegador"
-msgstr "Versnelling van de browser"
-msgid "Desativar efeitos do desktop"
-msgstr "Desktop-effecten uitschakelen"
-msgid "BTRFS sem fsync"
-msgstr "BTRFS sem fsync"
-msgid "Rolagem do touchpad invertida"
-msgstr "Inverted touchpad scrolling"
-msgid "Ligar RGB do teclado"
-msgstr "RGB-toets inschakelen"
-msgid "Modo Desenvolvedor"
-msgstr "Ontwikkelaarsmodus"
-msgid "Botões da janela no lado esquerdo"
-msgstr "Knoppen van het venster aan de linkerkant"
-msgid "Aguarde..."
-msgstr "Wacht..."
-msgid "Aplicando, Aguarde..."
-msgstr "Toepassen, Even geduld..."
-msgid "Rolagem do mouse invertida"
-msgstr "Inverted mouse scrolling"
-msgid "Ativar o NumLock ao ligar o sistema"
-msgstr "NumLock inschakelen bij het opstarten van het systeem"
-msgid "Indexar arquivos"
-msgstr "Index files"
-msgid "Grub"
-msgstr "Grub"
-msgid "Cuidado, você perderá acesso aos SnapShots. Tem certeza que deseja ocultar o grub?"
-msgstr "Voorzichtig, u verliest toegang tot de SnapShots. Weet u zeker dat u de grub wilt verbergen?"
-msgid "Sim"
-msgstr "Ja"
-msgid "Você saberá acessar os SnapShots sem acesso ao modo Gráfico?"
-msgstr "U heeft toegang tot de SnapShots zonder toegang tot de Grafische modus?"
-msgid "Você está completamente seguro dessa aplicação?"
-msgstr "U bent volledig zeker van deze toepassing?"
-msgid "Aplicando, aguarde..."
-msgstr "Toepassen, even geduld..."
-msgid "Concluído!"
-msgstr "Voltooid!"
-msgid "Ocultar Gerenciador de Boot (GRUB)"
-msgstr "Verberg Boot Manager (GRUB)"
-msgid "Bloquear a edição da área de trabalho"
-msgstr "Bewerkingen op het bureaublad blokkeren"
-msgid "Montar partições automaticamente"
-msgstr "Automatisch partities koppelen"
-msgid "Abrir"
-msgstr "Open"
-msgid "Procurar..."
-msgstr "Zoeken..."
-msgid "Desempenho"
-msgstr "Prestaties"
-msgid "Configurações do Brave"
-msgstr "Instellingen van Brave"
-msgid "Remover propagandas"
-msgstr "Advertenties verwijderen"
-msgid "Suportar criptomoedas"
-msgstr "Ondersteunen van cryptocurrencies"
-msgid "Escolher programas a serem carregados na memória durante boot"
-msgstr "Kies programma's die tijdens het opstarten in het geheugen moeten worden geladen."
-msgid "Usabilidade"
-msgstr "Gebruiksvriendelijkheid"
 # 
 # #-#-#-#-#  biglinux-settings.pot (biglinux-settings)  #-#-#-#-#
 # 
@@ -1364,6 +1300,10 @@ msgstr ""
 "Uitzondering bij het laden van preset:\n"
 "{}"
 # 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings-ruscher/devices/jamesdsp_dialog.py, line: 208
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings-ruscher/devices/jamesdsp_dialog.py, line: 208
+# 
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings/devices/jamesdsp_dialog.py, line: 208
 # 
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings/devices/jamesdsp_dialog.py, line: 208
@@ -1512,6 +1452,10 @@ msgstr "Configuratie Voltooid!"
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings/devices/keyboard_led_dialog.py, line: 419
 msgid "Your keyboard LED is now configured and ready to use."
 msgstr "Je toetsenbord-LED is nu geconfigureerd en klaar voor gebruik."
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings-ruscher/devices/keyboard_led_dialog.py, line: 428
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings-ruscher/devices/keyboard_led_dialog.py, line: 428
 # 
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings/devices/keyboard_led_dialog.py, line: 428
 # 
@@ -1783,3 +1727,20 @@ msgid "To apply the changes, the KWin window manager needs to be restarted. Do y
 msgstr ""
 "Om de wijzigingen toe te passen, moet de KWin-vensterbeheerder opnieuw worden opgestart. Wilt u het "
 "nu opnieuw opstarten?"
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 152
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 164
+msgid "System Tweaks"
+msgstr "Systeemaanpassingen"
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 158
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 167
+msgid "PreLoad"
+msgstr "Vooraf laden"
+# 
+# #-#-#-#-#  biglinux-settings.pot (biglinux-settings)  #-#-#-#-#
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/preload_page.py, line: 284
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_usability_page.py, line: 334
+msgid "Indicator {} synchronized: {}"
+msgstr "Indicator {} gesynchroniseerd: {}"

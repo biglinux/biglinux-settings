@@ -62,70 +62,6 @@ msgid "Docker installed successfully!"
 msgstr "¡Docker instalado con éxito!"
 msgid "An error occurred while install docker."
 msgstr "Se produjo un error al instalar docker."
-msgid "BigLinux Ajustes"
-msgstr "BigLinux Configuración"
-msgid "Aceleração do navegador"
-msgstr "Aceleración del navegador"
-msgid "Desativar efeitos do desktop"
-msgstr "Desactivar efectos del escritorio"
-msgid "BTRFS sem fsync"
-msgstr "BTRFS sin fsync"
-msgid "Rolagem do touchpad invertida"
-msgstr "Rolado del touchpad invertido"
-msgid "Ligar RGB do teclado"
-msgstr "Turn on keyboard RGB"
-msgid "Modo Desenvolvedor"
-msgstr "Modo Desarrollador"
-msgid "Botões da janela no lado esquerdo"
-msgstr "Botones de la ventana en el lado izquierdo"
-msgid "Aguarde..."
-msgstr "Aguarde..."
-msgid "Aplicando, Aguarde..."
-msgstr "Aplicando, por favor espere..."
-msgid "Rolagem do mouse invertida"
-msgstr "Rolado del ratón invertido"
-msgid "Ativar o NumLock ao ligar o sistema"
-msgstr "Activar el NumLock al encender el sistema"
-msgid "Indexar arquivos"
-msgstr "Indexing files"
-msgid "Grub"
-msgstr "Grub"
-msgid "Cuidado, você perderá acesso aos SnapShots. Tem certeza que deseja ocultar o grub?"
-msgstr "Cuidado, perderás acceso a los SnapShots. ¿Estás seguro de que deseas ocultar el grub?"
-msgid "Não"
-msgstr "No estoy seguro de lo que quieres decir."
-msgid "Você saberá retornar o Grub em caso de falha?"
-msgstr "¿Sabrás devolver el Grub en caso de fallo?"
-msgid "Você saberá acessar os SnapShots sem acesso ao modo Gráfico?"
-msgstr "No puedes acceder a los SnapShots sin acceso al modo Gráfico."
-msgid "Você está completamente seguro dessa aplicação?"
-msgstr "No hay nada que traducir."
-msgid "Aplicando, aguarde..."
-msgstr "Aplicando, por favor espere..."
-msgid "Concluído!"
-msgstr "¡Completado!"
-msgid "Ocultar Gerenciador de Boot (GRUB)"
-msgstr "Ocultar el Gestor de Arranque (GRUB)"
-msgid "Bloquear a edição da área de trabalho"
-msgstr "Bloquear la edición del escritorio"
-msgid "Montar partições automaticamente"
-msgstr "Automatically mount partitions"
-msgid "Abrir"
-msgstr "Abrir"
-msgid "Procurar..."
-msgstr "Buscar..."
-msgid "Desempenho"
-msgstr "Desempeño"
-msgid "Configurações do Brave"
-msgstr "Configuraciones de Brave"
-msgid "Remover propagandas"
-msgstr "Remove ads"
-msgid "Suportar criptomoedas"
-msgstr "Soportar criptomonedas"
-msgid "Escolher programas a serem carregados na memória durante boot"
-msgstr "Choose programs to be loaded into memory during boot."
-msgid "Usabilidade"
-msgstr "Usability"
 # 
 # #-#-#-#-#  biglinux-settings.pot (biglinux-settings)  #-#-#-#-#
 # 
@@ -1362,6 +1298,10 @@ msgstr ""
 "Excepción al cargar el ajuste preestablecido:\n"
 "{}"
 # 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings-ruscher/devices/jamesdsp_dialog.py, line: 208
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings-ruscher/devices/jamesdsp_dialog.py, line: 208
+# 
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings/devices/jamesdsp_dialog.py, line: 208
 # 
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings/devices/jamesdsp_dialog.py, line: 208
@@ -1509,6 +1449,10 @@ msgstr "¡Configuración completa!"
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings/devices/keyboard_led_dialog.py, line: 419
 msgid "Your keyboard LED is now configured and ready to use."
 msgstr "El LED de tu teclado ahora está configurado y listo para usar."
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings-ruscher/devices/keyboard_led_dialog.py, line: 428
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings-ruscher/devices/keyboard_led_dialog.py, line: 428
 # 
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings/devices/keyboard_led_dialog.py, line: 428
 # 
@@ -1780,3 +1724,20 @@ msgid "To apply the changes, the KWin window manager needs to be restarted. Do y
 msgstr ""
 "Para aplicar los cambios, es necesario reiniciar el gestor de ventanas KWin. ¿Quieres reiniciarlo "
 "ahora?"
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 152
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 164
+msgid "System Tweaks"
+msgstr "Ajustes del sistema"
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 158
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 167
+msgid "PreLoad"
+msgstr "PreCarga"
+# 
+# #-#-#-#-#  biglinux-settings.pot (biglinux-settings)  #-#-#-#-#
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/preload_page.py, line: 284
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_usability_page.py, line: 334
+msgid "Indicator {} synchronized: {}"
+msgstr "Indicador {} sincronizado: {}"

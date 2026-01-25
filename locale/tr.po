@@ -62,74 +62,6 @@ msgid "Docker installed successfully!"
 msgstr "Docker başarıyla yüklendi!"
 msgid "An error occurred while install docker."
 msgstr "Docker yüklenirken bir hata oluştu."
-msgid "BigLinux Ajustes"
-msgstr "BigLinux Ayarları"
-msgid "Se estiver utilizando algum navegador, reinicie-o para aplicar as alterações."
-msgstr "Tarayıcı kullanıyorsanız, değişiklikleri uygulamak için yeniden başlatın."
-msgid "Aceleração do navegador"
-msgstr "Tarayıcı hızlandırma"
-msgid "Desativar efeitos do desktop"
-msgstr "Masaüstü efektlerini devre dışı bırak."
-msgid "BTRFS sem fsync"
-msgstr "BTRFS sem fsync"
-msgid "Rolagem do touchpad invertida"
-msgstr "Rolama tersine."
-msgid "Ligar RGB do teclado"
-msgstr "RGB klavye açma"
-msgid "Modo Desenvolvedor"
-msgstr "Geliştirici Modu"
-msgid "Botões da janela no lado esquerdo"
-msgstr "Pencere düğmeleri sol tarafta"
-msgid "Aguarde..."
-msgstr "Bekleyin..."
-msgid "Aplicando, Aguarde..."
-msgstr "Uygulama yapılıyor, Lütfen bekleyin..."
-msgid "Rolagem do mouse invertida"
-msgstr "Rolagem fareti tersine çevrildi."
-msgid "Ativar o NumLock ao ligar o sistema"
-msgstr "Sistemi açarken NumLock'u etkinleştir."
-msgid "Indexar arquivos"
-msgstr "Dosyaları dizinle"
-msgid "Grub"
-msgstr "Grub"
-msgid "Cuidado, você perderá acesso aos SnapShots. Tem certeza que deseja ocultar o grub?"
-msgstr "Dikkat, SnapShot'lara erişiminizi kaybedeceksiniz. Grub'u gizlemek istediğinizden emin misiniz?"
-msgid "Sim"
-msgstr "Evet"
-msgid "Você saberá retornar o Grub em caso de falha?"
-msgstr "Veri kaybı durumunda Grub'u geri yükleyebilecek misiniz?"
-msgid "Você saberá acessar os SnapShots sem acesso ao modo Gráfico?"
-msgstr "Erişim moduna ihtiyaç duymadan SnapShot'lara erişebileceksiniz."
-msgid "Você está completamente seguro dessa aplicação?"
-msgstr "Uygulamanızdan tamamen emin misiniz?"
-msgid "Aplicando, aguarde..."
-msgstr "Uygulama yapılıyor, lütfen bekleyin..."
-msgid "Concluído!"
-msgstr "Tamamlandı!"
-msgid "Ok"
-msgstr "Tamam"
-msgid "Ocultar Gerenciador de Boot (GRUB)"
-msgstr "Boot Yöneticisini (GRUB) Gizle"
-msgid "Bloquear a edição da área de trabalho"
-msgstr "Masa düzenlemesini engelle."
-msgid "Montar partições automaticamente"
-msgstr "Automatically mount partitions"
-msgid "Abrir"
-msgstr "Açmak"
-msgid "Procurar..."
-msgstr "Arama..."
-msgid "Desempenho"
-msgstr "Performans"
-msgid "Configurações do Brave"
-msgstr "Brave Ayarları"
-msgid "Remover propagandas"
-msgstr "Reklamları kaldırın"
-msgid "Suportar criptomoedas"
-msgstr "Kripto para birimlerini desteklemek"
-msgid "Escolher programas a serem carregados na memória durante boot"
-msgstr "Önyükleme sırasında belleğe yüklenecek programları seçin."
-msgid "Usabilidade"
-msgstr "Kullanılabilirlik"
 # 
 # #-#-#-#-#  biglinux-settings.pot (biglinux-settings)  #-#-#-#-#
 # 
@@ -1368,6 +1300,10 @@ msgstr ""
 "Ön ayar yüklenirken bir hata oluştu:\n"
 "{}"
 # 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings-ruscher/devices/jamesdsp_dialog.py, line: 208
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings-ruscher/devices/jamesdsp_dialog.py, line: 208
+# 
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings/devices/jamesdsp_dialog.py, line: 208
 # 
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings/devices/jamesdsp_dialog.py, line: 208
@@ -1515,6 +1451,10 @@ msgstr "Yapılandırma Tamamlandı!"
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings/devices/keyboard_led_dialog.py, line: 419
 msgid "Your keyboard LED is now configured and ready to use."
 msgstr "Klavye LED'iniz artık yapılandırıldı ve kullanıma hazır."
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings-ruscher/devices/keyboard_led_dialog.py, line: 428
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings-ruscher/devices/keyboard_led_dialog.py, line: 428
 # 
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings/devices/keyboard_led_dialog.py, line: 428
 # 
@@ -1786,3 +1726,20 @@ msgid "To apply the changes, the KWin window manager needs to be restarted. Do y
 msgstr ""
 "Değişiklikleri uygulamak için KWin pencere yöneticisinin yeniden başlatılması gerekiyor. Şimdi "
 "yeniden başlatmak istiyor musunuz?"
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 152
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 164
+msgid "System Tweaks"
+msgstr "Sistem Ayarları"
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 158
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 167
+msgid "PreLoad"
+msgstr "Ön Yükleme"
+# 
+# #-#-#-#-#  biglinux-settings.pot (biglinux-settings)  #-#-#-#-#
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/preload_page.py, line: 284
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_usability_page.py, line: 334
+msgid "Indicator {} synchronized: {}"
+msgstr "Göstergeler {} senkronize edildi: {}"
