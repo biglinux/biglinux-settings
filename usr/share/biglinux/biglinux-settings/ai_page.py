@@ -29,21 +29,21 @@ class AIPage(BaseSettingsPage):
         )
         content.append(group)
 
-        # numLock
+        # Generative AI for Krita
         self.create_row(
             group,
-            _("NumLock"),
-            _("Initial NumLock state. Ignored if autologin is enabled."),
-            "numLock",
-            "numlock-symbolic",
+            _("Generative AI for Krita"),
+            _("This is a plugin to use generative AI in painting and image editing workflows directly in Krita."),
+            "krita-ai",
+            "krita-ai-symbolic",
         )
-        # KZones
+        # ChatAI
         self.create_row(
             group,
-            _("KZones"),
-            _("Script for the KWin window manager of the KDE Plasma desktop environment."),
-            "kzones",
-            "kzones-symbolic",
+            _("ChatAI"),
+            _("A variety of chats like Plasmoid for your KDE Plasma desktop."),
+            "chatai",
+            "chatai-symbolic",
         )
 
         # Syncs

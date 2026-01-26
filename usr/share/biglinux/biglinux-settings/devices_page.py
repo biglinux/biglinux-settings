@@ -47,5 +47,32 @@ class DevicesPage(BaseSettingsPage):
             "bluetooth-symbolic"
         )
 
+        # JamesDSP
+        self.create_row(
+            group,
+            _("JamesDSP"),
+            _("Advanced audio effects processor that improves sound quality."),
+            "jamesdsp",
+            "jamesdsp-symbolic"
+        )
+
+        # Keyboard LED
+        self.create_row(
+            group,
+            _("Keyboard LED"),
+            _("If your keyboard has LED you can enable this feature to turn it on with the system."),
+            "keyboard-led",
+            "keyboard-led-symbolic"
+        )
+
+        # Reverse mouse scrolling
+        self.create_row(
+            group,
+            _("Reverse mouse scrolling"),
+            _("Reverse mouse scrolling without restarting the session."),
+            "reverse-mouse_scroll",
+            "reverse-mouse_scroll-symbolic"
+        )
+
         # Syncs
         self.sync_all_switches()

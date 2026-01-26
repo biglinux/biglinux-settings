@@ -22,12 +22,12 @@ class DockerPage(BaseSettingsPage):
         content = self.create_scrolled_content()
 
         # Create the group (base method)
-        group = self.create_group(
+        docker_group = self.create_group(
             _("Docker"),
             _("Container service - enable to use containers below."),
             "docker"
         )
-        content.append(group)
+        content.append(docker_group)
 
         # Create the group (base method)
         container_group = self.create_group(
@@ -40,7 +40,7 @@ class DockerPage(BaseSettingsPage):
         ## Docker
         # Docker
         self.create_row(
-            group,
+            docker_group,
             _("Docker"),
             _("Docker Enabled."),
             "dockerEnable",
@@ -49,7 +49,78 @@ class DockerPage(BaseSettingsPage):
 
 
         ## Container
-        #
+        # BigLinux Docker Nextcloud Plus
+        self.create_row(
+            container_group,
+            _("Nextcloud Plus"),
+            _("Nextcloud Plus container."),
+            "nextcloud-plus",
+            "docker-nextcloud-plus-symbolic"
+        )
+        # BigLinux Docker AdGuard
+        self.create_row(
+            container_group,
+            _("AdGuard"),
+            _("AdGuard Home container."),
+            "adguard",
+            "docker-adguard-symbolic"
+        )
+        # BigLinux Docker Django
+        self.create_row(
+            container_group,
+            _("Django"),
+            _("Django developer environment."),
+            "django",
+            "docker-django-symbolic"
+        )
+        # BigLinux Docker Duplicati
+        self.create_row(
+            container_group,
+            _("Duplicati"),
+            _("Duplicati backup solution."),
+            "duplicati",
+            "docker-duplicati-symbolic"
+        )
+        # BigLinux Docker Jellyfin
+        self.create_row(
+            container_group,
+            _("Jellyfin"),
+            _("Jellyfin media server."),
+            "jellyfin",
+            "docker-jellyfin-symbolic"
+        )
+        # BigLinux Docker LAMP
+        self.create_row(
+            container_group,
+            _("LAMP"),
+            _("LAMP stack (Linux, Apache, MySQL, PHP)."),
+            "lamp",
+            "docker-lamp-symbolic"
+        )
+        # BigLinux Docker Portainer Client
+        self.create_row(
+            container_group,
+            _("Portainer Client"),
+            _("Portainer Agent for cluster management."),
+            "portainer-client",
+            "docker-portainer-client-symbolic"
+        )
+        # BigLinux Docker SWS
+        self.create_row(
+            container_group,
+            _("SWS"),
+            _("SWS static web server."),
+            "sws",
+            "docker-sws-symbolic"
+        )
+        # BigLinux Docker V2RayA
+        self.create_row(
+            container_group,
+            _("V2RayA"),
+            _("V2RayA network tool."),
+            "v2raya",
+            "docker-v2raya-symbolic"
+        )
 
         # Syncs
         self.sync_all_switches()
