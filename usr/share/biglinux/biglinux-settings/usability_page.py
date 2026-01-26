@@ -64,15 +64,6 @@ class UsabilityPage(BaseSettingsPage):
             "kzones-symbolic"
         )
 
-        # Game Mode Booster
-        self.create_row(
-            group,
-            _("Game Mode Booster"),
-            _("Combination of daemon and library that allows games to request a set of optimizations be temporarily applied to the operating system and/or the game process."),
-            "gamemode",
-            "gamemode-symbolic"
-        )
-
         # Recent Files & Locations
         self.create_row(
             group,

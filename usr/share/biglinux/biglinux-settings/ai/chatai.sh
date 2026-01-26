@@ -2,7 +2,7 @@
 
 # check current status
 check_state() {
-  if kpackagetool6 -t Plasma/Applet -l 2>/dev/null | grep -q "ChatAI-Plasmoid"; then
+  if grep -q "plugin=ChatAI-Plasmoid" "$HOME/.config/plasma-org.kde.plasma.desktop-appletsrc"; then
     echo "true"
   else
     echo "false"
@@ -21,13 +21,13 @@ toggle_state() {
     # Unlock desktop editing mode
     qdbus6 org.kde.plasmashell /PlasmaShell evaluateScript "lockCorona(false)"
     qdbus6 org.kde.plasmashell /PlasmaShell org.kde.PlasmaShell.evaluateScript "
-      var allPanels = panels();
-      for (var i = 0; i < allPanels.length; i++) {
-          allPanels[i].removeWidget('ChatAI-Plasmoid');
-      }"
+            var allPanels = panels();
+            for (var i = 0; i < allPanels.length; i++) {
+                allPanels[i].addWidget('ChatAI-Plasmoid');
+            }"
     if [ -e "/tmp/ChatAI-Plasmoid-latest.tar.gz" ]; then rm -f "/tmp/ChatAI-Plasmoid-latest.tar.gz"; fi
     # Lock desktop editing mode again
-    qdbus6 org.kde.plasmashell /PlasmaShell evaluateScript "lockCorona(true)"´
+    qdbus6 org.kde.plasmashell /PlasmaShell evaluateScript "lockCorona(true)"
   else
     ## remove chatai
     # Unlock desktop editing mode
