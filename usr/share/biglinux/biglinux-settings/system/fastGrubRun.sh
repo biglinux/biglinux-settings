@@ -29,8 +29,8 @@ runAsUser "zenity --progress --title='grub' --text=\"$zenityText\" --pulsate --a
 
 # 3. Executes the root tasks.
 updateGrubTask() {
-    sed -i "/GRUB_TIMEOUT=/s/=.*/=$timeout/" /etc/default/grub
-    update-grub > "$pipePath"
+  sed -i "/GRUB_TIMEOUT=/s/=.*/=$timeout/" /etc/default/grub
+  update-grub > "$pipePath"
 }
 updateGrubTask
 exitCode=$?
