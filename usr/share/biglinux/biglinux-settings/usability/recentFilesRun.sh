@@ -22,30 +22,22 @@ xbelFile="$HOME/.local/share/recently-used.xbel"
 kactivitymanagerdFile="$HOME/.config/kactivitymanagerd-pluginsrc"
 kactivitymanagerdDir="$HOME/.local/share/kactivitymanagerd/resources"
 
-# # Helper function to run a command as the original user
-runAsUser() {
-  # Single quotes around variables are a good security practice
-  su "$originalUser" -c "export DISPLAY='$userDisplay'; export XAUTHORITY='$userXauthority'; export DBUS_SESSION_BUS_ADDRESS='$userDbusAddress'; export LANG='$userLang'; export LC_ALL='$userLang'; export LANGUAGE='$userLanguage'; $1"
-}
-
-# Creates a named pipe (FIFO) for communication with Zenity
-pipePath="/tmp/recentfiles_pipe_$$"
-mkfifo "$pipePath"
-
 # Starts Zenity IN THE BACKGROUND, as the user, with the full environment
 if [[ "$function" == "enable" ]]; then
   zenityTitle=$"Recent Files enabling...."
   zenityText=$"Recent Files enabling, Please wait..."
+elif [[ "$function" == "disable" ]]; then
+  zenityTitle=$"Recent Files disabling...."
+  zenityText=$"Recent Files disabling, Please wait..."
 fi
-runAsUser "zenity --progress --title=\"$zenityTitle\" --text=\"$zenityText\" --pulsate --auto-close --no-cancel < '$pipePath'" &
 
-# Executes the root tasks.
+# Executes tasks.
 updateTask() {
   if [[ "$function" == "enable" ]]; then
-    $balooCMD suspend
-    $balooCMD disable
-    killall baloo_file dolphin kactivitymanagerd kioworker kiod5 kiod6
-    systemctl --user stop plasma-kactivitymanagerd.service
+    $balooCMD suspend > /dev/null 2>&1
+    $balooCMD disable > /dev/null 2>&1
+    killall baloo_file dolphin kactivitymanagerd kioworker kiod6 > /dev/null 2>&1
+    systemctl --user stop plasma-kactivitymanagerd.service > /dev/null 2>&1
 
     # Remove trava off-the-record
     sed -i '/off-the-record-activities/d' "$kactivitymanagerdFile"
@@ -78,24 +70,21 @@ updateTask() {
     chmod 644 "$xbelFile"
 
     # Reinicia serviços
-    systemctl --user start plasma-kactivitymanagerd.service
+    systemctl --user start plasma-kactivitymanagerd.service > /dev/null 2>&1
     sleep 2
 
-    $balooCMD enable
-    $balooCMD resume
+    $balooCMD enable > /dev/null 2>&1
+    $balooCMD resume > /dev/null 2>&1
 
-    systemctl --user restart plasma-kactivitymanagerd.service
-    killall kiod5 kiod6
+    systemctl --user restart plasma-kactivitymanagerd.service > /dev/null 2>&1
+    killall kiod6 > /dev/null 2>&1
 
     sleep 1
-
-    echo "STATUS:Completed successfully!"
-    echo "PROGRESS:100"
-    echo "RESULT:success"
+    echo "100" # Garante que o zenity feche
   else
     # Para serviços
-    killall dolphin kactivitymanagerd kioworker kiod5 kiod6
-    systemctl --user stop plasma-kactivitymanagerd.service
+    killall dolphin kactivitymanagerd kioworker kiod6 > /dev/null 2>&1
+    systemctl --user stop plasma-kactivitymanagerd.service > /dev/null 2>&1
 
     # Desabilita rastreamento de atividades
     $kwriteConfig --file kactivitymanagerd-pluginsrc --group "Plugin-org.kde.ActivityManager.Resources.Scoring" --key "what-to-remember" "2"
@@ -121,28 +110,30 @@ updateTask() {
     chmod 644 "$xbelFile"
 
     # Reinicia serviços
-    systemctl --user start plasma-kactivitymanagerd.service
-    killall kiod5 kiod6
+    systemctl --user start plasma-kactivitymanagerd.service > /dev/null 2>&1
+    killall kiod6 > /dev/null 2>&1
 
     sleep 1
+    echo "100" # Garante que o zenity feche
   fi
-  exitCode=$?
+  return 0
 }
-updateTask > "$pipePath"
+# updateTask > "$pipePath"
+updateTask | zenity --progress --title="$zenityTitle" --text="$zenityText" --pulsate --auto-close --no-cancel
 
-# Cleans up the pipe
-rm "$pipePath"
+# CAPTURA O STATUS DA FUNÇÃO (o primeiro comando do pipe)
+exitCode=${PIPESTATUS[0]}
 
 # Shows the final result to the user, also with the correct theme.
 if [[ "$exitCode" == "0" ]] && [[ "$function" == "enable" ]]; then
   zenityText=$"Recent Files successfully enabled!"
-  runAsUser "zenity --info --text=\"$zenityText\""
+  zenity --info --text="$zenityText"
 elif [[ "$exitCode" == "0" ]] && [[ "$function" == "disable" ]]; then
   zenityText=$"Recent Files successfully disable!"
-  runAsUser "zenity --info --text=\"$zenityText\""
+  zenity --info --text="$zenityText"
 else
   zenityText=$"Failed to activate Recent Files!"
-  runAsUser "zenity --info --text=\"$zenityText\""
+  zenity --info --text="$zenityText"
 fi
 
 # Exits the script with the correct exit code
