@@ -68,8 +68,6 @@ msgid "Instaling Kzones, Please wait..."
 msgstr "Instalowanie Kzones, Proszę czekać..."
 msgid "Kzones installed successfully!"
 msgstr "Kzones zainstalowane pomyślnie!"
-msgid "Kzones will RESTART Plasma, SAVE all programs!!!"
-msgstr "Kzones zrestartuje Plasma, ZAPISZ wszystkie programy!!!"
 # 
 # #-#-#-#-#  biglinux-settings.pot (biglinux-settings)  #-#-#-#-#
 # 
@@ -1459,6 +1457,10 @@ msgstr "Twoja dioda LED klawiatury jest teraz skonfigurowana i gotowa do użycia
 # 
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings-ruscher/devices/keyboard_led_dialog.py, line: 428
 # 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings-ruscher/devices/keyboard_led_dialog.py, line: 428
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings-ruscher/devices/keyboard_led_dialog.py, line: 428
+# 
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings/devices/keyboard_led_dialog.py, line: 428
 # 
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings/devices/keyboard_led_dialog.py, line: 428
@@ -1718,6 +1720,30 @@ msgstr ""
 "Aby zastosować zmiany, menedżer okien KWin musi zostać ponownie uruchomiony. Czy chcesz go teraz "
 "uruchomić ponownie?"
 # 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_usability_page.py, line: 14
+msgid "User and Visual system settings."
+msgstr "Ustawienia użytkownika i systemu wizualnego."
+# 
+# #-#-#-#-#  biglinux-settings.pot (biglinux-settings)  #-#-#-#-#
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/ai_page.py, line: 32
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_usability_page.py, line: 50
+msgid "Script for the KWin window manager of the KDE Plasma desktop environment."
+msgstr "Skrypt dla menedżera okien KWin w środowisku graficznym KDE Plasma."
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_page.py, line: 26
+msgid "General system settings."
+msgstr "Ogólne ustawienia systemu."
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_usability_page.py, line: 113
+#, python-brace-format
+msgid ""
+"Using mitigations=off will make your machine faster and less secure! For more information see: <a "
+"href='{l}'>{l}</a>"
+msgstr ""
+"Użycie mitigations=off sprawi, że twój komputer będzie szybszy, ale mniej bezpieczny! Aby uzyskać "
+"więcej informacji, zobacz: <a href='{l}'>{l}</a>"
+# 
 # #-#-#-#-#  biglinux-settings.pot (biglinux-settings)  #-#-#-#-#
 # 
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings/preload_page.py, line: 284
@@ -1729,11 +1755,6 @@ msgstr "Wskaźnik {} zsynchronizowany: {}"
 msgid "Manage physical devices."
 msgstr "Zarządzaj urządzeniami fizycznymi."
 # 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 152
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 164
-msgid "System Tweaks"
-msgstr "Dostosowania systemu"
-# 
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 158
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 167
 msgid "PreLoad"
@@ -1743,16 +1764,20 @@ msgstr "Wstępne ładowanie"
 msgid "A.I."
 msgstr "Sztuczna inteligencja."
 # 
+# #-#-#-#-#  biglinux-settings.pot (biglinux-settings)  #-#-#-#-#
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 166
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/games_page.py, line: 25
+msgid "Games"
+msgstr "Gry"
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/games_page.py, line: 26
+msgid "Games Boost."
+msgstr "Wzmacniacz gier."
+# 
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings/ai_page.py, line: 15
 msgid "AI settings and tools."
 msgstr "Ustawienia i narzędzia AI."
-# 
-# #-#-#-#-#  biglinux-settings.pot (biglinux-settings)  #-#-#-#-#
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/ai_page.py, line: 32
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_usability_page.py, line: 50
-msgid "Script for the KWin window manager of the KDE Plasma desktop environment."
-msgstr "Skrypt dla menedżera okien KWin w środowisku graficznym KDE Plasma."
 # 
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings/docker_page.py, line: 15
 msgid "Container service - enable to use containers below."
@@ -1761,20 +1786,3 @@ msgstr "Usługa kontenerowa - włącz, aby używać kontenerów poniżej."
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings/docker_page.py, line: 23
 msgid "Manage container technologies."
 msgstr "Zarządzaj technologiami kontenerowymi."
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_usability_page.py, line: 14
-msgid "User and Visual system settings."
-msgstr "Ustawienia użytkownika i systemu wizualnego."
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_usability_page.py, line: 31
-msgid "Window Button..."
-msgstr "Przycisk okna..."
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_usability_page.py, line: 113
-#, python-brace-format
-msgid ""
-"Using mitigations=off will make your machine faster and less secure! For more information see: <a "
-"href='{l}'>{l}</a>"
-msgstr ""
-"Użycie mitigations=off sprawi, że twój komputer będzie szybszy, ale mniej bezpieczny! Aby uzyskać "
-"więcej informacji, zobacz: <a href='{l}'>{l}</a>"

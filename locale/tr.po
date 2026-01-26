@@ -68,8 +68,6 @@ msgid "Instaling Kzones, Please wait..."
 msgstr "Kzones kuruluyor, lütfen bekleyin..."
 msgid "Kzones installed successfully!"
 msgstr "Kzones başarıyla yüklendi!"
-msgid "Kzones will RESTART Plasma, SAVE all programs!!!"
-msgstr "Kzones, Plasma'yı YENİDEN BAŞLATACAK, tüm programları KAYDET!!!"
 # 
 # #-#-#-#-#  biglinux-settings.pot (biglinux-settings)  #-#-#-#-#
 # 
@@ -1498,6 +1496,10 @@ msgstr "Klavye LED'iniz artık yapılandırıldı ve kullanıma hazır."
 # 
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings-ruscher/devices/keyboard_led_dialog.py, line: 428
 # 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings-ruscher/devices/keyboard_led_dialog.py, line: 428
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings-ruscher/devices/keyboard_led_dialog.py, line: 428
+# 
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings/devices/keyboard_led_dialog.py, line: 428
 # 
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings/devices/keyboard_led_dialog.py, line: 428
@@ -1769,6 +1771,30 @@ msgstr ""
 "Değişiklikleri uygulamak için KWin pencere yöneticisinin yeniden başlatılması gerekiyor. Şimdi "
 "yeniden başlatmak istiyor musunuz?"
 # 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_usability_page.py, line: 14
+msgid "User and Visual system settings."
+msgstr "Kullanıcı ve Görsel sistem ayarları."
+# 
+# #-#-#-#-#  biglinux-settings.pot (biglinux-settings)  #-#-#-#-#
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/ai_page.py, line: 32
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_usability_page.py, line: 50
+msgid "Script for the KWin window manager of the KDE Plasma desktop environment."
+msgstr "KDE Plasma masaüstü ortamının KWin pencere yöneticisi için betik."
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_page.py, line: 26
+msgid "General system settings."
+msgstr "Genel sistem ayarları."
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_usability_page.py, line: 113
+#, python-brace-format
+msgid ""
+"Using mitigations=off will make your machine faster and less secure! For more information see: <a "
+"href='{l}'>{l}</a>"
+msgstr ""
+"Mitigasyonlar kapalı olduğunda, makineniz daha hızlı ancak daha az güvenli olacaktır! Daha fazla "
+"bilgi için: <a href='{l}'>{l}</a>"
+# 
 # #-#-#-#-#  biglinux-settings.pot (biglinux-settings)  #-#-#-#-#
 # 
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings/preload_page.py, line: 284
@@ -1780,11 +1806,6 @@ msgstr "Göstergeler {} senkronize edildi: {}"
 msgid "Manage physical devices."
 msgstr "Fiziksel cihazları yönetin."
 # 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 152
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 164
-msgid "System Tweaks"
-msgstr "Sistem Ayarları"
-# 
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 158
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 167
 msgid "PreLoad"
@@ -1794,16 +1815,20 @@ msgstr "Ön Yükleme"
 msgid "A.I."
 msgstr "Yapay Zeka"
 # 
+# #-#-#-#-#  biglinux-settings.pot (biglinux-settings)  #-#-#-#-#
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 166
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/games_page.py, line: 25
+msgid "Games"
+msgstr "Oyunlar"
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/games_page.py, line: 26
+msgid "Games Boost."
+msgstr "Oyunları Hızlandır."
+# 
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings/ai_page.py, line: 15
 msgid "AI settings and tools."
 msgstr "Yapay zeka ayarları ve araçları."
-# 
-# #-#-#-#-#  biglinux-settings.pot (biglinux-settings)  #-#-#-#-#
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/ai_page.py, line: 32
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_usability_page.py, line: 50
-msgid "Script for the KWin window manager of the KDE Plasma desktop environment."
-msgstr "KDE Plasma masaüstü ortamının KWin pencere yöneticisi için betik."
 # 
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings/docker_page.py, line: 15
 msgid "Container service - enable to use containers below."
@@ -1812,20 +1837,3 @@ msgstr "Konteyner hizmeti - aşağıdaki konteynerleri kullanmayı etkinleştir.
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings/docker_page.py, line: 23
 msgid "Manage container technologies."
 msgstr "Konteyner teknolojilerini yönetin."
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_usability_page.py, line: 14
-msgid "User and Visual system settings."
-msgstr "Kullanıcı ve Görsel sistem ayarları."
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_usability_page.py, line: 31
-msgid "Window Button..."
-msgstr "Pencere Düğmesi..."
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_usability_page.py, line: 113
-#, python-brace-format
-msgid ""
-"Using mitigations=off will make your machine faster and less secure! For more information see: <a "
-"href='{l}'>{l}</a>"
-msgstr ""
-"Mitigasyonlar kapalı olduğunda, makineniz daha hızlı ancak daha az güvenli olacaktır! Daha fazla "
-"bilgi için: <a href='{l}'>{l}</a>"

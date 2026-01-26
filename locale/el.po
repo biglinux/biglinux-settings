@@ -68,8 +68,6 @@ msgid "Instaling Kzones, Please wait..."
 msgstr "Εγκατάσταση Kzones, Παρακαλώ περιμένετε..."
 msgid "Kzones installed successfully!"
 msgstr "Οι Kzones εγκαταστάθηκαν με επιτυχία!"
-msgid "Kzones will RESTART Plasma, SAVE all programs!!!"
-msgstr "Οι Kzones θα ΕΠΑΝΕΚΚΙΝΗΣΟΥΝ το Plasma, ΑΠΟΘΗΚΕΥΣΤΕ όλα τα προγράμματα!!!"
 # 
 # #-#-#-#-#  biglinux-settings.pot (biglinux-settings)  #-#-#-#-#
 # 
@@ -1330,6 +1328,10 @@ msgstr ""
 # 
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings-ruscher/devices/jamesdsp_dialog.py, line: 208
 # 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings-ruscher/devices/jamesdsp_dialog.py, line: 208
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings-ruscher/devices/jamesdsp_dialog.py, line: 208
+# 
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings/devices/jamesdsp_dialog.py, line: 208
 # 
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings/devices/jamesdsp_dialog.py, line: 208
@@ -1478,6 +1480,10 @@ msgstr "Η διαμόρφωση ολοκληρώθηκε!"
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings/devices/keyboard_led_dialog.py, line: 419
 msgid "Your keyboard LED is now configured and ready to use."
 msgstr "Το LED του πληκτρολογίου σας είναι τώρα ρυθμισμένο και έτοιμο προς χρήση."
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings-ruscher/devices/keyboard_led_dialog.py, line: 428
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings-ruscher/devices/keyboard_led_dialog.py, line: 428
 # 
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings-ruscher/devices/keyboard_led_dialog.py, line: 428
 # 
@@ -1771,6 +1777,30 @@ msgstr ""
 "Για να εφαρμοστούν οι αλλαγές, ο διαχειριστής παραθύρων KWin πρέπει να επανεκκινηθεί. Θέλετε να τον "
 "επανεκκινήσετε τώρα;"
 # 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_usability_page.py, line: 14
+msgid "User and Visual system settings."
+msgstr "Ρυθμίσεις χρήστη και οπτικού συστήματος."
+# 
+# #-#-#-#-#  biglinux-settings.pot (biglinux-settings)  #-#-#-#-#
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/ai_page.py, line: 32
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_usability_page.py, line: 50
+msgid "Script for the KWin window manager of the KDE Plasma desktop environment."
+msgstr "Σενάριο για τον διαχειριστή παραθύρων KWin του περιβάλλοντος επιφάνειας εργασίας KDE Plasma."
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_page.py, line: 26
+msgid "General system settings."
+msgstr "Γενικές ρυθμίσεις συστήματος."
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_usability_page.py, line: 113
+#, python-brace-format
+msgid ""
+"Using mitigations=off will make your machine faster and less secure! For more information see: <a "
+"href='{l}'>{l}</a>"
+msgstr ""
+"Η χρήση του mitigations=off θα κάνει τη μηχανή σας ταχύτερη και λιγότερο ασφαλή! Για περισσότερες "
+"πληροφορίες δείτε: <a href='{l}'>{l}</a>"
+# 
 # #-#-#-#-#  biglinux-settings.pot (biglinux-settings)  #-#-#-#-#
 # 
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings/preload_page.py, line: 284
@@ -1782,11 +1812,6 @@ msgstr "Δείκτης {} συγχρονισμένος: {}"
 msgid "Manage physical devices."
 msgstr "Διαχείριση φυσικών συσκευών."
 # 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 152
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 164
-msgid "System Tweaks"
-msgstr "Ρυθμίσεις Συστήματος"
-# 
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 158
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 167
 msgid "PreLoad"
@@ -1796,16 +1821,20 @@ msgstr "Προφόρτωση"
 msgid "A.I."
 msgstr "Τεχνητή Νοημοσύνη"
 # 
+# #-#-#-#-#  biglinux-settings.pot (biglinux-settings)  #-#-#-#-#
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 166
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/games_page.py, line: 25
+msgid "Games"
+msgstr "Παιχνίδια"
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/games_page.py, line: 26
+msgid "Games Boost."
+msgstr "Αύξηση Παιχνιδιών."
+# 
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings/ai_page.py, line: 15
 msgid "AI settings and tools."
 msgstr "Ρυθμίσεις και εργαλεία AI."
-# 
-# #-#-#-#-#  biglinux-settings.pot (biglinux-settings)  #-#-#-#-#
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/ai_page.py, line: 32
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_usability_page.py, line: 50
-msgid "Script for the KWin window manager of the KDE Plasma desktop environment."
-msgstr "Σενάριο για τον διαχειριστή παραθύρων KWin του περιβάλλοντος επιφάνειας εργασίας KDE Plasma."
 # 
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings/docker_page.py, line: 15
 msgid "Container service - enable to use containers below."
@@ -1814,20 +1843,3 @@ msgstr "Υπηρεσία κοντέινερ - ενεργοποιήστε τη χ
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings/docker_page.py, line: 23
 msgid "Manage container technologies."
 msgstr "Διαχείριση τεχνολογιών κοντέινερ."
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_usability_page.py, line: 14
-msgid "User and Visual system settings."
-msgstr "Ρυθμίσεις χρήστη και οπτικού συστήματος."
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_usability_page.py, line: 31
-msgid "Window Button..."
-msgstr "Κουμπί Παραθύρου..."
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_usability_page.py, line: 113
-#, python-brace-format
-msgid ""
-"Using mitigations=off will make your machine faster and less secure! For more information see: <a "
-"href='{l}'>{l}</a>"
-msgstr ""
-"Η χρήση του mitigations=off θα κάνει τη μηχανή σας ταχύτερη και λιγότερο ασφαλή! Για περισσότερες "
-"πληροφορίες δείτε: <a href='{l}'>{l}</a>"
