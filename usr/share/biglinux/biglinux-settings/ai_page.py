@@ -25,7 +25,7 @@ class AIPage(BaseSettingsPage):
         group = self.create_group(
             _("Artificial Intelligence"),
             _("AI settings and tools."),
-            "docker"
+            "ai"
         )
         content.append(group)
 
