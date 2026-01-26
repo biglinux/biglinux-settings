@@ -10,10 +10,12 @@ import os
 
 from gi.repository import Adw, Gdk, Gio, Gtk
 from preload_page import PreloadPage
-from system_usability_page import SystemUsabilityPage
+from system_page import SystemPage
+from usability_page import UsabilityPage
 from devices_page import DevicesPage
 from ai_page import AIPage
 from docker_page import DockerPage
+from games_page import GamesPage
 
 
 DOMAIN = "biglinux-settings"
@@ -155,11 +157,13 @@ class SystemSettingsWindow(Adw.ApplicationWindow):
 
         ## Sidebar Buttons ##
         pages_config = [
-            {"label": _("System Tweaks"), "icon": "system-tweaks-symbolic", "id": "system",  "class": SystemUsabilityPage},
-            {"label": _("PreLoad"),       "icon": "preload-symbolic",       "id": "preload", "class": PreloadPage},
-            {"label": _("Devices"),       "icon": "devices-symbolic",       "id": "devices", "class": DevicesPage},
-            {"label": _("A.I."),          "icon": "ai-symbolic",            "id": "ai",      "class": AIPage},
-            {"label": _("Docker"),        "icon": "docker-symbolic",        "id": "docker",  "class": DockerPage},
+            {"label": _("System"),      "icon": "system-symbolic",      "id": "system",     "class": SystemPage},
+            {"label": _("Usability"),   "icon": "usability-symbolic",   "id": "usability",  "class": UsabilityPage},
+            {"label": _("PreLoad"),     "icon": "preload-symbolic",     "id": "preload",    "class": PreloadPage},
+            {"label": _("Devices"),     "icon": "devices-symbolic",     "id": "devices",    "class": DevicesPage},
+            {"label": _("A.I."),        "icon": "ai-symbolic",          "id": "ai",         "class": AIPage},
+            {"label": _("Docker"),      "icon": "docker-symbolic",      "id": "docker",     "class": DockerPage},
+            {"label": _("Games"),       "icon": "games-symbolic",       "id": "games",      "class": GamesPage},
         ]
 
         # Loop to automatically create buttons and pages

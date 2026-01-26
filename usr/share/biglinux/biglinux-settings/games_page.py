@@ -14,42 +14,27 @@ gettext.bindtextdomain(DOMAIN, LOCALE_DIR)
 gettext.textdomain(DOMAIN)
 _ = gettext.gettext
 
-class DockerPage(BaseSettingsPage):
+class GamesPage(BaseSettingsPage):
     def __init__(self, main_window, **kwargs):
         super().__init__(main_window, **kwargs)
 
-        # Create the container (base method)
         content = self.create_scrolled_content()
 
-        # Create the group (base method)
+        ## GROUP ##
         group = self.create_group(
-            _("Docker"),
-            _("Container service - enable to use containers below."),
-            "docker"
+            _("Games"),
+            _("Games Boost."),
+            "games"
         )
         content.append(group)
 
-        # Create the group (base method)
-        container_group = self.create_group(
-            _("Docker"),
-            _("Manage container technologies."),
-            "docker"
-        )
-        content.append(container_group)
-
-        ## Docker
-        # Docker
+        # Game Mode Booster
         self.create_row(
             group,
-            _("Docker"),
-            _("Docker Enabled."),
-            "dockerEnable",
-            "docker-symbolic"
+            _("Game Mode Booster"),
+            _("Combination of daemon and library that allows games to request a set of optimizations be temporarily applied to the operating system and/or the game process."),
+            "gamemode",
+            "gamemode-symbolic"
         )
 
-
-        ## Container
-        #
-
-        # Syncs
         self.sync_all_switches()

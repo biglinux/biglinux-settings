@@ -3,7 +3,7 @@
 # check current status
 check_state() {
 if [[ "$XDG_CURRENT_DESKTOP" == *"KDE"* ]] || [[ "$XDG_CURRENT_DESKTOP" == *"Plasma"* ]];then
-  if [[ "$(LANG=C kreadconfig6 --file kwinrc --group Plugins --key kzonesEnabled)" == "true" ]];then
+  if [[ "$(LANG=C kreadconfig6 --file kwinrc --group Plugins --key kzonesEnabled)" == "true" ]] && pacman -Q kwin-scripts-kzones &>/dev/null; then
     echo "true"
   else
     echo "false"
@@ -12,11 +12,11 @@ fi
 }
 
 reload_kwin() {
-    if [ "$XDG_SESSION_TYPE" = "wayland" ]; then
-        kwin_wayland --replace &
-    else
-        kwin_x11 --replace &
-    fi
+  if [ "$XDG_SESSION_TYPE" = "wayland" ]; then
+      kwin_wayland --replace &
+  else
+      kwin_x11 --replace &
+  fi
 }
 
 # change the state
@@ -26,14 +26,12 @@ toggle_state() {
     if ! pacman -Q kwin-scripts-kzones &>/dev/null; then
       pkexec $PWD/usability/kzonesRun.sh "install" "$USER" "$DISPLAY" "$XAUTHORITY" "$DBUS_SESSION_BUS_ADDRESS" "$LANG" "$LANGUAGE"
     fi
-    zenityText=$"Kzones will RESTART Plasma, SAVE all programs!!!"
-    "zenity --info --text=\"$zenityText\""
+    zenity --info --text='Kzones will RESTART Plasma, SAVE all programs!!!'
     kwriteconfig6 --file kwinrc --group Plugins --key kzonesEnabled true
     reload_kwin
     exitCode=$?
   else
-    zenityText=$"Kzones will RESTART Plasma, SAVE all programs!!!"
-    "zenity --info --text=\"$zenityText\""
+    zenity --info --text='Kzones will RESTART Plasma, SAVE all programs!!!'
     kwriteconfig6 --file kwinrc --group Plugins --key kzonesEnabled false
     reload_kwin
     exitCode=$?
