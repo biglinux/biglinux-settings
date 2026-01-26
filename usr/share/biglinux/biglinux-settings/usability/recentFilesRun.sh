@@ -22,7 +22,7 @@ xbelFile="$HOME/.local/share/recently-used.xbel"
 kactivitymanagerdFile="$HOME/.config/kactivitymanagerd-pluginsrc"
 kactivitymanagerdDir="$HOME/.local/share/kactivitymanagerd/resources"
 
-# Helper function to run a command as the original user
+# # Helper function to run a command as the original user
 runAsUser() {
   # Single quotes around variables are a good security practice
   su "$originalUser" -c "export DISPLAY='$userDisplay'; export XAUTHORITY='$userXauthority'; export DBUS_SESSION_BUS_ADDRESS='$userDbusAddress'; export LANG='$userLang'; export LC_ALL='$userLang'; export LANGUAGE='$userLanguage'; $1"

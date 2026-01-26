@@ -18,6 +18,7 @@ class GamesPage(BaseSettingsPage):
     def __init__(self, main_window, **kwargs):
         super().__init__(main_window, **kwargs)
 
+        # Create the container (base method)
         content = self.create_scrolled_content()
 
         ## GROUP ##

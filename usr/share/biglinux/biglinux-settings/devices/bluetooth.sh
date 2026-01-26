@@ -7,6 +7,8 @@ check_state() {
     echo "true"
   elif [[ "$bluetoothState" == "no" ]];then
     echo "false"
+  else
+    echo "false"
   fi
 }
 
