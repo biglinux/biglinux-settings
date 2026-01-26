@@ -32,7 +32,6 @@ elif [[ "$function" == "remove" ]]; then
   zenityTitle=$"Removing $package"
   zenityText=$"Removing $package, Please wait..."
 fi
-
 runAsUser "zenity --progress --title=\"$zenityTitle\" --text=\"$zenityText\" --pulsate --auto-close --no-cancel < '$pipePath'" &
 
 # 3. Executes the root tasks.
@@ -46,7 +45,6 @@ managePackage() {
   fi
   exitCode=$?
 }
-
 managePackage > "$pipePath"
 
 # 4. Cleans up the pipe

@@ -35,7 +35,7 @@ class DevicesPage(BaseSettingsPage):
             _("Wifi"),
             _("Wifi On"),
             "wifi",
-            "wirefi-symbolic"
+            "wifi-symbolic"
         )
 
         # Bluetooth
