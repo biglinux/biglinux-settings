@@ -82,6 +82,14 @@ msgid "Instaling Kzones, Please wait..."
 msgstr "Inštalácia Kzones, prosím čakajte..."
 msgid "Kzones installed successfully!"
 msgstr "Kzones boli úspešne nainštalované!"
+msgid "JamesDSP Install"
+msgstr "Inštalácia JamesDSP"
+msgid "Instaling JamesDSP, Please wait..."
+msgstr "Inštalácia JamesDSP, prosím čakajte..."
+msgid "JamesDSP installed successfully!"
+msgstr "JamesDSP bol úspešne nainštalovaný!"
+msgid "Failed to install jamesDSP!"
+msgstr "Inštalácia jamesDSP zlyhala!"
 # 
 # #-#-#-#-#  biglinux-settings.pot (biglinux-settings)  #-#-#-#-#
 # 
@@ -1350,6 +1358,10 @@ msgstr ""
 # 
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings-ruscher/devices/jamesdsp_dialog.py, line: 208
 # 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings-ruscher/devices/jamesdsp_dialog.py, line: 208
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings-ruscher/devices/jamesdsp_dialog.py, line: 208
+# 
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings/devices/jamesdsp_dialog.py, line: 208
 # 
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings/devices/jamesdsp_dialog.py, line: 208
@@ -1497,6 +1509,12 @@ msgstr "Konfigurácia dokončená!"
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings/devices/keyboard_led_dialog.py, line: 419
 msgid "Your keyboard LED is now configured and ready to use."
 msgstr "Vaša klávesnica LED je teraz nakonfigurovaná a pripravená na použitie."
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings-ruscher/devices/keyboard_led_dialog.py, line: 428
+msgid "Done"
+msgstr "Hotovo"
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings-ruscher/devices/keyboard_led_dialog.py, line: 428
 # 
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings-ruscher/devices/keyboard_led_dialog.py, line: 428
 # 
@@ -1837,6 +1855,18 @@ msgstr "Indikátor {} synchronizovaný: {}"
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings/devices_page.py, line: 15
 msgid "Manage physical devices."
 msgstr "Spravovať fyzické zariadenia."
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/devices_page.py, line: 62
+msgid "Keyboard LED"
+msgstr "Klávesnicová LED"
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/devices_page.py, line: 71
+msgid "Reverse mouse scrolling"
+msgstr "Otočenie posúvania myši"
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/devices_page.py, line: 72
+msgid "Reverse mouse scrolling without restarting the session."
+msgstr "Otočenie posúvania myši bez reštartovania relácie."
 # 
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 158
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 167

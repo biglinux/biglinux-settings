@@ -82,6 +82,14 @@ msgid "Instaling Kzones, Please wait..."
 msgstr "Kzonesをインストール中です。お待ちください..."
 msgid "Kzones installed successfully!"
 msgstr "Kzonesが正常にインストールされました！"
+msgid "JamesDSP Install"
+msgstr "JamesDSPのインストール"
+msgid "Instaling JamesDSP, Please wait..."
+msgstr "JamesDSPをインストール中です。お待ちください..."
+msgid "JamesDSP installed successfully!"
+msgstr "JamesDSPが正常にインストールされました！"
+msgid "Failed to install jamesDSP!"
+msgstr "jamesDSPのインストールに失敗しました！"
 # 
 # #-#-#-#-#  biglinux-settings.pot (biglinux-settings)  #-#-#-#-#
 # 
@@ -1346,6 +1354,10 @@ msgstr "プリセットの読み込み中に例外が発生しました: {}"
 # 
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings-ruscher/devices/jamesdsp_dialog.py, line: 208
 # 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings-ruscher/devices/jamesdsp_dialog.py, line: 208
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings-ruscher/devices/jamesdsp_dialog.py, line: 208
+# 
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings/devices/jamesdsp_dialog.py, line: 208
 # 
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings/devices/jamesdsp_dialog.py, line: 208
@@ -1493,6 +1505,10 @@ msgstr "設定完了！"
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings/devices/keyboard_led_dialog.py, line: 419
 msgid "Your keyboard LED is now configured and ready to use."
 msgstr "キーボードのLEDが設定され、使用する準備が整いました。"
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings-ruscher/devices/keyboard_led_dialog.py, line: 428
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings-ruscher/devices/keyboard_led_dialog.py, line: 428
 # 
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings-ruscher/devices/keyboard_led_dialog.py, line: 428
 # 
@@ -1823,6 +1839,18 @@ msgstr "インジケーター {} が同期されました: {}"
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings/devices_page.py, line: 15
 msgid "Manage physical devices."
 msgstr "物理デバイスを管理します。"
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/devices_page.py, line: 62
+msgid "Keyboard LED"
+msgstr "キーボードLED"
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/devices_page.py, line: 71
+msgid "Reverse mouse scrolling"
+msgstr "マウスのスクロールを逆にする"
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/devices_page.py, line: 72
+msgid "Reverse mouse scrolling without restarting the session."
+msgstr "セッションを再起動せずにマウススクロールを逆にする。"
 # 
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 158
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 167

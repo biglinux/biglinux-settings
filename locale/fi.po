@@ -82,6 +82,14 @@ msgid "Instaling Kzones, Please wait..."
 msgstr "Asennetaan Kzoneja, ole hyvä ja odota..."
 msgid "Kzones installed successfully!"
 msgstr "Kzones asennettiin onnistuneesti!"
+msgid "JamesDSP Install"
+msgstr "JamesDSP Asennus"
+msgid "Instaling JamesDSP, Please wait..."
+msgstr "Asennetaan JamesDSP, ole hyvä ja odota..."
+msgid "JamesDSP installed successfully!"
+msgstr "JamesDSP asennettu onnistuneesti!"
+msgid "Failed to install jamesDSP!"
+msgstr "JamesDSP:n asennus epäonnistui!"
 # 
 # #-#-#-#-#  biglinux-settings.pot (biglinux-settings)  #-#-#-#-#
 # 
@@ -1389,6 +1397,10 @@ msgstr ""
 # 
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings-ruscher/devices/jamesdsp_dialog.py, line: 208
 # 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings-ruscher/devices/jamesdsp_dialog.py, line: 208
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings-ruscher/devices/jamesdsp_dialog.py, line: 208
+# 
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings/devices/jamesdsp_dialog.py, line: 208
 # 
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings/devices/jamesdsp_dialog.py, line: 208
@@ -1540,6 +1552,10 @@ msgstr "Konfigurointi valmis!"
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings/devices/keyboard_led_dialog.py, line: 419
 msgid "Your keyboard LED is now configured and ready to use."
 msgstr "Näyttösi LED on nyt konfiguroitu ja valmis käytettäväksi."
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings-ruscher/devices/keyboard_led_dialog.py, line: 428
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings-ruscher/devices/keyboard_led_dialog.py, line: 428
 # 
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings-ruscher/devices/keyboard_led_dialog.py, line: 428
 # 
@@ -1882,6 +1898,18 @@ msgstr "Indikaattori {} synkronoitu: {}"
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings/devices_page.py, line: 15
 msgid "Manage physical devices."
 msgstr "Hallitse fyysisiä laitteita."
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/devices_page.py, line: 62
+msgid "Keyboard LED"
+msgstr "Näppäimistön LED"
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/devices_page.py, line: 71
+msgid "Reverse mouse scrolling"
+msgstr "Käänteinen hiiren vieritys"
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/devices_page.py, line: 72
+msgid "Reverse mouse scrolling without restarting the session."
+msgstr "Käänteinen hiiren vieritys ilman istunnon uudelleenkäynnistämistä."
 # 
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 158
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 167

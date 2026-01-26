@@ -144,6 +144,22 @@ msgid   "Kzones installed successfully!"
 msgstr  ""
 
 #
+msgid   "JamesDSP Install"
+msgstr  ""
+
+#
+msgid   "Instaling JamesDSP, Please wait..."
+msgstr  ""
+
+#
+msgid   "JamesDSP installed successfully!"
+msgstr  ""
+
+#
+msgid   "Failed to install jamesDSP!"
+msgstr  ""
+
+#
 # #-#-#-#-#  biglinux-settings.pot (biglinux-settings)  #-#-#-#-#
 #
 # #-#-#-#-#  biglinux-settings.pot (biglinux-settings)  #-#-#-#-#
@@ -207,13 +223,19 @@ msgstr  ""
 #
 # #-#-#-#-#  biglinux-settings.pot (biglinux-settings)  #-#-#-#-#
 #
+# #-#-#-#-#  biglinux-settings.pot (biglinux-settings)  #-#-#-#-#
+#
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings-ruscher/dispositivos_page.py, line: 89
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings-ruscher/devices/jamesdsp_dialog.py, line: 155
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/devices_page.py, line: 53
 msgid   "JamesDSP"
 msgstr  ""
 
 #
+# #-#-#-#-#  biglinux-settings.pot (biglinux-settings)  #-#-#-#-#
+#
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings-ruscher/dispositivos_page.py, line: 96
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/devices_page.py, line: 54
 msgid   "Advanced audio effects processor that improves sound quality."
 msgstr  ""
 
@@ -223,7 +245,10 @@ msgid   "Keyboard with LED"
 msgstr  ""
 
 #
+# #-#-#-#-#  biglinux-settings.pot (biglinux-settings)  #-#-#-#-#
+#
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings-ruscher/dispositivos_page.py, line: 153
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/devices_page.py, line: 63
 msgid   "If your keyboard has LED you can enable this feature to turn it on "
         "with the system."
 msgstr  ""
@@ -1444,23 +1469,35 @@ msgid   "AI settings and tools"
 msgstr  ""
 
 #
+# #-#-#-#-#  biglinux-settings.pot (biglinux-settings)  #-#-#-#-#
+#
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings-ruscher/ai_page.py, line: 37
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/ai_page.py, line: 35
 msgid   "Generative AI for Krita"
 msgstr  ""
 
 #
+# #-#-#-#-#  biglinux-settings.pot (biglinux-settings)  #-#-#-#-#
+#
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings-ruscher/ai_page.py, line: 38
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/ai_page.py, line: 36
 msgid   "This is a plugin to use generative AI in painting and image editing "
         "workflows directly in Krita."
 msgstr  ""
 
 #
+# #-#-#-#-#  biglinux-settings.pot (biglinux-settings)  #-#-#-#-#
+#
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings-ruscher/ai_page.py, line: 46
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/ai_page.py, line: 43
 msgid   "ChatAI"
 msgstr  ""
 
 #
+# #-#-#-#-#  biglinux-settings.pot (biglinux-settings)  #-#-#-#-#
+#
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings-ruscher/ai_page.py, line: 47
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/ai_page.py, line: 44
 msgid   "A variety of chats like Plasmoid for your KDE Plasma desktop."
 msgstr  ""
 
@@ -1560,92 +1597,146 @@ msgid   "Manage container technologies"
 msgstr  ""
 
 #
+# #-#-#-#-#  biglinux-settings.pot (biglinux-settings)  #-#-#-#-#
+#
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings-ruscher/containers_page.py, line: 44
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/docker_page.py, line: 55
 msgid   "Nextcloud Plus"
 msgstr  ""
 
 #
+# #-#-#-#-#  biglinux-settings.pot (biglinux-settings)  #-#-#-#-#
+#
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings-ruscher/containers_page.py, line: 45
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/docker_page.py, line: 56
 msgid   "Nextcloud Plus container."
 msgstr  ""
 
 #
+# #-#-#-#-#  biglinux-settings.pot (biglinux-settings)  #-#-#-#-#
+#
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings-ruscher/containers_page.py, line: 53
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/docker_page.py, line: 63
 msgid   "AdGuard"
 msgstr  ""
 
 #
+# #-#-#-#-#  biglinux-settings.pot (biglinux-settings)  #-#-#-#-#
+#
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings-ruscher/containers_page.py, line: 54
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/docker_page.py, line: 64
 msgid   "AdGuard Home container."
 msgstr  ""
 
 #
+# #-#-#-#-#  biglinux-settings.pot (biglinux-settings)  #-#-#-#-#
+#
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings-ruscher/containers_page.py, line: 62
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/docker_page.py, line: 71
 msgid   "Django"
 msgstr  ""
 
 #
+# #-#-#-#-#  biglinux-settings.pot (biglinux-settings)  #-#-#-#-#
+#
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings-ruscher/containers_page.py, line: 63
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/docker_page.py, line: 72
 msgid   "Django developer environment."
 msgstr  ""
 
 #
+# #-#-#-#-#  biglinux-settings.pot (biglinux-settings)  #-#-#-#-#
+#
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings-ruscher/containers_page.py, line: 71
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/docker_page.py, line: 79
 msgid   "Duplicati"
 msgstr  ""
 
 #
+# #-#-#-#-#  biglinux-settings.pot (biglinux-settings)  #-#-#-#-#
+#
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings-ruscher/containers_page.py, line: 72
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/docker_page.py, line: 80
 msgid   "Duplicati backup solution."
 msgstr  ""
 
 #
+# #-#-#-#-#  biglinux-settings.pot (biglinux-settings)  #-#-#-#-#
+#
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings-ruscher/containers_page.py, line: 80
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/docker_page.py, line: 87
 msgid   "Jellyfin"
 msgstr  ""
 
 #
+# #-#-#-#-#  biglinux-settings.pot (biglinux-settings)  #-#-#-#-#
+#
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings-ruscher/containers_page.py, line: 81
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/docker_page.py, line: 88
 msgid   "Jellyfin media server."
 msgstr  ""
 
 #
+# #-#-#-#-#  biglinux-settings.pot (biglinux-settings)  #-#-#-#-#
+#
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings-ruscher/containers_page.py, line: 89
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/docker_page.py, line: 95
 msgid   "LAMP"
 msgstr  ""
 
 #
+# #-#-#-#-#  biglinux-settings.pot (biglinux-settings)  #-#-#-#-#
+#
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings-ruscher/containers_page.py, line: 90
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/docker_page.py, line: 96
 msgid   "LAMP stack (Linux, Apache, MySQL, PHP)."
 msgstr  ""
 
 #
+# #-#-#-#-#  biglinux-settings.pot (biglinux-settings)  #-#-#-#-#
+#
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings-ruscher/containers_page.py, line: 98
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/docker_page.py, line: 103
 msgid   "Portainer Client"
 msgstr  ""
 
 #
+# #-#-#-#-#  biglinux-settings.pot (biglinux-settings)  #-#-#-#-#
+#
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings-ruscher/containers_page.py, line: 99
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/docker_page.py, line: 104
 msgid   "Portainer Agent for cluster management."
 msgstr  ""
 
 #
+# #-#-#-#-#  biglinux-settings.pot (biglinux-settings)  #-#-#-#-#
+#
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings-ruscher/containers_page.py, line: 107
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/docker_page.py, line: 111
 msgid   "SWS"
 msgstr  ""
 
 #
+# #-#-#-#-#  biglinux-settings.pot (biglinux-settings)  #-#-#-#-#
+#
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings-ruscher/containers_page.py, line: 108
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/docker_page.py, line: 112
 msgid   "SWS static web server."
 msgstr  ""
 
 #
+# #-#-#-#-#  biglinux-settings.pot (biglinux-settings)  #-#-#-#-#
+#
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings-ruscher/containers_page.py, line: 116
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/docker_page.py, line: 119
 msgid   "V2RayA"
 msgstr  ""
 
 #
+# #-#-#-#-#  biglinux-settings.pot (biglinux-settings)  #-#-#-#-#
+#
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings-ruscher/containers_page.py, line: 117
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/docker_page.py, line: 120
 msgid   "V2RayA network tool."
 msgstr  ""
 
@@ -2094,22 +2185,16 @@ msgstr  ""
 #
 # #-#-#-#-#  biglinux-settings.pot (biglinux-settings)  #-#-#-#-#
 #
-# #-#-#-#-#  biglinux-settings.pot (biglinux-settings)  #-#-#-#-#
-#
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings-ruscher/system_usability_page.py, line: 58
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings/usability_page.py, line: 34
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/ai_page.py, line: 35
 msgid   "NumLock"
 msgstr  ""
 
 #
 # #-#-#-#-#  biglinux-settings.pot (biglinux-settings)  #-#-#-#-#
 #
-# #-#-#-#-#  biglinux-settings.pot (biglinux-settings)  #-#-#-#-#
-#
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings-ruscher/system_usability_page.py, line: 59
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings/usability_page.py, line: 35
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/ai_page.py, line: 36
 msgid   "Initial NumLock state. Ignored if autologin is enabled."
 msgstr  ""
 
@@ -2148,11 +2233,8 @@ msgstr  ""
 #
 # #-#-#-#-#  biglinux-settings.pot (biglinux-settings)  #-#-#-#-#
 #
-# #-#-#-#-#  biglinux-settings.pot (biglinux-settings)  #-#-#-#-#
-#
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings-ruscher/system_usability_page.py, line: 83
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings/usability_page.py, line: 61
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/ai_page.py, line: 43
 msgid   "KZones"
 msgstr  ""
 
@@ -2322,10 +2404,7 @@ msgid   "User and Visual system settings."
 msgstr  ""
 
 #
-# #-#-#-#-#  biglinux-settings.pot (biglinux-settings)  #-#-#-#-#
-#
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings/usability_page.py, line: 62
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/ai_page.py, line: 44
 msgid   "Script for the KWin window manager of the KDE Plasma desktop "
         "environment."
 msgstr  ""
@@ -2350,6 +2429,21 @@ msgstr  ""
 #
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings/devices_page.py, line: 27
 msgid   "Manage physical devices."
+msgstr  ""
+
+#
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/devices_page.py, line: 62
+msgid   "Keyboard LED"
+msgstr  ""
+
+#
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/devices_page.py, line: 71
+msgid   "Reverse mouse scrolling"
+msgstr  ""
+
+#
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/devices_page.py, line: 72
+msgid   "Reverse mouse scrolling without restarting the session."
 msgstr  ""
 
 #
