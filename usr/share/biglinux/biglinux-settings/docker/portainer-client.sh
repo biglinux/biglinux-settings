@@ -1,19 +1,20 @@
 #!/bin/bash
-PACKAGE="biglinux-docker-portainer-client"
+package="biglinux-docker-portainer-client"
+packageName="portainer-client"
+port="9000"
 
 if [ "$1" == "check" ]; then
-    if pacman -Q "$PACKAGE" &> /dev/null; then
+    if pacman -Q "$package" &> /dev/null; then
         echo "true"
     else
         echo "false"
     fi
 elif [ "$1" == "toggle" ]; then
-    STATE="$2"
-    if [ "$STATE" == "true" ]; then
-      ACTION="install"
+    state="$2"
+    if [ "$state" == "true" ]; then
+      pkexec $PWD/docker/dockerInstallRun.sh "install" "$package" "$packageName" "$port" "$USER" "$DISPLAY" "$XAUTHORITY" "$DBUS_SESSION_BUS_ADDRESS" "$LANG" "$LANGUAGE"
     else
-      ACTION="remove"
+      pkexec $PWD/docker/dockerInstallRun.sh "remove" "$package" "$packageName" "$port" "$USER" "$DISPLAY" "$XAUTHORITY" "$DBUS_SESSION_BUS_ADDRESS" "$LANG" "$LANGUAGE"
     fi
-    pkexec $PWD/docker/dockerInstallRun.sh "$ACTION" "$PACKAGE" "$USER" "$DISPLAY" "$XAUTHORITY" "$DBUS_SESSION_BUS_ADDRESS" "$LANG" "$LANGUAGE"
     exit $?
 fi

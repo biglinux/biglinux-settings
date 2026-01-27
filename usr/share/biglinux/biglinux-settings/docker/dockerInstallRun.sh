@@ -7,12 +7,14 @@ export TEXTDOMAIN=biglinux-settings
 # Assign the received arguments to variables with clear names
 function="$1"
 package="$2"
-originalUser="$3"
-userDisplay="$4"
-userXauthority="$5"
-userDbusAddress="$6"
-userLang="$7"
-userLanguage="$8"
+packageName="$3"
+port="$4"
+originalUser="$5"
+userDisplay="$6"
+userXauthority="$7"
+userDbusAddress="$8"
+userLang="$9"
+userLanguage="$10"
 
 # Helper function to run a command as the original user
 runAsUser() {
@@ -38,7 +40,8 @@ runAsUser "zenity --progress --title=\"$zenityTitle\" --text=\"$zenityText\" --p
 managePackage() {
   if [[ "$function" == "install" ]]; then
     # Update database and install
-    pacman -Syu --noconfirm "$package"
+    pacman -Syu --needed --noconfirm "$package"
+    chown $originalUser: /home/$originalUser/Docker
   elif [[ "$function" == "remove" ]]; then
     # Remove package
     pacman -Rcs --noconfirm "$package"
@@ -53,11 +56,18 @@ rm "$pipePath"
 # 5. Shows the final result
 if [[ "$exitCode" == "0" ]]; then
   if [[ "$function" == "install" ]]; then
-      zenityText=$"$package installed successfully!"
+    url="http://localhost:${port}"
+    title="Biglinux Docker $packageName"
+    text=$"$title installed successfully!\n\nConfigured on port $port, to access use $url"
+    zenityResponse=$(runAsUser "zenity --info --title=\"$title\" --text=\"$text\" --width=400 --height=300 --ok-label=\"OK\" --extra-button=\"Open\"")
+    if [ "$zenityResponse" = "Open" ]; then
+      echo "url=$url"
+      runAsUser "xdg-open \"$url\""
+    fi
   else
-      zenityText=$"$package removed successfully!"
+    zenityText=$"$package removed successfully!"
+    runAsUser "zenity --info --text=\"$zenityText\""
   fi
-  runAsUser "zenity --info --text=\"$zenityText\""
 else
   zenityText=$"An error occurred with $package."
   runAsUser "zenity --error --text=\"$zenityText\""

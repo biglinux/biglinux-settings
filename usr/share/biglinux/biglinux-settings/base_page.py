@@ -178,7 +178,7 @@ class BaseSettingsPage(Adw.Bin):
                 [script_path, "toggle", state_str],
                 capture_output=True,
                 text=True,
-                timeout=30,
+                timeout=90,
             )
 
             if result.returncode == 0:
