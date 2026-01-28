@@ -1,5 +1,9 @@
 #!/bin/bash
 
+#Translation
+export TEXTDOMAINDIR="/usr/share/locale"
+export TEXTDOMAIN=biglinux-settings
+
 # check current status
 check_state() {
   if [[ -d "$HOME/.local/share/krita/pykrita/ai_diffusion" ]] && pacman -Q krita &>/dev/null; then

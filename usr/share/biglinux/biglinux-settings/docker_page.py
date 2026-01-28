@@ -32,7 +32,7 @@ class DockerPage(BaseSettingsPage):
 
         # Create the group (base method)
         container_group = self.create_group(
-            _("Docker"),
+            _("Containers"),
             _("Manage container technologies."),
             "docker"
         )
