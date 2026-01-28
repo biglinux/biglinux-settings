@@ -6,7 +6,10 @@ export TEXTDOMAIN=biglinux-settings
 
 # check current status
 check_state() {
-  if systemctl --user is-active smartd --quiet;then
+  # Check if it's a VM; if so, disable it. Smart only works on a physical machine.
+  if [[ "$(systemd-detect-virt)" != "none" ]];then
+    echo ""
+  elif systemctl is-active smartd --quiet;then
     echo "false"
   else
     echo "true"
@@ -17,10 +20,10 @@ check_state() {
 toggle_state() {
   new_state="$1"
   if [[ "$new_state" == "true" ]];then
-    systemctl enable --now smartd
+    systemctl disable --now smartd
     exitCode=$?
   else
-    systemctl disable --now smartd
+    systemctl enable --now smartd
     exitCode=$?
   fi
   exit $exitCode

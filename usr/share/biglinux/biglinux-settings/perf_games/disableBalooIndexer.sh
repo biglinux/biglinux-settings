@@ -17,10 +17,10 @@ check_state() {
 toggle_state() {
   new_state="$1"
   if [[ "$new_state" == "true" ]];then
-    balooctl6 disable
+    balooctl6 disable &>/dev/null
     exitCode=$?
   else
-    balooctl6 enable
+    balooctl6 enable &>/dev/null
     exitCode=$?
   fi
   exit $exitCode
