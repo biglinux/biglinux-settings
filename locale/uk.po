@@ -96,6 +96,14 @@ msgstr ""
 "$title успішно встановлено!\\n"
 "\\n"
 "Налаштовано на порту $port, для доступу використовуйте $url"
+msgid "GameMode Install"
+msgstr "Встановлення режиму гри"
+msgid "Instaling GameMode, Please wait..."
+msgstr "Встановлення GameMode, будь ласка, зачекайте..."
+msgid "GameMode installed successfully!"
+msgstr "GameMode успішно встановлено!"
+msgid "Failed to install GameMode!"
+msgstr "Не вдалося встановити GameMode!"
 msgid "Recent Files enabling...."
 msgstr "Увімкнення останніх файлів...."
 msgid "Recent Files enabling, Please wait..."
@@ -1444,6 +1452,10 @@ msgstr ""
 # 
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings-ruscher/devices/jamesdsp_dialog.py, line: 208
 # 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings-ruscher/devices/jamesdsp_dialog.py, line: 208
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings-ruscher/devices/jamesdsp_dialog.py, line: 208
+# 
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings/devices/jamesdsp_dialog.py, line: 208
 # 
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings/devices/jamesdsp_dialog.py, line: 208
@@ -1643,6 +1655,10 @@ msgstr "Конфігурацію завершено!"
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings/devices/keyboard_led_dialog.py, line: 419
 msgid "Your keyboard LED is now configured and ready to use."
 msgstr "Ваш світлодіод клавіатури тепер налаштований і готовий до використання."
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings-ruscher/devices/keyboard_led_dialog.py, line: 428
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings-ruscher/devices/keyboard_led_dialog.py, line: 428
 # 
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings-ruscher/devices/keyboard_led_dialog.py, line: 428
 # 
@@ -2051,16 +2067,9 @@ msgstr "Передзавантаження"
 msgid "A.I."
 msgstr "Штучний інтелект."
 # 
-# #-#-#-#-#  biglinux-settings.pot (biglinux-settings)  #-#-#-#-#
-# 
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 166
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/games_page.py, line: 25
-msgid "Games"
-msgstr "Ігри"
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/games_page.py, line: 26
-msgid "Games Boost."
-msgstr "Ігровий підсилювач."
+msgid "Performance and Games"
+msgstr "Продуктивність та ігри"
 # 
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings/ai_page.py, line: 15
 msgid "AI settings and tools."
@@ -2073,3 +2082,63 @@ msgstr "Служба контейнерів - увімкніть для вико
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings/docker_page.py, line: 23
 msgid "Manage container technologies."
 msgstr "Керуйте технологіями контейнерів."
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/performance_games_page.py, line: 29
+msgid "Ajustes de Performance do BigLinux."
+msgstr "Налаштування продуктивності BigLinux."
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/performance_games_page.py, line: 36
+msgid "Games Booster"
+msgstr "Ігровий прискорювач"
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/performance_games_page.py, line: 48
+msgid "Desativa efeitos visuais do KWin (blur, sombras, animações). Diminui carga na GPU e libera memória."
+msgstr ""
+"Деактивує візуальні ефекти KWin (розмиття, тіні, анімації). Зменшує навантаження на GPU та звільняє "
+"пам'ять."
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/performance_games_page.py, line: 56
+msgid ""
+"Configura compositor para “low latency”, permite tearing e desativa animações. Minimiza a "
+"sobrecarga de composição e reduz input lag."
+msgstr ""
+"Налаштуйте композитор на \"низьку затримку\", дозволяє розриви зображення та вимикає анімації. "
+"Мінімізує навантаження на композицію та зменшує затримку введення."
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/performance_games_page.py, line: 63
+msgid "CPU Maximum Performance"
+msgstr "Максимальна продуктивність ЦПУ"
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/performance_games_page.py, line: 64
+msgid "Força o modo máximo de desempenho do processador. Garante que o processador use a frequência máxima."
+msgstr ""
+"Forces the processor to maximum performance mode. Ensures that the processor uses the maximum "
+"frequency."
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/performance_games_page.py, line: 72
+msgid ""
+"Força o modo máximo de desempenho (GPU NVIDIA/AMD). Garante que a placa de vídeo use a frequência "
+"máxima."
+msgstr ""
+"Force maximum performance mode (NVIDIA/AMD GPU). Ensures that the graphics card uses the maximum "
+"frequency."
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/performance_games_page.py, line: 79
+msgid "Disable Baloo Indexer"
+msgstr "Вимкнути індексатор Baloo"
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/performance_games_page.py, line: 80
+msgid "Desativa o indexador de arquivos Baloo. Evita I/O de disco."
+msgstr "Деактивуйте індексатор файлів Baloo. Уникайте операцій введення/виведення на диску."
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/performance_games_page.py, line: 88
+msgid "Interrompe o servidor de dados de PIM (Kontact/Thunderbird). Reduz a sobrecarga de memória e disco."
+msgstr "Перериває сервер даних PIM (Kontact/Thunderbird). Зменшує навантаження на пам'ять і диск."
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/performance_games_page.py, line: 96
+msgid "Desativa monitoramento S.M.A.R.T. de discos. Reduz I/O de disco e CPU."
+msgstr "Disables S.M.A.R.T. disk monitoring. Reduces disk and CPU I/O."
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/performance_games_page.py, line: 107
+msgid "Ativa o daemon que ajusta CPU, I/O, etc. Reduz a latência e aumenta a taxa de quadros."
+msgstr "Activate the daemon that adjusts CPU, I/O, etc. Reduces latency and increases frame rate."

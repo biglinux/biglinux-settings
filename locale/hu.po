@@ -96,6 +96,14 @@ msgstr ""
 "$title sikeresen telepítve!\\n"
 "\\n"
 "A $port porton van konfigurálva, a hozzáféréshez használja a $url-t."
+msgid "GameMode Install"
+msgstr "Játékmód telepítése"
+msgid "Instaling GameMode, Please wait..."
+msgstr "Játékmód telepítése, kérem várjon..."
+msgid "GameMode installed successfully!"
+msgstr "A GameMode sikeresen telepítve!"
+msgid "Failed to install GameMode!"
+msgstr "A GameMode telepítése nem sikerült!"
 msgid "Recent Files enabling...."
 msgstr "Legutóbbi fájlok engedélyezése...."
 msgid "Recent Files enabling, Please wait..."
@@ -1788,16 +1796,9 @@ msgstr "Előbetöltés"
 msgid "A.I."
 msgstr "Mesterséges intelligencia."
 # 
-# #-#-#-#-#  biglinux-settings.pot (biglinux-settings)  #-#-#-#-#
-# 
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 166
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/games_page.py, line: 25
-msgid "Games"
-msgstr "Játékok"
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/games_page.py, line: 26
-msgid "Games Boost."
-msgstr "Játékok Fokozása."
+msgid "Performance and Games"
+msgstr "Teljesítmény és Játékok"
 # 
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings/ai_page.py, line: 15
 msgid "AI settings and tools."
@@ -1810,3 +1811,65 @@ msgstr "Konténer szolgáltatás - engedélyezze a konténerek használatát az 
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings/docker_page.py, line: 23
 msgid "Manage container technologies."
 msgstr "Kezelje a konténertechnológiákat."
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/performance_games_page.py, line: 29
+msgid "Ajustes de Performance do BigLinux."
+msgstr "A BigLinux teljesítménybeállításai."
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/performance_games_page.py, line: 36
+msgid "Games Booster"
+msgstr "Játékok gyorsítója"
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/performance_games_page.py, line: 48
+msgid "Desativa efeitos visuais do KWin (blur, sombras, animações). Diminui carga na GPU e libera memória."
+msgstr ""
+"A vizuális effektusok letiltása a KWin-en (elmosódás, árnyékok, animációk). Csökkenti a GPU "
+"terhelését és felszabadítja a memóriát."
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/performance_games_page.py, line: 56
+msgid ""
+"Configura compositor para “low latency”, permite tearing e desativa animações. Minimiza a "
+"sobrecarga de composição e reduz input lag."
+msgstr ""
+"Állítsa be a kompozitort \"alacsony késleltetés\" módra, engedélyezze a tépést és tiltsa le az "
+"animációkat. Minimalizálja a kompozíciós terhelést és csökkenti a bemeneti késleltetést."
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/performance_games_page.py, line: 63
+msgid "CPU Maximum Performance"
+msgstr "CPU Maximális Teljesítmény"
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/performance_games_page.py, line: 64
+msgid "Força o modo máximo de desempenho do processador. Garante que o processador use a frequência máxima."
+msgstr ""
+"Kényszeríti a processzor maximális teljesítmény módját. Biztosítja, hogy a processzor a maximális "
+"frekvenciát használja."
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/performance_games_page.py, line: 72
+msgid ""
+"Força o modo máximo de desempenho (GPU NVIDIA/AMD). Garante que a placa de vídeo use a frequência "
+"máxima."
+msgstr ""
+"Kényszeríti a maximális teljesítmény módot (NVIDIA/AMD GPU). Biztosítja, hogy a videokártya a "
+"maximális frekvenciát használja."
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/performance_games_page.py, line: 79
+msgid "Disable Baloo Indexer"
+msgstr "Baloo indexert letiltása"
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/performance_games_page.py, line: 80
+msgid "Desativa o indexador de arquivos Baloo. Evita I/O de disco."
+msgstr "A fájlindexelőt, a Baloot deaktiválja. Megakadályozza a lemez I/O-t."
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/performance_games_page.py, line: 88
+msgid "Interrompe o servidor de dados de PIM (Kontact/Thunderbird). Reduz a sobrecarga de memória e disco."
+msgstr "Megszakítja a PIM (Kontact/Thunderbird) adatbázis szerverét. Csökkenti a memória- és lemezterhelést."
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/performance_games_page.py, line: 96
+msgid "Desativa monitoramento S.M.A.R.T. de discos. Reduz I/O de disco e CPU."
+msgstr "A S.M.A.R.T. lemezfigyelés letiltása. Csökkenti a lemez- és CPU-használatot."
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/performance_games_page.py, line: 107
+msgid "Ativa o daemon que ajusta CPU, I/O, etc. Reduz a latência e aumenta a taxa de quadros."
+msgstr ""
+"Aktiváld a CPU-t, I/O-t stb. beállító daemont. Csökkenti a késleltetést és növeli a "
+"képkockasebességet."

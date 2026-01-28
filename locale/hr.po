@@ -96,6 +96,14 @@ msgstr ""
 "$title je uspješno instaliran!\\n"
 "\\n"
 "Konfigurirano na portu $port, za pristup koristite $url"
+msgid "GameMode Install"
+msgstr "Instalacija načina igre"
+msgid "Instaling GameMode, Please wait..."
+msgstr "Instaliranje GameMode-a, molimo pričekajte..."
+msgid "GameMode installed successfully!"
+msgstr "GameMode je uspješno instaliran!"
+msgid "Failed to install GameMode!"
+msgstr "Instalacija GameMode-a nije uspjela!"
 msgid "Recent Files enabling...."
 msgstr "Omogućavanje nedavnih datoteka...."
 msgid "Recent Files enabling, Please wait..."
@@ -1785,16 +1793,9 @@ msgstr "PreLoad"
 msgid "A.I."
 msgstr "A.I."
 # 
-# #-#-#-#-#  biglinux-settings.pot (biglinux-settings)  #-#-#-#-#
-# 
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 166
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/games_page.py, line: 25
-msgid "Games"
-msgstr "Igre"
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/games_page.py, line: 26
-msgid "Games Boost."
-msgstr "Povećanje igara."
+msgid "Performance and Games"
+msgstr "Izvedba i igre"
 # 
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings/ai_page.py, line: 15
 msgid "AI settings and tools."
@@ -1807,3 +1808,61 @@ msgstr "Usluga kontejnera - omogućite korištenje kontejnera u nastavku."
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings/docker_page.py, line: 23
 msgid "Manage container technologies."
 msgstr "Upravljajte tehnologijama kontejnera."
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/performance_games_page.py, line: 29
+msgid "Ajustes de Performance do BigLinux."
+msgstr "Postavke performansi BigLinux-a."
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/performance_games_page.py, line: 36
+msgid "Games Booster"
+msgstr "Povećivač igara"
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/performance_games_page.py, line: 48
+msgid "Desativa efeitos visuais do KWin (blur, sombras, animações). Diminui carga na GPU e libera memória."
+msgstr ""
+"Onemogući vizualne efekte KWin-a (zamućenje, sjene, animacije). Smanjuje opterećenje na GPU i "
+"oslobađa memoriju."
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/performance_games_page.py, line: 56
+msgid ""
+"Configura compositor para “low latency”, permite tearing e desativa animações. Minimiza a "
+"sobrecarga de composição e reduz input lag."
+msgstr ""
+"Konfigurirajte kompozitor za \"nisku latenciju\", omogućite kidanje i onemogućite animacije. "
+"Minimizira opterećenje kompozicije i smanjuje ulaznu latenciju."
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/performance_games_page.py, line: 63
+msgid "CPU Maximum Performance"
+msgstr "Maksimalna izvedba CPU-a"
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/performance_games_page.py, line: 64
+msgid "Força o modo máximo de desempenho do processador. Garante que o processador use a frequência máxima."
+msgstr "Prisiljava maksimalni način rada procesora. Osigurava da procesor koristi maksimalnu frekvenciju."
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/performance_games_page.py, line: 72
+msgid ""
+"Força o modo máximo de desempenho (GPU NVIDIA/AMD). Garante que a placa de vídeo use a frequência "
+"máxima."
+msgstr ""
+"Prisiljava maksimalni način rada performansi (GPU NVIDIA/AMD). Osigurava da grafička kartica "
+"koristi maksimalnu frekvenciju."
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/performance_games_page.py, line: 79
+msgid "Disable Baloo Indexer"
+msgstr "Onemogući Baloo indeksator"
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/performance_games_page.py, line: 80
+msgid "Desativa o indexador de arquivos Baloo. Evita I/O de disco."
+msgstr "Onemogući Baloo indeksator datoteka. Sprječava I/O diska."
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/performance_games_page.py, line: 88
+msgid "Interrompe o servidor de dados de PIM (Kontact/Thunderbird). Reduz a sobrecarga de memória e disco."
+msgstr "Prekida poslužitelj podataka PIM-a (Kontact/Thunderbird). Smanjuje opterećenje memorije i diska."
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/performance_games_page.py, line: 96
+msgid "Desativa monitoramento S.M.A.R.T. de discos. Reduz I/O de disco e CPU."
+msgstr "Deaktivira S.M.A.R.T. praćenje diskova. Smanjuje I/O diska i CPU."
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/performance_games_page.py, line: 107
+msgid "Ativa o daemon que ajusta CPU, I/O, etc. Reduz a latência e aumenta a taxa de quadros."
+msgstr "Aktivira demona koji podešava CPU, I/O, itd. Smanjuje latenciju i povećava brzinu kadrova."

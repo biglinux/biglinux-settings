@@ -96,6 +96,14 @@ msgstr ""
 "$title εγκαταστάθηκε με επιτυχία!\\n"
 "\\n"
 "Ρυθμίστηκε στη θύρα $port, για πρόσβαση χρησιμοποιήστε το $url"
+msgid "GameMode Install"
+msgstr "Εγκατάσταση Λειτουργίας Παιχνιδιού"
+msgid "Instaling GameMode, Please wait..."
+msgstr "Εγκατάσταση του GameMode, Παρακαλώ περιμένετε..."
+msgid "GameMode installed successfully!"
+msgstr "Το GameMode εγκαταστάθηκε με επιτυχία!"
+msgid "Failed to install GameMode!"
+msgstr "Αποτυχία εγκατάστασης του GameMode!"
 msgid "Recent Files enabling...."
 msgstr "Ενεργοποίηση πρόσφατων αρχείων...."
 msgid "Recent Files enabling, Please wait..."
@@ -1444,6 +1452,10 @@ msgstr ""
 # 
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings-ruscher/devices/jamesdsp_dialog.py, line: 208
 # 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings-ruscher/devices/jamesdsp_dialog.py, line: 208
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings-ruscher/devices/jamesdsp_dialog.py, line: 208
+# 
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings/devices/jamesdsp_dialog.py, line: 208
 # 
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings/devices/jamesdsp_dialog.py, line: 208
@@ -1987,16 +1999,9 @@ msgstr "Προφόρτωση"
 msgid "A.I."
 msgstr "Τεχνητή Νοημοσύνη"
 # 
-# #-#-#-#-#  biglinux-settings.pot (biglinux-settings)  #-#-#-#-#
-# 
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 166
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/games_page.py, line: 25
-msgid "Games"
-msgstr "Παιχνίδια"
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/games_page.py, line: 26
-msgid "Games Boost."
-msgstr "Αύξηση Παιχνιδιών."
+msgid "Performance and Games"
+msgstr "Απόδοση και Παιχνίδια"
 # 
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings/ai_page.py, line: 15
 msgid "AI settings and tools."
@@ -2009,3 +2014,67 @@ msgstr "Υπηρεσία κοντέινερ - ενεργοποιήστε τη χ
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings/docker_page.py, line: 23
 msgid "Manage container technologies."
 msgstr "Διαχείριση τεχνολογιών κοντέινερ."
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/performance_games_page.py, line: 29
+msgid "Ajustes de Performance do BigLinux."
+msgstr "Ρυθμίσεις Απόδοσης του BigLinux."
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/performance_games_page.py, line: 36
+msgid "Games Booster"
+msgstr "Ενισχυτής Παιχνιδιών"
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/performance_games_page.py, line: 48
+msgid "Desativa efeitos visuais do KWin (blur, sombras, animações). Diminui carga na GPU e libera memória."
+msgstr ""
+"Απενεργοποιεί τα οπτικά εφέ του KWin (θόλωση, σκιές, animations). Μειώνει το φορτίο στην GPU και "
+"απελευθερώνει μνήμη."
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/performance_games_page.py, line: 56
+msgid ""
+"Configura compositor para “low latency”, permite tearing e desativa animações. Minimiza a "
+"sobrecarga de composição e reduz input lag."
+msgstr ""
+"Ρυθμίστε τον συνθέτη σε \"χαμηλή καθυστέρηση\", επιτρέπει το tearing και απενεργοποιεί τις "
+"animations. Ελαχιστοποιεί την υπερφόρτωση σύνθεσης και μειώνει την καθυστέρηση εισόδου."
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/performance_games_page.py, line: 63
+msgid "CPU Maximum Performance"
+msgstr "Μέγιστη Απόδοση CPU"
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/performance_games_page.py, line: 64
+msgid "Força o modo máximo de desempenho do processador. Garante que o processador use a frequência máxima."
+msgstr ""
+"Ενεργοποιεί τη μέγιστη απόδοση του επεξεργαστή. Διασφαλίζει ότι ο επεξεργαστής χρησιμοποιεί τη "
+"μέγιστη συχνότητα."
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/performance_games_page.py, line: 72
+msgid ""
+"Força o modo máximo de desempenho (GPU NVIDIA/AMD). Garante que a placa de vídeo use a frequência "
+"máxima."
+msgstr ""
+"Ενεργοποιεί τη μέγιστη απόδοση (GPU NVIDIA/AMD). Διασφαλίζει ότι η κάρτα γραφικών χρησιμοποιεί τη "
+"μέγιστη συχνότητα."
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/performance_games_page.py, line: 79
+msgid "Disable Baloo Indexer"
+msgstr "Απενεργοποίηση του ευρετηριαστή Baloo"
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/performance_games_page.py, line: 80
+msgid "Desativa o indexador de arquivos Baloo. Evita I/O de disco."
+msgstr "Απενεργοποιήστε τον δείκτη αρχείων Baloo. Αποφεύγει την είσοδο/έξοδο δίσκου."
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/performance_games_page.py, line: 88
+msgid "Interrompe o servidor de dados de PIM (Kontact/Thunderbird). Reduz a sobrecarga de memória e disco."
+msgstr ""
+"Διακόπτει τον διακομιστή δεδομένων PIM (Kontact/Thunderbird). Μειώνει την υπερφόρτωση μνήμης και "
+"δίσκου."
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/performance_games_page.py, line: 96
+msgid "Desativa monitoramento S.M.A.R.T. de discos. Reduz I/O de disco e CPU."
+msgstr "Απενεργοποιεί την παρακολούθηση S.M.A.R.T. δίσκων. Μειώνει την I/O δίσκου και την CPU."
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/performance_games_page.py, line: 107
+msgid "Ativa o daemon que ajusta CPU, I/O, etc. Reduz a latência e aumenta a taxa de quadros."
+msgstr ""
+"Ενεργοποιεί τον δαίμονα που ρυθμίζει την CPU, το I/O κ.λπ. Μειώνει την καθυστέρηση και αυξάνει τον "
+"ρυθμό καρέ."

@@ -96,6 +96,14 @@ msgstr ""
 "$title installerades framgångsrikt!\\n"
 "\\n"
 "Konfigurerad på port $port, för att få åtkomst använd $url"
+msgid "GameMode Install"
+msgstr "Speläge Installera"
+msgid "Instaling GameMode, Please wait..."
+msgstr "Installerar GameMode, Vänligen vänta..."
+msgid "GameMode installed successfully!"
+msgstr "GameMode installerades framgångsrikt!"
+msgid "Failed to install GameMode!"
+msgstr "Misslyckades med att installera GameMode!"
 msgid "Recent Files enabling...."
 msgstr "Aktiverar senaste filer...."
 msgid "Recent Files enabling, Please wait..."
@@ -1569,6 +1577,10 @@ msgstr "Din tangentbords-LED är nu konfigurerad och redo att användas."
 # 
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings-ruscher/devices/keyboard_led_dialog.py, line: 428
 # 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings-ruscher/devices/keyboard_led_dialog.py, line: 428
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings-ruscher/devices/keyboard_led_dialog.py, line: 428
+# 
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings/devices/keyboard_led_dialog.py, line: 428
 # 
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings/devices/keyboard_led_dialog.py, line: 428
@@ -1894,16 +1906,9 @@ msgstr "Förladdning"
 msgid "A.I."
 msgstr "A.I."
 # 
-# #-#-#-#-#  biglinux-settings.pot (biglinux-settings)  #-#-#-#-#
-# 
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 166
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/games_page.py, line: 25
-msgid "Games"
-msgstr "Spel"
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/games_page.py, line: 26
-msgid "Games Boost."
-msgstr "Spelboost."
+msgid "Performance and Games"
+msgstr "Prestanda och spel"
 # 
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings/ai_page.py, line: 15
 msgid "AI settings and tools."
@@ -1916,3 +1921,61 @@ msgstr "Behållartjänst - aktivera för att använda behållare nedan."
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings/docker_page.py, line: 23
 msgid "Manage container technologies."
 msgstr "Hantera containertekniker."
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/performance_games_page.py, line: 29
+msgid "Ajustes de Performance do BigLinux."
+msgstr "Prestandainställningar för BigLinux."
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/performance_games_page.py, line: 36
+msgid "Games Booster"
+msgstr "Spelboostare"
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/performance_games_page.py, line: 48
+msgid "Desativa efeitos visuais do KWin (blur, sombras, animações). Diminui carga na GPU e libera memória."
+msgstr ""
+"Inaktivera visuella effekter i KWin (oskarphet, skuggor, animationer). Minskar belastningen på "
+"GPU:n och frigör minne."
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/performance_games_page.py, line: 56
+msgid ""
+"Configura compositor para “low latency”, permite tearing e desativa animações. Minimiza a "
+"sobrecarga de composição e reduz input lag."
+msgstr ""
+"Konfigurera kompositör för \"låg latens\", tillåter tearing och inaktiverar animationer. Minskar "
+"kompositionsbelastningen och minskar input lag."
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/performance_games_page.py, line: 63
+msgid "CPU Maximum Performance"
+msgstr "CPU Maximal Prestanda"
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/performance_games_page.py, line: 64
+msgid "Força o modo máximo de desempenho do processador. Garante que o processador use a frequência máxima."
+msgstr "Tvinga processorns maximala prestandaläge. Säkerställer att processorn använder maximal frekvens."
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/performance_games_page.py, line: 72
+msgid ""
+"Força o modo máximo de desempenho (GPU NVIDIA/AMD). Garante que a placa de vídeo use a frequência "
+"máxima."
+msgstr ""
+"Tvinga maximal prestandaläge (GPU NVIDIA/AMD). Säkerställer att grafikkortet använder maximal "
+"frekvens."
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/performance_games_page.py, line: 79
+msgid "Disable Baloo Indexer"
+msgstr "Inaktivera Baloo-indexer"
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/performance_games_page.py, line: 80
+msgid "Desativa o indexador de arquivos Baloo. Evita I/O de disco."
+msgstr "Inaktivera filindexeraren Baloo. Förhindrar disk-I/O."
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/performance_games_page.py, line: 88
+msgid "Interrompe o servidor de dados de PIM (Kontact/Thunderbird). Reduz a sobrecarga de memória e disco."
+msgstr "Avbryter PIM-databasen (Kontact/Thunderbird). Minskar minnes- och diskbelastningen."
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/performance_games_page.py, line: 96
+msgid "Desativa monitoramento S.M.A.R.T. de discos. Reduz I/O de disco e CPU."
+msgstr "Deaktivera S.M.A.R.T. övervakning av diskar. Minskar disk- och CPU-användning."
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/performance_games_page.py, line: 107
+msgid "Ativa o daemon que ajusta CPU, I/O, etc. Reduz a latência e aumenta a taxa de quadros."
+msgstr "Aktivera daemonen som justerar CPU, I/O, etc. Minskar latensen och ökar bildhastigheten."

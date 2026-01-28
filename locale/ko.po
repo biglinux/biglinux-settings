@@ -95,6 +95,14 @@ msgstr ""
 "$title이(가) 성공적으로 설치되었습니다!\\n"
 "\\n"
 "$port 포트에서 구성되었으며, 액세스하려면 $url을(를) 사용하세요."
+msgid "GameMode Install"
+msgstr "게임 모드 설치"
+msgid "Instaling GameMode, Please wait..."
+msgstr "게임 모드 설치 중, 잠시만 기다려 주십시오..."
+msgid "GameMode installed successfully!"
+msgstr "GameMode가 성공적으로 설치되었습니다!"
+msgid "Failed to install GameMode!"
+msgstr "GameMode 설치에 실패했습니다!"
 msgid "Recent Files enabling...."
 msgstr "최근 파일 활성화 중...."
 msgid "Recent Files enabling, Please wait..."
@@ -1768,16 +1776,9 @@ msgstr "프리로드"
 msgid "A.I."
 msgstr "인공지능"
 # 
-# #-#-#-#-#  biglinux-settings.pot (biglinux-settings)  #-#-#-#-#
-# 
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 166
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/games_page.py, line: 25
-msgid "Games"
-msgstr "게임"
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/games_page.py, line: 26
-msgid "Games Boost."
-msgstr "게임 부스트."
+msgid "Performance and Games"
+msgstr "성능 및 게임"
 # 
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings/ai_page.py, line: 15
 msgid "AI settings and tools."
@@ -1790,3 +1791,55 @@ msgstr "컨테이너 서비스 - 아래의 컨테이너 사용을 활성화합�
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings/docker_page.py, line: 23
 msgid "Manage container technologies."
 msgstr "컨테이너 기술 관리."
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/performance_games_page.py, line: 29
+msgid "Ajustes de Performance do BigLinux."
+msgstr "빅리눅스 성능 조정."
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/performance_games_page.py, line: 36
+msgid "Games Booster"
+msgstr "게임 부스터"
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/performance_games_page.py, line: 48
+msgid "Desativa efeitos visuais do KWin (blur, sombras, animações). Diminui carga na GPU e libera memória."
+msgstr "KWin의 시각 효과(블러, 그림자, 애니메이션)를 비활성화합니다. GPU의 부하를 줄이고 메모리를 해제합니다."
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/performance_games_page.py, line: 56
+msgid ""
+"Configura compositor para “low latency”, permite tearing e desativa animações. Minimiza a "
+"sobrecarga de composição e reduz input lag."
+msgstr "“저지연”으로 컴포지터를 설정하고, 티어링을 허용하며 애니메이션을 비활성화합니다. 컴포지션 오버헤드를 최소화하고 입력 지연을 줄입니다."
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/performance_games_page.py, line: 63
+msgid "CPU Maximum Performance"
+msgstr "CPU 최대 성능"
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/performance_games_page.py, line: 64
+msgid "Força o modo máximo de desempenho do processador. Garante que o processador use a frequência máxima."
+msgstr "프로세서의 최대 성능 모드를 강제로 설정합니다. 프로세서가 최대 주파수를 사용하도록 보장합니다."
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/performance_games_page.py, line: 72
+msgid ""
+"Força o modo máximo de desempenho (GPU NVIDIA/AMD). Garante que a placa de vídeo use a frequência "
+"máxima."
+msgstr "최대 성능 모드를 강제로 설정합니다 (NVIDIA/AMD GPU). 그래픽 카드가 최대 주파수를 사용하도록 보장합니다."
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/performance_games_page.py, line: 79
+msgid "Disable Baloo Indexer"
+msgstr "Baloo 인덱서 비활성화"
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/performance_games_page.py, line: 80
+msgid "Desativa o indexador de arquivos Baloo. Evita I/O de disco."
+msgstr "파일 인덱서 Baloo를 비활성화합니다. 디스크 I/O를 방지합니다."
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/performance_games_page.py, line: 88
+msgid "Interrompe o servidor de dados de PIM (Kontact/Thunderbird). Reduz a sobrecarga de memória e disco."
+msgstr "PIM 데이터 서버(Kontact/Thunderbird)를 중단합니다. 메모리 및 디스크 오버헤드를 줄입니다."
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/performance_games_page.py, line: 96
+msgid "Desativa monitoramento S.M.A.R.T. de discos. Reduz I/O de disco e CPU."
+msgstr "디스크의 S.M.A.R.T. 모니터링을 비활성화합니다. 디스크 및 CPU I/O를 줄입니다."
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/performance_games_page.py, line: 107
+msgid "Ativa o daemon que ajusta CPU, I/O, etc. Reduz a latência e aumenta a taxa de quadros."
+msgstr "CPU, I/O 등을 조정하는 데몬을 활성화합니다. 지연 시간을 줄이고 프레임 속도를 높입니다."

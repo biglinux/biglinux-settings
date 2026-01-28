@@ -143,6 +143,22 @@ msgstr ""
 "$url"
 
 #
+msgid "GameMode Install"
+msgstr "GameMode Install"
+
+#
+msgid "Instaling GameMode, Please wait..."
+msgstr "Instaling GameMode, Please wait..."
+
+#
+msgid "GameMode installed successfully!"
+msgstr "GameMode installed successfully!"
+
+#
+msgid "Failed to install GameMode!"
+msgstr "Failed to install GameMode!"
+
+#
 msgid "Recent Files enabling...."
 msgstr "Recent Files enabling...."
 
@@ -971,8 +987,11 @@ msgstr "Blur, Wobbly Windows, Shadows, Animations"
 #
 # #-#-#-#-#  biglinux-settings.pot (biglinux-settings)  #-#-#-#-#
 #
+# #-#-#-#-#  biglinux-settings.pot (biglinux-settings)  #-#-#-#-#
+#
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings-ruscher/usability/kwin_ram_dialog.py, line: 109
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings-ruscher/usability/gamemode_config_dialog.py, line: 100
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/performance_games_page.py, line: 55
 msgid "Compositor Settings"
 msgstr "Compositor Settings"
 
@@ -1226,9 +1245,12 @@ msgstr "Optimizations"
 #
 # #-#-#-#-#  biglinux-settings.pot (biglinux-settings)  #-#-#-#-#
 #
+# #-#-#-#-#  biglinux-settings.pot (biglinux-settings)  #-#-#-#-#
+#
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings-ruscher/usability/gamemode_config_dialog.py, line: 82
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings-ruscher/usability/gamemode_dialog.py, line: 191
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings-ruscher/usability/gamemode_dialog.py, line: 234
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/performance_games_page.py, line: 106
 msgid "GameMode Daemon"
 msgstr "GameMode Daemon"
 
@@ -1242,7 +1264,10 @@ msgid "System-wide performance daemon"
 msgstr "System-wide performance daemon"
 
 #
+# #-#-#-#-#  biglinux-settings.pot (biglinux-settings)  #-#-#-#-#
+#
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings-ruscher/usability/gamemode_config_dialog.py, line: 91
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/performance_games_page.py, line: 47
 msgid "Disable Visual Effects"
 msgstr "Disable Visual Effects"
 
@@ -1259,9 +1284,12 @@ msgstr "Low latency, allow tearing, no animations"
 #
 # #-#-#-#-#  biglinux-settings.pot (biglinux-settings)  #-#-#-#-#
 #
+# #-#-#-#-#  biglinux-settings.pot (biglinux-settings)  #-#-#-#-#
+#
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings-ruscher/usability/gamemode_config_dialog.py, line: 109
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings-ruscher/usability/gamemode_dialog.py, line: 209
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings-ruscher/usability/gamemode_dialog.py, line: 252
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/performance_games_page.py, line: 71
 msgid "GPU Maximum Performance"
 msgstr "GPU Maximum Performance"
 
@@ -1284,7 +1312,10 @@ msgid "Stop file indexing service"
 msgstr "Stop file indexing service"
 
 #
+# #-#-#-#-#  biglinux-settings.pot (biglinux-settings)  #-#-#-#-#
+#
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings-ruscher/usability/gamemode_config_dialog.py, line: 127
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/performance_games_page.py, line: 87
 msgid "Stop Akonadi Server"
 msgstr "Stop Akonadi Server"
 
@@ -1294,7 +1325,10 @@ msgid "Stop PIM storage service"
 msgstr "Stop PIM storage service"
 
 #
+# #-#-#-#-#  biglinux-settings.pot (biglinux-settings)  #-#-#-#-#
+#
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings-ruscher/usability/gamemode_config_dialog.py, line: 136
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/performance_games_page.py, line: 95
 msgid "Unload S.M.A.R.T Monitor"
 msgstr "Unload S.M.A.R.T Monitor"
 
@@ -1398,7 +1432,10 @@ msgid "Low latency, tearing allowed, animations = 0"
 msgstr "Low latency, tearing allowed, animations = 0"
 
 #
+# #-#-#-#-#  biglinux-settings.pot (biglinux-settings)  #-#-#-#-#
+#
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings-ruscher/usability/gamemode_dialog.py, line: 206
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/performance_games_page.py, line: 28
 msgid "Performance"
 msgstr "Performance"
 
@@ -2371,10 +2408,7 @@ msgid "This feature is only available for KDE Plasma."
 msgstr "This feature is only available for KDE Plasma."
 
 #
-# #-#-#-#-#  biglinux-settings.pot (biglinux-settings)  #-#-#-#-#
-#
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings-ruscher/system_usability_page.py, line: 100
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/games_page.py, line: 35
 msgid "Game Mode Booster"
 msgstr "Game Mode Booster"
 
@@ -2382,7 +2416,7 @@ msgstr "Game Mode Booster"
 # #-#-#-#-#  biglinux-settings.pot (biglinux-settings)  #-#-#-#-#
 #
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings-ruscher/system_usability_page.py, line: 101
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/games_page.py, line: 36
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/performance_games_page.py, line: 37
 msgid ""
 "Combination of daemon and library that allows games to request a set of "
 "optimizations be temporarily applied to the operating system and/or the game "
@@ -2590,17 +2624,9 @@ msgid "A.I."
 msgstr "A.I."
 
 #
-# #-#-#-#-#  biglinux-settings.pot (biglinux-settings)  #-#-#-#-#
-#
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 166
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/games_page.py, line: 26
-msgid "Games"
-msgstr "Games"
-
-#
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/games_page.py, line: 27
-msgid "Games Boost."
-msgstr "Games Boost."
+msgid "Performance and Games"
+msgstr "Performance and Games"
 
 #
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings/ai_page.py, line: 27
@@ -2616,3 +2642,87 @@ msgstr "Container service - enable to use containers below."
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings/docker_page.py, line: 36
 msgid "Manage container technologies."
 msgstr "Manage container technologies."
+
+#
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/performance_games_page.py, line: 29
+msgid "Ajustes de Performance do BigLinux."
+msgstr "Ajustes de Performance do BigLinux."
+
+#
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/performance_games_page.py, line: 36
+msgid "Games Booster"
+msgstr "Games Booster"
+
+#
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/performance_games_page.py, line: 48
+msgid ""
+"Desativa efeitos visuais do KWin (blur, sombras, animações). Diminui carga "
+"na GPU e libera memória."
+msgstr ""
+"Desativa efeitos visuais do KWin (blur, sombras, animações). Diminui carga "
+"na GPU e libera memória."
+
+#
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/performance_games_page.py, line: 56
+msgid ""
+"Configura compositor para “low latency”, permite tearing e desativa "
+"animações. Minimiza a sobrecarga de composição e reduz input lag."
+msgstr ""
+"Configura compositor para “low latency”, permite tearing e desativa "
+"animações. Minimiza a sobrecarga de composição e reduz input lag."
+
+#
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/performance_games_page.py, line: 63
+msgid "CPU Maximum Performance"
+msgstr "CPU Maximum Performance"
+
+#
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/performance_games_page.py, line: 64
+msgid ""
+"Força o modo máximo de desempenho do processador. Garante que o processador "
+"use a frequência máxima."
+msgstr ""
+"Força o modo máximo de desempenho do processador. Garante que o processador "
+"use a frequência máxima."
+
+#
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/performance_games_page.py, line: 72
+msgid ""
+"Força o modo máximo de desempenho (GPU NVIDIA/AMD). Garante que a placa de "
+"vídeo use a frequência máxima."
+msgstr ""
+"Força o modo máximo de desempenho (GPU NVIDIA/AMD). Garante que a placa de "
+"vídeo use a frequência máxima."
+
+#
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/performance_games_page.py, line: 79
+msgid "Disable Baloo Indexer"
+msgstr "Disable Baloo Indexer"
+
+#
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/performance_games_page.py, line: 80
+msgid "Desativa o indexador de arquivos Baloo. Evita I/O de disco."
+msgstr "Desativa o indexador de arquivos Baloo. Evita I/O de disco."
+
+#
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/performance_games_page.py, line: 88
+msgid ""
+"Interrompe o servidor de dados de PIM (Kontact/Thunderbird). Reduz a "
+"sobrecarga de memória e disco."
+msgstr ""
+"Interrompe o servidor de dados de PIM (Kontact/Thunderbird). Reduz a "
+"sobrecarga de memória e disco."
+
+#
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/performance_games_page.py, line: 96
+msgid "Desativa monitoramento S.M.A.R.T. de discos. Reduz I/O de disco e CPU."
+msgstr "Desativa monitoramento S.M.A.R.T. de discos. Reduz I/O de disco e CPU."
+
+#
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/performance_games_page.py, line: 107
+msgid ""
+"Ativa o daemon que ajusta CPU, I/O, etc. Reduz a latência e aumenta a taxa "
+"de quadros."
+msgstr ""
+"Ativa o daemon que ajusta CPU, I/O, etc. Reduz a latência e aumenta a taxa "
+"de quadros."

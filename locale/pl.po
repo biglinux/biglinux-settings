@@ -96,6 +96,14 @@ msgstr ""
 "$titel zainstalowany pomyślnie!\\n"
 "\\n"
 "Skonfigurowano na porcie $port, aby uzyskać dostęp, użyj $url"
+msgid "GameMode Install"
+msgstr "Instalacja trybu gry"
+msgid "Instaling GameMode, Please wait..."
+msgstr "Instalowanie GameMode, Proszę czekać..."
+msgid "GameMode installed successfully!"
+msgstr "GameMode zainstalowany pomyślnie!"
+msgid "Failed to install GameMode!"
+msgstr "Nie udało się zainstalować GameMode!"
 msgid "Recent Files enabling...."
 msgstr "Włączanie ostatnich plików...."
 msgid "Recent Files enabling, Please wait..."
@@ -1573,6 +1581,10 @@ msgstr "Twoja dioda LED klawiatury jest teraz skonfigurowana i gotowa do użycia
 # 
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings-ruscher/devices/keyboard_led_dialog.py, line: 428
 # 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings-ruscher/devices/keyboard_led_dialog.py, line: 428
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings-ruscher/devices/keyboard_led_dialog.py, line: 428
+# 
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings/devices/keyboard_led_dialog.py, line: 428
 # 
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings/devices/keyboard_led_dialog.py, line: 428
@@ -1888,16 +1900,9 @@ msgstr "Wstępne ładowanie"
 msgid "A.I."
 msgstr "Sztuczna inteligencja."
 # 
-# #-#-#-#-#  biglinux-settings.pot (biglinux-settings)  #-#-#-#-#
-# 
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 166
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/games_page.py, line: 25
-msgid "Games"
-msgstr "Gry"
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/games_page.py, line: 26
-msgid "Games Boost."
-msgstr "Wzmacniacz gier."
+msgid "Performance and Games"
+msgstr "Wydajność i gry"
 # 
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings/ai_page.py, line: 15
 msgid "AI settings and tools."
@@ -1910,3 +1915,65 @@ msgstr "Usługa kontenerowa - włącz, aby używać kontenerów poniżej."
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings/docker_page.py, line: 23
 msgid "Manage container technologies."
 msgstr "Zarządzaj technologiami kontenerowymi."
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/performance_games_page.py, line: 29
+msgid "Ajustes de Performance do BigLinux."
+msgstr "Ustawienia wydajności BigLinux."
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/performance_games_page.py, line: 36
+msgid "Games Booster"
+msgstr "Booster gier"
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/performance_games_page.py, line: 48
+msgid "Desativa efeitos visuais do KWin (blur, sombras, animações). Diminui carga na GPU e libera memória."
+msgstr ""
+"Dezaktywuj efekty wizualne KWin (rozmycie, cienie, animacje). Zmniejsza obciążenie GPU i zwalnia "
+"pamięć."
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/performance_games_page.py, line: 56
+msgid ""
+"Configura compositor para “low latency”, permite tearing e desativa animações. Minimiza a "
+"sobrecarga de composição e reduz input lag."
+msgstr ""
+"Skonfiguruj kompozytor na \"niska latencja\", zezwól na tearing i wyłącz animacje. Minimalizuje "
+"obciążenie kompozycji i redukuje opóźnienie wejścia."
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/performance_games_page.py, line: 63
+msgid "CPU Maximum Performance"
+msgstr "Maksymalna wydajność CPU"
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/performance_games_page.py, line: 64
+msgid "Força o modo máximo de desempenho do processador. Garante que o processador use a frequência máxima."
+msgstr ""
+"Wymusza maksymalny tryb wydajności procesora. Gwarantuje, że procesor używa maksymalnej "
+"częstotliwości."
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/performance_games_page.py, line: 72
+msgid ""
+"Força o modo máximo de desempenho (GPU NVIDIA/AMD). Garante que a placa de vídeo use a frequência "
+"máxima."
+msgstr ""
+"Wymusza maksymalny tryb wydajności (GPU NVIDIA/AMD). Zapewnia, że karta graficzna używa maksymalnej "
+"częstotliwości."
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/performance_games_page.py, line: 79
+msgid "Disable Baloo Indexer"
+msgstr "Wyłącz indeksator Baloo"
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/performance_games_page.py, line: 80
+msgid "Desativa o indexador de arquivos Baloo. Evita I/O de disco."
+msgstr "Dezaktywuj indeksator plików Baloo. Unikaj operacji I/O na dysku."
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/performance_games_page.py, line: 88
+msgid "Interrompe o servidor de dados de PIM (Kontact/Thunderbird). Reduz a sobrecarga de memória e disco."
+msgstr "Przerywa serwer danych PIM (Kontact/Thunderbird). Zmniejsza obciążenie pamięci i dysku."
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/performance_games_page.py, line: 96
+msgid "Desativa monitoramento S.M.A.R.T. de discos. Reduz I/O de disco e CPU."
+msgstr "Dezaktywuj monitorowanie S.M.A.R.T. dysków. Zmniejsza I/O dysku i CPU."
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/performance_games_page.py, line: 107
+msgid "Ativa o daemon que ajusta CPU, I/O, etc. Reduz a latência e aumenta a taxa de quadros."
+msgstr ""
+"Aktywuj demon, który dostosowuje CPU, I/O itp. Zmniejsza opóźnienia i zwiększa liczbę klatek na "
+"sekundę."

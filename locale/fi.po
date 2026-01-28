@@ -96,6 +96,14 @@ msgstr ""
 "$title asennettu onnistuneesti!\\n"
 "\\n"
 "Konfiguroitu porttiin $port, käytä $url päästäksesi käsiksi."
+msgid "GameMode Install"
+msgstr "Pelin tila asennus"
+msgid "Instaling GameMode, Please wait..."
+msgstr "Asennetaan GameMode, ole hyvä ja odota..."
+msgid "GameMode installed successfully!"
+msgstr "GameMode asennettu onnistuneesti!"
+msgid "Failed to install GameMode!"
+msgstr "Asennus GameMode epäonnistui!"
 msgid "Recent Files enabling...."
 msgstr "Äskettäin avatut tiedostot käytössä...."
 msgid "Recent Files enabling, Please wait..."
@@ -1475,6 +1483,10 @@ msgstr ""
 # 
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings-ruscher/devices/jamesdsp_dialog.py, line: 208
 # 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings-ruscher/devices/jamesdsp_dialog.py, line: 208
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings-ruscher/devices/jamesdsp_dialog.py, line: 208
+# 
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings/devices/jamesdsp_dialog.py, line: 208
 # 
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings/devices/jamesdsp_dialog.py, line: 208
@@ -1626,6 +1638,10 @@ msgstr "Konfigurointi valmis!"
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings/devices/keyboard_led_dialog.py, line: 419
 msgid "Your keyboard LED is now configured and ready to use."
 msgstr "Näyttösi LED on nyt konfiguroitu ja valmis käytettäväksi."
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings-ruscher/devices/keyboard_led_dialog.py, line: 428
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings-ruscher/devices/keyboard_led_dialog.py, line: 428
 # 
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings-ruscher/devices/keyboard_led_dialog.py, line: 428
 # 
@@ -2034,16 +2050,9 @@ msgstr "Esilataus"
 msgid "A.I."
 msgstr "A.I."
 # 
-# #-#-#-#-#  biglinux-settings.pot (biglinux-settings)  #-#-#-#-#
-# 
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 166
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/games_page.py, line: 25
-msgid "Games"
-msgstr "Pelit"
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/games_page.py, line: 26
-msgid "Games Boost."
-msgstr "Pelit Tehostus."
+msgid "Performance and Games"
+msgstr "Suorituskyky ja pelit"
 # 
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings/ai_page.py, line: 15
 msgid "AI settings and tools."
@@ -2056,3 +2065,63 @@ msgstr "Konttipalvelu - ota käyttöön alla olevat kontit."
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings/docker_page.py, line: 23
 msgid "Manage container technologies."
 msgstr "Hallitse säilöteknologioita."
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/performance_games_page.py, line: 29
+msgid "Ajustes de Performance do BigLinux."
+msgstr "BigLinuxin suorituskykyasetukset."
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/performance_games_page.py, line: 36
+msgid "Games Booster"
+msgstr "Peli Boosteri"
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/performance_games_page.py, line: 48
+msgid "Desativa efeitos visuais do KWin (blur, sombras, animações). Diminui carga na GPU e libera memória."
+msgstr ""
+"Poista KWin:n visuaaliset tehosteet (sumeus, varjot, animaatiot). Vähentää GPU:n kuormitusta ja "
+"vapauttaa muistia."
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/performance_games_page.py, line: 56
+msgid ""
+"Configura compositor para “low latency”, permite tearing e desativa animações. Minimiza a "
+"sobrecarga de composição e reduz input lag."
+msgstr ""
+"Määritä säveltäjä \"alhaista viivettä\" varten, salli repeytyminen ja poista animaatiot käytöstä. "
+"Vähentää koosteen kuormitusta ja vähentää syöttöviivettä."
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/performance_games_page.py, line: 63
+msgid "CPU Maximum Performance"
+msgstr "CPU:n maksimaalinen suorituskyky"
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/performance_games_page.py, line: 64
+msgid "Força o modo máximo de desempenho do processador. Garante que o processador use a frequência máxima."
+msgstr ""
+"Pakottaa prosessorin maksimaalisen suorituskyvyn tilan. Varmistaa, että prosessori käyttää maksimi "
+"taajuutta."
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/performance_games_page.py, line: 72
+msgid ""
+"Força o modo máximo de desempenho (GPU NVIDIA/AMD). Garante que a placa de vídeo use a frequência "
+"máxima."
+msgstr ""
+"Pakota maksimaalinen suorituskykytila (NVIDIA/AMD GPU). Varmistaa, että näytönohjain käyttää "
+"maksimi taajuutta."
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/performance_games_page.py, line: 79
+msgid "Disable Baloo Indexer"
+msgstr "Poista Baloo-indeksoija käytöstä"
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/performance_games_page.py, line: 80
+msgid "Desativa o indexador de arquivos Baloo. Evita I/O de disco."
+msgstr "Poista käytöstä Baloo-tiedostojen indeksoija. Vältä levyn I/O:ta."
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/performance_games_page.py, line: 88
+msgid "Interrompe o servidor de dados de PIM (Kontact/Thunderbird). Reduz a sobrecarga de memória e disco."
+msgstr "Keskeyttää PIM-tietopalvelimen (Kontact/Thunderbird). Vähentää muisti- ja levykuormitusta."
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/performance_games_page.py, line: 96
+msgid "Desativa monitoramento S.M.A.R.T. de discos. Reduz I/O de disco e CPU."
+msgstr "Poista käytöstä S.M.A.R.T. -levyjen valvonta. Vähentää levy- ja CPU-käyttöä."
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/performance_games_page.py, line: 107
+msgid "Ativa o daemon que ajusta CPU, I/O, etc. Reduz a latência e aumenta a taxa de quadros."
+msgstr "Ota daemon, joka säätää CPU:ta, I/O:ta jne. Vähentää viivettä ja lisää kuvataajuutta."
