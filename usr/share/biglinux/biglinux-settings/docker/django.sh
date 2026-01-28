@@ -1,4 +1,7 @@
 #!/bin/bash
+#
+# não existe pacote de verdade.
+#
 # package="biglinux-docker-django"
 # packageName="django"
 # port=""

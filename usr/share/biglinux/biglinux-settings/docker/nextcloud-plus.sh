@@ -1,7 +1,7 @@
 #!/bin/bash
 package="biglinux-docker-nextcloud-plus"
 packageName="nextcloud-plus"
-port="5731"
+port="8286"
 
 if [ "$1" == "check" ]; then
     if pacman -Q "$package" &> /dev/null; then

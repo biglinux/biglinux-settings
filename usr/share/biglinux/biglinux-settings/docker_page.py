@@ -1,6 +1,7 @@
 from base_page import BaseSettingsPage
 import locale
 import gettext
+import os
 
 # Set up gettext for application localization.
 DOMAIN = "biglinux-settings"
@@ -124,3 +125,77 @@ class DockerPage(BaseSettingsPage):
 
         # Syncs
         self.sync_all_switches()
+
+    def install_container(self, container_name):
+        """Install a Docker container."""
+        script_path = os.path.join("containers", f"{container_name}.sh")
+        if not os.path.exists(script_path):
+            print(f"Error: Script not found for {container_name}")
+            return False
+
+        try:
+            result = subprocess.run(
+                [script_path, "install"], capture_output=True, text=True
+            )
+            if result.returncode == 0:
+                print(f"{container_name} installed successfully")
+                # Reload the page after successful installation
+                self.sync_all_switches()
+                return True
+            else:
+                print(f"Failed to install {container_name}: {result.stderr}")
+                return False
+        except Exception as e:
+            print(f"Error during installation: {e}")
+            return False
+
+    def remove_container(self, container_name):
+        """Remove a Docker container."""
+        script_path = os.path.join("containers", f"{container_name}.sh")
+        if not os.path.exists(script_path):
+            print(f"Error: Script not found for {container_name}")
+            return False
+
+        try:
+            result = subprocess.run(
+                [script_path, "remove"], capture_output=True, text=True
+            )
+            if result.returncode == 0:
+                print(f"{container_name} removed successfully")
+                # Reload the page after successful removal
+                self.sync_all_switches()
+                return True
+            else:
+                print(f"Failed to remove {container_name}: {result.stderr}")
+                return False
+        except Exception as e:
+            print(f"Error during removal: {e}")
+            return False
+
+    def on_switch_changed(self, switch, state):
+        """Callback executed when a user manually toggles a switch."""
+        script_path = self.switch_scripts.get(switch)
+
+        if script_path:
+            script_name = os.path.basename(script_path)
+            print(_("Changing {} to {}").format(script_name, "on" if state else "off"))
+
+            # Attempt to change the system state
+            success = self.toggle_script_state(script_path, state)
+
+            # If the script fails, revert the switch to its previous state
+            # to keep the UI consistent with the actual system state.
+            if not success:
+                # Block signal to prevent an infinite loop
+                switch.handler_block_by_func(self.on_switch_changed)
+                switch.set_active(not state)
+                switch.handler_unblock_by_func(self.on_switch_changed)
+
+                print(
+                    _("ERROR: Failed to change {} to {}").format(
+                        script_name, "on" if state else "off"
+                    )
+                )
+                self.show_toast(_("Failed to change setting: {}").format(script_name))
+
+        return False
