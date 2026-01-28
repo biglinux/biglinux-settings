@@ -34,7 +34,7 @@ class AIPage(BaseSettingsPage):
             group,
             _("Generative AI for Krita"),
             _("This is a plugin to use generative AI in painting and image editing workflows directly in Krita."),
-            "krita-ai",
+            "krita",
             "krita-ai-symbolic",
         )
         # ChatAI
