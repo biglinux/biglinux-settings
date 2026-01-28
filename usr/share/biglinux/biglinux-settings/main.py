@@ -15,7 +15,7 @@ from usability_page import UsabilityPage
 from devices_page import DevicesPage
 from ai_page import AIPage
 from docker_page import DockerPage
-from games_page import GamesPage
+from performance_games_page import PerformanceGamesPage
 
 
 DOMAIN = "biglinux-settings"
@@ -163,7 +163,7 @@ class SystemSettingsWindow(Adw.ApplicationWindow):
             {"label": _("Devices"),     "icon": "devices-symbolic",     "id": "devices",    "class": DevicesPage},
             {"label": _("A.I."),        "icon": "ai-symbolic",          "id": "ai",         "class": AIPage},
             {"label": _("Docker"),      "icon": "docker-symbolic",      "id": "docker",     "class": DockerPage},
-            {"label": _("Games"),       "icon": "games-symbolic",       "id": "games",      "class": GamesPage},
+            {"label": _("Performance and Games"),       "icon": "games-symbolic",       "id": "perf_games", "class": PerformanceGamesPage},
         ]
 
         # Loop to automatically create buttons and pages
