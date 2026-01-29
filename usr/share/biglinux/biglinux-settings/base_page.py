@@ -1,10 +1,12 @@
 import gi
+
 gi.require_version("Gtk", "4.0")
 gi.require_version("Adw", "1")
 import gettext
 import locale
 import os
 import subprocess
+
 from gi.repository import Adw, Gio, Gtk
 
 # Set up gettext for application localization.
@@ -30,6 +32,7 @@ class BaseSettingsPage(Adw.Bin):
         # Dictionaries to map UI widgets to their corresponding shell scripts
         self.switch_scripts = {}
         self.status_indicators = {}
+        self._search_mode = False
 
     def create_scrolled_content(self):
         """Cria a estrutura básica de scroll e box vertical."""
@@ -45,6 +48,12 @@ class BaseSettingsPage(Adw.Bin):
         self.set_child(scrolled)
         return self.content_box
 
+    def set_search_mode(self, enabled):
+        """Adjust margins for search mode (compact) or normal mode."""
+        if not hasattr(self, "content_box"):
+            return
+        self._search_mode = enabled
+
     def on_reload_clicked(self, widget):
         """Callback for the reload button. Triggers a full UI state sync."""
         print("Reloading all statuses...")
@@ -53,7 +62,6 @@ class BaseSettingsPage(Adw.Bin):
     def create_group(self, title, description, script_group):
         """Cria um PreferencesGroup com o botão de reload automático."""
         group = Adw.PreferencesGroup()
-        group.set_title(title)
         group.set_description(description)
         group.script_group = script_group
 
@@ -296,3 +304,120 @@ class BaseSettingsPage(Adw.Bin):
                 self.show_toast(_("Failed to change setting: {}").format(script_name))
 
         return False
+
+    def filter_rows(self, search_text, hide_group_headers=False):
+        """Filter rows based on search text. Returns True if any rows are visible."""
+        if not hasattr(self, "content_box"):
+            return True
+
+        total_visible = 0
+        for child in self._get_all_children(self.content_box):
+            if isinstance(child, Adw.PreferencesGroup):
+                visible = self._filter_group(child, search_text, hide_group_headers)
+                total_visible += visible
+
+        return total_visible > 0
+
+    def get_matching_rows(self, search_text):
+        """Get list of rows that match search text with their parent groups."""
+        if not hasattr(self, "content_box"):
+            return []
+
+        matching = []
+        for child in self._get_all_children(self.content_box):
+            if isinstance(child, Adw.PreferencesGroup):
+                listbox = self._find_listbox_in_widget(child)
+                if not listbox:
+                    continue
+
+                row = listbox.get_first_child()
+                while row:
+                    if isinstance(row, (Adw.PreferencesRow, Gtk.ListBoxRow)):
+                        text = self._get_row_text(row).lower()
+                        if search_text in text:
+                            matching.append((row, child))
+                    row = row.get_next_sibling()
+
+        return matching
+
+    def _filter_group(self, group, search_text, hide_group_headers=False):
+        """Filter rows within a PreferencesGroup. Returns count of visible rows."""
+        visible_count = 0
+
+        # Save original description on first call
+        if not hasattr(group, "_orig_desc"):
+            group._orig_desc = group.get_description() or ""
+
+        # Hide header during search
+        if hide_group_headers and search_text:
+            group.set_description("")
+            suffix = group.get_header_suffix()
+            if suffix:
+                suffix.set_visible(False)
+        else:
+            # Restore original description
+            group.set_description(group._orig_desc)
+            suffix = group.get_header_suffix()
+            if suffix:
+                suffix.set_visible(True)
+
+        # PreferencesGroup uses an internal GtkListBox
+        listbox = self._find_listbox_in_widget(group)
+        if not listbox:
+            return 0
+
+        row = listbox.get_first_child()
+        while row:
+            if isinstance(row, (Adw.PreferencesRow, Gtk.ListBoxRow)):
+                if not search_text:
+                    row.set_visible(True)
+                    visible_count += 1
+                else:
+                    text = self._get_row_text(row).lower()
+                    visible = search_text in text
+                    row.set_visible(visible)
+                    if visible:
+                        visible_count += 1
+            row = row.get_next_sibling()
+
+        # Hide group if no visible rows (but always show if no search)
+        group.set_visible(visible_count > 0 or not search_text)
+        return visible_count
+
+    def _find_listbox_in_widget(self, widget):
+        """Recursively find GtkListBox inside a widget."""
+        if isinstance(widget, Gtk.ListBox):
+            return widget
+        child = widget.get_first_child() if hasattr(widget, "get_first_child") else None
+        while child:
+            result = self._find_listbox_in_widget(child)
+            if result:
+                return result
+            child = child.get_next_sibling()
+        return None
+
+    def _get_row_text(self, row):
+        """Extract searchable text from a row widget."""
+        texts = []
+        self._collect_label_texts(row, texts)
+        return " ".join(texts)
+
+    def _collect_label_texts(self, widget, texts):
+        """Recursively collect text from all labels in a widget."""
+        if isinstance(widget, Gtk.Label):
+            text = widget.get_text() or widget.get_label() or ""
+            if text:
+                texts.append(text)
+        child = widget.get_first_child() if hasattr(widget, "get_first_child") else None
+        while child:
+            self._collect_label_texts(child, texts)
+            child = child.get_next_sibling()
+
+    def _get_all_children(self, widget):
+        """Get all direct children of a widget."""
+        children = []
+        child = widget.get_first_child() if hasattr(widget, "get_first_child") else None
+        while child:
+            children.append(child)
+            child = child.get_next_sibling()
+        return children

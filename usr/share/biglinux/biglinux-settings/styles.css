@@ -1,0 +1,25 @@
+.symbolic-icon {
+    -gtk-icon-filter: -gtk-recolor();
+    color: @window_fg_color;
+}
+
+.sidebar-button {
+    padding: 10px 12px;
+    border-radius: 8px;
+}
+
+.sidebar-button.selected {
+    background-color: alpha(@accent_bg_color, 0.15);
+}
+
+.status-on {
+    background-color: @success_color;
+}
+
+.status-off {
+    background-color: @error_color;
+}
+
+.status-unavailable {
+    background-color: @insensitive_fg_color;
+}

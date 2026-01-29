@@ -8,15 +8,14 @@ import gettext
 import locale
 import os
 
-from gi.repository import Adw, Gdk, Gio, Gtk
+from ai_page import AIPage
+from devices_page import DevicesPage
+from docker_page import DockerPage
+from gi.repository import Adw, Gdk, Gio, GLib, Gtk
+from performance_games_page import PerformanceGamesPage
 from preload_page import PreloadPage
 from system_page import SystemPage
 from usability_page import UsabilityPage
-from devices_page import DevicesPage
-from ai_page import AIPage
-from docker_page import DockerPage
-from performance_games_page import PerformanceGamesPage
-
 
 DOMAIN = "biglinux-settings"
 LOCALE_DIR = "/usr/share/locale"
@@ -36,71 +35,46 @@ _ = gettext.gettext
 class BiglinuxSettingsApp(Adw.Application):
     def __init__(self):
         super().__init__(application_id="org.biglinux.biglinux-settings")
-        style_manager = Adw.StyleManager.get_default()
-        style_manager.set_color_scheme(Adw.ColorScheme.DEFAULT)
+        GLib.set_prgname("biglinux-settings")
         self.connect("activate", self.on_activate)
 
     def on_activate(self, app):
-        self.window = CustomWindow(application=app)
+        self.window = BiglinuxSettingsWindow(application=app)
         self.window.present()
 
 
-class SystemSettingsWindow(Adw.ApplicationWindow):
+class BiglinuxSettingsWindow(Adw.ApplicationWindow):
     def __init__(self, **kwargs):
         super().__init__(**kwargs)
-        self.set_title("BigLinux Settings")
-        self.set_default_size(1000, 860)
+        self.set_title(_("BigLinux Settings"))
+        self.set_default_size(1000, 700)
+
         icon_theme = Gtk.IconTheme.get_for_display(Gdk.Display.get_default())
         icon_theme.add_search_path(ICONS_DIR)
+
+        self.sidebar_buttons = []
+        self.pages_config = []
+        self.is_searching = False
+        self.current_page_id = None
         self.load_css()
         self.setup_ui()
 
     def load_css(self):
-        provider = Gtk.CssProvider()
-        css = """
-        .sidebar-container {
-            background-color: @card_bg_color;
-            border-right: 1px solid alpha(@window_fg_color, 0.05);
-        }
-        .content-area {
-            background-color: @window_bg_color;
-        }
-        .symbolic-icon {
-            -gtk-icon-filter: -gtk-recolor();
-            color: @window_fg_color;
-        }
-        .sidebar-button {
-            padding: 8px;
-            border-radius: 8px;
-        }
-        preferencesgroup .heading {
-            font-size: 1.3rem;
-        }
-        .status-indicator {
-            min-width: 16px;
-            min-height: 16px;
-            border-radius: 8px;
-            margin: 0 8px;
-        }
-        .status-on {
-            background-color: @success_color;
-        }
-        .status-off {
-            background-color: @error_color;
-        }
-        .status-unavailable {
-            background-color: @insensitive_fg_color;
-        }
-        """
-        provider.load_from_string(css)
+        self.css_provider = Gtk.CssProvider()
+        css_path = os.path.join(BASE_DIR, "styles.css")
+        self.css_provider.load_from_path(css_path)
         Gtk.StyleContext.add_provider_for_display(
-            self.get_display(), provider, Gtk.STYLE_PROVIDER_PRIORITY_APPLICATION
+            self.get_display(),
+            self.css_provider,
+            Gtk.STYLE_PROVIDER_PRIORITY_APPLICATION,
         )
 
-    def create_sidebar_button(self, label_text, icon_name, stack_name, view_stack):
+    def create_sidebar_button(self, label_text, icon_name, stack_name):
         btn = Gtk.Button()
         btn.add_css_class("flat")
         btn.add_css_class("sidebar-button")
+        btn.stack_name = stack_name
+        btn.label_text = label_text
 
         box = Gtk.Box(orientation=Gtk.Orientation.HORIZONTAL, spacing=10)
 
@@ -113,77 +87,229 @@ class SystemSettingsWindow(Adw.ApplicationWindow):
         img.add_css_class("symbolic-icon")
 
         lbl = Gtk.Label(label=label_text, xalign=0)
+        lbl.set_hexpand(True)
 
         box.append(img)
         box.append(lbl)
 
         btn.set_child(box)
-        btn.connect("clicked", lambda _: view_stack.set_visible_child_name(stack_name))
+        btn.connect("clicked", self.on_sidebar_button_clicked)
         return btn
 
+    def on_sidebar_button_clicked(self, btn):
+        if self.is_searching:
+            return
+        self.current_page_id = btn.stack_name
+        self._show_single_page(btn.stack_name)
+        for b in self.sidebar_buttons:
+            b.remove_css_class("selected")
+        btn.add_css_class("selected")
+
     def setup_ui(self):
-        # Main container
-        main_box = Gtk.Box(orientation=Gtk.Orientation.VERTICAL)
-        self.set_content(main_box)
+        # Toast overlay as root
+        self.toast_overlay = Adw.ToastOverlay()
+        self.set_content(self.toast_overlay)
 
-        header_bar = Adw.HeaderBar()
-        main_box.append(header_bar)
+        # NavigationSplitView for modern sidebar + content layout
+        self.split_view = Adw.NavigationSplitView()
+        self.toast_overlay.set_child(self.split_view)
 
-        # Body Container (Sidebar + Content)
-        content_box = Gtk.Box(orientation=Gtk.Orientation.HORIZONTAL)
-        main_box.append(content_box)
+        # === SIDEBAR ===
+        sidebar_toolbar = Adw.ToolbarView()
+        sidebar_header = Adw.HeaderBar()
+        sidebar_header.set_title_widget(Adw.WindowTitle.new(_("BigLinux Settings"), ""))
+        sidebar_toolbar.add_top_bar(sidebar_header)
 
-        view_stack = Adw.ViewStack()
-        view_stack.add_css_class("content-area")
-        view_stack.set_hexpand(True)
-        view_stack.set_vexpand(True)
+        sidebar_scroll = Gtk.ScrolledWindow()
+        sidebar_scroll.set_policy(Gtk.PolicyType.NEVER, Gtk.PolicyType.AUTOMATIC)
+        sidebar_scroll.set_vexpand(True)
 
-        # Sidebar settings
-        scrolled = Gtk.ScrolledWindow()
-        scrolled.set_policy(Gtk.PolicyType.NEVER, Gtk.PolicyType.AUTOMATIC)
-        scrolled.set_propagate_natural_width(True)
-        scrolled.add_css_class("sidebar-container")
+        self.sidebar_box = Gtk.Box(orientation=Gtk.Orientation.VERTICAL, spacing=4)
+        self.sidebar_box.set_margin_start(12)
+        self.sidebar_box.set_margin_end(12)
+        self.sidebar_box.set_margin_top(12)
+        self.sidebar_box.set_margin_bottom(12)
+        sidebar_scroll.set_child(self.sidebar_box)
+        sidebar_toolbar.set_content(sidebar_scroll)
 
-        side_box = Gtk.Box(orientation=Gtk.Orientation.VERTICAL, spacing=2)
-        side_box.set_margin_start(12)
-        side_box.set_margin_end(12)
-        side_box.set_margin_top(22)
-        side_box.set_margin_bottom(12)
-        side_box.set_size_request(220, -1)
+        sidebar_page = Adw.NavigationPage.new(sidebar_toolbar, _("Categories"))
+        self.split_view.set_sidebar(sidebar_page)
 
-        scrolled.set_child(side_box)
-        content_box.append(scrolled)
-        content_box.append(view_stack)
+        # === CONTENT ===
+        content_toolbar = Adw.ToolbarView()
+        content_header = Adw.HeaderBar()
 
-        ## Sidebar Buttons ##
-        pages_config = [
-            {"label": _("System"),      "icon": "system-symbolic",      "id": "system",     "class": SystemPage},
-            {"label": _("Usability"),   "icon": "usability-symbolic",   "id": "usability",  "class": UsabilityPage},
-            {"label": _("PreLoad"),     "icon": "preload-symbolic",     "id": "preload",    "class": PreloadPage},
-            {"label": _("Devices"),     "icon": "devices-symbolic",     "id": "devices",    "class": DevicesPage},
-            {"label": _("A.I."),        "icon": "ai-symbolic",          "id": "ai",         "class": AIPage},
-            {"label": _("Docker"),      "icon": "docker-symbolic",      "id": "docker",     "class": DockerPage},
-            {"label": _("Performance and Games"),       "icon": "games-symbolic",       "id": "perf_games", "class": PerformanceGamesPage},
+        # Search entry in header (centered)
+        self.search_entry = Gtk.SearchEntry()
+        self.search_entry.set_placeholder_text(_("Search..."))
+        self.search_entry.set_hexpand(False)
+        self.search_entry.set_width_chars(30)
+        self.search_entry.connect("search-changed", self.on_search_changed)
+        content_header.set_title_widget(self.search_entry)
+        content_toolbar.add_top_bar(content_header)
+
+        # === CREATE SEARCH RESULTS CONTAINER ===
+        self.search_results_scroll = Gtk.ScrolledWindow()
+        self.search_results_scroll.set_policy(
+            Gtk.PolicyType.NEVER, Gtk.PolicyType.AUTOMATIC
+        )
+        self.search_results_scroll.set_vexpand(True)
+        self.search_results_scroll.set_visible(False)
+
+        self.search_results_box = Gtk.Box(
+            orientation=Gtk.Orientation.VERTICAL,
+            spacing=0,
+            margin_top=12,
+            margin_bottom=12,
+            margin_start=20,
+            margin_end=20,
+        )
+        self.search_results_scroll.set_child(self.search_results_box)
+
+        # Search results group (single group for all results)
+        self.search_results_group = Adw.PreferencesGroup()
+        self.search_results_box.append(self.search_results_group)
+
+        # Track original parents of rows for restoration
+        self.reparented_rows = []
+
+        # ScrolledWindow with all pages stacked vertically
+        self.content_scroll = Gtk.ScrolledWindow()
+        self.content_scroll.set_policy(Gtk.PolicyType.NEVER, Gtk.PolicyType.AUTOMATIC)
+        self.content_scroll.set_vexpand(True)
+
+        self.pages_box = Gtk.Box(orientation=Gtk.Orientation.VERTICAL, spacing=0)
+        self.content_scroll.set_child(self.pages_box)
+
+        # Content wrapper to switch between pages and search results
+        self.content_wrapper = Gtk.Box(orientation=Gtk.Orientation.VERTICAL)
+        self.content_wrapper.append(self.content_scroll)
+        self.content_wrapper.append(self.search_results_scroll)
+        content_toolbar.set_content(self.content_wrapper)
+
+        content_page = Adw.NavigationPage.new(content_toolbar, _("Settings"))
+        self.split_view.set_content(content_page)
+
+        # === CREATE PAGES ===
+        self.pages_config = [
+            {
+                "label": _("System"),
+                "icon": "system-symbolic",
+                "id": "system",
+                "class": SystemPage,
+            },
+            {
+                "label": _("Usability"),
+                "icon": "usability-symbolic",
+                "id": "usability",
+                "class": UsabilityPage,
+            },
+            {
+                "label": _("PreLoad"),
+                "icon": "preload-symbolic",
+                "id": "preload",
+                "class": PreloadPage,
+            },
+            {
+                "label": _("Devices"),
+                "icon": "devices-symbolic",
+                "id": "devices",
+                "class": DevicesPage,
+            },
+            {"label": _("A.I."), "icon": "ai-symbolic", "id": "ai", "class": AIPage},
+            {
+                "label": _("Docker"),
+                "icon": "docker-symbolic",
+                "id": "docker",
+                "class": DockerPage,
+            },
+            {
+                "label": _("Performance and Games"),
+                "icon": "games-symbolic",
+                "id": "perf_games",
+                "class": PerformanceGamesPage,
+            },
         ]
 
-        # Loop to automatically create buttons and pages
-        for page in pages_config:
-            # Cria o botão na barra lateral
-            btn = self.create_sidebar_button(page["label"], page["icon"], page["id"], view_stack)
-            side_box.append(btn)
+        for page in self.pages_config:
+            # Sidebar button
+            btn = self.create_sidebar_button(page["label"], page["icon"], page["id"])
+            self.sidebar_box.append(btn)
+            self.sidebar_buttons.append(btn)
 
-            # Cria a instância da página e adiciona ao stack
+            # Page instance
             page_instance = page["class"](self)
-            view_stack.add_titled(page_instance, page["id"], page["label"])
+            page["instance"] = page_instance
+            self.pages_box.append(page_instance)
 
-class CustomWindow(SystemSettingsWindow):
-    def __init__(self, **kwargs):
-        self.toast_overlay = Adw.ToastOverlay()
-        super().__init__(**kwargs)
-        content = self.get_content()
-        self.set_content(None)
-        self.toast_overlay.set_child(content)
-        self.set_content(self.toast_overlay)
+        # Select and show first page
+        if self.sidebar_buttons:
+            self.sidebar_buttons[0].add_css_class("selected")
+            self.current_page_id = self.pages_config[0]["id"]
+            self._show_single_page(self.current_page_id)
+
+    def _show_single_page(self, page_id):
+        """Show only one page (normal mode)."""
+        # Restore any reparented rows first
+        self._restore_reparented_rows()
+
+        # Hide search results, show pages
+        self.search_results_scroll.set_visible(False)
+        self.content_scroll.set_visible(True)
+
+        for page in self.pages_config:
+            instance = page["instance"]
+            is_current = page["id"] == page_id
+            instance.set_visible(is_current)
+            if hasattr(instance, "set_search_mode"):
+                instance.set_search_mode(False)
+            if is_current and hasattr(instance, "filter_rows"):
+                instance.filter_rows("")
+
+    def _show_search_results(self, search_text):
+        """Show search results in a single compact container."""
+        # Restore any previously reparented rows first
+        self._restore_reparented_rows()
+
+        # Hide pages, show search results
+        self.content_scroll.set_visible(False)
+        self.search_results_scroll.set_visible(True)
+
+        # Collect matching rows from all pages
+        for page in self.pages_config:
+            instance = page.get("instance")
+            if instance and hasattr(instance, "get_matching_rows"):
+                matching_rows = instance.get_matching_rows(search_text)
+                for row, original_parent in matching_rows:
+                    # Store original parent for restoration
+                    self.reparented_rows.append((row, original_parent))
+                    # Reparent to search results
+                    original_parent.remove(row)
+                    self.search_results_group.add(row)
+
+    def _restore_reparented_rows(self):
+        """Restore rows to their original parents."""
+        for row, original_parent in self.reparented_rows:
+            self.search_results_group.remove(row)
+            original_parent.add(row)
+        self.reparented_rows = []
+
+    def on_search_changed(self, entry):
+        search_text = entry.get_text().lower().strip()
+
+        # Require minimum 2 characters for search
+        if len(search_text) < 2:
+            # Exit search mode
+            self.is_searching = False
+            for btn in self.sidebar_buttons:
+                btn.set_sensitive(True)
+            self._show_single_page(self.current_page_id or self.pages_config[0]["id"])
+        else:
+            # Enter search mode
+            self.is_searching = True
+            for btn in self.sidebar_buttons:
+                btn.set_sensitive(False)
+            self._show_search_results(search_text)
 
     def show_toast(self, message):
         toast = Adw.Toast(title=message, timeout=3)
