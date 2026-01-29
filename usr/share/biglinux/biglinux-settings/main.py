@@ -48,7 +48,7 @@ class BiglinuxSettingsApp(Adw.Application):
 class SystemSettingsWindow(Adw.ApplicationWindow):
     def __init__(self, **kwargs):
         super().__init__(**kwargs)
-        self.set_title(_("General adjustments"))
+        self.set_title("BigLinux Settings")
         self.set_default_size(1000, 860)
         icon_theme = Gtk.IconTheme.get_for_display(Gdk.Display.get_default())
         icon_theme.add_search_path(ICONS_DIR)
