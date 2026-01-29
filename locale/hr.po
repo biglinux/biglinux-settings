@@ -14,54 +14,6 @@ msgstr ""
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "X-Generator: attranslate\n"
-msgid "Applying, please wait..."
-msgstr "Primjena, molimo pričekajte..."
-msgid "Installing $package"
-msgstr "Instaliranje $package"
-msgid "Installing $package, Please wait..."
-msgstr "Instaliranje $package, Molimo pričekajte..."
-msgid "Removing $package"
-msgstr "Uklanjanje $package"
-msgid "Removing $package, Please wait..."
-msgstr "Uklanjanje $package, Molimo pričekajte..."
-msgid "$package installed successfully!"
-msgstr "$paket je uspješno instaliran!"
-msgid "$package removed successfully!"
-msgstr "$paket je uspješno uklonjen!"
-msgid "An error occurred with $package."
-msgstr "Došlo je do pogreške s $package."
-msgid "GRUB updated successfully!"
-msgstr "GRUB je uspješno ažuriran!"
-msgid "An error occurred while updating GRUB."
-msgstr "Došlo je do pogreške prilikom ažuriranja GRUB-a."
-msgid ""
-"GRUB updated successfully!\\n"
-"Restart your computer for it to take effect."
-msgstr ""
-"GRUB je uspješno ažuriran!\\n"
-"Ponovno pokrenite računalo da bi promjene stupile na snagu."
-msgid "Already disabled. No changes made."
-msgstr "Već onemogućeno. Nema promjena."
-msgid "Limits updated successfully!"
-msgstr "Ograničenja su uspješno ažurirana!"
-msgid "An error occurred while updating Limits."
-msgstr "Došlo je do pogreške prilikom ažuriranja ograničenja."
-msgid "Docker Install"
-msgstr "Instalacija Dockera"
-msgid "Instaling Docker, Please wait..."
-msgstr "Instalacija Dockera, molimo pričekajte..."
-msgid "Docker Start"
-msgstr "Pokreni Docker"
-msgid "Docker Starting, Please wait..."
-msgstr "Docker se pokreće, molimo pričekajte..."
-msgid "Docker Stop"
-msgstr "Docker Zaustavi"
-msgid "Docker Stopping, Please wait..."
-msgstr "Docker se zaustavlja, molimo pričekajte..."
-msgid "Docker installed successfully!"
-msgstr "Docker je uspješno instaliran!"
-msgid "An error occurred while install docker."
-msgstr "Došlo je do pogreške prilikom instalacije dockera."
 msgid "Krita Install"
 msgstr "Krita Instaliraj"
 msgid "Instaling Krita, Please wait..."
@@ -88,6 +40,14 @@ msgstr ""
 "U prozoru koji se otvara u donjem desnom kutu.\\n"
 "Kliknite Konfiguriraj > Lokalni upravljani poslužitelj, odaberite svoj GPU ili CPU, odaberite model "
 "u Opterećenjima i kliknite Instaliraj."
+msgid "Installing $package"
+msgstr "Instaliranje $package"
+msgid "Installing $package, Please wait..."
+msgstr "Instaliranje $package, Molimo pričekajte..."
+msgid "Removing $package"
+msgstr "Uklanjanje $package"
+msgid "Removing $package, Please wait..."
+msgstr "Uklanjanje $package, Molimo pričekajte..."
 msgid ""
 "$title installed successfully!\\n"
 "\\n"
@@ -96,6 +56,26 @@ msgstr ""
 "$title je uspješno instaliran!\\n"
 "\\n"
 "Konfigurirano na portu $port, za pristup koristite $url"
+msgid "$package removed successfully!"
+msgstr "$paket je uspješno uklonjen!"
+msgid "An error occurred with $package."
+msgstr "Došlo je do pogreške s $package."
+msgid "Docker Install"
+msgstr "Instalacija Dockera"
+msgid "Instaling Docker, Please wait..."
+msgstr "Instalacija Dockera, molimo pričekajte..."
+msgid "Docker Start"
+msgstr "Pokreni Docker"
+msgid "Docker Starting, Please wait..."
+msgstr "Docker se pokreće, molimo pričekajte..."
+msgid "Docker Stop"
+msgstr "Docker Zaustavi"
+msgid "Docker Stopping, Please wait..."
+msgstr "Docker se zaustavlja, molimo pričekajte..."
+msgid "Docker installed successfully!"
+msgstr "Docker je uspješno instaliran!"
+msgid "An error occurred while install docker."
+msgstr "Došlo je do pogreške prilikom instalacije dockera."
 msgid "GameMode Install"
 msgstr "Instalacija načina igre"
 msgid "Instaling GameMode, Please wait..."
@@ -124,6 +104,24 @@ msgid "Instaling Kzones, Please wait..."
 msgstr "Instalacija Kzones, molimo pričekajte..."
 msgid "Kzones installed successfully!"
 msgstr "Kzones je uspješno instaliran!"
+msgid "Applying, please wait..."
+msgstr "Primjena, molimo pričekajte..."
+msgid "GRUB updated successfully!"
+msgstr "GRUB je uspješno ažuriran!"
+msgid "An error occurred while updating GRUB."
+msgstr "Došlo je do pogreške prilikom ažuriranja GRUB-a."
+msgid ""
+"GRUB updated successfully!\\n"
+"Restart your computer for it to take effect."
+msgstr ""
+"GRUB je uspješno ažuriran!\\n"
+"Ponovno pokrenite računalo da bi promjene stupile na snagu."
+msgid "Already disabled. No changes made."
+msgstr "Već onemogućeno. Nema promjena."
+msgid "Limits updated successfully!"
+msgstr "Ograničenja su uspješno ažurirana!"
+msgid "An error occurred while updating Limits."
+msgstr "Došlo je do pogreške prilikom ažuriranja ograničenja."
 msgid "JamesDSP Install"
 msgstr "JamesDSP Instaliraj"
 msgid "Instaling JamesDSP, Please wait..."
@@ -133,288 +131,124 @@ msgstr "JamesDSP je uspješno instaliran!"
 msgid "Failed to install jamesDSP!"
 msgstr "Nije uspjelo instalirati jamesDSP!"
 # 
-# #-#-#-#-#  biglinux-settings.pot (biglinux-settings)  #-#-#-#-#
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 107
+msgid "Usability"
+msgstr "Upotrebljivost"
 # 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/dispositivos_page.py, line: 25
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 116
-msgid "Devices"
-msgstr "Uređaji"
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_usability_page.py, line: 14
+msgid "User and Visual system settings."
+msgstr "Postavke korisnika i vizualnog sustava."
 # 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/dispositivos_page.py, line: 27
-msgid "Manage physical devices"
-msgstr "Upravljanje fizičkim uređajima"
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 114
+msgid "NumLock"
+msgstr "NumLock"
 # 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_usability_page.py, line: 190
-msgid "Wifi"
-msgstr "Wifi"
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 115
+msgid "Initial NumLock state. Ignored if autologin is enabled."
+msgstr "Početno stanje NumLocka. Ignorira se ako je omogućena automatska prijava."
 # 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_usability_page.py, line: 191
-msgid "Wifi On"
-msgstr "Wifi Uključen"
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 131
+msgid "Window Button On Left Side"
+msgstr "Gumb za prozor s lijeve strane"
 # 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_usability_page.py, line: 197
-msgid "Bluetooth"
-msgstr "Bluetooth"
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 132
+msgid "Maximize, minimize, and close buttons on the left side of the window."
+msgstr "Dugme za maksimiziranje, minimiziranje i zatvaranje s lijeve strane prozora."
 # 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_usability_page.py, line: 198
-msgid "Bluetooth On."
-msgstr "Bluetooth uključen."
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_usability_page.py, line: 133
+msgid "SSH until next reboot"
+msgstr "SSH do sljedećeg ponovnog pokretanja"
 # 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/dispositivos_page.py, line: 56
-msgid "Invert Mouse Scroll"
-msgstr "Invertiraj pomak miša"
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 133
+msgid "Enable remote access via ssh until next boot."
+msgstr "Omogućite daljinski pristup putem ssh-a do sljedećeg pokretanja."
 # 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/dispositivos_page.py, line: 57
-msgid "Inverts mouse scrolling without restarting the session."
-msgstr "Invertira pomicanje miša bez ponovnog pokretanja sesije."
-# 
-# #-#-#-#-#  biglinux-settings.pot (biglinux-settings)  #-#-#-#-#
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/dispositivos_page.py, line: 77
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/devices/jamesdsp_dialog.py, line: 155
-msgid "JamesDSP"
-msgstr "JamesDSP"
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/dispositivos_page.py, line: 84
-msgid "Advanced audio effects processor that improves sound quality."
-msgstr "Napredni procesor audio efekata koji poboljšava kvalitetu zvuka."
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/dispositivos_page.py, line: 137
-msgid "Keyboard with LED"
-msgstr "Tipkovnica s LED-om"
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/dispositivos_page.py, line: 144
-msgid "If your keyboard has LED you can enable this feature to turn it on with the system."
-msgstr "Ako vaša tipkovnica ima LED, možete omogućiti ovu značajku da je uključite s sustavom."
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/dispositivos_page.py, line: 166
-msgid "Reconfigure LED device"
-msgstr "Ponovno konfigurirajte LED uređaj"
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/dispositivos_page.py, line: 237
-msgid "Error opening configuration dialog"
-msgstr "Greška prilikom otvaranja dijaloga za konfiguraciju"
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/dispositivos_page.py, line: 140
-msgid "Error starting JamesDSP daemon"
-msgstr "Greška pri pokretanju JamesDSP demona"
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/dispositivos_page.py, line: 145
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/dispositivos_page.py, line: 171
-msgid "JamesDSP Not Running"
-msgstr "JamesDSP ne radi"
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/dispositivos_page.py, line: 146
-msgid "JamesDSP daemon is not currently running. Would you like to start it?"
-msgstr "JamesDSP demon trenutno ne radi. Želite li ga pokrenuti?"
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_usability_page.py, line: 72
+msgid "KZones"
+msgstr "KZone"
 # 
 # #-#-#-#-#  biglinux-settings.pot (biglinux-settings)  #-#-#-#-#
 # 
-# #-#-#-#-#  biglinux-settings.pot (biglinux-settings)  #-#-#-#-#
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/ai_page.py, line: 32
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_usability_page.py, line: 50
+msgid "Script for the KWin window manager of the KDE Plasma desktop environment."
+msgstr "Skripta za KWin upravitelja prozora KDE Plasma radnog okruženja."
 # 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/dispositivos_page.py, line: 148
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/dispositivos_page.py, line: 304
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/dispositivos_page.py, line: 400
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/ai/krita_ai_dialog.py, line: 61
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/ai/krita_ai_dialog.py, line: 115
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/ai_page.py, line: 62
-msgid "Cancel"
-msgstr "Otkaži"
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_usability_page.py, line: 169
+msgid "Recent Files & Locations"
+msgstr "Nedavne datoteke i lokacije"
 # 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/dispositivos_page.py, line: 149
-msgid "Start JamesDSP"
-msgstr "Pokreni JamesDSP"
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/dispositivos_page.py, line: 172
-msgid "JamesDSP daemon is not currently running. Would you like to start it first?"
-msgstr "JamesDSP demon trenutno ne radi. Želite li ga prvo pokrenuti?"
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/dispositivos_page.py, line: 174
-msgid "No, Turn Off Switch"
-msgstr "Ne, isključi prekidač"
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/dispositivos_page.py, line: 175
-msgid "Yes, Start JamesDSP"
-msgstr "Da, pokreni JamesDSP"
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/dispositivos_page.py, line: 247
-msgid "JamesDSP Installed"
-msgstr "JamesDSP instaliran"
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/dispositivos_page.py, line: 248
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_usability_page.py, line: 170
 msgid ""
-"JamesDSP has been successfully installed.\n"
-"\n"
-"Would you like to open the application interface now to configure it?\n"
-"(You can also configure it later via the presets list)"
+"Restores the 'Recent Files' and 'Recent Locations' functionality that appears empty in Dolphin and "
+"the Application Menu."
 msgstr ""
-"JamesDSP je uspješno instaliran.\n"
-"\n"
-"Želite li sada otvoriti sučelje aplikacije za konfiguraciju?\n"
-"(Možete ga također konfigurirati kasnije putem popisa unaprijed postavljenih postavki)"
+"Obnavlja funkcionalnost 'Nedavne datoteke' i 'Nedavne lokacije' koja se pojavljuje prazna u "
+"Dolphin-u i izborniku aplikacija."
 # 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/dispositivos_page.py, line: 250
-msgid "No, Show Presets"
-msgstr "Ne, prikaži unaprijed postavke"
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 108
+msgid "System"
+msgstr "Sustav"
 # 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/dispositivos_page.py, line: 251
-msgid "Yes, Open App"
-msgstr "Da, Otvori Aplikaciju"
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_page.py, line: 26
+msgid "General system settings."
+msgstr "Opća sistemska podešavanja."
 # 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/dispositivos_page.py, line: 301
-msgid "Disable JamesDSP"
-msgstr "Onemogući JamesDSP"
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_usability_page.py, line: 147
+msgid "SSH always on"
+msgstr "SSH uvijek uključen"
 # 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/dispositivos_page.py, line: 302
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 149
+msgid "Turn on ssh remote access at boot."
+msgstr "Uključite SSH daljinski pristup pri pokretanju."
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 162
+msgid "Fast Grub"
+msgstr "Brzi Grub"
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 163
+msgid "Decreases grub display time."
+msgstr "Smanjuje vrijeme prikaza gruba."
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 170
+msgid "Auto-mount Partitions"
+msgstr "Automatsko montiranje particija"
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 171
+msgid "Auto mount partitions in internal disks on boot."
+msgstr "Automatski montiraj particije na unutarnjim diskovima pri pokretanju."
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_usability_page.py, line: 169
+msgid "Meltdown Mitigations off"
+msgstr "Mitigacije za Meltdown isključene"
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_usability_page.py, line: 113
+#, python-brace-format
 msgid ""
-"Choose how to disable JamesDSP:\n"
-"\n"
-"• Just Disable: Sets master_enable=false (keeps installed)\n"
-"• Remove Completely: Uninstalls package and deletes all configuration files"
+"Using mitigations=off will make your machine faster and less secure! For more information see: <a "
+"href='{l}'>{l}</a>"
 msgstr ""
-"Odaberite kako onemogućiti JamesDSP:\n"
-"\n"
-"• Samo onemogući: Postavlja master_enable=false (ostavlja instalirano)\n"
-"• Potpuno ukloni: Deinstalira paket i briše sve konfiguracijske datoteke"
+"Korištenje mitigacija=isključeno učinit će vaš uređaj bržim, ali manje sigurnim! Za više "
+"informacija pogledajte: <a href='{l}'>{l}</a>"
 # 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/dispositivos_page.py, line: 305
-msgid "Just Disable"
-msgstr "Samo onemogući"
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_usability_page.py, line: 176
+msgid "noWatchdog"
+msgstr "noWatchdog"
 # 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/dispositivos_page.py, line: 306
-msgid "Remove Completely"
-msgstr "Potpuno ukloni"
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/dispositivos_page.py, line: 382
-msgid "JamesDSP package removed"
-msgstr "JamesDSP paket uklonjen"
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/dispositivos_page.py, line: 397
-msgid "Removal Failed"
-msgstr "Uklanjanje nije uspjelo"
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/dispositivos_page.py, line: 398
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_usability_page.py, line: 177
 msgid ""
-"JamesDSP package is still installed.\n"
-"\n"
-"The removal process may have been cancelled or failed.\n"
-"Would you like to try again?"
+"Disables the hardware watchdog and TSC clocksource systems, maintaining high performance but "
+"removing automatic protections against system crashes."
 msgstr ""
-"JamesDSP paket je još uvijek instaliran.\n"
-"\n"
-"Proces uklanjanja možda je otkazan ili nije uspio.\n"
-"Želite li pokušati ponovo?"
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/dispositivos_page.py, line: 401
-msgid "Try Again"
-msgstr "Pokušajte ponovo"
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/dispositivos_page.py, line: 424
-msgid "Remove Configuration Files?"
-msgstr "Ukloni konfiguracijske datoteke?"
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/dispositivos_page.py, line: 425
-msgid ""
-"JamesDSP package has been removed.\n"
-"\n"
-"Would you like to also delete all configuration files and presets located in:\n"
-"\n"
-"• ~/.config/jamesdsp\n"
-"• ~/.local/share/jamesdsp"
-msgstr ""
-"JamesDSP paket je uklonjen.\n"
-"\n"
-"Želite li također izbrisati sve konfiguracijske datoteke i postavke smještene u:\n"
-"\n"
-"• ~/.config/jamesdsp\n"
-"• ~/.local/share/jamesdsp"
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/dispositivos_page.py, line: 427
-msgid "Keep Files"
-msgstr "Zadrži datoteke"
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/dispositivos_page.py, line: 428
-msgid "Delete Files"
-msgstr "Izbriši datoteke"
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/dispositivos_page.py, line: 448
-msgid "JamesDSP removed completely"
-msgstr "JamesDSP je potpuno uklonjen."
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/dispositivos_page.py, line: 454
-msgid "JamesDSP package removed (config files kept)"
-msgstr "JamesDSP paket uklonjen (datoteke s konfiguracijom zadržane)"
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/dispositivos_page.py, line: 479
-msgid "Error opening preset dialog"
-msgstr "Greška prilikom otvaranja dijaloga s unaprijed postavkama"
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 236
-msgid "Switch {} synchronized: {}"
-msgstr "Prebaci {} sinkronizirano: {}"
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/ai/krita_ai_dialog.py, line: 18
-msgid "Krita AI Installation"
-msgstr "Krita AI Instalacija"
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/ai/krita_ai_dialog.py, line: 29
-msgid "Preparing..."
-msgstr "Priprema..."
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/ai/krita_ai_dialog.py, line: 40
-msgid "Details"
-msgstr "Detalji"
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/ai/krita_ai_dialog.py, line: 53
-msgid "Show Details"
-msgstr "Prikaži pojedinosti"
+"Onemogućuje hardverski watchdog i TSC izvor vremena, održavajući visoke performanse, ali "
+"uklanjajući automatske zaštite od rušenja sustava."
 # 
 # #-#-#-#-#  biglinux-settings.pot (biglinux-settings)  #-#-#-#-#
 # 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/ai/krita_ai_dialog.py, line: 65
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/devices/jamesdsp_dialog.py, line: 70
-msgid "Close"
-msgstr "Zatvori"
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/ai/krita_ai_dialog.py, line: 95
-msgid "Detecting GPU..."
-msgstr "Otkrivanje GPU-a..."
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/ai/krita_ai_dialog.py, line: 112
-msgid "Choose Render Mode"
-msgstr "Odaberite način renderiranja"
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/ai/krita_ai_dialog.py, line: 113
-msgid "GPU detected: {}. How do you want to render?"
-msgstr "Otkrivena GPU: {}. Kako želite renderirati?"
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/ai/krita_ai_dialog.py, line: 116
-msgid "CPU (Software)"
-msgstr "CPU (Softver)"
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/ai/krita_ai_dialog.py, line: 117
-msgid "GPU (Recommended)"
-msgstr "GPU (Preporučeno)"
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/ai/krita_ai_dialog.py, line: 140
-msgid "Installing..."
-msgstr "Instaliranje..."
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/ai/krita_ai_dialog.py, line: 172
-msgid "Installation Complete!"
-msgstr "Instalacija dovršena!"
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/ai/krita_ai_dialog.py, line: 178
-msgid "Installation Failed."
-msgstr "Instalacija neuspjela."
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/ai/chatai_dialog.py, line: 17
-msgid "ChatAI Installation"
-msgstr "ChatAI Instalacija"
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/ai/chatai_dialog.py, line: 28
-msgid "Installing ChatAI..."
-msgstr "Instaliranje ChatAI..."
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_usability_page.py, line: 111
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/preload_page.py, line: 112
+msgid "Reload all statuses"
+msgstr "Ponovno učitaj sve statuse"
 # 
 # #-#-#-#-#  biglinux-settings.pot (biglinux-settings)  #-#-#-#-#
 # 
@@ -503,6 +337,17 @@ msgstr "Skripta je neuspješno završila s izlaznim kodom: {}"
 msgid "Script timeout: {}"
 msgstr "Izdavanje skripte isteklo: {}"
 # 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 236
+msgid "Switch {} synchronized: {}"
+msgstr "Prebaci {} sinkronizirano: {}"
+# 
+# #-#-#-#-#  biglinux-settings.pot (biglinux-settings)  #-#-#-#-#
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/preload_page.py, line: 284
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_usability_page.py, line: 334
+msgid "Indicator {} synchronized: {}"
+msgstr "Pokazatelj {} sinkroniziran: {}"
+# 
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 244
 msgid "Changing {} to {}"
 msgstr "Mijenjanje {} u {}"
@@ -515,28 +360,93 @@ msgstr "GREŠKA: Nije moguće promijeniti {} u {}"
 msgid "Failed to change setting: {}"
 msgstr "Neuspješno promijenjena postavka: {}"
 # 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 52
-msgid "General adjustments"
-msgstr "Opća podešavanja"
+# #-#-#-#-#  biglinux-settings.pot (biglinux-settings)  #-#-#-#-#
 # 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 108
-msgid "System"
-msgstr "Sustav"
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/dispositivos_page.py, line: 25
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 116
+msgid "Devices"
+msgstr "Uređaji"
 # 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 120
-msgid "I.A."
-msgstr "V.A."
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/devices_page.py, line: 15
+msgid "Manage physical devices."
+msgstr "Upravljajte fizičkim uređajima."
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_usability_page.py, line: 190
+msgid "Wifi"
+msgstr "Wifi"
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_usability_page.py, line: 191
+msgid "Wifi On"
+msgstr "Wifi Uključen"
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_usability_page.py, line: 197
+msgid "Bluetooth"
+msgstr "Bluetooth"
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_usability_page.py, line: 198
+msgid "Bluetooth On."
+msgstr "Bluetooth uključen."
 # 
 # #-#-#-#-#  biglinux-settings.pot (biglinux-settings)  #-#-#-#-#
 # 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 137
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/containers_page.py, line: 18
-msgid "Containers"
-msgstr "Kontejneri"
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/dispositivos_page.py, line: 77
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/devices/jamesdsp_dialog.py, line: 155
+msgid "JamesDSP"
+msgstr "JamesDSP"
 # 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 145
-msgid "Pre-loading"
-msgstr "Predučitavanje"
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/dispositivos_page.py, line: 84
+msgid "Advanced audio effects processor that improves sound quality."
+msgstr "Napredni procesor audio efekata koji poboljšava kvalitetu zvuka."
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/devices_page.py, line: 62
+msgid "Keyboard LED"
+msgstr "Tipkovnički LED"
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/dispositivos_page.py, line: 144
+msgid "If your keyboard has LED you can enable this feature to turn it on with the system."
+msgstr "Ako vaša tipkovnica ima LED, možete omogućiti ovu značajku da je uključite s sustavom."
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/devices_page.py, line: 71
+msgid "Reverse mouse scrolling"
+msgstr "Obrnuto pomicanje miša"
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/devices_page.py, line: 72
+msgid "Reverse mouse scrolling without restarting the session."
+msgstr "Obrnuto pomicanje miša bez ponovnog pokretanja sesije."
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 49
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 120
+msgid "BigLinux Settings"
+msgstr "BigLinux Postavke"
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 135
+msgid "Categories"
+msgstr "Kategorije"
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 144
+msgid "Search..."
+msgstr "Pretraži..."
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/devices/keyboard_led_dialog.py, line: 249
+msgid "Settings"
+msgstr "Postavke"
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 158
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 167
+msgid "PreLoad"
+msgstr "PreLoad"
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 161
+msgid "A.I."
+msgstr "A.I."
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_usability_page.py, line: 204
+msgid "Docker"
+msgstr "Docker"
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 166
+msgid "Performance and Games"
+msgstr "Izvedba i igre"
 # 
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings/preload_page.py, line: 103
 msgid "Preload"
@@ -545,13 +455,6 @@ msgstr "Predmemoriranje"
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings/preload_page.py, line: 105
 msgid "Preload applications into memory to open them faster."
 msgstr "Preuzmite aplikacije u memoriju kako biste ih brže otvorili."
-# 
-# #-#-#-#-#  biglinux-settings.pot (biglinux-settings)  #-#-#-#-#
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_usability_page.py, line: 111
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/preload_page.py, line: 112
-msgid "Reload all statuses"
-msgstr "Ponovno učitaj sve statuse"
 # 
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings/preload_page.py, line: 120
 msgid "Firefox"
@@ -585,497 +488,13 @@ msgstr "Opera"
 msgid "Libreoffice"
 msgstr "LibreOffice"
 # 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/usability/kwin_ram_dialog.py, line: 26
-msgid "KWin & RAM Controller"
-msgstr "KWin i RAM kontroler"
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/usability/kwin_ram_dialog.py, line: 64
-msgid "Master Control"
-msgstr "Glavni Upravitelj"
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/usability/kwin_ram_dialog.py, line: 65
-msgid "Enable Performance Mode to apply all optimizations at once"
-msgstr "Omogućite način rada za performanse kako biste odjednom primijenili sve optimizacije."
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/usability/kwin_ram_dialog.py, line: 70
-msgid "Performance Mode"
-msgstr "Način rada s performansama"
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/usability/kwin_ram_dialog.py, line: 71
-msgid "Disable all effects and optimize RAM"
-msgstr "Onemogući sve efekte i optimiziraj RAM."
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/usability/kwin_ram_dialog.py, line: 90
-msgid "GPU & Visual Effects"
-msgstr "GPU i vizualni efekti"
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/usability/kwin_ram_dialog.py, line: 91
-msgid "Control KWin compositor effects"
-msgstr "Kontrolirajte KWin kompozitorske efekte"
-# 
-# #-#-#-#-#  biglinux-settings.pot (biglinux-settings)  #-#-#-#-#
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/usability/kwin_ram_dialog.py, line: 96
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/usability/gamemode_dialog.py, line: 195
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/usability/gamemode_dialog.py, line: 238
-msgid "Visual Effects"
-msgstr "Vizualni efekti"
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/usability/kwin_ram_dialog.py, line: 97
-msgid "Blur, Wobbly Windows, Shadows, Animations"
-msgstr "Zamućenje, Nestabilni prozori, Sjene, Animacije"
-# 
-# #-#-#-#-#  biglinux-settings.pot (biglinux-settings)  #-#-#-#-#
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/usability/kwin_ram_dialog.py, line: 109
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/usability/gamemode_config_dialog.py, line: 100
-msgid "Compositor Settings"
-msgstr "Postavke kompozitora"
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/usability/kwin_ram_dialog.py, line: 110
-msgid "Animations, Latency Policy, Tearing"
-msgstr "Animacije, Politika latencije, Trganje"
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/usability/kwin_ram_dialog.py, line: 122
-msgid "Memory & Services"
-msgstr "Memorija i usluge"
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/usability/kwin_ram_dialog.py, line: 123
-msgid "Control background services that consume RAM"
-msgstr "Kontrolirajte pozadinske usluge koje troše RAM"
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/usability/kwin_ram_dialog.py, line: 128
-msgid "Baloo File Indexer"
-msgstr "Baloo indeksator datoteka"
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/usability/kwin_ram_dialog.py, line: 129
-msgid "File search indexing service"
-msgstr "Usluga indeksiranja pretraživanja datoteka"
-# 
-# #-#-#-#-#  biglinux-settings.pot (biglinux-settings)  #-#-#-#-#
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/usability/kwin_ram_dialog.py, line: 141
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/usability/gamemode_dialog.py, line: 219
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/usability/gamemode_dialog.py, line: 262
-msgid "Akonadi Server"
-msgstr "Akonadi poslužitelj"
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/usability/kwin_ram_dialog.py, line: 142
-msgid "PIM storage service (Contacts, Calendar)"
-msgstr "PIM usluga pohrane (Kontakti, Kalendar)"
-# 
-# #-#-#-#-#  biglinux-settings.pot (biglinux-settings)  #-#-#-#-#
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/usability/kwin_ram_dialog.py, line: 154
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/usability/gamemode_dialog.py, line: 225
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/usability/gamemode_dialog.py, line: 268
-msgid "S.M.A.R.T Monitor"
-msgstr "S.M.A.R.T Monitor"
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/usability/kwin_ram_dialog.py, line: 155
-msgid "Disk health monitoring daemon"
-msgstr "Demon za praćenje zdravlja diska"
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/usability/kwin_ram_dialog.py, line: 167
-msgid "Cache Management"
-msgstr "Upravljanje predmemorijom"
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/usability/kwin_ram_dialog.py, line: 168
-msgid "Clear system memory caches"
-msgstr "Očisti predmemoriju sustava"
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/usability/kwin_ram_dialog.py, line: 173
-msgid "Clear RAM Cache"
-msgstr "Očisti RAM predmemoriju"
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/usability/kwin_ram_dialog.py, line: 174
-msgid "Free memory marked as Buff/Cache (requires sudo)"
-msgstr "Slobodno memoriju označenu kao Buff/Cache (zahtijeva sudo)"
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/usability/kwin_ram_dialog.py, line: 177
-msgid "Clean Now"
-msgstr "Očisti sada"
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/usability/kwin_ram_dialog.py, line: 195
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/usability/kwin_ram_dialog.py, line: 282
-msgid "Ready"
-msgstr "Spreman"
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/usability/kwin_ram_dialog.py, line: 215
-msgid "Loading..."
-msgstr "Učitavanje..."
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/usability/kwin_ram_dialog.py, line: 261
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/usability/kwin_ram_dialog.py, line: 268
-msgid "Not installed"
-msgstr "Nije instalirano"
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/usability/kwin_ram_dialog.py, line: 345
-msgid "Enabling Performance Mode..."
-msgstr "Omogućavanje načina rada s performansama..."
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/usability/kwin_ram_dialog.py, line: 349
-msgid "Performance Mode Active"
-msgstr "Aktivni način rada."
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/usability/gamemode_dialog.py, line: 106
-msgid "Failed"
-msgstr "Neuspjeh"
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/usability/kwin_ram_dialog.py, line: 367
-msgid "Restoring Desktop Mode..."
-msgstr "Obnavljanje radnog načina..."
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/usability/kwin_ram_dialog.py, line: 371
-msgid "Desktop Mode Restored"
-msgstr "Obnovljen način rada na radnoj površini"
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/usability/kwin_ram_dialog.py, line: 395
-msgid "Toggling Effects..."
-msgstr "Prebacivanje efekata..."
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/usability/kwin_ram_dialog.py, line: 400
-msgid "Effects {}"
-msgstr "Efekti {}"
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/usability/kwin_ram_dialog.py, line: 400
-msgid "enabled"
-msgstr "omogućeno"
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/usability/kwin_ram_dialog.py, line: 400
-msgid "disabled"
-msgstr "onemoguće"
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/usability/kwin_ram_dialog.py, line: 413
-msgid "Updating Compositor..."
-msgstr "Ažuriranje kompozitora..."
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/usability/kwin_ram_dialog.py, line: 418
-msgid "Compositor settings updated"
-msgstr "Postavke kompozitora ažurirane"
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/usability/kwin_ram_dialog.py, line: 431
-msgid "Toggling Baloo..."
-msgstr "Prebacivanje Baloo..."
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/usability/kwin_ram_dialog.py, line: 436
-msgid "Baloo {}"
-msgstr "Baloo {}"
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/usability/kwin_ram_dialog.py, line: 436
-msgid "resumed"
-msgstr "nastavljeno"
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/usability/kwin_ram_dialog.py, line: 436
-msgid "suspended"
-msgstr "suspendiran"
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/usability/kwin_ram_dialog.py, line: 449
-msgid "Toggling Akonadi..."
-msgstr "Prebacivanje Akonadija..."
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/usability/kwin_ram_dialog.py, line: 454
-msgid "Akonadi {}"
-msgstr "Akonadi {}"
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/usability/kwin_ram_dialog.py, line: 454
-msgid "started"
-msgstr "započeo"
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/usability/kwin_ram_dialog.py, line: 454
-msgid "stopped"
-msgstr "zaustavljeno"
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/usability/kwin_ram_dialog.py, line: 467
-msgid "Toggling SMART Monitor..."
-msgstr "Prebacivanje SMART monitora..."
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/usability/kwin_ram_dialog.py, line: 472
-msgid "SMART {}"
-msgstr "SMART {}"
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/usability/kwin_ram_dialog.py, line: 472
-msgid "loaded"
-msgstr "učitano"
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/usability/kwin_ram_dialog.py, line: 472
-msgid "unloaded"
-msgstr "otpušteno"
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/usability/kwin_ram_dialog.py, line: 482
-msgid "Cleaning Cache..."
-msgstr "Čišćenje predmemorije..."
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/usability/kwin_ram_dialog.py, line: 488
-msgid "Cache cleaned successfully!"
-msgstr "Keš je uspješno očišćen!"
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/usability/kwin_ram_dialog.py, line: 490
-msgid "Failed to clean cache"
-msgstr "Neuspješno čišćenje predmemorije"
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/usability/gamemode_config_dialog.py, line: 18
-msgid "Game Mode Booster Configuration"
-msgstr "Konfiguracija pojačivača načina igre"
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/usability/gamemode_config_dialog.py, line: 77
-msgid "Optimizations"
-msgstr "Optimizacije"
-# 
-# #-#-#-#-#  biglinux-settings.pot (biglinux-settings)  #-#-#-#-#
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/usability/gamemode_config_dialog.py, line: 82
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/usability/gamemode_dialog.py, line: 189
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/usability/gamemode_dialog.py, line: 232
-msgid "GameMode Daemon"
-msgstr "GameMode Daemon"
-# 
-# #-#-#-#-#  biglinux-settings.pot (biglinux-settings)  #-#-#-#-#
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/usability/gamemode_config_dialog.py, line: 83
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/usability/gamemode_dialog.py, line: 190
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/usability/gamemode_dialog.py, line: 233
-msgid "System-wide performance daemon"
-msgstr "Demon za performanse sustava"
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/usability/gamemode_config_dialog.py, line: 91
-msgid "Disable Visual Effects"
-msgstr "Onemogući vizualne efekte"
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/usability/gamemode_config_dialog.py, line: 92
-msgid "Turn off KWin effects (blur, shadows, animations)"
-msgstr "Isključite KWin efekte (zamućenje, sjene, animacije)"
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/usability/gamemode_config_dialog.py, line: 101
-msgid "Low latency, allow tearing, no animations"
-msgstr "Niska latencija, dopušteno kidanje, bez animacija"
-# 
-# #-#-#-#-#  biglinux-settings.pot (biglinux-settings)  #-#-#-#-#
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/usability/gamemode_config_dialog.py, line: 109
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/usability/gamemode_dialog.py, line: 207
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/usability/gamemode_dialog.py, line: 250
-msgid "GPU Maximum Performance"
-msgstr "GPU Maksimalna Izvedba"
-# 
-# #-#-#-#-#  biglinux-settings.pot (biglinux-settings)  #-#-#-#-#
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/usability/gamemode_config_dialog.py, line: 110
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/usability/gamemode_dialog.py, line: 208
-msgid "Force maximum performance mode (NVIDIA/AMD)"
-msgstr "Prisilite maksimalni način rada performansi (NVIDIA/AMD)"
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/usability/gamemode_config_dialog.py, line: 118
-msgid "Suspend Baloo Indexer"
-msgstr "Suspend Baloo Indeksator"
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/usability/gamemode_config_dialog.py, line: 119
-msgid "Stop file indexing service"
-msgstr "Zaustavi uslugu indeksiranja datoteka"
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/usability/gamemode_config_dialog.py, line: 127
-msgid "Stop Akonadi Server"
-msgstr "Zaustavi Akonadi poslužitelj"
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/usability/gamemode_config_dialog.py, line: 128
-msgid "Stop PIM storage service"
-msgstr "Zaustavi PIM uslugu pohrane"
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/usability/gamemode_config_dialog.py, line: 136
-msgid "Unload S.M.A.R.T Monitor"
-msgstr "Otpusti S.M.A.R.T Monitor"
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/usability/gamemode_config_dialog.py, line: 137
-msgid "Stop disk health monitoring"
-msgstr "Prekini praćenje zdravlja diska"
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/usability/gamemode_config_dialog.py, line: 158
-msgid "Apply Optimizations"
-msgstr "Primijeni optimizacije"
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/usability/gamemode_dialog.py, line: 25
-msgid "Game Mode Booster Activation"
-msgstr "Aktivacija pojačivača načina igre"
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/usability/gamemode_dialog.py, line: 25
-msgid "Game Mode Booster Deactivation"
-msgstr "Deaktivacija pojačivača načina igre"
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/usability/gamemode_dialog.py, line: 34
-msgid "Initializing..."
-msgstr "Inicijalizacija..."
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/usability/gamemode_dialog.py, line: 58
-msgid "Optimizing system..."
-msgstr "Optimizacija sustava..."
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/usability/gamemode_dialog.py, line: 100
-msgid "Cancelled"
-msgstr "Otkaženo"
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/usability/gamemode_dialog.py, line: 101
-msgid "Authentication was cancelled."
-msgstr "Autentifikacija je otkazana."
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/usability/gamemode_dialog.py, line: 107
-msgid "Process failed. Check logs."
-msgstr "Obrada nije uspjela. Provjerite dnevnike."
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/usability/gamemode_dialog.py, line: 164
-msgid "Applied Optimizations"
-msgstr "Primijenjene optimizacije"
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/usability/gamemode_dialog.py, line: 165
-msgid "The following changes were applied to your system"
-msgstr "Sljedeće promjene su primijenjene na vašem sustavu."
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/usability/gamemode_dialog.py, line: 167
-msgid "Restored Settings"
-msgstr "Vraćene postavke"
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/usability/gamemode_dialog.py, line: 168
-msgid "The following settings were restored"
-msgstr "Sljedeće postavke su vraćene."
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/usability/gamemode_dialog.py, line: 192
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/usability/gamemode_dialog.py, line: 259
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/usability/gamemode_dialog.py, line: 271
-msgid "Active"
-msgstr "Aktivno"
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/usability/gamemode_dialog.py, line: 196
-msgid "All KWin effects disabled"
-msgstr "Svi KWin efekti onemogućeni"
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/usability/gamemode_dialog.py, line: 198
-msgid "OFF"
-msgstr "ISKLJUČENO"
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/usability/gamemode_dialog.py, line: 201
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/usability/gamemode_dialog.py, line: 244
-msgid "Compositor"
-msgstr "Sastavljač"
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/usability/gamemode_dialog.py, line: 202
-msgid "Low latency, tearing allowed, animations = 0"
-msgstr "Niska latencija, dopušteno kidanje, animacije = 0"
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/usability/gamemode_dialog.py, line: 204
-msgid "Performance"
-msgstr "Izvedba"
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/usability/gamemode_dialog.py, line: 210
-msgid "Max Perf"
-msgstr "Maksimalna izvedba"
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/usability/gamemode_dialog.py, line: 213
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/usability/gamemode_dialog.py, line: 256
-msgid "Baloo Indexer"
-msgstr "Baloo Indeksator"
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/usability/gamemode_dialog.py, line: 214
-msgid "File indexing suspended"
-msgstr "Indeksiranje datoteka obustavljeno"
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/usability/gamemode_dialog.py, line: 216
-msgid "Suspended"
-msgstr "Suspendiran"
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/usability/gamemode_dialog.py, line: 220
-msgid "PIM storage service stopped"
-msgstr "PIM usluga pohrane je zaustavljena"
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/usability/gamemode_dialog.py, line: 222
-msgid "Stopped"
-msgstr "Zaustavljeno"
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/usability/gamemode_dialog.py, line: 226
-msgid "Disk health monitoring unloaded"
-msgstr "Praćenje zdravlja diska isključeno"
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/usability/gamemode_dialog.py, line: 228
-msgid "Unloaded"
-msgstr "Otpremišteno"
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/usability/gamemode_dialog.py, line: 235
-msgid "Inactive"
-msgstr "Neaktivan"
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/usability/gamemode_dialog.py, line: 239
-msgid "All KWin effects restored"
-msgstr "Svi KWin efekti su vraćeni"
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/usability/gamemode_dialog.py, line: 241
-msgid "ON"
-msgstr "UKLJUČENO"
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/usability/gamemode_dialog.py, line: 245
-msgid "Balanced latency, animations restored"
-msgstr "Izbalansirana latencija, animacije vraćene"
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/usability/gamemode_dialog.py, line: 247
-msgid "Balanced"
-msgstr "Izbalansirano"
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/usability/gamemode_dialog.py, line: 251
-msgid "Restored to auto/balanced mode"
-msgstr "Vraćeno na automatski/uravnoteženi način rada"
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/usability/gamemode_dialog.py, line: 253
-msgid "Auto"
-msgstr "Auto"
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/usability/gamemode_dialog.py, line: 257
-msgid "File indexing resumed"
-msgstr "Indeksiranje datoteka nastavljeno"
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/usability/gamemode_dialog.py, line: 263
-msgid "PIM storage service restored"
-msgstr "PIM usluga pohrane obnovljena"
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/usability/gamemode_dialog.py, line: 265
-msgid "Restored"
-msgstr "Obnovljeno"
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/usability/gamemode_dialog.py, line: 269
-msgid "Disk health monitoring restored"
-msgstr "Obnova praćenja zdravlja diska"
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/usability/gamemode_dialog.py, line: 174
-msgid "Configure Steam Games"
-msgstr "Konfigurirajte Steam igre"
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/usability/gamemode_dialog.py, line: 324
-msgid "Missing Dependency"
-msgstr "Nedostajući ovisnik"
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/usability/gamemode_dialog.py, line: 325
-msgid "The 'vdf' module is required to configure Steam games. Do you want to install it now?"
-msgstr "Modul 'vdf' je potreban za konfiguraciju Steam igara. Želite li ga instalirati sada?"
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/usability/gamemode_dialog.py, line: 328
-msgid "Install"
-msgstr "Instaliraj"
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/usability/gamemode_dialog.py, line: 341
-msgid "Installing vdf module..."
-msgstr "Instaliranje vdf modula..."
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/usability/gamemode_dialog.py, line: 364
-msgid "Module installed successfully!"
-msgstr "Modul je uspješno instaliran!"
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/usability/gamemode_dialog.py, line: 370
-msgid "Installation Failed"
-msgstr "Instalacija neuspjela"
-# 
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings/ai_page.py, line: 28
 msgid "Artificial Intelligence"
 msgstr "Umjetna inteligencija"
 # 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/ai_page.py, line: 30
-msgid "AI settings and tools"
-msgstr "Postavke i alati za AI"
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/ai_page.py, line: 15
+msgid "AI settings and tools."
+msgstr "Postavke i alati za AI."
 # 
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings/ai_page.py, line: 36
 msgid "Generative AI for Krita"
@@ -1093,67 +512,24 @@ msgstr "ChatAI"
 msgid "A variety of chats like Plasmoid for your KDE Plasma desktop."
 msgstr "Različite chat aplikacije poput Plasmoida za vaš KDE Plasma radni stol."
 # 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/ai_page.py, line: 59
-msgid "ChatAI Requirements"
-msgstr "ChatAI zahtjevi"
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/docker_page.py, line: 15
+msgid "Container service - enable to use containers below."
+msgstr "Usluga kontejnera - omogućite korištenje kontejnera u nastavku."
 # 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/ai_page.py, line: 60
-msgid "This resource requires at least 16 GB of RAM and is not recommended for legacy computers."
-msgstr "Ovaj resurs zahtijeva najmanje 16 GB RAM-a i nije preporučen za starije računare."
+# #-#-#-#-#  biglinux-settings.pot (biglinux-settings)  #-#-#-#-#
 # 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/ai_page.py, line: 63
-msgid "Accept"
-msgstr "Prihvaćam"
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 137
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/containers_page.py, line: 18
+msgid "Containers"
+msgstr "Kontejneri"
 # 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/ai_page.py, line: 90
-msgid "Restart Plasma Shell"
-msgstr "Ponovno pokreni Plasma Shell"
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/ai_page.py, line: 91
-msgid "To apply changes, it is recommended to restart Plasma Shell. Do you want to restart it now?"
-msgstr ""
-"Da biste primijenili promjene, preporučuje se ponovno pokretanje Plasma Shell-a. Želite li ga sada "
-"ponovno pokrenuti?"
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_usability_page.py, line: 165
-msgid "No"
-msgstr "Ne"
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_usability_page.py, line: 166
-msgid "Yes"
-msgstr "Da"
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/ai_page.py, line: 59
-msgid "Disable Krita AI"
-msgstr "Onemogući Krita AI"
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/ai_page.py, line: 60
-msgid "How do you want to disable/remove the plugin?"
-msgstr "Kako želite onemogućiti/ukloniti dodatak?"
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/ai_page.py, line: 63
-msgid "Disable Only"
-msgstr "Onemogući samo"
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/ai_page.py, line: 64
-msgid "Remove Krita & Data"
-msgstr "Ukloni Krita i podatke"
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_usability_page.py, line: 204
-msgid "Docker"
-msgstr "Docker"
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/containers_page.py, line: 22
-msgid "Container service - enable to use containers below"
-msgstr "Usluga kontejnera - omogućite korištenje kontejnera u nastavku"
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/docker_page.py, line: 23
+msgid "Manage container technologies."
+msgstr "Upravljajte tehnologijama kontejnera."
 # 
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_usability_page.py, line: 205
 msgid "Docker Enabled."
 msgstr "Docker omogućeno."
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/containers_page.py, line: 20
-msgid "Manage container technologies"
-msgstr "Upravljanje tehnologijama kontejnera"
 # 
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings/containers_page.py, line: 35
 msgid "Nextcloud Plus"
@@ -1227,600 +603,9 @@ msgstr "V2RayA"
 msgid "V2RayA network tool."
 msgstr "V2RayA mrežni alat."
 # 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system/recent_files_dialog.py, line: 27
-msgid "Enabling Recent Files & Locations"
-msgstr "Omogućavanje nedavnih datoteka i lokacija"
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system/recent_files_dialog.py, line: 27
-msgid "Disabling Recent Files & Locations"
-msgstr "Onemogućavanje nedavnih datoteka i lokacija"
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system/recent_files_dialog.py, line: 48
-msgid "Starting..."
-msgstr "Pokretanje..."
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system/recent_files_dialog.py, line: 130
-msgid "Starting process..."
-msgstr "Pokretanje procesa..."
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system/recent_files_dialog.py, line: 187
-msgid "Operation was cancelled."
-msgstr "Operacija je otkazana."
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system/recent_files_dialog.py, line: 194
-msgid "Process failed. Check details for more info."
-msgstr "Obrada nije uspjela. Provjerite pojedinosti za više informacija."
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system/recent_files_dialog.py, line: 203
-msgid "Recent Files & Locations Enabled"
-msgstr "Omogućene nedavne datoteke i lokacije"
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system/recent_files_dialog.py, line: 206
-msgid "Recent Files & Locations Disabled"
-msgstr "Nedavne datoteke i lokacije onemogućene"
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system/recent_files_dialog.py, line: 223
-msgid "Important"
-msgstr "Važno"
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system/recent_files_dialog.py, line: 231
-msgid "• To fully apply changes, restart your computer."
-msgstr "• Da biste potpuno primijenili promjene, ponovo pokrenite računalo."
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system/recent_files_dialog.py, line: 237
-msgid ""
-"• Dolphin creates a visual cache. Close it completely and reopen for recent files/locations to "
-"appear."
-msgstr ""
-"• Dolphin stvara vizualnu predmemoriju. Potpuno je zatvorite i ponovo otvorite kako bi se nedavne "
-"datoteke/lokacije pojavile."
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/devices/jamesdsp_dialog.py, line: 18
-msgid "JamesDSP Preset Selector"
-msgstr "JamesDSP Odabir Postavki"
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/devices/jamesdsp_dialog.py, line: 34
-msgid "JamesDSP Presets"
-msgstr "JamesDSP Postavke"
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/devices/jamesdsp_dialog.py, line: 64
-msgid "Refresh"
-msgstr "Osvježi"
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/devices/jamesdsp_dialog.py, line: 94
-msgid "Unknown error"
-msgstr "Nepoznata greška"
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/devices/jamesdsp_dialog.py, line: 96
-msgid "Error fetching presets"
-msgstr "Greška prilikom preuzimanja unaprijed postavki"
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/devices/jamesdsp_dialog.py, line: 100
-msgid "❌ Error loading presets"
-msgstr "❌ Greška pri učitavanju postavki"
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/devices/jamesdsp_dialog.py, line: 116
-msgid "No presets found"
-msgstr "Nema pronađenih unaprijed postavki"
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/devices/jamesdsp_dialog.py, line: 118
-msgid "No presets available"
-msgstr "Nema dostupnih unaprijed postavki"
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/devices/jamesdsp_dialog.py, line: 133
-msgid "Load {}"
-msgstr "Učitaj {}"
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/devices/jamesdsp_dialog.py, line: 139
-msgid "✅ Found {} presets"
-msgstr "✅ Pronađeno {} unaprijed postavki"
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/devices/jamesdsp_dialog.py, line: 142
-msgid "JamesDSP not installed"
-msgstr "JamesDSP nije instaliran"
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/devices/jamesdsp_dialog.py, line: 144
-msgid "❌ JamesDSP not found"
-msgstr "❌ JamesDSP nije pronađen"
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/devices/jamesdsp_dialog.py, line: 146
-msgid "Error: {}"
-msgstr "Greška: {}"
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/devices/jamesdsp_dialog.py, line: 148
-msgid "❌ Error"
-msgstr "❌ Greška"
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/devices/jamesdsp_dialog.py, line: 185
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/devices/jamesdsp_dialog.py, line: 198
-msgid "Error"
-msgstr "Greška"
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/devices/jamesdsp_dialog.py, line: 186
-msgid ""
-"Failed to load preset:\n"
-"\n"
-"{}"
-msgstr ""
-"Neuspješno učitavanje unaprijed postavljenog: \n"
-"\n"
-"{}"
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/devices/jamesdsp_dialog.py, line: 191
-msgid "Success"
-msgstr "Uspjeh"
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/devices/jamesdsp_dialog.py, line: 192
-msgid "Preset '{}' loaded successfully!"
-msgstr "Predložak '{}' uspješno učitan!"
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/devices/jamesdsp_dialog.py, line: 194
-msgid "Preset '{}' loaded"
-msgstr "Postavka '{}' učitana"
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/devices/jamesdsp_dialog.py, line: 199
-msgid ""
-"Exception loading preset:\n"
-"{}"
-msgstr ""
-"Izuzetak prilikom učitavanja unaprijed postavljenog: \n"
-"{}"
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/devices/jamesdsp_dialog.py, line: 208
-msgid "OK"
-msgstr "U redu"
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/devices/keyboard_led_dialog.py, line: 38
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/devices/keyboard_led_dialog.py, line: 117
-msgid "LED Master"
-msgstr "LED Majstor"
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/devices/keyboard_led_dialog.py, line: 122
-msgid "Advanced Keyboard LED Control"
-msgstr "Napredna kontrola LED tipkovnice"
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/devices/keyboard_led_dialog.py, line: 129
-msgid ""
-"This wizard will help you configure your keyboard LED.\n"
-"\n"
-"We will:\n"
-"• Detect available LED devices\n"
-"• Test each device to find your keyboard LED\n"
-"• Configure options like hotkeys and autostart"
-msgstr ""
-"Ovaj čarobnjak će vam pomoći da konfigurirate LED svjetlo na tipkovnici.\n"
-"\n"
-"Mi ćemo:\n"
-"• Otvoriti dostupne LED uređaje\n"
-"• Testirati svaki uređaj kako bismo pronašli LED svjetlo na tipkovnici\n"
-"• Konfigurirati opcije poput prečaca i automatskog pokretanja"
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/devices/keyboard_led_dialog.py, line: 142
-msgid "Session: {}"
-msgstr "Sesija: {}"
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/devices/keyboard_led_dialog.py, line: 110
-msgid "Start Configuration"
-msgstr "Započni konfiguraciju"
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/devices/keyboard_led_dialog.py, line: 174
-msgid "Did the LED turn on?"
-msgstr "Je li LED svjetlo uključeno?"
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/devices/keyboard_led_dialog.py, line: 223
-msgid "No, try next"
-msgstr "Ne, pokušajte sljedeće."
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/devices/keyboard_led_dialog.py, line: 229
-msgid "Yes, this is my LED!"
-msgstr "Da, ovo je moja LED!"
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/devices/keyboard_led_dialog.py, line: 242
-msgid "Additional Options"
-msgstr "Dodatne opcije"
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/devices/keyboard_led_dialog.py, line: 249
-msgid "Settings"
-msgstr "Postavke"
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/devices/keyboard_led_dialog.py, line: 254
-msgid "Apply Scroll Lock Fix"
-msgstr "Primijeni ispravak za Scroll Lock"
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/devices/keyboard_led_dialog.py, line: 255
-msgid "Fix for keyboards where Scroll Lock doesn't work properly (xmodmap)"
-msgstr "Ispravak za tipkovnice gdje Scroll Lock ne radi ispravno (xmodmap)"
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/devices/keyboard_led_dialog.py, line: 260
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/devices/keyboard_led_dialog.py, line: 285
-msgid "Only available on X11 sessions"
-msgstr "Dostupno samo na X11 sesijama"
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/devices/keyboard_led_dialog.py, line: 266
-msgid "Start with System"
-msgstr "Započnite sa sustavom"
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/devices/keyboard_led_dialog.py, line: 267
-msgid "Turn on LED automatically when you log in"
-msgstr "Automatski uključite LED kada se prijavite"
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/devices/keyboard_led_dialog.py, line: 274
-msgid "Keyboard Shortcut"
-msgstr "Prečac na tipkovnici"
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/devices/keyboard_led_dialog.py, line: 279
-msgid "Toggle LED Hotkey"
-msgstr "Prekidač LED prečac"
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/devices/keyboard_led_dialog.py, line: 280
-msgid "Press a key to toggle the LED on/off"
-msgstr "Pritisnite tipku za uključivanje/isključivanje LED-a"
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/devices/keyboard_led_dialog.py, line: 288
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/devices/keyboard_led_dialog.py, line: 677
-msgid "Not set"
-msgstr "Nije postavljeno"
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/devices/keyboard_led_dialog.py, line: 297
-msgid "Set hotkey"
-msgstr "Postavi prečac"
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/devices/keyboard_led_dialog.py, line: 311
-msgid "Back"
-msgstr "Natrag"
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/devices/keyboard_led_dialog.py, line: 316
-msgid "Finish Configuration"
-msgstr "Završite konfiguraciju"
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/devices/keyboard_led_dialog.py, line: 336
-msgid "Press the desired key"
-msgstr "Pritisnite željenu tipku"
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/devices/keyboard_led_dialog.py, line: 342
-msgid ""
-"A small window will appear.\n"
-"Click on it and press the key you want to use\n"
-"to toggle the LED on/off."
-msgstr ""
-"Pojavit će se mali prozor.  \n"
-"Kliknite na njega i pritisnite tipku koju želite koristiti za uključivanje/isključivanje LED-a."
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/devices/keyboard_led_dialog.py, line: 357
-msgid "Waiting..."
-msgstr "Čekanje..."
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/devices/keyboard_led_dialog.py, line: 177
-msgid "Configuration Complete!"
-msgstr "Konfiguracija dovršena!"
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/devices/keyboard_led_dialog.py, line: 419
-msgid "Your keyboard LED is now configured and ready to use."
-msgstr "Vaša tipkovnica LED je sada konfigurirana i spremna za korištenje."
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/devices/keyboard_led_dialog.py, line: 197
-msgid "Done"
-msgstr "Završeno"
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/devices/keyboard_led_dialog.py, line: 218
-msgid "No Compatible Device Found"
-msgstr "Nema kompatibilnog uređaja."
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/devices/keyboard_led_dialog.py, line: 456
-msgid ""
-"Could not find a compatible keyboard LED device.\n"
-"\n"
-"Troubleshooting tips:\n"
-"• Make sure your keyboard has LED support\n"
-"• Install brightnessctl: sudo pacman -S brightnessctl\n"
-"• On X11, xset is also used to control LEDs\n"
-"• Try running: brightnessctl -l"
-msgstr ""
-"Nije moguće pronaći kompatibilan LED uređaj za tipkovnicu.\n"
-"\n"
-"Savjeti za rješavanje problema:\n"
-"• Provjerite ima li vaša tipkovnica podršku za LED\n"
-"• Instalirajte brightnessctl: sudo pacman -S brightnessctl\n"
-"• Na X11, xset se također koristi za kontrolu LED-ova\n"
-"• Pokušajte pokrenuti: brightnessctl -l"
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/devices/keyboard_led_dialog.py, line: 520
-msgid "Method: {}"
-msgstr "Metoda: {}"
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/devices/keyboard_led_dialog.py, line: 521
-msgid "Testing {} of {}"
-msgstr "Testiranje {} od {}"
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/devices/keyboard_led_dialog.py, line: 586
-msgid "Launching capture window..."
-msgstr "Pokretanje prozora za snimanje..."
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/devices/keyboard_led_dialog.py, line: 607
-msgid "Key captured!"
-msgstr "Ključ zabilježen!"
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/devices/keyboard_led_dialog.py, line: 622
-msgid "No key detected"
-msgstr "Nema ključa."
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/devices/keyboard_led_dialog.py, line: 626
-msgid "Timeout - no key pressed"
-msgstr "Istek vremena - nijedna tipka nije pritisnuta"
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/devices/keyboard_led_dialog.py, line: 630
-msgid "Error capturing hotkey"
-msgstr "Greška pri snimanju prečaca."
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/devices/keyboard_led_dialog.py, line: 670
-msgid "Device: {}"
-msgstr "Uređaj: {}"
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/devices/keyboard_led_dialog.py, line: 674
-msgid "Autostart enabled"
-msgstr "Autostart omogućeno"
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/devices/keyboard_led_dialog.py, line: 676
-msgid "Scroll Lock fix applied"
-msgstr "Ispravak Scroll Lock primijenjen"
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/devices/keyboard_led_dialog.py, line: 678
-msgid "Hotkey configured"
-msgstr "Prečac konfiguriran"
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/devices/keyboard_led_dialog.py, line: 680
-msgid "No additional options"
-msgstr "Nema dodatnih opcija"
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/devices/keyboard_led_dialog.py, line: 732
-msgid "LED Control"
-msgstr "Kontrola LED-a"
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/devices/keyboard_led_dialog.py, line: 753
-msgid "Reconfigure"
-msgstr "Ponovno konfiguriraj"
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/devices/keyboard_led_dialog.py, line: 774
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/devices/keyboard_led_dialog.py, line: 845
-msgid "LED is OFF"
-msgstr "LED je ISKLJUČEN"
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/devices/keyboard_led_dialog.py, line: 785
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/devices/keyboard_led_dialog.py, line: 846
-msgid "Turn ON"
-msgstr "Uključi se"
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/devices/keyboard_led_dialog.py, line: 838
-msgid "LED is ON"
-msgstr "LED je Uključen"
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/devices/keyboard_led_dialog.py, line: 839
-msgid "Turn OFF"
-msgstr "Isključi"
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 107
-msgid "Usability"
-msgstr "Upotrebljivost"
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_usability_page.py, line: 104
-msgid "User and Visual system settings"
-msgstr "Postavke korisnika i vizualnog sustava"
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 114
-msgid "NumLock"
-msgstr "NumLock"
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 115
-msgid "Initial NumLock state. Ignored if autologin is enabled."
-msgstr "Početno stanje NumLocka. Ignorira se ako je omogućena automatska prijava."
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 131
-msgid "Window Button On Left Side"
-msgstr "Gumb za prozor s lijeve strane"
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 132
-msgid "Maximize, minimize, and close buttons on the left side of the window."
-msgstr "Dugme za maksimiziranje, minimiziranje i zatvaranje s lijeve strane prozora."
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_usability_page.py, line: 133
-msgid "SSH until next reboot"
-msgstr "SSH do sljedećeg ponovnog pokretanja"
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 133
-msgid "Enable remote access via ssh until next boot."
-msgstr "Omogućite daljinski pristup putem ssh-a do sljedećeg pokretanja."
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_usability_page.py, line: 72
-msgid "KZones"
-msgstr "KZone"
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_usability_page.py, line: 73
-msgid "Script for the KWin window manager of the KDE Plasma desktop environment"
-msgstr "Skripta za KWin upravitelja prozora KDE Plasma radnog okruženja"
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_usability_page.py, line: 83
-msgid "This feature is only available for KDE Plasma."
-msgstr "Ova funkcija je dostupna samo za KDE Plasma."
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_usability_page.py, line: 94
-msgid "Game Mode Booster"
-msgstr "Booster za način igre"
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_usability_page.py, line: 95
-msgid ""
-"Combination of daemon and library that allows games to request a set of optimizations be "
-"temporarily applied to the operating system and/or the game process."
-msgstr ""
-"Kombinacija demona i biblioteke koja omogućava igrama da zatraže skup optimizacija koje će se "
-"privremeno primijeniti na operativni sustav i/ili proces igre."
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_usability_page.py, line: 104
-msgid "Instructions"
-msgstr "Upute"
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 109
-msgid "General system settings"
-msgstr "Opća sistemska podešavanja"
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_usability_page.py, line: 147
-msgid "SSH always on"
-msgstr "SSH uvijek uključen"
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 149
-msgid "Turn on ssh remote access at boot."
-msgstr "Uključite SSH daljinski pristup pri pokretanju."
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 162
-msgid "Fast Grub"
-msgstr "Brzi Grub"
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 163
-msgid "Decreases grub display time."
-msgstr "Smanjuje vrijeme prikaza gruba."
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 170
-msgid "Auto-mount Partitions"
-msgstr "Automatsko montiranje particija"
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 171
-msgid "Auto mount partitions in internal disks on boot."
-msgstr "Automatski montiraj particije na unutarnjim diskovima pri pokretanju."
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_usability_page.py, line: 169
-msgid "Meltdown Mitigations off"
-msgstr "Mitigacije za Meltdown isključene"
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_usability_page.py, line: 170
-#, python-brace-format
-msgid ""
-"Using mitigations=off will make your machine faster and less secure! For more information see: <a "
-"href='{link}'>{link}</a>"
-msgstr ""
-"Korištenje mitigacija=isključeno učinit će vaš uređaj bržim, ali manje sigurnim! Za više "
-"informacija pogledajte: <a href='{link}'>{link}</a>"
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_usability_page.py, line: 176
-msgid "noWatchdog"
-msgstr "noWatchdog"
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_usability_page.py, line: 177
-msgid ""
-"Disables the hardware watchdog and TSC clocksource systems, maintaining high performance but "
-"removing automatic protections against system crashes."
-msgstr ""
-"Onemogućuje hardverski watchdog i TSC izvor vremena, održavajući visoke performanse, ali "
-"uklanjajući automatske zaštite od rušenja sustava."
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_usability_page.py, line: 169
-msgid "Recent Files & Locations"
-msgstr "Nedavne datoteke i lokacije"
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_usability_page.py, line: 170
-msgid ""
-"Restores the 'Recent Files' and 'Recent Locations' functionality that appears empty in Dolphin and "
-"the Application Menu."
-msgstr ""
-"Obnavlja funkcionalnost 'Nedavne datoteke' i 'Nedavne lokacije' koja se pojavljuje prazna u "
-"Dolphin-u i izborniku aplikacija."
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_usability_page.py, line: 273
-msgid "Failed to change Recent Files & Locations setting."
-msgstr "Nije uspjelo promijeniti postavku Nedavnih datoteka i lokacija."
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_usability_page.py, line: 162
-msgid "Restart KWin?"
-msgstr "Ponovno pokrenuti KWin?"
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_usability_page.py, line: 163
-msgid "To apply the changes, the KWin window manager needs to be restarted. Do you want to restart it now?"
-msgstr ""
-"Da biste primijenili promjene, KWin upravitelj prozora treba biti ponovno pokrenut. Želite li ga "
-"sada ponovno pokrenuti?"
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_usability_page.py, line: 14
-msgid "User and Visual system settings."
-msgstr "Postavke korisnika i vizualnog sustava."
-# 
-# #-#-#-#-#  biglinux-settings.pot (biglinux-settings)  #-#-#-#-#
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/ai_page.py, line: 32
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_usability_page.py, line: 50
-msgid "Script for the KWin window manager of the KDE Plasma desktop environment."
-msgstr "Skripta za KWin upravitelja prozora KDE Plasma radnog okruženja."
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_page.py, line: 26
-msgid "General system settings."
-msgstr "Opća sistemska podešavanja."
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_usability_page.py, line: 113
-#, python-brace-format
-msgid ""
-"Using mitigations=off will make your machine faster and less secure! For more information see: <a "
-"href='{l}'>{l}</a>"
-msgstr ""
-"Korištenje mitigacija=isključeno učinit će vaš uređaj bržim, ali manje sigurnim! Za više "
-"informacija pogledajte: <a href='{l}'>{l}</a>"
-# 
-# #-#-#-#-#  biglinux-settings.pot (biglinux-settings)  #-#-#-#-#
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/preload_page.py, line: 284
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_usability_page.py, line: 334
-msgid "Indicator {} synchronized: {}"
-msgstr "Pokazatelj {} sinkroniziran: {}"
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/devices_page.py, line: 15
-msgid "Manage physical devices."
-msgstr "Upravljajte fizičkim uređajima."
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/devices_page.py, line: 62
-msgid "Keyboard LED"
-msgstr "Tipkovnički LED"
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/devices_page.py, line: 71
-msgid "Reverse mouse scrolling"
-msgstr "Obrnuto pomicanje miša"
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/devices_page.py, line: 72
-msgid "Reverse mouse scrolling without restarting the session."
-msgstr "Obrnuto pomicanje miša bez ponovnog pokretanja sesije."
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 49
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 120
-msgid "BigLinux Settings"
-msgstr "BigLinux Postavke"
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 135
-msgid "Categories"
-msgstr "Kategorije"
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 144
-msgid "Search..."
-msgstr "Pretraži..."
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 158
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 167
-msgid "PreLoad"
-msgstr "PreLoad"
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 161
-msgid "A.I."
-msgstr "A.I."
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 166
-msgid "Performance and Games"
-msgstr "Izvedba i igre"
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/ai_page.py, line: 15
-msgid "AI settings and tools."
-msgstr "Postavke i alati za AI."
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/docker_page.py, line: 15
-msgid "Container service - enable to use containers below."
-msgstr "Usluga kontejnera - omogućite korištenje kontejnera u nastavku."
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/docker_page.py, line: 23
-msgid "Manage container technologies."
-msgstr "Upravljajte tehnologijama kontejnera."
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/usability/gamemode_dialog.py, line: 204
+msgid "Performance"
+msgstr "Izvedba"
 # 
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings/performance_games_page.py, line: 16
 msgid "BigLinux performance tweaks."
@@ -1830,11 +615,30 @@ msgstr "BigLinux optimizacije performansi."
 msgid "Games Booster"
 msgstr "Povećivač igara"
 # 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_usability_page.py, line: 95
+msgid ""
+"Combination of daemon and library that allows games to request a set of optimizations be "
+"temporarily applied to the operating system and/or the game process."
+msgstr ""
+"Kombinacija demona i biblioteke koja omogućava igrama da zatraže skup optimizacija koje će se "
+"privremeno primijeniti na operativni sustav i/ili proces igre."
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/usability/gamemode_config_dialog.py, line: 91
+msgid "Disable Visual Effects"
+msgstr "Onemogući vizualne efekte"
+# 
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings/performance_games_page.py, line: 35
 msgid "Disables KWin visual effects (blur, shadows, animations). Reduces GPU load and frees memory."
 msgstr ""
 "Onemogućuje KWin vizualne efekte (zamućenje, sjene, animacije). Smanjuje opterećenje GPU-a i "
 "oslobađa memoriju."
+# 
+# #-#-#-#-#  biglinux-settings.pot (biglinux-settings)  #-#-#-#-#
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/usability/kwin_ram_dialog.py, line: 109
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/usability/gamemode_config_dialog.py, line: 100
+msgid "Compositor Settings"
+msgstr "Postavke kompozitora"
 # 
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings/performance_games_page.py, line: 43
 msgid ""
@@ -1852,6 +656,14 @@ msgstr "Maksimalna izvedba CPU-a"
 msgid "Forces maximum processor performance mode. Ensures the processor uses maximum frequency."
 msgstr "Prisiljava maksimalni način rada procesora. Osigurava da procesor koristi maksimalnu frekvenciju."
 # 
+# #-#-#-#-#  biglinux-settings.pot (biglinux-settings)  #-#-#-#-#
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/usability/gamemode_config_dialog.py, line: 109
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/usability/gamemode_dialog.py, line: 207
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/usability/gamemode_dialog.py, line: 250
+msgid "GPU Maximum Performance"
+msgstr "GPU Maksimalna Izvedba"
+# 
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings/performance_games_page.py, line: 59
 msgid "Forces maximum GPU performance mode (NVIDIA/AMD). Ensures the graphics card uses maximum frequency."
 msgstr ""
@@ -1866,13 +678,29 @@ msgstr "Onemogući Baloo indeksator"
 msgid "Disables the Baloo file indexer. Avoids disk I/O overhead."
 msgstr "Onemogućuje Baloo indeksator datoteka. Izbjegava opterećenje diska I/O."
 # 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/usability/gamemode_config_dialog.py, line: 127
+msgid "Stop Akonadi Server"
+msgstr "Zaustavi Akonadi poslužitelj"
+# 
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings/performance_games_page.py, line: 75
 msgid "Stops the PIM data server (Kontact/Thunderbird). Reduces memory and disk overhead."
 msgstr "Zaustavlja PIM podatkovni poslužitelj (Kontact/Thunderbird). Smanjuje opterećenje memorije i diska."
 # 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/usability/gamemode_config_dialog.py, line: 136
+msgid "Unload S.M.A.R.T Monitor"
+msgstr "Otpusti S.M.A.R.T Monitor"
+# 
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings/performance_games_page.py, line: 83
 msgid "Disables S.M.A.R.T disk monitoring. Reduces disk I/O and CPU usage."
 msgstr "Onemogućuje S.M.A.R.T praćenje diska. Smanjuje I/O diska i CPU korištenje."
+# 
+# #-#-#-#-#  biglinux-settings.pot (biglinux-settings)  #-#-#-#-#
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/usability/gamemode_config_dialog.py, line: 82
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/usability/gamemode_dialog.py, line: 189
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/usability/gamemode_dialog.py, line: 232
+msgid "GameMode Daemon"
+msgstr "GameMode Daemon"
 # 
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings/performance_games_page.py, line: 94
 msgid "Activates daemon that adjusts CPU, I/O, etc. Reduces latency and increases frame rate."

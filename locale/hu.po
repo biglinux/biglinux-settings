@@ -14,54 +14,6 @@ msgstr ""
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "X-Generator: attranslate\n"
-msgid "Applying, please wait..."
-msgstr "Alkalmazás folyamatban, kérjük várjon..."
-msgid "Installing $package"
-msgstr "$package telepítése"
-msgid "Installing $package, Please wait..."
-msgstr "A(z) $package telepítése, Kérem várjon..."
-msgid "Removing $package"
-msgstr "$package eltávolítása"
-msgid "Removing $package, Please wait..."
-msgstr "A(z) $package eltávolítása, Kérem várjon..."
-msgid "$package installed successfully!"
-msgstr "A(z) $package sikeresen telepítve!"
-msgid "$package removed successfully!"
-msgstr "A csomag sikeresen eltávolítva!"
-msgid "An error occurred with $package."
-msgstr "Hiba történt a $package használatakor."
-msgid "GRUB updated successfully!"
-msgstr "A GRUB sikeresen frissítve lett!"
-msgid "An error occurred while updating GRUB."
-msgstr "Hiba történt a GRUB frissítésekor."
-msgid ""
-"GRUB updated successfully!\\n"
-"Restart your computer for it to take effect."
-msgstr ""
-"A GRUB sikeresen frissítve lett!\\n"
-"Indítsa újra a számítógépét, hogy érvénybe lépjen."
-msgid "Already disabled. No changes made."
-msgstr "Már le van tiltva. Nincsenek változtatások."
-msgid "Limits updated successfully!"
-msgstr "A korlátok sikeresen frissítve!"
-msgid "An error occurred while updating Limits."
-msgstr "Hiba történt a Korlátok frissítésekor."
-msgid "Docker Install"
-msgstr "Docker telepítése"
-msgid "Instaling Docker, Please wait..."
-msgstr "Docker telepítése, kérem várjon..."
-msgid "Docker Start"
-msgstr "Docker Indítás"
-msgid "Docker Starting, Please wait..."
-msgstr "Docker indítása, Kérem várjon..."
-msgid "Docker Stop"
-msgstr "Docker leállítása"
-msgid "Docker Stopping, Please wait..."
-msgstr "Docker leállítása, Kérem várjon..."
-msgid "Docker installed successfully!"
-msgstr "A Docker sikeresen telepítve lett!"
-msgid "An error occurred while install docker."
-msgstr "Hiba történt a Docker telepítése során."
 msgid "Krita Install"
 msgstr "Krita telepítése"
 msgid "Instaling Krita, Please wait..."
@@ -88,6 +40,14 @@ msgstr ""
 "A jobb alsó sarokban megnyíló ablakban.\\n"
 "Kattints a Konfigurálás > Helyi Kezelt Szerverre, válaszd ki a GPU-dat vagy CPU-dat, válaszd ki a "
 "modellt a Munka terhelésekben, és kattints a Telepítésre."
+msgid "Installing $package"
+msgstr "$package telepítése"
+msgid "Installing $package, Please wait..."
+msgstr "A(z) $package telepítése, Kérem várjon..."
+msgid "Removing $package"
+msgstr "$package eltávolítása"
+msgid "Removing $package, Please wait..."
+msgstr "A(z) $package eltávolítása, Kérem várjon..."
 msgid ""
 "$title installed successfully!\\n"
 "\\n"
@@ -96,6 +56,26 @@ msgstr ""
 "$title sikeresen telepítve!\\n"
 "\\n"
 "A $port porton van konfigurálva, a hozzáféréshez használja a $url-t."
+msgid "$package removed successfully!"
+msgstr "A csomag sikeresen eltávolítva!"
+msgid "An error occurred with $package."
+msgstr "Hiba történt a $package használatakor."
+msgid "Docker Install"
+msgstr "Docker telepítése"
+msgid "Instaling Docker, Please wait..."
+msgstr "Docker telepítése, kérem várjon..."
+msgid "Docker Start"
+msgstr "Docker Indítás"
+msgid "Docker Starting, Please wait..."
+msgstr "Docker indítása, Kérem várjon..."
+msgid "Docker Stop"
+msgstr "Docker leállítása"
+msgid "Docker Stopping, Please wait..."
+msgstr "Docker leállítása, Kérem várjon..."
+msgid "Docker installed successfully!"
+msgstr "A Docker sikeresen telepítve lett!"
+msgid "An error occurred while install docker."
+msgstr "Hiba történt a Docker telepítése során."
 msgid "GameMode Install"
 msgstr "Játékmód telepítése"
 msgid "Instaling GameMode, Please wait..."
@@ -124,6 +104,24 @@ msgid "Instaling Kzones, Please wait..."
 msgstr "Kzones telepítése, kérem várjon..."
 msgid "Kzones installed successfully!"
 msgstr "A Kzones sikeresen telepítve lett!"
+msgid "Applying, please wait..."
+msgstr "Alkalmazás folyamatban, kérjük várjon..."
+msgid "GRUB updated successfully!"
+msgstr "A GRUB sikeresen frissítve lett!"
+msgid "An error occurred while updating GRUB."
+msgstr "Hiba történt a GRUB frissítésekor."
+msgid ""
+"GRUB updated successfully!\\n"
+"Restart your computer for it to take effect."
+msgstr ""
+"A GRUB sikeresen frissítve lett!\\n"
+"Indítsa újra a számítógépét, hogy érvénybe lépjen."
+msgid "Already disabled. No changes made."
+msgstr "Már le van tiltva. Nincsenek változtatások."
+msgid "Limits updated successfully!"
+msgstr "A korlátok sikeresen frissítve!"
+msgid "An error occurred while updating Limits."
+msgstr "Hiba történt a Korlátok frissítésekor."
 msgid "JamesDSP Install"
 msgstr "JamesDSP telepítése"
 msgid "Instaling JamesDSP, Please wait..."
@@ -133,291 +131,124 @@ msgstr "A JamesDSP sikeresen telepítve lett!"
 msgid "Failed to install jamesDSP!"
 msgstr "A jamesDSP telepítése nem sikerült!"
 # 
-# #-#-#-#-#  biglinux-settings.pot (biglinux-settings)  #-#-#-#-#
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 107
+msgid "Usability"
+msgstr "Használhatóság"
 # 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/dispositivos_page.py, line: 25
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 116
-msgid "Devices"
-msgstr "Eszközök"
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_usability_page.py, line: 14
+msgid "User and Visual system settings."
+msgstr "Felhasználói és vizuális rendszerbeállítások."
 # 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/dispositivos_page.py, line: 27
-msgid "Manage physical devices"
-msgstr "Fizikai eszközök kezelése"
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 114
+msgid "NumLock"
+msgstr "NumLock"
 # 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_usability_page.py, line: 190
-msgid "Wifi"
-msgstr "Wifi"
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 115
+msgid "Initial NumLock state. Ignored if autologin is enabled."
+msgstr "Kezdő NumLock állapot. Figyelmen kívül hagyva, ha az automatikus bejelentkezés engedélyezve van."
 # 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_usability_page.py, line: 191
-msgid "Wifi On"
-msgstr "Wifi Bekapcsolva"
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 131
+msgid "Window Button On Left Side"
+msgstr "Ablak gomb bal oldalon"
 # 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_usability_page.py, line: 197
-msgid "Bluetooth"
-msgstr "Bluetooth"
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 132
+msgid "Maximize, minimize, and close buttons on the left side of the window."
+msgstr "Ablak bal oldalán található maximalizálás, minimalizálás és bezárás gombok."
 # 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_usability_page.py, line: 198
-msgid "Bluetooth On."
-msgstr "Bluetooth be van kapcsolva."
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_usability_page.py, line: 133
+msgid "SSH until next reboot"
+msgstr "SSH a következő újraindításig"
 # 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/dispositivos_page.py, line: 56
-msgid "Invert Mouse Scroll"
-msgstr "Egér görgetés megfordítása"
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 133
+msgid "Enable remote access via ssh until next boot."
+msgstr "Engedélyezze a távoli hozzáférést ssh-n keresztül a következő indításig."
 # 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/dispositivos_page.py, line: 57
-msgid "Inverts mouse scrolling without restarting the session."
-msgstr "Megfordítja az egér görgetését a munkamenet újraindítása nélkül."
-# 
-# #-#-#-#-#  biglinux-settings.pot (biglinux-settings)  #-#-#-#-#
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/dispositivos_page.py, line: 77
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/devices/jamesdsp_dialog.py, line: 155
-msgid "JamesDSP"
-msgstr "JamesDSP"
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/dispositivos_page.py, line: 84
-msgid "Advanced audio effects processor that improves sound quality."
-msgstr "Fejlett audioeffektus-processzor, amely javítja a hangminőséget."
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/dispositivos_page.py, line: 137
-msgid "Keyboard with LED"
-msgstr "LED-es billentyűzet"
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/dispositivos_page.py, line: 144
-msgid "If your keyboard has LED you can enable this feature to turn it on with the system."
-msgstr ""
-"Ha a billentyűzeted LED-del rendelkezik, engedélyezheted ezt a funkciót, hogy a rendszerrel együtt "
-"bekapcsoljon."
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/dispositivos_page.py, line: 166
-msgid "Reconfigure LED device"
-msgstr "LED eszköz újrakonfigurálása"
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/dispositivos_page.py, line: 237
-msgid "Error opening configuration dialog"
-msgstr "Hiba a konfigurációs párbeszédablak megnyitásakor"
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/dispositivos_page.py, line: 140
-msgid "Error starting JamesDSP daemon"
-msgstr "Hiba a JamesDSP démon indításakor"
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/dispositivos_page.py, line: 145
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/dispositivos_page.py, line: 171
-msgid "JamesDSP Not Running"
-msgstr "JamesDSP nem fut."
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/dispositivos_page.py, line: 146
-msgid "JamesDSP daemon is not currently running. Would you like to start it?"
-msgstr "A JamesDSP démon jelenleg nem fut. Szeretné elindítani?"
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_usability_page.py, line: 72
+msgid "KZones"
+msgstr "KZones"
 # 
 # #-#-#-#-#  biglinux-settings.pot (biglinux-settings)  #-#-#-#-#
 # 
-# #-#-#-#-#  biglinux-settings.pot (biglinux-settings)  #-#-#-#-#
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/ai_page.py, line: 32
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_usability_page.py, line: 50
+msgid "Script for the KWin window manager of the KDE Plasma desktop environment."
+msgstr "A KWin ablakkezelőhöz készült script a KDE Plasma asztali környezethez."
 # 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/dispositivos_page.py, line: 148
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/dispositivos_page.py, line: 304
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/dispositivos_page.py, line: 400
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/ai/krita_ai_dialog.py, line: 61
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/ai/krita_ai_dialog.py, line: 115
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/ai_page.py, line: 62
-msgid "Cancel"
-msgstr "Mégse"
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_usability_page.py, line: 169
+msgid "Recent Files & Locations"
+msgstr "Legutóbbi fájlok és helyek"
 # 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/dispositivos_page.py, line: 149
-msgid "Start JamesDSP"
-msgstr "Indítsa el a JamesDSP-t"
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/dispositivos_page.py, line: 172
-msgid "JamesDSP daemon is not currently running. Would you like to start it first?"
-msgstr "A JamesDSP démon jelenleg nem fut. Szeretné először elindítani?"
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/dispositivos_page.py, line: 174
-msgid "No, Turn Off Switch"
-msgstr "Nem, Kapcsolja ki a kapcsolót"
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/dispositivos_page.py, line: 175
-msgid "Yes, Start JamesDSP"
-msgstr "Igen, Indítsa el a JamesDSP-t"
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/dispositivos_page.py, line: 247
-msgid "JamesDSP Installed"
-msgstr "JamesDSP telepítve"
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/dispositivos_page.py, line: 248
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_usability_page.py, line: 170
 msgid ""
-"JamesDSP has been successfully installed.\n"
-"\n"
-"Would you like to open the application interface now to configure it?\n"
-"(You can also configure it later via the presets list)"
+"Restores the 'Recent Files' and 'Recent Locations' functionality that appears empty in Dolphin and "
+"the Application Menu."
 msgstr ""
-"A JamesDSP sikeresen telepítve lett.\n"
-"\n"
-"Szeretné most megnyitni az alkalmazás felületét a konfiguráláshoz?\n"
-"(A konfigurálást később is elvégezheti a beállítások listáján keresztül)"
+"Visszaállítja a 'Legutóbbi fájlok' és 'Legutóbbi helyek' funkciót, amely üresen jelenik meg a "
+"Dolphinban és az Alkalmazásmenüben."
 # 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/dispositivos_page.py, line: 250
-msgid "No, Show Presets"
-msgstr "Nem, Előbeállítások megjelenítése"
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 108
+msgid "System"
+msgstr "Rendszer"
 # 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/dispositivos_page.py, line: 251
-msgid "Yes, Open App"
-msgstr "Igen, Nyisd meg az alkalmazást"
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_page.py, line: 26
+msgid "General system settings."
+msgstr "Általános rendszerbeállítások."
 # 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/dispositivos_page.py, line: 301
-msgid "Disable JamesDSP"
-msgstr "JamesDSP letiltása"
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_usability_page.py, line: 147
+msgid "SSH always on"
+msgstr "SSH mindig be van kapcsolva"
 # 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/dispositivos_page.py, line: 302
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 149
+msgid "Turn on ssh remote access at boot."
+msgstr "Kapcsolja be az SSH távoli hozzáférést indításkor."
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 162
+msgid "Fast Grub"
+msgstr "Gyors Grub"
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 163
+msgid "Decreases grub display time."
+msgstr "Csökkenti a grub megjelenítési időt."
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 170
+msgid "Auto-mount Partitions"
+msgstr "Automatikus csatolás partíciók"
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 171
+msgid "Auto mount partitions in internal disks on boot."
+msgstr "Automatikus partíciók csatolása a belső lemezeken indításkor."
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_usability_page.py, line: 169
+msgid "Meltdown Mitigations off"
+msgstr "Meltdown mérséklések kikapcsolva"
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_usability_page.py, line: 113
+#, python-brace-format
 msgid ""
-"Choose how to disable JamesDSP:\n"
-"\n"
-"• Just Disable: Sets master_enable=false (keeps installed)\n"
-"• Remove Completely: Uninstalls package and deletes all configuration files"
+"Using mitigations=off will make your machine faster and less secure! For more information see: <a "
+"href='{l}'>{l}</a>"
 msgstr ""
-"Válaszd ki, hogyan szeretnéd letiltani a JamesDSP-t:\n"
-"\n"
-"• Csak letiltás: master_enable=false értékre állítása (telepítve marad)\n"
-"• Teljes eltávolítás: A csomag eltávolítása és az összes konfigurációs fájl törlése"
+"A mitigációk kikapcsolása gyorsabbá és kevésbé biztonsossá teszi a gépét! További információért "
+"lásd: <a href='{l}'>{l}</a>"
 # 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/dispositivos_page.py, line: 305
-msgid "Just Disable"
-msgstr "Csak letiltás"
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_usability_page.py, line: 176
+msgid "noWatchdog"
+msgstr "nincsFelügyelő"
 # 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/dispositivos_page.py, line: 306
-msgid "Remove Completely"
-msgstr "Teljesen eltávolítás"
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/dispositivos_page.py, line: 382
-msgid "JamesDSP package removed"
-msgstr "JamesDSP csomag eltávolítva"
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/dispositivos_page.py, line: 397
-msgid "Removal Failed"
-msgstr "Eltávolítás nem sikerült"
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/dispositivos_page.py, line: 398
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_usability_page.py, line: 177
 msgid ""
-"JamesDSP package is still installed.\n"
-"\n"
-"The removal process may have been cancelled or failed.\n"
-"Would you like to try again?"
+"Disables the hardware watchdog and TSC clocksource systems, maintaining high performance but "
+"removing automatic protections against system crashes."
 msgstr ""
-"A JamesDSP csomag továbbra is telepítve van.\n"
-"\n"
-"A eltávolítási folyamatot esetleg megszakították vagy meghiúsult.\n"
-"Szeretné megpróbálni újra?"
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/dispositivos_page.py, line: 401
-msgid "Try Again"
-msgstr "Próbáld újra"
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/dispositivos_page.py, line: 424
-msgid "Remove Configuration Files?"
-msgstr "Konfigurációs fájlok eltávolítása?"
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/dispositivos_page.py, line: 425
-msgid ""
-"JamesDSP package has been removed.\n"
-"\n"
-"Would you like to also delete all configuration files and presets located in:\n"
-"\n"
-"• ~/.config/jamesdsp\n"
-"• ~/.local/share/jamesdsp"
-msgstr ""
-"A JamesDSP csomag eltávolításra került.\n"
-"\n"
-"Szeretné törölni az összes konfigurációs fájlt és előbeállítást is, amelyek a következő helyeken "
-"találhatók:\n"
-"\n"
-"• ~/.config/jamesdsp\n"
-"• ~/.local/share/jamesdsp"
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/dispositivos_page.py, line: 427
-msgid "Keep Files"
-msgstr "Fájlok megőrzése"
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/dispositivos_page.py, line: 428
-msgid "Delete Files"
-msgstr "Fájlok törlése"
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/dispositivos_page.py, line: 448
-msgid "JamesDSP removed completely"
-msgstr "JamesDSP teljesen eltávolítva"
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/dispositivos_page.py, line: 454
-msgid "JamesDSP package removed (config files kept)"
-msgstr "JamesDSP csomag eltávolítva (konfigurációs fájlok megőrizve)"
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/dispositivos_page.py, line: 479
-msgid "Error opening preset dialog"
-msgstr "Hiba a beállítási párbeszédablak megnyitásakor"
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 236
-msgid "Switch {} synchronized: {}"
-msgstr "Váltás {} szinkronizált: {}"
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/ai/krita_ai_dialog.py, line: 18
-msgid "Krita AI Installation"
-msgstr "Krita AI Telepítés"
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/ai/krita_ai_dialog.py, line: 29
-msgid "Preparing..."
-msgstr "Előkészítés..."
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/ai/krita_ai_dialog.py, line: 40
-msgid "Details"
-msgstr "Részletek"
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/ai/krita_ai_dialog.py, line: 53
-msgid "Show Details"
-msgstr "Részletek megjelenítése"
+"Letiltja a hardveres figyelő és a TSC óraforrás rendszereket, fenntartva a magas teljesítményt, de "
+"eltávolítva az automatikus védelmet a rendszerösszeomlások ellen."
 # 
 # #-#-#-#-#  biglinux-settings.pot (biglinux-settings)  #-#-#-#-#
 # 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/ai/krita_ai_dialog.py, line: 65
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/devices/jamesdsp_dialog.py, line: 70
-msgid "Close"
-msgstr "Bezárás"
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/ai/krita_ai_dialog.py, line: 95
-msgid "Detecting GPU..."
-msgstr "GPU észlelése..."
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/ai/krita_ai_dialog.py, line: 112
-msgid "Choose Render Mode"
-msgstr "Válassza ki a Renderelési Módot"
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/ai/krita_ai_dialog.py, line: 113
-msgid "GPU detected: {}. How do you want to render?"
-msgstr "GPU észlelve: {}. Hogyan szeretné megjeleníteni?"
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/ai/krita_ai_dialog.py, line: 116
-msgid "CPU (Software)"
-msgstr "CPU (Szoftver)"
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/ai/krita_ai_dialog.py, line: 117
-msgid "GPU (Recommended)"
-msgstr "GPU (Ajánlott)"
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/ai/krita_ai_dialog.py, line: 140
-msgid "Installing..."
-msgstr "Telepítés..."
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/ai/krita_ai_dialog.py, line: 172
-msgid "Installation Complete!"
-msgstr "Telepítés befejeződött!"
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/ai/krita_ai_dialog.py, line: 178
-msgid "Installation Failed."
-msgstr "Telepítés meghiúsult."
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/ai/chatai_dialog.py, line: 17
-msgid "ChatAI Installation"
-msgstr "ChatAI Telepítés"
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/ai/chatai_dialog.py, line: 28
-msgid "Installing ChatAI..."
-msgstr "ChatAI telepítése..."
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_usability_page.py, line: 111
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/preload_page.py, line: 112
+msgid "Reload all statuses"
+msgstr "Minden állapot újratöltése"
 # 
 # #-#-#-#-#  biglinux-settings.pot (biglinux-settings)  #-#-#-#-#
 # 
@@ -506,6 +337,17 @@ msgstr "A szkript hibával leállt a következő kóddal: {}"
 msgid "Script timeout: {}"
 msgstr "Script időtúllépés: {}"
 # 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 236
+msgid "Switch {} synchronized: {}"
+msgstr "Váltás {} szinkronizált: {}"
+# 
+# #-#-#-#-#  biglinux-settings.pot (biglinux-settings)  #-#-#-#-#
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/preload_page.py, line: 284
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_usability_page.py, line: 334
+msgid "Indicator {} synchronized: {}"
+msgstr "A {} szinkronizálva: {}"
+# 
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 244
 msgid "Changing {} to {}"
 msgstr "A {} átkonvertálása {}-ra"
@@ -518,28 +360,95 @@ msgstr "HIBA: A {}-t {}-ra nem sikerült megváltoztatni."
 msgid "Failed to change setting: {}"
 msgstr "A beállítás módosítása nem sikerült: {}"
 # 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 52
-msgid "General adjustments"
-msgstr "Általános beállítások"
+# #-#-#-#-#  biglinux-settings.pot (biglinux-settings)  #-#-#-#-#
 # 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 108
-msgid "System"
-msgstr "Rendszer"
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/dispositivos_page.py, line: 25
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 116
+msgid "Devices"
+msgstr "Eszközök"
 # 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 120
-msgid "I.A."
-msgstr "M.A."
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/devices_page.py, line: 15
+msgid "Manage physical devices."
+msgstr "Fizikai eszközök kezelése."
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_usability_page.py, line: 190
+msgid "Wifi"
+msgstr "Wifi"
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_usability_page.py, line: 191
+msgid "Wifi On"
+msgstr "Wifi Bekapcsolva"
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_usability_page.py, line: 197
+msgid "Bluetooth"
+msgstr "Bluetooth"
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_usability_page.py, line: 198
+msgid "Bluetooth On."
+msgstr "Bluetooth be van kapcsolva."
 # 
 # #-#-#-#-#  biglinux-settings.pot (biglinux-settings)  #-#-#-#-#
 # 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 137
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/containers_page.py, line: 18
-msgid "Containers"
-msgstr "Tartályok"
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/dispositivos_page.py, line: 77
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/devices/jamesdsp_dialog.py, line: 155
+msgid "JamesDSP"
+msgstr "JamesDSP"
 # 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 145
-msgid "Pre-loading"
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/dispositivos_page.py, line: 84
+msgid "Advanced audio effects processor that improves sound quality."
+msgstr "Fejlett audioeffektus-processzor, amely javítja a hangminőséget."
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/devices_page.py, line: 62
+msgid "Keyboard LED"
+msgstr "Billentyűzet LED"
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/dispositivos_page.py, line: 144
+msgid "If your keyboard has LED you can enable this feature to turn it on with the system."
+msgstr ""
+"Ha a billentyűzeted LED-del rendelkezik, engedélyezheted ezt a funkciót, hogy a rendszerrel együtt "
+"bekapcsoljon."
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/devices_page.py, line: 71
+msgid "Reverse mouse scrolling"
+msgstr "Fordított egér görgetés"
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/devices_page.py, line: 72
+msgid "Reverse mouse scrolling without restarting the session."
+msgstr "Az egér görgetésének megfordítása a munkamenet újraindítása nélkül."
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 49
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 120
+msgid "BigLinux Settings"
+msgstr "BigLinux Beállítások"
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 135
+msgid "Categories"
+msgstr "Kategóriák"
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 144
+msgid "Search..."
+msgstr "Keresés..."
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/devices/keyboard_led_dialog.py, line: 249
+msgid "Settings"
+msgstr "Beállítások"
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 158
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 167
+msgid "PreLoad"
 msgstr "Előbetöltés"
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 161
+msgid "A.I."
+msgstr "Mesterséges intelligencia."
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_usability_page.py, line: 204
+msgid "Docker"
+msgstr "Docker"
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 166
+msgid "Performance and Games"
+msgstr "Teljesítmény és Játékok"
 # 
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings/preload_page.py, line: 103
 msgid "Preload"
@@ -548,13 +457,6 @@ msgstr "Előbetöltés"
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings/preload_page.py, line: 105
 msgid "Preload applications into memory to open them faster."
 msgstr "Előregisztrálja az alkalmazásokat a memóriába, hogy gyorsabban nyithassa meg őket."
-# 
-# #-#-#-#-#  biglinux-settings.pot (biglinux-settings)  #-#-#-#-#
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_usability_page.py, line: 111
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/preload_page.py, line: 112
-msgid "Reload all statuses"
-msgstr "Minden állapot újratöltése"
 # 
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings/preload_page.py, line: 120
 msgid "Firefox"
@@ -588,497 +490,13 @@ msgstr "Opera"
 msgid "Libreoffice"
 msgstr "LibreOffice"
 # 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/usability/kwin_ram_dialog.py, line: 26
-msgid "KWin & RAM Controller"
-msgstr "KWin és RAM vezérlő"
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/usability/kwin_ram_dialog.py, line: 64
-msgid "Master Control"
-msgstr "Fővezérlés"
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/usability/kwin_ram_dialog.py, line: 65
-msgid "Enable Performance Mode to apply all optimizations at once"
-msgstr "Kapcsolja be a Teljesítmény módot, hogy egyszerre alkalmazza az összes optimalizálást."
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/usability/kwin_ram_dialog.py, line: 70
-msgid "Performance Mode"
-msgstr "Teljesítmény mód"
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/usability/kwin_ram_dialog.py, line: 71
-msgid "Disable all effects and optimize RAM"
-msgstr "Minden effektus letiltása és a RAM optimalizálása"
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/usability/kwin_ram_dialog.py, line: 90
-msgid "GPU & Visual Effects"
-msgstr "GPU és Vizuális Effektek"
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/usability/kwin_ram_dialog.py, line: 91
-msgid "Control KWin compositor effects"
-msgstr "Irányítsa a KWin kompozitor effektusait"
-# 
-# #-#-#-#-#  biglinux-settings.pot (biglinux-settings)  #-#-#-#-#
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/usability/kwin_ram_dialog.py, line: 96
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/usability/gamemode_dialog.py, line: 195
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/usability/gamemode_dialog.py, line: 238
-msgid "Visual Effects"
-msgstr "Látványeffektek"
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/usability/kwin_ram_dialog.py, line: 97
-msgid "Blur, Wobbly Windows, Shadows, Animations"
-msgstr "Elmosódás, Reszkető ablakok, Árnyékok, Animációk"
-# 
-# #-#-#-#-#  biglinux-settings.pot (biglinux-settings)  #-#-#-#-#
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/usability/kwin_ram_dialog.py, line: 109
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/usability/gamemode_config_dialog.py, line: 100
-msgid "Compositor Settings"
-msgstr "Kompozitor Beállítások"
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/usability/kwin_ram_dialog.py, line: 110
-msgid "Animations, Latency Policy, Tearing"
-msgstr "Animációk, Késleltetési irányelv, Tépés"
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/usability/kwin_ram_dialog.py, line: 122
-msgid "Memory & Services"
-msgstr "Memória és Szolgáltatások"
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/usability/kwin_ram_dialog.py, line: 123
-msgid "Control background services that consume RAM"
-msgstr "Irányítsa a RAM-ot fogyasztó háttérszolgáltatásokat"
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/usability/kwin_ram_dialog.py, line: 128
-msgid "Baloo File Indexer"
-msgstr "Baloo Fájlindexelő"
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/usability/kwin_ram_dialog.py, line: 129
-msgid "File search indexing service"
-msgstr "Fájlkeresési indexelő szolgáltatás"
-# 
-# #-#-#-#-#  biglinux-settings.pot (biglinux-settings)  #-#-#-#-#
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/usability/kwin_ram_dialog.py, line: 141
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/usability/gamemode_dialog.py, line: 219
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/usability/gamemode_dialog.py, line: 262
-msgid "Akonadi Server"
-msgstr "Akonadi Szerver"
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/usability/kwin_ram_dialog.py, line: 142
-msgid "PIM storage service (Contacts, Calendar)"
-msgstr "PIM tároló szolgáltatás (Kapcsolatok, Naptár)"
-# 
-# #-#-#-#-#  biglinux-settings.pot (biglinux-settings)  #-#-#-#-#
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/usability/kwin_ram_dialog.py, line: 154
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/usability/gamemode_dialog.py, line: 225
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/usability/gamemode_dialog.py, line: 268
-msgid "S.M.A.R.T Monitor"
-msgstr "S.M.A.R.T Monitor"
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/usability/kwin_ram_dialog.py, line: 155
-msgid "Disk health monitoring daemon"
-msgstr "Lemez egészségügyi figyelő démon"
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/usability/kwin_ram_dialog.py, line: 167
-msgid "Cache Management"
-msgstr "Gyorsítótár kezelés"
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/usability/kwin_ram_dialog.py, line: 168
-msgid "Clear system memory caches"
-msgstr "Tisztítsa meg a rendszer memória gyorsítótárait"
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/usability/kwin_ram_dialog.py, line: 173
-msgid "Clear RAM Cache"
-msgstr "RAM gyorsítótár törlése"
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/usability/kwin_ram_dialog.py, line: 174
-msgid "Free memory marked as Buff/Cache (requires sudo)"
-msgstr "Szabad memória, amely Buff/Cache-ként van megjelölve (sudo szükséges)"
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/usability/kwin_ram_dialog.py, line: 177
-msgid "Clean Now"
-msgstr "Tisztítás most"
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/usability/kwin_ram_dialog.py, line: 195
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/usability/kwin_ram_dialog.py, line: 282
-msgid "Ready"
-msgstr "Készen áll."
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/usability/kwin_ram_dialog.py, line: 215
-msgid "Loading..."
-msgstr "Betöltés..."
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/usability/kwin_ram_dialog.py, line: 261
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/usability/kwin_ram_dialog.py, line: 268
-msgid "Not installed"
-msgstr "Nincs telepítve"
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/usability/kwin_ram_dialog.py, line: 345
-msgid "Enabling Performance Mode..."
-msgstr "Teljesítmény mód engedélyezése..."
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/usability/kwin_ram_dialog.py, line: 349
-msgid "Performance Mode Active"
-msgstr "Teljesítmény mód aktív"
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/usability/gamemode_dialog.py, line: 106
-msgid "Failed"
-msgstr "Sikertelen"
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/usability/kwin_ram_dialog.py, line: 367
-msgid "Restoring Desktop Mode..."
-msgstr "Asztali mód helyreállítása..."
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/usability/kwin_ram_dialog.py, line: 371
-msgid "Desktop Mode Restored"
-msgstr "Asztali mód visszaállítva"
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/usability/kwin_ram_dialog.py, line: 395
-msgid "Toggling Effects..."
-msgstr "Hatások váltása..."
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/usability/kwin_ram_dialog.py, line: 400
-msgid "Effects {}"
-msgstr "Hatások {}"
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/usability/kwin_ram_dialog.py, line: 400
-msgid "enabled"
-msgstr "engedélyezve"
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/usability/kwin_ram_dialog.py, line: 400
-msgid "disabled"
-msgstr "letiltva"
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/usability/kwin_ram_dialog.py, line: 413
-msgid "Updating Compositor..."
-msgstr "Összeállító frissítése..."
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/usability/kwin_ram_dialog.py, line: 418
-msgid "Compositor settings updated"
-msgstr "A kompozitor beállításai frissítve lettek."
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/usability/kwin_ram_dialog.py, line: 431
-msgid "Toggling Baloo..."
-msgstr "Baloo váltása..."
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/usability/kwin_ram_dialog.py, line: 436
-msgid "Baloo {}"
-msgstr "Baloo {}"
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/usability/kwin_ram_dialog.py, line: 436
-msgid "resumed"
-msgstr "folytatva"
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/usability/kwin_ram_dialog.py, line: 436
-msgid "suspended"
-msgstr "felfüggesztve"
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/usability/kwin_ram_dialog.py, line: 449
-msgid "Toggling Akonadi..."
-msgstr "Akonadi váltása..."
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/usability/kwin_ram_dialog.py, line: 454
-msgid "Akonadi {}"
-msgstr "Akonadi {}"
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/usability/kwin_ram_dialog.py, line: 454
-msgid "started"
-msgstr "elkezdődött"
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/usability/kwin_ram_dialog.py, line: 454
-msgid "stopped"
-msgstr "megállt"
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/usability/kwin_ram_dialog.py, line: 467
-msgid "Toggling SMART Monitor..."
-msgstr "SMART Monitor váltása..."
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/usability/kwin_ram_dialog.py, line: 472
-msgid "SMART {}"
-msgstr "SMART {}"
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/usability/kwin_ram_dialog.py, line: 472
-msgid "loaded"
-msgstr "betöltve"
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/usability/kwin_ram_dialog.py, line: 472
-msgid "unloaded"
-msgstr "kiürítve"
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/usability/kwin_ram_dialog.py, line: 482
-msgid "Cleaning Cache..."
-msgstr "Gyorsítótár törlése..."
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/usability/kwin_ram_dialog.py, line: 488
-msgid "Cache cleaned successfully!"
-msgstr "A gyorsítótár sikeresen törölve!"
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/usability/kwin_ram_dialog.py, line: 490
-msgid "Failed to clean cache"
-msgstr "A gyorsítótár törlése nem sikerült."
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/usability/gamemode_config_dialog.py, line: 18
-msgid "Game Mode Booster Configuration"
-msgstr "Játék Mód Fokozó Beállítások"
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/usability/gamemode_config_dialog.py, line: 77
-msgid "Optimizations"
-msgstr "Optimalizációk"
-# 
-# #-#-#-#-#  biglinux-settings.pot (biglinux-settings)  #-#-#-#-#
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/usability/gamemode_config_dialog.py, line: 82
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/usability/gamemode_dialog.py, line: 189
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/usability/gamemode_dialog.py, line: 232
-msgid "GameMode Daemon"
-msgstr "Játékmód Daemon"
-# 
-# #-#-#-#-#  biglinux-settings.pot (biglinux-settings)  #-#-#-#-#
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/usability/gamemode_config_dialog.py, line: 83
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/usability/gamemode_dialog.py, line: 190
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/usability/gamemode_dialog.py, line: 233
-msgid "System-wide performance daemon"
-msgstr "Rendszer szintű teljesítmény démon"
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/usability/gamemode_config_dialog.py, line: 91
-msgid "Disable Visual Effects"
-msgstr "Visualis hatások letiltása"
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/usability/gamemode_config_dialog.py, line: 92
-msgid "Turn off KWin effects (blur, shadows, animations)"
-msgstr "Kapcsolja ki a KWin effektusokat (elmosódás, árnyékok, animációk)"
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/usability/gamemode_config_dialog.py, line: 101
-msgid "Low latency, allow tearing, no animations"
-msgstr "Alacsony késleltetés, engedélyezett a tépés, nincsenek animációk"
-# 
-# #-#-#-#-#  biglinux-settings.pot (biglinux-settings)  #-#-#-#-#
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/usability/gamemode_config_dialog.py, line: 109
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/usability/gamemode_dialog.py, line: 207
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/usability/gamemode_dialog.py, line: 250
-msgid "GPU Maximum Performance"
-msgstr "GPU Maximális Teljesítmény"
-# 
-# #-#-#-#-#  biglinux-settings.pot (biglinux-settings)  #-#-#-#-#
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/usability/gamemode_config_dialog.py, line: 110
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/usability/gamemode_dialog.py, line: 208
-msgid "Force maximum performance mode (NVIDIA/AMD)"
-msgstr "Maximális teljesítmény mód kényszerítése (NVIDIA/AMD)"
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/usability/gamemode_config_dialog.py, line: 118
-msgid "Suspend Baloo Indexer"
-msgstr "Függessze fel a Baloo indexelőt"
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/usability/gamemode_config_dialog.py, line: 119
-msgid "Stop file indexing service"
-msgstr "Állítsa le a fájlindexelő szolgáltatást"
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/usability/gamemode_config_dialog.py, line: 127
-msgid "Stop Akonadi Server"
-msgstr "Állítsa le az Akonadi szervert"
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/usability/gamemode_config_dialog.py, line: 128
-msgid "Stop PIM storage service"
-msgstr "Állítsa le a PIM tároló szolgáltatást"
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/usability/gamemode_config_dialog.py, line: 136
-msgid "Unload S.M.A.R.T Monitor"
-msgstr "S.M.A.R.T Monitor kiürítése"
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/usability/gamemode_config_dialog.py, line: 137
-msgid "Stop disk health monitoring"
-msgstr "A lemez állapotának figyelésének leállítása"
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/usability/gamemode_config_dialog.py, line: 158
-msgid "Apply Optimizations"
-msgstr "Alkalmazza az optimalizálásokat"
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/usability/gamemode_dialog.py, line: 25
-msgid "Game Mode Booster Activation"
-msgstr "Játék Mód Fokozó Aktiválás"
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/usability/gamemode_dialog.py, line: 25
-msgid "Game Mode Booster Deactivation"
-msgstr "Játék Mód Fokozó Kikapcsolása"
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/usability/gamemode_dialog.py, line: 34
-msgid "Initializing..."
-msgstr "Inicializálás..."
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/usability/gamemode_dialog.py, line: 58
-msgid "Optimizing system..."
-msgstr "Rendszer optimalizálása..."
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/usability/gamemode_dialog.py, line: 100
-msgid "Cancelled"
-msgstr "Törölve"
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/usability/gamemode_dialog.py, line: 101
-msgid "Authentication was cancelled."
-msgstr "A hitelesítés megszakadt."
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/usability/gamemode_dialog.py, line: 107
-msgid "Process failed. Check logs."
-msgstr "A folyamat meghiúsult. Ellenőrizze a naplókat."
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/usability/gamemode_dialog.py, line: 164
-msgid "Applied Optimizations"
-msgstr "Alkalmazott optimalizációk"
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/usability/gamemode_dialog.py, line: 165
-msgid "The following changes were applied to your system"
-msgstr "A következő változtatások kerültek alkalmazásra a rendszerében."
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/usability/gamemode_dialog.py, line: 167
-msgid "Restored Settings"
-msgstr "Visszaállított beállítások"
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/usability/gamemode_dialog.py, line: 168
-msgid "The following settings were restored"
-msgstr "A következő beállítások lettek visszaállítva"
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/usability/gamemode_dialog.py, line: 192
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/usability/gamemode_dialog.py, line: 259
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/usability/gamemode_dialog.py, line: 271
-msgid "Active"
-msgstr "Aktív"
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/usability/gamemode_dialog.py, line: 196
-msgid "All KWin effects disabled"
-msgstr "Minden KWin effekt letiltva"
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/usability/gamemode_dialog.py, line: 198
-msgid "OFF"
-msgstr "KI."
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/usability/gamemode_dialog.py, line: 201
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/usability/gamemode_dialog.py, line: 244
-msgid "Compositor"
-msgstr "Összeállító"
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/usability/gamemode_dialog.py, line: 202
-msgid "Low latency, tearing allowed, animations = 0"
-msgstr "Alacsony késleltetés, szakadás engedélyezve, animációk = 0"
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/usability/gamemode_dialog.py, line: 204
-msgid "Performance"
-msgstr "Teljesítmény"
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/usability/gamemode_dialog.py, line: 210
-msgid "Max Perf"
-msgstr "Max Teljesítmény"
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/usability/gamemode_dialog.py, line: 213
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/usability/gamemode_dialog.py, line: 256
-msgid "Baloo Indexer"
-msgstr "Baloo Indexelő"
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/usability/gamemode_dialog.py, line: 214
-msgid "File indexing suspended"
-msgstr "A fájlindexelés felfüggesztve"
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/usability/gamemode_dialog.py, line: 216
-msgid "Suspended"
-msgstr "Felfüggesztve"
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/usability/gamemode_dialog.py, line: 220
-msgid "PIM storage service stopped"
-msgstr "A PIM tároló szolgáltatás leállt"
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/usability/gamemode_dialog.py, line: 222
-msgid "Stopped"
-msgstr "Megállt"
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/usability/gamemode_dialog.py, line: 226
-msgid "Disk health monitoring unloaded"
-msgstr "Lemez állapotfigyelés leállítva"
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/usability/gamemode_dialog.py, line: 228
-msgid "Unloaded"
-msgstr "Betöltetlen"
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/usability/gamemode_dialog.py, line: 235
-msgid "Inactive"
-msgstr "Inaktív"
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/usability/gamemode_dialog.py, line: 239
-msgid "All KWin effects restored"
-msgstr "Minden KWin effekt visszaállítva"
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/usability/gamemode_dialog.py, line: 241
-msgid "ON"
-msgstr "BEKAPCSOLVA"
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/usability/gamemode_dialog.py, line: 245
-msgid "Balanced latency, animations restored"
-msgstr "Kiegyensúlyozott késleltetés, animációk helyreállítva"
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/usability/gamemode_dialog.py, line: 247
-msgid "Balanced"
-msgstr "Kiegyensúlyozott"
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/usability/gamemode_dialog.py, line: 251
-msgid "Restored to auto/balanced mode"
-msgstr "Visszaállítva automatikus/kiegyensúlyozott módra"
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/usability/gamemode_dialog.py, line: 253
-msgid "Auto"
-msgstr "Autó"
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/usability/gamemode_dialog.py, line: 257
-msgid "File indexing resumed"
-msgstr "A fájlindexelés folytatódott"
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/usability/gamemode_dialog.py, line: 263
-msgid "PIM storage service restored"
-msgstr "A PIM tároló szolgáltatás helyreállítva."
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/usability/gamemode_dialog.py, line: 265
-msgid "Restored"
-msgstr "Visszaállítva"
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/usability/gamemode_dialog.py, line: 269
-msgid "Disk health monitoring restored"
-msgstr "A lemez állapotának figyelése helyreállítva"
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/usability/gamemode_dialog.py, line: 174
-msgid "Configure Steam Games"
-msgstr "Steam játékok konfigurálása"
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/usability/gamemode_dialog.py, line: 324
-msgid "Missing Dependency"
-msgstr "Hiányzó függőség"
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/usability/gamemode_dialog.py, line: 325
-msgid "The 'vdf' module is required to configure Steam games. Do you want to install it now?"
-msgstr "A 'vdf' modul szükséges a Steam játékok konfigurálásához. Szeretné most telepíteni?"
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/usability/gamemode_dialog.py, line: 328
-msgid "Install"
-msgstr "Telepítés"
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/usability/gamemode_dialog.py, line: 341
-msgid "Installing vdf module..."
-msgstr "VDF modul telepítése..."
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/usability/gamemode_dialog.py, line: 364
-msgid "Module installed successfully!"
-msgstr "A modul sikeresen telepítve!"
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/usability/gamemode_dialog.py, line: 370
-msgid "Installation Failed"
-msgstr "Telepítés meghiúsult"
-# 
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings/ai_page.py, line: 28
 msgid "Artificial Intelligence"
 msgstr "Mesterséges Intelligencia"
 # 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/ai_page.py, line: 30
-msgid "AI settings and tools"
-msgstr "AI beállítások és eszközök"
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/ai_page.py, line: 15
+msgid "AI settings and tools."
+msgstr "AI beállítások és eszközök."
 # 
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings/ai_page.py, line: 36
 msgid "Generative AI for Krita"
@@ -1098,65 +516,24 @@ msgstr "ChatAI"
 msgid "A variety of chats like Plasmoid for your KDE Plasma desktop."
 msgstr "Különböző csevegések, mint a Plasmoid, a KDE Plasma asztali környezetedhez."
 # 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/ai_page.py, line: 59
-msgid "ChatAI Requirements"
-msgstr "ChatAI követelmények"
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/docker_page.py, line: 15
+msgid "Container service - enable to use containers below."
+msgstr "Konténer szolgáltatás - engedélyezze a konténerek használatát az alábbiakban."
 # 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/ai_page.py, line: 60
-msgid "This resource requires at least 16 GB of RAM and is not recommended for legacy computers."
-msgstr "Ez az erőforrás legalább 16 GB RAM-ot igényel, és nem ajánlott régi számítógépekhez."
+# #-#-#-#-#  biglinux-settings.pot (biglinux-settings)  #-#-#-#-#
 # 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/ai_page.py, line: 63
-msgid "Accept"
-msgstr "Elfogadom"
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 137
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/containers_page.py, line: 18
+msgid "Containers"
+msgstr "Tartályok"
 # 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/ai_page.py, line: 90
-msgid "Restart Plasma Shell"
-msgstr "Indítsa újra a Plasma Shell-t"
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/ai_page.py, line: 91
-msgid "To apply changes, it is recommended to restart Plasma Shell. Do you want to restart it now?"
-msgstr "A változtatások alkalmazásához ajánlott újraindítani a Plasma Shell-t. Szeretné most újraindítani?"
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_usability_page.py, line: 165
-msgid "No"
-msgstr "Nincs"
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_usability_page.py, line: 166
-msgid "Yes"
-msgstr "Igen"
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/ai_page.py, line: 59
-msgid "Disable Krita AI"
-msgstr "Krita AI letiltása"
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/ai_page.py, line: 60
-msgid "How do you want to disable/remove the plugin?"
-msgstr "Hogyan szeretné letiltani/eltávolítani a plugint?"
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/ai_page.py, line: 63
-msgid "Disable Only"
-msgstr "Csak letiltás"
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/ai_page.py, line: 64
-msgid "Remove Krita & Data"
-msgstr "Távolítsa el a Kritát és az adatokat."
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_usability_page.py, line: 204
-msgid "Docker"
-msgstr "Docker"
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/containers_page.py, line: 22
-msgid "Container service - enable to use containers below"
-msgstr "Konténer szolgáltatás - engedélyezze a konténerek használatát az alábbiakban"
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/docker_page.py, line: 23
+msgid "Manage container technologies."
+msgstr "Kezelje a konténertechnológiákat."
 # 
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_usability_page.py, line: 205
 msgid "Docker Enabled."
 msgstr "Docker engedélyezve."
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/containers_page.py, line: 20
-msgid "Manage container technologies"
-msgstr "Kezelje a konténertechnológiákat"
 # 
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings/containers_page.py, line: 35
 msgid "Nextcloud Plus"
@@ -1230,600 +607,9 @@ msgstr "V2RayA"
 msgid "V2RayA network tool."
 msgstr "V2RayA hálózati eszköz."
 # 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system/recent_files_dialog.py, line: 27
-msgid "Enabling Recent Files & Locations"
-msgstr "Legutóbbi fájlok és helyek engedélyezése"
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system/recent_files_dialog.py, line: 27
-msgid "Disabling Recent Files & Locations"
-msgstr "A legutóbbi fájlok és helyek letiltása"
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system/recent_files_dialog.py, line: 48
-msgid "Starting..."
-msgstr "Indulás..."
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system/recent_files_dialog.py, line: 130
-msgid "Starting process..."
-msgstr "Folyamat indítása..."
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system/recent_files_dialog.py, line: 187
-msgid "Operation was cancelled."
-msgstr "A műveletet törölték."
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system/recent_files_dialog.py, line: 194
-msgid "Process failed. Check details for more info."
-msgstr "A folyamat meghiúsult. Ellenőrizze a részleteket további információkért."
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system/recent_files_dialog.py, line: 203
-msgid "Recent Files & Locations Enabled"
-msgstr "Legutóbbi fájlok és helyek engedélyezve"
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system/recent_files_dialog.py, line: 206
-msgid "Recent Files & Locations Disabled"
-msgstr "Legutóbbi fájlok és helyek letiltva"
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system/recent_files_dialog.py, line: 223
-msgid "Important"
-msgstr "Fontos"
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system/recent_files_dialog.py, line: 231
-msgid "• To fully apply changes, restart your computer."
-msgstr "• A változtatások teljes érvényesítéséhez indítsa újra a számítógépét."
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system/recent_files_dialog.py, line: 237
-msgid ""
-"• Dolphin creates a visual cache. Close it completely and reopen for recent files/locations to "
-"appear."
-msgstr ""
-"• A Dolphin vizuális gyorsítótárat hoz létre. Zárja be teljesen, majd nyissa meg újra a legutóbbi "
-"fájlok/helyek megjelenítéséhez."
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/devices/jamesdsp_dialog.py, line: 18
-msgid "JamesDSP Preset Selector"
-msgstr "JamesDSP Előbeállítás Választó"
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/devices/jamesdsp_dialog.py, line: 34
-msgid "JamesDSP Presets"
-msgstr "JamesDSP Előbeállítások"
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/devices/jamesdsp_dialog.py, line: 64
-msgid "Refresh"
-msgstr "Frissítés"
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/devices/jamesdsp_dialog.py, line: 94
-msgid "Unknown error"
-msgstr "Ismeretlen hiba"
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/devices/jamesdsp_dialog.py, line: 96
-msgid "Error fetching presets"
-msgstr "Hiba a beállítások lekérésekor"
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/devices/jamesdsp_dialog.py, line: 100
-msgid "❌ Error loading presets"
-msgstr "❌ Hiba a beállítások betöltésekor"
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/devices/jamesdsp_dialog.py, line: 116
-msgid "No presets found"
-msgstr "Nincsenek előbeállítások."
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/devices/jamesdsp_dialog.py, line: 118
-msgid "No presets available"
-msgstr "Nincsenek elérhető előbeállítások"
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/devices/jamesdsp_dialog.py, line: 133
-msgid "Load {}"
-msgstr "Betöltés {}"
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/devices/jamesdsp_dialog.py, line: 139
-msgid "✅ Found {} presets"
-msgstr "✅ Talált {} előbeállítást"
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/devices/jamesdsp_dialog.py, line: 142
-msgid "JamesDSP not installed"
-msgstr "A JamesDSP nincs telepítve."
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/devices/jamesdsp_dialog.py, line: 144
-msgid "❌ JamesDSP not found"
-msgstr "❌ JamesDSP nem található"
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/devices/jamesdsp_dialog.py, line: 146
-msgid "Error: {}"
-msgstr "Hiba: {}"
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/devices/jamesdsp_dialog.py, line: 148
-msgid "❌ Error"
-msgstr "❌ Hiba"
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/devices/jamesdsp_dialog.py, line: 185
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/devices/jamesdsp_dialog.py, line: 198
-msgid "Error"
-msgstr "Hiba"
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/devices/jamesdsp_dialog.py, line: 186
-msgid ""
-"Failed to load preset:\n"
-"\n"
-"{}"
-msgstr ""
-"A beállítások betöltése nem sikerült:\n"
-"\n"
-"{}"
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/devices/jamesdsp_dialog.py, line: 191
-msgid "Success"
-msgstr "Siker"
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/devices/jamesdsp_dialog.py, line: 192
-msgid "Preset '{}' loaded successfully!"
-msgstr "A(z) '{}' előbeállítás sikeresen betöltve!"
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/devices/jamesdsp_dialog.py, line: 194
-msgid "Preset '{}' loaded"
-msgstr "A '{}' előbeállítás betöltve"
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/devices/jamesdsp_dialog.py, line: 199
-msgid ""
-"Exception loading preset:\n"
-"{}"
-msgstr ""
-"Kivétel a beállítás betöltésekor:  \n"
-"{}"
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/devices/jamesdsp_dialog.py, line: 208
-msgid "OK"
-msgstr "Rendben"
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/devices/keyboard_led_dialog.py, line: 38
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/devices/keyboard_led_dialog.py, line: 117
-msgid "LED Master"
-msgstr "LED Mester"
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/devices/keyboard_led_dialog.py, line: 122
-msgid "Advanced Keyboard LED Control"
-msgstr "Fejlett billentyűzet LED vezérlés"
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/devices/keyboard_led_dialog.py, line: 129
-msgid ""
-"This wizard will help you configure your keyboard LED.\n"
-"\n"
-"We will:\n"
-"• Detect available LED devices\n"
-"• Test each device to find your keyboard LED\n"
-"• Configure options like hotkeys and autostart"
-msgstr ""
-"Ez a varázsló segít a billentyűzet LED-jének konfigurálásában.\n"
-"\n"
-"Mi fogunk:\n"
-"• Észlelni a rendelkezésre álló LED-eszközöket\n"
-"• Tesztelni minden eszközt, hogy megtaláljuk a billentyűzet LED-jét\n"
-"• Konfigurálni az olyan opciókat, mint a gyorsbillentyűk és az automatikus indítás"
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/devices/keyboard_led_dialog.py, line: 142
-msgid "Session: {}"
-msgstr "Munkamenet: {}"
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/devices/keyboard_led_dialog.py, line: 110
-msgid "Start Configuration"
-msgstr "Kezdő konfiguráció"
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/devices/keyboard_led_dialog.py, line: 174
-msgid "Did the LED turn on?"
-msgstr "Bekapcsolt a LED?"
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/devices/keyboard_led_dialog.py, line: 223
-msgid "No, try next"
-msgstr "Nincs, próbáld meg a következőt."
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/devices/keyboard_led_dialog.py, line: 229
-msgid "Yes, this is my LED!"
-msgstr "Igen, ez az én LED-em!"
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/devices/keyboard_led_dialog.py, line: 242
-msgid "Additional Options"
-msgstr "További lehetőségek"
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/devices/keyboard_led_dialog.py, line: 249
-msgid "Settings"
-msgstr "Beállítások"
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/devices/keyboard_led_dialog.py, line: 254
-msgid "Apply Scroll Lock Fix"
-msgstr "Alkalmazza a Scroll Lock javítást"
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/devices/keyboard_led_dialog.py, line: 255
-msgid "Fix for keyboards where Scroll Lock doesn't work properly (xmodmap)"
-msgstr "Javítás azokhoz a billentyűzetekhez, ahol a Scroll Lock nem működik megfelelően (xmodmap)"
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/devices/keyboard_led_dialog.py, line: 260
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/devices/keyboard_led_dialog.py, line: 285
-msgid "Only available on X11 sessions"
-msgstr "Csak X11 munkamenetekben érhető el"
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/devices/keyboard_led_dialog.py, line: 266
-msgid "Start with System"
-msgstr "Kezdje a Rendszerrel"
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/devices/keyboard_led_dialog.py, line: 267
-msgid "Turn on LED automatically when you log in"
-msgstr "Kapcsolja be az LED-et automatikusan, amikor bejelentkezik."
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/devices/keyboard_led_dialog.py, line: 274
-msgid "Keyboard Shortcut"
-msgstr "Billentyűparancs"
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/devices/keyboard_led_dialog.py, line: 279
-msgid "Toggle LED Hotkey"
-msgstr "LED gyorsbillentyű váltása"
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/devices/keyboard_led_dialog.py, line: 280
-msgid "Press a key to toggle the LED on/off"
-msgstr "Nyomjon meg egy gombot az LED be-/kikapcsolásához."
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/devices/keyboard_led_dialog.py, line: 288
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/devices/keyboard_led_dialog.py, line: 677
-msgid "Not set"
-msgstr "Nincs beállítva"
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/devices/keyboard_led_dialog.py, line: 297
-msgid "Set hotkey"
-msgstr "Állítsa be a gyorsbillentyűt"
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/devices/keyboard_led_dialog.py, line: 311
-msgid "Back"
-msgstr "Vissza"
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/devices/keyboard_led_dialog.py, line: 316
-msgid "Finish Configuration"
-msgstr "Befejezés konfigurálása"
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/devices/keyboard_led_dialog.py, line: 336
-msgid "Press the desired key"
-msgstr "Nyomja meg a kívánt billentyűt"
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/devices/keyboard_led_dialog.py, line: 342
-msgid ""
-"A small window will appear.\n"
-"Click on it and press the key you want to use\n"
-"to toggle the LED on/off."
-msgstr ""
-"Egy kis ablak fog megjelenni. Kattints rá, és nyomd meg azt a billentyűt, amelyet használni "
-"szeretnél az LED be- és kikapcsolásához."
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/devices/keyboard_led_dialog.py, line: 357
-msgid "Waiting..."
-msgstr "Várakozás..."
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/devices/keyboard_led_dialog.py, line: 177
-msgid "Configuration Complete!"
-msgstr "A konfiguráció befejeződött!"
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/devices/keyboard_led_dialog.py, line: 419
-msgid "Your keyboard LED is now configured and ready to use."
-msgstr "A billentyűzet LED-je most be van állítva és készen áll a használatra."
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/devices/keyboard_led_dialog.py, line: 197
-msgid "Done"
-msgstr "Készen van"
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/devices/keyboard_led_dialog.py, line: 197
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/devices/keyboard_led_dialog.py, line: 218
-msgid "No Compatible Device Found"
-msgstr "Nincs kompatibilis eszköz."
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/devices/keyboard_led_dialog.py, line: 456
-msgid ""
-"Could not find a compatible keyboard LED device.\n"
-"\n"
-"Troubleshooting tips:\n"
-"• Make sure your keyboard has LED support\n"
-"• Install brightnessctl: sudo pacman -S brightnessctl\n"
-"• On X11, xset is also used to control LEDs\n"
-"• Try running: brightnessctl -l"
-msgstr ""
-"Nem található kompatibilis billentyűzet LED eszköz.\n"
-"\n"
-"Hibaelhárítási tippek:\n"
-"• Győződjön meg arról, hogy a billentyűzete támogatja a LED-et\n"
-"• Telepítse a brightnessctl-t: sudo pacman -S brightnessctl\n"
-"• X11 alatt az xset is használható a LED-ek vezérlésére\n"
-"• Próbálja futtatni: brightnessctl -l"
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/devices/keyboard_led_dialog.py, line: 520
-msgid "Method: {}"
-msgstr "Módszer: {}"
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/devices/keyboard_led_dialog.py, line: 521
-msgid "Testing {} of {}"
-msgstr "Tesztelés {} a {}-ból"
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/devices/keyboard_led_dialog.py, line: 586
-msgid "Launching capture window..."
-msgstr "Rögzítési ablak indítása..."
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/devices/keyboard_led_dialog.py, line: 607
-msgid "Key captured!"
-msgstr "A kulcs rögzítve!"
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/devices/keyboard_led_dialog.py, line: 622
-msgid "No key detected"
-msgstr "Nincs észlelve kulcs"
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/devices/keyboard_led_dialog.py, line: 626
-msgid "Timeout - no key pressed"
-msgstr "Időtúllépés - nincs megnyomott billentyű"
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/devices/keyboard_led_dialog.py, line: 630
-msgid "Error capturing hotkey"
-msgstr "Hibás billentyűparancs rögzítése"
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/devices/keyboard_led_dialog.py, line: 670
-msgid "Device: {}"
-msgstr "Eszköz: {}"
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/devices/keyboard_led_dialog.py, line: 674
-msgid "Autostart enabled"
-msgstr "Automatikus indítás engedélyezve"
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/devices/keyboard_led_dialog.py, line: 676
-msgid "Scroll Lock fix applied"
-msgstr "Scroll Lock javítás alkalmazva"
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/devices/keyboard_led_dialog.py, line: 678
-msgid "Hotkey configured"
-msgstr "Gyorsbillentyű beállítva"
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/devices/keyboard_led_dialog.py, line: 680
-msgid "No additional options"
-msgstr "Nincsenek további lehetőségek."
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/devices/keyboard_led_dialog.py, line: 732
-msgid "LED Control"
-msgstr "LED vezérlés"
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/devices/keyboard_led_dialog.py, line: 753
-msgid "Reconfigure"
-msgstr "Átállítás"
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/devices/keyboard_led_dialog.py, line: 774
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/devices/keyboard_led_dialog.py, line: 845
-msgid "LED is OFF"
-msgstr "A LED ki van kapcsolva"
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/devices/keyboard_led_dialog.py, line: 785
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/devices/keyboard_led_dialog.py, line: 846
-msgid "Turn ON"
-msgstr "Kapcsolja be"
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/devices/keyboard_led_dialog.py, line: 838
-msgid "LED is ON"
-msgstr "A LED be van."
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/devices/keyboard_led_dialog.py, line: 839
-msgid "Turn OFF"
-msgstr "Kapcsolja ki"
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 107
-msgid "Usability"
-msgstr "Használhatóság"
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_usability_page.py, line: 104
-msgid "User and Visual system settings"
-msgstr "Felhasználói és vizuális rendszerbeállítások"
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 114
-msgid "NumLock"
-msgstr "NumLock"
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 115
-msgid "Initial NumLock state. Ignored if autologin is enabled."
-msgstr "Kezdő NumLock állapot. Figyelmen kívül hagyva, ha az automatikus bejelentkezés engedélyezve van."
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 131
-msgid "Window Button On Left Side"
-msgstr "Ablak gomb bal oldalon"
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 132
-msgid "Maximize, minimize, and close buttons on the left side of the window."
-msgstr "Ablak bal oldalán található maximalizálás, minimalizálás és bezárás gombok."
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_usability_page.py, line: 133
-msgid "SSH until next reboot"
-msgstr "SSH a következő újraindításig"
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 133
-msgid "Enable remote access via ssh until next boot."
-msgstr "Engedélyezze a távoli hozzáférést ssh-n keresztül a következő indításig."
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_usability_page.py, line: 72
-msgid "KZones"
-msgstr "KZones"
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_usability_page.py, line: 73
-msgid "Script for the KWin window manager of the KDE Plasma desktop environment"
-msgstr "A KDE Plasma asztali környezet KWin ablakkezelőjének scriptje"
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_usability_page.py, line: 83
-msgid "This feature is only available for KDE Plasma."
-msgstr "Ez a funkció csak a KDE Plasma számára érhető el."
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_usability_page.py, line: 94
-msgid "Game Mode Booster"
-msgstr "Játék Mód Fokozó"
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_usability_page.py, line: 95
-msgid ""
-"Combination of daemon and library that allows games to request a set of optimizations be "
-"temporarily applied to the operating system and/or the game process."
-msgstr ""
-"A daemon és könyvtár kombinációja, amely lehetővé teszi a játékok számára, hogy kérjenek egy sor "
-"optimalizálás ideiglenes alkalmazását az operációs rendszeren és/vagy a játékfolyamaton."
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_usability_page.py, line: 104
-msgid "Instructions"
-msgstr "Utasítások"
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 109
-msgid "General system settings"
-msgstr "Általános rendszerbeállítások"
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_usability_page.py, line: 147
-msgid "SSH always on"
-msgstr "SSH mindig be van kapcsolva"
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 149
-msgid "Turn on ssh remote access at boot."
-msgstr "Kapcsolja be az SSH távoli hozzáférést indításkor."
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 162
-msgid "Fast Grub"
-msgstr "Gyors Grub"
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 163
-msgid "Decreases grub display time."
-msgstr "Csökkenti a grub megjelenítési időt."
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 170
-msgid "Auto-mount Partitions"
-msgstr "Automatikus csatolás partíciók"
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 171
-msgid "Auto mount partitions in internal disks on boot."
-msgstr "Automatikus partíciók csatolása a belső lemezeken indításkor."
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_usability_page.py, line: 169
-msgid "Meltdown Mitigations off"
-msgstr "Meltdown mérséklések kikapcsolva"
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_usability_page.py, line: 170
-#, python-brace-format
-msgid ""
-"Using mitigations=off will make your machine faster and less secure! For more information see: <a "
-"href='{link}'>{link}</a>"
-msgstr ""
-"A mitigációk kikapcsolása gyorsabbá és kevésbé biztonsossá teszi a gépét! További információért "
-"lásd: <a href='{link}'>{link}</a>"
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_usability_page.py, line: 176
-msgid "noWatchdog"
-msgstr "nincsFelügyelő"
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_usability_page.py, line: 177
-msgid ""
-"Disables the hardware watchdog and TSC clocksource systems, maintaining high performance but "
-"removing automatic protections against system crashes."
-msgstr ""
-"Letiltja a hardveres figyelő és a TSC óraforrás rendszereket, fenntartva a magas teljesítményt, de "
-"eltávolítva az automatikus védelmet a rendszerösszeomlások ellen."
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_usability_page.py, line: 169
-msgid "Recent Files & Locations"
-msgstr "Legutóbbi fájlok és helyek"
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_usability_page.py, line: 170
-msgid ""
-"Restores the 'Recent Files' and 'Recent Locations' functionality that appears empty in Dolphin and "
-"the Application Menu."
-msgstr ""
-"Visszaállítja a 'Legutóbbi fájlok' és 'Legutóbbi helyek' funkciót, amely üresen jelenik meg a "
-"Dolphinban és az Alkalmazásmenüben."
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_usability_page.py, line: 273
-msgid "Failed to change Recent Files & Locations setting."
-msgstr "A Legutóbbi fájlok és helyek beállításának módosítása nem sikerült."
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_usability_page.py, line: 162
-msgid "Restart KWin?"
-msgstr "KWin újraindítása?"
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_usability_page.py, line: 163
-msgid "To apply the changes, the KWin window manager needs to be restarted. Do you want to restart it now?"
-msgstr "A változtatások alkalmazásához a KWin ablakkezelőt újra kell indítani. Szeretné most újraindítani?"
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_usability_page.py, line: 14
-msgid "User and Visual system settings."
-msgstr "Felhasználói és vizuális rendszerbeállítások."
-# 
-# #-#-#-#-#  biglinux-settings.pot (biglinux-settings)  #-#-#-#-#
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/ai_page.py, line: 32
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_usability_page.py, line: 50
-msgid "Script for the KWin window manager of the KDE Plasma desktop environment."
-msgstr "A KWin ablakkezelőhöz készült script a KDE Plasma asztali környezethez."
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_page.py, line: 26
-msgid "General system settings."
-msgstr "Általános rendszerbeállítások."
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_usability_page.py, line: 113
-#, python-brace-format
-msgid ""
-"Using mitigations=off will make your machine faster and less secure! For more information see: <a "
-"href='{l}'>{l}</a>"
-msgstr ""
-"A mitigációk kikapcsolása gyorsabbá és kevésbé biztonsossá teszi a gépét! További információért "
-"lásd: <a href='{l}'>{l}</a>"
-# 
-# #-#-#-#-#  biglinux-settings.pot (biglinux-settings)  #-#-#-#-#
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/preload_page.py, line: 284
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_usability_page.py, line: 334
-msgid "Indicator {} synchronized: {}"
-msgstr "A {} szinkronizálva: {}"
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/devices_page.py, line: 15
-msgid "Manage physical devices."
-msgstr "Fizikai eszközök kezelése."
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/devices_page.py, line: 62
-msgid "Keyboard LED"
-msgstr "Billentyűzet LED"
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/devices_page.py, line: 71
-msgid "Reverse mouse scrolling"
-msgstr "Fordított egér görgetés"
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/devices_page.py, line: 72
-msgid "Reverse mouse scrolling without restarting the session."
-msgstr "Az egér görgetésének megfordítása a munkamenet újraindítása nélkül."
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 49
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 120
-msgid "BigLinux Settings"
-msgstr "BigLinux Beállítások"
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 135
-msgid "Categories"
-msgstr "Kategóriák"
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 144
-msgid "Search..."
-msgstr "Keresés..."
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 158
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 167
-msgid "PreLoad"
-msgstr "Előbetöltés"
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 161
-msgid "A.I."
-msgstr "Mesterséges intelligencia."
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 166
-msgid "Performance and Games"
-msgstr "Teljesítmény és Játékok"
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/ai_page.py, line: 15
-msgid "AI settings and tools."
-msgstr "AI beállítások és eszközök."
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/docker_page.py, line: 15
-msgid "Container service - enable to use containers below."
-msgstr "Konténer szolgáltatás - engedélyezze a konténerek használatát az alábbiakban."
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/docker_page.py, line: 23
-msgid "Manage container technologies."
-msgstr "Kezelje a konténertechnológiákat."
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/usability/gamemode_dialog.py, line: 204
+msgid "Performance"
+msgstr "Teljesítmény"
 # 
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings/performance_games_page.py, line: 16
 msgid "BigLinux performance tweaks."
@@ -1833,11 +619,30 @@ msgstr "BigLinux teljesítményjavítások."
 msgid "Games Booster"
 msgstr "Játékok gyorsítója"
 # 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_usability_page.py, line: 95
+msgid ""
+"Combination of daemon and library that allows games to request a set of optimizations be "
+"temporarily applied to the operating system and/or the game process."
+msgstr ""
+"A daemon és könyvtár kombinációja, amely lehetővé teszi a játékok számára, hogy kérjenek egy sor "
+"optimalizálás ideiglenes alkalmazását az operációs rendszeren és/vagy a játékfolyamaton."
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/usability/gamemode_config_dialog.py, line: 91
+msgid "Disable Visual Effects"
+msgstr "Visualis hatások letiltása"
+# 
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings/performance_games_page.py, line: 35
 msgid "Disables KWin visual effects (blur, shadows, animations). Reduces GPU load and frees memory."
 msgstr ""
 "Letiltja a KWin vizuális effektusait (elmosódás, árnyékok, animációk). Csökkenti a GPU terhelését "
 "és felszabadítja a memóriát."
+# 
+# #-#-#-#-#  biglinux-settings.pot (biglinux-settings)  #-#-#-#-#
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/usability/kwin_ram_dialog.py, line: 109
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/usability/gamemode_config_dialog.py, line: 100
+msgid "Compositor Settings"
+msgstr "Kompozitor Beállítások"
 # 
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings/performance_games_page.py, line: 43
 msgid ""
@@ -1857,6 +662,14 @@ msgstr ""
 "Maximális processzor teljesítmény módra kényszerít. Biztosítja, hogy a processzor a maximális "
 "frekvenciát használja."
 # 
+# #-#-#-#-#  biglinux-settings.pot (biglinux-settings)  #-#-#-#-#
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/usability/gamemode_config_dialog.py, line: 109
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/usability/gamemode_dialog.py, line: 207
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/usability/gamemode_dialog.py, line: 250
+msgid "GPU Maximum Performance"
+msgstr "GPU Maximális Teljesítmény"
+# 
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings/performance_games_page.py, line: 59
 msgid "Forces maximum GPU performance mode (NVIDIA/AMD). Ensures the graphics card uses maximum frequency."
 msgstr ""
@@ -1871,13 +684,29 @@ msgstr "Baloo indexert letiltása"
 msgid "Disables the Baloo file indexer. Avoids disk I/O overhead."
 msgstr "Letiltja a Baloo fájlindexelőt. Elkerüli a lemez I/O terhelést."
 # 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/usability/gamemode_config_dialog.py, line: 127
+msgid "Stop Akonadi Server"
+msgstr "Állítsa le az Akonadi szervert"
+# 
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings/performance_games_page.py, line: 75
 msgid "Stops the PIM data server (Kontact/Thunderbird). Reduces memory and disk overhead."
 msgstr "Megállítja a PIM adat szervert (Kontact/Thunderbird). Csökkenti a memória- és lemezterhelést."
 # 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/usability/gamemode_config_dialog.py, line: 136
+msgid "Unload S.M.A.R.T Monitor"
+msgstr "S.M.A.R.T Monitor kiürítése"
+# 
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings/performance_games_page.py, line: 83
 msgid "Disables S.M.A.R.T disk monitoring. Reduces disk I/O and CPU usage."
 msgstr "Letiltja a S.M.A.R.T lemezfigyelést. Csökkenti a lemez I/O és a CPU használatát."
+# 
+# #-#-#-#-#  biglinux-settings.pot (biglinux-settings)  #-#-#-#-#
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/usability/gamemode_config_dialog.py, line: 82
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/usability/gamemode_dialog.py, line: 189
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/usability/gamemode_dialog.py, line: 232
+msgid "GameMode Daemon"
+msgstr "Játékmód Daemon"
 # 
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings/performance_games_page.py, line: 94
 msgid "Activates daemon that adjusts CPU, I/O, etc. Reduces latency and increases frame rate."

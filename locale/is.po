@@ -14,54 +14,6 @@ msgstr ""
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "X-Generator: attranslate\n"
-msgid "Applying, please wait..."
-msgstr "Beiðni í gangi, vinsamlegast bíða..."
-msgid "Installing $package"
-msgstr "Installing $package"
-msgid "Installing $package, Please wait..."
-msgstr "Installing $package, Vinsamlegast bíða..."
-msgid "Removing $package"
-msgstr "Að fjarlægja $package"
-msgid "Removing $package, Please wait..."
-msgstr "Fjarlægja $package, Vinsamlegast bíða..."
-msgid "$package installed successfully!"
-msgstr "Pakkinn var settur upp með góðum árangri!"
-msgid "$package removed successfully!"
-msgstr "Pakkinn var fjarlægður með góðum árangri!"
-msgid "An error occurred with $package."
-msgstr "Villa kom upp með $package."
-msgid "GRUB updated successfully!"
-msgstr "GRUB uppfært með góðum árangri!"
-msgid "An error occurred while updating GRUB."
-msgstr "Við uppfærslu á GRUB kom upp villa."
-msgid ""
-"GRUB updated successfully!\\n"
-"Restart your computer for it to take effect."
-msgstr ""
-"GRUB uppfært með góðum árangri!\\n"
-"Endurræstu tölvuna þína til að það taki gildi."
-msgid "Already disabled. No changes made."
-msgstr "Nú þegar óvirkt. Engar breytingar gerðar."
-msgid "Limits updated successfully!"
-msgstr "Takmarka uppfærð með góðum árangri!"
-msgid "An error occurred while updating Limits."
-msgstr "Villa kom uppsökt við að uppfæra takmarkanir."
-msgid "Docker Install"
-msgstr "Docker Uppsetning"
-msgid "Instaling Docker, Please wait..."
-msgstr "Instalering Docker, Vinsamlegast bíða..."
-msgid "Docker Start"
-msgstr "Docker Byrjaðu"
-msgid "Docker Starting, Please wait..."
-msgstr "Docker er að byrja, vinsamlegast bíða..."
-msgid "Docker Stop"
-msgstr "Docker Stöðva"
-msgid "Docker Stopping, Please wait..."
-msgstr "Docker Stöðva, Vinsamlegast bíða..."
-msgid "Docker installed successfully!"
-msgstr "Docker var sett upp með góðum árangri!"
-msgid "An error occurred while install docker."
-msgstr "Villa kom að uppsetningu docker."
 msgid "Krita Install"
 msgstr "Krita Uppsetning"
 msgid "Instaling Krita, Please wait..."
@@ -88,6 +40,14 @@ msgstr ""
 "Í glugganum sem opnast neðst til hægri.\\n"
 "Smelltu á Stilltu > Stýrður staðbundinn þjónn, veldu GPU eða CPU, veldu líkanið í Vinnslum og "
 "smelltu á Setja upp."
+msgid "Installing $package"
+msgstr "Installing $package"
+msgid "Installing $package, Please wait..."
+msgstr "Installing $package, Vinsamlegast bíða..."
+msgid "Removing $package"
+msgstr "Að fjarlægja $package"
+msgid "Removing $package, Please wait..."
+msgstr "Fjarlægja $package, Vinsamlegast bíða..."
 msgid ""
 "$title installed successfully!\\n"
 "\\n"
@@ -96,6 +56,26 @@ msgstr ""
 "$title varinnstallerast með góðum árangri!\\n"
 "\\n"
 "Stillt á porti $port, til að aðgangs nota $url"
+msgid "$package removed successfully!"
+msgstr "Pakkinn var fjarlægður með góðum árangri!"
+msgid "An error occurred with $package."
+msgstr "Villa kom upp með $package."
+msgid "Docker Install"
+msgstr "Docker Uppsetning"
+msgid "Instaling Docker, Please wait..."
+msgstr "Instalering Docker, Vinsamlegast bíða..."
+msgid "Docker Start"
+msgstr "Docker Byrjaðu"
+msgid "Docker Starting, Please wait..."
+msgstr "Docker er að byrja, vinsamlegast bíða..."
+msgid "Docker Stop"
+msgstr "Docker Stöðva"
+msgid "Docker Stopping, Please wait..."
+msgstr "Docker Stöðva, Vinsamlegast bíða..."
+msgid "Docker installed successfully!"
+msgstr "Docker var sett upp með góðum árangri!"
+msgid "An error occurred while install docker."
+msgstr "Villa kom að uppsetningu docker."
 msgid "GameMode Install"
 msgstr "Leikjaskipulag Uppsetning"
 msgid "Instaling GameMode, Please wait..."
@@ -124,6 +104,24 @@ msgid "Instaling Kzones, Please wait..."
 msgstr "Installing Kzones, Vinsamlegast bíða..."
 msgid "Kzones installed successfully!"
 msgstr "Kzones var sett upp með góðum árangri!"
+msgid "Applying, please wait..."
+msgstr "Beiðni í gangi, vinsamlegast bíða..."
+msgid "GRUB updated successfully!"
+msgstr "GRUB uppfært með góðum árangri!"
+msgid "An error occurred while updating GRUB."
+msgstr "Við uppfærslu á GRUB kom upp villa."
+msgid ""
+"GRUB updated successfully!\\n"
+"Restart your computer for it to take effect."
+msgstr ""
+"GRUB uppfært með góðum árangri!\\n"
+"Endurræstu tölvuna þína til að það taki gildi."
+msgid "Already disabled. No changes made."
+msgstr "Nú þegar óvirkt. Engar breytingar gerðar."
+msgid "Limits updated successfully!"
+msgstr "Takmarka uppfærð með góðum árangri!"
+msgid "An error occurred while updating Limits."
+msgstr "Villa kom uppsökt við að uppfæra takmarkanir."
 msgid "JamesDSP Install"
 msgstr "JamesDSP Uppsetning"
 msgid "Instaling JamesDSP, Please wait..."
@@ -133,288 +131,134 @@ msgstr "JamesDSP var sett upp með góðum árangri!"
 msgid "Failed to install jamesDSP!"
 msgstr "Ekki tókst að setja upp jamesDSP!"
 # 
-# #-#-#-#-#  biglinux-settings.pot (biglinux-settings)  #-#-#-#-#
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/devices/jamesdsp_dialog.py, line: 208
 # 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/dispositivos_page.py, line: 25
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 116
-msgid "Devices"
-msgstr "Tæki"
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/devices/jamesdsp_dialog.py, line: 208
 # 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/dispositivos_page.py, line: 27
-msgid "Manage physical devices"
-msgstr "Stjórna líkamlegum tækjum"
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/devices/jamesdsp_dialog.py, line: 208
 # 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_usability_page.py, line: 190
-msgid "Wifi"
-msgstr "Wifi"
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/devices/jamesdsp_dialog.py, line: 208
 # 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_usability_page.py, line: 191
-msgid "Wifi On"
-msgstr "Wifi Kveikt"
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/devices/jamesdsp_dialog.py, line: 208
 # 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_usability_page.py, line: 197
-msgid "Bluetooth"
-msgstr "Bluetooth"
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/devices/jamesdsp_dialog.py, line: 208
 # 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_usability_page.py, line: 198
-msgid "Bluetooth On."
-msgstr "Bluetooth kveikt."
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 107
+msgid "Usability"
+msgstr "Notkunarhæfi"
 # 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/dispositivos_page.py, line: 56
-msgid "Invert Mouse Scroll"
-msgstr "snúa músar skrolli"
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_usability_page.py, line: 14
+msgid "User and Visual system settings."
+msgstr "Notandi og sjónkerfisstillingar."
 # 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/dispositivos_page.py, line: 57
-msgid "Inverts mouse scrolling without restarting the session."
-msgstr "Snýr músar skrollun við án þess að endurræsa sessjónina."
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 114
+msgid "NumLock"
+msgstr "Tölvulásar"
 # 
-# #-#-#-#-#  biglinux-settings.pot (biglinux-settings)  #-#-#-#-#
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 115
+msgid "Initial NumLock state. Ignored if autologin is enabled."
+msgstr "Upprunalegt NumLock ástand. Hunsað ef sjálfvirk innskráning er virkjuð."
 # 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/dispositivos_page.py, line: 77
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/devices/jamesdsp_dialog.py, line: 155
-msgid "JamesDSP"
-msgstr "JamesDSP"
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 131
+msgid "Window Button On Left Side"
+msgstr "Gluggi hnappur vinstra megin"
 # 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/dispositivos_page.py, line: 84
-msgid "Advanced audio effects processor that improves sound quality."
-msgstr "Vanda hljóðáhrifavinnsla sem bætir hljóðgæði."
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 132
+msgid "Maximize, minimize, and close buttons on the left side of the window."
+msgstr "Maksimera, lágmarka og loka hnappana vinstra megin í glugganum."
 # 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/dispositivos_page.py, line: 137
-msgid "Keyboard with LED"
-msgstr "Tangentbord með LED."
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_usability_page.py, line: 133
+msgid "SSH until next reboot"
+msgstr "SSH þar til næsta endurræsingu"
 # 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/dispositivos_page.py, line: 144
-msgid "If your keyboard has LED you can enable this feature to turn it on with the system."
-msgstr "Ef lyklaborðið þitt hefur LED geturðu virkjað þessa eiginleika til að kveikja á því með kerfinu."
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 133
+msgid "Enable remote access via ssh until next boot."
+msgstr "Virkja fjartengingu í gegnum ssh þar til næsta ræs."
 # 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/dispositivos_page.py, line: 166
-msgid "Reconfigure LED device"
-msgstr "Endurhanna LED tæki"
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/dispositivos_page.py, line: 237
-msgid "Error opening configuration dialog"
-msgstr "Villa að opna stillingarglugga"
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/dispositivos_page.py, line: 140
-msgid "Error starting JamesDSP daemon"
-msgstr "Villa við að hefja JamesDSP þjón."
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/dispositivos_page.py, line: 145
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/dispositivos_page.py, line: 171
-msgid "JamesDSP Not Running"
-msgstr "JamesDSP ekki í gangi"
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/dispositivos_page.py, line: 146
-msgid "JamesDSP daemon is not currently running. Would you like to start it?"
-msgstr "JamesDSP daemoni er ekki að keyra í augnablikinu. Viltu byrja það?"
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_usability_page.py, line: 72
+msgid "KZones"
+msgstr "KZones"
 # 
 # #-#-#-#-#  biglinux-settings.pot (biglinux-settings)  #-#-#-#-#
 # 
-# #-#-#-#-#  biglinux-settings.pot (biglinux-settings)  #-#-#-#-#
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/ai_page.py, line: 32
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_usability_page.py, line: 50
+msgid "Script for the KWin window manager of the KDE Plasma desktop environment."
+msgstr "Skrá fyrir KWin gluggastjóra KDE Plasma skrifborðsumhverfisins."
 # 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/dispositivos_page.py, line: 148
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/dispositivos_page.py, line: 304
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/dispositivos_page.py, line: 400
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/ai/krita_ai_dialog.py, line: 61
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/ai/krita_ai_dialog.py, line: 115
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/ai_page.py, line: 62
-msgid "Cancel"
-msgstr "Hætta við"
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_usability_page.py, line: 169
+msgid "Recent Files & Locations"
+msgstr "Nýleg skjöl og staðsetningar"
 # 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/dispositivos_page.py, line: 149
-msgid "Start JamesDSP"
-msgstr "Byrjaðu JamesDSP"
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/dispositivos_page.py, line: 172
-msgid "JamesDSP daemon is not currently running. Would you like to start it first?"
-msgstr "JamesDSP daemón er ekki að keyra í augnablikinu. Viltu byrja á því að ræsa það fyrst?"
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/dispositivos_page.py, line: 174
-msgid "No, Turn Off Switch"
-msgstr "Nei, slökktu á rofanum"
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/dispositivos_page.py, line: 175
-msgid "Yes, Start JamesDSP"
-msgstr "Já, byrjaðu JamesDSP"
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/dispositivos_page.py, line: 247
-msgid "JamesDSP Installed"
-msgstr "JamesDSP uppsettur"
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/dispositivos_page.py, line: 248
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_usability_page.py, line: 170
 msgid ""
-"JamesDSP has been successfully installed.\n"
-"\n"
-"Would you like to open the application interface now to configure it?\n"
-"(You can also configure it later via the presets list)"
-msgstr ""
-"JamesDSP hefur verið settur upp með góðum árangri.\n"
-"\n"
-"Viltu opna forritaviðmótið núna til að stilla það?\n"
-"(Þú getur einnig stillt það síðar í gegnum forsniðalistann)"
+"Restores the 'Recent Files' and 'Recent Locations' functionality that appears empty in Dolphin and "
+"the Application Menu."
+msgstr "Endurðar virkni 'Nýleg skjöl' og 'Nýleg staðsetningar' sem virðist tóm í Dolphin og forritaskránni."
 # 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/dispositivos_page.py, line: 250
-msgid "No, Show Presets"
-msgstr "Nei, Sýna Forsetningar"
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 108
+msgid "System"
+msgstr "Kerfi"
 # 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/dispositivos_page.py, line: 251
-msgid "Yes, Open App"
-msgstr "Já, Opna forrit"
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_page.py, line: 26
+msgid "General system settings."
+msgstr "Almennar kerfisskilyrði."
 # 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/dispositivos_page.py, line: 301
-msgid "Disable JamesDSP"
-msgstr "Slökkva á JamesDSP"
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_usability_page.py, line: 147
+msgid "SSH always on"
+msgstr "SSH alltaf á"
 # 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/dispositivos_page.py, line: 302
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 149
+msgid "Turn on ssh remote access at boot."
+msgstr "Sláðu inn ssh fjarstýringu við ræsingu."
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 162
+msgid "Fast Grub"
+msgstr "Fast Grub"
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 163
+msgid "Decreases grub display time."
+msgstr "Minnkar sýnistíma grub."
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 170
+msgid "Auto-mount Partitions"
+msgstr "Sjálfvirk uppsetning skiptiskipta"
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 171
+msgid "Auto mount partitions in internal disks on boot."
+msgstr "Sjálfvirk uppsetning á skiptum í innri diskum við ræsingu."
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_usability_page.py, line: 169
+msgid "Meltdown Mitigations off"
+msgstr "Meltdown Mitigations slökkt"
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_usability_page.py, line: 113
+#, python-brace-format
 msgid ""
-"Choose how to disable JamesDSP:\n"
-"\n"
-"• Just Disable: Sets master_enable=false (keeps installed)\n"
-"• Remove Completely: Uninstalls package and deletes all configuration files"
+"Using mitigations=off will make your machine faster and less secure! For more information see: <a "
+"href='{l}'>{l}</a>"
 msgstr ""
-"Veldu hvernig á að slökkva á JamesDSP:\n"
-"\n"
-"• Bara slökkva: Stillir master_enable=false (heldur uppsett)\n"
-"• Fjarlægja alveg: Afinstallerar pakka og eyðir öllum stillingaskrám"
+"Að nota mitigations=off mun gera vélina þína hraðari en minna örugga! Fyrir frekari upplýsingar, "
+"sjáðu: <a href='{l}'>{l}</a>"
 # 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/dispositivos_page.py, line: 305
-msgid "Just Disable"
-msgstr "Bara slökka"
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_usability_page.py, line: 176
+msgid "noWatchdog"
+msgstr "ekkiVöktun"
 # 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/dispositivos_page.py, line: 306
-msgid "Remove Completely"
-msgstr "Fjarlægja alveg"
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/dispositivos_page.py, line: 382
-msgid "JamesDSP package removed"
-msgstr "JamesDSP pakki fjarlægð"
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/dispositivos_page.py, line: 397
-msgid "Removal Failed"
-msgstr "Breyting mistókst"
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/dispositivos_page.py, line: 398
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_usability_page.py, line: 177
 msgid ""
-"JamesDSP package is still installed.\n"
-"\n"
-"The removal process may have been cancelled or failed.\n"
-"Would you like to try again?"
+"Disables the hardware watchdog and TSC clocksource systems, maintaining high performance but "
+"removing automatic protections against system crashes."
 msgstr ""
-"JamesDSP pakkinn er ennþá uppsettur.\n"
-"\n"
-"Fjarlægingarferlið gæti hafa verið hætt eða mistekist.\n"
-"Viltu reyna aftur?"
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/dispositivos_page.py, line: 401
-msgid "Try Again"
-msgstr "Reyndu aftur"
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/dispositivos_page.py, line: 424
-msgid "Remove Configuration Files?"
-msgstr "Eyða stillingarskrám?"
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/dispositivos_page.py, line: 425
-msgid ""
-"JamesDSP package has been removed.\n"
-"\n"
-"Would you like to also delete all configuration files and presets located in:\n"
-"\n"
-"• ~/.config/jamesdsp\n"
-"• ~/.local/share/jamesdsp"
-msgstr ""
-"JamesDSP pakkinn hefur verið fjarlægður.\n"
-"\n"
-"Viltu einnig eyða öllum stillingaskrám og forstillum sem eru staðsettar í:\n"
-"\n"
-"• ~/.config/jamesdsp\n"
-"• ~/.local/share/jamesdsp"
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/dispositivos_page.py, line: 427
-msgid "Keep Files"
-msgstr "Geymdu Skrár"
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/dispositivos_page.py, line: 428
-msgid "Delete Files"
-msgstr "Eyða skrám"
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/dispositivos_page.py, line: 448
-msgid "JamesDSP removed completely"
-msgstr "JamesDSP fjarlægður að fullu"
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/dispositivos_page.py, line: 454
-msgid "JamesDSP package removed (config files kept)"
-msgstr "JamesDSP pakki fjarlægður (stillingaskrár haldnar)"
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/dispositivos_page.py, line: 479
-msgid "Error opening preset dialog"
-msgstr "Villa að opna forstillt glugga"
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 236
-msgid "Switch {} synchronized: {}"
-msgstr "Switch {} samstillt: {}"
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/ai/krita_ai_dialog.py, line: 18
-msgid "Krita AI Installation"
-msgstr "Krita AI Uppsetning"
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/ai/krita_ai_dialog.py, line: 29
-msgid "Preparing..."
-msgstr "Undirbúningur..."
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/ai/krita_ai_dialog.py, line: 40
-msgid "Details"
-msgstr "Skráningar"
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/ai/krita_ai_dialog.py, line: 53
-msgid "Show Details"
-msgstr "Sýna upplýsingar"
+"Veitir harðvaru vöktunina og TSC klukkuheimildir, viðhalda háum frammistöðu en fjarlægja "
+"sjálfvirkar verndaraðgerðir gegn kerfisfalli."
 # 
 # #-#-#-#-#  biglinux-settings.pot (biglinux-settings)  #-#-#-#-#
 # 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/ai/krita_ai_dialog.py, line: 65
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/devices/jamesdsp_dialog.py, line: 70
-msgid "Close"
-msgstr "Lokaðu"
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/ai/krita_ai_dialog.py, line: 95
-msgid "Detecting GPU..."
-msgstr "Að greina GPU..."
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/ai/krita_ai_dialog.py, line: 112
-msgid "Choose Render Mode"
-msgstr "Veldu Render Stillingu"
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/ai/krita_ai_dialog.py, line: 113
-msgid "GPU detected: {}. How do you want to render?"
-msgstr "GPU greindur: {}. Hvernig viltu rendera?"
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/ai/krita_ai_dialog.py, line: 116
-msgid "CPU (Software)"
-msgstr "CPU (Hugbúnaður)"
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/ai/krita_ai_dialog.py, line: 117
-msgid "GPU (Recommended)"
-msgstr "GPU (Mælt)"
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/ai/krita_ai_dialog.py, line: 140
-msgid "Installing..."
-msgstr "Installing..."
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/ai/krita_ai_dialog.py, line: 172
-msgid "Installation Complete!"
-msgstr "Uppsetningu lokið!"
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/ai/krita_ai_dialog.py, line: 178
-msgid "Installation Failed."
-msgstr "Uppsetning mistókst."
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/ai/chatai_dialog.py, line: 17
-msgid "ChatAI Installation"
-msgstr "ChatAI Uppsetning"
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/ai/chatai_dialog.py, line: 28
-msgid "Installing ChatAI..."
-msgstr "Installing ChatAI..."
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_usability_page.py, line: 111
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/preload_page.py, line: 112
+msgid "Reload all statuses"
+msgstr "Endurhlaða allar stöður"
 # 
 # #-#-#-#-#  biglinux-settings.pot (biglinux-settings)  #-#-#-#-#
 # 
@@ -503,6 +347,17 @@ msgstr "Skráning mistókst með útgöngukóða: {}"
 msgid "Script timeout: {}"
 msgstr "Skrá tímamörk: {}"
 # 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 236
+msgid "Switch {} synchronized: {}"
+msgstr "Switch {} samstillt: {}"
+# 
+# #-#-#-#-#  biglinux-settings.pot (biglinux-settings)  #-#-#-#-#
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/preload_page.py, line: 284
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_usability_page.py, line: 334
+msgid "Indicator {} synchronized: {}"
+msgstr "Vísir {} samstilltur: {}"
+# 
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 244
 msgid "Changing {} to {}"
 msgstr "Breyta {} í {}"
@@ -515,28 +370,93 @@ msgstr "ERROR: Mistók að breyta {} í {}"
 msgid "Failed to change setting: {}"
 msgstr "Mistók að breyta stillingu: {}"
 # 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 52
-msgid "General adjustments"
-msgstr "Almennar stillingar"
+# #-#-#-#-#  biglinux-settings.pot (biglinux-settings)  #-#-#-#-#
 # 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 108
-msgid "System"
-msgstr "Kerfi"
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/dispositivos_page.py, line: 25
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 116
+msgid "Devices"
+msgstr "Tæki"
 # 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 120
-msgid "I.A."
-msgstr "G.Þ."
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/devices_page.py, line: 15
+msgid "Manage physical devices."
+msgstr "Stjórna líkamlegum tækjum."
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_usability_page.py, line: 190
+msgid "Wifi"
+msgstr "Wifi"
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_usability_page.py, line: 191
+msgid "Wifi On"
+msgstr "Wifi Kveikt"
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_usability_page.py, line: 197
+msgid "Bluetooth"
+msgstr "Bluetooth"
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_usability_page.py, line: 198
+msgid "Bluetooth On."
+msgstr "Bluetooth kveikt."
 # 
 # #-#-#-#-#  biglinux-settings.pot (biglinux-settings)  #-#-#-#-#
 # 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 137
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/containers_page.py, line: 18
-msgid "Containers"
-msgstr "Geymslur"
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/dispositivos_page.py, line: 77
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/devices/jamesdsp_dialog.py, line: 155
+msgid "JamesDSP"
+msgstr "JamesDSP"
 # 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 145
-msgid "Pre-loading"
-msgstr "Forskoðun"
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/dispositivos_page.py, line: 84
+msgid "Advanced audio effects processor that improves sound quality."
+msgstr "Vanda hljóðáhrifavinnsla sem bætir hljóðgæði."
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/devices_page.py, line: 62
+msgid "Keyboard LED"
+msgstr "Takkaljós á lyklaborði"
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/dispositivos_page.py, line: 144
+msgid "If your keyboard has LED you can enable this feature to turn it on with the system."
+msgstr "Ef lyklaborðið þitt hefur LED geturðu virkjað þessa eiginleika til að kveikja á því með kerfinu."
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/devices_page.py, line: 71
+msgid "Reverse mouse scrolling"
+msgstr "Aftursnúning músar skrollunar"
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/devices_page.py, line: 72
+msgid "Reverse mouse scrolling without restarting the session."
+msgstr "Afturhenda músaskrollun án þess að endurræsa sessjónina."
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 49
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 120
+msgid "BigLinux Settings"
+msgstr "BigLinux Stillingar"
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 135
+msgid "Categories"
+msgstr "Flokkar"
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 144
+msgid "Search..."
+msgstr "Leita..."
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/devices/keyboard_led_dialog.py, line: 249
+msgid "Settings"
+msgstr "Stillingar"
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 158
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 167
+msgid "PreLoad"
+msgstr "PreLoad"
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 161
+msgid "A.I."
+msgstr "Gervi."
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_usability_page.py, line: 204
+msgid "Docker"
+msgstr "Docker"
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 166
+msgid "Performance and Games"
+msgstr "Frammistöð og Leikir"
 # 
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings/preload_page.py, line: 103
 msgid "Preload"
@@ -545,13 +465,6 @@ msgstr "Forskráning"
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings/preload_page.py, line: 105
 msgid "Preload applications into memory to open them faster."
 msgstr "Hlaða forritum í minni til að opna þau hraðar."
-# 
-# #-#-#-#-#  biglinux-settings.pot (biglinux-settings)  #-#-#-#-#
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_usability_page.py, line: 111
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/preload_page.py, line: 112
-msgid "Reload all statuses"
-msgstr "Endurhlaða allar stöður"
 # 
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings/preload_page.py, line: 120
 msgid "Firefox"
@@ -585,710 +498,13 @@ msgstr "Ópera"
 msgid "Libreoffice"
 msgstr "LibreOffice"
 # 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/usability/kwin_ram_dialog.py, line: 26
-msgid "KWin & RAM Controller"
-msgstr "KWin & RAM Stýring"
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/usability/kwin_ram_dialog.py, line: 64
-msgid "Master Control"
-msgstr "Meistarakontroll"
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/usability/kwin_ram_dialog.py, line: 65
-msgid "Enable Performance Mode to apply all optimizations at once"
-msgstr "Virkja frammistöðuham til að beita öllum hámarkununum í einu."
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/usability/kwin_ram_dialog.py, line: 70
-msgid "Performance Mode"
-msgstr "Frammistöðulíkan"
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/usability/kwin_ram_dialog.py, line: 71
-msgid "Disable all effects and optimize RAM"
-msgstr "Aftengja alla áhrif og hámarka RAM"
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/usability/kwin_ram_dialog.py, line: 90
-msgid "GPU & Visual Effects"
-msgstr "GPU og sjónræn áhrif"
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/usability/kwin_ram_dialog.py, line: 91
-msgid "Control KWin compositor effects"
-msgstr "Stýra KWin samsetningaráhrifum"
-# 
-# #-#-#-#-#  biglinux-settings.pot (biglinux-settings)  #-#-#-#-#
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/usability/kwin_ram_dialog.py, line: 96
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/usability/gamemode_dialog.py, line: 195
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/usability/gamemode_dialog.py, line: 238
-msgid "Visual Effects"
-msgstr "Sjónræn áhrif"
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/usability/kwin_ram_dialog.py, line: 97
-msgid "Blur, Wobbly Windows, Shadows, Animations"
-msgstr "Ófær, Vaggandi gluggar, Skuggar, Hreyfingar"
-# 
-# #-#-#-#-#  biglinux-settings.pot (biglinux-settings)  #-#-#-#-#
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/usability/kwin_ram_dialog.py, line: 109
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/usability/gamemode_config_dialog.py, line: 100
-msgid "Compositor Settings"
-msgstr "Samsetningar samsetjara"
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/usability/kwin_ram_dialog.py, line: 110
-msgid "Animations, Latency Policy, Tearing"
-msgstr "Sýningar, Tímabilsregla, Rifa"
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/usability/kwin_ram_dialog.py, line: 122
-msgid "Memory & Services"
-msgstr "Minnis & Þjónustur"
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/usability/kwin_ram_dialog.py, line: 123
-msgid "Control background services that consume RAM"
-msgstr "Stjórna bakgrunnsþjónustum sem neyta RAM."
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/usability/kwin_ram_dialog.py, line: 128
-msgid "Baloo File Indexer"
-msgstr "Baloo skráningaskipuleggjandi"
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/usability/kwin_ram_dialog.py, line: 129
-msgid "File search indexing service"
-msgstr "Skjalaleitarskráning þjónusta"
-# 
-# #-#-#-#-#  biglinux-settings.pot (biglinux-settings)  #-#-#-#-#
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/usability/kwin_ram_dialog.py, line: 141
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/usability/gamemode_dialog.py, line: 219
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/usability/gamemode_dialog.py, line: 262
-msgid "Akonadi Server"
-msgstr "Akonadi þjónn"
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/usability/kwin_ram_dialog.py, line: 142
-msgid "PIM storage service (Contacts, Calendar)"
-msgstr "PIM geymsluþjónusta (Samskipti, Dagskrá)"
-# 
-# #-#-#-#-#  biglinux-settings.pot (biglinux-settings)  #-#-#-#-#
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/usability/kwin_ram_dialog.py, line: 154
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/usability/gamemode_dialog.py, line: 225
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/usability/gamemode_dialog.py, line: 268
-msgid "S.M.A.R.T Monitor"
-msgstr "S.M.A.R.T Vöktun"
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/usability/kwin_ram_dialog.py, line: 155
-msgid "Disk health monitoring daemon"
-msgstr "Disk heilsu eftirlits þjónn"
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/usability/kwin_ram_dialog.py, line: 167
-msgid "Cache Management"
-msgstr "Skilavinnsla skyndiminni"
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/usability/kwin_ram_dialog.py, line: 168
-msgid "Clear system memory caches"
-msgstr "Tømðu skyndiminni kerfisins."
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/usability/kwin_ram_dialog.py, line: 173
-msgid "Clear RAM Cache"
-msgstr "Tøm RAM skuffen"
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/usability/kwin_ram_dialog.py, line: 174
-msgid "Free memory marked as Buff/Cache (requires sudo)"
-msgstr "Minnis sem frjáls merkt sem Buff/Cache (krafist sudo)"
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/usability/kwin_ram_dialog.py, line: 177
-msgid "Clean Now"
-msgstr "Hreinsaðu núna"
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings-ruscher/usability/kwin_ram_dialog.py, line: 195
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings-ruscher/usability/kwin_ram_dialog.py, line: 282
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings-ruscher/usability/kwin_ram_dialog.py, line: 195
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings-ruscher/usability/kwin_ram_dialog.py, line: 282
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings-ruscher/usability/kwin_ram_dialog.py, line: 195
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings-ruscher/usability/kwin_ram_dialog.py, line: 282
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings-ruscher/usability/kwin_ram_dialog.py, line: 195
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings-ruscher/usability/kwin_ram_dialog.py, line: 282
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings-ruscher/usability/kwin_ram_dialog.py, line: 195
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings-ruscher/usability/kwin_ram_dialog.py, line: 282
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings-ruscher/usability/kwin_ram_dialog.py, line: 195
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings-ruscher/usability/kwin_ram_dialog.py, line: 282
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings-ruscher/usability/kwin_ram_dialog.py, line: 195
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings-ruscher/usability/kwin_ram_dialog.py, line: 282
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings-ruscher/usability/kwin_ram_dialog.py, line: 195
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings-ruscher/usability/kwin_ram_dialog.py, line: 282
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings-ruscher/usability/kwin_ram_dialog.py, line: 195
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings-ruscher/usability/kwin_ram_dialog.py, line: 282
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings-ruscher/usability/kwin_ram_dialog.py, line: 195
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings-ruscher/usability/kwin_ram_dialog.py, line: 282
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings-ruscher/usability/kwin_ram_dialog.py, line: 195
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings-ruscher/usability/kwin_ram_dialog.py, line: 282
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings-ruscher/usability/kwin_ram_dialog.py, line: 195
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings-ruscher/usability/kwin_ram_dialog.py, line: 282
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings-ruscher/usability/kwin_ram_dialog.py, line: 195
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings-ruscher/usability/kwin_ram_dialog.py, line: 282
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings-ruscher/usability/kwin_ram_dialog.py, line: 195
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings-ruscher/usability/kwin_ram_dialog.py, line: 282
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings-ruscher/usability/kwin_ram_dialog.py, line: 195
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings-ruscher/usability/kwin_ram_dialog.py, line: 282
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings-ruscher/usability/kwin_ram_dialog.py, line: 195
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings-ruscher/usability/kwin_ram_dialog.py, line: 282
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings-ruscher/usability/kwin_ram_dialog.py, line: 195
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings-ruscher/usability/kwin_ram_dialog.py, line: 282
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings-ruscher/usability/kwin_ram_dialog.py, line: 195
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings-ruscher/usability/kwin_ram_dialog.py, line: 282
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings-ruscher/usability/kwin_ram_dialog.py, line: 195
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings-ruscher/usability/kwin_ram_dialog.py, line: 282
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings-ruscher/usability/kwin_ram_dialog.py, line: 195
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings-ruscher/usability/kwin_ram_dialog.py, line: 282
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings-ruscher/usability/kwin_ram_dialog.py, line: 195
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings-ruscher/usability/kwin_ram_dialog.py, line: 282
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings-ruscher/usability/kwin_ram_dialog.py, line: 195
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings-ruscher/usability/kwin_ram_dialog.py, line: 282
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings-ruscher/usability/kwin_ram_dialog.py, line: 195
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings-ruscher/usability/kwin_ram_dialog.py, line: 282
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings-ruscher/usability/kwin_ram_dialog.py, line: 195
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings-ruscher/usability/kwin_ram_dialog.py, line: 282
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings-ruscher/usability/kwin_ram_dialog.py, line: 195
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings-ruscher/usability/kwin_ram_dialog.py, line: 282
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings-ruscher/usability/kwin_ram_dialog.py, line: 195
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings-ruscher/usability/kwin_ram_dialog.py, line: 282
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings-ruscher/usability/kwin_ram_dialog.py, line: 195
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings-ruscher/usability/kwin_ram_dialog.py, line: 282
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings-ruscher/usability/kwin_ram_dialog.py, line: 195
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings-ruscher/usability/kwin_ram_dialog.py, line: 282
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings-ruscher/usability/kwin_ram_dialog.py, line: 195
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings-ruscher/usability/kwin_ram_dialog.py, line: 282
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings-ruscher/usability/kwin_ram_dialog.py, line: 195
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings-ruscher/usability/kwin_ram_dialog.py, line: 282
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings-ruscher/usability/kwin_ram_dialog.py, line: 195
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings-ruscher/usability/kwin_ram_dialog.py, line: 282
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings-ruscher/usability/kwin_ram_dialog.py, line: 195
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings-ruscher/usability/kwin_ram_dialog.py, line: 282
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings-ruscher/usability/kwin_ram_dialog.py, line: 195
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings-ruscher/usability/kwin_ram_dialog.py, line: 282
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings-ruscher/usability/kwin_ram_dialog.py, line: 195
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings-ruscher/usability/kwin_ram_dialog.py, line: 282
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings-ruscher/usability/kwin_ram_dialog.py, line: 195
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings-ruscher/usability/kwin_ram_dialog.py, line: 282
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings-ruscher/usability/kwin_ram_dialog.py, line: 195
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings-ruscher/usability/kwin_ram_dialog.py, line: 282
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings-ruscher/usability/kwin_ram_dialog.py, line: 195
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings-ruscher/usability/kwin_ram_dialog.py, line: 282
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings-ruscher/usability/kwin_ram_dialog.py, line: 195
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings-ruscher/usability/kwin_ram_dialog.py, line: 282
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings-ruscher/usability/kwin_ram_dialog.py, line: 195
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings-ruscher/usability/kwin_ram_dialog.py, line: 282
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings-ruscher/usability/kwin_ram_dialog.py, line: 195
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings-ruscher/usability/kwin_ram_dialog.py, line: 282
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings-ruscher/usability/kwin_ram_dialog.py, line: 195
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings-ruscher/usability/kwin_ram_dialog.py, line: 282
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings-ruscher/usability/kwin_ram_dialog.py, line: 195
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings-ruscher/usability/kwin_ram_dialog.py, line: 282
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings-ruscher/usability/kwin_ram_dialog.py, line: 195
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings-ruscher/usability/kwin_ram_dialog.py, line: 282
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings-ruscher/usability/kwin_ram_dialog.py, line: 195
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings-ruscher/usability/kwin_ram_dialog.py, line: 282
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings-ruscher/usability/kwin_ram_dialog.py, line: 195
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings-ruscher/usability/kwin_ram_dialog.py, line: 282
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings-ruscher/usability/kwin_ram_dialog.py, line: 195
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings-ruscher/usability/kwin_ram_dialog.py, line: 282
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings-ruscher/usability/kwin_ram_dialog.py, line: 195
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings-ruscher/usability/kwin_ram_dialog.py, line: 282
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings-ruscher/usability/kwin_ram_dialog.py, line: 195
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings-ruscher/usability/kwin_ram_dialog.py, line: 282
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings-ruscher/usability/kwin_ram_dialog.py, line: 195
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings-ruscher/usability/kwin_ram_dialog.py, line: 282
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings-ruscher/usability/kwin_ram_dialog.py, line: 195
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings-ruscher/usability/kwin_ram_dialog.py, line: 282
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings-ruscher/usability/kwin_ram_dialog.py, line: 195
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings-ruscher/usability/kwin_ram_dialog.py, line: 282
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings-ruscher/usability/kwin_ram_dialog.py, line: 195
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings-ruscher/usability/kwin_ram_dialog.py, line: 282
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings-ruscher/usability/kwin_ram_dialog.py, line: 195
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings-ruscher/usability/kwin_ram_dialog.py, line: 282
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings-ruscher/usability/kwin_ram_dialog.py, line: 195
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings-ruscher/usability/kwin_ram_dialog.py, line: 282
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings-ruscher/usability/kwin_ram_dialog.py, line: 195
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings-ruscher/usability/kwin_ram_dialog.py, line: 282
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings-ruscher/usability/kwin_ram_dialog.py, line: 195
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings-ruscher/usability/kwin_ram_dialog.py, line: 282
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings-ruscher/usability/kwin_ram_dialog.py, line: 195
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings-ruscher/usability/kwin_ram_dialog.py, line: 282
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings-ruscher/usability/kwin_ram_dialog.py, line: 195
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings-ruscher/usability/kwin_ram_dialog.py, line: 282
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings-ruscher/usability/kwin_ram_dialog.py, line: 195
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings-ruscher/usability/kwin_ram_dialog.py, line: 282
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings-ruscher/usability/kwin_ram_dialog.py, line: 195
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings-ruscher/usability/kwin_ram_dialog.py, line: 282
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/usability/kwin_ram_dialog.py, line: 195
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/usability/kwin_ram_dialog.py, line: 282
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/usability/kwin_ram_dialog.py, line: 195
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/usability/kwin_ram_dialog.py, line: 282
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/usability/kwin_ram_dialog.py, line: 195
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/usability/kwin_ram_dialog.py, line: 282
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/usability/kwin_ram_dialog.py, line: 195
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/usability/kwin_ram_dialog.py, line: 282
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/usability/kwin_ram_dialog.py, line: 195
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/usability/kwin_ram_dialog.py, line: 282
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/usability/kwin_ram_dialog.py, line: 195
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/usability/kwin_ram_dialog.py, line: 282
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/usability/kwin_ram_dialog.py, line: 195
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/usability/kwin_ram_dialog.py, line: 282
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/usability/kwin_ram_dialog.py, line: 195
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/usability/kwin_ram_dialog.py, line: 282
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/usability/kwin_ram_dialog.py, line: 215
-msgid "Loading..."
-msgstr "Hlaða..."
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/usability/kwin_ram_dialog.py, line: 261
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/usability/kwin_ram_dialog.py, line: 268
-msgid "Not installed"
-msgstr "Ekki uppsett"
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/usability/kwin_ram_dialog.py, line: 345
-msgid "Enabling Performance Mode..."
-msgstr "Virkni frammistöðulíkan..."
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/usability/kwin_ram_dialog.py, line: 349
-msgid "Performance Mode Active"
-msgstr "Frammistöðulíkan virk."
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/usability/gamemode_dialog.py, line: 106
-msgid "Failed"
-msgstr "Misheppnað"
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/usability/kwin_ram_dialog.py, line: 367
-msgid "Restoring Desktop Mode..."
-msgstr "Að endurheimta skrifborðsstillingu..."
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/usability/kwin_ram_dialog.py, line: 371
-msgid "Desktop Mode Restored"
-msgstr "Desktop stilling endurheimt"
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/usability/kwin_ram_dialog.py, line: 395
-msgid "Toggling Effects..."
-msgstr "Virkjandi áhrif..."
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/usability/kwin_ram_dialog.py, line: 400
-msgid "Effects {}"
-msgstr "Áhrif {}"
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/usability/kwin_ram_dialog.py, line: 400
-msgid "enabled"
-msgstr "virkjað"
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/usability/kwin_ram_dialog.py, line: 400
-msgid "disabled"
-msgstr "óðurðaður"
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/usability/kwin_ram_dialog.py, line: 413
-msgid "Updating Compositor..."
-msgstr "Uppfærir samsetjara..."
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/usability/kwin_ram_dialog.py, line: 418
-msgid "Compositor settings updated"
-msgstr "Stillingar samsetjara uppfærðar"
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/usability/kwin_ram_dialog.py, line: 431
-msgid "Toggling Baloo..."
-msgstr "Virkja Baloo..."
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/usability/kwin_ram_dialog.py, line: 436
-msgid "Baloo {}"
-msgstr "Baloo {}"
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/usability/kwin_ram_dialog.py, line: 436
-msgid "resumed"
-msgstr "endurnaður"
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/usability/kwin_ram_dialog.py, line: 436
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/usability/kwin_ram_dialog.py, line: 436
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/usability/kwin_ram_dialog.py, line: 436
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/usability/kwin_ram_dialog.py, line: 436
-msgid "suspended"
-msgstr "suspenderður"
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/usability/kwin_ram_dialog.py, line: 449
-msgid "Toggling Akonadi..."
-msgstr "Virkja Akonadi..."
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/usability/kwin_ram_dialog.py, line: 454
-msgid "Akonadi {}"
-msgstr "Akonadi {}"
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/usability/kwin_ram_dialog.py, line: 454
-msgid "started"
-msgstr "byrjaði"
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/usability/kwin_ram_dialog.py, line: 454
-msgid "stopped"
-msgstr "stoppuð"
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/usability/kwin_ram_dialog.py, line: 467
-msgid "Toggling SMART Monitor..."
-msgstr "Virkja SMART Monitor..."
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/usability/kwin_ram_dialog.py, line: 472
-msgid "SMART {}"
-msgstr "SMART {}"
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/usability/kwin_ram_dialog.py, line: 472
-msgid "loaded"
-msgstr "hlaðið"
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/usability/kwin_ram_dialog.py, line: 472
-msgid "unloaded"
-msgstr "aflýst"
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/usability/kwin_ram_dialog.py, line: 482
-msgid "Cleaning Cache..."
-msgstr "Þurrka skyndiminni..."
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/usability/kwin_ram_dialog.py, line: 488
-msgid "Cache cleaned successfully!"
-msgstr "Skýringarsafn hreinsað með góðum árangri!"
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/usability/kwin_ram_dialog.py, line: 490
-msgid "Failed to clean cache"
-msgstr "Mistók að hreinsa skyndiminni"
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/usability/gamemode_config_dialog.py, line: 18
-msgid "Game Mode Booster Configuration"
-msgstr "Leikjaskipulag Bústari Stillingar"
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/usability/gamemode_config_dialog.py, line: 77
-msgid "Optimizations"
-msgstr "Hagræðingar"
-# 
-# #-#-#-#-#  biglinux-settings.pot (biglinux-settings)  #-#-#-#-#
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/usability/gamemode_config_dialog.py, line: 82
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/usability/gamemode_dialog.py, line: 189
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/usability/gamemode_dialog.py, line: 232
-msgid "GameMode Daemon"
-msgstr "Leikjaskipti Daemon"
-# 
-# #-#-#-#-#  biglinux-settings.pot (biglinux-settings)  #-#-#-#-#
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/usability/gamemode_config_dialog.py, line: 83
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/usability/gamemode_dialog.py, line: 190
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/usability/gamemode_dialog.py, line: 233
-msgid "System-wide performance daemon"
-msgstr "Kerfisskerfi umsjónarforrit"
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/usability/gamemode_config_dialog.py, line: 91
-msgid "Disable Visual Effects"
-msgstr "Aftengja sjónræna áhrif"
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/usability/gamemode_config_dialog.py, line: 92
-msgid "Turn off KWin effects (blur, shadows, animations)"
-msgstr "Slökkva á KWin áhrifum (óskýr, skuggar, hreyfingar)"
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/usability/gamemode_config_dialog.py, line: 101
-msgid "Low latency, allow tearing, no animations"
-msgstr "Lágur seinkun, leyfa rif, engar hreyfimyndir"
-# 
-# #-#-#-#-#  biglinux-settings.pot (biglinux-settings)  #-#-#-#-#
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/usability/gamemode_config_dialog.py, line: 109
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/usability/gamemode_dialog.py, line: 207
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/usability/gamemode_dialog.py, line: 250
-msgid "GPU Maximum Performance"
-msgstr "GPU hámarksframmistaða"
-# 
-# #-#-#-#-#  biglinux-settings.pot (biglinux-settings)  #-#-#-#-#
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/usability/gamemode_config_dialog.py, line: 110
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/usability/gamemode_dialog.py, line: 208
-msgid "Force maximum performance mode (NVIDIA/AMD)"
-msgstr "Þvinga hámarks frammistöðu ham (NVIDIA/AMD)"
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/usability/gamemode_config_dialog.py, line: 118
-msgid "Suspend Baloo Indexer"
-msgstr "Suspender Baloo Indexer"
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/usability/gamemode_config_dialog.py, line: 119
-msgid "Stop file indexing service"
-msgstr "Stöðvaðu skráarvísun þjónustu"
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/usability/gamemode_config_dialog.py, line: 127
-msgid "Stop Akonadi Server"
-msgstr "Stöðvaðu Akonadi þjóninn"
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/usability/gamemode_config_dialog.py, line: 128
-msgid "Stop PIM storage service"
-msgstr "Hætta PIM geymsluþjónustu"
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/usability/gamemode_config_dialog.py, line: 136
-msgid "Unload S.M.A.R.T Monitor"
-msgstr "Afretta S.M.A.R.T Vöktun"
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/usability/gamemode_config_dialog.py, line: 137
-msgid "Stop disk health monitoring"
-msgstr "Hætta við diskheilbrigðisvöktun"
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/usability/gamemode_config_dialog.py, line: 158
-msgid "Apply Optimizations"
-msgstr "Beita aðlögun."
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/usability/gamemode_dialog.py, line: 25
-msgid "Game Mode Booster Activation"
-msgstr "Leikjaskiptingarvirkni"
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/usability/gamemode_dialog.py, line: 25
-msgid "Game Mode Booster Deactivation"
-msgstr "Afturköllun leiksviðsauka"
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/usability/gamemode_dialog.py, line: 34
-msgid "Initializing..."
-msgstr "Vinnslur..."
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/usability/gamemode_dialog.py, line: 58
-msgid "Optimizing system..."
-msgstr "Að hámarka kerfið..."
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/usability/gamemode_dialog.py, line: 100
-msgid "Cancelled"
-msgstr "Fellt niður"
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/usability/gamemode_dialog.py, line: 101
-msgid "Authentication was cancelled."
-msgstr "Auðkenning var aflýst."
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/usability/gamemode_dialog.py, line: 107
-msgid "Process failed. Check logs."
-msgstr "Ferli mistók. Athugaðu skýrslurnar."
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/usability/gamemode_dialog.py, line: 164
-msgid "Applied Optimizations"
-msgstr "Beittar hámarkanir"
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/usability/gamemode_dialog.py, line: 165
-msgid "The following changes were applied to your system"
-msgstr "Fyrri breytingar voru gerðar á kerfinu þínu."
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/usability/gamemode_dialog.py, line: 167
-msgid "Restored Settings"
-msgstr "Endurðarstillingar"
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/usability/gamemode_dialog.py, line: 168
-msgid "The following settings were restored"
-msgstr "Eftirfarandi stillingar voru endurheimtar"
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/usability/gamemode_dialog.py, line: 192
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/usability/gamemode_dialog.py, line: 259
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/usability/gamemode_dialog.py, line: 271
-msgid "Active"
-msgstr "Virktakur"
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/usability/gamemode_dialog.py, line: 196
-msgid "All KWin effects disabled"
-msgstr "Öll KWin áhrif slökkt"
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/usability/gamemode_dialog.py, line: 198
-msgid "OFF"
-msgstr "AFLT"
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/usability/gamemode_dialog.py, line: 201
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/usability/gamemode_dialog.py, line: 244
-msgid "Compositor"
-msgstr "Samsetjari"
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/usability/gamemode_dialog.py, line: 202
-msgid "Low latency, tearing allowed, animations = 0"
-msgstr "Lágur seinkun, rifin leyfð, hreyfimyndir = 0"
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/usability/gamemode_dialog.py, line: 204
-msgid "Performance"
-msgstr "Frammistað."
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/usability/gamemode_dialog.py, line: 210
-msgid "Max Perf"
-msgstr "Maks. frammista."
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/usability/gamemode_dialog.py, line: 213
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/usability/gamemode_dialog.py, line: 256
-msgid "Baloo Indexer"
-msgstr "Baloo Indexer"
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/usability/gamemode_dialog.py, line: 214
-msgid "File indexing suspended"
-msgstr "Skjalaskráning stöðvuð"
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/usability/gamemode_dialog.py, line: 216
-msgid "Suspended"
-msgstr "Svipaður"
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/usability/gamemode_dialog.py, line: 220
-msgid "PIM storage service stopped"
-msgstr "PIM geymsluþjónusta hættir."
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/usability/gamemode_dialog.py, line: 222
-msgid "Stopped"
-msgstr "Stoppuð"
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/usability/gamemode_dialog.py, line: 226
-msgid "Disk health monitoring unloaded"
-msgstr "Diskheilsaeftirlit aflýst"
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/usability/gamemode_dialog.py, line: 228
-msgid "Unloaded"
-msgstr "Ótthentur"
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/usability/gamemode_dialog.py, line: 235
-msgid "Inactive"
-msgstr "Óvirkt"
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/usability/gamemode_dialog.py, line: 239
-msgid "All KWin effects restored"
-msgstr "Öll KWin áhrif endurheimt"
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/usability/gamemode_dialog.py, line: 243
-msgid "ON"
-msgstr "ÁFRAM"
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/usability/gamemode_dialog.py, line: 241
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/usability/gamemode_dialog.py, line: 241
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/usability/gamemode_dialog.py, line: 241
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/usability/gamemode_dialog.py, line: 241
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/usability/gamemode_dialog.py, line: 245
-msgid "Balanced latency, animations restored"
-msgstr "Jafnaður seinkun, hreyfimyndir endurheimtar"
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/usability/gamemode_dialog.py, line: 247
-msgid "Balanced"
-msgstr "Jafnaðar"
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/usability/gamemode_dialog.py, line: 251
-msgid "Restored to auto/balanced mode"
-msgstr "Endurð í sjálfvirku/jafnvægis ham."
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/usability/gamemode_dialog.py, line: 253
-msgid "Auto"
-msgstr "Sjálfvirkt"
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/usability/gamemode_dialog.py, line: 257
-msgid "File indexing resumed"
-msgstr "Skjalaskráning hafin að nýju"
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/usability/gamemode_dialog.py, line: 263
-msgid "PIM storage service restored"
-msgstr "PIM geymsluþjónusta endurreist"
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/usability/gamemode_dialog.py, line: 265
-msgid "Restored"
-msgstr "Endurheimt"
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/usability/gamemode_dialog.py, line: 269
-msgid "Disk health monitoring restored"
-msgstr "Diskheilsaeftirni endurheimt"
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/usability/gamemode_dialog.py, line: 174
-msgid "Configure Steam Games"
-msgstr "Stillir Steam Leiki"
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/usability/gamemode_dialog.py, line: 324
-msgid "Missing Dependency"
-msgstr "vantar háð"
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/usability/gamemode_dialog.py, line: 325
-msgid "The 'vdf' module is required to configure Steam games. Do you want to install it now?"
-msgstr "'vdf' modúllinn er nauðsynlegur til að stilla Steam leiki. Viltu setja hann upp núna?"
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/usability/gamemode_dialog.py, line: 328
-msgid "Install"
-msgstr "Setja upp"
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/usability/gamemode_dialog.py, line: 341
-msgid "Installing vdf module..."
-msgstr "Installing vdf module..."
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/usability/gamemode_dialog.py, line: 364
-msgid "Module installed successfully!"
-msgstr "Module var sett upp með góðum árangri!"
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/usability/gamemode_dialog.py, line: 370
-msgid "Installation Failed"
-msgstr "Uppsetning mistókst"
-# 
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings/ai_page.py, line: 28
 msgid "Artificial Intelligence"
 msgstr "Gervi greindar."
 # 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/ai_page.py, line: 30
-msgid "AI settings and tools"
-msgstr "AI stillingar og verkfæri"
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/ai_page.py, line: 15
+msgid "AI settings and tools."
+msgstr "AI stillingar og verkfæri."
 # 
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings/ai_page.py, line: 36
 msgid "Generative AI for Krita"
@@ -1306,67 +522,24 @@ msgstr "ChatAI"
 msgid "A variety of chats like Plasmoid for your KDE Plasma desktop."
 msgstr "Margarí af spjallum eins og Plasmoid fyrir KDE Plasma skrifborðið."
 # 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/ai_page.py, line: 59
-msgid "ChatAI Requirements"
-msgstr "ChatAI Kröfur"
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/docker_page.py, line: 15
+msgid "Container service - enable to use containers below."
+msgstr "Geymsluþjónusta - virkjuð til að nota gáma hér að neðan."
 # 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/ai_page.py, line: 60
-msgid "This resource requires at least 16 GB of RAM and is not recommended for legacy computers."
-msgstr "Þessi auðlind krefst að minnsta kosti 16 GB af RAM og er ekki mælt með fyrir eldri tölvur."
+# #-#-#-#-#  biglinux-settings.pot (biglinux-settings)  #-#-#-#-#
 # 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/ai_page.py, line: 63
-msgid "Accept"
-msgstr "Samþykkja"
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 137
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/containers_page.py, line: 18
+msgid "Containers"
+msgstr "Geymslur"
 # 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/ai_page.py, line: 63
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/ai_page.py, line: 90
-msgid "Restart Plasma Shell"
-msgstr "Endurrætta Plasma Shell"
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/ai_page.py, line: 91
-msgid "To apply changes, it is recommended to restart Plasma Shell. Do you want to restart it now?"
-msgstr "Til að beita breytingum er mælt með því að endurræsa Plasma Shell. Viltu endurræsa það núna?"
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_usability_page.py, line: 165
-msgid "No"
-msgstr ""
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_usability_page.py, line: 166
-msgid "Yes"
-msgstr "Já."
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/ai_page.py, line: 59
-msgid "Disable Krita AI"
-msgstr "Aftengreina Krita AI"
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/ai_page.py, line: 60
-msgid "How do you want to disable/remove the plugin?"
-msgstr "Hvernig viltu óvirkja/fjarlægja viðbótina?"
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/ai_page.py, line: 63
-msgid "Disable Only"
-msgstr "Aðeins afakt."
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/ai_page.py, line: 64
-msgid "Remove Krita & Data"
-msgstr "Fjarlægja Krita & Gögn"
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_usability_page.py, line: 204
-msgid "Docker"
-msgstr "Docker"
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/containers_page.py, line: 22
-msgid "Container service - enable to use containers below"
-msgstr "Geymsluþjónusta - virkja til að nota gáma hér að neðan"
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/docker_page.py, line: 23
+msgid "Manage container technologies."
+msgstr "Stjórna gáma tækni."
 # 
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_usability_page.py, line: 205
 msgid "Docker Enabled."
 msgstr "Docker virkjað."
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/containers_page.py, line: 20
-msgid "Manage container technologies"
-msgstr "Stjórna gáma tækni"
 # 
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings/containers_page.py, line: 35
 msgid "Nextcloud Plus"
@@ -1440,936 +613,9 @@ msgstr "V2RayA"
 msgid "V2RayA network tool."
 msgstr "V2RayA netkerfi."
 # 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system/recent_files_dialog.py, line: 27
-msgid "Enabling Recent Files & Locations"
-msgstr "Virkja nýleg skjöl og staðsetningar"
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system/recent_files_dialog.py, line: 27
-msgid "Disabling Recent Files & Locations"
-msgstr "Að slökkva á nýlegum skrám og staðsetningum"
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system/recent_files_dialog.py, line: 48
-msgid "Starting..."
-msgstr "Byrjar..."
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system/recent_files_dialog.py, line: 130
-msgid "Starting process..."
-msgstr "Byrjar ferli..."
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system/recent_files_dialog.py, line: 187
-msgid "Operation was cancelled."
-msgstr "Aðgerð var aflýst."
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system/recent_files_dialog.py, line: 194
-msgid "Process failed. Check details for more info."
-msgstr "Ferillt ferli. Athugaðu smáatriðin fyrir frekari upplýsingar."
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system/recent_files_dialog.py, line: 203
-msgid "Recent Files & Locations Enabled"
-msgstr "Skráðar skrár og staðsetningar virkjaðar"
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system/recent_files_dialog.py, line: 206
-msgid "Recent Files & Locations Disabled"
-msgstr "Skráðir Skrár & Staðsetningar Óvirkar"
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system/recent_files_dialog.py, line: 223
-msgid "Important"
-msgstr "Mikilvægt"
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system/recent_files_dialog.py, line: 231
-msgid "• To fully apply changes, restart your computer."
-msgstr "• Til að beita breytingunum að fullu, endurræstu tölvuna þína."
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system/recent_files_dialog.py, line: 237
-msgid ""
-"• Dolphin creates a visual cache. Close it completely and reopen for recent files/locations to "
-"appear."
-msgstr ""
-"• Dolphin býr til sjónræna skyndiminni. Lokaðu því alveg og opnaðu það aftur til að nýjustu "
-"skrár/staðir birtist."
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/devices/jamesdsp_dialog.py, line: 18
-msgid "JamesDSP Preset Selector"
-msgstr "JamesDSP Forskriftaval."
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/devices/jamesdsp_dialog.py, line: 34
-msgid "JamesDSP Presets"
-msgstr "JamesDSP Forskriftir"
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/devices/jamesdsp_dialog.py, line: 64
-msgid "Refresh"
-msgstr "Endurnýja"
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/devices/jamesdsp_dialog.py, line: 94
-msgid "Unknown error"
-msgstr "Ókunnug villa"
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/devices/jamesdsp_dialog.py, line: 96
-msgid "Error fetching presets"
-msgstr "Villa að sækja forstillur"
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/devices/jamesdsp_dialog.py, line: 100
-msgid "❌ Error loading presets"
-msgstr "❌ Villa ekki að hlaða forstillum"
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/devices/jamesdsp_dialog.py, line: 116
-msgid "No presets found"
-msgstr "Engin ekki forstillur fundnar"
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/devices/jamesdsp_dialog.py, line: 118
-msgid "No presets available"
-msgstr "Engin ekki fyrirliggjandi."
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/devices/jamesdsp_dialog.py, line: 133
-msgid "Load {}"
-msgstr "Hlaða {}"
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/devices/jamesdsp_dialog.py, line: 139
-msgid "✅ Found {} presets"
-msgstr "✅ Fundin {} forstillingar"
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/devices/jamesdsp_dialog.py, line: 142
-msgid "JamesDSP not installed"
-msgstr "JamesDSP ekki uppsett"
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/devices/jamesdsp_dialog.py, line: 144
-msgid "❌ JamesDSP not found"
-msgstr "❌ JamesDSP ekki fundinn"
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/devices/jamesdsp_dialog.py, line: 146
-msgid "Error: {}"
-msgstr "Villa: {}"
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/devices/jamesdsp_dialog.py, line: 148
-msgid "❌ Error"
-msgstr "❌ Villa"
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/devices/jamesdsp_dialog.py, line: 185
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/devices/jamesdsp_dialog.py, line: 198
-msgid "Error"
-msgstr "Villa"
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/devices/jamesdsp_dialog.py, line: 186
-msgid ""
-"Failed to load preset:\n"
-"\n"
-"{}"
-msgstr ""
-"Ekki tókst að hlaða forstillingu:\n"
-"\n"
-"{}"
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/devices/jamesdsp_dialog.py, line: 191
-msgid "Success"
-msgstr "Sigríkur"
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/devices/jamesdsp_dialog.py, line: 192
-msgid "Preset '{}' loaded successfully!"
-msgstr "פריסת '{}' נטענה בהצלחה!"
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/devices/jamesdsp_dialog.py, line: 194
-msgid "Preset '{}' loaded"
-msgstr "Forskrift '{}' hlaðið."
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/devices/jamesdsp_dialog.py, line: 199
-msgid ""
-"Exception loading preset:\n"
-"{}"
-msgstr ""
-"Undantekning við að hlaða forstillingu:\n"
-"{}"
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings-ruscher/devices/jamesdsp_dialog.py, line: 208
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings-ruscher/devices/jamesdsp_dialog.py, line: 208
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings-ruscher/devices/jamesdsp_dialog.py, line: 208
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings-ruscher/devices/jamesdsp_dialog.py, line: 208
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings-ruscher/devices/jamesdsp_dialog.py, line: 208
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings-ruscher/devices/jamesdsp_dialog.py, line: 208
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings-ruscher/devices/jamesdsp_dialog.py, line: 208
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings-ruscher/devices/jamesdsp_dialog.py, line: 208
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings-ruscher/devices/jamesdsp_dialog.py, line: 208
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings-ruscher/devices/jamesdsp_dialog.py, line: 208
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings-ruscher/devices/jamesdsp_dialog.py, line: 208
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings-ruscher/devices/jamesdsp_dialog.py, line: 208
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings-ruscher/devices/jamesdsp_dialog.py, line: 208
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings-ruscher/devices/jamesdsp_dialog.py, line: 208
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings-ruscher/devices/jamesdsp_dialog.py, line: 208
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings-ruscher/devices/jamesdsp_dialog.py, line: 208
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings-ruscher/devices/jamesdsp_dialog.py, line: 208
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings-ruscher/devices/jamesdsp_dialog.py, line: 208
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings-ruscher/devices/jamesdsp_dialog.py, line: 208
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings-ruscher/devices/jamesdsp_dialog.py, line: 208
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings-ruscher/devices/jamesdsp_dialog.py, line: 208
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings-ruscher/devices/jamesdsp_dialog.py, line: 208
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings-ruscher/devices/jamesdsp_dialog.py, line: 208
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings-ruscher/devices/jamesdsp_dialog.py, line: 208
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings-ruscher/devices/jamesdsp_dialog.py, line: 208
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings-ruscher/devices/jamesdsp_dialog.py, line: 208
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings-ruscher/devices/jamesdsp_dialog.py, line: 208
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings-ruscher/devices/jamesdsp_dialog.py, line: 208
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings-ruscher/devices/jamesdsp_dialog.py, line: 208
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings-ruscher/devices/jamesdsp_dialog.py, line: 208
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings-ruscher/devices/jamesdsp_dialog.py, line: 208
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings-ruscher/devices/jamesdsp_dialog.py, line: 208
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings-ruscher/devices/jamesdsp_dialog.py, line: 208
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings-ruscher/devices/jamesdsp_dialog.py, line: 208
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings-ruscher/devices/jamesdsp_dialog.py, line: 208
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings-ruscher/devices/jamesdsp_dialog.py, line: 208
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings-ruscher/devices/jamesdsp_dialog.py, line: 208
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings-ruscher/devices/jamesdsp_dialog.py, line: 208
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings-ruscher/devices/jamesdsp_dialog.py, line: 208
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings-ruscher/devices/jamesdsp_dialog.py, line: 208
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings-ruscher/devices/jamesdsp_dialog.py, line: 208
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings-ruscher/devices/jamesdsp_dialog.py, line: 208
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings-ruscher/devices/jamesdsp_dialog.py, line: 208
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings-ruscher/devices/jamesdsp_dialog.py, line: 208
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings-ruscher/devices/jamesdsp_dialog.py, line: 208
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings-ruscher/devices/jamesdsp_dialog.py, line: 208
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings-ruscher/devices/jamesdsp_dialog.py, line: 208
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings-ruscher/devices/jamesdsp_dialog.py, line: 208
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings-ruscher/devices/jamesdsp_dialog.py, line: 208
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings-ruscher/devices/jamesdsp_dialog.py, line: 208
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings-ruscher/devices/jamesdsp_dialog.py, line: 208
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings-ruscher/devices/jamesdsp_dialog.py, line: 208
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings-ruscher/devices/jamesdsp_dialog.py, line: 208
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings-ruscher/devices/jamesdsp_dialog.py, line: 208
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings-ruscher/devices/jamesdsp_dialog.py, line: 208
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings-ruscher/devices/jamesdsp_dialog.py, line: 208
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings-ruscher/devices/jamesdsp_dialog.py, line: 208
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings-ruscher/devices/jamesdsp_dialog.py, line: 208
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings-ruscher/devices/jamesdsp_dialog.py, line: 208
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings-ruscher/devices/jamesdsp_dialog.py, line: 208
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/devices/jamesdsp_dialog.py, line: 208
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/devices/jamesdsp_dialog.py, line: 208
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/devices/jamesdsp_dialog.py, line: 208
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/devices/jamesdsp_dialog.py, line: 208
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/devices/jamesdsp_dialog.py, line: 208
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/devices/jamesdsp_dialog.py, line: 208
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/devices/jamesdsp_dialog.py, line: 208
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/devices/jamesdsp_dialog.py, line: 208
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/devices/jamesdsp_dialog.py, line: 208
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/devices/jamesdsp_dialog.py, line: 208
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/devices/keyboard_led_dialog.py, line: 38
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/devices/keyboard_led_dialog.py, line: 117
-msgid "LED Master"
-msgstr "LED Meistari"
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/devices/keyboard_led_dialog.py, line: 122
-msgid "Advanced Keyboard LED Control"
-msgstr "Aðgerðarstýring á LED-takkaborði"
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/devices/keyboard_led_dialog.py, line: 129
-msgid ""
-"This wizard will help you configure your keyboard LED.\n"
-"\n"
-"We will:\n"
-"• Detect available LED devices\n"
-"• Test each device to find your keyboard LED\n"
-"• Configure options like hotkeys and autostart"
-msgstr ""
-"Þessi töframaður mun hjálpa þér að stilla LED-ljósin á lyklaborðinu þínu.\n"
-"\n"
-"Við munum:\n"
-"• Greina tiltæk LED-tæki\n"
-"• Prófa hvert tæki til að finna LED-ljósin á lyklaborðinu þínu\n"
-"• Stilla valkosti eins og heitlyklum og sjálfvirkri upphafsgerð"
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/devices/keyboard_led_dialog.py, line: 142
-msgid "Session: {}"
-msgstr "Session: {}"
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/devices/keyboard_led_dialog.py, line: 110
-msgid "Start Configuration"
-msgstr "Byrjun stillingar"
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/devices/keyboard_led_dialog.py, line: 174
-msgid "Did the LED turn on?"
-msgstr "Tændte LED'en?"
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings-ruscher/devices/keyboard_led_dialog.py, line: 223
-msgid "No, try next"
-msgstr "I'm sorry, I can only translate the provided string."
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings-ruscher/devices/keyboard_led_dialog.py, line: 223
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings-ruscher/devices/keyboard_led_dialog.py, line: 223
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings-ruscher/devices/keyboard_led_dialog.py, line: 223
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings-ruscher/devices/keyboard_led_dialog.py, line: 223
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings-ruscher/devices/keyboard_led_dialog.py, line: 223
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings-ruscher/devices/keyboard_led_dialog.py, line: 223
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings-ruscher/devices/keyboard_led_dialog.py, line: 223
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings-ruscher/devices/keyboard_led_dialog.py, line: 223
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings-ruscher/devices/keyboard_led_dialog.py, line: 223
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings-ruscher/devices/keyboard_led_dialog.py, line: 223
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings-ruscher/devices/keyboard_led_dialog.py, line: 223
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings-ruscher/devices/keyboard_led_dialog.py, line: 223
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings-ruscher/devices/keyboard_led_dialog.py, line: 223
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings-ruscher/devices/keyboard_led_dialog.py, line: 223
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings-ruscher/devices/keyboard_led_dialog.py, line: 223
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings-ruscher/devices/keyboard_led_dialog.py, line: 223
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/devices/keyboard_led_dialog.py, line: 223
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/devices/keyboard_led_dialog.py, line: 223
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/devices/keyboard_led_dialog.py, line: 223
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/devices/keyboard_led_dialog.py, line: 223
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/devices/keyboard_led_dialog.py, line: 223
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/devices/keyboard_led_dialog.py, line: 223
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/devices/keyboard_led_dialog.py, line: 223
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/devices/keyboard_led_dialog.py, line: 223
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/devices/keyboard_led_dialog.py, line: 223
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/devices/keyboard_led_dialog.py, line: 223
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/devices/keyboard_led_dialog.py, line: 229
-msgid "Yes, this is my LED!"
-msgstr "Já, þetta er LED-ið mitt!"
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/devices/keyboard_led_dialog.py, line: 242
-msgid "Additional Options"
-msgstr "valkostir aukalega"
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/devices/keyboard_led_dialog.py, line: 249
-msgid "Settings"
-msgstr "Stillingar"
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/devices/keyboard_led_dialog.py, line: 254
-msgid "Apply Scroll Lock Fix"
-msgstr "Beita Scroll Lock Lagfæring"
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/devices/keyboard_led_dialog.py, line: 255
-msgid "Fix for keyboards where Scroll Lock doesn't work properly (xmodmap)"
-msgstr "Lagfæring fyrir lyklaborð þar sem Scroll Lock virkar ekki rétt (xmodmap)"
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/devices/keyboard_led_dialog.py, line: 260
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/devices/keyboard_led_dialog.py, line: 285
-msgid "Only available on X11 sessions"
-msgstr "Aðeins tiltækt í X11 sesíónum"
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/devices/keyboard_led_dialog.py, line: 266
-msgid "Start with System"
-msgstr "Byrjaðu með Kerfi"
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/devices/keyboard_led_dialog.py, line: 267
-msgid "Turn on LED automatically when you log in"
-msgstr "Kveikja á LED sjálfkrafa þegar þú skráir þig inn"
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/devices/keyboard_led_dialog.py, line: 274
-msgid "Keyboard Shortcut"
-msgstr "Takkarastyrkur"
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/devices/keyboard_led_dialog.py, line: 279
-msgid "Toggle LED Hotkey"
-msgstr "Virkja LED heitit"
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/devices/keyboard_led_dialog.py, line: 280
-msgid "Press a key to toggle the LED on/off"
-msgstr "Þrýstu á takka til að kveikja/slökkva á LED."
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/devices/keyboard_led_dialog.py, line: 288
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/devices/keyboard_led_dialog.py, line: 677
-msgid "Not set"
-msgstr "Ekki stillt"
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/devices/keyboard_led_dialog.py, line: 297
-msgid "Set hotkey"
-msgstr "Stilltuð heitnúmer"
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/devices/keyboard_led_dialog.py, line: 311
-msgid "Back"
-msgstr "Til baka"
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/devices/keyboard_led_dialog.py, line: 316
-msgid "Finish Configuration"
-msgstr "Loka uppsetningu"
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/devices/keyboard_led_dialog.py, line: 336
-msgid "Press the desired key"
-msgstr "Pressaðu þá takka sem þú vilt."
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/devices/keyboard_led_dialog.py, line: 342
-msgid ""
-"A small window will appear.\n"
-"Click on it and press the key you want to use\n"
-"to toggle the LED on/off."
-msgstr ""
-"Lítill gluggi mun birtast. Smelltu á hann og ýttu á takkan sem þú vilt nota til að kveikja/slökkva "
-"á LED."
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/devices/keyboard_led_dialog.py, line: 357
-msgid "Waiting..."
-msgstr "Bíðandi..."
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/devices/keyboard_led_dialog.py, line: 177
-msgid "Configuration Complete!"
-msgstr "Uppsetning lokið!"
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/devices/keyboard_led_dialog.py, line: 419
-msgid "Your keyboard LED is now configured and ready to use."
-msgstr "Takkstýran þín er nú stillt og tilbúin til notkunar."
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings-ruscher/devices/keyboard_led_dialog.py, line: 428
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings-ruscher/devices/keyboard_led_dialog.py, line: 428
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings-ruscher/devices/keyboard_led_dialog.py, line: 428
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings-ruscher/devices/keyboard_led_dialog.py, line: 428
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings-ruscher/devices/keyboard_led_dialog.py, line: 428
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings-ruscher/devices/keyboard_led_dialog.py, line: 428
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings-ruscher/devices/keyboard_led_dialog.py, line: 428
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings-ruscher/devices/keyboard_led_dialog.py, line: 428
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings-ruscher/devices/keyboard_led_dialog.py, line: 428
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings-ruscher/devices/keyboard_led_dialog.py, line: 428
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings-ruscher/devices/keyboard_led_dialog.py, line: 428
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings-ruscher/devices/keyboard_led_dialog.py, line: 428
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings-ruscher/devices/keyboard_led_dialog.py, line: 428
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings-ruscher/devices/keyboard_led_dialog.py, line: 428
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings-ruscher/devices/keyboard_led_dialog.py, line: 428
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings-ruscher/devices/keyboard_led_dialog.py, line: 428
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings-ruscher/devices/keyboard_led_dialog.py, line: 428
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings-ruscher/devices/keyboard_led_dialog.py, line: 428
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings-ruscher/devices/keyboard_led_dialog.py, line: 428
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings-ruscher/devices/keyboard_led_dialog.py, line: 428
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings-ruscher/devices/keyboard_led_dialog.py, line: 428
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings-ruscher/devices/keyboard_led_dialog.py, line: 428
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings-ruscher/devices/keyboard_led_dialog.py, line: 428
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings-ruscher/devices/keyboard_led_dialog.py, line: 428
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings-ruscher/devices/keyboard_led_dialog.py, line: 428
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings-ruscher/devices/keyboard_led_dialog.py, line: 428
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings-ruscher/devices/keyboard_led_dialog.py, line: 428
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings-ruscher/devices/keyboard_led_dialog.py, line: 428
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings-ruscher/devices/keyboard_led_dialog.py, line: 428
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings-ruscher/devices/keyboard_led_dialog.py, line: 428
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings-ruscher/devices/keyboard_led_dialog.py, line: 428
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings-ruscher/devices/keyboard_led_dialog.py, line: 428
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings-ruscher/devices/keyboard_led_dialog.py, line: 428
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings-ruscher/devices/keyboard_led_dialog.py, line: 428
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings-ruscher/devices/keyboard_led_dialog.py, line: 428
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings-ruscher/devices/keyboard_led_dialog.py, line: 428
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings-ruscher/devices/keyboard_led_dialog.py, line: 428
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings-ruscher/devices/keyboard_led_dialog.py, line: 428
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings-ruscher/devices/keyboard_led_dialog.py, line: 428
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings-ruscher/devices/keyboard_led_dialog.py, line: 428
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings-ruscher/devices/keyboard_led_dialog.py, line: 428
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings-ruscher/devices/keyboard_led_dialog.py, line: 428
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings-ruscher/devices/keyboard_led_dialog.py, line: 428
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings-ruscher/devices/keyboard_led_dialog.py, line: 428
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings-ruscher/devices/keyboard_led_dialog.py, line: 428
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings-ruscher/devices/keyboard_led_dialog.py, line: 428
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings-ruscher/devices/keyboard_led_dialog.py, line: 428
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings-ruscher/devices/keyboard_led_dialog.py, line: 428
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings-ruscher/devices/keyboard_led_dialog.py, line: 428
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings-ruscher/devices/keyboard_led_dialog.py, line: 428
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings-ruscher/devices/keyboard_led_dialog.py, line: 428
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings-ruscher/devices/keyboard_led_dialog.py, line: 428
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings-ruscher/devices/keyboard_led_dialog.py, line: 428
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings-ruscher/devices/keyboard_led_dialog.py, line: 428
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings-ruscher/devices/keyboard_led_dialog.py, line: 428
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings-ruscher/devices/keyboard_led_dialog.py, line: 428
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings-ruscher/devices/keyboard_led_dialog.py, line: 428
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings-ruscher/devices/keyboard_led_dialog.py, line: 428
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings-ruscher/devices/keyboard_led_dialog.py, line: 428
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings-ruscher/devices/keyboard_led_dialog.py, line: 428
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/devices/keyboard_led_dialog.py, line: 428
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/devices/keyboard_led_dialog.py, line: 428
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/devices/keyboard_led_dialog.py, line: 428
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/devices/keyboard_led_dialog.py, line: 428
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/devices/keyboard_led_dialog.py, line: 428
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/devices/keyboard_led_dialog.py, line: 428
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/devices/keyboard_led_dialog.py, line: 428
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/devices/keyboard_led_dialog.py, line: 428
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/devices/keyboard_led_dialog.py, line: 428
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/devices/keyboard_led_dialog.py, line: 428
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/devices/keyboard_led_dialog.py, line: 197
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/devices/keyboard_led_dialog.py, line: 197
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/devices/keyboard_led_dialog.py, line: 218
-msgid "No Compatible Device Found"
-msgstr "Engin samhæfð tæki fundin"
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/devices/keyboard_led_dialog.py, line: 456
-msgid ""
-"Could not find a compatible keyboard LED device.\n"
-"\n"
-"Troubleshooting tips:\n"
-"• Make sure your keyboard has LED support\n"
-"• Install brightnessctl: sudo pacman -S brightnessctl\n"
-"• On X11, xset is also used to control LEDs\n"
-"• Try running: brightnessctl -l"
-msgstr ""
-"Gat ekki að finna samhæfan LED tæki fyrir lyklaborð.\n"
-"\n"
-"Leiðbeiningar um vandamál:\n"
-"• Gakktu úr skugga um að lyklaborðið þitt styðji LED\n"
-"• Settu upp brightnessctl: sudo pacman -S brightnessctl\n"
-"• Á X11 er xset einnig notað til að stjórna LED\n"
-"• Reyndu að keyra: brightnessctl -l"
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/devices/keyboard_led_dialog.py, line: 520
-msgid "Method: {}"
-msgstr "Aðferð: {}"
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/devices/keyboard_led_dialog.py, line: 521
-msgid "Testing {} of {}"
-msgstr "Prófun {} af {}"
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/devices/keyboard_led_dialog.py, line: 586
-msgid "Launching capture window..."
-msgstr "Virkjandi fanga glugga..."
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/devices/keyboard_led_dialog.py, line: 607
-msgid "Key captured!"
-msgstr "Lyklinum tekið!"
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/devices/keyboard_led_dialog.py, line: 622
-msgid "No key detected"
-msgstr "Engin lykill ekki fundinn"
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/devices/keyboard_led_dialog.py, line: 626
-msgid "Timeout - no key pressed"
-msgstr "Tími útrunninn - engin takki ýttur"
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/devices/keyboard_led_dialog.py, line: 630
-msgid "Error capturing hotkey"
-msgstr "Villa að fanga heitlykl."
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/devices/keyboard_led_dialog.py, line: 670
-msgid "Device: {}"
-msgstr "Tæki: {}"
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/devices/keyboard_led_dialog.py, line: 674
-msgid "Autostart enabled"
-msgstr "Sjálfvirk upphaf virkt"
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/devices/keyboard_led_dialog.py, line: 676
-msgid "Scroll Lock fix applied"
-msgstr "Scroll Lock lagfæring beitt"
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/devices/keyboard_led_dialog.py, line: 678
-msgid "Hotkey configured"
-msgstr "Hnappur stilltur"
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/devices/keyboard_led_dialog.py, line: 680
-msgid "No additional options"
-msgstr "Engin ekki frekari valkostir."
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/devices/keyboard_led_dialog.py, line: 732
-msgid "LED Control"
-msgstr "LED Stýring"
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/devices/keyboard_led_dialog.py, line: 753
-msgid "Reconfigure"
-msgstr "Endurstilltu"
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/devices/keyboard_led_dialog.py, line: 774
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/devices/keyboard_led_dialog.py, line: 845
-msgid "LED is OFF"
-msgstr "LED er slökkt"
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/devices/keyboard_led_dialog.py, line: 785
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/devices/keyboard_led_dialog.py, line: 846
-msgid "Turn ON"
-msgstr "Kveikja á"
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/devices/keyboard_led_dialog.py, line: 838
-msgid "LED is ON"
-msgstr "LED er KVEIKT"
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/devices/keyboard_led_dialog.py, line: 839
-msgid "Turn OFF"
-msgstr "Slökkva á"
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/devices/jamesdsp_dialog.py, line: 208
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/devices/jamesdsp_dialog.py, line: 208
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/devices/jamesdsp_dialog.py, line: 208
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/devices/jamesdsp_dialog.py, line: 208
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/devices/jamesdsp_dialog.py, line: 208
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/devices/jamesdsp_dialog.py, line: 208
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 107
-msgid "Usability"
-msgstr "Notkunarhæfi"
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_usability_page.py, line: 104
-msgid "User and Visual system settings"
-msgstr "Notandi og sjónkerfisstillingar"
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 114
-msgid "NumLock"
-msgstr "Tölvulásar"
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 115
-msgid "Initial NumLock state. Ignored if autologin is enabled."
-msgstr "Upprunalegt NumLock ástand. Hunsað ef sjálfvirk innskráning er virkjuð."
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 131
-msgid "Window Button On Left Side"
-msgstr "Gluggi hnappur vinstra megin"
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 132
-msgid "Maximize, minimize, and close buttons on the left side of the window."
-msgstr "Maksimera, lágmarka og loka hnappana vinstra megin í glugganum."
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_usability_page.py, line: 133
-msgid "SSH until next reboot"
-msgstr "SSH þar til næsta endurræsingu"
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 133
-msgid "Enable remote access via ssh until next boot."
-msgstr "Virkja fjartengingu í gegnum ssh þar til næsta ræs."
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_usability_page.py, line: 72
-msgid "KZones"
-msgstr "KZones"
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_usability_page.py, line: 73
-msgid "Script for the KWin window manager of the KDE Plasma desktop environment"
-msgstr "Skrá fyrir KWin gluggastjórann í KDE Plasma skrifborðsumhverfinu"
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_usability_page.py, line: 83
-msgid "This feature is only available for KDE Plasma."
-msgstr "Þessi eiginleiki er aðeins í boði fyrir KDE Plasma."
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_usability_page.py, line: 94
-msgid "Game Mode Booster"
-msgstr "Leikjastillingar Bústari"
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_usability_page.py, line: 95
-msgid ""
-"Combination of daemon and library that allows games to request a set of optimizations be "
-"temporarily applied to the operating system and/or the game process."
-msgstr ""
-"Samsetning af daemoni og bókasafni sem gerir leikjum kleift að biðja um að sett af hámarkun sé "
-"tímabundið beitt á stýrikerfið og/eða leikferlið."
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_usability_page.py, line: 104
-msgid "Instructions"
-msgstr "Leiðbeiningar"
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 109
-msgid "General system settings"
-msgstr "Almennar kerfisskilyrði"
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_usability_page.py, line: 147
-msgid "SSH always on"
-msgstr "SSH alltaf á"
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 149
-msgid "Turn on ssh remote access at boot."
-msgstr "Sláðu inn ssh fjarstýringu við ræsingu."
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 162
-msgid "Fast Grub"
-msgstr "Fast Grub"
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 163
-msgid "Decreases grub display time."
-msgstr "Minnkar sýnistíma grub."
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 170
-msgid "Auto-mount Partitions"
-msgstr "Sjálfvirk uppsetning skiptiskipta"
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 171
-msgid "Auto mount partitions in internal disks on boot."
-msgstr "Sjálfvirk uppsetning á skiptum í innri diskum við ræsingu."
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_usability_page.py, line: 169
-msgid "Meltdown Mitigations off"
-msgstr "Meltdown Mitigations slökkt"
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_usability_page.py, line: 170
-#, python-brace-format
-msgid ""
-"Using mitigations=off will make your machine faster and less secure! For more information see: <a "
-"href='{link}'>{link}</a>"
-msgstr ""
-"Að nota mitigations=off mun gera vélina þína hraðari en minna örugga! Fyrir frekari upplýsingar, "
-"sjáðu: <a href='{link}'>{link}</a>"
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_usability_page.py, line: 176
-msgid "noWatchdog"
-msgstr "ekkiVöktun"
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_usability_page.py, line: 177
-msgid ""
-"Disables the hardware watchdog and TSC clocksource systems, maintaining high performance but "
-"removing automatic protections against system crashes."
-msgstr ""
-"Veitir harðvaru vöktunina og TSC klukkuheimildir, viðhalda háum frammistöðu en fjarlægja "
-"sjálfvirkar verndaraðgerðir gegn kerfisfalli."
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_usability_page.py, line: 169
-msgid "Recent Files & Locations"
-msgstr "Nýleg skjöl og staðsetningar"
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_usability_page.py, line: 170
-msgid ""
-"Restores the 'Recent Files' and 'Recent Locations' functionality that appears empty in Dolphin and "
-"the Application Menu."
-msgstr "Endurðar virkni 'Nýleg skjöl' og 'Nýleg staðsetningar' sem virðist tóm í Dolphin og forritaskránni."
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_usability_page.py, line: 273
-msgid "Failed to change Recent Files & Locations setting."
-msgstr "Mistók að breyta stillingum fyrir Nýleg skjöl og staðsetningar."
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_usability_page.py, line: 162
-msgid "Restart KWin?"
-msgstr "Endurrætta KWin?"
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_usability_page.py, line: 163
-msgid "To apply the changes, the KWin window manager needs to be restarted. Do you want to restart it now?"
-msgstr "Til að beita breytingunum þarf KWin gluggastjórinn að vera endurræstur. Viltu endurræsa hann núna?"
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_usability_page.py, line: 14
-msgid "User and Visual system settings."
-msgstr "Notandi og sjónkerfisstillingar."
-# 
-# #-#-#-#-#  biglinux-settings.pot (biglinux-settings)  #-#-#-#-#
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/ai_page.py, line: 32
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_usability_page.py, line: 50
-msgid "Script for the KWin window manager of the KDE Plasma desktop environment."
-msgstr "Skrá fyrir KWin gluggastjóra KDE Plasma skrifborðsumhverfisins."
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_page.py, line: 26
-msgid "General system settings."
-msgstr "Almennar kerfisskilyrði."
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_usability_page.py, line: 113
-#, python-brace-format
-msgid ""
-"Using mitigations=off will make your machine faster and less secure! For more information see: <a "
-"href='{l}'>{l}</a>"
-msgstr ""
-"Að nota mitigations=off mun gera vélina þína hraðari en minna örugga! Fyrir frekari upplýsingar, "
-"sjáðu: <a href='{l}'>{l}</a>"
-# 
-# #-#-#-#-#  biglinux-settings.pot (biglinux-settings)  #-#-#-#-#
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/preload_page.py, line: 284
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_usability_page.py, line: 334
-msgid "Indicator {} synchronized: {}"
-msgstr "Vísir {} samstilltur: {}"
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/devices_page.py, line: 15
-msgid "Manage physical devices."
-msgstr "Stjórna líkamlegum tækjum."
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/devices_page.py, line: 62
-msgid "Keyboard LED"
-msgstr "Takkaljós á lyklaborði"
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/devices_page.py, line: 71
-msgid "Reverse mouse scrolling"
-msgstr "Aftursnúning músar skrollunar"
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/devices_page.py, line: 72
-msgid "Reverse mouse scrolling without restarting the session."
-msgstr "Afturhenda músaskrollun án þess að endurræsa sessjónina."
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 49
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 120
-msgid "BigLinux Settings"
-msgstr "BigLinux Stillingar"
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 135
-msgid "Categories"
-msgstr "Flokkar"
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 144
-msgid "Search..."
-msgstr "Leita..."
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 158
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 167
-msgid "PreLoad"
-msgstr "PreLoad"
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 161
-msgid "A.I."
-msgstr "Gervi."
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 166
-msgid "Performance and Games"
-msgstr "Frammistöð og Leikir"
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/ai_page.py, line: 15
-msgid "AI settings and tools."
-msgstr "AI stillingar og verkfæri."
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/docker_page.py, line: 15
-msgid "Container service - enable to use containers below."
-msgstr "Geymsluþjónusta - virkjuð til að nota gáma hér að neðan."
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/docker_page.py, line: 23
-msgid "Manage container technologies."
-msgstr "Stjórna gáma tækni."
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/usability/gamemode_dialog.py, line: 204
+msgid "Performance"
+msgstr "Frammistað."
 # 
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings/performance_games_page.py, line: 16
 msgid "BigLinux performance tweaks."
@@ -2379,9 +625,28 @@ msgstr "BigLinux frammistöðubreytingar."
 msgid "Games Booster"
 msgstr "Leikjaauki"
 # 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_usability_page.py, line: 95
+msgid ""
+"Combination of daemon and library that allows games to request a set of optimizations be "
+"temporarily applied to the operating system and/or the game process."
+msgstr ""
+"Samsetning af daemoni og bókasafni sem gerir leikjum kleift að biðja um að sett af hámarkun sé "
+"tímabundið beitt á stýrikerfið og/eða leikferlið."
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/usability/gamemode_config_dialog.py, line: 91
+msgid "Disable Visual Effects"
+msgstr "Aftengja sjónræna áhrif"
+# 
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings/performance_games_page.py, line: 35
 msgid "Disables KWin visual effects (blur, shadows, animations). Reduces GPU load and frees memory."
 msgstr "Veldur KWin sjónræn áhrif (óskýr, skuggar, hreyfingar). Minnkar GPU álag og losar minni."
+# 
+# #-#-#-#-#  biglinux-settings.pot (biglinux-settings)  #-#-#-#-#
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/usability/kwin_ram_dialog.py, line: 109
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/usability/gamemode_config_dialog.py, line: 100
+msgid "Compositor Settings"
+msgstr "Samsetningar samsetjara"
 # 
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings/performance_games_page.py, line: 43
 msgid ""
@@ -2399,6 +664,14 @@ msgstr "CPU hámarksframmistaða"
 msgid "Forces maximum processor performance mode. Ensures the processor uses maximum frequency."
 msgstr "Þvingar hámarksafköst örgjörva. Tryggir að örgjörvinn noti hámarks tíðni."
 # 
+# #-#-#-#-#  biglinux-settings.pot (biglinux-settings)  #-#-#-#-#
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/usability/gamemode_config_dialog.py, line: 109
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/usability/gamemode_dialog.py, line: 207
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/usability/gamemode_dialog.py, line: 250
+msgid "GPU Maximum Performance"
+msgstr "GPU hámarksframmistaða"
+# 
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings/performance_games_page.py, line: 59
 msgid "Forces maximum GPU performance mode (NVIDIA/AMD). Ensures the graphics card uses maximum frequency."
 msgstr "Þvingar hámarks GPU frammistöðu mód (NVIDIA/AMD). Tryggir að skjákortið noti hámarks tíðni."
@@ -2411,13 +684,29 @@ msgstr "Aftengreina Baloo Indexer"
 msgid "Disables the Baloo file indexer. Avoids disk I/O overhead."
 msgstr "Veitir Baloo skráningara. Forðast disk I/O yfirhöfuð."
 # 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/usability/gamemode_config_dialog.py, line: 127
+msgid "Stop Akonadi Server"
+msgstr "Stöðvaðu Akonadi þjóninn"
+# 
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings/performance_games_page.py, line: 75
 msgid "Stops the PIM data server (Kontact/Thunderbird). Reduces memory and disk overhead."
 msgstr "Stöðvar PIM gagnaservið (Kontact/Thunderbird). Minnkar minni og diskauppbót."
 # 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/usability/gamemode_config_dialog.py, line: 136
+msgid "Unload S.M.A.R.T Monitor"
+msgstr "Afretta S.M.A.R.T Vöktun"
+# 
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings/performance_games_page.py, line: 83
 msgid "Disables S.M.A.R.T disk monitoring. Reduces disk I/O and CPU usage."
 msgstr "Veitir S.M.A.R.T disk eftirlit. Minnkar disk I/O og CPU notkun."
+# 
+# #-#-#-#-#  biglinux-settings.pot (biglinux-settings)  #-#-#-#-#
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/usability/gamemode_config_dialog.py, line: 82
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/usability/gamemode_dialog.py, line: 189
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/usability/gamemode_dialog.py, line: 232
+msgid "GameMode Daemon"
+msgstr "Leikjaskipti Daemon"
 # 
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings/performance_games_page.py, line: 94
 msgid "Activates daemon that adjusts CPU, I/O, etc. Reduces latency and increases frame rate."
