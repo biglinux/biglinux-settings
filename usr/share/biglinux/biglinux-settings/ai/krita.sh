@@ -35,9 +35,10 @@ toggle_state() {
     exitCode=$?
   else
     killall krita
-    rm -rf "${HOME}/.local/share/krita/pykrita"
-    rm -rf "${HOME}/.local/share/krita/ai_diffusion/server/models"
-    rm -rf "${HOME}/.local/share/krita/ai_diffusion/server/venv"
+    rm -rf "$HOME/.local/share/krita/pykrita"
+    rm -rf "$HOME/.local/share/krita/ai_diffusion/server/models"
+    rm -rf "$HOME/.local/share/krita/ai_diffusion/server/venv"
+    sed -i '/krita/d' $HOME/.bashrc
     kwriteconfig6 --file kritarc --group "python" --key "enable_ai_diffusion" "false"
     exitCode=$?
   fi
