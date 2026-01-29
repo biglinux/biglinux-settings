@@ -63,10 +63,6 @@ class BaseSettingsPage(Adw.Bin):
         """Cria um PreferencesGroup com o botão de reload automático."""
         group = Adw.PreferencesGroup()
         group.set_title(title)
-        # Header widget not used – Adw handles title and description.
-
-
-
         group.set_description(description)
         group.script_group = script_group
 
