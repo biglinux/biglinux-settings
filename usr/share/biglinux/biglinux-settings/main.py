@@ -216,7 +216,12 @@ class BiglinuxSettingsWindow(Adw.ApplicationWindow):
                 "id": "devices",
                 "class": DevicesPage,
             },
-            {"label": _("A.I."), "icon": "ai-symbolic", "id": "ai", "class": AIPage},
+            {
+                "label": _("A.I."),
+                "icon": "ai-symbolic",
+                "id": "ai",
+                "class": AIPage,
+            },
             {
                 "label": _("Docker"),
                 "icon": "docker-symbolic",

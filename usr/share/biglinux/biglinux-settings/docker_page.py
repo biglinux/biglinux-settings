@@ -1,9 +1,6 @@
 import os
 import subprocess
-
 from base_page import BaseSettingsPage, _
-from base_page import BaseSettingsPage, _
-
 
 class DockerPage(BaseSettingsPage):
     def __init__(self, main_window, **kwargs):
