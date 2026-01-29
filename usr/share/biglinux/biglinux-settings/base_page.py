@@ -32,7 +32,6 @@ class BaseSettingsPage(Adw.Bin):
         # Dictionaries to map UI widgets to their corresponding shell scripts
         self.switch_scripts = {}
         self.status_indicators = {}
-        self._search_mode = False
 
     def create_scrolled_content(self):
         """Cria a estrutura básica de scroll e box vertical."""
@@ -49,10 +48,8 @@ class BaseSettingsPage(Adw.Bin):
         return self.content_box
 
     def set_search_mode(self, enabled):
-        """Adjust margins for search mode (compact) or normal mode."""
-        if not hasattr(self, "content_box"):
-            return
-        self._search_mode = enabled
+        """Placeholder method for search mode compatibility."""
+        pass
 
     def on_reload_clicked(self, widget):
         """Callback for the reload button. Triggers a full UI state sync."""
@@ -228,17 +225,18 @@ class BaseSettingsPage(Adw.Bin):
             switch.handler_block_by_func(self.on_switch_changed)
 
             if status == "true_disabled":
-                # State: Enabled but cannot be changed.
-                row.set_sensitive(False)
-                row.set_tooltip_text(message)
-                switch.set_active(True)
-            elif status is None:
-                row.set_sensitive(False)
-                row.set_tooltip_text(message)
+                # State: Enabled but cannot be changed - hide it from interface.
                 row.set_visible(False)
+                row._hidden_no_support = True
+            elif status is None:
+                # Feature not supported - hide it from interface.
+                row.set_visible(False)
+                row._hidden_no_support = True
             else:
                 row.set_sensitive(True)
+                row.set_visible(True)
                 row.set_tooltip_text(None)
+                row._hidden_no_support = False
                 switch.handler_block_by_func(self.on_switch_changed)
                 switch.set_active(status)
                 switch.handler_unblock_by_func(self.on_switch_changed)
@@ -261,12 +259,14 @@ class BaseSettingsPage(Adw.Bin):
             indicator.remove_css_class("status-unavailable")
 
             if status is None:
-                row.set_sensitive(False)
-                row.set_tooltip_text(message)
-                indicator.add_css_class("status-unavailable")
+                # Feature not supported - hide it from interface.
+                row.set_visible(False)
+                row._hidden_no_support = True
             else:
                 row.set_sensitive(True)
+                row.set_visible(True)
                 row.set_tooltip_text(None)
+                row._hidden_no_support = False
                 if status:
                     indicator.add_css_class("status-on")
                 else:
@@ -333,6 +333,11 @@ class BaseSettingsPage(Adw.Bin):
                 row = listbox.get_first_child()
                 while row:
                     if isinstance(row, (Adw.PreferencesRow, Gtk.ListBoxRow)):
+                        # Skip rows hidden due to lack of support
+                        if getattr(row, "_hidden_no_support", False):
+                            row = row.get_next_sibling()
+                            continue
+
                         text = self._get_row_text(row).lower()
                         if search_text in text:
                             matching.append((row, child))
@@ -369,6 +374,11 @@ class BaseSettingsPage(Adw.Bin):
         row = listbox.get_first_child()
         while row:
             if isinstance(row, (Adw.PreferencesRow, Gtk.ListBoxRow)):
+                # Skip rows hidden due to lack of support
+                if getattr(row, "_hidden_no_support", False):
+                    row = row.get_next_sibling()
+                    continue
+
                 if not search_text:
                     row.set_visible(True)
                     visible_count += 1

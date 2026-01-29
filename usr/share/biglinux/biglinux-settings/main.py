@@ -5,6 +5,7 @@ gi.require_version("Gtk", "4.0")
 gi.require_version("Adw", "1")
 gi.require_version("Gdk", "4.0")
 import gettext
+import json
 import locale
 import os
 
@@ -22,6 +23,8 @@ LOCALE_DIR = "/usr/share/locale"
 
 BASE_DIR = os.path.dirname(os.path.abspath(__file__))
 ICONS_DIR = os.path.join(BASE_DIR, "icons")
+CONFIG_DIR = os.path.expanduser("~/.config/biglinux-settings")
+CONFIG_FILE = os.path.join(CONFIG_DIR, "config.json")
 
 locale.setlocale(locale.LC_ALL, "")
 locale.bindtextdomain(DOMAIN, LOCALE_DIR)
@@ -47,7 +50,12 @@ class BiglinuxSettingsWindow(Adw.ApplicationWindow):
     def __init__(self, **kwargs):
         super().__init__(**kwargs)
         self.set_title(_("BigLinux Settings"))
-        self.set_default_size(1000, 700)
+
+        # Load saved window size or use defaults
+        saved_size = self._load_window_config()
+        width = saved_size.get("width", 1000)
+        height = saved_size.get("height", 700)
+        self.set_default_size(width, height)
 
         icon_theme = Gtk.IconTheme.get_for_display(Gdk.Display.get_default())
         icon_theme.add_search_path(ICONS_DIR)
@@ -58,6 +66,36 @@ class BiglinuxSettingsWindow(Adw.ApplicationWindow):
         self.current_page_id = None
         self.load_css()
         self.setup_ui()
+
+        # Connect close signal to save window size
+        self.connect("close-request", self._on_close_request)
+
+    def _load_window_config(self):
+        """Load window configuration from JSON file."""
+        if os.path.exists(CONFIG_FILE):
+            try:
+                with open(CONFIG_FILE, encoding="utf-8") as f:
+                    return json.load(f)
+            except (json.JSONDecodeError, OSError) as e:
+                print(f"Error loading window config: {e}")
+        return {}
+
+    def _save_window_config(self):
+        """Save window configuration to JSON file."""
+        try:
+            os.makedirs(CONFIG_DIR, exist_ok=True)
+            width = self.get_width()
+            height = self.get_height()
+            config = {"width": width, "height": height}
+            with open(CONFIG_FILE, "w", encoding="utf-8") as f:
+                json.dump(config, f, indent=2)
+        except OSError as e:
+            print(f"Error saving window config: {e}")
+
+    def _on_close_request(self, window):
+        """Handle window close request - save configuration."""
+        self._save_window_config()
+        return False  # Allow window to close
 
     def load_css(self):
         self.css_provider = Gtk.CssProvider()
