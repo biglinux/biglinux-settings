@@ -6,7 +6,7 @@ export TEXTDOMAIN=biglinux-settings
 
 # check current status
 check_state() {
-  if [[ "kreadconfig6 --file kdeglobals --group KDE --key AnimationDurationFactor" != "0" ]]; then
+  if [[ -n "kqdbus6 org.kde.KWin /Effects org.kde.kwin.Effects.loadedEffects" ]]; then
     echo "false"
   else
     echo "true"
