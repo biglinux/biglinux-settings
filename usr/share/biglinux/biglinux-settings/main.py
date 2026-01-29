@@ -162,7 +162,7 @@ class SystemSettingsWindow(Adw.ApplicationWindow):
             {"label": _("PreLoad"),     "icon": "preload-symbolic",     "id": "preload",    "class": PreloadPage},
             {"label": _("Devices"),     "icon": "devices-symbolic",     "id": "devices",    "class": DevicesPage},
             {"label": _("A.I."),        "icon": "ai-symbolic",          "id": "ai",         "class": AIPage},
-            {"label": _("Docker"),      "icon": "docker-symbolic",      "id": "docker",     "class": DockerPage},
+            {"label": _("Docker"),      "icon": "docker-geral-symbolic",      "id": "docker",     "class": DockerPage},
             {"label": _("Performance and Games"),       "icon": "games-symbolic",       "id": "perf_games", "class": PerformanceGamesPage},
         ]
 
