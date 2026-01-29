@@ -262,7 +262,7 @@ class BiglinuxSettingsWindow(Adw.ApplicationWindow):
             },
             {
                 "label": _("Docker"),
-                "icon": "docker-symbolic",
+                "icon": "docker-geral-symbolic",
                 "id": "docker",
                 "class": DockerPage,
             },
