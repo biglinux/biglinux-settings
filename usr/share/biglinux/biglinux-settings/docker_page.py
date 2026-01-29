@@ -183,6 +183,6 @@ class DockerPage(BaseSettingsPage):
                         script_name, "on" if state else "off"
                     )
                 )
-                self.show_toast(_("Failed to change setting: {}").format(script_name))
+                self.main_window.show_toast(_("Failed to change setting: {}").format(script_name))
 
         return False

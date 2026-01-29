@@ -6,7 +6,7 @@ export TEXTDOMAIN=biglinux-settings
 
 # check current status
 check_state() {
-  if [[ -n "kqdbus6 org.kde.KWin /Effects org.kde.kwin.Effects.loadedEffects" ]]; then
+  if [[ -n "$(qdbus6 org.kde.KWin /Effects org.kde.kwin.Effects.loadedEffects)" ]]; then
     echo "false"
   else
     echo "true"
@@ -21,13 +21,13 @@ toggle_state() {
     rm $HOME/.config/biglinux-settings/effectsEnable
     for effect in ${effects[@]}; do
       mkdir -p $HOME/.config/biglinux-settings
-      echo $effect >> $HOME/.config/biglinux-settingseffectsEnable
+      echo $effect >> $HOME/.config/biglinux-settings/effectsEnable
       kwriteconfig6 --file kwinrc --group Plugins --key ${effect}Enabled false
       qdbus6 org.kde.KWin /Effects org.kde.kwin.Effects.unloadEffect $effect;
     done
     exitCode=$?
   else
-    effects=$(cat effectsEnable)
+    effects=$(cat $HOME/.config/biglinux-settings/effectsEnable)
     for effect in ${effects[@]}; do
       kwriteconfig6 --file kwinrc --group Plugins --key ${effect}Enabled true
       qdbus6 org.kde.KWin /Effects org.kde.kwin.Effects.loadEffect $effect
