@@ -77,7 +77,7 @@ class PerformanceGamesPage(BaseSettingsPage):
             "stop-akonadi-server-symbolic"
         )
         # Unload S.M.A.R.T Monitor
-        self.create_row(
+        smart = self.create_row(
             performance_group,
             _("Unload S.M.A.R.T Monitor"),
             _("Disables S.M.A.R.T disk monitoring. Reduces disk I/O and CPU usage."),
@@ -86,14 +86,23 @@ class PerformanceGamesPage(BaseSettingsPage):
         )
 
 
+
         ## GAMES ##
         # Game Mode Daemon
-        self.create_row(
+        gameMode = self.create_row(
             games_group,
             _("GameMode Daemon"),
             _("Activates daemon that adjusts CPU, I/O, etc. Reduces latency and increases frame rate."),
             "gamemodeDaemon",
             "gamemode-daemon-symbolic"
         )
+        # self.create_sub_row(
+        #     games_group,
+        #     _("Sub‑Feature B"),
+        #     _("Option B for the main feature."),
+        #     "gamemodeDaemon",
+        #     "gamemode-daemon-symbolic",
+        #     gameMode
+        # )
 
         self.sync_all_switches()

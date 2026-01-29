@@ -24,6 +24,7 @@ gettext.bindtextdomain(DOMAIN, LOCALE_DIR)
 gettext.textdomain(DOMAIN)
 _ = gettext.gettext
 
+
 class BaseSettingsPage(Adw.Bin):
     def __init__(self, main_window, **kwargs):
         super().__init__(**kwargs)
@@ -32,6 +33,8 @@ class BaseSettingsPage(Adw.Bin):
         # Dictionaries to map UI widgets to their corresponding shell scripts
         self.switch_scripts = {}
         self.status_indicators = {}
+        # Mapping: parent_switch -> list of child row widgets
+        self.sub_switches = {}
 
     def create_scrolled_content(self):
         """Cria a estrutura básica de scroll e box vertical."""
@@ -59,6 +62,11 @@ class BaseSettingsPage(Adw.Bin):
     def create_group(self, title, description, script_group):
         """Cria um PreferencesGroup com o botão de reload automático."""
         group = Adw.PreferencesGroup()
+        group.set_title(title)
+        # Header widget not used – Adw handles title and description.
+
+
+
         group.set_description(description)
         group.script_group = script_group
 
@@ -124,6 +132,62 @@ class BaseSettingsPage(Adw.Bin):
         switch.connect("state-set", self.on_switch_changed)
 
         parent_group.add(row)
+        return switch
+
+    def create_sub_row(self, parent_group, title, subtitle_with_markup, script_name, icon_name, parent_switch: Gtk.Switch):
+        # Cria o row (mesma lógica de create_row, mas sem retorno do switch direto)
+        row = Adw.PreferencesRow()
+
+        main_box = Gtk.Box(
+            orientation=Gtk.Orientation.HORIZONTAL,
+            spacing=12,
+            margin_top=6,
+            margin_bottom=6,
+            margin_start=12,
+            margin_end=12,
+        )
+        row.set_child(main_box)
+
+        icon_path = os.path.join(ICONS_DIR, f"{icon_name}.svg")
+        gfile = Gio.File.new_for_path(icon_path)
+        icon = Gio.FileIcon.new(gfile)
+
+        img = Gtk.Image.new_from_gicon(icon)
+        img.set_pixel_size(24)
+        img.add_css_class("symbolic-icon")
+        main_box.append(img)
+
+        title_area = Gtk.Box(orientation=Gtk.Orientation.VERTICAL, hexpand=True, valign=Gtk.Align.CENTER)
+        main_box.append(title_area)
+
+        title_label = Gtk.Label(xalign=0, label=title)
+        title_label.add_css_class("title-4")
+        title_area.append(title_label)
+
+        if subtitle_with_markup:
+            subtitle_label = Gtk.Label(
+                xalign=0, wrap=True, use_markup=True, label=subtitle_with_markup
+            )
+            subtitle_label.add_css_class("caption")
+            subtitle_label.add_css_class("dim-label")
+            title_area.append(subtitle_label)
+
+        switch = Gtk.Switch(valign=Gtk.Align.CENTER)
+        main_box.append(switch)
+
+        script_group = getattr(parent_group, "script_group", "default")
+        script_path = os.path.join(script_group, f"{script_name}.sh")
+        self.switch_scripts[switch] = script_path
+        switch.connect("state-set", self.on_switch_changed)
+
+        parent_group.add(row)
+
+        # Começa oculto
+        row.set_visible(False)
+
+        # Registra o sub‑switch
+        self.sub_switches.setdefault(parent_switch, []).append(row)
+
         return switch
 
     def check_script_state(self, script_path):
@@ -277,6 +341,12 @@ class BaseSettingsPage(Adw.Bin):
                 )
             )
 
+        # Handle visibility of sub‑switches
+        for parent_switch, child_rows in self.sub_switches.items():
+            parent_state = parent_switch.get_active()
+            for child_row in child_rows:
+                child_row.set_visible(parent_state)
+
     def on_switch_changed(self, switch, state):
         """Callback executed when a user manually toggles a switch."""
         script_path = self.switch_scripts.get(switch)
@@ -302,6 +372,14 @@ class BaseSettingsPage(Adw.Bin):
                     )
                 )
                 self.main_window.show_toast(_("Failed to change setting: {}").format(script_name))
+            else:
+                # If this switch is a parent, adjust visibility of its sub‑switches
+                if switch in self.sub_switches:
+                    for child_row in self.sub_switches[switch]:
+                        child_row.set_visible(state)
+
+                # After a successful change, refresh all switches to reflect real state
+                self.sync_all_switches()
 
         return False
 
