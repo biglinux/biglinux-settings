@@ -35,7 +35,6 @@ class DockerPage(BaseSettingsPage):
             "docker-symbolic"
         )
 
-
         ## Container
         # BigLinux Docker Nextcloud Plus
         self.create_row(
@@ -159,6 +158,28 @@ class DockerPage(BaseSettingsPage):
             print(f"Error during removal: {e}")
             return False
 
+    def _run_script_no_timeout(self, script_path, state):
+        """
+        Execute the toggle command for a script without a hard timeout.
+        Returns True if the script reports success (return code 0), False otherwise.
+        """
+        state_str = "true" if state else "false"
+        try:
+            result = subprocess.run(
+                [script_path, "toggle", state_str],
+                capture_output=True,
+                text=True
+            )
+            if result.returncode == 0:
+                return True
+            else:
+                print(f"Script {os.path.basename(script_path)} returned error {result.returncode}")
+                print(f"stderr: {result.stderr}")
+                return False
+        except Exception as e:
+            print(f"Error running script {os.path.basename(script_path)}: {e}")
+            return False
+
     def on_switch_changed(self, switch, state):
         """Callback executed when a user manually toggles a switch."""
         script_path = self.switch_scripts.get(switch)
@@ -167,11 +188,10 @@ class DockerPage(BaseSettingsPage):
             script_name = os.path.basename(script_path)
             print(_("Changing {} to {}").format(script_name, "on" if state else "off"))
 
-            # Attempt to change the system state
-            success = self.toggle_script_state(script_path, state)
+            # Execute the script without a timeout
+            success = self._run_script_no_timeout(script_path, state)
 
             # If the script fails, revert the switch to its previous state
-            # to keep the UI consistent with the actual system state.
             if not success:
                 # Block signal to prevent an infinite loop
                 switch.handler_block_by_func(self.on_switch_changed)
@@ -184,5 +204,8 @@ class DockerPage(BaseSettingsPage):
                     )
                 )
                 self.main_window.show_toast(_("Failed to change setting: {}").format(script_name))
+            else:
+                # After a successful change, refresh all switches to reflect real state
+                self.sync_all_switches()
 
         return False

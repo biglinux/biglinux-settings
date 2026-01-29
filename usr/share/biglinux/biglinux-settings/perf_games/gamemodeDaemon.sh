@@ -18,7 +18,7 @@ toggle_state() {
   new_state="$1"
   if [[ "$new_state" == "true" ]];then
     if ! pacman -Q gamemoded &>/dev/null; then
-      pkexec $PWD/games/gamemodeDaemonRun.sh "install" "$USER" "$DISPLAY" "$XAUTHORITY" "$DBUS_SESSION_BUS_ADDRESS" "$LANG" "$LANGUAGE"
+      pkexec $PWD/perf_games/gamemodeDaemonRun.sh "install" "$USER" "$DISPLAY" "$XAUTHORITY" "$DBUS_SESSION_BUS_ADDRESS" "$LANG" "$LANGUAGE"
     fi
     systemctl enable --now --user gamemoded.service
     exitCode=$?
