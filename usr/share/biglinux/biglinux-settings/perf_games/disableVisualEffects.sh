@@ -18,9 +18,10 @@ toggle_state() {
   new_state="$1"
   if [[ "$new_state" == "true" ]];then
     effects=$(qdbus6 org.kde.KWin /Effects org.kde.kwin.Effects.loadedEffects)
-    rm effectsEnable
+    rm $HOME/.config/biglinux-settings/effectsEnable
     for effect in ${effects[@]}; do
-      echo $effect >> effectsEnable
+      mkdir -p $HOME/.config/biglinux-settings
+      echo $effect >> $HOME/.config/biglinux-settingseffectsEnable
       kwriteconfig6 --file kwinrc --group Plugins --key ${effect}Enabled false
       qdbus6 org.kde.KWin /Effects org.kde.kwin.Effects.unloadEffect $effect;
     done

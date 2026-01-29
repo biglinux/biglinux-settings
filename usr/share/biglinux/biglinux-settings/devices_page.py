@@ -1,18 +1,5 @@
-from base_page import BaseSettingsPage
-import locale
-import gettext
+from base_page import BaseSettingsPage, _
 
-# Set up gettext for application localization.
-DOMAIN = "biglinux-settings"
-LOCALE_DIR = "/usr/share/locale"
-
-locale.setlocale(locale.LC_ALL, "")
-locale.bindtextdomain(DOMAIN, LOCALE_DIR)
-locale.textdomain(DOMAIN)
-
-gettext.bindtextdomain(DOMAIN, LOCALE_DIR)
-gettext.textdomain(DOMAIN)
-_ = gettext.gettext
 
 class DevicesPage(BaseSettingsPage):
     def __init__(self, main_window, **kwargs):

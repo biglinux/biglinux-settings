@@ -1,18 +1,5 @@
-from base_page import BaseSettingsPage
-import locale
-import gettext
+from base_page import BaseSettingsPage, _
 
-# Set up gettext for application localization.
-DOMAIN = "biglinux-settings"
-LOCALE_DIR = "/usr/share/locale"
-
-locale.setlocale(locale.LC_ALL, "")
-locale.bindtextdomain(DOMAIN, LOCALE_DIR)
-locale.textdomain(DOMAIN)
-
-gettext.bindtextdomain(DOMAIN, LOCALE_DIR)
-gettext.textdomain(DOMAIN)
-_ = gettext.gettext
 
 class PerformanceGamesPage(BaseSettingsPage):
     def __init__(self, main_window, **kwargs):
@@ -26,7 +13,7 @@ class PerformanceGamesPage(BaseSettingsPage):
         # Performance
         performance_group = self.create_group(
             _("Performance"),
-            _("Ajustes de Performance do BigLinux."),
+            _("BigLinux performance tweaks."),
             "perf_games"
         )
         content.append(performance_group)
@@ -45,7 +32,7 @@ class PerformanceGamesPage(BaseSettingsPage):
         self.create_row(
             performance_group,
             _("Disable Visual Effects"),
-            _("Desativa efeitos visuais do KWin (blur, sombras, animações). Diminui carga na GPU e libera memória."),
+            _("Disables KWin visual effects (blur, shadows, animations). Reduces GPU load and frees memory."),
             "disableVisualEffects",
             "disable-visual-effects-symbolic"
         )
@@ -53,7 +40,7 @@ class PerformanceGamesPage(BaseSettingsPage):
         self.create_row(
             performance_group,
             _("Compositor Settings"),
-            _("Configura compositor para “low latency”, permite tearing e desativa animações. Minimiza a sobrecarga de composição e reduz input lag."),
+            _("Configures compositor for low latency, allows tearing and disables animations. Minimizes compositing overhead and reduces input lag."),
             "compositorSettings",
             "compositor-settings-symbolic"
         )
@@ -61,7 +48,7 @@ class PerformanceGamesPage(BaseSettingsPage):
         self.create_row(
             performance_group,
             _("CPU Maximum Performance"),
-            _("Força o modo máximo de desempenho do processador. Garante que o processador use a frequência máxima."),
+            _("Forces maximum processor performance mode. Ensures the processor uses maximum frequency."),
             "cpuMaximumPerformance",
             "cpu-maximum-performance-symbolic"
         )
@@ -69,7 +56,7 @@ class PerformanceGamesPage(BaseSettingsPage):
         self.create_row(
             performance_group,
             _("GPU Maximum Performance"),
-            _("Força o modo máximo de desempenho (GPU NVIDIA/AMD). Garante que a placa de vídeo use a frequência máxima."),
+            _("Forces maximum GPU performance mode (NVIDIA/AMD). Ensures the graphics card uses maximum frequency."),
             "gpuMaximumPerformance",
             "gpu-maximum-performance-symbolic"
         )
@@ -77,7 +64,7 @@ class PerformanceGamesPage(BaseSettingsPage):
         self.create_row(
             performance_group,
             _("Disable Baloo Indexer"),
-            _("Desativa o indexador de arquivos Baloo. Evita I/O de disco."),
+            _("Disables the Baloo file indexer. Avoids disk I/O overhead."),
             "disableBalooIndexer",
             "disable-baloo-indexer-symbolic"
         )
@@ -85,7 +72,7 @@ class PerformanceGamesPage(BaseSettingsPage):
         self.create_row(
             performance_group,
             _("Stop Akonadi Server"),
-            _("Interrompe o servidor de dados de PIM (Kontact/Thunderbird). Reduz a sobrecarga de memória e disco."),
+            _("Stops the PIM data server (Kontact/Thunderbird). Reduces memory and disk overhead."),
             "stopAkonadiServer",
             "stop-akonadi-server-symbolic"
         )
@@ -93,7 +80,7 @@ class PerformanceGamesPage(BaseSettingsPage):
         self.create_row(
             performance_group,
             _("Unload S.M.A.R.T Monitor"),
-            _("Desativa monitoramento S.M.A.R.T. de discos. Reduz I/O de disco e CPU."),
+            _("Disables S.M.A.R.T disk monitoring. Reduces disk I/O and CPU usage."),
             "unloadSmartMonitor",
             "unload-smart-monitor-symbolic"
         )
@@ -104,7 +91,7 @@ class PerformanceGamesPage(BaseSettingsPage):
         self.create_row(
             games_group,
             _("GameMode Daemon"),
-            _("Ativa o daemon que ajusta CPU, I/O, etc. Reduz a latência e aumenta a taxa de quadros."),
+            _("Activates daemon that adjusts CPU, I/O, etc. Reduces latency and increases frame rate."),
             "gamemodeDaemon",
             "gamemode-daemon-symbolic"
         )
