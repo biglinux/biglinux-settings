@@ -1517,6 +1517,10 @@ msgstr "Tændte LED'en?"
 # 
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings-ruscher/devices/keyboard_led_dialog.py, line: 223
 # 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings-ruscher/devices/keyboard_led_dialog.py, line: 223
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings-ruscher/devices/keyboard_led_dialog.py, line: 223
+# 
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings/devices/keyboard_led_dialog.py, line: 223
 # 
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings/devices/keyboard_led_dialog.py, line: 223
@@ -1623,6 +1627,10 @@ msgstr "Konfiguration Fuldført!"
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings/devices/keyboard_led_dialog.py, line: 419
 msgid "Your keyboard LED is now configured and ready to use."
 msgstr "Dit tastatur-LED er nu konfigureret og klar til brug."
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings-ruscher/devices/keyboard_led_dialog.py, line: 428
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings-ruscher/devices/keyboard_led_dialog.py, line: 428
 # 
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings-ruscher/devices/keyboard_led_dialog.py, line: 428
 # 
@@ -2044,6 +2052,19 @@ msgstr "Omvendt musrulning"
 msgid "Reverse mouse scrolling without restarting the session."
 msgstr "Omvendt mus rulning uden at genstarte sessionen."
 # 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 49
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 120
+msgid "BigLinux Settings"
+msgstr "BigLinux Indstillinger"
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 135
+msgid "Categories"
+msgstr "Kategorier"
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 144
+msgid "Search..."
+msgstr "Søg..."
+# 
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 158
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 167
 msgid "PreLoad"
@@ -2069,58 +2090,58 @@ msgstr "Container service - aktiver for at bruge containere nedenfor."
 msgid "Manage container technologies."
 msgstr "Administrer containerteknologier."
 # 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/performance_games_page.py, line: 29
-msgid "Ajustes de Performance do BigLinux."
-msgstr "Ydeindstillinger for BigLinux."
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/performance_games_page.py, line: 16
+msgid "BigLinux performance tweaks."
+msgstr "BigLinux ydeevnejusteringer."
 # 
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings/performance_games_page.py, line: 36
 msgid "Games Booster"
 msgstr "Spil Booster"
 # 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/performance_games_page.py, line: 48
-msgid "Desativa efeitos visuais do KWin (blur, sombras, animações). Diminui carga na GPU e libera memória."
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/performance_games_page.py, line: 35
+msgid "Disables KWin visual effects (blur, shadows, animations). Reduces GPU load and frees memory."
 msgstr ""
-"Deaktiver visuelle effekter i KWin (sløring, skygger, animationer). Reducerer belastningen på "
-"GPU'en og frigiver hukommelse."
+"Deaktiverer KWin visuelle effekter (sløring, skygger, animationer). Reducerer GPU-belastning og "
+"frigør hukommelse."
 # 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/performance_games_page.py, line: 56
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/performance_games_page.py, line: 43
 msgid ""
-"Configura compositor para “low latency”, permite tearing e desativa animações. Minimiza a "
-"sobrecarga de composição e reduz input lag."
+"Configures compositor for low latency, allows tearing and disables animations. Minimizes "
+"compositing overhead and reduces input lag."
 msgstr ""
-"Konfigurer compositor til \"lav latenstid\", tillader tearing og deaktiverer animationer. Minimerer "
-"belastningen fra sammensætning og reducerer input lag."
+"Konfigurerer compositor til lav latenstid, tillader tearing og deaktiverer animationer. Minimerer "
+"kompositionsoverhead og reducerer inputlag."
 # 
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings/performance_games_page.py, line: 63
 msgid "CPU Maximum Performance"
 msgstr "CPU Maksimal Ydelse"
 # 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/performance_games_page.py, line: 64
-msgid "Força o modo máximo de desempenho do processador. Garante que o processador use a frequência máxima."
-msgstr "Tvinger processorens maksimale ydeevne. Sikrer, at processoren bruger den maksimale frekvens."
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/performance_games_page.py, line: 51
+msgid "Forces maximum processor performance mode. Ensures the processor uses maximum frequency."
+msgstr "Tvinger maksimal processorpræstationsmode. Sikrer, at processoren bruger maksimal frekvens."
 # 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/performance_games_page.py, line: 72
-msgid ""
-"Força o modo máximo de desempenho (GPU NVIDIA/AMD). Garante que a placa de vídeo use a frequência "
-"máxima."
-msgstr "Tving maksimal ydeevne (NVIDIA/AMD GPU). Sikrer, at grafikkortet bruger den maksimale frekvens."
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/performance_games_page.py, line: 59
+msgid "Forces maximum GPU performance mode (NVIDIA/AMD). Ensures the graphics card uses maximum frequency."
+msgstr ""
+"Tvinger maksimal GPU-ydeevne tilstand (NVIDIA/AMD). Sikrer, at grafikkortet bruger maksimal "
+"frekvens."
 # 
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings/performance_games_page.py, line: 79
 msgid "Disable Baloo Indexer"
 msgstr "Deaktiver Baloo-indekseren"
 # 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/performance_games_page.py, line: 80
-msgid "Desativa o indexador de arquivos Baloo. Evita I/O de disco."
-msgstr "Deaktiver filindekseren Baloo. Forhindrer disk I/O."
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/performance_games_page.py, line: 67
+msgid "Disables the Baloo file indexer. Avoids disk I/O overhead."
+msgstr "Deaktiverer Baloo filindekseren. Undgår disk I/O-overhead."
 # 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/performance_games_page.py, line: 88
-msgid "Interrompe o servidor de dados de PIM (Kontact/Thunderbird). Reduz a sobrecarga de memória e disco."
-msgstr "Afbryd PIM-databasen (Kontact/Thunderbird). Reducer hukommelses- og diskoverhead."
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/performance_games_page.py, line: 75
+msgid "Stops the PIM data server (Kontact/Thunderbird). Reduces memory and disk overhead."
+msgstr "Stopper PIM-dataserveren (Kontact/Thunderbird). Reducerer hukommelse og diskoverhead."
 # 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/performance_games_page.py, line: 96
-msgid "Desativa monitoramento S.M.A.R.T. de discos. Reduz I/O de disco e CPU."
-msgstr "Deaktiverer S.M.A.R.T. overvågning af diske. Reducerer disk- og CPU I/O."
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/performance_games_page.py, line: 83
+msgid "Disables S.M.A.R.T disk monitoring. Reduces disk I/O and CPU usage."
+msgstr "Deaktiverer S.M.A.R.T diskovervågning. Reducerer disk I/O og CPU-brug."
 # 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/performance_games_page.py, line: 107
-msgid "Ativa o daemon que ajusta CPU, I/O, etc. Reduz a latência e aumenta a taxa de quadros."
-msgstr "Aktiver daemonen, der justerer CPU, I/O osv. Reducerer latenstid og øger billedfrekvensen."
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/performance_games_page.py, line: 94
+msgid "Activates daemon that adjusts CPU, I/O, etc. Reduces latency and increases frame rate."
+msgstr "Aktiverer daemon, der justerer CPU, I/O osv. Reducerer latenstid og øger billedhastigheden."

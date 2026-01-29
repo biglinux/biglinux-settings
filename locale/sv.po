@@ -1601,6 +1601,10 @@ msgstr "Din tangentbords-LED är nu konfigurerad och redo att användas."
 # 
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings-ruscher/devices/keyboard_led_dialog.py, line: 428
 # 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings-ruscher/devices/keyboard_led_dialog.py, line: 428
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings-ruscher/devices/keyboard_led_dialog.py, line: 428
+# 
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings/devices/keyboard_led_dialog.py, line: 428
 # 
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings/devices/keyboard_led_dialog.py, line: 428
@@ -1917,6 +1921,19 @@ msgstr "Omvänd musrullning"
 msgid "Reverse mouse scrolling without restarting the session."
 msgstr "Återvänd musrullning utan att starta om sessionen."
 # 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 49
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 120
+msgid "BigLinux Settings"
+msgstr "BigLinux Inställningar"
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 135
+msgid "Categories"
+msgstr "Kategorier"
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 144
+msgid "Search..."
+msgstr "Sök..."
+# 
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 158
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 167
 msgid "PreLoad"
@@ -1942,60 +1959,58 @@ msgstr "Behållartjänst - aktivera för att använda behållare nedan."
 msgid "Manage container technologies."
 msgstr "Hantera containertekniker."
 # 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/performance_games_page.py, line: 29
-msgid "Ajustes de Performance do BigLinux."
-msgstr "Prestandainställningar för BigLinux."
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/performance_games_page.py, line: 16
+msgid "BigLinux performance tweaks."
+msgstr "BigLinux prestandajusteringar."
 # 
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings/performance_games_page.py, line: 36
 msgid "Games Booster"
 msgstr "Spelboostare"
 # 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/performance_games_page.py, line: 48
-msgid "Desativa efeitos visuais do KWin (blur, sombras, animações). Diminui carga na GPU e libera memória."
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/performance_games_page.py, line: 35
+msgid "Disables KWin visual effects (blur, shadows, animations). Reduces GPU load and frees memory."
 msgstr ""
-"Inaktivera visuella effekter i KWin (oskarphet, skuggor, animationer). Minskar belastningen på "
-"GPU:n och frigör minne."
+"Inaktiverar KWin visuella effekter (oskarphet, skuggor, animationer). Minskar GPU-belastning och "
+"frigör minne."
 # 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/performance_games_page.py, line: 56
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/performance_games_page.py, line: 43
 msgid ""
-"Configura compositor para “low latency”, permite tearing e desativa animações. Minimiza a "
-"sobrecarga de composição e reduz input lag."
+"Configures compositor for low latency, allows tearing and disables animations. Minimizes "
+"compositing overhead and reduces input lag."
 msgstr ""
-"Konfigurera kompositör för \"låg latens\", tillåter tearing och inaktiverar animationer. Minskar "
-"kompositionsbelastningen och minskar input lag."
+"Konfigurerar kompositorn för låg latens, tillåter tearing och inaktiverar animationer. Minimerar "
+"kompositionsöverhead och minskar inmatningsfördröjning."
 # 
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings/performance_games_page.py, line: 63
 msgid "CPU Maximum Performance"
 msgstr "CPU Maximal Prestanda"
 # 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/performance_games_page.py, line: 64
-msgid "Força o modo máximo de desempenho do processador. Garante que o processador use a frequência máxima."
-msgstr "Tvinga processorns maximala prestandaläge. Säkerställer att processorn använder maximal frekvens."
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/performance_games_page.py, line: 51
+msgid "Forces maximum processor performance mode. Ensures the processor uses maximum frequency."
+msgstr "Tvingar maximal processorprestandaläge. Säkerställer att processorn använder maximal frekvens."
 # 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/performance_games_page.py, line: 72
-msgid ""
-"Força o modo máximo de desempenho (GPU NVIDIA/AMD). Garante que a placa de vídeo use a frequência "
-"máxima."
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/performance_games_page.py, line: 59
+msgid "Forces maximum GPU performance mode (NVIDIA/AMD). Ensures the graphics card uses maximum frequency."
 msgstr ""
-"Tvinga maximal prestandaläge (GPU NVIDIA/AMD). Säkerställer att grafikkortet använder maximal "
+"Tvingar maximal GPU-prestandaläge (NVIDIA/AMD). Säkerställer att grafikkortet använder maximal "
 "frekvens."
 # 
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings/performance_games_page.py, line: 79
 msgid "Disable Baloo Indexer"
 msgstr "Inaktivera Baloo-indexer"
 # 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/performance_games_page.py, line: 80
-msgid "Desativa o indexador de arquivos Baloo. Evita I/O de disco."
-msgstr "Inaktivera filindexeraren Baloo. Förhindrar disk-I/O."
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/performance_games_page.py, line: 67
+msgid "Disables the Baloo file indexer. Avoids disk I/O overhead."
+msgstr "Inaktiverar Baloo filindexeraren. Undviker disk I/O-överbelastning."
 # 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/performance_games_page.py, line: 88
-msgid "Interrompe o servidor de dados de PIM (Kontact/Thunderbird). Reduz a sobrecarga de memória e disco."
-msgstr "Avbryter PIM-databasen (Kontact/Thunderbird). Minskar minnes- och diskbelastningen."
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/performance_games_page.py, line: 75
+msgid "Stops the PIM data server (Kontact/Thunderbird). Reduces memory and disk overhead."
+msgstr "Stoppar PIM-databasen (Kontact/Thunderbird). Minskar minnes- och diskbelastning."
 # 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/performance_games_page.py, line: 96
-msgid "Desativa monitoramento S.M.A.R.T. de discos. Reduz I/O de disco e CPU."
-msgstr "Deaktivera S.M.A.R.T. övervakning av diskar. Minskar disk- och CPU-användning."
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/performance_games_page.py, line: 83
+msgid "Disables S.M.A.R.T disk monitoring. Reduces disk I/O and CPU usage."
+msgstr "Inaktiverar S.M.A.R.T diskövervakning. Minskar disk I/O och CPU-användning."
 # 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/performance_games_page.py, line: 107
-msgid "Ativa o daemon que ajusta CPU, I/O, etc. Reduz a latência e aumenta a taxa de quadros."
-msgstr "Aktivera daemonen som justerar CPU, I/O, etc. Minskar latensen och ökar bildhastigheten."
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/performance_games_page.py, line: 94
+msgid "Activates daemon that adjusts CPU, I/O, etc. Reduces latency and increases frame rate."
+msgstr "Aktiverar daemon som justerar CPU, I/O, etc. Minskar latens och ökar bildfrekvens."

@@ -1480,6 +1480,10 @@ msgstr ""
 # 
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings-ruscher/devices/jamesdsp_dialog.py, line: 208
 # 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings-ruscher/devices/jamesdsp_dialog.py, line: 208
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings-ruscher/devices/jamesdsp_dialog.py, line: 208
+# 
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings/devices/jamesdsp_dialog.py, line: 208
 # 
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings/devices/jamesdsp_dialog.py, line: 208
@@ -1627,6 +1631,10 @@ msgstr "Configuration terminée !"
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings/devices/keyboard_led_dialog.py, line: 419
 msgid "Your keyboard LED is now configured and ready to use."
 msgstr "Votre LED de clavier est maintenant configurée et prête à l'emploi."
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings-ruscher/devices/keyboard_led_dialog.py, line: 428
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings-ruscher/devices/keyboard_led_dialog.py, line: 428
 # 
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings-ruscher/devices/keyboard_led_dialog.py, line: 428
 # 
@@ -2050,6 +2058,19 @@ msgstr "Inverser le défilement de la souris"
 msgid "Reverse mouse scrolling without restarting the session."
 msgstr "Inverser le défilement de la souris sans redémarrer la session."
 # 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 49
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 120
+msgid "BigLinux Settings"
+msgstr "Paramètres de BigLinux"
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 135
+msgid "Categories"
+msgstr "Catégories"
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 144
+msgid "Search..."
+msgstr "Recherche..."
+# 
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 158
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 167
 msgid "PreLoad"
@@ -2075,64 +2096,64 @@ msgstr "Service de conteneurs - activer l'utilisation des conteneurs ci-dessous.
 msgid "Manage container technologies."
 msgstr "Gérer les technologies de conteneurs."
 # 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/performance_games_page.py, line: 29
-msgid "Ajustes de Performance do BigLinux."
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/performance_games_page.py, line: 16
+msgid "BigLinux performance tweaks."
 msgstr "Ajustements de performance de BigLinux."
 # 
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings/performance_games_page.py, line: 36
 msgid "Games Booster"
 msgstr "Améliorateur de jeux"
 # 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/performance_games_page.py, line: 48
-msgid "Desativa efeitos visuais do KWin (blur, sombras, animações). Diminui carga na GPU e libera memória."
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/performance_games_page.py, line: 35
+msgid "Disables KWin visual effects (blur, shadows, animations). Reduces GPU load and frees memory."
 msgstr ""
-"Désactive les effets visuels de KWin (flou, ombres, animations). Réduit la charge sur le GPU et "
-"libère de la mémoire."
+"Désactive les effets visuels de KWin (flou, ombres, animations). Réduit la charge GPU et libère de "
+"la mémoire."
 # 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/performance_games_page.py, line: 56
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/performance_games_page.py, line: 43
 msgid ""
-"Configura compositor para “low latency”, permite tearing e desativa animações. Minimiza a "
-"sobrecarga de composição e reduz input lag."
+"Configures compositor for low latency, allows tearing and disables animations. Minimizes "
+"compositing overhead and reduces input lag."
 msgstr ""
-"Configurez le compositeur pour \"faible latence\", autorisez le tearing et désactivez les "
-"animations. Minimisez la surcharge de composition et réduisez le décalage d'entrée."
+"Configure le compositeur pour une faible latence, permet le déchirement et désactive les "
+"animations. Minimise la surcharge de composition et réduit le décalage d'entrée."
 # 
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings/performance_games_page.py, line: 63
 msgid "CPU Maximum Performance"
 msgstr "Performance maximale du CPU"
 # 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/performance_games_page.py, line: 64
-msgid "Força o modo máximo de desempenho do processador. Garante que o processador use a frequência máxima."
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/performance_games_page.py, line: 51
+msgid "Forces maximum processor performance mode. Ensures the processor uses maximum frequency."
 msgstr ""
 "Force le mode de performance maximale du processeur. Assure que le processeur utilise la fréquence "
 "maximale."
 # 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/performance_games_page.py, line: 72
-msgid ""
-"Força o modo máximo de desempenho (GPU NVIDIA/AMD). Garante que a placa de vídeo use a frequência "
-"máxima."
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/performance_games_page.py, line: 59
+msgid "Forces maximum GPU performance mode (NVIDIA/AMD). Ensures the graphics card uses maximum frequency."
 msgstr ""
-"Force le mode de performance maximale (GPU NVIDIA/AMD). Assure que la carte graphique utilise la "
+"Force le mode de performance maximum du GPU (NVIDIA/AMD). Assure que la carte graphique utilise la "
 "fréquence maximale."
 # 
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings/performance_games_page.py, line: 79
 msgid "Disable Baloo Indexer"
 msgstr "Désactiver l'indexeur Baloo"
 # 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/performance_games_page.py, line: 80
-msgid "Desativa o indexador de arquivos Baloo. Evita I/O de disco."
-msgstr "Désactivez l'indexeur de fichiers Baloo. Évite les E/S disque."
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/performance_games_page.py, line: 67
+msgid "Disables the Baloo file indexer. Avoids disk I/O overhead."
+msgstr "Désactive l'indexeur de fichiers Baloo. Évite la surcharge d'E/S disque."
 # 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/performance_games_page.py, line: 88
-msgid "Interrompe o servidor de dados de PIM (Kontact/Thunderbird). Reduz a sobrecarga de memória e disco."
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/performance_games_page.py, line: 75
+msgid "Stops the PIM data server (Kontact/Thunderbird). Reduces memory and disk overhead."
 msgstr ""
-"Interrompt le serveur de données PIM (Kontact/Thunderbird). Réduit la surcharge de mémoire et de "
-"disque."
+"Arrête le serveur de données PIM (Kontact/Thunderbird). Réduit l'utilisation de la mémoire et de "
+"l'espace disque."
 # 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/performance_games_page.py, line: 96
-msgid "Desativa monitoramento S.M.A.R.T. de discos. Reduz I/O de disco e CPU."
-msgstr "Disable S.M.A.R.T. monitoring of disks. Reduces disk and CPU I/O."
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/performance_games_page.py, line: 83
+msgid "Disables S.M.A.R.T disk monitoring. Reduces disk I/O and CPU usage."
+msgstr "Désactive la surveillance S.M.A.R.T du disque. Réduit l'I/O disque et l'utilisation du CPU."
 # 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/performance_games_page.py, line: 107
-msgid "Ativa o daemon que ajusta CPU, I/O, etc. Reduz a latência e aumenta a taxa de quadros."
-msgstr "Active le démon qui ajuste le CPU, l'I/O, etc. Réduit la latence et augmente le taux de frames."
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/performance_games_page.py, line: 94
+msgid "Activates daemon that adjusts CPU, I/O, etc. Reduces latency and increases frame rate."
+msgstr ""
+"Active le démon qui ajuste le CPU, l'I/O, etc. Réduit la latence et augmente le taux de "
+"rafraîchissement."

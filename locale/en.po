@@ -223,8 +223,8 @@ msgstr "Failed to install jamesDSP!"
 #
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings-ruscher/dispositivos_page.py, line: 25
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings-ruscher/main.py, line: 120
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/devices_page.py, line: 26
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 163
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/devices_page.py, line: 13
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 214
 msgid "Devices"
 msgstr "Devices"
 
@@ -237,7 +237,7 @@ msgstr "Manage physical devices"
 # #-#-#-#-#  biglinux-settings.pot (biglinux-settings)  #-#-#-#-#
 #
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings-ruscher/dispositivos_page.py, line: 33
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/devices_page.py, line: 35
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/devices_page.py, line: 22
 msgid "Wifi"
 msgstr "Wifi"
 
@@ -245,7 +245,7 @@ msgstr "Wifi"
 # #-#-#-#-#  biglinux-settings.pot (biglinux-settings)  #-#-#-#-#
 #
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings-ruscher/dispositivos_page.py, line: 34
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/devices_page.py, line: 36
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/devices_page.py, line: 23
 msgid "Wifi On"
 msgstr "Wifi On"
 
@@ -253,7 +253,7 @@ msgstr "Wifi On"
 # #-#-#-#-#  biglinux-settings.pot (biglinux-settings)  #-#-#-#-#
 #
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings-ruscher/dispositivos_page.py, line: 41
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/devices_page.py, line: 44
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/devices_page.py, line: 31
 msgid "Bluetooth"
 msgstr "Bluetooth"
 
@@ -261,7 +261,7 @@ msgstr "Bluetooth"
 # #-#-#-#-#  biglinux-settings.pot (biglinux-settings)  #-#-#-#-#
 #
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings-ruscher/dispositivos_page.py, line: 42
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/devices_page.py, line: 45
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/devices_page.py, line: 32
 msgid "Bluetooth On."
 msgstr "Bluetooth On."
 
@@ -282,7 +282,7 @@ msgstr "Inverts mouse scrolling without restarting the session."
 #
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings-ruscher/dispositivos_page.py, line: 89
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings-ruscher/devices/jamesdsp_dialog.py, line: 155
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/devices_page.py, line: 53
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/devices_page.py, line: 40
 msgid "JamesDSP"
 msgstr "JamesDSP"
 
@@ -290,7 +290,7 @@ msgstr "JamesDSP"
 # #-#-#-#-#  biglinux-settings.pot (biglinux-settings)  #-#-#-#-#
 #
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings-ruscher/dispositivos_page.py, line: 96
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/devices_page.py, line: 54
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/devices_page.py, line: 41
 msgid "Advanced audio effects processor that improves sound quality."
 msgstr "Advanced audio effects processor that improves sound quality."
 
@@ -303,7 +303,7 @@ msgstr "Keyboard with LED"
 # #-#-#-#-#  biglinux-settings.pot (biglinux-settings)  #-#-#-#-#
 #
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings-ruscher/dispositivos_page.py, line: 153
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/devices_page.py, line: 63
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/devices_page.py, line: 50
 msgid ""
 "If your keyboard has LED you can enable this feature to turn it on with the "
 "system."
@@ -524,7 +524,7 @@ msgstr "Error opening preset dialog"
 #
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings-ruscher/dispositivos_page.py, line: 686
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings-ruscher/base_page.py, line: 194
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/base_page.py, line: 240
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/base_page.py, line: 248
 msgid "Switch {} synchronized: {}"
 msgstr "Switch {} synchronized: {}"
 
@@ -638,7 +638,7 @@ msgstr "Installing ChatAI..."
 # #-#-#-#-#  biglinux-settings.pot (biglinux-settings)  #-#-#-#-#
 #
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings-ruscher/base_page.py, line: 100
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/base_page.py, line: 128
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/base_page.py, line: 136
 msgid "Unavailable: script not found."
 msgstr "Unavailable: script not found."
 
@@ -647,8 +647,8 @@ msgstr "Unavailable: script not found."
 #
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings-ruscher/base_page.py, line: 101
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings-ruscher/base_page.py, line: 132
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/base_page.py, line: 129
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/base_page.py, line: 171
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/base_page.py, line: 137
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/base_page.py, line: 179
 msgid "Script not found: {}"
 msgstr "Script not found: {}"
 
@@ -656,7 +656,7 @@ msgstr "Script not found: {}"
 # #-#-#-#-#  biglinux-settings.pot (biglinux-settings)  #-#-#-#-#
 #
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings-ruscher/base_page.py, line: 112
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/base_page.py, line: 139
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/base_page.py, line: 147
 msgid "Enabled"
 msgstr "Enabled"
 
@@ -664,7 +664,7 @@ msgstr "Enabled"
 # #-#-#-#-#  biglinux-settings.pot (biglinux-settings)  #-#-#-#-#
 #
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings-ruscher/base_page.py, line: 114
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/base_page.py, line: 141
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/base_page.py, line: 149
 msgid "Disabled"
 msgstr "Disabled"
 
@@ -672,7 +672,7 @@ msgstr "Disabled"
 # #-#-#-#-#  biglinux-settings.pot (biglinux-settings)  #-#-#-#-#
 #
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings-ruscher/base_page.py, line: 116
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/base_page.py, line: 147
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/base_page.py, line: 155
 msgid ""
 "Enabled by system configuration (e.g., Real-Time Kernel) and cannot be "
 "changed here."
@@ -684,7 +684,7 @@ msgstr ""
 # #-#-#-#-#  biglinux-settings.pot (biglinux-settings)  #-#-#-#-#
 #
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings-ruscher/base_page.py, line: 118
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/base_page.py, line: 151
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/base_page.py, line: 159
 msgid "Unavailable: script returned invalid output."
 msgstr "Unavailable: script returned invalid output."
 
@@ -692,7 +692,7 @@ msgstr "Unavailable: script returned invalid output."
 # #-#-#-#-#  biglinux-settings.pot (biglinux-settings)  #-#-#-#-#
 #
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings-ruscher/base_page.py, line: 119
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/base_page.py, line: 153
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/base_page.py, line: 161
 msgid "Invalid output from script {}: {}"
 msgstr "Invalid output from script {}: {}"
 
@@ -700,7 +700,7 @@ msgstr "Invalid output from script {}: {}"
 # #-#-#-#-#  biglinux-settings.pot (biglinux-settings)  #-#-#-#-#
 #
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings-ruscher/base_page.py, line: 122
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/base_page.py, line: 159
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/base_page.py, line: 167
 msgid "Unavailable: script returned an error."
 msgstr "Unavailable: script returned an error."
 
@@ -708,7 +708,7 @@ msgstr "Unavailable: script returned an error."
 # #-#-#-#-#  biglinux-settings.pot (biglinux-settings)  #-#-#-#-#
 #
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings-ruscher/base_page.py, line: 123
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/base_page.py, line: 160
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/base_page.py, line: 168
 msgid "Error checking state: {}"
 msgstr "Error checking state: {}"
 
@@ -716,7 +716,7 @@ msgstr "Error checking state: {}"
 # #-#-#-#-#  biglinux-settings.pot (biglinux-settings)  #-#-#-#-#
 #
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings-ruscher/base_page.py, line: 126
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/base_page.py, line: 163
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/base_page.py, line: 171
 msgid "Unavailable: failed to run script."
 msgstr "Unavailable: failed to run script."
 
@@ -725,8 +725,8 @@ msgstr "Unavailable: failed to run script."
 #
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings-ruscher/base_page.py, line: 127
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings-ruscher/base_page.py, line: 160
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/base_page.py, line: 164
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/base_page.py, line: 209
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/base_page.py, line: 172
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/base_page.py, line: 217
 msgid "Error running script {}: {}"
 msgstr "Error running script {}: {}"
 
@@ -734,7 +734,7 @@ msgstr "Error running script {}: {}"
 # #-#-#-#-#  biglinux-settings.pot (biglinux-settings)  #-#-#-#-#
 #
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings-ruscher/base_page.py, line: 144
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/base_page.py, line: 185
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/base_page.py, line: 193
 msgid "State changed successfully"
 msgstr "State changed successfully"
 
@@ -742,7 +742,7 @@ msgstr "State changed successfully"
 # #-#-#-#-#  biglinux-settings.pot (biglinux-settings)  #-#-#-#-#
 #
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings-ruscher/base_page.py, line: 146
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/base_page.py, line: 187
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/base_page.py, line: 195
 msgid "Script output: {}"
 msgstr "Script output: {}"
 
@@ -750,7 +750,7 @@ msgstr "Script output: {}"
 # #-#-#-#-#  biglinux-settings.pot (biglinux-settings)  #-#-#-#-#
 #
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings-ruscher/base_page.py, line: 149
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/base_page.py, line: 191
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/base_page.py, line: 199
 msgid "Script failed with exit code: {}"
 msgstr "Script failed with exit code: {}"
 
@@ -758,7 +758,7 @@ msgstr "Script failed with exit code: {}"
 # #-#-#-#-#  biglinux-settings.pot (biglinux-settings)  #-#-#-#-#
 #
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings-ruscher/base_page.py, line: 156
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/base_page.py, line: 205
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/base_page.py, line: 213
 msgid "Script timeout: {}"
 msgstr "Script timeout: {}"
 
@@ -771,8 +771,8 @@ msgstr "Script timeout: {}"
 #
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings-ruscher/base_page.py, line: 204
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings-ruscher/system_usability_page.py, line: 191
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/base_page.py, line: 278
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/docker_page.py, line: 181
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/base_page.py, line: 286
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/docker_page.py, line: 171
 msgid "Changing {} to {}"
 msgstr "Changing {} to {}"
 
@@ -782,8 +782,8 @@ msgstr "Changing {} to {}"
 # #-#-#-#-#  biglinux-settings.pot (biglinux-settings)  #-#-#-#-#
 #
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings-ruscher/base_page.py, line: 210
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/base_page.py, line: 292
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/docker_page.py, line: 195
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/base_page.py, line: 300
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/docker_page.py, line: 185
 msgid "ERROR: Failed to change {} to {}"
 msgstr "ERROR: Failed to change {} to {}"
 
@@ -796,8 +796,8 @@ msgstr "ERROR: Failed to change {} to {}"
 #
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings-ruscher/base_page.py, line: 214
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings-ruscher/system_usability_page.py, line: 200
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/base_page.py, line: 296
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/docker_page.py, line: 199
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/base_page.py, line: 304
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/docker_page.py, line: 189
 msgid "Failed to change setting: {}"
 msgstr "Failed to change setting: {}"
 
@@ -815,8 +815,8 @@ msgstr "General adjustments"
 #
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings-ruscher/main.py, line: 116
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings-ruscher/system_usability_page.py, line: 121
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_page.py, line: 25
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 160
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_page.py, line: 12
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 196
 msgid "System"
 msgstr "System"
 
@@ -832,7 +832,7 @@ msgstr "I.A."
 #
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings-ruscher/main.py, line: 141
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings-ruscher/containers_page.py, line: 36
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/docker_page.py, line: 35
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/docker_page.py, line: 25
 msgid "Containers"
 msgstr "Containers"
 
@@ -845,7 +845,7 @@ msgstr "Pre-loading"
 # #-#-#-#-#  biglinux-settings.pot (biglinux-settings)  #-#-#-#-#
 #
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings-ruscher/preload_page.py, line: 24
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/preload_page.py, line: 23
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/preload_page.py, line: 10
 msgid "Preload"
 msgstr "Preload"
 
@@ -853,7 +853,7 @@ msgstr "Preload"
 # #-#-#-#-#  biglinux-settings.pot (biglinux-settings)  #-#-#-#-#
 #
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings-ruscher/preload_page.py, line: 26
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/preload_page.py, line: 24
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/preload_page.py, line: 11
 msgid "Preload applications into memory to open them faster."
 msgstr "Preload applications into memory to open them faster."
 
@@ -864,7 +864,7 @@ msgstr "Preload applications into memory to open them faster."
 #
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings-ruscher/preload_page.py, line: 33
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings-ruscher/system_usability_page.py, line: 50
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/base_page.py, line: 63
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/base_page.py, line: 71
 msgid "Reload all statuses"
 msgstr "Reload all statuses"
 
@@ -872,7 +872,7 @@ msgstr "Reload all statuses"
 # #-#-#-#-#  biglinux-settings.pot (biglinux-settings)  #-#-#-#-#
 #
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings-ruscher/preload_page.py, line: 41
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/preload_page.py, line: 31
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/preload_page.py, line: 18
 msgid "Firefox"
 msgstr "Firefox"
 
@@ -880,7 +880,7 @@ msgstr "Firefox"
 # #-#-#-#-#  biglinux-settings.pot (biglinux-settings)  #-#-#-#-#
 #
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings-ruscher/preload_page.py, line: 49
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/preload_page.py, line: 32
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/preload_page.py, line: 19
 msgid "Brave"
 msgstr "Brave"
 
@@ -888,7 +888,7 @@ msgstr "Brave"
 # #-#-#-#-#  biglinux-settings.pot (biglinux-settings)  #-#-#-#-#
 #
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings-ruscher/preload_page.py, line: 57
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/preload_page.py, line: 33
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/preload_page.py, line: 20
 msgid "Chrome"
 msgstr "Chrome"
 
@@ -896,7 +896,7 @@ msgstr "Chrome"
 # #-#-#-#-#  biglinux-settings.pot (biglinux-settings)  #-#-#-#-#
 #
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings-ruscher/preload_page.py, line: 65
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/preload_page.py, line: 34
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/preload_page.py, line: 21
 msgid "Chromium"
 msgstr "Chromium"
 
@@ -904,7 +904,7 @@ msgstr "Chromium"
 # #-#-#-#-#  biglinux-settings.pot (biglinux-settings)  #-#-#-#-#
 #
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings-ruscher/preload_page.py, line: 73
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/preload_page.py, line: 35
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/preload_page.py, line: 22
 msgid "Librewolf"
 msgstr "Librewolf"
 
@@ -912,7 +912,7 @@ msgstr "Librewolf"
 # #-#-#-#-#  biglinux-settings.pot (biglinux-settings)  #-#-#-#-#
 #
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings-ruscher/preload_page.py, line: 81
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/preload_page.py, line: 36
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/preload_page.py, line: 23
 msgid "Palemoon"
 msgstr "Palemoon"
 
@@ -920,7 +920,7 @@ msgstr "Palemoon"
 # #-#-#-#-#  biglinux-settings.pot (biglinux-settings)  #-#-#-#-#
 #
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings-ruscher/preload_page.py, line: 89
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/preload_page.py, line: 37
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/preload_page.py, line: 24
 msgid "Opera"
 msgstr "Opera"
 
@@ -928,7 +928,7 @@ msgstr "Opera"
 # #-#-#-#-#  biglinux-settings.pot (biglinux-settings)  #-#-#-#-#
 #
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings-ruscher/preload_page.py, line: 97
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/preload_page.py, line: 38
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/preload_page.py, line: 25
 msgid "Libreoffice"
 msgstr "Libreoffice"
 
@@ -988,7 +988,7 @@ msgstr "Blur, Wobbly Windows, Shadows, Animations"
 #
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings-ruscher/usability/kwin_ram_dialog.py, line: 109
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings-ruscher/usability/gamemode_config_dialog.py, line: 100
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/performance_games_page.py, line: 55
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/performance_games_page.py, line: 42
 msgid "Compositor Settings"
 msgstr "Compositor Settings"
 
@@ -1247,7 +1247,7 @@ msgstr "Optimizations"
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings-ruscher/usability/gamemode_config_dialog.py, line: 82
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings-ruscher/usability/gamemode_dialog.py, line: 191
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings-ruscher/usability/gamemode_dialog.py, line: 234
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/performance_games_page.py, line: 106
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/performance_games_page.py, line: 93
 msgid "GameMode Daemon"
 msgstr "GameMode Daemon"
 
@@ -1264,7 +1264,7 @@ msgstr "System-wide performance daemon"
 # #-#-#-#-#  biglinux-settings.pot (biglinux-settings)  #-#-#-#-#
 #
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings-ruscher/usability/gamemode_config_dialog.py, line: 91
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/performance_games_page.py, line: 47
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/performance_games_page.py, line: 34
 msgid "Disable Visual Effects"
 msgstr "Disable Visual Effects"
 
@@ -1286,7 +1286,7 @@ msgstr "Low latency, allow tearing, no animations"
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings-ruscher/usability/gamemode_config_dialog.py, line: 109
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings-ruscher/usability/gamemode_dialog.py, line: 209
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings-ruscher/usability/gamemode_dialog.py, line: 252
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/performance_games_page.py, line: 71
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/performance_games_page.py, line: 58
 msgid "GPU Maximum Performance"
 msgstr "GPU Maximum Performance"
 
@@ -1312,7 +1312,7 @@ msgstr "Stop file indexing service"
 # #-#-#-#-#  biglinux-settings.pot (biglinux-settings)  #-#-#-#-#
 #
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings-ruscher/usability/gamemode_config_dialog.py, line: 127
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/performance_games_page.py, line: 87
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/performance_games_page.py, line: 74
 msgid "Stop Akonadi Server"
 msgstr "Stop Akonadi Server"
 
@@ -1325,7 +1325,7 @@ msgstr "Stop PIM storage service"
 # #-#-#-#-#  biglinux-settings.pot (biglinux-settings)  #-#-#-#-#
 #
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings-ruscher/usability/gamemode_config_dialog.py, line: 136
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/performance_games_page.py, line: 95
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/performance_games_page.py, line: 82
 msgid "Unload S.M.A.R.T Monitor"
 msgstr "Unload S.M.A.R.T Monitor"
 
@@ -1432,7 +1432,7 @@ msgstr "Low latency, tearing allowed, animations = 0"
 # #-#-#-#-#  biglinux-settings.pot (biglinux-settings)  #-#-#-#-#
 #
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings-ruscher/usability/gamemode_dialog.py, line: 206
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/performance_games_page.py, line: 28
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/performance_games_page.py, line: 15
 msgid "Performance"
 msgstr "Performance"
 
@@ -1575,7 +1575,7 @@ msgstr "Installation Failed"
 # #-#-#-#-#  biglinux-settings.pot (biglinux-settings)  #-#-#-#-#
 #
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings-ruscher/ai_page.py, line: 29
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/ai_page.py, line: 26
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/ai_page.py, line: 13
 msgid "Artificial Intelligence"
 msgstr "Artificial Intelligence"
 
@@ -1588,7 +1588,7 @@ msgstr "AI settings and tools"
 # #-#-#-#-#  biglinux-settings.pot (biglinux-settings)  #-#-#-#-#
 #
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings-ruscher/ai_page.py, line: 37
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/ai_page.py, line: 35
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/ai_page.py, line: 22
 msgid "Generative AI for Krita"
 msgstr "Generative AI for Krita"
 
@@ -1596,7 +1596,7 @@ msgstr "Generative AI for Krita"
 # #-#-#-#-#  biglinux-settings.pot (biglinux-settings)  #-#-#-#-#
 #
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings-ruscher/ai_page.py, line: 38
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/ai_page.py, line: 36
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/ai_page.py, line: 23
 msgid ""
 "This is a plugin to use generative AI in painting and image editing "
 "workflows directly in Krita."
@@ -1608,7 +1608,7 @@ msgstr ""
 # #-#-#-#-#  biglinux-settings.pot (biglinux-settings)  #-#-#-#-#
 #
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings-ruscher/ai_page.py, line: 46
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/ai_page.py, line: 43
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/ai_page.py, line: 30
 msgid "ChatAI"
 msgstr "ChatAI"
 
@@ -1616,7 +1616,7 @@ msgstr "ChatAI"
 # #-#-#-#-#  biglinux-settings.pot (biglinux-settings)  #-#-#-#-#
 #
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings-ruscher/ai_page.py, line: 47
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/ai_page.py, line: 44
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/ai_page.py, line: 31
 msgid "A variety of chats like Plasmoid for your KDE Plasma desktop."
 msgstr "A variety of chats like Plasmoid for your KDE Plasma desktop."
 
@@ -1696,9 +1696,9 @@ msgstr "Remove Krita & Data"
 #
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings-ruscher/containers_page.py, line: 20
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings-ruscher/containers_page.py, line: 28
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 165
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/docker_page.py, line: 27
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/docker_page.py, line: 45
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 221
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/docker_page.py, line: 17
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/docker_page.py, line: 35
 msgid "Docker"
 msgstr "Docker"
 
@@ -1711,7 +1711,7 @@ msgstr "Container service - enable to use containers below"
 # #-#-#-#-#  biglinux-settings.pot (biglinux-settings)  #-#-#-#-#
 #
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings-ruscher/containers_page.py, line: 29
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/docker_page.py, line: 46
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/docker_page.py, line: 36
 msgid "Docker Enabled."
 msgstr "Docker Enabled."
 
@@ -1724,7 +1724,7 @@ msgstr "Manage container technologies"
 # #-#-#-#-#  biglinux-settings.pot (biglinux-settings)  #-#-#-#-#
 #
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings-ruscher/containers_page.py, line: 44
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/docker_page.py, line: 56
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/docker_page.py, line: 46
 msgid "Nextcloud Plus"
 msgstr "Nextcloud Plus"
 
@@ -1732,7 +1732,7 @@ msgstr "Nextcloud Plus"
 # #-#-#-#-#  biglinux-settings.pot (biglinux-settings)  #-#-#-#-#
 #
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings-ruscher/containers_page.py, line: 45
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/docker_page.py, line: 57
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/docker_page.py, line: 47
 msgid "Nextcloud Plus container."
 msgstr "Nextcloud Plus container."
 
@@ -1740,7 +1740,7 @@ msgstr "Nextcloud Plus container."
 # #-#-#-#-#  biglinux-settings.pot (biglinux-settings)  #-#-#-#-#
 #
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings-ruscher/containers_page.py, line: 53
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/docker_page.py, line: 64
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/docker_page.py, line: 54
 msgid "AdGuard"
 msgstr "AdGuard"
 
@@ -1748,7 +1748,7 @@ msgstr "AdGuard"
 # #-#-#-#-#  biglinux-settings.pot (biglinux-settings)  #-#-#-#-#
 #
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings-ruscher/containers_page.py, line: 54
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/docker_page.py, line: 65
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/docker_page.py, line: 55
 msgid "AdGuard Home container."
 msgstr "AdGuard Home container."
 
@@ -1756,7 +1756,7 @@ msgstr "AdGuard Home container."
 # #-#-#-#-#  biglinux-settings.pot (biglinux-settings)  #-#-#-#-#
 #
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings-ruscher/containers_page.py, line: 62
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/docker_page.py, line: 72
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/docker_page.py, line: 62
 msgid "Django"
 msgstr "Django"
 
@@ -1764,7 +1764,7 @@ msgstr "Django"
 # #-#-#-#-#  biglinux-settings.pot (biglinux-settings)  #-#-#-#-#
 #
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings-ruscher/containers_page.py, line: 63
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/docker_page.py, line: 73
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/docker_page.py, line: 63
 msgid "Django developer environment."
 msgstr "Django developer environment."
 
@@ -1772,7 +1772,7 @@ msgstr "Django developer environment."
 # #-#-#-#-#  biglinux-settings.pot (biglinux-settings)  #-#-#-#-#
 #
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings-ruscher/containers_page.py, line: 71
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/docker_page.py, line: 80
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/docker_page.py, line: 70
 msgid "Duplicati"
 msgstr "Duplicati"
 
@@ -1780,7 +1780,7 @@ msgstr "Duplicati"
 # #-#-#-#-#  biglinux-settings.pot (biglinux-settings)  #-#-#-#-#
 #
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings-ruscher/containers_page.py, line: 72
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/docker_page.py, line: 81
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/docker_page.py, line: 71
 msgid "Duplicati backup solution."
 msgstr "Duplicati backup solution."
 
@@ -1788,7 +1788,7 @@ msgstr "Duplicati backup solution."
 # #-#-#-#-#  biglinux-settings.pot (biglinux-settings)  #-#-#-#-#
 #
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings-ruscher/containers_page.py, line: 80
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/docker_page.py, line: 88
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/docker_page.py, line: 78
 msgid "Jellyfin"
 msgstr "Jellyfin"
 
@@ -1796,7 +1796,7 @@ msgstr "Jellyfin"
 # #-#-#-#-#  biglinux-settings.pot (biglinux-settings)  #-#-#-#-#
 #
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings-ruscher/containers_page.py, line: 81
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/docker_page.py, line: 89
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/docker_page.py, line: 79
 msgid "Jellyfin media server."
 msgstr "Jellyfin media server."
 
@@ -1804,7 +1804,7 @@ msgstr "Jellyfin media server."
 # #-#-#-#-#  biglinux-settings.pot (biglinux-settings)  #-#-#-#-#
 #
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings-ruscher/containers_page.py, line: 89
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/docker_page.py, line: 96
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/docker_page.py, line: 86
 msgid "LAMP"
 msgstr "LAMP"
 
@@ -1812,7 +1812,7 @@ msgstr "LAMP"
 # #-#-#-#-#  biglinux-settings.pot (biglinux-settings)  #-#-#-#-#
 #
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings-ruscher/containers_page.py, line: 90
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/docker_page.py, line: 97
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/docker_page.py, line: 87
 msgid "LAMP stack (Linux, Apache, MySQL, PHP)."
 msgstr "LAMP stack (Linux, Apache, MySQL, PHP)."
 
@@ -1820,7 +1820,7 @@ msgstr "LAMP stack (Linux, Apache, MySQL, PHP)."
 # #-#-#-#-#  biglinux-settings.pot (biglinux-settings)  #-#-#-#-#
 #
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings-ruscher/containers_page.py, line: 98
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/docker_page.py, line: 104
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/docker_page.py, line: 94
 msgid "Portainer Client"
 msgstr "Portainer Client"
 
@@ -1828,7 +1828,7 @@ msgstr "Portainer Client"
 # #-#-#-#-#  biglinux-settings.pot (biglinux-settings)  #-#-#-#-#
 #
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings-ruscher/containers_page.py, line: 99
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/docker_page.py, line: 105
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/docker_page.py, line: 95
 msgid "Portainer Agent for cluster management."
 msgstr "Portainer Agent for cluster management."
 
@@ -1836,7 +1836,7 @@ msgstr "Portainer Agent for cluster management."
 # #-#-#-#-#  biglinux-settings.pot (biglinux-settings)  #-#-#-#-#
 #
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings-ruscher/containers_page.py, line: 107
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/docker_page.py, line: 112
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/docker_page.py, line: 102
 msgid "SWS"
 msgstr "SWS"
 
@@ -1844,7 +1844,7 @@ msgstr "SWS"
 # #-#-#-#-#  biglinux-settings.pot (biglinux-settings)  #-#-#-#-#
 #
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings-ruscher/containers_page.py, line: 108
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/docker_page.py, line: 113
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/docker_page.py, line: 103
 msgid "SWS static web server."
 msgstr "SWS static web server."
 
@@ -1852,7 +1852,7 @@ msgstr "SWS static web server."
 # #-#-#-#-#  biglinux-settings.pot (biglinux-settings)  #-#-#-#-#
 #
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings-ruscher/containers_page.py, line: 116
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/docker_page.py, line: 120
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/docker_page.py, line: 110
 msgid "V2RayA"
 msgstr "V2RayA"
 
@@ -1860,7 +1860,7 @@ msgstr "V2RayA"
 # #-#-#-#-#  biglinux-settings.pot (biglinux-settings)  #-#-#-#-#
 #
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings-ruscher/containers_page.py, line: 117
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/docker_page.py, line: 121
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/docker_page.py, line: 111
 msgid "V2RayA network tool."
 msgstr "V2RayA network tool."
 
@@ -2101,7 +2101,10 @@ msgid "Additional Options"
 msgstr "Additional Options"
 
 #
+# #-#-#-#-#  biglinux-settings.pot (biglinux-settings)  #-#-#-#-#
+#
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings-ruscher/devices/keyboard_led_dialog.py, line: 249
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 190
 msgid "Settings"
 msgstr "Settings"
 
@@ -2325,8 +2328,8 @@ msgstr "Turn OFF"
 # #-#-#-#-#  biglinux-settings.pot (biglinux-settings)  #-#-#-#-#
 #
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings-ruscher/system_usability_page.py, line: 41
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/usability_page.py, line: 25
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 161
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/usability_page.py, line: 12
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 202
 msgid "Usability"
 msgstr "Usability"
 
@@ -2339,7 +2342,7 @@ msgstr "User and Visual system settings"
 # #-#-#-#-#  biglinux-settings.pot (biglinux-settings)  #-#-#-#-#
 #
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings-ruscher/system_usability_page.py, line: 58
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/usability_page.py, line: 34
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/usability_page.py, line: 21
 msgid "NumLock"
 msgstr "NumLock"
 
@@ -2347,7 +2350,7 @@ msgstr "NumLock"
 # #-#-#-#-#  biglinux-settings.pot (biglinux-settings)  #-#-#-#-#
 #
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings-ruscher/system_usability_page.py, line: 59
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/usability_page.py, line: 35
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/usability_page.py, line: 22
 msgid "Initial NumLock state. Ignored if autologin is enabled."
 msgstr "Initial NumLock state. Ignored if autologin is enabled."
 
@@ -2355,7 +2358,7 @@ msgstr "Initial NumLock state. Ignored if autologin is enabled."
 # #-#-#-#-#  biglinux-settings.pot (biglinux-settings)  #-#-#-#-#
 #
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings-ruscher/system_usability_page.py, line: 66
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/usability_page.py, line: 43
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/usability_page.py, line: 30
 msgid "Window Button On Left Side"
 msgstr "Window Button On Left Side"
 
@@ -2363,7 +2366,7 @@ msgstr "Window Button On Left Side"
 # #-#-#-#-#  biglinux-settings.pot (biglinux-settings)  #-#-#-#-#
 #
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings-ruscher/system_usability_page.py, line: 67
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/usability_page.py, line: 44
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/usability_page.py, line: 31
 msgid "Maximize, minimize, and close buttons on the left side of the window."
 msgstr "Maximize, minimize, and close buttons on the left side of the window."
 
@@ -2371,7 +2374,7 @@ msgstr "Maximize, minimize, and close buttons on the left side of the window."
 # #-#-#-#-#  biglinux-settings.pot (biglinux-settings)  #-#-#-#-#
 #
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings-ruscher/system_usability_page.py, line: 74
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/usability_page.py, line: 52
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/usability_page.py, line: 39
 msgid "SSH until next reboot"
 msgstr "SSH until next reboot"
 
@@ -2379,7 +2382,7 @@ msgstr "SSH until next reboot"
 # #-#-#-#-#  biglinux-settings.pot (biglinux-settings)  #-#-#-#-#
 #
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings-ruscher/system_usability_page.py, line: 75
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/usability_page.py, line: 53
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/usability_page.py, line: 40
 msgid "Enable remote access via ssh until next boot."
 msgstr "Enable remote access via ssh until next boot."
 
@@ -2387,7 +2390,7 @@ msgstr "Enable remote access via ssh until next boot."
 # #-#-#-#-#  biglinux-settings.pot (biglinux-settings)  #-#-#-#-#
 #
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings-ruscher/system_usability_page.py, line: 83
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/usability_page.py, line: 61
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/usability_page.py, line: 48
 msgid "KZones"
 msgstr "KZones"
 
@@ -2413,7 +2416,7 @@ msgstr "Game Mode Booster"
 # #-#-#-#-#  biglinux-settings.pot (biglinux-settings)  #-#-#-#-#
 #
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings-ruscher/system_usability_page.py, line: 101
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/performance_games_page.py, line: 37
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/performance_games_page.py, line: 24
 msgid ""
 "Combination of daemon and library that allows games to request a set of "
 "optimizations be temporarily applied to the operating system and/or the game "
@@ -2437,7 +2440,7 @@ msgstr "General system settings"
 # #-#-#-#-#  biglinux-settings.pot (biglinux-settings)  #-#-#-#-#
 #
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings-ruscher/system_usability_page.py, line: 128
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_page.py, line: 33
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_page.py, line: 20
 msgid "SSH always on"
 msgstr "SSH always on"
 
@@ -2445,7 +2448,7 @@ msgstr "SSH always on"
 # #-#-#-#-#  biglinux-settings.pot (biglinux-settings)  #-#-#-#-#
 #
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings-ruscher/system_usability_page.py, line: 129
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_page.py, line: 34
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_page.py, line: 21
 msgid "Turn on ssh remote access at boot."
 msgstr "Turn on ssh remote access at boot."
 
@@ -2453,7 +2456,7 @@ msgstr "Turn on ssh remote access at boot."
 # #-#-#-#-#  biglinux-settings.pot (biglinux-settings)  #-#-#-#-#
 #
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings-ruscher/system_usability_page.py, line: 136
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_page.py, line: 42
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_page.py, line: 29
 msgid "Fast Grub"
 msgstr "Fast Grub"
 
@@ -2461,7 +2464,7 @@ msgstr "Fast Grub"
 # #-#-#-#-#  biglinux-settings.pot (biglinux-settings)  #-#-#-#-#
 #
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings-ruscher/system_usability_page.py, line: 137
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_page.py, line: 43
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_page.py, line: 30
 msgid "Decreases grub display time."
 msgstr "Decreases grub display time."
 
@@ -2469,7 +2472,7 @@ msgstr "Decreases grub display time."
 # #-#-#-#-#  biglinux-settings.pot (biglinux-settings)  #-#-#-#-#
 #
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings-ruscher/system_usability_page.py, line: 144
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_page.py, line: 51
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_page.py, line: 38
 msgid "Auto-mount Partitions"
 msgstr "Auto-mount Partitions"
 
@@ -2477,7 +2480,7 @@ msgstr "Auto-mount Partitions"
 # #-#-#-#-#  biglinux-settings.pot (biglinux-settings)  #-#-#-#-#
 #
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings-ruscher/system_usability_page.py, line: 145
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_page.py, line: 52
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_page.py, line: 39
 msgid "Auto mount partitions in internal disks on boot."
 msgstr "Auto mount partitions in internal disks on boot."
 
@@ -2485,7 +2488,7 @@ msgstr "Auto mount partitions in internal disks on boot."
 # #-#-#-#-#  biglinux-settings.pot (biglinux-settings)  #-#-#-#-#
 #
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings-ruscher/system_usability_page.py, line: 153
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_page.py, line: 61
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_page.py, line: 48
 msgid "Meltdown Mitigations off"
 msgstr "Meltdown Mitigations off"
 
@@ -2503,7 +2506,7 @@ msgstr ""
 # #-#-#-#-#  biglinux-settings.pot (biglinux-settings)  #-#-#-#-#
 #
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings-ruscher/system_usability_page.py, line: 161
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_page.py, line: 70
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_page.py, line: 57
 msgid "noWatchdog"
 msgstr "noWatchdog"
 
@@ -2511,7 +2514,7 @@ msgstr "noWatchdog"
 # #-#-#-#-#  biglinux-settings.pot (biglinux-settings)  #-#-#-#-#
 #
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings-ruscher/system_usability_page.py, line: 162
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_page.py, line: 71
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_page.py, line: 58
 msgid ""
 "Disables the hardware watchdog and TSC clocksource systems, maintaining high "
 "performance but removing automatic protections against system crashes."
@@ -2523,7 +2526,7 @@ msgstr ""
 # #-#-#-#-#  biglinux-settings.pot (biglinux-settings)  #-#-#-#-#
 #
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings-ruscher/system_usability_page.py, line: 170
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/usability_page.py, line: 70
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/usability_page.py, line: 57
 msgid "Recent Files & Locations"
 msgstr "Recent Files & Locations"
 
@@ -2531,7 +2534,7 @@ msgstr "Recent Files & Locations"
 # #-#-#-#-#  biglinux-settings.pot (biglinux-settings)  #-#-#-#-#
 #
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings-ruscher/system_usability_page.py, line: 171
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/usability_page.py, line: 71
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/usability_page.py, line: 58
 msgid ""
 "Restores the 'Recent Files' and 'Recent Locations' functionality that "
 "appears empty in Dolphin and the Application Menu."
@@ -2559,24 +2562,24 @@ msgstr ""
 "want to restart it now?"
 
 #
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/usability_page.py, line: 26
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/usability_page.py, line: 13
 msgid "User and Visual system settings."
 msgstr "User and Visual system settings."
 
 #
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/usability_page.py, line: 62
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/usability_page.py, line: 49
 msgid ""
 "Script for the KWin window manager of the KDE Plasma desktop environment."
 msgstr ""
 "Script for the KWin window manager of the KDE Plasma desktop environment."
 
 #
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_page.py, line: 26
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_page.py, line: 13
 msgid "General system settings."
 msgstr "General system settings."
 
 #
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_page.py, line: 62
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_page.py, line: 49
 #, python-brace-format
 msgid ""
 "Using mitigations=off will make your machine faster and less secure! For "
@@ -2586,140 +2589,156 @@ msgstr ""
 "more information see: <a href='{l}'>{l}</a>"
 
 #
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/base_page.py, line: 267
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/base_page.py, line: 275
 msgid "Indicator {} synchronized: {}"
 msgstr "Indicator {} synchronized: {}"
 
 #
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/devices_page.py, line: 27
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/devices_page.py, line: 14
 msgid "Manage physical devices."
 msgstr "Manage physical devices."
 
 #
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/devices_page.py, line: 62
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/devices_page.py, line: 49
 msgid "Keyboard LED"
 msgstr "Keyboard LED"
 
 #
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/devices_page.py, line: 71
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/devices_page.py, line: 58
 msgid "Reverse mouse scrolling"
 msgstr "Reverse mouse scrolling"
 
 #
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/devices_page.py, line: 72
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/devices_page.py, line: 59
 msgid "Reverse mouse scrolling without restarting the session."
 msgstr "Reverse mouse scrolling without restarting the session."
 
 #
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 162
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 49
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 120
+msgid "BigLinux Settings"
+msgstr "BigLinux Settings"
+
+#
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 135
+msgid "Categories"
+msgstr "Categories"
+
+#
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 144
+msgid "Search..."
+msgstr "Search..."
+
+#
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 208
 msgid "PreLoad"
 msgstr "PreLoad"
 
 #
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 164
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 219
 msgid "A.I."
 msgstr "A.I."
 
 #
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 166
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 227
 msgid "Performance and Games"
 msgstr "Performance and Games"
 
 #
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/ai_page.py, line: 27
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/ai_page.py, line: 14
 msgid "AI settings and tools."
 msgstr "AI settings and tools."
 
 #
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/docker_page.py, line: 28
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/docker_page.py, line: 18
 msgid "Container service - enable to use containers below."
 msgstr "Container service - enable to use containers below."
 
 #
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/docker_page.py, line: 36
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/docker_page.py, line: 26
 msgid "Manage container technologies."
 msgstr "Manage container technologies."
 
 #
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/performance_games_page.py, line: 29
-msgid "Ajustes de Performance do BigLinux."
-msgstr "Ajustes de Performance do BigLinux."
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/performance_games_page.py, line: 16
+msgid "BigLinux performance tweaks."
+msgstr "BigLinux performance tweaks."
 
 #
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/performance_games_page.py, line: 36
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/performance_games_page.py, line: 23
 msgid "Games Booster"
 msgstr "Games Booster"
 
 #
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/performance_games_page.py, line: 48
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/performance_games_page.py, line: 35
 msgid ""
-"Desativa efeitos visuais do KWin (blur, sombras, animações). Diminui carga "
-"na GPU e libera memória."
+"Disables KWin visual effects (blur, shadows, animations). Reduces GPU load "
+"and frees memory."
 msgstr ""
-"Desativa efeitos visuais do KWin (blur, sombras, animações). Diminui carga "
-"na GPU e libera memória."
+"Disables KWin visual effects (blur, shadows, animations). Reduces GPU load "
+"and frees memory."
 
 #
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/performance_games_page.py, line: 56
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/performance_games_page.py, line: 43
 msgid ""
-"Configura compositor para “low latency”, permite tearing e desativa "
-"animações. Minimiza a sobrecarga de composição e reduz input lag."
+"Configures compositor for low latency, allows tearing and disables "
+"animations. Minimizes compositing overhead and reduces input lag."
 msgstr ""
-"Configura compositor para “low latency”, permite tearing e desativa "
-"animações. Minimiza a sobrecarga de composição e reduz input lag."
+"Configures compositor for low latency, allows tearing and disables "
+"animations. Minimizes compositing overhead and reduces input lag."
 
 #
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/performance_games_page.py, line: 63
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/performance_games_page.py, line: 50
 msgid "CPU Maximum Performance"
 msgstr "CPU Maximum Performance"
 
 #
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/performance_games_page.py, line: 64
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/performance_games_page.py, line: 51
 msgid ""
-"Força o modo máximo de desempenho do processador. Garante que o processador "
-"use a frequência máxima."
+"Forces maximum processor performance mode. Ensures the processor uses "
+"maximum frequency."
 msgstr ""
-"Força o modo máximo de desempenho do processador. Garante que o processador "
-"use a frequência máxima."
+"Forces maximum processor performance mode. Ensures the processor uses "
+"maximum frequency."
 
 #
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/performance_games_page.py, line: 72
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/performance_games_page.py, line: 59
 msgid ""
-"Força o modo máximo de desempenho (GPU NVIDIA/AMD). Garante que a placa de "
-"vídeo use a frequência máxima."
+"Forces maximum GPU performance mode (NVIDIA/AMD). Ensures the graphics card "
+"uses maximum frequency."
 msgstr ""
-"Força o modo máximo de desempenho (GPU NVIDIA/AMD). Garante que a placa de "
-"vídeo use a frequência máxima."
+"Forces maximum GPU performance mode (NVIDIA/AMD). Ensures the graphics card "
+"uses maximum frequency."
 
 #
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/performance_games_page.py, line: 79
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/performance_games_page.py, line: 66
 msgid "Disable Baloo Indexer"
 msgstr "Disable Baloo Indexer"
 
 #
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/performance_games_page.py, line: 80
-msgid "Desativa o indexador de arquivos Baloo. Evita I/O de disco."
-msgstr "Desativa o indexador de arquivos Baloo. Evita I/O de disco."
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/performance_games_page.py, line: 67
+msgid "Disables the Baloo file indexer. Avoids disk I/O overhead."
+msgstr "Disables the Baloo file indexer. Avoids disk I/O overhead."
 
 #
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/performance_games_page.py, line: 88
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/performance_games_page.py, line: 75
 msgid ""
-"Interrompe o servidor de dados de PIM (Kontact/Thunderbird). Reduz a "
-"sobrecarga de memória e disco."
+"Stops the PIM data server (Kontact/Thunderbird). Reduces memory and disk "
+"overhead."
 msgstr ""
-"Interrompe o servidor de dados de PIM (Kontact/Thunderbird). Reduz a "
-"sobrecarga de memória e disco."
+"Stops the PIM data server (Kontact/Thunderbird). Reduces memory and disk "
+"overhead."
 
 #
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/performance_games_page.py, line: 96
-msgid "Desativa monitoramento S.M.A.R.T. de discos. Reduz I/O de disco e CPU."
-msgstr "Desativa monitoramento S.M.A.R.T. de discos. Reduz I/O de disco e CPU."
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/performance_games_page.py, line: 83
+msgid "Disables S.M.A.R.T disk monitoring. Reduces disk I/O and CPU usage."
+msgstr "Disables S.M.A.R.T disk monitoring. Reduces disk I/O and CPU usage."
 
 #
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/performance_games_page.py, line: 107
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/performance_games_page.py, line: 94
 msgid ""
-"Ativa o daemon que ajusta CPU, I/O, etc. Reduz a latência e aumenta a taxa "
-"de quadros."
+"Activates daemon that adjusts CPU, I/O, etc. Reduces latency and increases "
+"frame rate."
 msgstr ""
-"Ativa o daemon que ajusta CPU, I/O, etc. Reduz a latência e aumenta a taxa "
-"de quadros."
+"Activates daemon that adjusts CPU, I/O, etc. Reduces latency and increases "
+"frame rate."

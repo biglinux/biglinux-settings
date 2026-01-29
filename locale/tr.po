@@ -1644,6 +1644,10 @@ msgstr "Klavye LED'iniz artık yapılandırıldı ve kullanıma hazır."
 # 
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings-ruscher/devices/keyboard_led_dialog.py, line: 428
 # 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings-ruscher/devices/keyboard_led_dialog.py, line: 428
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings-ruscher/devices/keyboard_led_dialog.py, line: 428
+# 
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings/devices/keyboard_led_dialog.py, line: 428
 # 
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings/devices/keyboard_led_dialog.py, line: 428
@@ -1962,6 +1966,19 @@ msgstr "Tersine fare kaydırma"
 msgid "Reverse mouse scrolling without restarting the session."
 msgstr "Oturumu yeniden başlatmadan fare kaydırmasını tersine çevir."
 # 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 49
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 120
+msgid "BigLinux Settings"
+msgstr "BigLinux Ayarları"
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 135
+msgid "Categories"
+msgstr "Kategoriler"
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 144
+msgid "Search..."
+msgstr "Ara..."
+# 
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 158
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 167
 msgid "PreLoad"
@@ -1987,62 +2004,58 @@ msgstr "Konteyner hizmeti - aşağıdaki konteynerleri kullanmayı etkinleştir.
 msgid "Manage container technologies."
 msgstr "Konteyner teknolojilerini yönetin."
 # 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/performance_games_page.py, line: 29
-msgid "Ajustes de Performance do BigLinux."
-msgstr "BigLinux Performans Ayarları."
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/performance_games_page.py, line: 16
+msgid "BigLinux performance tweaks."
+msgstr "BigLinux performans iyileştirmeleri."
 # 
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings/performance_games_page.py, line: 36
 msgid "Games Booster"
 msgstr "Oyun Hızlandırıcı"
 # 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/performance_games_page.py, line: 48
-msgid "Desativa efeitos visuais do KWin (blur, sombras, animações). Diminui carga na GPU e libera memória."
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/performance_games_page.py, line: 35
+msgid "Disables KWin visual effects (blur, shadows, animations). Reduces GPU load and frees memory."
 msgstr ""
-"KWin'in görsel efektlerini devre dışı bırakır (bulanıklaştırma, gölgeler, animasyonlar). GPU "
-"üzerindeki yükü azaltır ve bellek serbest bırakır."
+"KWin görsel efektlerini (bulanıklık, gölgeler, animasyonlar) devre dışı bırakır. GPU yükünü azaltır "
+"ve bellek serbest bırakır."
 # 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/performance_games_page.py, line: 56
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/performance_games_page.py, line: 43
 msgid ""
-"Configura compositor para “low latency”, permite tearing e desativa animações. Minimiza a "
-"sobrecarga de composição e reduz input lag."
+"Configures compositor for low latency, allows tearing and disables animations. Minimizes "
+"compositing overhead and reduces input lag."
 msgstr ""
-"Kompozitörü \"düşük gecikme\" için yapılandırın, tearing'i etkinleştirir ve animasyonları devre "
-"dışı bırakır. Kompozisyon yükünü en aza indirir ve giriş gecikmesini azaltır."
+"Düşük gecikme için kompozitörü yapılandırır, yırtılmayı sağlar ve animasyonları devre dışı bırakır. "
+"Kompozitleme yükünü en aza indirir ve giriş gecikmesini azaltır."
 # 
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings/performance_games_page.py, line: 63
 msgid "CPU Maximum Performance"
 msgstr "CPU Maksimum Performansı"
 # 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/performance_games_page.py, line: 64
-msgid "Força o modo máximo de desempenho do processador. Garante que o processador use a frequência máxima."
-msgstr ""
-"İşlemcinin maksimum performans modunu zorlar. İşlemcinin maksimum frekansı kullanmasını garanti "
-"eder."
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/performance_games_page.py, line: 51
+msgid "Forces maximum processor performance mode. Ensures the processor uses maximum frequency."
+msgstr "Maksimum işlemci performansı modunu zorlar. İşlemcinin maksimum frekansı kullanmasını sağlar."
 # 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/performance_games_page.py, line: 72
-msgid ""
-"Força o modo máximo de desempenho (GPU NVIDIA/AMD). Garante que a placa de vídeo use a frequência "
-"máxima."
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/performance_games_page.py, line: 59
+msgid "Forces maximum GPU performance mode (NVIDIA/AMD). Ensures the graphics card uses maximum frequency."
 msgstr ""
-"Maksimum performans modunu zorla (NVIDIA/AMD GPU). Ekran kartının maksimum frekansı kullanmasını "
-"garanti eder."
+"Maksimum GPU performans modunu (NVIDIA/AMD) zorlar. Ekran kartının maksimum frekansı kullanmasını "
+"sağlar."
 # 
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings/performance_games_page.py, line: 79
 msgid "Disable Baloo Indexer"
 msgstr "Baloo İndeksleyicisini Devre Dışı Bırak"
 # 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/performance_games_page.py, line: 80
-msgid "Desativa o indexador de arquivos Baloo. Evita I/O de disco."
-msgstr "Dosya dizinleyicisi Baloo'yu devre dışı bırak. Disk I/O'sunu önler."
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/performance_games_page.py, line: 67
+msgid "Disables the Baloo file indexer. Avoids disk I/O overhead."
+msgstr "Baloo dosya dizinleyicisini devre dışı bırakır. Disk I/O yükünü önler."
 # 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/performance_games_page.py, line: 88
-msgid "Interrompe o servidor de dados de PIM (Kontact/Thunderbird). Reduz a sobrecarga de memória e disco."
-msgstr "PIM veri sunucusunu (Kontact/Thunderbird) durdurur. Bellek ve disk yükünü azaltır."
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/performance_games_page.py, line: 75
+msgid "Stops the PIM data server (Kontact/Thunderbird). Reduces memory and disk overhead."
+msgstr "PIM veri sunucusunu durdurur (Kontact/Thunderbird). Bellek ve disk yükünü azaltır."
 # 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/performance_games_page.py, line: 96
-msgid "Desativa monitoramento S.M.A.R.T. de discos. Reduz I/O de disco e CPU."
-msgstr "Disks S.M.A.R.T. izleme devre dışı bırakıldı. Disk ve CPU I/O'sunu azaltır."
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/performance_games_page.py, line: 83
+msgid "Disables S.M.A.R.T disk monitoring. Reduces disk I/O and CPU usage."
+msgstr "S.M.A.R.T disk izleme devre dışı bırakılır. Disk I/O ve CPU kullanımını azaltır."
 # 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/performance_games_page.py, line: 107
-msgid "Ativa o daemon que ajusta CPU, I/O, etc. Reduz a latência e aumenta a taxa de quadros."
-msgstr "CPU, I/O vb. ayarları düzenleyen daemon'ı etkinleştir. Gecikmeyi azaltır ve kare hızını artırır."
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/performance_games_page.py, line: 94
+msgid "Activates daemon that adjusts CPU, I/O, etc. Reduces latency and increases frame rate."
+msgstr "CPU, I/O vb. ayarlarını düzenleyen daemon'ı etkinleştirir. Gecikmeyi azaltır ve kare hızını artırır."

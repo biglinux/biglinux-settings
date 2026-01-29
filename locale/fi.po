@@ -1507,6 +1507,10 @@ msgstr ""
 # 
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings-ruscher/devices/jamesdsp_dialog.py, line: 208
 # 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings-ruscher/devices/jamesdsp_dialog.py, line: 208
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings-ruscher/devices/jamesdsp_dialog.py, line: 208
+# 
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings/devices/jamesdsp_dialog.py, line: 208
 # 
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings/devices/jamesdsp_dialog.py, line: 208
@@ -1658,6 +1662,10 @@ msgstr "Konfigurointi valmis!"
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings/devices/keyboard_led_dialog.py, line: 419
 msgid "Your keyboard LED is now configured and ready to use."
 msgstr "Näyttösi LED on nyt konfiguroitu ja valmis käytettäväksi."
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings-ruscher/devices/keyboard_led_dialog.py, line: 428
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings-ruscher/devices/keyboard_led_dialog.py, line: 428
 # 
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings-ruscher/devices/keyboard_led_dialog.py, line: 428
 # 
@@ -2081,6 +2089,19 @@ msgstr "Käänteinen hiiren vieritys"
 msgid "Reverse mouse scrolling without restarting the session."
 msgstr "Käänteinen hiiren vieritys ilman istunnon uudelleenkäynnistämistä."
 # 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 49
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 120
+msgid "BigLinux Settings"
+msgstr "BigLinux Asetukset"
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 135
+msgid "Categories"
+msgstr "Kategoriat"
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 144
+msgid "Search..."
+msgstr "Etsi..."
+# 
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 158
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 167
 msgid "PreLoad"
@@ -2106,62 +2127,60 @@ msgstr "Konttipalvelu - ota käyttöön alla olevat kontit."
 msgid "Manage container technologies."
 msgstr "Hallitse säilöteknologioita."
 # 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/performance_games_page.py, line: 29
-msgid "Ajustes de Performance do BigLinux."
-msgstr "BigLinuxin suorituskykyasetukset."
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/performance_games_page.py, line: 16
+msgid "BigLinux performance tweaks."
+msgstr "BigLinux-suorituskyvyn säätöjä."
 # 
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings/performance_games_page.py, line: 36
 msgid "Games Booster"
 msgstr "Peli Boosteri"
 # 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/performance_games_page.py, line: 48
-msgid "Desativa efeitos visuais do KWin (blur, sombras, animações). Diminui carga na GPU e libera memória."
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/performance_games_page.py, line: 35
+msgid "Disables KWin visual effects (blur, shadows, animations). Reduces GPU load and frees memory."
 msgstr ""
-"Poista KWin:n visuaaliset tehosteet (sumeus, varjot, animaatiot). Vähentää GPU:n kuormitusta ja "
+"Poistaa KWin-visuaaliset tehosteet (sumeus, varjot, animaatiot). Vähentää GPU-kuormitusta ja "
 "vapauttaa muistia."
 # 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/performance_games_page.py, line: 56
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/performance_games_page.py, line: 43
 msgid ""
-"Configura compositor para “low latency”, permite tearing e desativa animações. Minimiza a "
-"sobrecarga de composição e reduz input lag."
+"Configures compositor for low latency, allows tearing and disables animations. Minimizes "
+"compositing overhead and reduces input lag."
 msgstr ""
-"Määritä säveltäjä \"alhaista viivettä\" varten, salli repeytyminen ja poista animaatiot käytöstä. "
-"Vähentää koosteen kuormitusta ja vähentää syöttöviivettä."
+"Määrittää säveltäjän matalalle viiveelle, sallii repeämisen ja poistaa animaatiot. Minimoi "
+"säveltämisen ylikuormituksen ja vähentää syöttöviivettä."
 # 
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings/performance_games_page.py, line: 63
 msgid "CPU Maximum Performance"
 msgstr "CPU:n maksimaalinen suorituskyky"
 # 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/performance_games_page.py, line: 64
-msgid "Força o modo máximo de desempenho do processador. Garante que o processador use a frequência máxima."
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/performance_games_page.py, line: 51
+msgid "Forces maximum processor performance mode. Ensures the processor uses maximum frequency."
 msgstr ""
-"Pakottaa prosessorin maksimaalisen suorituskyvyn tilan. Varmistaa, että prosessori käyttää maksimi "
+"Pakottaa prosessorin maksimisuorituskykytilaan. Varmistaa, että prosessori käyttää maksimi "
 "taajuutta."
 # 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/performance_games_page.py, line: 72
-msgid ""
-"Força o modo máximo de desempenho (GPU NVIDIA/AMD). Garante que a placa de vídeo use a frequência "
-"máxima."
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/performance_games_page.py, line: 59
+msgid "Forces maximum GPU performance mode (NVIDIA/AMD). Ensures the graphics card uses maximum frequency."
 msgstr ""
-"Pakota maksimaalinen suorituskykytila (NVIDIA/AMD GPU). Varmistaa, että näytönohjain käyttää "
-"maksimi taajuutta."
+"Pakottaa maksimaalisen GPU-suorituskyvyn tilan (NVIDIA/AMD). Varmistaa, että näytönohjain käyttää "
+"maksimaalista taajuutta."
 # 
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings/performance_games_page.py, line: 79
 msgid "Disable Baloo Indexer"
 msgstr "Poista Baloo-indeksoija käytöstä"
 # 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/performance_games_page.py, line: 80
-msgid "Desativa o indexador de arquivos Baloo. Evita I/O de disco."
-msgstr "Poista käytöstä Baloo-tiedostojen indeksoija. Vältä levyn I/O:ta."
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/performance_games_page.py, line: 67
+msgid "Disables the Baloo file indexer. Avoids disk I/O overhead."
+msgstr "Poistaa käytöstä Baloo-tiedostoindexerin. Vältetään levyn I/O-ylikuormitusta."
 # 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/performance_games_page.py, line: 88
-msgid "Interrompe o servidor de dados de PIM (Kontact/Thunderbird). Reduz a sobrecarga de memória e disco."
-msgstr "Keskeyttää PIM-tietopalvelimen (Kontact/Thunderbird). Vähentää muisti- ja levykuormitusta."
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/performance_games_page.py, line: 75
+msgid "Stops the PIM data server (Kontact/Thunderbird). Reduces memory and disk overhead."
+msgstr "Pysäyttää PIM-tietopalvelimen (Kontact/Thunderbird). Vähentää muistin ja levyn kuormitusta."
 # 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/performance_games_page.py, line: 96
-msgid "Desativa monitoramento S.M.A.R.T. de discos. Reduz I/O de disco e CPU."
-msgstr "Poista käytöstä S.M.A.R.T. -levyjen valvonta. Vähentää levy- ja CPU-käyttöä."
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/performance_games_page.py, line: 83
+msgid "Disables S.M.A.R.T disk monitoring. Reduces disk I/O and CPU usage."
+msgstr "Poistaa käytöstä S.M.A.R.T-levyn valvonnan. Vähentää levyn I/O:ta ja CPU:n käyttöä."
 # 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/performance_games_page.py, line: 107
-msgid "Ativa o daemon que ajusta CPU, I/O, etc. Reduz a latência e aumenta a taxa de quadros."
-msgstr "Ota daemon, joka säätää CPU:ta, I/O:ta jne. Vähentää viivettä ja lisää kuvataajuutta."
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/performance_games_page.py, line: 94
+msgid "Activates daemon that adjusts CPU, I/O, etc. Reduces latency and increases frame rate."
+msgstr "Aktivoi demonin, joka säätää CPU:ta, I/O:ta jne. Vähentää viivettä ja lisää kuvataajuutta."
