@@ -17,361 +17,244 @@ except ImportError:
 
 
 class SteamGame:
-    """Represents a Steam game with its configuration."""
+    """Represents a Steam game."""
     def __init__(self, app_id, name, launch_options=""):
-        self.app_id = app_id
-        self.name = name
-        self.launch_options = launch_options
+        self.app_id, self.name, self.launch_options = app_id, name, launch_options
         self.has_gamemode = "gamemoderun" in launch_options.lower()
 
 
 class SteamGamesDialog(Adw.Window):
     """Dialog for configuring Steam games with gamemoderun."""
+    
+    # Keywords and IDs to filter out non-game items
+    EXCLUDE_KEYWORDS = ["proton", "steam linux runtime", "steamworks", "redistributable", "redist",
+                        "directx", "vcredist", "visual c++", "physx", "openal", ".net", "easyanticheat",
+                        "battleye", "steam client", "steamvr", "steam controller", "dedicated server",
+                        "sdk", "soldier", "sniper", "scout", "pressure-vessel"]
+    EXCLUDE_IDS = {"228980", "1070560", "1391110", "1628350", "1493710", "2180100", "961940", "1054830",
+                   "1113280", "1245040", "1420170", "1580130", "1887720", "2348590", "2805730", "250820", "1826330"}
 
     def __init__(self, parent_window, **kwargs):
         super().__init__(**kwargs)
-
         self.set_title(_("Configure Steam Games"))
         self.set_default_size(600, 500)
         self.set_modal(True)
         self.set_transient_for(parent_window)
+        self.localconfig_path = None
+        self.game_checkboxes = {}
 
-        # Main container
-        main_box = Gtk.Box(orientation=Gtk.Orientation.VERTICAL, spacing=0)
+        # Build UI
+        main_box = Gtk.Box(orientation=Gtk.Orientation.VERTICAL)
         self.set_content(main_box)
+        main_box.append(Adw.HeaderBar())
 
-        # Header bar
-        header = Adw.HeaderBar()
-        main_box.append(header)
-
-        # Middle content area (scrollable)
-        content_clamp = Adw.Clamp()
-        content_clamp.set_maximum_size(800)
-        content_clamp.set_vexpand(True)
-        main_box.append(content_clamp)
-
-        # Scroll container for games list
-        scroll = Gtk.ScrolledWindow()
-        scroll.set_vexpand(True)
+        # Scrollable content
+        clamp = Adw.Clamp(maximum_size=800, vexpand=True)
+        main_box.append(clamp)
+        scroll = Gtk.ScrolledWindow(vexpand=True)
         scroll.set_policy(Gtk.PolicyType.NEVER, Gtk.PolicyType.AUTOMATIC)
-        content_clamp.set_child(scroll)
-
-        # Inner box for scrollable content
-        self.inner_box = Gtk.Box(orientation=Gtk.Orientation.VERTICAL, spacing=20)
-        self.inner_box.set_margin_top(20)
-        self.inner_box.set_margin_bottom(20)
-        self.inner_box.set_margin_start(20)
-        self.inner_box.set_margin_end(20)
+        clamp.set_child(scroll)
+        self.inner_box = Gtk.Box(orientation=Gtk.Orientation.VERTICAL, spacing=20,
+                                  margin_top=20, margin_bottom=20, margin_start=20, margin_end=20)
         scroll.set_child(self.inner_box)
 
-        # Fixed footer for buttons (outside scroll)
-        self.footer_box = Gtk.Box(orientation=Gtk.Orientation.HORIZONTAL, spacing=10)
-        self.footer_box.set_halign(Gtk.Align.CENTER)
-        self.footer_box.set_margin_top(12)
-        self.footer_box.set_margin_bottom(12)
-        self.footer_box.set_margin_start(20)
-        self.footer_box.set_margin_end(20)
-        main_box.append(self.footer_box)
+        # Footer
+        self.footer = Gtk.Box(orientation=Gtk.Orientation.HORIZONTAL, spacing=10, halign=Gtk.Align.CENTER,
+                              margin_top=12, margin_bottom=12, margin_start=20, margin_end=20)
+        main_box.append(self.footer)
 
-        # Check if VDF module is available
+        # Load data
         if not VDF_AVAILABLE:
-            self._show_vdf_error()
+            self._show_status("dialog-error-symbolic", _("Module Not Found"), _("Install 'vdf': pip install vdf"))
             return
-
-        # Find Steam config
         self.steam_path = self._find_steam_path()
         if not self.steam_path:
-            self._show_no_steam_error()
+            self._show_status("dialog-error-symbolic", _("Steam Not Found"), _("Steam installation not found."))
             return
-
-        # Load and display games
         self.games = self._load_steam_games()
         if not self.games:
-            self._show_no_games_error()
+            self._show_status("dialog-information-symbolic", _("No Games Found"), _("No Steam games found."))
             return
-
         self._create_games_list()
 
     def _find_steam_path(self):
-        """Find the Steam installation directory."""
-        possible_paths = [
-            os.path.expanduser("~/.steam/steam"),
-            os.path.expanduser("~/.local/share/Steam"),
-            os.path.expanduser("~/.steam/debian-installation"),
-        ]
-
-        for path in possible_paths:
-            config_file = os.path.join(path, "config", "config.vdf")
-            if os.path.exists(config_file):
-                return path
-
+        for path in ["~/.steam/steam", "~/.local/share/Steam", "~/.steam/debian-installation"]:
+            full = os.path.expanduser(path)
+            if os.path.exists(os.path.join(full, "config", "config.vdf")):
+                return full
         return None
 
     def _load_steam_games(self):
-        """Load installed Steam games and their launch options."""
-        games = []
-        self.localconfig_path = None
-
-        # Get user ID
-        loginusers_path = os.path.join(self.steam_path, "config", "loginusers.vdf")
-        user_id = None
-
-        if os.path.exists(loginusers_path):
-            try:
-                with open(loginusers_path, 'r', encoding='utf-8') as f:
-                    data = vdf.load(f)
-                    users = data.get("users", {})
-                    for steam_id, user_data in users.items():
-                        if user_data.get("MostRecent") == "1":
-                            user_id = steam_id
-                            break
-                    if not user_id and users:
-                        user_id = list(users.keys())[0]
-            except Exception as e:
-                print(f"Error reading loginusers.vdf: {e}")
-
-        # Load local config for launch options
-        localconfig_dir = os.path.join(self.steam_path, "userdata")
-        launch_options = {}
-
-        if os.path.exists(localconfig_dir):
-            for folder in os.listdir(localconfig_dir):
-                user_config = os.path.join(localconfig_dir, folder, "config", "localconfig.vdf")
-                if os.path.exists(user_config):
+        games, launch_options = [], {}
+        
+        # Load launch options from userdata
+        userdata = os.path.join(self.steam_path, "userdata")
+        if os.path.exists(userdata):
+            for folder in os.listdir(userdata):
+                cfg = os.path.join(userdata, folder, "config", "localconfig.vdf")
+                if os.path.exists(cfg):
                     try:
-                        with open(user_config, 'r', encoding='utf-8') as f:
-                            data = vdf.load(f)
-                            apps = data.get("UserLocalConfigStore", {}).get("Software", {}).get("Valve", {}).get("Steam", {}).get("apps", {})
-                            for app_id, app_data in apps.items():
-                                if isinstance(app_data, dict):
-                                    launch_opts = app_data.get("LaunchOptions", "")
-                                    launch_options[app_id] = launch_opts
-                        self.localconfig_path = user_config
+                        with open(cfg, 'r', encoding='utf-8') as f:
+                            apps = vdf.load(f).get("UserLocalConfigStore", {}).get("Software", {}).get("Valve", {}).get("Steam", {}).get("apps", {})
+                            launch_options = {k: v.get("LaunchOptions", "") for k, v in apps.items() if isinstance(v, dict)}
+                        self.localconfig_path = cfg
                         break
-                    except Exception as e:
-                        print(f"Error reading localconfig.vdf: {e}")
+                    except: pass
 
-        # Load installed games from libraryfolders.vdf
-        libraryfolders_path = os.path.join(self.steam_path, "steamapps", "libraryfolders.vdf")
-        if os.path.exists(libraryfolders_path):
+        # Load games from library
+        libfolders = os.path.join(self.steam_path, "steamapps", "libraryfolders.vdf")
+        if os.path.exists(libfolders):
             try:
-                with open(libraryfolders_path, 'r', encoding='utf-8') as f:
-                    data = vdf.load(f)
-                    folders = data.get("libraryfolders", {})
-                    for folder_id, folder_data in folders.items():
-                        if isinstance(folder_data, dict) and "apps" in folder_data:
-                            for app_id in folder_data["apps"].keys():
-                                folder_path = folder_data.get("path", self.steam_path)
-                                manifest_path = os.path.join(folder_path, "steamapps", f"appmanifest_{app_id}.acf")
-                                if os.path.exists(manifest_path):
+                with open(libfolders, 'r', encoding='utf-8') as f:
+                    for fdata in vdf.load(f).get("libraryfolders", {}).values():
+                        if isinstance(fdata, dict) and "apps" in fdata:
+                            for app_id in fdata["apps"]:
+                                manifest = os.path.join(fdata.get("path", self.steam_path), "steamapps", f"appmanifest_{app_id}.acf")
+                                if os.path.exists(manifest):
                                     try:
-                                        with open(manifest_path, 'r', encoding='utf-8') as mf:
-                                            manifest = vdf.load(mf)
-                                            app_state = manifest.get("AppState", {})
-                                            name = app_state.get("name", f"App {app_id}")
-                                            
-                                            # Filter out non-game items (tools, runtimes, redistributables)
+                                        with open(manifest, 'r', encoding='utf-8') as mf:
+                                            name = vdf.load(mf).get("AppState", {}).get("name", f"App {app_id}")
                                             if self._is_game(name, app_id):
-                                                launch_opts = launch_options.get(app_id, "")
-                                                games.append(SteamGame(app_id, name, launch_opts))
-                                    except Exception as e:
-                                        print(f"Error reading manifest {app_id}: {e}")
-            except Exception as e:
-                print(f"Error reading libraryfolders.vdf: {e}")
-
-        games.sort(key=lambda g: g.name.lower())
-        return games
+                                                games.append(SteamGame(app_id, name, launch_options.get(app_id, "")))
+                                    except: pass
+            except: pass
+        return sorted(games, key=lambda g: g.name.lower())
 
     def _is_game(self, name, app_id):
-        """Check if the app is an actual game (not a tool, runtime, or redistributable)."""
         name_lower = name.lower()
-        
-        # Keywords that indicate non-game items
-        exclude_keywords = [
-            "proton",
-            "steam linux runtime",
-            "steamworks",
-            "redistributable",
-            "redist",
-            "directx",
-            "vcredist",
-            "microsoft visual c++",
-            "physx",
-            "openal",
-            ".net",
-            "easyanticheat",
-            "battleye",
-            "steam client",
-            "steamvr",
-            "steam controller",
-            "wallpaper engine",
-            "dedicated server",
-            "sdk",
-            "soldier",
-            "sniper",
-            "scout",  # Steam runtime codenames
-            "pressure-vessel",
-        ]
-        
-        for keyword in exclude_keywords:
-            if keyword in name_lower:
-                return False
-        
-        # Known tool App IDs (common Steam tools)
-        tool_app_ids = [
-            "228980",   # Steamworks Common Redistributables
-            "1070560",  # Steam Linux Runtime
-            "1391110",  # Steam Linux Runtime - Soldier
-            "1628350",  # Steam Linux Runtime - Sniper
-            "1493710",  # Proton Experimental
-            "2180100",  # Proton Hotfix
-            "961940",   # Proton 3.16 Beta
-            "1054830",  # Proton 4.2
-            "1113280",  # Proton 4.11
-            "1245040",  # Proton 5.0
-            "1420170",  # Proton 5.13
-            "1580130",  # Proton 6.3
-            "1887720",  # Proton 7.0
-            "2348590",  # Proton 8.0
-            "2805730",  # Proton 9.0
-            "250820",   # SteamVR
-            "1826330",  # Steam Linux Runtime - Scout
-        ]
-        
-        if app_id in tool_app_ids:
-            return False
-        
-        return True
+        return app_id not in self.EXCLUDE_IDS and not any(k in name_lower for k in self.EXCLUDE_KEYWORDS)
 
     def _create_games_list(self):
-        """Create the games list UI."""
-        # Games group (scrollable)
-        self.games_group = Adw.PreferencesGroup()
-        self.games_group.set_title(_("Installed Games"))
-        self.games_group.set_description(_("{} games found").format(len(self.games)))
-        self.inner_box.append(self.games_group)
-
-        self.game_checkboxes = {}
+        group = Adw.PreferencesGroup(title=_("Installed Games"), description=_("{} games found").format(len(self.games)))
+        self.inner_box.append(group)
 
         for game in self.games:
-            row = Adw.ActionRow()
-            row.set_title(game.name)
-            row.set_subtitle(f"App ID: {game.app_id}")
-
-            check = Gtk.CheckButton()
-            check.set_active(game.has_gamemode)
-            check.set_valign(Gtk.Align.CENTER)
-            check.connect("toggled", self._on_game_toggled, game)
+            row = Adw.ActionRow(title=game.name, subtitle=f"App ID: {game.app_id}")
+            check = Gtk.CheckButton(active=game.has_gamemode, valign=Gtk.Align.CENTER)
+            check.connect("toggled", lambda c, g: setattr(g, 'has_gamemode', c.get_active()), game)
             row.add_suffix(check)
             row.set_activatable_widget(check)
-
             self.game_checkboxes[game.app_id] = check
-            self.games_group.add(row)
+            group.add(row)
 
-        # Fixed footer buttons
-        select_all_btn = Gtk.Button(label=_("Select All"))
-        select_all_btn.connect("clicked", self._on_select_all)
-        self.footer_box.append(select_all_btn)
-
-        deselect_all_btn = Gtk.Button(label=_("Deselect All"))
-        deselect_all_btn.connect("clicked", self._on_deselect_all)
-        self.footer_box.append(deselect_all_btn)
-
-        # Spacer
-        spacer = Gtk.Box()
-        spacer.set_hexpand(True)
-        self.footer_box.append(spacer)
-
+        # Footer buttons
+        for label, callback in [(_("Select All"), lambda b: [c.set_active(True) for c in self.game_checkboxes.values()]),
+                                (_("Deselect All"), lambda b: [c.set_active(False) for c in self.game_checkboxes.values()])]:
+            btn = Gtk.Button(label=label)
+            btn.connect("clicked", callback)
+            self.footer.append(btn)
+        
+        spacer = Gtk.Box(hexpand=True)
+        self.footer.append(spacer)
+        
         apply_btn = Gtk.Button(label=_("Apply Changes"))
         apply_btn.add_css_class("suggested-action")
         apply_btn.connect("clicked", self._on_apply)
-        self.footer_box.append(apply_btn)
-
+        self.footer.append(apply_btn)
+        
         close_btn = Gtk.Button(label=_("Close"))
         close_btn.connect("clicked", lambda b: self.close())
-        self.footer_box.append(close_btn)
-
-    def _on_select_all(self, button):
-        for check in self.game_checkboxes.values():
-            check.set_active(True)
-
-    def _on_deselect_all(self, button):
-        for check in self.game_checkboxes.values():
-            check.set_active(False)
-
-    def _on_game_toggled(self, check, game):
-        game.has_gamemode = check.get_active()
+        self.footer.append(close_btn)
 
     def _on_apply(self, button):
         if not self.localconfig_path or not os.path.exists(self.localconfig_path):
-            self._show_error(_("Could not find Steam configuration file"))
-            return
+            return self._show_msg(_("Error"), _("Steam config not found"))
+        
+        # Show confirmation dialog
+        dlg = Adw.MessageDialog.new(
+            self,
+            _("Close Steam?"),
+            _("Steam must be closed for changes to be applied. If Steam is running, the modifications will not take effect.")
+        )
+        dlg.add_response("cancel", _("Cancel"))
+        dlg.add_response("close_steam", _("Close Steam and Apply"))
+        dlg.set_response_appearance("close_steam", Adw.ResponseAppearance.SUGGESTED)
+        dlg.set_default_response("close_steam")
+        dlg.connect("response", self._on_confirm_response)
+        dlg.present()
 
+    def _on_confirm_response(self, dialog, response):
+        if response != "close_steam":
+            return
+        
+        import subprocess
+        from gi.repository import GLib
+        
+        # Kill Steam processes
+        subprocess.run(["pkill", "-9", "steam"], capture_output=True)
+        subprocess.run(["pkill", "-9", "steamwebhelper"], capture_output=True)
+        
+        # Start checking if Steam is closed
+        self._steam_check_count = 0
+        self._max_checks = 10  # 10 checks * 500ms = 5 seconds max wait
+        GLib.timeout_add(500, self._check_steam_closed)
+
+    def _is_steam_running(self):
+        import subprocess
+        result = subprocess.run(["pgrep", "-f", "steam"], capture_output=True)
+        return result.returncode == 0
+
+    def _check_steam_closed(self):
+        from gi.repository import GLib
+        
+        self._steam_check_count += 1
+        
+        if self._is_steam_running():
+            if self._steam_check_count < self._max_checks:
+                # Steam still running, try killing again and check later
+                import subprocess
+                subprocess.run(["pkill", "-9", "steam"], capture_output=True)
+                subprocess.run(["pkill", "-9", "steamwebhelper"], capture_output=True)
+                return True  # Continue checking
+            else:
+                # Max retries reached, show error
+                self._show_msg(_("Error"), _("Could not close Steam. Please close it manually and try again."))
+                return False  # Stop checking
+        
+        # Steam is closed, apply changes
+        self._apply_changes()
+        return False  # Stop checking
+
+    def _apply_changes(self):
         try:
             with open(self.localconfig_path, 'r', encoding='utf-8') as f:
                 data = vdf.load(f)
-
             apps = data.setdefault("UserLocalConfigStore", {}).setdefault("Software", {}).setdefault("Valve", {}).setdefault("Steam", {}).setdefault("apps", {})
-
+            
             for game in self.games:
-                app_data = apps.setdefault(game.app_id, {})
-                current_opts = app_data.get("LaunchOptions", "")
+                app = apps.setdefault(game.app_id, {})
+                opts = re.sub(r'gamemoderun\s*%command%\s*', '', app.get("LaunchOptions", "")).strip()
+                if game.has_gamemode and "gamemoderun" not in opts.lower():
+                    opts = f"gamemoderun %command% {opts}".strip()
+                if opts:
+                    app["LaunchOptions"] = opts
+                elif "LaunchOptions" in app:
+                    del app["LaunchOptions"]
 
-                new_opts = re.sub(r'gamemoderun\s*%command%\s*', '', current_opts).strip()
-
-                if game.has_gamemode:
-                    if "gamemoderun" not in new_opts.lower():
-                        new_opts = f"gamemoderun %command% {new_opts}".strip()
-
-                if new_opts:
-                    app_data["LaunchOptions"] = new_opts
-                elif "LaunchOptions" in app_data:
-                    del app_data["LaunchOptions"]
-
-            # Backup original file
-            backup_path = self.localconfig_path + ".backup"
-            if not os.path.exists(backup_path):
+            # Backup and save
+            backup = self.localconfig_path + ".backup"
+            if not os.path.exists(backup):
                 import shutil
-                shutil.copy2(self.localconfig_path, backup_path)
-
+                shutil.copy2(self.localconfig_path, backup)
             with open(self.localconfig_path, 'w', encoding='utf-8') as f:
                 vdf.dump(data, f, pretty=True)
-
-            self._show_success(_("Changes applied successfully! Restart Steam to see the changes."))
-
+            
+            # Show success and close dialog
+            success_dlg = Adw.MessageDialog.new(self, _("Success"), _("Changes applied successfully!"))
+            success_dlg.add_response("ok", _("OK"))
+            success_dlg.connect("response", lambda d, r: self.close())
+            success_dlg.present()
         except Exception as e:
-            self._show_error(_("Failed to apply changes: {}").format(str(e)))
+            self._show_msg(_("Error"), str(e))
 
-    def _show_vdf_error(self):
-        status = Adw.StatusPage()
-        status.set_icon_name("dialog-error-symbolic")
-        status.set_title(_("Module Not Found"))
-        status.set_description(_("The 'vdf' Python module is required. Install it with:\npip install vdf"))
+    def _show_status(self, icon, title, desc):
+        status = Adw.StatusPage(icon_name=icon, title=title, description=desc)
         self.inner_box.append(status)
 
-    def _show_no_steam_error(self):
-        status = Adw.StatusPage()
-        status.set_icon_name("dialog-error-symbolic")
-        status.set_title(_("Steam Not Found"))
-        status.set_description(_("Could not find Steam installation. Make sure Steam is installed."))
-        self.inner_box.append(status)
-
-    def _show_no_games_error(self):
-        status = Adw.StatusPage()
-        status.set_icon_name("dialog-information-symbolic")
-        status.set_title(_("No Games Found"))
-        status.set_description(_("No Steam games were found."))
-        self.inner_box.append(status)
-
-    def _show_error(self, message):
-        dialog = Adw.MessageDialog.new(self, _("Error"), message)
-        dialog.add_response("ok", _("OK"))
-        dialog.present()
-
-    def _show_success(self, message):
-        dialog = Adw.MessageDialog.new(self, _("Success"), message)
-        dialog.add_response("ok", _("OK"))
-        dialog.present()
+    def _show_msg(self, title, msg):
+        dlg = Adw.MessageDialog.new(self, title, msg)
+        dlg.add_response("ok", _("OK"))
+        dlg.present()
 
 
 class PerformanceGamesPage(BaseSettingsPage):
