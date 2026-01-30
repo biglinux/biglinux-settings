@@ -621,6 +621,88 @@ msgstr "V2RayA"
 msgid "V2RayA network tool."
 msgstr "Εργαλείο δικτύου V2RayA."
 # 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/performance_games_page.py, line: 34
+msgid "Configure Steam Games"
+msgstr "Ρυθμίστε τα παιχνίδια Steam"
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/performance_games_page.py, line: 250
+msgid "Installed Games"
+msgstr "Εγκατεστημένα Παιχνίδια"
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/performance_games_page.py, line: 251
+msgid "{} games found"
+msgstr "{} παιχνίδια βρέθηκαν"
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/performance_games_page.py, line: 272
+msgid "Select All"
+msgstr "Επιλογή όλων"
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/performance_games_page.py, line: 276
+msgid "Deselect All"
+msgstr "Αποεπιλογή όλων"
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/performance_games_page.py, line: 285
+msgid "Apply Changes"
+msgstr "Εφαρμογή Αλλαγών"
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/performance_games_page.py, line: 290
+msgid "Close"
+msgstr "Κλείσιμο"
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/performance_games_page.py, line: 307
+msgid "Could not find Steam configuration file"
+msgstr "Δεν μπόρεσα να βρω το αρχείο ρύθμισης του Steam."
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/performance_games_page.py, line: 340
+msgid "Changes applied successfully! Restart Steam to see the changes."
+msgstr "Οι αλλαγές εφαρμόστηκαν με επιτυχία! Επανεκκινήστε το Steam για να δείτε τις αλλαγές."
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/performance_games_page.py, line: 343
+msgid "Failed to apply changes: {}"
+msgstr "Αποτυχία εφαρμογής αλλαγών: {}"
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/performance_games_page.py, line: 348
+msgid "Module Not Found"
+msgstr "Δεν βρέθηκε το module"
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/performance_games_page.py, line: 349
+msgid ""
+"The 'vdf' Python module is required. Install it with:\n"
+"pip install vdf"
+msgstr ""
+"Το Python module 'vdf' είναι απαραίτητο. Εγκαταστήστε το με:\n"
+"pip install vdf"
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/performance_games_page.py, line: 355
+msgid "Steam Not Found"
+msgstr "Δεν βρέθηκε το Steam"
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/performance_games_page.py, line: 356
+msgid "Could not find Steam installation. Make sure Steam is installed."
+msgstr "Δεν μπόρεσα να βρω την εγκατάσταση του Steam. Βεβαιωθείτε ότι το Steam είναι εγκατεστημένο."
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/performance_games_page.py, line: 362
+msgid "No Games Found"
+msgstr "Δεν βρέθηκαν παιχνίδια"
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/performance_games_page.py, line: 363
+msgid "No Steam games were found."
+msgstr "Δεν βρέθηκαν παιχνίδια Steam."
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/performance_games_page.py, line: 367
+msgid "Error"
+msgstr "Σφάλμα"
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/performance_games_page.py, line: 368
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/performance_games_page.py, line: 373
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/performance_games_page.py, line: 368
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/performance_games_page.py, line: 373
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/performance_games_page.py, line: 372
+msgid "Success"
+msgstr "Επιτυχία"
+# 
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings/usability/gamemode_dialog.py, line: 204
 msgid "Performance"
 msgstr "Απόδοση"
@@ -730,3 +812,15 @@ msgid "Activates daemon that adjusts CPU, I/O, etc. Reduces latency and increase
 msgstr ""
 "Ενεργοποιεί το daemon που ρυθμίζει την CPU, I/O, κ.λπ. Μειώνει την καθυστέρηση και αυξάνει τον "
 "ρυθμό καρέ."
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/performance_games_page.py, line: 485
+msgid "Configure Steam"
+msgstr "Ρυθμίστε το Steam"
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/performance_games_page.py, line: 486
+msgid "Select games to enable 'gamemoderun %command%' launch option."
+msgstr "Επιλέξτε παιχνίδια για να ενεργοποιήσετε την επιλογή εκκίνησης 'gamemoderun %command%'."
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/performance_games_page.py, line: 487
+msgid "Open"
+msgstr "Άνοιγμα"

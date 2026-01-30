@@ -619,6 +619,88 @@ msgstr "V2RayA"
 msgid "V2RayA network tool."
 msgstr "V2RayA ağ aracı."
 # 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/performance_games_page.py, line: 34
+msgid "Configure Steam Games"
+msgstr "Steam Oyunlarını Yapılandırın"
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/performance_games_page.py, line: 250
+msgid "Installed Games"
+msgstr "Yüklenmiş Oyunlar"
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/performance_games_page.py, line: 251
+msgid "{} games found"
+msgstr "{} oyun bulundu"
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/performance_games_page.py, line: 272
+msgid "Select All"
+msgstr "Tümünü Seç"
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/performance_games_page.py, line: 276
+msgid "Deselect All"
+msgstr "Tümünü Seçme Dışında Bırak"
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/performance_games_page.py, line: 285
+msgid "Apply Changes"
+msgstr "Değişiklikleri Uygula"
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/performance_games_page.py, line: 290
+msgid "Close"
+msgstr "Kapat"
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/performance_games_page.py, line: 307
+msgid "Could not find Steam configuration file"
+msgstr "Steam yapılandırma dosyası bulunamadı."
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/performance_games_page.py, line: 340
+msgid "Changes applied successfully! Restart Steam to see the changes."
+msgstr "Değişiklikler başarıyla uygulandı! Değişiklikleri görmek için Steam'i yeniden başlatın."
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/performance_games_page.py, line: 343
+msgid "Failed to apply changes: {}"
+msgstr "Değişiklikler uygulanamadı: {}"
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/performance_games_page.py, line: 348
+msgid "Module Not Found"
+msgstr "Modül Bulunamadı"
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/performance_games_page.py, line: 349
+msgid ""
+"The 'vdf' Python module is required. Install it with:\n"
+"pip install vdf"
+msgstr ""
+"'vdf' Python modülü gereklidir. Bunu şu şekilde yükleyin:\n"
+"pip install vdf"
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/performance_games_page.py, line: 355
+msgid "Steam Not Found"
+msgstr "Steam Bulunamadı"
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/performance_games_page.py, line: 356
+msgid "Could not find Steam installation. Make sure Steam is installed."
+msgstr "Steam kurulumu bulunamadı. Lütfen Steam'in yüklü olduğundan emin olun."
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/performance_games_page.py, line: 362
+msgid "No Games Found"
+msgstr "Oyun Bulunamadı"
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/performance_games_page.py, line: 363
+msgid "No Steam games were found."
+msgstr "Hiçbir Steam oyunu bulunamadı."
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/performance_games_page.py, line: 367
+msgid "Error"
+msgstr "Hata"
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/performance_games_page.py, line: 368
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/performance_games_page.py, line: 373
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/performance_games_page.py, line: 368
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/performance_games_page.py, line: 373
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/performance_games_page.py, line: 372
+msgid "Success"
+msgstr "Başarı"
+# 
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings/usability/gamemode_dialog.py, line: 204
 msgid "Performance"
 msgstr "Performans"
@@ -721,3 +803,15 @@ msgstr "Oyun Modu Daemon"
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings/performance_games_page.py, line: 94
 msgid "Activates daemon that adjusts CPU, I/O, etc. Reduces latency and increases frame rate."
 msgstr "CPU, I/O vb. ayarlarını düzenleyen daemon'ı etkinleştirir. Gecikmeyi azaltır ve kare hızını artırır."
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/performance_games_page.py, line: 485
+msgid "Configure Steam"
+msgstr "Steam'i Yapılandırın"
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/performance_games_page.py, line: 486
+msgid "Select games to enable 'gamemoderun %command%' launch option."
+msgstr "Oyunları 'gamemoderun %command%' başlatma seçeneğini etkinleştirmek için seçin."
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/performance_games_page.py, line: 487
+msgid "Open"
+msgstr "Açık"
