@@ -778,122 +778,144 @@ msgid "V2RayA network tool."
 msgstr "V2RayA network tool."
 
 #
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/performance_games_page.py, line: 34
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/performance_games_page.py, line: 39
 msgid "Configure Steam Games"
 msgstr "Configure Steam Games"
 
 #
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/performance_games_page.py, line: 250
-msgid "Installed Games"
-msgstr "Installed Games"
-
-#
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/performance_games_page.py, line: 251
-msgid "{} games found"
-msgstr "{} games found"
-
-#
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/performance_games_page.py, line: 272
-msgid "Select All"
-msgstr "Select All"
-
-#
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/performance_games_page.py, line: 276
-msgid "Deselect All"
-msgstr "Deselect All"
-
-#
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/performance_games_page.py, line: 285
-msgid "Apply Changes"
-msgstr "Apply Changes"
-
-#
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/performance_games_page.py, line: 290
-msgid "Close"
-msgstr "Close"
-
-#
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/performance_games_page.py, line: 307
-msgid "Could not find Steam configuration file"
-msgstr "Could not find Steam configuration file"
-
-#
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/performance_games_page.py, line: 340
-msgid "Changes applied successfully! Restart Steam to see the changes."
-msgstr "Changes applied successfully! Restart Steam to see the changes."
-
-#
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/performance_games_page.py, line: 343
-msgid "Failed to apply changes: {}"
-msgstr "Failed to apply changes: {}"
-
-#
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/performance_games_page.py, line: 348
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/performance_games_page.py, line: 68
 msgid "Module Not Found"
 msgstr "Module Not Found"
 
 #
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/performance_games_page.py, line: 349
-msgid ""
-"The 'vdf' Python module is required. Install it with:\n"
-"pip install vdf"
-msgstr ""
-"The 'vdf' Python module is required. Install it with:\n"
-"pip install vdf"
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/performance_games_page.py, line: 68
+msgid "Install 'vdf': pip install vdf"
+msgstr "Install 'vdf': pip install vdf"
 
 #
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/performance_games_page.py, line: 355
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/performance_games_page.py, line: 72
 msgid "Steam Not Found"
 msgstr "Steam Not Found"
 
 #
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/performance_games_page.py, line: 356
-msgid "Could not find Steam installation. Make sure Steam is installed."
-msgstr "Could not find Steam installation. Make sure Steam is installed."
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/performance_games_page.py, line: 72
+msgid "Steam installation not found."
+msgstr "Steam installation not found."
 
 #
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/performance_games_page.py, line: 362
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/performance_games_page.py, line: 76
 msgid "No Games Found"
 msgstr "No Games Found"
 
 #
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/performance_games_page.py, line: 363
-msgid "No Steam games were found."
-msgstr "No Steam games were found."
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/performance_games_page.py, line: 76
+msgid "No Steam games found."
+msgstr "No Steam games found."
 
 #
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/performance_games_page.py, line: 367
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/performance_games_page.py, line: 128
+msgid "Installed Games"
+msgstr "Installed Games"
+
+#
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/performance_games_page.py, line: 128
+msgid "{} games found"
+msgstr "{} games found"
+
+#
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/performance_games_page.py, line: 141
+msgid "Select All"
+msgstr "Select All"
+
+#
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/performance_games_page.py, line: 142
+msgid "Deselect All"
+msgstr "Deselect All"
+
+#
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/performance_games_page.py, line: 150
+msgid "Apply Changes"
+msgstr "Apply Changes"
+
+#
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/performance_games_page.py, line: 155
+msgid "Close"
+msgstr "Close"
+
+#
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/performance_games_page.py, line: 161
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/performance_games_page.py, line: 211
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/performance_games_page.py, line: 248
 msgid "Error"
 msgstr "Error"
 
 #
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/performance_games_page.py, line: 368
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/performance_games_page.py, line: 373
-msgid "OK"
-msgstr "OK"
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/performance_games_page.py, line: 161
+msgid "Steam config not found"
+msgstr "Steam config not found"
 
 #
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/performance_games_page.py, line: 372
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/performance_games_page.py, line: 166
+msgid "Close Steam?"
+msgstr "Close Steam?"
+
+#
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/performance_games_page.py, line: 167
+msgid ""
+"Steam must be closed for changes to be applied. If Steam is running, the "
+"modifications will not take effect."
+msgstr ""
+"Steam must be closed for changes to be applied. If Steam is running, the "
+"modifications will not take effect."
+
+#
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/performance_games_page.py, line: 169
+msgid "Cancel"
+msgstr "Cancel"
+
+#
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/performance_games_page.py, line: 170
+msgid "Close Steam and Apply"
+msgstr "Close Steam and Apply"
+
+#
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/performance_games_page.py, line: 211
+msgid "Could not close Steam. Please close it manually and try again."
+msgstr "Could not close Steam. Please close it manually and try again."
+
+#
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/performance_games_page.py, line: 243
 msgid "Success"
 msgstr "Success"
 
 #
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/performance_games_page.py, line: 388
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/performance_games_page.py, line: 243
+msgid "Changes applied successfully!"
+msgstr "Changes applied successfully!"
+
+#
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/performance_games_page.py, line: 244
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/performance_games_page.py, line: 256
+msgid "OK"
+msgstr "OK"
+
+#
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/performance_games_page.py, line: 271
 msgid "Performance"
 msgstr "Performance"
 
 #
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/performance_games_page.py, line: 388
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/performance_games_page.py, line: 271
 msgid "BigLinux performance tweaks."
 msgstr "BigLinux performance tweaks."
 
 #
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/performance_games_page.py, line: 394
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/performance_games_page.py, line: 277
 msgid "Games Booster"
 msgstr "Games Booster"
 
 #
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/performance_games_page.py, line: 396
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/performance_games_page.py, line: 279
 msgid ""
 "Combination of daemon and library that allows games to request a set of "
 "optimizations be temporarily applied to the operating system and/or the game "
@@ -904,12 +926,12 @@ msgstr ""
 "process."
 
 #
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/performance_games_page.py, line: 406
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/performance_games_page.py, line: 289
 msgid "Disable Visual Effects"
 msgstr "Disable Visual Effects"
 
 #
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/performance_games_page.py, line: 408
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/performance_games_page.py, line: 291
 msgid ""
 "Disables KWin visual effects (blur, shadows, animations). Reduces GPU load "
 "and frees memory."
@@ -918,12 +940,12 @@ msgstr ""
 "and frees memory."
 
 #
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/performance_games_page.py, line: 416
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/performance_games_page.py, line: 299
 msgid "Compositor Settings"
 msgstr "Compositor Settings"
 
 #
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/performance_games_page.py, line: 418
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/performance_games_page.py, line: 301
 msgid ""
 "Configures compositor for low latency, allows tearing and disables "
 "animations. Minimizes compositing overhead and reduces input lag."
@@ -932,12 +954,12 @@ msgstr ""
 "animations. Minimizes compositing overhead and reduces input lag."
 
 #
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/performance_games_page.py, line: 426
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/performance_games_page.py, line: 309
 msgid "CPU Maximum Performance"
 msgstr "CPU Maximum Performance"
 
 #
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/performance_games_page.py, line: 428
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/performance_games_page.py, line: 311
 msgid ""
 "Forces maximum processor performance mode. Ensures the processor uses "
 "maximum frequency."
@@ -946,12 +968,12 @@ msgstr ""
 "maximum frequency."
 
 #
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/performance_games_page.py, line: 436
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/performance_games_page.py, line: 319
 msgid "GPU Maximum Performance"
 msgstr "GPU Maximum Performance"
 
 #
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/performance_games_page.py, line: 438
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/performance_games_page.py, line: 321
 msgid ""
 "Forces maximum GPU performance mode (NVIDIA/AMD). Ensures the graphics card "
 "uses maximum frequency."
@@ -960,22 +982,22 @@ msgstr ""
 "uses maximum frequency."
 
 #
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/performance_games_page.py, line: 446
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/performance_games_page.py, line: 329
 msgid "Disable Baloo Indexer"
 msgstr "Disable Baloo Indexer"
 
 #
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/performance_games_page.py, line: 447
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/performance_games_page.py, line: 330
 msgid "Disables the Baloo file indexer. Avoids disk I/O overhead."
 msgstr "Disables the Baloo file indexer. Avoids disk I/O overhead."
 
 #
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/performance_games_page.py, line: 454
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/performance_games_page.py, line: 337
 msgid "Stop Akonadi Server"
 msgstr "Stop Akonadi Server"
 
 #
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/performance_games_page.py, line: 456
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/performance_games_page.py, line: 339
 msgid ""
 "Stops the PIM data server (Kontact/Thunderbird). Reduces memory and disk "
 "overhead."
@@ -984,22 +1006,22 @@ msgstr ""
 "overhead."
 
 #
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/performance_games_page.py, line: 464
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/performance_games_page.py, line: 347
 msgid "Unload S.M.A.R.T Monitor"
 msgstr "Unload S.M.A.R.T Monitor"
 
 #
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/performance_games_page.py, line: 465
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/performance_games_page.py, line: 348
 msgid "Disables S.M.A.R.T disk monitoring. Reduces disk I/O and CPU usage."
 msgstr "Disables S.M.A.R.T disk monitoring. Reduces disk I/O and CPU usage."
 
 #
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/performance_games_page.py, line: 474
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/performance_games_page.py, line: 357
 msgid "GameMode Daemon"
 msgstr "GameMode Daemon"
 
 #
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/performance_games_page.py, line: 476
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/performance_games_page.py, line: 359
 msgid ""
 "Activates daemon that adjusts CPU, I/O, etc. Reduces latency and increases "
 "frame rate."
@@ -1008,16 +1030,16 @@ msgstr ""
 "frame rate."
 
 #
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/performance_games_page.py, line: 485
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/performance_games_page.py, line: 368
 msgid "Configure Steam"
 msgstr "Configure Steam"
 
 #
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/performance_games_page.py, line: 486
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/performance_games_page.py, line: 369
 msgid "Select games to enable 'gamemoderun %command%' launch option."
 msgstr "Select games to enable 'gamemoderun %command%' launch option."
 
 #
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/performance_games_page.py, line: 487
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/performance_games_page.py, line: 370
 msgid "Open"
 msgstr "Open"

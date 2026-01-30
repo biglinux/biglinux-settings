@@ -625,6 +625,30 @@ msgstr "Εργαλείο δικτύου V2RayA."
 msgid "Configure Steam Games"
 msgstr "Ρυθμίστε τα παιχνίδια Steam"
 # 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/performance_games_page.py, line: 348
+msgid "Module Not Found"
+msgstr "Δεν βρέθηκε το module"
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/performance_games_page.py, line: 68
+msgid "Install 'vdf': pip install vdf"
+msgstr "Εγκαταστήστε το 'vdf': pip install vdf"
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/performance_games_page.py, line: 355
+msgid "Steam Not Found"
+msgstr "Δεν βρέθηκε το Steam"
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/performance_games_page.py, line: 72
+msgid "Steam installation not found."
+msgstr "Δεν βρέθηκε εγκατάσταση του Steam."
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/performance_games_page.py, line: 362
+msgid "No Games Found"
+msgstr "Δεν βρέθηκαν παιχνίδια"
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/performance_games_page.py, line: 76
+msgid "No Steam games found."
+msgstr "Δεν βρέθηκαν παιχνίδια Steam."
+# 
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings/performance_games_page.py, line: 250
 msgid "Installed Games"
 msgstr "Εγκατεστημένα Παιχνίδια"
@@ -649,49 +673,37 @@ msgstr "Εφαρμογή Αλλαγών"
 msgid "Close"
 msgstr "Κλείσιμο"
 # 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/performance_games_page.py, line: 307
-msgid "Could not find Steam configuration file"
-msgstr "Δεν μπόρεσα να βρω το αρχείο ρύθμισης του Steam."
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/performance_games_page.py, line: 340
-msgid "Changes applied successfully! Restart Steam to see the changes."
-msgstr "Οι αλλαγές εφαρμόστηκαν με επιτυχία! Επανεκκινήστε το Steam για να δείτε τις αλλαγές."
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/performance_games_page.py, line: 343
-msgid "Failed to apply changes: {}"
-msgstr "Αποτυχία εφαρμογής αλλαγών: {}"
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/performance_games_page.py, line: 348
-msgid "Module Not Found"
-msgstr "Δεν βρέθηκε το module"
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/performance_games_page.py, line: 349
-msgid ""
-"The 'vdf' Python module is required. Install it with:\n"
-"pip install vdf"
-msgstr ""
-"Το Python module 'vdf' είναι απαραίτητο. Εγκαταστήστε το με:\n"
-"pip install vdf"
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/performance_games_page.py, line: 355
-msgid "Steam Not Found"
-msgstr "Δεν βρέθηκε το Steam"
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/performance_games_page.py, line: 356
-msgid "Could not find Steam installation. Make sure Steam is installed."
-msgstr "Δεν μπόρεσα να βρω την εγκατάσταση του Steam. Βεβαιωθείτε ότι το Steam είναι εγκατεστημένο."
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/performance_games_page.py, line: 362
-msgid "No Games Found"
-msgstr "Δεν βρέθηκαν παιχνίδια"
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/performance_games_page.py, line: 363
-msgid "No Steam games were found."
-msgstr "Δεν βρέθηκαν παιχνίδια Steam."
-# 
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings/performance_games_page.py, line: 367
 msgid "Error"
 msgstr "Σφάλμα"
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/performance_games_page.py, line: 161
+msgid "Steam config not found"
+msgstr "Δεν βρέθηκε η ρύθμιση του Steam"
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/performance_games_page.py, line: 166
+msgid "Close Steam?"
+msgstr "Κλείσιμο του Steam;"
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/performance_games_page.py, line: 167
+msgid ""
+"Steam must be closed for changes to be applied. If Steam is running, the modifications will not "
+"take effect."
+msgstr ""
+"Η Steam πρέπει να κλείσει για να εφαρμοστούν οι αλλαγές. Αν η Steam είναι ανοιχτή, οι τροποποιήσεις "
+"δεν θα έχουν αποτέλεσμα."
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/performance_games_page.py, line: 169
+msgid "Cancel"
+msgstr "Ακύρωση"
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/performance_games_page.py, line: 170
+msgid "Close Steam and Apply"
+msgstr "Κλείστε το Steam και Εφαρμόστε"
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/performance_games_page.py, line: 211
+msgid "Could not close Steam. Please close it manually and try again."
+msgstr "Δεν ήταν δυνατή η κλείσιμο του Steam. Παρακαλώ κλείστε το χειροκίνητα και δοκιμάστε ξανά."
 # 
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings/performance_games_page.py, line: 368
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings/performance_games_page.py, line: 373
@@ -702,6 +714,16 @@ msgstr "Σφάλμα"
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings/performance_games_page.py, line: 372
 msgid "Success"
 msgstr "Επιτυχία"
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/performance_games_page.py, line: 243
+msgid "Changes applied successfully!"
+msgstr "Οι αλλαγές εφαρμόστηκαν με επιτυχία!"
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/performance_games_page.py, line: 244
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/performance_games_page.py, line: 256
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/performance_games_page.py, line: 244
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/performance_games_page.py, line: 256
 # 
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings/usability/gamemode_dialog.py, line: 204
 msgid "Performance"

@@ -619,6 +619,30 @@ msgstr "כלי רשת V2RayA."
 msgid "Configure Steam Games"
 msgstr "הגדר משחקי Steam"
 # 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/performance_games_page.py, line: 348
+msgid "Module Not Found"
+msgstr "מודול לא נמצא"
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/performance_games_page.py, line: 68
+msgid "Install 'vdf': pip install vdf"
+msgstr "התקן 'vdf': pip install vdf"
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/performance_games_page.py, line: 355
+msgid "Steam Not Found"
+msgstr "סטים לא נמצא"
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/performance_games_page.py, line: 72
+msgid "Steam installation not found."
+msgstr "התקנת Steam לא נמצאה."
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/performance_games_page.py, line: 362
+msgid "No Games Found"
+msgstr "לא נמצאו משחקים"
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/performance_games_page.py, line: 76
+msgid "No Steam games found."
+msgstr "לא נמצאו משחקי Steam."
+# 
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings/performance_games_page.py, line: 250
 msgid "Installed Games"
 msgstr "משחקים מותקנים"
@@ -643,49 +667,35 @@ msgstr "החל שינויים"
 msgid "Close"
 msgstr "סגור"
 # 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/performance_games_page.py, line: 307
-msgid "Could not find Steam configuration file"
-msgstr "לא ניתן למצוא את קובץ ההגדרות של Steam"
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/performance_games_page.py, line: 340
-msgid "Changes applied successfully! Restart Steam to see the changes."
-msgstr "השינויים הוחלו בהצלחה! הפעל מחדש את Steam כדי לראות את השינויים."
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/performance_games_page.py, line: 343
-msgid "Failed to apply changes: {}"
-msgstr "נכשל ביישום השינויים: {}"
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/performance_games_page.py, line: 348
-msgid "Module Not Found"
-msgstr "מודול לא נמצא"
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/performance_games_page.py, line: 349
-msgid ""
-"The 'vdf' Python module is required. Install it with:\n"
-"pip install vdf"
-msgstr ""
-"מודול ה-Python 'vdf' נדרש. התקן אותו באמצעות:\n"
-"pip install vdf"
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/performance_games_page.py, line: 355
-msgid "Steam Not Found"
-msgstr "סטים לא נמצא"
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/performance_games_page.py, line: 356
-msgid "Could not find Steam installation. Make sure Steam is installed."
-msgstr "לא ניתן למצוא את התקנת Steam. ודא ש- Steam מותקן."
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/performance_games_page.py, line: 362
-msgid "No Games Found"
-msgstr "לא נמצאו משחקים"
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/performance_games_page.py, line: 363
-msgid "No Steam games were found."
-msgstr "לא נמצאו משחקי Steam."
-# 
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings/performance_games_page.py, line: 367
 msgid "Error"
 msgstr "שגיאה"
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/performance_games_page.py, line: 161
+msgid "Steam config not found"
+msgstr "הגדרת Steam לא נמצאה"
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/performance_games_page.py, line: 166
+msgid "Close Steam?"
+msgstr "סגור את סטים?"
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/performance_games_page.py, line: 167
+msgid ""
+"Steam must be closed for changes to be applied. If Steam is running, the modifications will not "
+"take effect."
+msgstr "סטים חייב להיות סגור כדי שהשינויים ייכנסו לתוקף. אם סטים פועל, השינויים לא ייכנסו לתוקף."
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/performance_games_page.py, line: 169
+msgid "Cancel"
+msgstr "ביטול"
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/performance_games_page.py, line: 170
+msgid "Close Steam and Apply"
+msgstr "סגור את Steam ויישם"
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/performance_games_page.py, line: 211
+msgid "Could not close Steam. Please close it manually and try again."
+msgstr "לא ניתן לסגור את Steam. אנא סגור אותו ידנית ונסה שוב."
 # 
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings/performance_games_page.py, line: 368
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings/performance_games_page.py, line: 373
@@ -696,6 +706,16 @@ msgstr "שגיאה"
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings/performance_games_page.py, line: 372
 msgid "Success"
 msgstr "הצלחה"
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/performance_games_page.py, line: 243
+msgid "Changes applied successfully!"
+msgstr "השינויים הוחלו בהצלחה!"
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/performance_games_page.py, line: 244
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/performance_games_page.py, line: 256
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/performance_games_page.py, line: 244
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/performance_games_page.py, line: 256
 # 
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings/usability/gamemode_dialog.py, line: 204
 msgid "Performance"

@@ -611,6 +611,30 @@ msgstr "V2RayA hálózati eszköz."
 msgid "Configure Steam Games"
 msgstr "Steam játékok konfigurálása"
 # 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/performance_games_page.py, line: 348
+msgid "Module Not Found"
+msgstr "Modul nem található"
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/performance_games_page.py, line: 68
+msgid "Install 'vdf': pip install vdf"
+msgstr "Telepítés 'vdf': pip install vdf"
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/performance_games_page.py, line: 355
+msgid "Steam Not Found"
+msgstr "Steam nem található"
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/performance_games_page.py, line: 72
+msgid "Steam installation not found."
+msgstr "A Steam telepítése nem található."
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/performance_games_page.py, line: 362
+msgid "No Games Found"
+msgstr "Nincs játék találva"
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/performance_games_page.py, line: 76
+msgid "No Steam games found."
+msgstr "Nincs Steam játék található."
+# 
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings/performance_games_page.py, line: 250
 msgid "Installed Games"
 msgstr "Telepített játékok"
@@ -635,58 +659,50 @@ msgstr "Változtatások alkalmazása"
 msgid "Close"
 msgstr "Bezárás"
 # 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/performance_games_page.py, line: 307
-msgid "Could not find Steam configuration file"
-msgstr "Nem található a Steam konfigurációs fájl."
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/performance_games_page.py, line: 340
-msgid "Changes applied successfully! Restart Steam to see the changes."
-msgstr "A változtatások sikeresen alkalmazva! Indítsa újra a Steamet a változtatások megtekintéséhez."
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/performance_games_page.py, line: 343
-msgid "Failed to apply changes: {}"
-msgstr "A módosítások alkalmazása nem sikerült: {}"
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/performance_games_page.py, line: 348
-msgid "Module Not Found"
-msgstr "Modul nem található"
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/performance_games_page.py, line: 349
-msgid ""
-"The 'vdf' Python module is required. Install it with:\n"
-"pip install vdf"
-msgstr ""
-"A 'vdf' Python modul szükséges. Telepítse a következővel:\n"
-"pip install vdf"
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/performance_games_page.py, line: 355
-msgid "Steam Not Found"
-msgstr "Steam nem található"
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/performance_games_page.py, line: 356
-msgid "Could not find Steam installation. Make sure Steam is installed."
-msgstr "Nem található a Steam telepítése. Győződjön meg arról, hogy a Steam telepítve van."
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/performance_games_page.py, line: 362
-msgid "No Games Found"
-msgstr "Nincs játék találva"
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/performance_games_page.py, line: 363
-msgid "No Steam games were found."
-msgstr "Nincsenek Steam játékok."
-# 
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings/performance_games_page.py, line: 367
 msgid "Error"
 msgstr "Hiba"
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/performance_games_page.py, line: 161
+msgid "Steam config not found"
+msgstr "Steam konfiguráció nem található"
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/performance_games_page.py, line: 166
+msgid "Close Steam?"
+msgstr "A Steam bezárása?"
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/performance_games_page.py, line: 167
+msgid ""
+"Steam must be closed for changes to be applied. If Steam is running, the modifications will not "
+"take effect."
+msgstr ""
+"A Steam-et be kell zárni a változtatások alkalmazásához. Ha a Steam fut, a módosítások nem lépnek "
+"érvénybe."
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/performance_games_page.py, line: 169
+msgid "Cancel"
+msgstr "Mégse"
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/performance_games_page.py, line: 170
+msgid "Close Steam and Apply"
+msgstr "Zárja be a Steamet és alkalmazza"
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/performance_games_page.py, line: 211
+msgid "Could not close Steam. Please close it manually and try again."
+msgstr "Nem sikerült bezárni a Steamet. Kérjük, zárja be manuálisan, és próbálja újra."
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/performance_games_page.py, line: 372
+msgid "Success"
+msgstr "Siker"
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/performance_games_page.py, line: 243
+msgid "Changes applied successfully!"
+msgstr "A változtatások sikeresen alkalmazva!"
 # 
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings/performance_games_page.py, line: 368
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings/performance_games_page.py, line: 373
 msgid "OK"
 msgstr "Rendben"
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/performance_games_page.py, line: 372
-msgid "Success"
-msgstr "Siker"
 # 
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings/usability/gamemode_dialog.py, line: 204
 msgid "Performance"
