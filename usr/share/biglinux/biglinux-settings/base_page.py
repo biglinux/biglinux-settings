@@ -35,8 +35,6 @@ class BaseSettingsPage(Adw.Bin):
         self.status_indicators = {}
         # Mapping: parent_switch -> list of child row widgets
         self.sub_switches = {}
-        # Mapping: switch -> expander (for switches inside ExpanderRows)
-        self.expander_switches = {}
 
     def create_scrolled_content(self):
         """Cria a estrutura básica de scroll e box vertical."""
@@ -188,82 +186,6 @@ class BaseSettingsPage(Adw.Bin):
 
         return switch
 
-    def create_switch_expander_row(self, parent_group, title, subtitle, script_name, icon_name):
-        """Creates an Adw.ExpanderRow with a switch that controls both the script and expander visibility.
-        Returns (expander, switch) tuple."""
-        expander = Adw.ExpanderRow()
-        expander.set_title(title)
-        expander.set_subtitle(subtitle)
-        expander.set_enable_expansion(False)  # Start collapsed/disabled
-
-        # Set icon if provided
-        if icon_name:
-            icon_path = os.path.join(ICONS_DIR, f"{icon_name}.svg")
-            if os.path.exists(icon_path):
-                gfile = Gio.File.new_for_path(icon_path)
-                icon = Gio.FileIcon.new(gfile)
-                img = Gtk.Image.new_from_gicon(icon)
-                img.set_pixel_size(24)
-                img.add_css_class("symbolic-icon")
-                expander.add_prefix(img)
-
-        # Create the switch
-        switch = Gtk.Switch(valign=Gtk.Align.CENTER)
-        expander.add_suffix(switch)
-
-        # Associate the script with the switch
-        script_group = getattr(parent_group, "script_group", "default")
-        script_path = os.path.join(script_group, f"{script_name}.sh")
-        self.switch_scripts[switch] = script_path
-        
-        # Track this switch as belonging to an expander
-        self.expander_switches[switch] = expander
-
-        # Store reference to self for use in handler
-        page_self = self
-
-        # Custom handler that also controls expander visibility
-        def on_switch_changed_with_expander(sw, state):
-            # Enable/disable expansion based on switch state
-            expander.set_enable_expansion(state)
-            if not state:
-                expander.set_expanded(False)
-            # Call the original handler
-            return page_self.on_switch_changed(sw, state)
-
-        # Store the handler reference so we can block it during sync
-        switch._expander_handler = on_switch_changed_with_expander
-        switch.connect("state-set", on_switch_changed_with_expander)
-
-        parent_group.add(expander)
-        return expander, switch
-
-    def add_action_row_to_expander(self, expander, title, subtitle, button_label, callback, icon_name=None):
-        """Adds an ActionRow with a button inside an ExpanderRow."""
-        row = Adw.ActionRow()
-        row.set_title(title)
-        row.set_subtitle(subtitle)
-
-        # Set icon if provided
-        if icon_name:
-            icon_path = os.path.join(ICONS_DIR, f"{icon_name}.svg")
-            if os.path.exists(icon_path):
-                gfile = Gio.File.new_for_path(icon_path)
-                icon = Gio.FileIcon.new(gfile)
-                img = Gtk.Image.new_from_gicon(icon)
-                img.set_pixel_size(24)
-                img.add_css_class("symbolic-icon")
-                row.add_prefix(img)
-
-        # Create the action button
-        button = Gtk.Button(label=button_label, valign=Gtk.Align.CENTER)
-        button.add_css_class("suggested-action")
-        button.connect("clicked", callback)
-        row.add_suffix(button)
-
-        expander.add_row(row)
-        return row
-
     def check_script_state(self, script_path):
         """Executes a script with the 'check' argument to get its current state.
         Returns True if the script's stdout is 'true', False otherwise."""
@@ -357,20 +279,10 @@ class BaseSettingsPage(Adw.Bin):
         """Synchronizes all UI widgets and disables them if their script is invalid, providing a tooltip with the reason."""
         # Sync all switches
         for switch, script_path in self.switch_scripts.items():
-            # Check if this switch belongs to an ExpanderRow
-            if switch in self.expander_switches:
-                row = self.expander_switches[switch]
-            else:
-                row = switch.get_parent().get_parent()
-            
+            row = switch.get_parent().get_parent()
             status, message = self.check_script_state(script_path)
 
-            # Block the appropriate handler
-            if switch in self.expander_switches and hasattr(switch, '_expander_handler'):
-                # For expander switches, block the custom handler
-                switch.handler_block_by_func(switch._expander_handler)
-            else:
-                switch.handler_block_by_func(self.on_switch_changed)
+            switch.handler_block_by_func(self.on_switch_changed)
 
             if status == "true_disabled":
                 # State: Enabled but cannot be changed - hide it from interface.
@@ -385,21 +297,11 @@ class BaseSettingsPage(Adw.Bin):
                 row.set_visible(True)
                 row.set_tooltip_text(None)
                 row._hidden_no_support = False
+                switch.handler_block_by_func(self.on_switch_changed)
                 switch.set_active(status)
-                
-                # If this is an expander switch, also update the expander state
-                if switch in self.expander_switches:
-                    expander = self.expander_switches[switch]
-                    expander.set_enable_expansion(status)
-                    if not status:
-                        expander.set_expanded(False)
-
-            # Unblock the handler
-            if switch in self.expander_switches and hasattr(switch, '_expander_handler'):
-                switch.handler_unblock_by_func(switch._expander_handler)
-            else:
                 switch.handler_unblock_by_func(self.on_switch_changed)
-                
+
+            switch.handler_unblock_by_func(self.on_switch_changed)
             print(
                 _("Switch {} synchronized: {}").format(
                     os.path.basename(script_path), status
