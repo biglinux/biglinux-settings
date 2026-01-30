@@ -619,6 +619,98 @@ msgstr "V2RayA"
 msgid "V2RayA network tool."
 msgstr "V2RayA мережевий інструмент."
 # 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/performance_games_page.py, line: 15
+msgid "Configure Steam Games"
+msgstr "Налаштувати ігри Steam"
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/performance_games_page.py, line: 61
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/performance_games_page.py, line: 68
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/performance_games_page.py, line: 72
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/performance_games_page.py, line: 83
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/performance_games_page.py, line: 165
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/performance_games_page.py, line: 185
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/performance_games_page.py, line: 187
+msgid "Error"
+msgstr "Помилка"
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/performance_games_page.py, line: 61
+msgid "Failed to load games list."
+msgstr "Не вдалося завантажити список ігор."
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/performance_games_page.py, line: 68
+msgid "Invalid data received."
+msgstr "Отримано недійсні дані."
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/performance_games_page.py, line: 77
+msgid "No Games Found"
+msgstr "Немає знайдених ігор"
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/performance_games_page.py, line: 77
+msgid "No Steam games found."
+msgstr "Жодних ігор Steam не знайдено."
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/performance_games_page.py, line: 86
+msgid "Installed Games"
+msgstr "Встановлені ігри"
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/performance_games_page.py, line: 86
+msgid "{} games found"
+msgstr "{} ігор знайдено"
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/performance_games_page.py, line: 106
+msgid "Select All"
+msgstr "Вибрати все"
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/performance_games_page.py, line: 107
+msgid "Deselect All"
+msgstr "Скасувати вибір усіх"
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/performance_games_page.py, line: 115
+msgid "Apply Changes"
+msgstr "Застосувати зміни"
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/performance_games_page.py, line: 120
+msgid "Close"
+msgstr "Закрити"
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/performance_games_page.py, line: 131
+msgid "Close Steam?"
+msgstr "Закрити Steam?"
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/performance_games_page.py, line: 132
+msgid ""
+"Steam must be closed for changes to be applied. If Steam is running, the modifications will not "
+"take effect."
+msgstr ""
+"Steam must be closed for changes to be applied. If Steam is running, the modifications will not "
+"take effect."
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/performance_games_page.py, line: 134
+msgid "Cancel"
+msgstr "Скасувати"
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/performance_games_page.py, line: 135
+msgid "Close Steam and Apply"
+msgstr "Закрити Steam та Застосувати"
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/performance_games_page.py, line: 165
+msgid "Could not close Steam. Please close it manually and try again."
+msgstr "Не вдалося закрити Steam. Будь ласка, закрийте його вручну та спробуйте ще раз."
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/performance_games_page.py, line: 180
+msgid "Success"
+msgstr "Успіх"
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/performance_games_page.py, line: 180
+msgid "Changes applied successfully!"
+msgstr "Зміни успішно застосовано!"
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/performance_games_page.py, line: 181
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/performance_games_page.py, line: 195
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/performance_games_page.py, line: 181
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/performance_games_page.py, line: 195
+# 
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings/usability/gamemode_dialog.py, line: 204
 msgid "Performance"
 msgstr "Виконання"
@@ -723,3 +815,15 @@ msgid "Activates daemon that adjusts CPU, I/O, etc. Reduces latency and increase
 msgstr ""
 "Активує демон, який налаштовує ЦП, введення/виведення тощо. Зменшує затримку та підвищує частоту "
 "кадрів."
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/performance_games_page.py, line: 319
+msgid "Configure Steam"
+msgstr "Налаштувати Steam"
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/performance_games_page.py, line: 320
+msgid "Select games to enable 'gamemoderun %command%' launch option."
+msgstr "Виберіть ігри, щоб увімкнути параметр запуску 'gamemoderun %command%'."
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/performance_games_page.py, line: 331
+msgid "Open"
+msgstr "Відкрити"
