@@ -608,88 +608,6 @@ msgstr "V2RayA"
 msgid "V2RayA network tool."
 msgstr "V2RayAネットワークツール。"
 # 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/performance_games_page.py, line: 34
-msgid "Configure Steam Games"
-msgstr "Steamゲームを設定する"
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/performance_games_page.py, line: 250
-msgid "Installed Games"
-msgstr "インストール済みゲーム"
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/performance_games_page.py, line: 251
-msgid "{} games found"
-msgstr "{} ゲームが見つかりました"
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/performance_games_page.py, line: 272
-msgid "Select All"
-msgstr "すべて選択"
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/performance_games_page.py, line: 276
-msgid "Deselect All"
-msgstr "すべて選択解除"
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/performance_games_page.py, line: 285
-msgid "Apply Changes"
-msgstr "変更を適用"
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/performance_games_page.py, line: 290
-msgid "Close"
-msgstr "閉じる"
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/performance_games_page.py, line: 307
-msgid "Could not find Steam configuration file"
-msgstr "Steamの設定ファイルが見つかりませんでした。"
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/performance_games_page.py, line: 340
-msgid "Changes applied successfully! Restart Steam to see the changes."
-msgstr "変更が正常に適用されました！変更を確認するにはSteamを再起動してください。"
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/performance_games_page.py, line: 343
-msgid "Failed to apply changes: {}"
-msgstr "変更の適用に失敗しました: {}"
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/performance_games_page.py, line: 348
-msgid "Module Not Found"
-msgstr "モジュールが見つかりません"
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/performance_games_page.py, line: 349
-msgid ""
-"The 'vdf' Python module is required. Install it with:\n"
-"pip install vdf"
-msgstr ""
-"'vdf' Pythonモジュールが必要です。次のコマンドでインストールしてください：\n"
-"pip install vdf"
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/performance_games_page.py, line: 355
-msgid "Steam Not Found"
-msgstr "Steamが見つかりません"
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/performance_games_page.py, line: 356
-msgid "Could not find Steam installation. Make sure Steam is installed."
-msgstr "Steamのインストールが見つかりません。Steamがインストールされていることを確認してください。"
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/performance_games_page.py, line: 362
-msgid "No Games Found"
-msgstr "ゲームが見つかりませんでした"
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/performance_games_page.py, line: 363
-msgid "No Steam games were found."
-msgstr "Steamゲームは見つかりませんでした。"
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/performance_games_page.py, line: 367
-msgid "Error"
-msgstr "エラー"
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/performance_games_page.py, line: 368
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/performance_games_page.py, line: 373
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/performance_games_page.py, line: 368
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/performance_games_page.py, line: 373
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/performance_games_page.py, line: 372
-msgid "Success"
-msgstr "成功"
-# 
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings/usability/gamemode_dialog.py, line: 204
 msgid "Performance"
 msgstr "パフォーマンス"
@@ -784,15 +702,3 @@ msgstr "ゲームモードデーモン"
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings/performance_games_page.py, line: 94
 msgid "Activates daemon that adjusts CPU, I/O, etc. Reduces latency and increases frame rate."
 msgstr "CPU、I/Oなどを調整するデーモンをアクティブにします。レイテンシを減少させ、フレームレートを向上させます。"
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/performance_games_page.py, line: 485
-msgid "Configure Steam"
-msgstr "Steamを設定する"
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/performance_games_page.py, line: 486
-msgid "Select games to enable 'gamemoderun %command%' launch option."
-msgstr "ゲームを選択して「gamemoderun %command%」起動オプションを有効にします。"
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/performance_games_page.py, line: 487
-msgid "Open"
-msgstr "オープン"
