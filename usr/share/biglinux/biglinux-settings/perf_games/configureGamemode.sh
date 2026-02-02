@@ -66,58 +66,50 @@ init_detection() {
 detect_hardware() {
     init_detection
     
-    # Build JSON with detection results
-    local json='{'
-    
-    # Display server
-    json+="\"display_server\":\"$DISPLAY_SERVER\","
+    # Output key=value pairs
+    echo "display_server=$DISPLAY_SERVER"
     
     # CPU info
     if [[ "$IS_INTEL_HYBRID" == "true" ]]; then
-        json+='"cpu_type":"intel_hybrid",'
-        json+='"cpu_supports_pin_cores":true,'
-        json+='"cpu_supports_park_cores":true,'
+        echo "cpu_type=intel_hybrid"
+        echo "cpu_supports_pin_cores=true"
+        echo "cpu_supports_park_cores=true"
     elif [[ "$IS_AMD_X3D" == "true" ]]; then
-        json+='"cpu_type":"amd_x3d",'
-        json+='"cpu_supports_pin_cores":true,'
-        json+='"cpu_supports_park_cores":false,'
+        echo "cpu_type=amd_x3d"
+        echo "cpu_supports_pin_cores=true"
+        echo "cpu_supports_park_cores=false"
     else
-        json+='"cpu_type":"standard",'
-        json+='"cpu_supports_pin_cores":false,'
-        json+='"cpu_supports_park_cores":false,'
+        echo "cpu_type=standard"
+        echo "cpu_supports_pin_cores=false"
+        echo "cpu_supports_park_cores=false"
     fi
     
     # AMD Dual CCD X3D support
     if [[ "$IS_AMD_DUAL_CCD" == "true" ]] && [[ "$HAS_X3D_DRIVER" == true ]]; then
-        json+='"supports_amd_x3d_mode":true,'
+        echo "supports_amd_x3d_mode=true"
     else
-        json+='"supports_amd_x3d_mode":false,'
+        echo "supports_amd_x3d_mode=false"
     fi
     
     # Split lock mitigation (modern CPUs)
-    json+='"supports_disable_splitlock":true,'
+    echo "supports_disable_splitlock=true"
     
     # GPU info
-    json+="\"has_nvidia\":$HAS_NVIDIA,"
-    json+="\"has_amd\":$HAS_AMD,"
-    json+="\"has_intel_igpu\":$HAS_INTEL_IGPU,"
-    json+="\"has_intel_only\":$HAS_INTEL_ONLY"
-    
-    json+='}'
-    echo "$json"
+    echo "has_nvidia=$HAS_NVIDIA"
+    echo "has_amd=$HAS_AMD"
+    echo "has_intel_igpu=$HAS_INTEL_IGPU"
+    echo "has_intel_only=$HAS_INTEL_ONLY"
 }
 
 # --- READ CURRENT CONFIG ---
 read_config() {
-    local json='{'
-    
     if [[ ! -f "$CONFIG_FILE" ]]; then
         # Return defaults if file doesn't exist
-        echo '{"exists":false}'
+        echo "exists=false"
         return
     fi
     
-    json+='"exists":true,'
+    echo "exists=true"
     
     # Parse the config file
     local section=""
@@ -139,51 +131,32 @@ read_config() {
             # Trim whitespace
             key=$(echo "$key" | sed 's/^[[:space:]]*//;s/[[:space:]]*$//')
             value=$(echo "$value" | sed 's/^[[:space:]]*//;s/[[:space:]]*$//')
-            # Escape special characters for JSON
-            value=$(echo "$value" | sed 's/\\/\\\\/g; s/"/\\"/g')
             
             case "$section" in
                 "general")
                     case "$key" in
                         "reaper_freq"|"desiredgov"|"defaultgov"|"desiredprof"|"defaultprof"|"igpu_desiredgov"|"igpu_power_threshold"|"softrealtime"|"renice"|"ioprio"|"inhibit_screensaver"|"disable_splitlock")
-                            json+="\"$key\":\"$value\","
+                            echo "$key=$value"
                             ;;
                     esac
                     ;;
                 "cpu")
                     case "$key" in
                         "pin_cores"|"park_cores"|"amd_x3d_mode_desired"|"amd_x3d_mode_default")
-                            json+="\"$key\":\"$value\","
+                            echo "$key=$value"
                             ;;
                     esac
                     ;;
                 "gpu")
                     case "$key" in
                         "apply_gpu_optimisations"|"gpu_device"|"nv_powermizer_mode"|"nv_core_clock_mhz_offset"|"nv_mem_clock_mhz_offset"|"amd_performance_level")
-                            json+="\"$key\":\"$value\","
-                            ;;
-                    esac
-                    ;;
-                "custom")
-                    case "$key" in
-                        "start")
-                            json+="\"custom_start\":\"$value\","
-                            ;;
-                        "end")
-                            json+="\"custom_end\":\"$value\","
-                            ;;
-                        "script_timeout")
-                            json+="\"script_timeout\":\"$value\","
+                            echo "$key=$value"
                             ;;
                     esac
                     ;;
             esac
         fi
     done < "$CONFIG_FILE"
-    
-    # Remove trailing comma and close JSON
-    json="${json%,}}"
-    echo "$json"
 }
 
 # --- WRITE OPTION ---
@@ -209,17 +182,6 @@ write_option() {
             ;;
         "apply_gpu_optimisations"|"gpu_device"|"nv_powermizer_mode"|"nv_core_clock_mhz_offset"|"nv_mem_clock_mhz_offset"|"amd_performance_level")
             section="gpu"
-            ;;
-        "custom_start")
-            section="custom"
-            actual_key="start"
-            ;;
-        "custom_end")
-            section="custom"
-            actual_key="end"
-            ;;
-        "script_timeout")
-            section="custom"
             ;;
         *)
             echo "Unknown key: $key"
@@ -301,11 +263,7 @@ remove_option() {
     
     # Handle custom key naming
     local actual_key="$key"
-    if [[ "$key" == "custom_start" ]]; then
-        actual_key="start"
-    elif [[ "$key" == "custom_end" ]]; then
-        actual_key="end"
-    fi
+    
     
     # Create temp file
     local temp_file
@@ -406,13 +364,6 @@ create_base_config() {
     echo ";supervisor_whitelist=" >> "$CONFIG_FILE"
     echo ";supervisor_blacklist=" >> "$CONFIG_FILE"
     echo "require_supervisor=0" >> "$CONFIG_FILE"
-    echo "" >> "$CONFIG_FILE"
-    
-    # Custom Section
-    echo "[custom]" >> "$CONFIG_FILE"
-    echo "start=balooctl6 suspend && qdbus6 org.kde.KWin /Compositor suspend" >> "$CONFIG_FILE"
-    echo "end=balooctl6 resume && qdbus6 org.kde.KWin /Compositor resume" >> "$CONFIG_FILE"
-    echo "script_timeout=10" >> "$CONFIG_FILE"
     
     echo "ok"
 }
@@ -436,8 +387,8 @@ case "$1" in
         ;;
     *)
         echo "Usage: $0 {detect|read|write|remove|create}"
-        echo "  detect           - Detect hardware and return JSON"
-        echo "  read             - Read current config as JSON"
+        echo "  detect           - Detect hardware and return key=value pairs"
+        echo "  read             - Read current config as key=value pairs"
         echo "  write <key> <val>- Write option to config"
         echo "  remove <key>     - Remove option from config"
         echo "  create           - Create base config file"
