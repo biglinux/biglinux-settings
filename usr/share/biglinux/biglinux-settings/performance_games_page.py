@@ -475,40 +475,109 @@ class SteamGamesDialog(Adw.Window):
                               margin_top=12, margin_bottom=12, margin_start=20, margin_end=20)
         main_box.append(self.footer)
 
+        # Permanent Installed Games Group with Reload Button
+        self.games_group = Adw.PreferencesGroup(title=_("Installed Games"))
+        self.inner_box.append(self.games_group)
+        self.added_rows = []
+        
+        # Reload Button (Icon)
+        reload_btn = Gtk.Button(icon_name="view-refresh-symbolic")
+        reload_btn.set_valign(Gtk.Align.CENTER)
+        reload_btn.add_css_class("flat")
+        reload_btn.connect("clicked", lambda b: self._load_data())
+        self.games_group.set_header_suffix(reload_btn)
+
+        self.selection_box = None
+        self.status_page = None
+
+        # Apply Button
+        apply_btn = Gtk.Button(label=_("Apply Changes"))
+        apply_btn.add_css_class("suggested-action")
+        apply_btn.connect("clicked", self._on_apply)
+        self.footer.append(apply_btn)
+        
+        # Close Button
+        close_btn = Gtk.Button(label=_("Close"))
+        close_btn.connect("clicked", lambda b: self.close())
+        self.footer.append(close_btn)
+
         self._load_data()
 
+    def _clear_ui(self):
+        # Clear rows from group safely
+        for row in self.added_rows:
+            self.games_group.remove(row)
+        self.added_rows = []
+            
+        # Remove selection box if exists
+        if self.selection_box:
+            self.inner_box.remove(self.selection_box)
+            self.selection_box = None
+            
+        # Remove status page if exists
+        if self.status_page:
+            self.inner_box.remove(self.status_page)
+            self.status_page = None
+
     def _load_data(self):
+        self._clear_ui()
+        self.games_group.set_description(_("Loading..."))
+        
         # Load from script
         try:
             result = subprocess.run([self.script_path, "list"], capture_output=True, text=True)
+
             if result.returncode != 0:
                 self._show_status("dialog-error-symbolic", _("Error"), _("Failed to load games list."))
-                print(result.stderr)
+                self.games_group.set_description(_("Error loading games"))
                 return
 
-            try:
-                data = json.loads(result.stdout)
-            except json.JSONDecodeError:
-                self._show_status("dialog-error-symbolic", _("Error"), _("Invalid data received."))
+            output = result.stdout.strip()
+            if not output:
+                self._show_status("dialog-information-symbolic", _("No Games Found"), _("No Steam games found."))
+                self.games_group.set_description(_("0 games found"))
                 return
 
-            if isinstance(data, dict) and "error" in data:
-                 self._show_status("dialog-error-symbolic", _("Error"), data["error"])
-                 return
+            # Check for error message
+            if output.startswith("error:"):
+                # Clean up error message
+                err_msg = output.replace("error:", "").strip()
+                self._show_status("dialog-error-symbolic", _("Error"), err_msg)
+                self.games_group.set_description(_("Error"))
+                return
+
+            self.games = []
+            for line in output.splitlines():
+                parts = line.split("|", 2)
+                if len(parts) >= 3:
+                    app_id = parts[0].strip()
+                    has_gm_str = parts[1].strip().lower()
+                    name = parts[2].strip()
+                    
+                    has_gamemode = (has_gm_str == "true")
+                    
+                    self.games.append({
+                        "app_id": app_id,
+                        "name": name,
+                        "has_gamemode": has_gamemode
+                    })
             
-            self.games = data
             if not self.games:
                 self._show_status("dialog-information-symbolic", _("No Games Found"), _("No Steam games found."))
+                self.games_group.set_description(_("0 games found"))
                 return
                 
-            self._create_games_list()
+            self._populate_games_list()
             
         except Exception as e:
             self._show_status("dialog-error-symbolic", _("Error"), str(e))
+            self.games_group.set_description(_("Error"))
 
-    def _create_games_list(self):
-        group = Adw.PreferencesGroup(title=_("Installed Games"), description=_("{} games found").format(len(self.games)))
-        self.inner_box.append(group)
+    def _populate_games_list(self):
+        self.games_group.set_description(_("{} games found").format(len(self.games)))
+        
+        self.game_checkboxes = {}
+        self.added_rows = []
 
         for game in self.games:
             game_name = game.get("name", "Unknown")
@@ -524,27 +593,18 @@ class SteamGamesDialog(Adw.Window):
             row.add_suffix(check)
             row.set_activatable_widget(check)
             self.game_checkboxes[app_id] = check
-            group.add(row)
+            self.games_group.add(row)
+            self.added_rows.append(row)
 
         # Selection Buttons below games list
-        selection_box = Gtk.Box(orientation=Gtk.Orientation.HORIZONTAL, spacing=10, halign=Gtk.Align.CENTER)
-        self.inner_box.append(selection_box)
+        self.selection_box = Gtk.Box(orientation=Gtk.Orientation.HORIZONTAL, spacing=10, halign=Gtk.Align.CENTER)
+        self.inner_box.append(self.selection_box)
 
         for label, callback in [(_("Select All"), lambda b: [c.set_active(True) for c in self.game_checkboxes.values()]),
                                 (_("Deselect All"), lambda b: [c.set_active(False) for c in self.game_checkboxes.values()])]:
             btn = Gtk.Button(label=label)
             btn.connect("clicked", callback)
-            selection_box.append(btn)
-        
-        # Footer buttons (Apply and Close) - Centered
-        apply_btn = Gtk.Button(label=_("Apply Changes"))
-        apply_btn.add_css_class("suggested-action")
-        apply_btn.connect("clicked", self._on_apply)
-        self.footer.append(apply_btn)
-        
-        close_btn = Gtk.Button(label=_("Close"))
-        close_btn.connect("clicked", lambda b: self.close())
-        self.footer.append(close_btn)
+            self.selection_box.append(btn)
 
     def _on_toggled(self, button, game_dict):
         game_dict["has_gamemode"] = button.get_active()
