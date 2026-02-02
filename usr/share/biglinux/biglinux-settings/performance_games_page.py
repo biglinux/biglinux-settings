@@ -65,20 +65,40 @@ class GameModeConfigDialog(Adw.Window):
         
         self._load_data()
     
+    def _parse_shell_output(self, output):
+        """Parse key=value pairs from shell script output."""
+        data = {}
+        for line in output.splitlines():
+            line = line.strip()
+            if not line or "=" not in line:
+                continue
+            key, value = line.split("=", 1)
+            key = key.strip()
+            value = value.strip()
+            
+            # Convert boolean strings
+            if value.lower() == "true":
+                value = True
+            elif value.lower() == "false":
+                value = False
+            
+            data[key] = value
+        return data
+
     def _load_data(self):
         """Load hardware detection and current config."""
         try:
             # Detect hardware
             result = subprocess.run([self.script_path, "detect"], capture_output=True, text=True)
             if result.returncode == 0:
-                self.hardware_info = json.loads(result.stdout)
+                self.hardware_info = self._parse_shell_output(result.stdout)
             else:
                 self.hardware_info = {}
             
             # Read current config
             result = subprocess.run([self.script_path, "read"], capture_output=True, text=True)
             if result.returncode == 0:
-                self.current_config = json.loads(result.stdout)
+                self.current_config = self._parse_shell_output(result.stdout)
             else:
                 self.current_config = {}
             
@@ -302,42 +322,7 @@ class GameModeConfigDialog(Adw.Window):
             "0"
         )
         
-        # --- CUSTOM SECTION ---
-        custom_group = Adw.PreferencesGroup(
-            title=_("Custom Commands"),
-            description=_("Commands to run when GameMode starts/stops.")
-        )
-        self.inner_box.append(custom_group)
-        
-        # Custom Start
-        self._add_option_row(
-            custom_group,
-            "custom_start",
-            _("Game Start: Suspend Background Services"),
-            _("Suspends Baloo indexer and KWin compositor to free resources when game starts."),
-            "balooctl6 suspend && qdbus6 org.kde.KWin /Compositor suspend",
-            ""
-        )
-        
-        # Custom End
-        self._add_option_row(
-            custom_group,
-            "custom_end",
-            _("Game End: Resume Background Services"),
-            _("Resumes Baloo indexer and KWin compositor when game ends."),
-            "balooctl6 resume && qdbus6 org.kde.KWin /Compositor resume",
-            ""
-        )
-        
-        # Script Timeout
-        self._add_option_row(
-            custom_group,
-            "script_timeout",
-            _("Script Timeout (10s)"),
-            _("Sets timeout for custom scripts. Scripts are killed if they don't complete in time."),
-            "10",
-            "30"
-        )
+
     
     def _get_cpu_description(self) -> str:
         """Get CPU description based on detected hardware."""
@@ -451,7 +436,7 @@ class SteamGamesDialog(Adw.Window):
     
     def __init__(self, parent_window, **kwargs):
         super().__init__(**kwargs)
-        self.set_title(_("Configure Steam Games"))
+        self.set_title(_("Configure Steam"))
         self.set_default_size(600, 500)
         self.set_modal(True)
         self.set_transient_for(parent_window)
@@ -541,16 +526,17 @@ class SteamGamesDialog(Adw.Window):
             self.game_checkboxes[app_id] = check
             group.add(row)
 
-        # Footer buttons
+        # Selection Buttons below games list
+        selection_box = Gtk.Box(orientation=Gtk.Orientation.HORIZONTAL, spacing=10, halign=Gtk.Align.CENTER)
+        self.inner_box.append(selection_box)
+
         for label, callback in [(_("Select All"), lambda b: [c.set_active(True) for c in self.game_checkboxes.values()]),
                                 (_("Deselect All"), lambda b: [c.set_active(False) for c in self.game_checkboxes.values()])]:
             btn = Gtk.Button(label=label)
             btn.connect("clicked", callback)
-            self.footer.append(btn)
+            selection_box.append(btn)
         
-        spacer = Gtk.Box(hexpand=True)
-        self.footer.append(spacer)
-        
+        # Footer buttons (Apply and Close) - Centered
         apply_btn = Gtk.Button(label=_("Apply Changes"))
         apply_btn.add_css_class("suggested-action")
         apply_btn.connect("clicked", self._on_apply)
