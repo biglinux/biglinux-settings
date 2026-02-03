@@ -33,5 +33,14 @@ class AIPage(BaseSettingsPage):
             "chatai-symbolic",
         )
 
+        # LibreThinker
+        self.create_row(
+            group,
+            _("LibreThinker: AI Copilot for LibreOffice"),
+            _("Generative AI assistant for rewriting, summarizing, translating, and proofreading text. Use free models or your own API key (OpenAI, Mistral, Groq)."),
+            "librethinker",
+            "libreoffice-symbolic",
+        )
+
         # Syncs
         self.sync_all_switches()
