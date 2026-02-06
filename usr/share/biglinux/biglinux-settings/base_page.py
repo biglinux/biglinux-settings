@@ -55,10 +55,10 @@ class BaseSettingsPage(Adw.Bin):
         """Placeholder method for search mode compatibility."""
         pass
 
-    def on_reload_clicked(self, widget):
-        """Callback for the reload button. Triggers a full UI state sync."""
-        print("Reloading all statuses...")
-        self.sync_all_switches()
+    # def on_reload_clicked(self, widget):
+    #     """Callback for the reload button. Triggers a full UI state sync."""
+    #     print("Reloading all statuses...")
+    #     self.sync_all_switches()
 
     def create_group(self, title, description, script_group):
         """Cria um PreferencesGroup com o botão de reload automático."""
@@ -67,13 +67,13 @@ class BaseSettingsPage(Adw.Bin):
         group.set_description(description)
         group.script_group = script_group
 
-        reload_button = Gtk.Button(
-            icon_name="view-refresh-symbolic",
-            valign=Gtk.Align.CENTER,
-            tooltip_text=_("Reload all statuses")
-        )
-        reload_button.connect("clicked", lambda _: self.sync_all_switches())
-        group.set_header_suffix(reload_button)
+        # reload_button = Gtk.Button(
+        #     icon_name="view-refresh-symbolic",
+        #     valign=Gtk.Align.CENTER,
+        #     tooltip_text=_("Reload all statuses")
+        # )
+        # reload_button.connect("clicked", lambda _: self.sync_all_switches())
+        # group.set_header_suffix(reload_button)
         return group
 
     # Function to create a switch with a details area and clickable link.

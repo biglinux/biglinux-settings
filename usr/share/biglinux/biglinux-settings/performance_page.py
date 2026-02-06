@@ -11,12 +11,12 @@ class PerformancePage(BaseSettingsPage):
         ## GROUP ##
 
         # Performance
-        performance_group = self.create_group(
+        group = self.create_group(
             _("Performance"),
             _("BigLinux performance tweaks."),
             "performance"
         )
-        content.append(performance_group)
+        content.append(group)
 
         # # Games
         # games_group = self.create_group(
@@ -30,7 +30,7 @@ class PerformancePage(BaseSettingsPage):
         ## Performance ##
         # Disable Visual Effects
         self.create_row(
-            performance_group,
+            group,
             _("Disable Visual Effects"),
             _("Disables KWin visual effects (blur, shadows, animations). Reduces GPU load and frees memory."),
             "disableVisualEffects",
@@ -38,7 +38,7 @@ class PerformancePage(BaseSettingsPage):
         )
         # # Compositor Settings
         # self.create_row(
-        #     performance_group,
+        #     group,
         #     _("Compositor Settings"),
         #     _("Configures compositor for low latency, allows tearing and disables animations. Minimizes compositing overhead and reduces input lag."),
         #     "compositorSettings",
@@ -46,7 +46,7 @@ class PerformancePage(BaseSettingsPage):
         # )
         # CPU Maximum Performance
         self.create_row(
-            performance_group,
+            group,
             _("CPU Maximum Performance"),
             _("Forces maximum processor performance mode. Ensures the processor uses maximum frequency."),
             "cpuMaximumPerformance",
@@ -54,7 +54,7 @@ class PerformancePage(BaseSettingsPage):
         )
         # GPU Maximum Performance
         # self.create_row(
-        #     performance_group,
+        #     group,
         #     _("GPU Maximum Performance"),
         #     _("Forces maximum GPU performance mode (NVIDIA/AMD). Ensures the graphics card uses maximum frequency."),
         #     "gpuMaximumPerformance",
@@ -62,7 +62,7 @@ class PerformancePage(BaseSettingsPage):
         # )
         # Disable Baloo Indexer
         self.create_row(
-            performance_group,
+            group,
             _("Disable Baloo Indexer"),
             _("Disables the Baloo file indexer. Avoids disk I/O overhead."),
             "disableBalooIndexer",
@@ -70,14 +70,29 @@ class PerformancePage(BaseSettingsPage):
         )
         # Unload S.M.A.R.T Monitor
         self.create_row(
-            performance_group,
+            group,
             _("Unload S.M.A.R.T Monitor"),
             _("Disables S.M.A.R.T disk monitoring. Reduces disk I/O and CPU usage."),
             "unloadSmartMonitor",
             "unload-smart-monitor-symbolic"
         )
-
-
+        # Meltdown mitigations
+        link_meltdown = "https://meltdownattack.com"
+        self.create_row(
+            group,
+            _("Meltdown Mitigations off"),
+            _("Using mitigations=off will make your machine faster and less secure! For more information see: <a href='{l}'>{l}</a>").format(l=link_meltdown),
+            "meltdownMitigations",
+            "meltdown-mitigations-symbolic"
+        )
+        # noWatchdog
+        self.create_row(
+            group,
+            _("noWatchdog"),
+            _("Disables the hardware watchdog and TSC clocksource systems, maintaining high performance but removing automatic protections against system crashes."),
+            "noWatchdog",
+            "watchdog-symbolic"
+        )
 
         # ## GAMES ##
         # # Game Mode Daemon

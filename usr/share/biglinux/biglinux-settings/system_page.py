@@ -50,25 +50,6 @@ class SystemPage(BaseSettingsPage):
             "bigmount-symbolic"
         )
 
-        # Meltdown mitigations
-        link_meltdown = "https://meltdownattack.com"
-        self.create_row(
-            group,
-            _("Meltdown Mitigations off"),
-            _("Using mitigations=off will make your machine faster and less secure! For more information see: <a href='{l}'>{l}</a>").format(l=link_meltdown),
-            "meltdownMitigations",
-            "meltdown-mitigations-symbolic"
-        )
-
-        # noWatchdog
-        self.create_row(
-            group,
-            _("noWatchdog"),
-            _("Disables the hardware watchdog and TSC clocksource systems, maintaining high performance but removing automatic protections against system crashes."),
-            "noWatchdog",
-            "watchdog-symbolic"
-        )
-
         # # Limits
         # self.create_row(
         #     group,
