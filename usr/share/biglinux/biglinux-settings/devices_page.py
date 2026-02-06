@@ -43,14 +43,14 @@ class DevicesPage(BaseSettingsPage):
             "jamesdsp-symbolic",
         )
 
-        # Keyboard LED
-        self.create_row(
-            group,
-            _("Keyboard LED"),
-            _("If your keyboard has LED you can enable this feature to turn it on with the system."),
-            "keyboard-led",
-            "keyboard-led-symbolic"
-        )
+        # # Keyboard LED
+        # self.create_row(
+        #     group,
+        #     _("Keyboard LED"),
+        #     _("If your keyboard has LED you can enable this feature to turn it on with the system."),
+        #     "keyboard-led",
+        #     "keyboard-led-symbolic"
+        # )
 
         # Reverse mouse scrolling
         self.create_row(

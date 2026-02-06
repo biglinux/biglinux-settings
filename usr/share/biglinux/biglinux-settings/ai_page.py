@@ -56,6 +56,14 @@ class AIPage(BaseSettingsPage):
             "ollama-symbolic",
             info_text=_("Ollama server is running.\nAddress: http://localhost:11434"),
         )
+        self.create_sub_row(
+            ollamaServer,
+            _("Share Ollama"),
+            _("Share ollama on the local network."),
+            "ollamaShare",
+            "ollama-symbolic",
+            ollama,
+        )
         # Ollama Vulkan
         ollama = self.create_row(
             ollamaServer,
@@ -65,6 +73,14 @@ class AIPage(BaseSettingsPage):
             "ollama-symbolic",
             info_text=_("Ollama server is running.\nAddress: http://localhost:11434"),
         )
+        self.create_sub_row(
+            ollamaServer,
+            _("Share Ollama"),
+            _("Share ollama on the local network."),
+            "ollamaShare",
+            "ollama-symbolic",
+            ollama,
+        )
         # Ollama AMD ROCm
         ollama = self.create_row(
             ollamaServer,
@@ -73,6 +89,14 @@ class AIPage(BaseSettingsPage):
             "ollamaAmd",
             "ollama-symbolic",
             info_text=_("Ollama server is running.\nAddress: http://localhost:11434"),
+        )
+        self.create_sub_row(
+            ollamaServer,
+            _("Share Ollama"),
+            _("Share ollama on the local network."),
+            "ollamaShare",
+            "ollama-symbolic",
+            ollama,
         )
         # Ollama Nvidia CUDA
         ollama = self.create_row(

@@ -36,14 +36,14 @@ class PerformancePage(BaseSettingsPage):
             "disableVisualEffects",
             "disable-visual-effects-symbolic"
         )
-        # Compositor Settings
-        self.create_row(
-            performance_group,
-            _("Compositor Settings"),
-            _("Configures compositor for low latency, allows tearing and disables animations. Minimizes compositing overhead and reduces input lag."),
-            "compositorSettings",
-            "compositor-settings-symbolic"
-        )
+        # # Compositor Settings
+        # self.create_row(
+        #     performance_group,
+        #     _("Compositor Settings"),
+        #     _("Configures compositor for low latency, allows tearing and disables animations. Minimizes compositing overhead and reduces input lag."),
+        #     "compositorSettings",
+        #     "compositor-settings-symbolic"
+        # )
         # CPU Maximum Performance
         self.create_row(
             performance_group,
@@ -53,13 +53,13 @@ class PerformancePage(BaseSettingsPage):
             "cpu-maximum-performance-symbolic"
         )
         # GPU Maximum Performance
-        self.create_row(
-            performance_group,
-            _("GPU Maximum Performance"),
-            _("Forces maximum GPU performance mode (NVIDIA/AMD). Ensures the graphics card uses maximum frequency."),
-            "gpuMaximumPerformance",
-            "gpu-maximum-performance-symbolic"
-        )
+        # self.create_row(
+        #     performance_group,
+        #     _("GPU Maximum Performance"),
+        #     _("Forces maximum GPU performance mode (NVIDIA/AMD). Ensures the graphics card uses maximum frequency."),
+        #     "gpuMaximumPerformance",
+        #     "gpu-maximum-performance-symbolic"
+        # )
         # Disable Baloo Indexer
         self.create_row(
             performance_group,
@@ -67,14 +67,6 @@ class PerformancePage(BaseSettingsPage):
             _("Disables the Baloo file indexer. Avoids disk I/O overhead."),
             "disableBalooIndexer",
             "disable-baloo-indexer-symbolic"
-        )
-        # Stop Akonadi Server
-        self.create_row(
-            performance_group,
-            _("Stop Akonadi Server"),
-            _("Stops the PIM data server (Kontact/Thunderbird). Reduces memory and disk overhead."),
-            "stopAkonadiServer",
-            "stop-akonadi-server-symbolic"
         )
         # Unload S.M.A.R.T Monitor
         self.create_row(
