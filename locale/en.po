@@ -293,6 +293,24 @@ msgid "An error occurred while install docker."
 msgstr "An error occurred while install docker."
 
 #
+msgid "Applying, please wait..."
+msgstr "Applying, please wait..."
+
+#
+msgid ""
+"GRUB updated successfully!\\nRestart your computer for it to take effect."
+msgstr ""
+"GRUB updated successfully!\\nRestart your computer for it to take effect."
+
+#
+msgid "An error occurred while updating GRUB."
+msgstr "An error occurred while updating GRUB."
+
+#
+msgid "Already disabled. No changes made."
+msgstr "Already disabled. No changes made."
+
+#
 msgid "Recent Files enabling...."
 msgstr "Recent Files enabling...."
 
@@ -333,26 +351,8 @@ msgid "Kzones installed successfully!"
 msgstr "Kzones installed successfully!"
 
 #
-msgid "Applying, please wait..."
-msgstr "Applying, please wait..."
-
-#
 msgid "GRUB updated successfully!"
 msgstr "GRUB updated successfully!"
-
-#
-msgid "An error occurred while updating GRUB."
-msgstr "An error occurred while updating GRUB."
-
-#
-msgid ""
-"GRUB updated successfully!\\nRestart your computer for it to take effect."
-msgstr ""
-"GRUB updated successfully!\\nRestart your computer for it to take effect."
-
-#
-msgid "Already disabled. No changes made."
-msgstr "Already disabled. No changes made."
 
 #
 msgid "Limits updated successfully!"
@@ -489,40 +489,6 @@ msgstr "Auto-mount Partitions"
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_page.py, line: 48
 msgid "Auto mount partitions in internal disks on boot."
 msgstr "Auto mount partitions in internal disks on boot."
-
-#
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_page.py, line: 57
-msgid "Meltdown Mitigations off"
-msgstr "Meltdown Mitigations off"
-
-#
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_page.py, line: 58
-#, python-brace-format
-msgid ""
-"Using mitigations=off will make your machine faster and less secure! For "
-"more information see: <a href='{l}'>{l}</a>"
-msgstr ""
-"Using mitigations=off will make your machine faster and less secure! For "
-"more information see: <a href='{l}'>{l}</a>"
-
-#
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_page.py, line: 66
-msgid "noWatchdog"
-msgstr "noWatchdog"
-
-#
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_page.py, line: 67
-msgid ""
-"Disables the hardware watchdog and TSC clocksource systems, maintaining high "
-"performance but removing automatic protections against system crashes."
-msgstr ""
-"Disables the hardware watchdog and TSC clocksource systems, maintaining high "
-"performance but removing automatic protections against system crashes."
-
-#
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/base_page.py, line: 73
-msgid "Reload all statuses"
-msgstr "Reload all statuses"
 
 #
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings/base_page.py, line: 225
@@ -842,6 +808,35 @@ msgstr "Unload S.M.A.R.T Monitor"
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings/performance_page.py, line: 75
 msgid "Disables S.M.A.R.T disk monitoring. Reduces disk I/O and CPU usage."
 msgstr "Disables S.M.A.R.T disk monitoring. Reduces disk I/O and CPU usage."
+
+#
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/performance_page.py, line: 83
+msgid "Meltdown Mitigations off"
+msgstr "Meltdown Mitigations off"
+
+#
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/performance_page.py, line: 84
+#, python-brace-format
+msgid ""
+"Using mitigations=off will make your machine faster and less secure! For "
+"more information see: <a href='{l}'>{l}</a>"
+msgstr ""
+"Using mitigations=off will make your machine faster and less secure! For "
+"more information see: <a href='{l}'>{l}</a>"
+
+#
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/performance_page.py, line: 91
+msgid "noWatchdog"
+msgstr "noWatchdog"
+
+#
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/performance_page.py, line: 92
+msgid ""
+"Disables the hardware watchdog and TSC clocksource systems, maintaining high "
+"performance but removing automatic protections against system crashes."
+msgstr ""
+"Disables the hardware watchdog and TSC clocksource systems, maintaining high "
+"performance but removing automatic protections against system crashes."
 
 #
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings/ai_page.py, line: 12
