@@ -8,6 +8,7 @@ import os
 import subprocess
 
 from gi.repository import Adw, Gio, Gtk
+from typing import Optional
 
 # Set up gettext for application localization.
 DOMAIN = "biglinux-settings"
@@ -76,7 +77,7 @@ class BaseSettingsPage(Adw.Bin):
         return group
 
     # Function to create a switch with a details area and clickable link.
-    def create_row(self, parent_group, title, subtitle_with_markup, script_name, icon_name):
+    def create_row(self, parent_group, title, subtitle_with_markup, script_name, icon_name, info_text: Optional[str] = None):
         """Builds a custom row mimicking Adw.ActionRow to allow for a clickable link in the subtitle."""
         # Uses Adw.PreferencesRow as a base to get the correct background and border style.
         row = Adw.PreferencesRow()
@@ -119,6 +120,20 @@ class BaseSettingsPage(Adw.Bin):
 
         # The switch, aligned vertically center.
         switch = Gtk.Switch(valign=Gtk.Align.CENTER)
+
+        if info_text:
+            info_icon = Gtk.Image.new_from_icon_name("info")
+            info_icon.set_pixel_size(28)
+            info_icon.add_css_class("suggested-action")
+            info_icon.add_css_class("symbolic-icon")
+            info_icon.add_css_class("info-icon-blue")
+            info_icon.set_valign(Gtk.Align.CENTER)
+            info_icon.set_tooltip_text(info_text)
+            info_icon.set_visible(False)
+
+            setattr(switch, "_info_icon", info_icon)
+            main_box.append(info_icon)
+
         main_box.append(switch)
 
         # Associate the script with the switch
@@ -130,16 +145,17 @@ class BaseSettingsPage(Adw.Bin):
         parent_group.add(row)
         return switch
 
-    def create_sub_row(self, parent_group, title, subtitle_with_markup, script_name, icon_name, parent_switch: Gtk.Switch):
+    def create_sub_row(self, parent_group, title, subtitle_with_markup, script_name, icon_name, parent_switch: Gtk.Switch, info_text: Optional[str] = None):
         # Cria o row (mesma lógica de create_row, mas sem retorno do switch direto)
         row = Adw.PreferencesRow()
+        row._is_sub_row = True
 
         main_box = Gtk.Box(
             orientation=Gtk.Orientation.HORIZONTAL,
             spacing=12,
             margin_top=6,
             margin_bottom=6,
-            margin_start=12,
+            margin_start=50,
             margin_end=12,
         )
         row.set_child(main_box)
@@ -169,6 +185,22 @@ class BaseSettingsPage(Adw.Bin):
             title_area.append(subtitle_label)
 
         switch = Gtk.Switch(valign=Gtk.Align.CENTER)
+
+        if info_text:
+            info_icon = Gtk.Image.new_from_icon_name("info")
+            info_icon.set_pixel_size(28)
+            info_icon.add_css_class("suggested-action")
+            info_icon.add_css_class("symbolic-icon")
+            info_icon.add_css_class("info-icon-blue")
+            info_icon.set_valign(Gtk.Align.CENTER)
+            info_icon.set_tooltip_text(info_text)
+
+            # Começa invisível, será controlado pelo _toggle_info_icon_visibility
+            info_icon.set_visible(False)
+
+            setattr(switch, "_info_icon", info_icon)
+            main_box.append(info_icon)
+
         main_box.append(switch)
 
         script_group = getattr(parent_group, "script_group", "default")
@@ -178,10 +210,10 @@ class BaseSettingsPage(Adw.Bin):
 
         parent_group.add(row)
 
-        # Começa oculto
+        # It starts hidden
         row.set_visible(False)
 
-        # Registra o sub‑switch
+        # Register the sub-switch
         self.sub_switches.setdefault(parent_switch, []).append(row)
 
         return switch
@@ -275,6 +307,15 @@ class BaseSettingsPage(Adw.Bin):
             print(f"ERROR: {error_msg}")
             return False
 
+    def _toggle_info_icon_visibility(self, switch: Gtk.Switch, state: bool) -> None:
+        """Handles the visibility of the info icon based on the switch state.
+        The icon is only visible when the switch is active (True)."""
+        if hasattr(switch, "_info_icon"):
+            # Check if the parent row is not hidden due to lack of support.
+            row = switch.get_parent().get_parent()
+            is_supported = not getattr(row, "_hidden_no_support", False)
+            switch._info_icon.set_visible(state and is_supported)
+
     def sync_all_switches(self):
         """Synchronizes all UI widgets and disables them if their script is invalid, providing a tooltip with the reason."""
         # Sync all switches
@@ -288,18 +329,22 @@ class BaseSettingsPage(Adw.Bin):
                 # State: Enabled but cannot be changed - hide it from interface.
                 row.set_visible(False)
                 row._hidden_no_support = True
+                self._toggle_info_icon_visibility(switch, False)
             elif status is None:
                 # Feature not supported - hide it from interface.
                 row.set_visible(False)
                 row._hidden_no_support = True
+                self._toggle_info_icon_visibility(switch, False)
             else:
                 row.set_sensitive(True)
-                row.set_visible(True)
+                if not getattr(row, "_is_sub_row", False):
+                    row.set_visible(True)
                 row.set_tooltip_text(None)
                 row._hidden_no_support = False
                 switch.handler_block_by_func(self.on_switch_changed)
                 switch.set_active(status)
                 switch.handler_unblock_by_func(self.on_switch_changed)
+                self._toggle_info_icon_visibility(switch, status)
 
             switch.handler_unblock_by_func(self.on_switch_changed)
             print(
@@ -341,7 +386,8 @@ class BaseSettingsPage(Adw.Bin):
         for parent_switch, child_rows in self.sub_switches.items():
             parent_state = parent_switch.get_active()
             for child_row in child_rows:
-                child_row.set_visible(parent_state)
+                is_supported = not getattr(child_row, "_hidden_no_support", False)
+                child_row.set_visible(parent_state and is_supported)
 
     def on_switch_changed(self, switch, state):
         """Callback executed when a user manually toggles a switch."""
@@ -361,6 +407,7 @@ class BaseSettingsPage(Adw.Bin):
                 switch.handler_block_by_func(self.on_switch_changed)
                 switch.set_active(not state)
                 switch.handler_unblock_by_func(self.on_switch_changed)
+                self._toggle_info_icon_visibility(switch, reverted_state)
 
                 print(
                     _("ERROR: Failed to change {} to {}").format(
@@ -372,7 +419,8 @@ class BaseSettingsPage(Adw.Bin):
                 # If this switch is a parent, adjust visibility of its sub‑switches
                 if switch in self.sub_switches:
                     for child_row in self.sub_switches[switch]:
-                        child_row.set_visible(state)
+                        is_supported = not getattr(child_row, "_hidden_no_support", False)
+                        child_row.set_visible(state and is_supported)
 
                 # After a successful change, refresh all switches to reflect real state
                 self.sync_all_switches()
@@ -454,7 +502,24 @@ class BaseSettingsPage(Adw.Bin):
                     continue
 
                 if not search_text:
-                    row.set_visible(True)
+                    if getattr(row, "_is_sub_row", False):
+                        parent_switch = None
+                        # Procura quem é o pai desta row
+                        for p_switch, children in self.sub_switches.items():
+                            if row in children:
+                                parent_switch = p_switch
+                                break
+
+                        if parent_switch:
+                            # Visível apenas se o pai estiver ativo
+                            row.set_visible(parent_switch.get_active())
+                        else:
+                            # Fallback seguro
+                            row.set_visible(False)
+                    else:
+                        # Row normal fica sempre visível sem busca
+                        row.set_visible(True)
+
                     visible_count += 1
                 else:
                     text = self._get_row_text(row).lower()

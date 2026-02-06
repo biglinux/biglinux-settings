@@ -20,20 +20,27 @@ runAsUser() {
 }
 
 # Creates a named pipe (FIFO) for communication with Zenity
-pipePath="/tmp/gamemode_pipe_$$"
+pipePath="/tmp/ollama_pipe_$$"
 mkfifo "$pipePath"
 
 # Starts Zenity IN THE BACKGROUND, as the user, with the full environment
 if [[ "$function" == "install" ]]; then
-  zenityTitle=$"GameMode Install"
-  zenityText=$"Instaling GameMode, Please wait..."
+  zenityTitle=$"Ollama CUDA Install"
+  zenityText=$"Instaling Ollama CUDA, Please wait..."
+else
+  zenityTitle=$"Ollama CUDA Uninstall"
+  zenityText=$"Unistaling Ollama CUDA, Please wait..."
 fi
 runAsUser "zenity --progress --title=\"$zenityTitle\" --text=\"$zenityText\" --pulsate --auto-close --no-cancel < '$pipePath'" &
 
 # Executes the root tasks.
 updateTask() {
   if [[ "$function" == "install" ]]; then
-    pacman -Syu --needed --noconfirm gamemode
+    pacman -Syu --noconfirm ollama-cuda
+    systemctl enable --now ollama.service
+  else
+    systemctl disable --now ollama.service
+    pacman -Rcs --noconfirm ollama-cuda
   fi
   exitCode=$?
 }
@@ -44,10 +51,10 @@ rm "$pipePath"
 
 # Shows the final result to the user, also with the correct theme.
 if [[ "$exitCode" == "0" ]] && [[ "$function" == "install" ]]; then
-  zenityText=$"GameMode installed successfully!"
+  zenityText=$"Ollama CUDA installed successfully!"
   runAsUser "zenity --info --text=\"$zenityText\""
 else
-  zenityText=$"Failed to install GameMode!"
+  zenityText=$"Failed to install Ollama CUDA!"
   zenity --info --text="$zenityText"
 fi
 

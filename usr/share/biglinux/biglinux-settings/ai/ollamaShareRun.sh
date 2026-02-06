@@ -19,38 +19,32 @@ runAsUser() {
   su "$originalUser" -c "export DISPLAY='$userDisplay'; export XAUTHORITY='$userXauthority'; export DBUS_SESSION_BUS_ADDRESS='$userDbusAddress'; export LANG='$userLang'; export LC_ALL='$userLang'; export LANGUAGE='$userLanguage'; $1"
 }
 
-# Creates a named pipe (FIFO) for communication with Zenity
-pipePath="/tmp/krita_pipe_$$"
-mkfifo "$pipePath"
-
-# Starts Zenity IN THE BACKGROUND, as the user, with the full environment
-if [[ "$function" == "install" ]]; then
-  zenityTitle=$"Krita Install"
-  zenityText=$"Instaling Krita, Please wait..."
-else
-  zenityTitle=$"Krita Uninstall"
-  zenityText=$"Uninstaling Krita, Please wait..."
-fi
-runAsUser "zenity --progress --title=\"$zenityTitle\" --text=\"$zenityText\" --pulsate --auto-close --no-cancel < '$pipePath'" &
+# # Creates a named pipe (FIFO) for communication with Zenity
+# pipePath="/tmp/ollama_share_pipe_$$"
+# mkfifo "$pipePath"
 
 # Executes the root tasks.
 updateTask() {
   if [[ "$function" == "install" ]]; then
-    pacman -Syu --noconfirm krita
+    sed -i /'WorkingDirectory=/{p;s/.*/Environment="OLLAMA_HOST=0.0.0.0"/;}' /usr/lib/systemd/system/ollama.service
+  else
+    sed -i '/Environment="OLLAMA_HOST=0.0.0.0"/d' /usr/lib/systemd/system/ollama.service
   fi
   exitCode=$?
 }
-updateTask > "$pipePath"
+updateTask #> "$pipePath"
 
 # Cleans up the pipe
-rm "$pipePath"
+# rm "$pipePath"
+
+localIp=$(ip route get 1 | awk '{print $7; exit}')
 
 # Shows the final result to the user, also with the correct theme.
 if [[ "$exitCode" == "0" ]] && [[ "$function" == "install" ]]; then
-  zenityText=$"Krita installed successfully!"
+  zenityText=$"Ollama shared successfully.\nAddress: http://$localIp:11434"
   runAsUser "zenity --info --text=\"$zenityText\""
 else
-  zenityText=$"Failed to install Krita!"
+  zenityText=$"Failed to shared Ollama!"
   zenity --info --text="$zenityText"
 fi
 

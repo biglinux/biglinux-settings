@@ -1,8 +1,12 @@
 #!/bin/bash
 
+#Translation
+export TEXTDOMAINDIR="/usr/share/locale"
+export TEXTDOMAIN=biglinux-settings
+
 # check current status
 check_state() {
-  if [[ "$(systemctl is-active sshd)" == "active" ]];then
+  if grep 'OLLAMA_HOST=0.0.0.0' /usr/lib/systemd/system/ollama.service &>/dev/null; then
     echo "true"
   else
     echo "false"
@@ -13,12 +17,13 @@ check_state() {
 toggle_state() {
   new_state="$1"
   if [[ "$new_state" == "true" ]];then
-      pkexec systemctl start sshd
-      exitCode=$?
+    pkexec $PWD/ai/ollamaShareRun.sh "install" "$USER" "$DISPLAY" "$XAUTHORITY" "$DBUS_SESSION_BUS_ADDRESS" "$LANG" "$LANGUAGE"
+    exitCode=$?
   else
-      pkexec systemctl stop sshd
-      exitCode=$?
+    pkexec $PWD/ai/ollamaShareRun.sh "uninstall" "$USER" "$DISPLAY" "$XAUTHORITY" "$DBUS_SESSION_BUS_ADDRESS" "$LANG" "$LANGUAGE"
+    exitCode=$?
   fi
+  exit $exitCode
 }
 
 # Executes the function based on the parameter
@@ -28,6 +33,9 @@ case "$1" in
         ;;
     "toggle")
         toggle_state "$2"
+        ;;
+    "info")
+        info
         ;;
     *)
         echo "Use: $0 {check|toggle} [true|false]"

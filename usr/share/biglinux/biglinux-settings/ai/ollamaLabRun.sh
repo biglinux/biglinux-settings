@@ -20,23 +20,25 @@ runAsUser() {
 }
 
 # Creates a named pipe (FIFO) for communication with Zenity
-pipePath="/tmp/krita_pipe_$$"
+pipePath="/tmp/ollamaLab_pipe_$$"
 mkfifo "$pipePath"
 
 # Starts Zenity IN THE BACKGROUND, as the user, with the full environment
 if [[ "$function" == "install" ]]; then
-  zenityTitle=$"Krita Install"
-  zenityText=$"Instaling Krita, Please wait..."
+  zenityTitle=$"Ollama Lab Install"
+  zenityText=$"Instaling Ollama Lab, Please wait..."
 else
-  zenityTitle=$"Krita Uninstall"
-  zenityText=$"Uninstaling Krita, Please wait..."
+  zenityTitle=$"Ollama Lab Uninstall"
+  zenityText=$"Unistaling Ollama Lab, Please wait..."
 fi
 runAsUser "zenity --progress --title=\"$zenityTitle\" --text=\"$zenityText\" --pulsate --auto-close --no-cancel < '$pipePath'" &
 
 # Executes the root tasks.
 updateTask() {
   if [[ "$function" == "install" ]]; then
-    pacman -Syu --noconfirm krita
+    pacman -Syu --noconfirm ollama-lab-bin
+  else
+    pacman -Rcs --noconfirm ollama-lab-bin
   fi
   exitCode=$?
 }
@@ -47,10 +49,10 @@ rm "$pipePath"
 
 # Shows the final result to the user, also with the correct theme.
 if [[ "$exitCode" == "0" ]] && [[ "$function" == "install" ]]; then
-  zenityText=$"Krita installed successfully!"
+  zenityText=$"Ollama Lab installed successfully!"
   runAsUser "zenity --info --text=\"$zenityText\""
 else
-  zenityText=$"Failed to install Krita!"
+  zenityText=$"Failed to install Ollama Lab!"
   zenity --info --text="$zenityText"
 fi
 

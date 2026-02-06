@@ -6,10 +6,10 @@ export TEXTDOMAIN=biglinux-settings
 
 # check current status
 check_state() {
-  if balooctl6 status &>/dev/null;then
-    echo "false"
-  else
+  if pacman -Q lmstudio-bin &>/dev/null; then
     echo "true"
+  else
+    echo "false"
   fi
 }
 
@@ -17,10 +17,10 @@ check_state() {
 toggle_state() {
   new_state="$1"
   if [[ "$new_state" == "true" ]];then
-    balooctl6 disable &>/dev/null
+    pkexec $PWD/ai/lmStudioRun.sh "install" "$USER" "$DISPLAY" "$XAUTHORITY" "$DBUS_SESSION_BUS_ADDRESS" "$LANG" "$LANGUAGE"
     exitCode=$?
   else
-    balooctl6 enable &>/dev/null
+    pkexec $PWD/ai/lmStudioRun.sh "uninstall" "$USER" "$DISPLAY" "$XAUTHORITY" "$DBUS_SESSION_BUS_ADDRESS" "$LANG" "$LANGUAGE"
     exitCode=$?
   fi
   exit $exitCode
@@ -33,6 +33,9 @@ case "$1" in
         ;;
     "toggle")
         toggle_state "$2"
+        ;;
+    "info")
+        info
         ;;
     *)
         echo "Use: $0 {check|toggle} [true|false]"

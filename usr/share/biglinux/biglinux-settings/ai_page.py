@@ -1,6 +1,5 @@
 from base_page import BaseSettingsPage, _
 
-
 class AIPage(BaseSettingsPage):
     def __init__(self, main_window, **kwargs):
         super().__init__(main_window, **kwargs)
@@ -15,6 +14,22 @@ class AIPage(BaseSettingsPage):
             "ai"
         )
         content.append(group)
+
+        # Create the group Ollama (base method)
+        ollamaServer = self.create_group(
+            _("Ollma Server"),
+            _("Choose which Ollama server is best for your hardware."),
+            "ai"
+        )
+        content.append(ollamaServer)
+
+        # Create the group Ollama (base method)
+        aiGui = self.create_group(
+            _("AI Interfaces"),
+            _("Graphical interface for artificial intelligence.."),
+            "ai"
+        )
+        content.append(aiGui)
 
         # Generative AI for Krita
         self.create_row(
@@ -32,14 +47,97 @@ class AIPage(BaseSettingsPage):
             "chatai",
             "chatai-symbolic",
         )
-
-        # LibreThinker
+        # Ollama CPU
+        ollama = self.create_row(
+            ollamaServer,
+            _("OllamaCPU"),
+            _("Local AI server. For CPUs only."),
+            "ollamaCpu",
+            "ollama-symbolic",
+            info_text=_("Ollama server is running.\nAddress: http://localhost:11434"),
+        )
+        self.create_sub_row(
+            ollamaServer,
+            _("Share Ollama"),
+            _("Share ollama on the local network."),
+            "ollamaShare",
+            "ollama-symbolic",
+            ollama,
+        )
+        # Ollama Vulkan
+        ollama = self.create_row(
+            ollamaServer,
+            _("Ollama Vulkan"),
+            _("Local AI server. For CPUs and GPUs integrated and/or legacy."),
+            "ollamaVulkan",
+            "ollama-symbolic",
+            info_text=_("Ollama server is running.\nAddress: http://localhost:11434"),
+        )
+        self.create_sub_row(
+            ollamaServer,
+            _("Share Ollama"),
+            _("Share ollama on the local network."),
+            "ollamaShare",
+            "ollama-symbolic",
+            ollama,
+        )
+        # Ollama AMD ROCm
+        ollama = self.create_row(
+            ollamaServer,
+            _("Ollama AMD ROCm"),
+            _("Local AI server. For newer AMD GPUs, starting from the 6000 series."),
+            "ollamaAmd",
+            "ollama-symbolic",
+            info_text=_("Ollama server is running.\nAddress: http://localhost:11434"),
+        )
+        self.create_sub_row(
+            ollamaServer,
+            _("Share Ollama"),
+            _("Share ollama on the local network."),
+            "ollamaShare",
+            "ollama-symbolic",
+            ollama,
+        )
+        # Ollama Nvidia CUDA
+        ollama = self.create_row(
+            ollamaServer,
+            _("Ollama Nvidia CUDA"),
+            _("Local AI server. For newer Nvidia GPUs, starting from the 2000 series."),
+            "ollamaNvidia",
+            "ollama-symbolic",
+            info_text=_("Ollama server is running.\nAddress: http://localhost:11434"),
+        )
+        self.create_sub_row(
+            ollamaServer,
+            _("Share Ollama"),
+            _("Share ollama on the local network."),
+            "ollamaShare",
+            "ollama-symbolic",
+            ollama,
+        )
+        # Ollama LAB
         self.create_row(
-            group,
-            _("LibreThinker: AI Copilot for LibreOffice"),
-            _("Generative AI assistant for rewriting, summarizing, translating, and proofreading text. Use free models or your own API key (OpenAI, Mistral, Groq)."),
-            "librethinker",
-            "libreoffice-symbolic",
+            aiGui,
+            _("Ollama LAB"),
+            _("Graphical interface for managing Ollama models and chat."),
+            "ollamaLab",
+            "ollama-symbolic",
+        )
+        # ChatBox
+        self.create_row(
+            aiGui,
+            _("ChatBox"),
+            _("User-friendly Desktop Client App for AI Models/LLMs."),
+            "chatbox",
+            "chatbox-symbolic",
+        )
+        # LM Studio
+        self.create_row(
+            aiGui,
+            _("LM Studio"),
+            _("LM Studio - A desktop app for exploring and running large language models locally."),
+            "lmStudio",
+            "lmstudio-symbolic",
         )
 
         # Syncs

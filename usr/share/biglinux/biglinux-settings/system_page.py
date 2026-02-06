@@ -16,11 +16,20 @@ class SystemPage(BaseSettingsPage):
         content.append(group)
 
         # sshEnable
-        self.create_row(group,
+        ssh = self.create_row(
+            group,
+            _("SSH"),
+            _("Enable remote access via ssh."),
+            "sshStart",
+            "ssh-symbolic",
+        )
+        self.create_sub_row(
+            group,
             _("SSH always on"),
             _("Turn on ssh remote access at boot."),
             "sshEnable",
-            "ssh-symbolic"
+            "ssh-symbolic",
+            ssh,
         )
 
         # fastGrub

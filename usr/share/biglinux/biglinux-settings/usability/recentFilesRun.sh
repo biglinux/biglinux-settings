@@ -39,27 +39,27 @@ updateTask() {
     killall baloo_file dolphin kactivitymanagerd kioworker kiod6 > /dev/null 2>&1
     systemctl --user stop plasma-kactivitymanagerd.service > /dev/null 2>&1
 
-    # Remove trava off-the-record
+    # Remove off-the-record activities line
     sed -i '/off-the-record-activities/d' "$kactivitymanagerdFile"
 
-    # Configura rastreamento de atividades
+    # Configure activity tracking
     $kwriteConfig --file kactivitymanagerd-pluginsrc --group "Plugin-org.kde.ActivityManager.Resources.Scoring" --key "what-to-remember" "0"
     $kwriteConfig --file kactivitymanagerd-pluginsrc --group "Plugin-org.kde.ActivityManager.Resources.Scoring" --key "enabled" "true"
 
-    # Configura documentos recentes
+    # Configure recent documents
     $kwriteConfig --file kdeglobals --group RecentDocuments --key UseRecent true
     $kwriteConfig --file kdeglobals --group RecentDocuments --key MaxEntries 50
 
-    # Configura kioslave para arquivos recentes
+    # Configure kioslave for recent files
     $kwriteConfig --file kioslaverc --group "recentlyused" --key "MaxItems" "100"
     $kwriteConfig --file kioslaverc --group "recentlyused" --key "LocationsEnabled" "true"
     $kwriteConfig --file kioslaverc --group "recentlyused" --key "FilesEnabled" "true"
 
-    # Limpa e recria banco de dados
+    # Clear and recreate database
     rm -rf "$kactivitymanagerdDir"
     mkdir -p "$kactivitymanagerdDir"
 
-    # Recria recently-used.xbel
+    # Recreate recently-used.xbel
     [ -f "$xbelFile" ] && cp "$xbelFile" "$xbelFile.bak"
     echo '<?xml version="1.0" encoding="UTF-8"?>
   <xbel version="1.0"
@@ -69,7 +69,7 @@ updateTask() {
 
     chmod 644 "$xbelFile"
 
-    # Reinicia serviços
+    # Restart services
     systemctl --user start plasma-kactivitymanagerd.service > /dev/null 2>&1
     sleep 2
 
@@ -80,27 +80,27 @@ updateTask() {
     killall kiod6 > /dev/null 2>&1
 
     sleep 1
-    echo "100" # Garante que o zenity feche
+    echo "100" # Ensures Zenity closes
   else
-    # Para serviços
+    # Stop services
     killall dolphin kactivitymanagerd kioworker kiod6 > /dev/null 2>&1
     systemctl --user stop plasma-kactivitymanagerd.service > /dev/null 2>&1
 
-    # Desabilita rastreamento de atividades
+    # Disable activity tracking
     $kwriteConfig --file kactivitymanagerd-pluginsrc --group "Plugin-org.kde.ActivityManager.Resources.Scoring" --key "what-to-remember" "2"
     $kwriteConfig --file kactivitymanagerd-pluginsrc --group "Plugin-org.kde.ActivityManager.Resources.Scoring" --key "enabled" "false"
 
-    # Desabilita documentos recentes
+    # Disable recent documents
     $kwriteConfig --file kdeglobals --group RecentDocuments --key UseRecent false
 
-    # Desabilita kioslave para arquivos recentes
+    # Disable kioslave for recent files
     $kwriteConfig --file kioslaverc --group "recentlyused" --key "LocationsEnabled" "false"
     $kwriteConfig --file kioslaverc --group "recentlyused" --key "FilesEnabled" "false"
 
-    # Limpa banco de dados
+    # Clear database
     rm -rf "$kactivitymanagerdDir"
 
-    # Limpa recently-used.xbel
+    # Clear recently-used.xbel
     echo '<?xml version="1.0" encoding="UTF-8"?>
   <xbel version="1.0"
     xmlns:bookmark="http://www.freedesktop.org/standards/desktop-bookmarks"
@@ -109,19 +109,19 @@ updateTask() {
 
     chmod 644 "$xbelFile"
 
-    # Reinicia serviços
+    # Restart services
     systemctl --user start plasma-kactivitymanagerd.service > /dev/null 2>&1
     killall kiod6 > /dev/null 2>&1
 
     sleep 1
-    echo "100" # Garante que o zenity feche
+    echo "100" # Ensures Zenity closes
   fi
   return 0
 }
 # updateTask > "$pipePath"
 updateTask | zenity --progress --title="$zenityTitle" --text="$zenityText" --pulsate --auto-close --no-cancel
 
-# CAPTURA O STATUS DA FUNÇÃO (o primeiro comando do pipe)
+# CAPTURES THE STATUS OF THE FUNCTION (the first command in the pipe)
 exitCode=${PIPESTATUS[0]}
 
 # Shows the final result to the user, also with the correct theme.

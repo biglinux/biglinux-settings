@@ -1,12 +1,8 @@
 #!/bin/bash
 
-#Translation
-export TEXTDOMAINDIR="/usr/share/locale"
-export TEXTDOMAIN=biglinux-settings
-
 # check current status
 check_state() {
-  if systemctl --user is-active gamemoded --quiet && pacman -Q gamemode &>/dev/null; then
+  if [[ "$(systemctl is-active sshd)" == "active" ]];then
     echo "true"
   else
     echo "false"
@@ -17,16 +13,12 @@ check_state() {
 toggle_state() {
   new_state="$1"
   if [[ "$new_state" == "true" ]];then
-    if ! pacman -Q gamemoded &>/dev/null; then
-      pkexec $PWD/perf_games/gamemodeDaemonRun.sh "install" "$USER" "$DISPLAY" "$XAUTHORITY" "$DBUS_SESSION_BUS_ADDRESS" "$LANG" "$LANGUAGE"
-    fi
-    systemctl enable --now --user gamemoded.service
-    exitCode=$?
+      pkexec systemctl start sshd
+      exitCode=$?
   else
-    systemctl disable --now --user gamemoded.service
-    exitCode=$?
+      pkexec systemctl disable --now sshd
+      exitCode=$?
   fi
-  exit $exitCode
 }
 
 # Executes the function based on the parameter

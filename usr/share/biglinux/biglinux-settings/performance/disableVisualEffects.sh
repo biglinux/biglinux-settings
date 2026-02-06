@@ -1,15 +1,16 @@
 #!/bin/bash
 
-# Config File
-kcminputrcFile="$HOME/.config/kcminputrc"
+#Translation
+export TEXTDOMAINDIR="/usr/share/locale"
+export TEXTDOMAIN=biglinux-settings
 
 # check current status
 check_state() {
   if [[ "$XDG_CURRENT_DESKTOP" == *"KDE"* ]] || [[ "$XDG_CURRENT_DESKTOP" == *"Plasma"* ]];then
-    if [[ "$(LANG=C LANGUAGE=C kreadconfig6 --file "$kcminputrcFile" --group "Mouse" --key "NaturalScroll")" == "true" ]];then
-      echo "true"
-    else
+    if [[ -n "$(qdbus6 org.kde.KWin /Effects org.kde.kwin.Effects.loadedEffects)" ]]; then
       echo "false"
+    else
+      echo "true"
     fi
   # elif [[ "$XDG_CURRENT_DESKTOP" == *"GNOME"* ]];then
   #   if [[ "$someTest" == "true" ]];then
@@ -37,22 +38,21 @@ toggle_state() {
   new_state="$1"
   if [[ "$XDG_CURRENT_DESKTOP" == *"KDE"* ]] || [[ "$XDG_CURRENT_DESKTOP" == *"Plasma"* ]];then
     if [[ "$new_state" == "true" ]];then
-      kwriteconfig6 --file "$kcminputrcFile" --group "Mouse" --key "NaturalScroll" "true"
-
-      devices=$(qdbus6 org.kde.KWin | grep "/org/kde/KWin/InputDevice/event")
-      for device in $devices; do
-        qdbus6 org.kde.KWin "$device" org.kde.KWin.InputDevice.naturalScroll true &> /dev/null
+      effects=$(qdbus6 org.kde.KWin /Effects org.kde.kwin.Effects.loadedEffects)
+      rm $HOME/.config/biglinux-settings/effectsEnable
+      for effect in ${effects[@]}; do
+        mkdir -p $HOME/.config/biglinux-settings
+        echo $effect >> $HOME/.config/biglinux-settings/effectsEnable
+        kwriteconfig6 --file kwinrc --group Plugins --key ${effect}Enabled false
+        qdbus6 org.kde.KWin /Effects org.kde.kwin.Effects.unloadEffect $effect;
       done
-
       exitCode=$?
     else
-      kwriteconfig6 --file "$kcminputrcFile" --group "Mouse" --key "NaturalScroll" "false"
-
-      devices=$(qdbus6 org.kde.KWin | grep "/org/kde/KWin/InputDevice/event")
-      for device in $devices; do
-        qdbus6 org.kde.KWin "$device" org.kde.KWin.InputDevice.naturalScroll false &> /dev/null
+      effects=$(cat $HOME/.config/biglinux-settings/effectsEnable)
+      for effect in ${effects[@]}; do
+        kwriteconfig6 --file kwinrc --group Plugins --key ${effect}Enabled true
+        qdbus6 org.kde.KWin /Effects org.kde.kwin.Effects.loadEffect $effect
       done
-
       exitCode=$?
     fi
   # elif [[ "$XDG_CURRENT_DESKTOP" == *"GNOME"* ]];then
