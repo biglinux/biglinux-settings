@@ -43,7 +43,7 @@ updateGrubTask() {
   if [[ "$function" == "enable" ]]; then
     if grep -q "$parameter" "/etc/default/grub"; then
       # Already enabled, nothing to do. Inform zenity and exit the function gracefully.
-      echo $"Already disabled. No changes made." > "$pipePath"
+      echo $"Already enabled. No changes made." > "$pipePath"
       return
     elif grep -q "GRUB_CMDLINE_LINUX_DEFAULT=" "/etc/default/grub"; then
       # Add the parameter
