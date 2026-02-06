@@ -42,7 +42,8 @@ class DockerPage(BaseSettingsPage):
             _("Nextcloud Plus"),
             _("Nextcloud Plus container."),
             "nextcloud-plus",
-            "docker-nextcloud-plus-symbolic"
+            "docker-nextcloud-plus-symbolic",
+            info_text=_("Nextcloud Plus is running.\nAddress: http://localhost:8286"),
         )
         # BigLinux Docker AdGuard
         self.create_row(
@@ -50,31 +51,26 @@ class DockerPage(BaseSettingsPage):
             _("AdGuard"),
             _("AdGuard Home container."),
             "adguard",
-            "docker-adguard-symbolic"
+            "docker-adguard-symbolic",
+            info_text=_("AdGuard is running.\nAddress: http://localhost:3030"),
         )
-        # BigLinux Docker Django
-        self.create_row(
-            container_group,
-            _("Django"),
-            _("Django developer environment."),
-            "django",
-            "docker-django-symbolic"
-        )
-        # BigLinux Docker Duplicati
-        self.create_row(
-            container_group,
-            _("Duplicati"),
-            _("Duplicati backup solution."),
-            "duplicati",
-            "docker-duplicati-symbolic"
-        )
+        # # BigLinux Docker Duplicati
+        # self.create_row(
+        #     container_group,
+        #     _("Duplicati"),
+        #     _("Duplicati backup solution."),
+        #     "duplicati",
+        #     "docker-duplicati-symbolic",
+        #     info_text=_("Duplicati is running.\nAddress: http://localhost:????"),
+        # )
         # BigLinux Docker Jellyfin
         self.create_row(
             container_group,
             _("Jellyfin"),
             _("Jellyfin media server."),
             "jellyfin",
-            "docker-jellyfin-symbolic"
+            "docker-jellyfin-symbolic",
+            info_text=_("Jellyfin is running.\nAddress: http://localhost:8096"),
         )
         # BigLinux Docker LAMP
         self.create_row(
@@ -82,7 +78,8 @@ class DockerPage(BaseSettingsPage):
             _("LAMP"),
             _("LAMP stack (Linux, Apache, MySQL, PHP)."),
             "lamp",
-            "docker-lamp-symbolic"
+            "docker-lamp-symbolic",
+            info_text=_("LAMP is running.\nAddress: http://localhost:8080"),
         )
         # BigLinux Docker Portainer Client
         self.create_row(
@@ -90,7 +87,8 @@ class DockerPage(BaseSettingsPage):
             _("Portainer Client"),
             _("Portainer Agent for cluster management."),
             "portainer-client",
-            "docker-portainer-client-symbolic"
+            "docker-portainer-client-symbolic",
+            info_text=_("Portainer Client is running.\nAddress: http://localhost:9000"),
         )
         # BigLinux Docker SWS
         self.create_row(
@@ -98,7 +96,8 @@ class DockerPage(BaseSettingsPage):
             _("SWS"),
             _("SWS static web server."),
             "sws",
-            "docker-sws-symbolic"
+            "docker-sws-symbolic",
+            info_text=_("SWS is running.\nAddress: http://localhost:8182"),
         )
         # BigLinux Docker V2RayA
         self.create_row(
@@ -106,7 +105,8 @@ class DockerPage(BaseSettingsPage):
             _("V2RayA"),
             _("V2RayA network tool."),
             "v2raya",
-            "docker-v2raya-symbolic"
+            "docker-v2raya-symbolic",
+            info_text=_("V2RayA is running.\nAddress: http://localhost:2017"),
         )
 
         # Syncs
