@@ -13,7 +13,7 @@ from ai_page import AIPage
 from devices_page import DevicesPage
 from docker_page import DockerPage
 from gi.repository import Adw, Gdk, Gio, GLib, Gtk
-from performance_page import PerformanceGamesPage
+from performance_page import PerformancePage
 from preload_page import PreloadPage
 from system_page import SystemPage
 from usability_page import UsabilityPage
