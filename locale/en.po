@@ -95,6 +95,14 @@ msgid "Failed to install Ollama CUDA!"
 msgstr "Failed to install Ollama CUDA!"
 
 #
+msgid "Ollama shared successfully.\\nAddress: http://$localIp:11434"
+msgstr "Ollama shared successfully.\\nAddress: http://$localIp:11434"
+
+#
+msgid "Failed to shared Ollama!"
+msgstr "Failed to shared Ollama!"
+
+#
 msgid "Krita Install"
 msgstr "Krita Install"
 
@@ -405,42 +413,52 @@ msgid "General system settings."
 msgstr "General system settings."
 
 #
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_page.py, line: 20
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_page.py, line: 21
+msgid "SSH"
+msgstr "SSH"
+
+#
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_page.py, line: 22
+msgid "Enable remote access via ssh."
+msgstr "Enable remote access via ssh."
+
+#
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_page.py, line: 28
 msgid "SSH always on"
 msgstr "SSH always on"
 
 #
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_page.py, line: 21
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_page.py, line: 29
 msgid "Turn on ssh remote access at boot."
 msgstr "Turn on ssh remote access at boot."
 
 #
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_page.py, line: 29
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_page.py, line: 38
 msgid "Fast Grub"
 msgstr "Fast Grub"
 
 #
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_page.py, line: 30
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_page.py, line: 39
 msgid "Decreases grub display time."
 msgstr "Decreases grub display time."
 
 #
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_page.py, line: 38
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_page.py, line: 47
 msgid "Auto-mount Partitions"
 msgstr "Auto-mount Partitions"
 
 #
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_page.py, line: 39
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_page.py, line: 48
 msgid "Auto mount partitions in internal disks on boot."
 msgstr "Auto mount partitions in internal disks on boot."
 
 #
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_page.py, line: 48
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_page.py, line: 57
 msgid "Meltdown Mitigations off"
 msgstr "Meltdown Mitigations off"
 
 #
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_page.py, line: 49
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_page.py, line: 58
 #, python-brace-format
 msgid ""
 "Using mitigations=off will make your machine faster and less secure! For "
@@ -450,12 +468,12 @@ msgstr ""
 "more information see: <a href='{l}'>{l}</a>"
 
 #
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_page.py, line: 57
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_page.py, line: 66
 msgid "noWatchdog"
 msgstr "noWatchdog"
 
 #
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_page.py, line: 58
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_page.py, line: 67
 msgid ""
 "Disables the hardware watchdog and TSC clocksource systems, maintaining high "
 "performance but removing automatic protections against system crashes."
@@ -469,28 +487,28 @@ msgid "Reload all statuses"
 msgstr "Reload all statuses"
 
 #
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/base_page.py, line: 208
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/base_page.py, line: 225
 msgid "Unavailable: script not found."
 msgstr "Unavailable: script not found."
 
 #
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/base_page.py, line: 209
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/base_page.py, line: 251
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/base_page.py, line: 226
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/base_page.py, line: 268
 msgid "Script not found: {}"
 msgstr "Script not found: {}"
 
 #
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/base_page.py, line: 219
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/base_page.py, line: 236
 msgid "Enabled"
 msgstr "Enabled"
 
 #
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/base_page.py, line: 221
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/base_page.py, line: 238
 msgid "Disabled"
 msgstr "Disabled"
 
 #
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/base_page.py, line: 227
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/base_page.py, line: 244
 msgid ""
 "Enabled by system configuration (e.g., Real-Time Kernel) and cannot be "
 "changed here."
@@ -499,70 +517,70 @@ msgstr ""
 "changed here."
 
 #
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/base_page.py, line: 231
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/base_page.py, line: 248
 msgid "Unavailable: script returned invalid output."
 msgstr "Unavailable: script returned invalid output."
 
 #
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/base_page.py, line: 233
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/base_page.py, line: 250
 msgid "Invalid output from script {}: {}"
 msgstr "Invalid output from script {}: {}"
 
 #
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/base_page.py, line: 239
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/base_page.py, line: 256
 msgid "Unavailable: script returned an error."
 msgstr "Unavailable: script returned an error."
 
 #
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/base_page.py, line: 240
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/base_page.py, line: 257
 msgid "Error checking state: {}"
 msgstr "Error checking state: {}"
 
 #
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/base_page.py, line: 243
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/base_page.py, line: 260
 msgid "Unavailable: failed to run script."
 msgstr "Unavailable: failed to run script."
 
 #
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/base_page.py, line: 244
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/base_page.py, line: 289
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/base_page.py, line: 261
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/base_page.py, line: 306
 msgid "Error running script {}: {}"
 msgstr "Error running script {}: {}"
 
 #
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/base_page.py, line: 265
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/base_page.py, line: 282
 msgid "State changed successfully"
 msgstr "State changed successfully"
 
 #
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/base_page.py, line: 267
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/base_page.py, line: 284
 msgid "Script output: {}"
 msgstr "Script output: {}"
 
 #
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/base_page.py, line: 271
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/base_page.py, line: 288
 msgid "Script failed with exit code: {}"
 msgstr "Script failed with exit code: {}"
 
 #
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/base_page.py, line: 285
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/base_page.py, line: 302
 msgid "Script timeout: {}"
 msgstr "Script timeout: {}"
 
 #
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/base_page.py, line: 333
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/base_page.py, line: 351
 msgid "Switch {} synchronized: {}"
 msgstr "Switch {} synchronized: {}"
 
 #
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/base_page.py, line: 362
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/base_page.py, line: 380
 msgid "Indicator {} synchronized: {}"
 msgstr "Indicator {} synchronized: {}"
 
 #
 # #-#-#-#-#  biglinux-settings.pot (biglinux-settings)  #-#-#-#-#
 #
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/base_page.py, line: 379
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/base_page.py, line: 398
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings/docker_page.py, line: 189
 msgid "Changing {} to {}"
 msgstr "Changing {} to {}"
@@ -570,7 +588,7 @@ msgstr "Changing {} to {}"
 #
 # #-#-#-#-#  biglinux-settings.pot (biglinux-settings)  #-#-#-#-#
 #
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/base_page.py, line: 394
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/base_page.py, line: 413
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings/docker_page.py, line: 202
 msgid "ERROR: Failed to change {} to {}"
 msgstr "ERROR: Failed to change {} to {}"
@@ -578,7 +596,7 @@ msgstr "ERROR: Failed to change {} to {}"
 #
 # #-#-#-#-#  biglinux-settings.pot (biglinux-settings)  #-#-#-#-#
 #
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/base_page.py, line: 398
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/base_page.py, line: 417
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings/docker_page.py, line: 206
 msgid "Failed to change setting: {}"
 msgstr "Failed to change setting: {}"
@@ -627,27 +645,12 @@ msgid "Advanced audio effects processor that improves sound quality."
 msgstr "Advanced audio effects processor that improves sound quality."
 
 #
-# #-#-#-#-#  biglinux-settings.pot (biglinux-settings)  #-#-#-#-#
-#
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/devices_page.py, line: 44
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/ai_page.py, line: 57
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/ai_page.py, line: 66
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/ai_page.py, line: 75
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/ai_page.py, line: 84
-msgid ""
-"Ollama server is running.\n"
-"Address: http://localhost:11434"
-msgstr ""
-"Ollama server is running.\n"
-"Address: http://localhost:11434"
-
-#
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/devices_page.py, line: 50
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/devices_page.py, line: 49
 msgid "Keyboard LED"
 msgstr "Keyboard LED"
 
 #
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/devices_page.py, line: 51
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/devices_page.py, line: 50
 msgid ""
 "If your keyboard has LED you can enable this feature to turn it on with the "
 "system."
@@ -656,12 +659,12 @@ msgstr ""
 "system."
 
 #
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/devices_page.py, line: 59
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/devices_page.py, line: 58
 msgid "Reverse mouse scrolling"
 msgstr "Reverse mouse scrolling"
 
 #
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/devices_page.py, line: 60
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/devices_page.py, line: 59
 msgid "Reverse mouse scrolling without restarting the session."
 msgstr "Reverse mouse scrolling without restarting the session."
 
@@ -825,6 +828,18 @@ msgid "Local AI server. For CPUs only."
 msgstr "Local AI server. For CPUs only."
 
 #
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/ai_page.py, line: 57
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/ai_page.py, line: 66
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/ai_page.py, line: 75
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/ai_page.py, line: 84
+msgid ""
+"Ollama server is running.\n"
+"Address: http://localhost:11434"
+msgstr ""
+"Ollama server is running.\n"
+"Address: http://localhost:11434"
+
+#
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings/ai_page.py, line: 62
 msgid "Ollama Vulkan"
 msgstr "Ollama Vulkan"
@@ -855,32 +870,42 @@ msgid "Local AI server. For newer Nvidia GPUs, starting from the 2000 series."
 msgstr "Local AI server. For newer Nvidia GPUs, starting from the 2000 series."
 
 #
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/ai_page.py, line: 88
+msgid "Share Ollama"
+msgstr "Share Ollama"
+
+#
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings/ai_page.py, line: 89
+msgid "Share ollama on the local network."
+msgstr "Share ollama on the local network."
+
+#
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/ai_page.py, line: 97
 msgid "Ollama LAB"
 msgstr "Ollama LAB"
 
 #
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/ai_page.py, line: 90
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/ai_page.py, line: 98
 msgid "Graphical interface for managing Ollama models and chat."
 msgstr "Graphical interface for managing Ollama models and chat."
 
 #
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/ai_page.py, line: 97
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/ai_page.py, line: 105
 msgid "ChatBox"
 msgstr "ChatBox"
 
 #
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/ai_page.py, line: 98
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/ai_page.py, line: 106
 msgid "User-friendly Desktop Client App for AI Models/LLMs."
 msgstr "User-friendly Desktop Client App for AI Models/LLMs."
 
 #
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/ai_page.py, line: 105
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/ai_page.py, line: 113
 msgid "LM Studio"
 msgstr "LM Studio"
 
 #
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/ai_page.py, line: 106
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/ai_page.py, line: 114
 msgid ""
 "LM Studio - A desktop app for exploring and running large language models "
 "locally."
