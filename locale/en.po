@@ -293,22 +293,6 @@ msgid "An error occurred while install docker."
 msgstr "An error occurred while install docker."
 
 #
-msgid "GameMode Install"
-msgstr "GameMode Install"
-
-#
-msgid "Instaling GameMode, Please wait..."
-msgstr "Instaling GameMode, Please wait..."
-
-#
-msgid "GameMode installed successfully!"
-msgstr "GameMode installed successfully!"
-
-#
-msgid "Failed to install GameMode!"
-msgstr "Failed to install GameMode!"
-
-#
 msgid "Recent Files enabling...."
 msgstr "Recent Files enabling...."
 
@@ -699,20 +683,6 @@ msgid "Advanced audio effects processor that improves sound quality."
 msgstr "Advanced audio effects processor that improves sound quality."
 
 #
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/devices_page.py, line: 49
-msgid "Keyboard LED"
-msgstr "Keyboard LED"
-
-#
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/devices_page.py, line: 50
-msgid ""
-"If your keyboard has LED you can enable this feature to turn it on with the "
-"system."
-msgstr ""
-"If your keyboard has LED you can enable this feature to turn it on with the "
-"system."
-
-#
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings/devices_page.py, line: 58
 msgid "Reverse mouse scrolling"
 msgstr "Reverse mouse scrolling"
@@ -840,20 +810,6 @@ msgstr ""
 "and frees memory."
 
 #
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/performance_page.py, line: 42
-msgid "Compositor Settings"
-msgstr "Compositor Settings"
-
-#
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/performance_page.py, line: 43
-msgid ""
-"Configures compositor for low latency, allows tearing and disables "
-"animations. Minimizes compositing overhead and reduces input lag."
-msgstr ""
-"Configures compositor for low latency, allows tearing and disables "
-"animations. Minimizes compositing overhead and reduces input lag."
-
-#
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings/performance_page.py, line: 50
 msgid "CPU Maximum Performance"
 msgstr "CPU Maximum Performance"
@@ -868,20 +824,6 @@ msgstr ""
 "maximum frequency."
 
 #
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/performance_page.py, line: 58
-msgid "GPU Maximum Performance"
-msgstr "GPU Maximum Performance"
-
-#
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/performance_page.py, line: 59
-msgid ""
-"Forces maximum GPU performance mode (NVIDIA/AMD). Ensures the graphics card "
-"uses maximum frequency."
-msgstr ""
-"Forces maximum GPU performance mode (NVIDIA/AMD). Ensures the graphics card "
-"uses maximum frequency."
-
-#
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings/performance_page.py, line: 66
 msgid "Disable Baloo Indexer"
 msgstr "Disable Baloo Indexer"
@@ -893,25 +835,11 @@ msgstr "Disables the Baloo file indexer. Avoids disk I/O overhead."
 
 #
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings/performance_page.py, line: 74
-msgid "Stop Akonadi Server"
-msgstr "Stop Akonadi Server"
-
-#
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/performance_page.py, line: 75
-msgid ""
-"Stops the PIM data server (Kontact/Thunderbird). Reduces memory and disk "
-"overhead."
-msgstr ""
-"Stops the PIM data server (Kontact/Thunderbird). Reduces memory and disk "
-"overhead."
-
-#
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/performance_page.py, line: 82
 msgid "Unload S.M.A.R.T Monitor"
 msgstr "Unload S.M.A.R.T Monitor"
 
 #
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/performance_page.py, line: 83
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/performance_page.py, line: 75
 msgid "Disables S.M.A.R.T disk monitoring. Reduces disk I/O and CPU usage."
 msgstr "Disables S.M.A.R.T disk monitoring. Reduces disk I/O and CPU usage."
 
@@ -981,9 +909,9 @@ msgstr "Local AI server. For CPUs only."
 
 #
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings/ai_page.py, line: 57
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/ai_page.py, line: 66
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/ai_page.py, line: 75
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/ai_page.py, line: 84
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/ai_page.py, line: 74
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/ai_page.py, line: 91
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/ai_page.py, line: 108
 msgid ""
 "Ollama server is running.\n"
 "Address: http://localhost:11434"
@@ -992,72 +920,78 @@ msgstr ""
 "Address: http://localhost:11434"
 
 #
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/ai_page.py, line: 62
-msgid "Ollama Vulkan"
-msgstr "Ollama Vulkan"
-
-#
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/ai_page.py, line: 63
-msgid "Local AI server. For CPUs and GPUs integrated and/or legacy."
-msgstr "Local AI server. For CPUs and GPUs integrated and/or legacy."
-
-#
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/ai_page.py, line: 71
-msgid "Ollama AMD ROCm"
-msgstr "Ollama AMD ROCm"
-
-#
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/ai_page.py, line: 72
-msgid "Local AI server. For newer AMD GPUs, starting from the 6000 series."
-msgstr "Local AI server. For newer AMD GPUs, starting from the 6000 series."
-
-#
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/ai_page.py, line: 80
-msgid "Ollama Nvidia CUDA"
-msgstr "Ollama Nvidia CUDA"
-
-#
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/ai_page.py, line: 81
-msgid "Local AI server. For newer Nvidia GPUs, starting from the 2000 series."
-msgstr "Local AI server. For newer Nvidia GPUs, starting from the 2000 series."
-
-#
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/ai_page.py, line: 88
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/ai_page.py, line: 61
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/ai_page.py, line: 78
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/ai_page.py, line: 95
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/ai_page.py, line: 112
 msgid "Share Ollama"
 msgstr "Share Ollama"
 
 #
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/ai_page.py, line: 89
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/ai_page.py, line: 62
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/ai_page.py, line: 79
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/ai_page.py, line: 96
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/ai_page.py, line: 113
 msgid "Share ollama on the local network."
 msgstr "Share ollama on the local network."
 
 #
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/ai_page.py, line: 97
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/ai_page.py, line: 70
+msgid "Ollama Vulkan"
+msgstr "Ollama Vulkan"
+
+#
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/ai_page.py, line: 71
+msgid "Local AI server. For CPUs and GPUs integrated and/or legacy."
+msgstr "Local AI server. For CPUs and GPUs integrated and/or legacy."
+
+#
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/ai_page.py, line: 87
+msgid "Ollama AMD ROCm"
+msgstr "Ollama AMD ROCm"
+
+#
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/ai_page.py, line: 88
+msgid "Local AI server. For newer AMD GPUs, starting from the 6000 series."
+msgstr "Local AI server. For newer AMD GPUs, starting from the 6000 series."
+
+#
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/ai_page.py, line: 104
+msgid "Ollama Nvidia CUDA"
+msgstr "Ollama Nvidia CUDA"
+
+#
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/ai_page.py, line: 105
+msgid "Local AI server. For newer Nvidia GPUs, starting from the 2000 series."
+msgstr "Local AI server. For newer Nvidia GPUs, starting from the 2000 series."
+
+#
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/ai_page.py, line: 121
 msgid "Ollama LAB"
 msgstr "Ollama LAB"
 
 #
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/ai_page.py, line: 98
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/ai_page.py, line: 122
 msgid "Graphical interface for managing Ollama models and chat."
 msgstr "Graphical interface for managing Ollama models and chat."
 
 #
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/ai_page.py, line: 105
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/ai_page.py, line: 129
 msgid "ChatBox"
 msgstr "ChatBox"
 
 #
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/ai_page.py, line: 106
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/ai_page.py, line: 130
 msgid "User-friendly Desktop Client App for AI Models/LLMs."
 msgstr "User-friendly Desktop Client App for AI Models/LLMs."
 
 #
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/ai_page.py, line: 113
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/ai_page.py, line: 137
 msgid "LM Studio"
 msgstr "LM Studio"
 
 #
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/ai_page.py, line: 114
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/ai_page.py, line: 138
 msgid ""
 "LM Studio - A desktop app for exploring and running large language models "
 "locally."
