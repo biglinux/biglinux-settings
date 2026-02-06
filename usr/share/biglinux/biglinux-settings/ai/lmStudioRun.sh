@@ -27,6 +27,9 @@ mkfifo "$pipePath"
 if [[ "$function" == "install" ]]; then
   zenityTitle=$"LM Studio Install"
   zenityText=$"Instaling LM Studio, Please wait..."
+else
+  zenityTitle=$"LM Studio Uninstall"
+  zenityText=$"Uninstaling LM Studio, Please wait..."
 fi
 runAsUser "zenity --progress --title=\"$zenityTitle\" --text=\"$zenityText\" --pulsate --auto-close --no-cancel < '$pipePath'" &
 

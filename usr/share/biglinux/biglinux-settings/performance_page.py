@@ -1,7 +1,7 @@
 from base_page import BaseSettingsPage, _
 
 
-class PerformanceGamesPage(BaseSettingsPage):
+class PerformancePage(BaseSettingsPage):
     def __init__(self, main_window, **kwargs):
         super().__init__(main_window, **kwargs)
 
@@ -14,17 +14,17 @@ class PerformanceGamesPage(BaseSettingsPage):
         performance_group = self.create_group(
             _("Performance"),
             _("BigLinux performance tweaks."),
-            "perf_games"
+            "performance"
         )
         content.append(performance_group)
 
-        # Games
-        games_group = self.create_group(
-            _("Games Booster"),
-            _("Combination of daemon and library that allows games to request a set of optimizations be temporarily applied to the operating system and/or the game process."),
-            "perf_games"
-        )
-        content.append(games_group)
+        # # Games
+        # games_group = self.create_group(
+        #     _("Games Booster"),
+        #     _("Combination of daemon and library that allows games to request a set of optimizations be temporarily applied to the operating system and/or the game process."),
+        #     "perf_games"
+        # )
+        # content.append(games_group)
 
 
         ## Performance ##
@@ -87,22 +87,22 @@ class PerformanceGamesPage(BaseSettingsPage):
 
 
 
-        ## GAMES ##
-        # Game Mode Daemon
-        gameMode = self.create_row(
-            games_group,
-            _("GameMode Daemon"),
-            _("Activates daemon that adjusts CPU, I/O, etc. Reduces latency and increases frame rate."),
-            "gamemodeDaemon",
-            "gamemode-daemon-symbolic"
-        )
-        # self.create_sub_row(
+        # ## GAMES ##
+        # # Game Mode Daemon
+        # gameMode = self.create_row(
         #     games_group,
-        #     _("Sub‑Feature B"),
-        #     _("Option B for the main feature."),
+        #     _("GameMode Daemon"),
+        #     _("Activates daemon that adjusts CPU, I/O, etc. Reduces latency and increases frame rate."),
         #     "gamemodeDaemon",
-        #     "gamemode-daemon-symbolic",
-        #     gameMode
+        #     "gamemode-daemon-symbolic"
         # )
+        # # self.create_sub_row(
+        # #     games_group,
+        # #     _("Sub‑Feature B"),
+        # #     _("Option B for the main feature."),
+        # #     "gamemodeDaemon",
+        # #     "gamemode-daemon-symbolic",
+        # #     gameMode
+        # # )
 
         self.sync_all_switches()

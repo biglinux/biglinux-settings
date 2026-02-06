@@ -27,6 +27,9 @@ mkfifo "$pipePath"
 if [[ "$function" == "install" ]]; then
   zenityTitle=$"Ollama Lab Install"
   zenityText=$"Instaling Ollama Lab, Please wait..."
+else
+  zenityTitle=$"Ollama Lab Uninstall"
+  zenityText=$"Unistaling Ollama Lab, Please wait..."
 fi
 runAsUser "zenity --progress --title=\"$zenityTitle\" --text=\"$zenityText\" --pulsate --auto-close --no-cancel < '$pipePath'" &
 

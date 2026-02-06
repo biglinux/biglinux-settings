@@ -33,15 +33,6 @@ class UsabilityPage(BaseSettingsPage):
             "window-controls-symbolic"
         )
 
-        # sshStart
-        self.create_row(
-            group,
-            _("SSH until next reboot"),
-            _("Enable remote access via ssh until next boot."),
-            "sshStart",
-            "ssh-symbolic"
-        )
-
         # KZones
         self.create_row(
             group,

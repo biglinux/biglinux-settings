@@ -27,6 +27,9 @@ mkfifo "$pipePath"
 if [[ "$function" == "install" ]]; then
   zenityTitle=$"ChatBox Install"
   zenityText=$"Instaling ChatBox, Please wait..."
+else
+  zenityTitle=$"ChatBox Uninstall"
+  zenityText=$"Uninstaling ChatBox, Please wait..."
 fi
 runAsUser "zenity --progress --title=\"$zenityTitle\" --text=\"$zenityText\" --pulsate --auto-close --no-cancel < '$pipePath'" &
 

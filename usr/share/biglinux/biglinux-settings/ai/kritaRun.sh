@@ -27,6 +27,9 @@ mkfifo "$pipePath"
 if [[ "$function" == "install" ]]; then
   zenityTitle=$"Krita Install"
   zenityText=$"Instaling Krita, Please wait..."
+else
+  zenityTitle=$"Krita Uninstall"
+  zenityText=$"Uninstaling Krita, Please wait..."
 fi
 runAsUser "zenity --progress --title=\"$zenityTitle\" --text=\"$zenityText\" --pulsate --auto-close --no-cancel < '$pipePath'" &
 
