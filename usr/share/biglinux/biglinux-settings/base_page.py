@@ -6,6 +6,7 @@ import gettext
 import locale
 import os
 import subprocess
+import socket
 
 from gi.repository import Adw, Gio, Gtk
 from typing import Optional
@@ -36,6 +37,17 @@ class BaseSettingsPage(Adw.Bin):
         self.status_indicators = {}
         # Mapping: parent_switch -> list of child row widgets
         self.sub_switches = {}
+
+    def get_local_ip(self):
+        s = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
+        try:
+            s.connect(("10.255.255.255", 1))
+            ip = s.getsockname()[0]
+        except Exception:
+            ip = "127.0.0.1"
+        finally:
+            s.close()
+        return ip
 
     def create_scrolled_content(self):
         """Cria a estrutura básica de scroll e box vertical."""
@@ -247,7 +259,7 @@ class BaseSettingsPage(Adw.Bin):
                 else:
                     msg = _("Unavailable: script returned invalid output.")
                     print(
-                        _("Invalid output from script {}: {}").format(
+                        _("output from script {}: {}").format(
                             script_path, result.stdout.strip()
                         )
                     )

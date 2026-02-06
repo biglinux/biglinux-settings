@@ -4,6 +4,8 @@ class AIPage(BaseSettingsPage):
     def __init__(self, main_window, **kwargs):
         super().__init__(main_window, **kwargs)
 
+        local_ip = self.get_local_ip()
+
         # Create the container (base method)
         content = self.create_scrolled_content()
 
@@ -63,6 +65,7 @@ class AIPage(BaseSettingsPage):
             "ollamaShare",
             "ollama-symbolic",
             ollama,
+            info_text=_("Ollama server is running.\nAddress: http://{}:11434").format(local_ip),
         )
         # Ollama Vulkan
         ollama = self.create_row(
@@ -80,6 +83,7 @@ class AIPage(BaseSettingsPage):
             "ollamaShare",
             "ollama-symbolic",
             ollama,
+            info_text=_("Ollama server is running.\nAddress: http://{}:11434").format(local_ip),
         )
         # Ollama AMD ROCm
         ollama = self.create_row(
@@ -97,6 +101,7 @@ class AIPage(BaseSettingsPage):
             "ollamaShare",
             "ollama-symbolic",
             ollama,
+            info_text=_("Ollama server is running.\nAddress: http://{}:11434").format(local_ip),
         )
         # Ollama Nvidia CUDA
         ollama = self.create_row(
@@ -114,6 +119,7 @@ class AIPage(BaseSettingsPage):
             "ollamaShare",
             "ollama-symbolic",
             ollama,
+            info_text=_("Ollama server is running.\nAddress: http://{}:11434").format(local_ip),
         )
         # Ollama LAB
         self.create_row(

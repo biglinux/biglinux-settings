@@ -27,8 +27,12 @@ runAsUser() {
 updateTask() {
   if [[ "$function" == "install" ]]; then
     sed -i /'WorkingDirectory=/{p;s/.*/Environment="OLLAMA_HOST=0.0.0.0"/;}' /usr/lib/systemd/system/ollama.service
+    systemctl daemon-reload
+    systemctl restart ollama.service
   else
     sed -i '/Environment="OLLAMA_HOST=0.0.0.0"/d' /usr/lib/systemd/system/ollama.service
+    systemctl daemon-reload
+    systemctl restart ollama.service
   fi
   exitCode=$?
 }

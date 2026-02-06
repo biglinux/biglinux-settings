@@ -29,14 +29,6 @@ if [[ "$XDG_CURRENT_DESKTOP" == *"KDE"* ]] || [[ "$XDG_CURRENT_DESKTOP" == *"Pla
 fi
 }
 
-reload_kwin() {
-  if [ "$XDG_SESSION_TYPE" = "wayland" ]; then
-      kwin_wayland --replace &
-  else
-      kwin_x11 --replace &
-  fi
-}
-
 # change the state
 toggle_state() {
   new_state="$1"
@@ -45,14 +37,12 @@ toggle_state() {
       if ! pacman -Q kwin-scripts-kzones &>/dev/null; then
         pkexec $PWD/usability/kzonesRun.sh "install" "$USER" "$DISPLAY" "$XAUTHORITY" "$DBUS_SESSION_BUS_ADDRESS" "$LANG" "$LANGUAGE"
       fi
-      zenity --info --text='Kzones will RESTART Plasma, SAVE all programs!!!'
       kwriteconfig6 --file kwinrc --group Plugins --key kzonesEnabled true
-      reload_kwin
+      qdbus6 org.kde.KWin /KWin reconfigure
       exitCode=$?
     else
-      zenity --info --text='Kzones will RESTART Plasma, SAVE all programs!!!'
       kwriteconfig6 --file kwinrc --group Plugins --key kzonesEnabled false
-      reload_kwin
+      qdbus6 org.kde.KWin /KWin reconfigure
       exitCode=$?
     fi
   # elif [[ "$XDG_CURRENT_DESKTOP" == *"GNOME"* ]];then
