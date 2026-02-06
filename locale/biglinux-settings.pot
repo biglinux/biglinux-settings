@@ -23,6 +23,14 @@ msgid   "Instaling Ollama, Please wait..."
 msgstr  ""
 
 #
+msgid   "Ollama Uninstall"
+msgstr  ""
+
+#
+msgid   "Unistaling Ollama, Please wait..."
+msgstr  ""
+
+#
 msgid   "Ollama installed successfully!"
 msgstr  ""
 
@@ -43,6 +51,14 @@ msgid   "Instaling LM Studio, Please wait..."
 msgstr  ""
 
 #
+msgid   "LM Studio Uninstall"
+msgstr  ""
+
+#
+msgid   "Uninstaling LM Studio, Please wait..."
+msgstr  ""
+
+#
 msgid   "LM Studio installed successfully!"
 msgstr  ""
 
@@ -59,6 +75,14 @@ msgid   "Instaling ChatBox, Please wait..."
 msgstr  ""
 
 #
+msgid   "ChatBox Uninstall"
+msgstr  ""
+
+#
+msgid   "Uninstaling ChatBox, Please wait..."
+msgstr  ""
+
+#
 msgid   "ChatBox installed successfully!"
 msgstr  ""
 
@@ -68,6 +92,14 @@ msgstr  ""
 
 #
 msgid   "Ollama Vulkan Install"
+msgstr  ""
+
+#
+msgid   "Ollama Vulkan Uninstall"
+msgstr  ""
+
+#
+msgid   "Unistaling Ollama Vulkan, Please wait..."
 msgstr  ""
 
 #
@@ -84,6 +116,14 @@ msgstr  ""
 
 #
 msgid   "Instaling Ollama CUDA, Please wait..."
+msgstr  ""
+
+#
+msgid   "Ollama CUDA Uninstall"
+msgstr  ""
+
+#
+msgid   "Unistaling Ollama CUDA, Please wait..."
 msgstr  ""
 
 #
@@ -111,6 +151,14 @@ msgid   "Instaling Krita, Please wait..."
 msgstr  ""
 
 #
+msgid   "Krita Uninstall"
+msgstr  ""
+
+#
+msgid   "Uninstaling Krita, Please wait..."
+msgstr  ""
+
+#
 msgid   "Krita installed successfully!"
 msgstr  ""
 
@@ -127,6 +175,14 @@ msgid   "Instaling Ollama Lab, Please wait..."
 msgstr  ""
 
 #
+msgid   "Ollama Lab Uninstall"
+msgstr  ""
+
+#
+msgid   "Unistaling Ollama Lab, Please wait..."
+msgstr  ""
+
+#
 msgid   "Ollama Lab installed successfully!"
 msgstr  ""
 
@@ -140,6 +196,14 @@ msgstr  ""
 
 #
 msgid   "Instaling Ollama ROCm, Please wait..."
+msgstr  ""
+
+#
+msgid   "Ollama ROCm Uninstall"
+msgstr  ""
+
+#
+msgid   "Unistaling Ollama ROCm, Please wait..."
 msgstr  ""
 
 #
@@ -356,32 +420,22 @@ msgstr  ""
 
 #
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings/usability_page.py, line: 39
-msgid   "SSH until next reboot"
-msgstr  ""
-
-#
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/usability_page.py, line: 40
-msgid   "Enable remote access via ssh until next boot."
-msgstr  ""
-
-#
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/usability_page.py, line: 48
 msgid   "KZones"
 msgstr  ""
 
 #
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/usability_page.py, line: 49
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/usability_page.py, line: 40
 msgid   "Script for the KWin window manager of the KDE Plasma desktop "
         "environment."
 msgstr  ""
 
 #
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/usability_page.py, line: 57
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/usability_page.py, line: 48
 msgid   "Recent Files & Locations"
 msgstr  ""
 
 #
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/usability_page.py, line: 58
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/usability_page.py, line: 49
 msgid   "Restores the 'Recent Files' and 'Recent Locations' functionality "
         "that appears empty in Dolphin and the Application Menu."
 msgstr  ""
@@ -685,8 +739,11 @@ msgid   "Docker"
 msgstr  ""
 
 #
+# #-#-#-#-#  biglinux-settings.pot (biglinux-settings)  #-#-#-#-#
+#
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 270
-msgid   "Performance and Games"
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/performance_page.py, line: 15
+msgid   "Performance"
 msgstr  ""
 
 #
@@ -737,6 +794,86 @@ msgstr  ""
 #
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings/preload_page.py, line: 25
 msgid   "Libreoffice"
+msgstr  ""
+
+#
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/performance_page.py, line: 16
+msgid   "BigLinux performance tweaks."
+msgstr  ""
+
+#
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/performance_page.py, line: 34
+msgid   "Disable Visual Effects"
+msgstr  ""
+
+#
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/performance_page.py, line: 35
+msgid   "Disables KWin visual effects (blur, shadows, animations). Reduces "
+        "GPU load and frees memory."
+msgstr  ""
+
+#
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/performance_page.py, line: 42
+msgid   "Compositor Settings"
+msgstr  ""
+
+#
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/performance_page.py, line: 43
+msgid   "Configures compositor for low latency, allows tearing and disables "
+        "animations. Minimizes compositing overhead and reduces input lag."
+msgstr  ""
+
+#
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/performance_page.py, line: 50
+msgid   "CPU Maximum Performance"
+msgstr  ""
+
+#
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/performance_page.py, line: 51
+msgid   "Forces maximum processor performance mode. Ensures the processor "
+        "uses maximum frequency."
+msgstr  ""
+
+#
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/performance_page.py, line: 58
+msgid   "GPU Maximum Performance"
+msgstr  ""
+
+#
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/performance_page.py, line: 59
+msgid   "Forces maximum GPU performance mode (NVIDIA/AMD). Ensures the "
+        "graphics card uses maximum frequency."
+msgstr  ""
+
+#
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/performance_page.py, line: 66
+msgid   "Disable Baloo Indexer"
+msgstr  ""
+
+#
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/performance_page.py, line: 67
+msgid   "Disables the Baloo file indexer. Avoids disk I/O overhead."
+msgstr  ""
+
+#
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/performance_page.py, line: 74
+msgid   "Stop Akonadi Server"
+msgstr  ""
+
+#
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/performance_page.py, line: 75
+msgid   "Stops the PIM data server (Kontact/Thunderbird). Reduces memory and "
+        "disk overhead."
+msgstr  ""
+
+#
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/performance_page.py, line: 82
+msgid   "Unload S.M.A.R.T Monitor"
+msgstr  ""
+
+#
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/performance_page.py, line: 83
+msgid   "Disables S.M.A.R.T disk monitoring. Reduces disk I/O and CPU usage."
 msgstr  ""
 
 #
@@ -1011,112 +1148,4 @@ msgstr  ""
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings/docker_page.py, line: 109
 msgid   "V2RayA is running.\n"
         "Address: http://localhost:2017"
-msgstr  ""
-
-#
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/performance_games_page.py, line: 15
-msgid   "Performance"
-msgstr  ""
-
-#
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/performance_games_page.py, line: 16
-msgid   "BigLinux performance tweaks."
-msgstr  ""
-
-#
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/performance_games_page.py, line: 23
-msgid   "Games Booster"
-msgstr  ""
-
-#
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/performance_games_page.py, line: 24
-msgid   "Combination of daemon and library that allows games to request a set "
-        "of optimizations be temporarily applied to the operating system and/"
-        "or the game process."
-msgstr  ""
-
-#
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/performance_games_page.py, line: 34
-msgid   "Disable Visual Effects"
-msgstr  ""
-
-#
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/performance_games_page.py, line: 35
-msgid   "Disables KWin visual effects (blur, shadows, animations). Reduces "
-        "GPU load and frees memory."
-msgstr  ""
-
-#
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/performance_games_page.py, line: 42
-msgid   "Compositor Settings"
-msgstr  ""
-
-#
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/performance_games_page.py, line: 43
-msgid   "Configures compositor for low latency, allows tearing and disables "
-        "animations. Minimizes compositing overhead and reduces input lag."
-msgstr  ""
-
-#
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/performance_games_page.py, line: 50
-msgid   "CPU Maximum Performance"
-msgstr  ""
-
-#
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/performance_games_page.py, line: 51
-msgid   "Forces maximum processor performance mode. Ensures the processor "
-        "uses maximum frequency."
-msgstr  ""
-
-#
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/performance_games_page.py, line: 58
-msgid   "GPU Maximum Performance"
-msgstr  ""
-
-#
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/performance_games_page.py, line: 59
-msgid   "Forces maximum GPU performance mode (NVIDIA/AMD). Ensures the "
-        "graphics card uses maximum frequency."
-msgstr  ""
-
-#
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/performance_games_page.py, line: 66
-msgid   "Disable Baloo Indexer"
-msgstr  ""
-
-#
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/performance_games_page.py, line: 67
-msgid   "Disables the Baloo file indexer. Avoids disk I/O overhead."
-msgstr  ""
-
-#
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/performance_games_page.py, line: 74
-msgid   "Stop Akonadi Server"
-msgstr  ""
-
-#
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/performance_games_page.py, line: 75
-msgid   "Stops the PIM data server (Kontact/Thunderbird). Reduces memory and "
-        "disk overhead."
-msgstr  ""
-
-#
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/performance_games_page.py, line: 82
-msgid   "Unload S.M.A.R.T Monitor"
-msgstr  ""
-
-#
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/performance_games_page.py, line: 83
-msgid   "Disables S.M.A.R.T disk monitoring. Reduces disk I/O and CPU usage."
-msgstr  ""
-
-#
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/performance_games_page.py, line: 94
-msgid   "GameMode Daemon"
-msgstr  ""
-
-#
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/performance_games_page.py, line: 95
-msgid   "Activates daemon that adjusts CPU, I/O, etc. Reduces latency and "
-        "increases frame rate."
 msgstr  ""
