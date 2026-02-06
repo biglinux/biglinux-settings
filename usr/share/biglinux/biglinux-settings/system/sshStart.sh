@@ -16,7 +16,7 @@ toggle_state() {
       pkexec systemctl start sshd
       exitCode=$?
   else
-      pkexec systemctl stop sshd
+      pkexec systemctl disable --now sshd
       exitCode=$?
   fi
 }

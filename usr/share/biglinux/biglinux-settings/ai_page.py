@@ -48,7 +48,7 @@ class AIPage(BaseSettingsPage):
             "chatai-symbolic",
         )
         # Ollama CPU
-        self.create_row(
+        ollama = self.create_row(
             ollamaServer,
             _("OllamaCPU"),
             _("Local AI server. For CPUs only."),
@@ -57,7 +57,7 @@ class AIPage(BaseSettingsPage):
             info_text=_("Ollama server is running.\nAddress: http://localhost:11434"),
         )
         # Ollama Vulkan
-        self.create_row(
+        ollama = self.create_row(
             ollamaServer,
             _("Ollama Vulkan"),
             _("Local AI server. For CPUs and GPUs integrated and/or legacy."),
@@ -66,7 +66,7 @@ class AIPage(BaseSettingsPage):
             info_text=_("Ollama server is running.\nAddress: http://localhost:11434"),
         )
         # Ollama AMD ROCm
-        self.create_row(
+        ollama = self.create_row(
             ollamaServer,
             _("Ollama AMD ROCm"),
             _("Local AI server. For newer AMD GPUs, starting from the 6000 series."),
@@ -75,13 +75,21 @@ class AIPage(BaseSettingsPage):
             info_text=_("Ollama server is running.\nAddress: http://localhost:11434"),
         )
         # Ollama Nvidia CUDA
-        self.create_row(
+        ollama = self.create_row(
             ollamaServer,
             _("Ollama Nvidia CUDA"),
             _("Local AI server. For newer Nvidia GPUs, starting from the 2000 series."),
             "ollamaNvidia",
             "ollama-symbolic",
             info_text=_("Ollama server is running.\nAddress: http://localhost:11434"),
+        )
+        self.create_sub_row(
+            ollamaServer,
+            _("Share Ollama"),
+            _("Share ollama on the local network."),
+            "ollamaShare",
+            "ollama-symbolic",
+            ollama,
         )
         # Ollama LAB
         self.create_row(

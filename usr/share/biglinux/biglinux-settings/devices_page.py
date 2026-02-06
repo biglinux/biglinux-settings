@@ -41,7 +41,6 @@ class DevicesPage(BaseSettingsPage):
             _("Advanced audio effects processor that improves sound quality."),
             "jamesdsp",
             "jamesdsp-symbolic",
-            info_text=_("Ollama server is running.\nAddress: http://localhost:11434"),
         )
 
         # Keyboard LED

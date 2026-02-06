@@ -77,7 +77,7 @@ class PerformanceGamesPage(BaseSettingsPage):
             "stop-akonadi-server-symbolic"
         )
         # Unload S.M.A.R.T Monitor
-        smart = self.create_row(
+        self.create_row(
             performance_group,
             _("Unload S.M.A.R.T Monitor"),
             _("Disables S.M.A.R.T disk monitoring. Reduces disk I/O and CPU usage."),
