@@ -139,6 +139,18 @@ msgstr ""
 "\\n"
 "오른쪽 하단에 열리는 창에서.\\n"
 "구성 > 로컬 관리 서버를 클릭하고, GPU 또는 CPU를 선택하고, 작업 부하에서 모델을 선택한 후 설치를 클릭하세요."
+msgid "Example Install"
+msgstr "예제 설치"
+msgid "Instaling Example, Please wait..."
+msgstr "예제 설치 중, 잠시만 기다려 주십시오..."
+msgid "Example Uninstall"
+msgstr "예제 제거"
+msgid "Uninstaling Example, Please wait..."
+msgstr "예제 제거 중, 잠시만 기다려 주십시오..."
+msgid "Example installed successfully!"
+msgstr "예제가 성공적으로 설치되었습니다!"
+msgid "Failed to install Example!"
+msgstr "설치에 실패했습니다 예제!"
 msgid "Installing $package"
 msgstr "$package 설치 중"
 msgid "Installing $package, Please wait..."
@@ -282,6 +294,10 @@ msgstr "SSH"
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_page.py, line: 22
 msgid "Enable remote access via ssh."
 msgstr "SSH를 통한 원격 액세스를 활성화합니다."
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_page.py, line: 27
+msgid "SSH Address: {}"
+msgstr "SSH 주소: {}"
 # 
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_usability_page.py, line: 147
 msgid "SSH always on"
@@ -628,6 +644,21 @@ msgstr "크리타를 위한 생성적 AI"
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings/ai_page.py, line: 37
 msgid "This is a plugin to use generative AI in painting and image editing workflows directly in Krita."
 msgstr "이것은 Krita에서 직접 생성적 AI를 사용하여 그림 및 이미지 편집 작업 흐름에 사용하는 플러그인입니다."
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/ai_page.py, line: 43
+msgid ""
+"Open Krita, open an existing drawing or create a new one.\n"
+"In the top panel go to Settings > Panels > check the AI Image Generation box.\n"
+"\n"
+"In the window that opens on the bottom right.\n"
+"Click Configure > Local Managed Server, choose your GPU or CPU, choose the model in Workloads and "
+"click Install."
+msgstr ""
+"Krita를 열고 기존 그림을 열거나 새 그림을 만드세요.  \n"
+"상단 패널에서 설정 > 패널로 이동하여 AI 이미지 생성 상자를 체크하세요.  \n"
+"\n"
+"오른쪽 하단에 열리는 창에서  \n"
+"구성 > 로컬 관리 서버를 클릭하고, GPU 또는 CPU를 선택한 후, 작업 부하에서 모델을 선택하고 설치를 클릭하세요."
 # 
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings/ai_page.py, line: 46
 msgid "ChatAI"

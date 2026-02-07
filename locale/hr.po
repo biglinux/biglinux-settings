@@ -140,6 +140,18 @@ msgstr ""
 "U prozoru koji se otvara u donjem desnom kutu.\\n"
 "Kliknite Konfiguriraj > Lokalni upravljani poslužitelj, odaberite svoj GPU ili CPU, odaberite model "
 "u Opterećenjima i kliknite Instaliraj."
+msgid "Example Install"
+msgstr "Primjer instalacije"
+msgid "Instaling Example, Please wait..."
+msgstr "Instalacija primjera, molimo pričekajte..."
+msgid "Example Uninstall"
+msgstr "Primjer deinstalacije"
+msgid "Uninstaling Example, Please wait..."
+msgstr "Deinstalacija primjera, molimo pričekajte..."
+msgid "Example installed successfully!"
+msgstr "Primjer je uspješno instaliran!"
+msgid "Failed to install Example!"
+msgstr "Instalacija primjera nije uspjela!"
 msgid "Installing $package"
 msgstr "Instaliranje $package"
 msgid "Installing $package, Please wait..."
@@ -285,6 +297,10 @@ msgstr "SSH"
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_page.py, line: 22
 msgid "Enable remote access via ssh."
 msgstr "Omogućite daljinski pristup putem ssh-a."
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_page.py, line: 27
+msgid "SSH Address: {}"
+msgstr "SSH adresa: {}"
 # 
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_usability_page.py, line: 147
 msgid "SSH always on"
@@ -631,6 +647,22 @@ msgstr "Generativna AI za Krita"
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings/ai_page.py, line: 37
 msgid "This is a plugin to use generative AI in painting and image editing workflows directly in Krita."
 msgstr "Ovo je dodatak za korištenje generativne AI u slikanju i uređivanju slika izravno u Kriti."
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/ai_page.py, line: 43
+msgid ""
+"Open Krita, open an existing drawing or create a new one.\n"
+"In the top panel go to Settings > Panels > check the AI Image Generation box.\n"
+"\n"
+"In the window that opens on the bottom right.\n"
+"Click Configure > Local Managed Server, choose your GPU or CPU, choose the model in Workloads and "
+"click Install."
+msgstr ""
+"Otvorite Krita, otvorite postojeći crtež ili stvorite novi.\n"
+"U gornjem izborniku idite na Postavke > Ploče > označite okvir za Generiranje slika pomoću AI.\n"
+"\n"
+"U prozoru koji se otvori u donjem desnom kutu.\n"
+"Kliknite Konfiguriraj > Lokalni upravljani poslužitelj, odaberite svoj GPU ili CPU, odaberite model "
+"u Opterećenjima i kliknite Instaliraj."
 # 
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings/ai_page.py, line: 46
 msgid "ChatAI"

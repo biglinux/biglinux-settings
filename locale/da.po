@@ -140,6 +140,18 @@ msgstr ""
 "I vinduet der åbner nederst til højre.\\n"
 "Klik på Konfigurer > Lokalt Administreret Server, vælg din GPU eller CPU, vælg modellen i "
 "Arbejdsbelastninger og klik på Installer."
+msgid "Example Install"
+msgstr "Eksempelinstallation"
+msgid "Instaling Example, Please wait..."
+msgstr "Installerer eksempel, vent venligst..."
+msgid "Example Uninstall"
+msgstr "Eksempel Afinstaller"
+msgid "Uninstaling Example, Please wait..."
+msgstr "Afinstallerer eksempel, vent venligst..."
+msgid "Example installed successfully!"
+msgstr "Eksempel installeret med succes!"
+msgid "Failed to install Example!"
+msgstr "Fejl ved installation af Eksempel!"
 msgid "Installing $package"
 msgstr "Installerer $package"
 msgid "Installing $package, Please wait..."
@@ -297,6 +309,10 @@ msgstr "SSH"
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_page.py, line: 22
 msgid "Enable remote access via ssh."
 msgstr "Aktivér fjernadgang via ssh."
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_page.py, line: 27
+msgid "SSH Address: {}"
+msgstr "SSH-adresse: {}"
 # 
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_usability_page.py, line: 147
 msgid "SSH always on"
@@ -657,6 +673,22 @@ msgid "This is a plugin to use generative AI in painting and image editing workf
 msgstr ""
 "Dette er et plugin til at bruge generativ AI i maleri- og billedredigeringsarbejdsgange direkte i "
 "Krita."
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/ai_page.py, line: 43
+msgid ""
+"Open Krita, open an existing drawing or create a new one.\n"
+"In the top panel go to Settings > Panels > check the AI Image Generation box.\n"
+"\n"
+"In the window that opens on the bottom right.\n"
+"Click Configure > Local Managed Server, choose your GPU or CPU, choose the model in Workloads and "
+"click Install."
+msgstr ""
+"Åbn Krita, åbn en eksisterende tegning eller opret en ny.\n"
+"I toppanelet gå til Indstillinger > Paneler > tjek boksen for AI-billedgenerering.\n"
+"\n"
+"I vinduet, der åbner nederst til højre.\n"
+"Klik på Konfigurer > Lokalt administreret server, vælg dit GPU eller CPU, vælg modellen i "
+"Arbejdsbelastninger og klik på Installer."
 # 
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings/ai_page.py, line: 46
 msgid "ChatAI"

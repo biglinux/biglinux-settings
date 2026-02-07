@@ -141,6 +141,18 @@ msgstr ""
 "Im Fenster, das unten rechts geöffnet wird.\\n"
 "Klicken Sie auf Konfigurieren > Lokal verwalteter Server, wählen Sie Ihre GPU oder CPU, wählen Sie "
 "das Modell in Workloads und klicken Sie auf Installieren."
+msgid "Example Install"
+msgstr "Beispielinstallation"
+msgid "Instaling Example, Please wait..."
+msgstr "Beispiel wird installiert, bitte warten..."
+msgid "Example Uninstall"
+msgstr "Beispiel Deinstallieren"
+msgid "Uninstaling Example, Please wait..."
+msgstr "Deinstallation Beispiel, bitte warten..."
+msgid "Example installed successfully!"
+msgstr "Beispiel erfolgreich installiert!"
+msgid "Failed to install Example!"
+msgstr "Installation von Beispiel fehlgeschlagen!"
 msgid "Installing $package"
 msgstr "Installiere $package"
 msgid "Installing $package, Please wait..."
@@ -298,6 +310,10 @@ msgstr "SSH"
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_page.py, line: 22
 msgid "Enable remote access via ssh."
 msgstr "Aktivieren Sie den Remote-Zugriff über SSH."
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_page.py, line: 27
+msgid "SSH Address: {}"
+msgstr "SSH-Adresse: {}"
 # 
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_usability_page.py, line: 147
 msgid "SSH always on"
@@ -660,6 +676,23 @@ msgid "This is a plugin to use generative AI in painting and image editing workf
 msgstr ""
 "Dies ist ein Plugin, um generative KI in Mal- und Bildbearbeitungs-Workflows direkt in Krita zu "
 "verwenden."
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/ai_page.py, line: 43
+msgid ""
+"Open Krita, open an existing drawing or create a new one.\n"
+"In the top panel go to Settings > Panels > check the AI Image Generation box.\n"
+"\n"
+"In the window that opens on the bottom right.\n"
+"Click Configure > Local Managed Server, choose your GPU or CPU, choose the model in Workloads and "
+"click Install."
+msgstr ""
+"Öffnen Sie Krita, öffnen Sie eine vorhandene Zeichnung oder erstellen Sie eine neue.\n"
+"Gehen Sie im oberen Panel zu Einstellungen > Panels > aktivieren Sie das Kontrollkästchen für die "
+"KI-Bilderzeugung.\n"
+"\n"
+"Im Fenster, das unten rechts geöffnet wird.\n"
+"Klicken Sie auf Konfigurieren > Lokal verwalteter Server, wählen Sie Ihre GPU oder CPU, wählen Sie "
+"das Modell in Arbeitslasten und klicken Sie auf Installieren."
 # 
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings/ai_page.py, line: 46
 msgid "ChatAI"

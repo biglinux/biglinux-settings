@@ -140,6 +140,18 @@ msgstr ""
 "Avanevas aknas paremas alanurgas.\\n"
 "Klõpsake Konfigureeri > Kohalik Hallatav Server, valige oma GPU või CPU, valige mudel Töökoormustes "
 "ja klõpsake Installi."
+msgid "Example Install"
+msgstr "Näidisinstallatsioon"
+msgid "Instaling Example, Please wait..."
+msgstr "Installeer näide, palun oota..."
+msgid "Example Uninstall"
+msgstr "Näide desinstallimisest"
+msgid "Uninstaling Example, Please wait..."
+msgstr "Eemaldamine Näide, Palun oodake..."
+msgid "Example installed successfully!"
+msgstr "Näide installiti edukalt!"
+msgid "Failed to install Example!"
+msgstr "Näidis installimine ebaõnnestus!"
 msgid "Installing $package"
 msgstr "Paigaldamine $package"
 msgid "Installing $package, Please wait..."
@@ -297,6 +309,10 @@ msgstr "SSH"
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_page.py, line: 22
 msgid "Enable remote access via ssh."
 msgstr "Luba kaugjuurdepääs ssh kaudu."
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_page.py, line: 27
+msgid "SSH Address: {}"
+msgstr "SSH-aadress: {}"
 # 
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_usability_page.py, line: 147
 msgid "SSH always on"
@@ -657,6 +673,22 @@ msgid "This is a plugin to use generative AI in painting and image editing workf
 msgstr ""
 "See on plugin, mis võimaldab kasutada generatiivset tehisintellekti maalimise ja pilditöötluse "
 "töövoogudes otse Kritas."
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/ai_page.py, line: 43
+msgid ""
+"Open Krita, open an existing drawing or create a new one.\n"
+"In the top panel go to Settings > Panels > check the AI Image Generation box.\n"
+"\n"
+"In the window that opens on the bottom right.\n"
+"Click Configure > Local Managed Server, choose your GPU or CPU, choose the model in Workloads and "
+"click Install."
+msgstr ""
+"Ava avatud Krita, avage olemasolev joonistus või looge uus.\n"
+"Ülemises paneelis minge jaotisse Seaded > Paneelid > märkige AI Pildi Generatsiooni kast.\n"
+"\n"
+"Avanevas aknas paremas alanurgas.\n"
+"Klõpsake Konfigureeri > Kohalik Hallatav Server, valige oma GPU või CPU, valige mudel Töökoormustes "
+"ja klõpsake Installi."
 # 
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings/ai_page.py, line: 46
 msgid "ChatAI"

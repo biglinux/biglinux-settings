@@ -139,6 +139,18 @@ msgstr ""
 "\\n"
 "右下に開くウィンドウで。\\n"
 "構成をクリック > ローカル管理サーバーを選択し、GPUまたはCPUを選択し、ワークロードでモデルを選択してインストールをクリックします。"
+msgid "Example Install"
+msgstr "インストールの例"
+msgid "Instaling Example, Please wait..."
+msgstr "インストール中の例です。お待ちください..."
+msgid "Example Uninstall"
+msgstr "アンインストールの例"
+msgid "Uninstaling Example, Please wait..."
+msgstr "アンインストール中の例です。お待ちください..."
+msgid "Example installed successfully!"
+msgstr "インストールが成功しました！"
+msgid "Failed to install Example!"
+msgstr "インストールに失敗しました！"
 msgid "Installing $package"
 msgstr "$packageをインストール中"
 msgid "Installing $package, Please wait..."
@@ -294,6 +306,10 @@ msgstr "SSH"
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_page.py, line: 22
 msgid "Enable remote access via ssh."
 msgstr "SSHを介したリモートアクセスを有効にします。"
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_page.py, line: 27
+msgid "SSH Address: {}"
+msgstr "SSHアドレス: {}"
 # 
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_usability_page.py, line: 147
 msgid "SSH always on"
@@ -640,6 +656,20 @@ msgstr "Krita用の生成AI"
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings/ai_page.py, line: 37
 msgid "This is a plugin to use generative AI in painting and image editing workflows directly in Krita."
 msgstr "これは、Kritaでのペインティングおよび画像編集ワークフローに直接生成AIを使用するためのプラグインです。"
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/ai_page.py, line: 43
+msgid ""
+"Open Krita, open an existing drawing or create a new one.\n"
+"In the top panel go to Settings > Panels > check the AI Image Generation box.\n"
+"\n"
+"In the window that opens on the bottom right.\n"
+"Click Configure > Local Managed Server, choose your GPU or CPU, choose the model in Workloads and "
+"click Install."
+msgstr ""
+"Kritaを開き、既存のドローイングを開くか、新しいものを作成します。  \n"
+"上部パネルで設定 > パネル > AI画像生成ボックスをチェックします。  \n"
+"\n"
+"右下に開くウィンドウで、構成 > ローカル管理サーバーをクリックし、GPUまたはCPUを選択し、ワークロードでモデルを選択してインストールをクリックします。"
 # 
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings/ai_page.py, line: 46
 msgid "ChatAI"

@@ -224,6 +224,30 @@ msgid   "Generative AI for Krita has been successfully installed.\\n\\nOpen "
 msgstr  ""
 
 #
+msgid   "Example Install"
+msgstr  ""
+
+#
+msgid   "Instaling Example, Please wait..."
+msgstr  ""
+
+#
+msgid   "Example Uninstall"
+msgstr  ""
+
+#
+msgid   "Uninstaling Example, Please wait..."
+msgstr  ""
+
+#
+msgid   "Example installed successfully!"
+msgstr  ""
+
+#
+msgid   "Failed to install Example!"
+msgstr  ""
+
+#
 msgid   "Installing $package"
 msgstr  ""
 
@@ -427,53 +451,58 @@ msgstr  ""
 #
 # #-#-#-#-#  biglinux-settings.pot (biglinux-settings)  #-#-#-#-#
 #
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_page.py, line: 12
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_page.py, line: 14
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 234
 msgid   "System"
 msgstr  ""
 
 #
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_page.py, line: 13
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_page.py, line: 15
 msgid   "General system settings."
 msgstr  ""
 
 #
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_page.py, line: 21
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_page.py, line: 23
 msgid   "SSH"
 msgstr  ""
 
 #
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_page.py, line: 22
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_page.py, line: 24
 msgid   "Enable remote access via ssh."
 msgstr  ""
 
 #
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_page.py, line: 28
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_page.py, line: 27
+msgid   "SSH Address: {}"
+msgstr  ""
+
+#
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_page.py, line: 31
 msgid   "SSH always on"
 msgstr  ""
 
 #
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_page.py, line: 29
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_page.py, line: 32
 msgid   "Turn on ssh remote access at boot."
 msgstr  ""
 
 #
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_page.py, line: 38
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_page.py, line: 41
 msgid   "Fast Grub"
 msgstr  ""
 
 #
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_page.py, line: 39
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_page.py, line: 42
 msgid   "Decreases grub display time."
 msgstr  ""
 
 #
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_page.py, line: 47
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_page.py, line: 50
 msgid   "Auto-mount Partitions"
 msgstr  ""
 
 #
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_page.py, line: 48
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_page.py, line: 51
 msgid   "Auto mount partitions in internal disks on boot."
 msgstr  ""
 
@@ -853,40 +882,43 @@ msgid   "This is a plugin to use generative AI in painting and image editing "
 msgstr  ""
 
 #
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/ai_page.py, line: 47
-msgid   "ChatAI"
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/ai_page.py, line: 43
+msgid   "Open Krita, open an existing drawing or create a new one.\n"
+        "In the top panel go to Settings > Panels > check the AI Image "
+        "Generation box.\n"
+        "\n"
+        "In the window that opens on the bottom right.\n"
+        "Click Configure > Local Managed Server, choose your GPU or CPU, "
+        "choose the model in Workloads and click Install."
 msgstr  ""
 
 #
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings/ai_page.py, line: 48
+msgid   "ChatAI"
+msgstr  ""
+
+#
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/ai_page.py, line: 49
 msgid   "A variety of chats like Plasmoid for your KDE Plasma desktop."
 msgstr  ""
 
 #
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/ai_page.py, line: 55
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/ai_page.py, line: 56
 msgid   "OllamaCPU"
 msgstr  ""
 
 #
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/ai_page.py, line: 56
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/ai_page.py, line: 57
 msgid   "Local AI server. For CPUs only."
 msgstr  ""
 
 #
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/ai_page.py, line: 59
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/ai_page.py, line: 77
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/ai_page.py, line: 95
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/ai_page.py, line: 113
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/ai_page.py, line: 60
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/ai_page.py, line: 78
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/ai_page.py, line: 96
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/ai_page.py, line: 114
 msgid   "Ollama server is running.\n"
         "Address: http://localhost:11434"
-msgstr  ""
-
-#
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/ai_page.py, line: 63
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/ai_page.py, line: 81
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/ai_page.py, line: 99
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/ai_page.py, line: 117
-msgid   "Share Ollama"
 msgstr  ""
 
 #
@@ -894,76 +926,84 @@ msgstr  ""
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings/ai_page.py, line: 82
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings/ai_page.py, line: 100
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings/ai_page.py, line: 118
+msgid   "Share Ollama"
+msgstr  ""
+
+#
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/ai_page.py, line: 65
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/ai_page.py, line: 83
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/ai_page.py, line: 101
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/ai_page.py, line: 119
 msgid   "Share ollama on the local network."
 msgstr  ""
 
 #
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/ai_page.py, line: 68
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/ai_page.py, line: 86
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/ai_page.py, line: 104
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/ai_page.py, line: 122
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/ai_page.py, line: 69
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/ai_page.py, line: 87
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/ai_page.py, line: 105
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/ai_page.py, line: 123
 msgid   "Ollama server is running.\n"
         "Address: http://{}:11434"
 msgstr  ""
 
 #
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/ai_page.py, line: 73
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/ai_page.py, line: 74
 msgid   "Ollama Vulkan"
 msgstr  ""
 
 #
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/ai_page.py, line: 74
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/ai_page.py, line: 75
 msgid   "Local AI server. For CPUs and GPUs integrated and/or legacy."
 msgstr  ""
 
 #
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/ai_page.py, line: 91
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/ai_page.py, line: 92
 msgid   "Ollama AMD ROCm"
 msgstr  ""
 
 #
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/ai_page.py, line: 92
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/ai_page.py, line: 93
 msgid   "Local AI server. For newer AMD GPUs, starting from the 6000 series."
 msgstr  ""
 
 #
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/ai_page.py, line: 109
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/ai_page.py, line: 110
 msgid   "Ollama Nvidia CUDA"
 msgstr  ""
 
 #
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/ai_page.py, line: 110
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/ai_page.py, line: 111
 msgid   "Local AI server. For newer Nvidia GPUs, starting from the 2000 "
         "series."
 msgstr  ""
 
 #
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/ai_page.py, line: 127
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/ai_page.py, line: 128
 msgid   "Ollama LAB"
 msgstr  ""
 
 #
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/ai_page.py, line: 128
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/ai_page.py, line: 129
 msgid   "Graphical interface for managing Ollama models and chat."
 msgstr  ""
 
 #
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/ai_page.py, line: 135
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/ai_page.py, line: 136
 msgid   "ChatBox"
 msgstr  ""
 
 #
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/ai_page.py, line: 136
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/ai_page.py, line: 137
 msgid   "User-friendly Desktop Client App for AI Models/LLMs."
 msgstr  ""
 
 #
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/ai_page.py, line: 143
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/ai_page.py, line: 144
 msgid   "LM Studio"
 msgstr  ""
 
 #
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/ai_page.py, line: 144
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/ai_page.py, line: 145
 msgid   "LM Studio - A desktop app for exploring and running large language "
         "models locally."
 msgstr  ""
