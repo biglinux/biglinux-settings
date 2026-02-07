@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # check current status
-check_state() {
+if [ "$1" == "check" ]; then
   if [[ "$XDG_CURRENT_DESKTOP" == *"KDE"* ]] || [[ "$XDG_CURRENT_DESKTOP" == *"Plasma"* ]];then
     if LANG=C grep -q 'FSM' $HOME/.config/kwinrc;then
       echo "true"
@@ -27,13 +27,12 @@ check_state() {
 #       echo "false"
 #     fi
   fi
-}
 
 # change the state
-toggle_state() {
-  new_state="$1"
+elif [ "$1" == "toggle" ]; then
+  state="$2"
   if [[ "$XDG_CURRENT_DESKTOP" == *"KDE"* ]] || [[ "$XDG_CURRENT_DESKTOP" == *"Plasma"* ]];then
-    if [[ "$new_state" == "true" ]];then
+    if [ "$state" == "true" ]; then
       kwriteconfig6 --file $HOME/.config/gtk-3.0/settings.ini --group Settings --key "gtk-decoration-layout" "close,minimize,maximize:menu"
       kwriteconfig6 --file $HOME/.config/gtk-4.0/settings.ini --group Settings --key "gtk-decoration-layout" "close,minimize,maximize:menu"
       gsettings set org.gnome.desktop.wm.preferences button-layout "close,minimize,maximize:menu"
@@ -51,7 +50,7 @@ toggle_state() {
       exitCode=$?
     fi
 #   elif [[ "$XDG_CURRENT_DESKTOP" == *"GNOME"* ]];then
-#     if [[ "$new_state" == "true" ]];then
+#     if [ "$state" == "true" ]; then
 #         some command
 #         exitCode=$?
 #     else
@@ -59,7 +58,7 @@ toggle_state() {
 #         exitCode=$?
 #     fi
   elif [ -n "$(grep SHMC  $HOME/.config/xfce4/xfconf/xfce-perchannel-xml/xfwm4.xml)" ];then
-    if [[ "$new_state" == "true" ]];then
+    if [ "$state" == "true" ]; then
         xfconf-query -c xfwm4 -p /general/button_layout -s "CMH|SO"
         exitCode=$?
     else
@@ -70,7 +69,7 @@ toggle_state() {
     export TEXTDOMAIN=biglinux-settings
     sleep 5 | zenity --progress --title='grub' --text=$"Applying, please wait..." --pulsate --auto-close --no-cancel
 #   elif [[ "$XDG_CURRENT_DESKTOP" == *"Cinnamon"* ]] || [[ "$XDG_CURRENT_DESKTOP" == *"X-Cinnamon"* ]];then
-#     if [[ "$new_state" == "true" ]];then
+#     if [ "$state" == "true" ]; then
 #         some command
 #         exitCode=$?
 #     else
@@ -79,20 +78,4 @@ toggle_state() {
 #     fi
   fi
   exit $exitCode
-}
-
-# Executes the function based on the parameter
-case "$1" in
-    "check")
-        check_state
-        ;;
-    "toggle")
-        toggle_state "$2"
-        ;;
-    *)
-        echo "Use: $0 {check|toggle} [true|false]"
-        echo "  check          - Check current status"
-        echo "  toggle <state> - Changes to the specified state"
-        exit 1
-        ;;
-esac
+fi

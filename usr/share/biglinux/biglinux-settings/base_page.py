@@ -26,7 +26,6 @@ gettext.bindtextdomain(DOMAIN, LOCALE_DIR)
 gettext.textdomain(DOMAIN)
 _ = gettext.gettext
 
-
 class BaseSettingsPage(Adw.Bin):
     def __init__(self, main_window, **kwargs):
         super().__init__(**kwargs)
