@@ -40,6 +40,7 @@ class AIPage(BaseSettingsPage):
             _("This is a plugin to use generative AI in painting and image editing workflows directly in Krita."),
             "krita",
             "krita-ai-symbolic",
+            info_text=_("Open Krita, open an existing drawing or create a new one.\nIn the top panel go to Settings > Panels > check the AI Image Generation box.\n\nIn the window that opens on the bottom right.\nClick Configure > Local Managed Server, choose your GPU or CPU, choose the model in Workloads and click Install."),
         )
         # ChatAI
         self.create_row(

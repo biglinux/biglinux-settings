@@ -5,6 +5,8 @@ class SystemPage(BaseSettingsPage):
     def __init__(self, main_window, **kwargs):
         super().__init__(main_window, **kwargs)
 
+        local_ip = self.get_local_ip()
+
         content = self.create_scrolled_content()
 
         ## GROUP: System ##
@@ -22,6 +24,7 @@ class SystemPage(BaseSettingsPage):
             _("Enable remote access via ssh."),
             "sshStart",
             "ssh-symbolic",
+            info_text=_("SSH Address: {}").format(local_ip),
         )
         self.create_sub_row(
             group,
