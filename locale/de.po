@@ -14,14 +14,114 @@ msgstr ""
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "X-Generator: attranslate\n"
+msgid "Ollama Install"
+msgstr "Ollama installieren"
+msgid "Instaling Ollama, Please wait..."
+msgstr "Ollama wird installiert, bitte warten..."
+msgid "Ollama Uninstall"
+msgstr "Ollama Deinstallieren"
+msgid "Unistaling Ollama, Please wait..."
+msgstr "Ollama wird deinstalliert, bitte warten..."
+msgid "Ollama installed successfully!"
+msgstr "Ollama wurde erfolgreich installiert!"
+msgid "Failed to install Ollama!"
+msgstr "Installation von Ollama fehlgeschlagen!"
+msgid ""
+"Ollama server is running.\\n"
+"Address: http://localhost:11434"
+msgstr ""
+"Ollama-Server läuft.\\n"
+"Adresse: http://localhost:11434"
+msgid "LM Studio Install"
+msgstr "LM Studio installieren"
+msgid "Instaling LM Studio, Please wait..."
+msgstr "LM Studio wird installiert, bitte warten..."
+msgid "LM Studio Uninstall"
+msgstr "LM Studio deinstallieren"
+msgid "Uninstaling LM Studio, Please wait..."
+msgstr "LM Studio wird deinstalliert, bitte warten..."
+msgid "LM Studio installed successfully!"
+msgstr "LM Studio wurde erfolgreich installiert!"
+msgid "Failed to install LM Studio!"
+msgstr "Installation von LM Studio fehlgeschlagen!"
+msgid "ChatBox Install"
+msgstr "ChatBox installieren"
+msgid "Instaling ChatBox, Please wait..."
+msgstr "ChatBox wird installiert, bitte warten..."
+msgid "ChatBox Uninstall"
+msgstr "ChatBox deinstallieren"
+msgid "Uninstaling ChatBox, Please wait..."
+msgstr "Deinstalliere ChatBox, bitte warten..."
+msgid "ChatBox installed successfully!"
+msgstr "ChatBox wurde erfolgreich installiert!"
+msgid "Failed to install ChatBox!"
+msgstr "Installation von ChatBox fehlgeschlagen!"
+msgid "Ollama Vulkan Install"
+msgstr "Ollama Vulkan Installation"
+msgid "Ollama Vulkan Uninstall"
+msgstr "Ollama Vulkan Deinstallieren"
+msgid "Unistaling Ollama Vulkan, Please wait..."
+msgstr "Deinstalliere Ollama Vulkan, bitte warten..."
+msgid "Ollama Vulkan installed successfully!"
+msgstr "Ollama Vulkan wurde erfolgreich installiert!"
+msgid "Failed to install Ollama Vulkan!"
+msgstr "Installation von Ollama Vulkan fehlgeschlagen!"
+msgid "Ollama CUDA Install"
+msgstr "Ollama CUDA-Installation"
+msgid "Instaling Ollama CUDA, Please wait..."
+msgstr "Ollama CUDA wird installiert, bitte warten..."
+msgid "Ollama CUDA Uninstall"
+msgstr "Ollama CUDA Deinstallation"
+msgid "Unistaling Ollama CUDA, Please wait..."
+msgstr "Deinstallation von Ollama CUDA, bitte warten..."
+msgid "Ollama CUDA installed successfully!"
+msgstr "Ollama CUDA wurde erfolgreich installiert!"
+msgid "Failed to install Ollama CUDA!"
+msgstr "Installation von Ollama CUDA fehlgeschlagen!"
+msgid ""
+"Ollama shared successfully.\\n"
+"Address: http://$localIp:11434"
+msgstr ""
+"Ollama erfolgreich geteilt.\\n"
+"Adresse: http://$localIp:11434"
+msgid "Failed to shared Ollama!"
+msgstr "Fehler beim Teilen von Ollama!"
 msgid "Krita Install"
 msgstr "Krita installieren"
 msgid "Instaling Krita, Please wait..."
 msgstr "Krita wird installiert, bitte warten..."
+msgid "Krita Uninstall"
+msgstr "Krita deinstallieren"
+msgid "Uninstaling Krita, Please wait..."
+msgstr "Krita wird deinstalliert, bitte warten..."
 msgid "Krita installed successfully!"
 msgstr "Krita wurde erfolgreich installiert!"
 msgid "Failed to install Krita!"
 msgstr "Installation von Krita fehlgeschlagen!"
+msgid "Ollama Lab Install"
+msgstr "Ollama Lab installieren"
+msgid "Instaling Ollama Lab, Please wait..."
+msgstr "Ollama Lab wird installiert, bitte warten..."
+msgid "Ollama Lab Uninstall"
+msgstr "Ollama Lab deinstallieren"
+msgid "Unistaling Ollama Lab, Please wait..."
+msgstr "Ollama Lab wird deinstalliert, bitte warten..."
+msgid "Ollama Lab installed successfully!"
+msgstr "Ollama Lab wurde erfolgreich installiert!"
+msgid "Failed to install Ollama Lab!"
+msgstr "Installation von Ollama Lab fehlgeschlagen!"
+msgid "Ollama ROCm Install"
+msgstr "Ollama ROCm Installation"
+msgid "Instaling Ollama ROCm, Please wait..."
+msgstr "Ollama ROCm wird installiert, bitte warten..."
+msgid "Ollama ROCm Uninstall"
+msgstr "Ollama ROCm Deinstallation"
+msgid "Unistaling Ollama ROCm, Please wait..."
+msgstr "Deinstalliere Ollama ROCm, bitte warten..."
+msgid "Ollama ROCm installed successfully!"
+msgstr "Ollama ROCm wurde erfolgreich installiert!"
+msgid "Failed to install Ollama ROCm!"
+msgstr "Installation von Ollama ROCm fehlgeschlagen!"
 msgid ""
 "Generative AI for Krita has been successfully installed.\\n"
 "\\n"
@@ -77,14 +177,18 @@ msgid "Docker installed successfully!"
 msgstr "Docker wurde erfolgreich installiert!"
 msgid "An error occurred while install docker."
 msgstr "Bei der Installation von Docker ist ein Fehler aufgetreten."
-msgid "GameMode Install"
-msgstr "GameMode installieren"
-msgid "Instaling GameMode, Please wait..."
-msgstr "GameMode wird installiert, bitte warten..."
-msgid "GameMode installed successfully!"
-msgstr "GameMode wurde erfolgreich installiert!"
-msgid "Failed to install GameMode!"
-msgstr "Installation von GameMode fehlgeschlagen!"
+msgid "Applying, please wait..."
+msgstr "Anwenden, bitte warten..."
+msgid ""
+"GRUB updated successfully!\\n"
+"Restart your computer for it to take effect."
+msgstr ""
+"GRUB wurde erfolgreich aktualisiert!\\n"
+"Starten Sie Ihren Computer neu, damit die Änderungen wirksam werden."
+msgid "An error occurred while updating GRUB."
+msgstr "Beim Aktualisieren von GRUB ist ein Fehler aufgetreten."
+msgid "Already enabled. No changes made."
+msgstr "Bereits aktiviert. Keine Änderungen vorgenommen."
 msgid "Recent Files enabling...."
 msgstr "Aktivierung der letzten Dateien...."
 msgid "Recent Files enabling, Please wait..."
@@ -105,20 +209,8 @@ msgid "Instaling Kzones, Please wait..."
 msgstr "Kzones wird installiert, bitte warten..."
 msgid "Kzones installed successfully!"
 msgstr "Kzones wurde erfolgreich installiert!"
-msgid "Applying, please wait..."
-msgstr "Anwenden, bitte warten..."
 msgid "GRUB updated successfully!"
 msgstr "GRUB wurde erfolgreich aktualisiert!"
-msgid "An error occurred while updating GRUB."
-msgstr "Beim Aktualisieren von GRUB ist ein Fehler aufgetreten."
-msgid ""
-"GRUB updated successfully!\\n"
-"Restart your computer for it to take effect."
-msgstr ""
-"GRUB wurde erfolgreich aktualisiert!\\n"
-"Starten Sie Ihren Computer neu, damit die Änderungen wirksam werden."
-msgid "Already disabled. No changes made."
-msgstr "Bereits deaktiviert. Keine Änderungen vorgenommen."
 msgid "Limits updated successfully!"
 msgstr "Grenzen erfolgreich aktualisiert!"
 msgid "An error occurred while updating Limits."
@@ -168,14 +260,6 @@ msgstr "Fensterknopf auf der linken Seite"
 msgid "Maximize, minimize, and close buttons on the left side of the window."
 msgstr "Maximieren, Minimieren und Schließen Schaltflächen auf der linken Seite des Fensters."
 # 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_usability_page.py, line: 133
-msgid "SSH until next reboot"
-msgstr "SSH bis zum nächsten Neustart"
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 133
-msgid "Enable remote access via ssh until next boot."
-msgstr "Aktivieren Sie den Remote-Zugriff über SSH bis zum nächsten Neustart."
-# 
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_usability_page.py, line: 72
 msgid "KZones"
 msgstr "KZonen"
@@ -207,6 +291,14 @@ msgstr "System"
 msgid "General system settings."
 msgstr "Allgemeine Systemeinstellungen."
 # 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_page.py, line: 21
+msgid "SSH"
+msgstr "SSH"
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_page.py, line: 22
+msgid "Enable remote access via ssh."
+msgstr "Aktivieren Sie den Remote-Zugriff über SSH."
+# 
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_usability_page.py, line: 147
 msgid "SSH always on"
 msgstr "SSH immer aktiv"
@@ -230,38 +322,6 @@ msgstr "Automatisches Einhängen von Partitionen"
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 171
 msgid "Auto mount partitions in internal disks on boot."
 msgstr "Automatisches Einbinden von Partitionen auf internen Festplatten beim Booten."
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_usability_page.py, line: 169
-msgid "Meltdown Mitigations off"
-msgstr "Meltdown-Minder deaktiviert"
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_usability_page.py, line: 113
-#, python-brace-format
-msgid ""
-"Using mitigations=off will make your machine faster and less secure! For more information see: <a "
-"href='{l}'>{l}</a>"
-msgstr ""
-"Die Verwendung von mitigations=off macht Ihren Computer schneller, aber weniger sicher! Für weitere "
-"Informationen siehe: <a href='{l}'>{l}</a>"
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_usability_page.py, line: 176
-msgid "noWatchdog"
-msgstr "keinÜberwachungsdienst"
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_usability_page.py, line: 177
-msgid ""
-"Disables the hardware watchdog and TSC clocksource systems, maintaining high performance but "
-"removing automatic protections against system crashes."
-msgstr ""
-"Deaktiviert die Hardware-Watchdog- und TSC-Zeitquellen-Systeme, um hohe Leistung "
-"aufrechtzuerhalten, jedoch ohne automatische Schutzmaßnahmen gegen Systemabstürze."
-# 
-# #-#-#-#-#  biglinux-settings.pot (biglinux-settings)  #-#-#-#-#
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_usability_page.py, line: 111
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/preload_page.py, line: 112
-msgid "Reload all statuses"
-msgstr "Alle Statusse neu laden"
 # 
 # #-#-#-#-#  biglinux-settings.pot (biglinux-settings)  #-#-#-#-#
 # 
@@ -303,12 +363,9 @@ msgstr "Durch die Systemkonfiguration aktiviert (z. B. Echtzeitkern) und kann hi
 msgid "Unavailable: script returned invalid output."
 msgstr "Nicht verfügbar: Skript gab ungültige Ausgabe zurück."
 # 
-# #-#-#-#-#  biglinux-settings.pot (biglinux-settings)  #-#-#-#-#
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_usability_page.py, line: 226
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/preload_page.py, line: 185
-msgid "Invalid output from script {}: {}"
-msgstr "Ungültige Ausgabe des Skripts {}: {}"
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/base_page.py, line: 261
+msgid "output from script {}: {}"
+msgstr "Ausgabe aus Skript {}: {}"
 # 
 # #-#-#-#-#  biglinux-settings.pot (biglinux-settings)  #-#-#-#-#
 # 
@@ -411,16 +468,6 @@ msgstr "JamesDSP"
 msgid "Advanced audio effects processor that improves sound quality."
 msgstr "Erweiterter Audioeffektprozessor, der die Klangqualität verbessert."
 # 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/devices_page.py, line: 62
-msgid "Keyboard LED"
-msgstr "Tastatur-LED"
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/dispositivos_page.py, line: 144
-msgid "If your keyboard has LED you can enable this feature to turn it on with the system."
-msgstr ""
-"Wenn Ihre Tastatur über LEDs verfügt, können Sie diese Funktion aktivieren, um sie mit dem System "
-"einzuschalten."
-# 
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings/devices_page.py, line: 71
 msgid "Reverse mouse scrolling"
 msgstr "Umgekehrtes Mausrad-Scrollen"
@@ -459,9 +506,21 @@ msgstr "K.I."
 msgid "Docker"
 msgstr "Docker"
 # 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 166
-msgid "Performance and Games"
-msgstr "Leistung und Spiele"
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/performance_games_page.py, line: 181
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/performance_games_page.py, line: 195
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/performance_games_page.py, line: 181
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/performance_games_page.py, line: 195
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/performance_games_page.py, line: 244
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/performance_games_page.py, line: 256
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/performance_games_page.py, line: 244
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/performance_games_page.py, line: 256
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/usability/gamemode_dialog.py, line: 204
+msgid "Performance"
+msgstr "Leistung"
 # 
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings/preload_page.py, line: 103
 msgid "Preload"
@@ -503,6 +562,71 @@ msgstr "Opera"
 msgid "Libreoffice"
 msgstr "LibreOffice"
 # 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/performance_games_page.py, line: 16
+msgid "BigLinux performance tweaks."
+msgstr "BigLinux-Leistungsanpassungen."
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/usability/gamemode_config_dialog.py, line: 91
+msgid "Disable Visual Effects"
+msgstr "Visuelle Effekte deaktivieren"
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/performance_games_page.py, line: 35
+msgid "Disables KWin visual effects (blur, shadows, animations). Reduces GPU load and frees memory."
+msgstr ""
+"Deaktiviert KWin-Visuelleffekte (Unschärfe, Schatten, Animationen). Reduziert die GPU-Auslastung "
+"und gibt Speicher frei."
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/performance_games_page.py, line: 63
+msgid "CPU Maximum Performance"
+msgstr "CPU-Maximalleistung"
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/performance_games_page.py, line: 51
+msgid "Forces maximum processor performance mode. Ensures the processor uses maximum frequency."
+msgstr ""
+"Erzwingt den maximalen Prozessorleistungsmodus. Stellt sicher, dass der Prozessor die maximale "
+"Frequenz verwendet."
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/performance_games_page.py, line: 79
+msgid "Disable Baloo Indexer"
+msgstr "Baloo-Indexer deaktivieren"
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/performance_games_page.py, line: 67
+msgid "Disables the Baloo file indexer. Avoids disk I/O overhead."
+msgstr "Deaktiviert den Baloo-Datei-Indexer. Vermeidet Festplatten-I/O-Überhead."
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/usability/gamemode_config_dialog.py, line: 136
+msgid "Unload S.M.A.R.T Monitor"
+msgstr "S.M.A.R.T-Monitor entladen"
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/performance_games_page.py, line: 83
+msgid "Disables S.M.A.R.T disk monitoring. Reduces disk I/O and CPU usage."
+msgstr "Deaktiviert die S.M.A.R.T-Disküberwachung. Reduziert die Festplatten-I/O- und CPU-Auslastung."
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_usability_page.py, line: 169
+msgid "Meltdown Mitigations off"
+msgstr "Meltdown-Minder deaktiviert"
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_usability_page.py, line: 113
+#, python-brace-format
+msgid ""
+"Using mitigations=off will make your machine faster and less secure! For more information see: <a "
+"href='{l}'>{l}</a>"
+msgstr ""
+"Die Verwendung von mitigations=off macht Ihren Computer schneller, aber weniger sicher! Für weitere "
+"Informationen siehe: <a href='{l}'>{l}</a>"
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_usability_page.py, line: 176
+msgid "noWatchdog"
+msgstr "keinÜberwachungsdienst"
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_usability_page.py, line: 177
+msgid ""
+"Disables the hardware watchdog and TSC clocksource systems, maintaining high performance but "
+"removing automatic protections against system crashes."
+msgstr ""
+"Deaktiviert die Hardware-Watchdog- und TSC-Zeitquellen-Systeme, um hohe Leistung "
+"aufrechtzuerhalten, jedoch ohne automatische Schutzmaßnahmen gegen Systemabstürze."
+# 
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings/ai_page.py, line: 28
 msgid "Artificial Intelligence"
 msgstr "Künstliche Intelligenz"
@@ -510,6 +634,22 @@ msgstr "Künstliche Intelligenz"
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings/ai_page.py, line: 15
 msgid "AI settings and tools."
 msgstr "KI-Einstellungen und -Werkzeuge."
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/ai_page.py, line: 22
+msgid "Ollma Server"
+msgstr "Ollma-Server"
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/ai_page.py, line: 23
+msgid "Choose which Ollama server is best for your hardware."
+msgstr "Wählen Sie aus, welcher Ollama-Server am besten zu Ihrer Hardware passt."
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/ai_page.py, line: 30
+msgid "AI Interfaces"
+msgstr "KI-Schnittstellen"
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/ai_page.py, line: 31
+msgid "Graphical interface for artificial intelligence.."
+msgstr "Grafische Benutzeroberfläche für künstliche Intelligenz."
 # 
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings/ai_page.py, line: 36
 msgid "Generative AI for Krita"
@@ -528,6 +668,98 @@ msgstr "ChatAI"
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings/ai_page.py, line: 47
 msgid "A variety of chats like Plasmoid for your KDE Plasma desktop."
 msgstr "Eine Vielzahl von Chats wie Plasmoid für Ihren KDE Plasma-Desktop."
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/ai_page.py, line: 55
+msgid "OllamaCPU"
+msgstr "OllamaCPU"
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/ai_page.py, line: 56
+msgid "Local AI server. For CPUs only."
+msgstr "Lokaler KI-Server. Nur für CPUs."
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/ai_page.py, line: 59
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/ai_page.py, line: 77
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/ai_page.py, line: 95
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/ai_page.py, line: 113
+msgid ""
+"Ollama server is running.\n"
+"Address: http://localhost:11434"
+msgstr ""
+"Ollama-Server läuft.\n"
+"Adresse: http://localhost:11434"
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/ai_page.py, line: 63
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/ai_page.py, line: 81
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/ai_page.py, line: 99
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/ai_page.py, line: 117
+msgid "Share Ollama"
+msgstr "Teile Ollama"
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/ai_page.py, line: 64
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/ai_page.py, line: 82
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/ai_page.py, line: 100
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/ai_page.py, line: 118
+msgid "Share ollama on the local network."
+msgstr "Teilen Sie Ollama im lokalen Netzwerk."
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/ai_page.py, line: 68
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/ai_page.py, line: 86
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/ai_page.py, line: 104
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/ai_page.py, line: 122
+msgid ""
+"Ollama server is running.\n"
+"Address: http://{}:11434"
+msgstr ""
+"Ollama-Server läuft.\n"
+"Adresse: http://{}:11434"
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/ai_page.py, line: 73
+msgid "Ollama Vulkan"
+msgstr "Ollama Vulkan"
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/ai_page.py, line: 74
+msgid "Local AI server. For CPUs and GPUs integrated and/or legacy."
+msgstr "Lokaler KI-Server. Für CPUs und GPUs integriert und/oder veraltet."
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/ai_page.py, line: 91
+msgid "Ollama AMD ROCm"
+msgstr "Ollama AMD ROCm"
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/ai_page.py, line: 92
+msgid "Local AI server. For newer AMD GPUs, starting from the 6000 series."
+msgstr "Lokaler KI-Server. Für neuere AMD-GPUs, beginnend mit der 6000-Serie."
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/ai_page.py, line: 109
+msgid "Ollama Nvidia CUDA"
+msgstr "Ollama Nvidia CUDA"
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/ai_page.py, line: 110
+msgid "Local AI server. For newer Nvidia GPUs, starting from the 2000 series."
+msgstr "Lokaler KI-Server. Für neuere Nvidia-GPUs, beginnend mit der 2000er-Serie."
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/ai_page.py, line: 127
+msgid "Ollama LAB"
+msgstr "Ollama LAB"
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/ai_page.py, line: 128
+msgid "Graphical interface for managing Ollama models and chat."
+msgstr "Grafische Benutzeroberfläche zur Verwaltung von Ollama-Modellen und Chats."
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/ai_page.py, line: 135
+msgid "ChatBox"
+msgstr "ChatBox"
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/ai_page.py, line: 136
+msgid "User-friendly Desktop Client App for AI Models/LLMs."
+msgstr "Benutzerfreundliche Desktop-Client-App für KI-Modelle/LLMs."
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/ai_page.py, line: 143
+msgid "LM Studio"
+msgstr "LM Studio"
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/ai_page.py, line: 144
+msgid "LM Studio - A desktop app for exploring and running large language models locally."
+msgstr "LM Studio - Eine Desktop-App zum Erkunden und Ausführen großer Sprachmodelle lokal."
 # 
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings/docker_page.py, line: 15
 msgid "Container service - enable to use containers below."
@@ -556,6 +788,18 @@ msgstr "Nextcloud Plus"
 msgid "Nextcloud Plus container."
 msgstr "Nextcloud Plus-Container."
 # 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/docker_page.py, line: 48
+msgid ""
+"Nextcloud Plus is running.\n"
+"Address: http://localhost:8286\n"
+"and\n"
+"Address: http://{}:8286"
+msgstr ""
+"Nextcloud Plus läuft.  \n"
+"Adresse: http://localhost:8286  \n"
+"und  \n"
+"Adresse: http://{}:8286"
+# 
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings/containers_page.py, line: 44
 msgid "AdGuard"
 msgstr "AdGuard"
@@ -564,21 +808,17 @@ msgstr "AdGuard"
 msgid "AdGuard Home container."
 msgstr "AdGuard Home-Container."
 # 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/containers_page.py, line: 53
-msgid "Django"
-msgstr "Django"
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/containers_page.py, line: 54
-msgid "Django developer environment."
-msgstr "Django-Entwicklungsumgebung."
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/containers_page.py, line: 62
-msgid "Duplicati"
-msgstr "Duplicati"
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/containers_page.py, line: 63
-msgid "Duplicati backup solution."
-msgstr "Duplicati Backup-Lösung."
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/docker_page.py, line: 57
+msgid ""
+"AdGuard is running.\n"
+"Address: http://localhost:3030\n"
+"and\n"
+"Address: http://{}:3030"
+msgstr ""
+"AdGuard läuft.\n"
+"Adresse: http://localhost:3030\n"
+"und\n"
+"Adresse: http://{}:3030"
 # 
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings/containers_page.py, line: 71
 msgid "Jellyfin"
@@ -588,6 +828,18 @@ msgstr "Jellyfin"
 msgid "Jellyfin media server."
 msgstr "Jellyfin Medienserver."
 # 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/docker_page.py, line: 75
+msgid ""
+"Jellyfin is running.\n"
+"Address: http://localhost:8096\n"
+"and\n"
+"Address: http://{}:8096"
+msgstr ""
+"Jellyfin läuft.\n"
+"Adresse: http://localhost:8096\n"
+"und\n"
+"Adresse: http://{}:8096"
+# 
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings/containers_page.py, line: 80
 msgid "LAMP"
 msgstr "LAMP"
@@ -595,6 +847,18 @@ msgstr "LAMP"
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings/containers_page.py, line: 81
 msgid "LAMP stack (Linux, Apache, MySQL, PHP)."
 msgstr "LAMP-Stack (Linux, Apache, MySQL, PHP)."
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/docker_page.py, line: 84
+msgid ""
+"LAMP is running.\n"
+"Address: http://localhost:8080\n"
+"and\n"
+"Address: http://{}:8080"
+msgstr ""
+"LAMP läuft.\n"
+"Adresse: http://localhost:8080\n"
+"und\n"
+"Adresse: http://{}:8080"
 # 
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings/containers_page.py, line: 89
 msgid "Portainer Client"
@@ -604,6 +868,18 @@ msgstr "Portainer-Client"
 msgid "Portainer Agent for cluster management."
 msgstr "Portainer-Agent für die Clusterverwaltung."
 # 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/docker_page.py, line: 93
+msgid ""
+"Portainer Client is running.\n"
+"Address: http://localhost:9000\n"
+"and\n"
+"Address: http://{}:9000"
+msgstr ""
+"Portainer-Client läuft.\n"
+"Adresse: http://localhost:9000\n"
+"und\n"
+"Adresse: http://{}:9000"
+# 
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings/containers_page.py, line: 98
 msgid "SWS"
 msgstr "SWS"
@@ -611,6 +887,18 @@ msgstr "SWS"
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings/containers_page.py, line: 99
 msgid "SWS static web server."
 msgstr "SWS statischer Webserver."
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/docker_page.py, line: 102
+msgid ""
+"SWS is running.\n"
+"Address: http://localhost:8182\n"
+"and\n"
+"Address: http://{}:8182"
+msgstr ""
+"SWS läuft.\n"
+"Adresse: http://localhost:8182\n"
+"und\n"
+"Adresse: http://{}:8182"
 # 
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings/containers_page.py, line: 107
 msgid "V2RayA"
@@ -620,217 +908,14 @@ msgstr "V2RayA"
 msgid "V2RayA network tool."
 msgstr "V2RayA Netzwerktool."
 # 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/performance_games_page.py, line: 15
-msgid "Configure Steam Games"
-msgstr "Steam-Spiele konfigurieren"
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/performance_games_page.py, line: 61
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/performance_games_page.py, line: 68
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/performance_games_page.py, line: 72
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/performance_games_page.py, line: 83
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/performance_games_page.py, line: 165
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/performance_games_page.py, line: 185
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/performance_games_page.py, line: 187
-msgid "Error"
-msgstr "Fehler"
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/performance_games_page.py, line: 61
-msgid "Failed to load games list."
-msgstr "Fehler beim Laden der Spielesliste."
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/performance_games_page.py, line: 68
-msgid "Invalid data received."
-msgstr "Ungültige Daten empfangen."
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/performance_games_page.py, line: 77
-msgid "No Games Found"
-msgstr "Keine Spiele gefunden"
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/performance_games_page.py, line: 77
-msgid "No Steam games found."
-msgstr "Keine Steam-Spiele gefunden."
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/performance_games_page.py, line: 86
-msgid "Installed Games"
-msgstr "Installierte Spiele"
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/performance_games_page.py, line: 86
-msgid "{} games found"
-msgstr "{} Spiele gefunden"
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/performance_games_page.py, line: 106
-msgid "Select All"
-msgstr "Alle auswählen"
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/performance_games_page.py, line: 107
-msgid "Deselect All"
-msgstr "Alle abwählen"
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/performance_games_page.py, line: 115
-msgid "Apply Changes"
-msgstr "Änderungen anwenden"
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/performance_games_page.py, line: 120
-msgid "Close"
-msgstr "Schließen"
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/performance_games_page.py, line: 131
-msgid "Close Steam?"
-msgstr "Steam schließen?"
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/performance_games_page.py, line: 132
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/docker_page.py, line: 111
 msgid ""
-"Steam must be closed for changes to be applied. If Steam is running, the modifications will not "
-"take effect."
+"V2RayA is running.\n"
+"Address: http://localhost:2017\n"
+"and\n"
+"Address: http://{}:2017"
 msgstr ""
-"Steam muss geschlossen werden, damit die Änderungen angewendet werden können. Wenn Steam läuft, "
-"treten die Modifikationen nicht in Kraft."
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/performance_games_page.py, line: 134
-msgid "Cancel"
-msgstr "Abbrechen"
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/performance_games_page.py, line: 135
-msgid "Close Steam and Apply"
-msgstr "Steam schließen und anwenden"
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/performance_games_page.py, line: 165
-msgid "Could not close Steam. Please close it manually and try again."
-msgstr "Steam konnte nicht geschlossen werden. Bitte schließen Sie es manuell und versuchen Sie es erneut."
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/performance_games_page.py, line: 180
-msgid "Success"
-msgstr "Erfolg"
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/performance_games_page.py, line: 180
-msgid "Changes applied successfully!"
-msgstr "Änderungen erfolgreich angewendet!"
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/performance_games_page.py, line: 181
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/performance_games_page.py, line: 195
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/performance_games_page.py, line: 181
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/performance_games_page.py, line: 195
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/performance_games_page.py, line: 244
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/performance_games_page.py, line: 256
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/performance_games_page.py, line: 244
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/performance_games_page.py, line: 256
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/usability/gamemode_dialog.py, line: 204
-msgid "Performance"
-msgstr "Leistung"
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/performance_games_page.py, line: 16
-msgid "BigLinux performance tweaks."
-msgstr "BigLinux-Leistungsanpassungen."
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/performance_games_page.py, line: 36
-msgid "Games Booster"
-msgstr "Spiele-Boosters"
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_usability_page.py, line: 95
-msgid ""
-"Combination of daemon and library that allows games to request a set of optimizations be "
-"temporarily applied to the operating system and/or the game process."
-msgstr ""
-"Kombination aus Daemon und Bibliothek, die es Spielen ermöglicht, eine Reihe von Optimierungen "
-"vorübergehend auf das Betriebssystem und/oder den Spielprozess anzuwenden."
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/usability/gamemode_config_dialog.py, line: 91
-msgid "Disable Visual Effects"
-msgstr "Visuelle Effekte deaktivieren"
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/performance_games_page.py, line: 35
-msgid "Disables KWin visual effects (blur, shadows, animations). Reduces GPU load and frees memory."
-msgstr ""
-"Deaktiviert KWin-Visuelleffekte (Unschärfe, Schatten, Animationen). Reduziert die GPU-Auslastung "
-"und gibt Speicher frei."
-# 
-# #-#-#-#-#  biglinux-settings.pot (biglinux-settings)  #-#-#-#-#
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/usability/kwin_ram_dialog.py, line: 109
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/usability/gamemode_config_dialog.py, line: 100
-msgid "Compositor Settings"
-msgstr "Kompositor-Einstellungen"
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/performance_games_page.py, line: 43
-msgid ""
-"Configures compositor for low latency, allows tearing and disables animations. Minimizes "
-"compositing overhead and reduces input lag."
-msgstr ""
-"Konfiguriert den Compositor für niedrige Latenz, ermöglicht Tearing und deaktiviert Animationen. "
-"Minimiert den Compositing-Overhead und reduziert die Eingabeverzögerung."
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/performance_games_page.py, line: 63
-msgid "CPU Maximum Performance"
-msgstr "CPU-Maximalleistung"
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/performance_games_page.py, line: 51
-msgid "Forces maximum processor performance mode. Ensures the processor uses maximum frequency."
-msgstr ""
-"Erzwingt den maximalen Prozessorleistungsmodus. Stellt sicher, dass der Prozessor die maximale "
-"Frequenz verwendet."
-# 
-# #-#-#-#-#  biglinux-settings.pot (biglinux-settings)  #-#-#-#-#
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/usability/gamemode_config_dialog.py, line: 109
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/usability/gamemode_dialog.py, line: 207
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/usability/gamemode_dialog.py, line: 250
-msgid "GPU Maximum Performance"
-msgstr "GPU-Maximalleistung"
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/performance_games_page.py, line: 59
-msgid "Forces maximum GPU performance mode (NVIDIA/AMD). Ensures the graphics card uses maximum frequency."
-msgstr ""
-"Erzwingt den maximalen GPU-Leistungsmodus (NVIDIA/AMD). Stellt sicher, dass die Grafikkarte die "
-"maximale Frequenz verwendet."
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/performance_games_page.py, line: 79
-msgid "Disable Baloo Indexer"
-msgstr "Baloo-Indexer deaktivieren"
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/performance_games_page.py, line: 67
-msgid "Disables the Baloo file indexer. Avoids disk I/O overhead."
-msgstr "Deaktiviert den Baloo-Datei-Indexer. Vermeidet Festplatten-I/O-Überhead."
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/usability/gamemode_config_dialog.py, line: 127
-msgid "Stop Akonadi Server"
-msgstr "Akonadi-Server stoppen"
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/performance_games_page.py, line: 75
-msgid "Stops the PIM data server (Kontact/Thunderbird). Reduces memory and disk overhead."
-msgstr "Stoppt den PIM-Datenserver (Kontact/Thunderbird). Reduziert den Speicher- und Festplattenspeicher."
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/usability/gamemode_config_dialog.py, line: 136
-msgid "Unload S.M.A.R.T Monitor"
-msgstr "S.M.A.R.T-Monitor entladen"
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/performance_games_page.py, line: 83
-msgid "Disables S.M.A.R.T disk monitoring. Reduces disk I/O and CPU usage."
-msgstr "Deaktiviert die S.M.A.R.T-Disküberwachung. Reduziert die Festplatten-I/O- und CPU-Auslastung."
-# 
-# #-#-#-#-#  biglinux-settings.pot (biglinux-settings)  #-#-#-#-#
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/usability/gamemode_config_dialog.py, line: 82
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/usability/gamemode_dialog.py, line: 189
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/usability/gamemode_dialog.py, line: 232
-msgid "GameMode Daemon"
-msgstr "GameMode-Daemon"
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/performance_games_page.py, line: 94
-msgid "Activates daemon that adjusts CPU, I/O, etc. Reduces latency and increases frame rate."
-msgstr "Aktiviert Daemon, der CPU, I/O usw. anpasst. Reduziert Latenz und erhöht die Bildrate."
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/performance_games_page.py, line: 319
-msgid "Configure Steam"
-msgstr "Steam konfigurieren"
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/performance_games_page.py, line: 320
-msgid "Select games to enable 'gamemoderun %command%' launch option."
-msgstr "Wählen Sie Spiele aus, um die Startoption 'gamemoderun %command%' zu aktivieren."
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/performance_games_page.py, line: 331
-msgid "Open"
-msgstr "Öffnen"
+"V2RayA läuft.\n"
+"Adresse: http://localhost:2017\n"
+"und\n"
+"Adresse: http://{}:2017"

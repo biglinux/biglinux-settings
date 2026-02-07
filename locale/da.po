@@ -14,14 +14,114 @@ msgstr ""
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "X-Generator: attranslate\n"
+msgid "Ollama Install"
+msgstr "Ollama Installation"
+msgid "Instaling Ollama, Please wait..."
+msgstr "Installerer Ollama, vent venligst..."
+msgid "Ollama Uninstall"
+msgstr "Ollama Afinstaller"
+msgid "Unistaling Ollama, Please wait..."
+msgstr "Afinstallerer Ollama, Vent venligst..."
+msgid "Ollama installed successfully!"
+msgstr "Ollama blev installeret med succes!"
+msgid "Failed to install Ollama!"
+msgstr "Mislykkedes med at installere Ollama!"
+msgid ""
+"Ollama server is running.\\n"
+"Address: http://localhost:11434"
+msgstr ""
+"Ollama-serveren kører.\\n"
+"Adresse: http://localhost:11434"
+msgid "LM Studio Install"
+msgstr "LM Studio Installation"
+msgid "Instaling LM Studio, Please wait..."
+msgstr "Installerer LM Studio, vent venligst..."
+msgid "LM Studio Uninstall"
+msgstr "LM Studio Afinstaller"
+msgid "Uninstaling LM Studio, Please wait..."
+msgstr "Afinstallerer LM Studio, Vent venligst..."
+msgid "LM Studio installed successfully!"
+msgstr "LM Studio installeret med succes!"
+msgid "Failed to install LM Studio!"
+msgstr "Fejl ved installation af LM Studio!"
+msgid "ChatBox Install"
+msgstr "ChatBox Installation"
+msgid "Instaling ChatBox, Please wait..."
+msgstr "Installerer ChatBox, vent venligst..."
+msgid "ChatBox Uninstall"
+msgstr "ChatBox Afinstaller"
+msgid "Uninstaling ChatBox, Please wait..."
+msgstr "Afinstallerer ChatBox, Vent venligst..."
+msgid "ChatBox installed successfully!"
+msgstr "ChatBox installeret med succes!"
+msgid "Failed to install ChatBox!"
+msgstr "Fejl ved installation af ChatBox!"
+msgid "Ollama Vulkan Install"
+msgstr "Ollama Vulkan Installation"
+msgid "Ollama Vulkan Uninstall"
+msgstr "Ollama Vulkan Afinstaller"
+msgid "Unistaling Ollama Vulkan, Please wait..."
+msgstr "Afinstallerer Ollama Vulkan, Vent venligst..."
+msgid "Ollama Vulkan installed successfully!"
+msgstr "Ollama Vulkan er installeret med succes!"
+msgid "Failed to install Ollama Vulkan!"
+msgstr "Mislykkedes med at installere Ollama Vulkan!"
+msgid "Ollama CUDA Install"
+msgstr "Ollama CUDA-installation"
+msgid "Instaling Ollama CUDA, Please wait..."
+msgstr "Installer Ollama CUDA, vent venligst..."
+msgid "Ollama CUDA Uninstall"
+msgstr "Ollama CUDA Afinstaller"
+msgid "Unistaling Ollama CUDA, Please wait..."
+msgstr "Afinstallerer Ollama CUDA, Vent venligst..."
+msgid "Ollama CUDA installed successfully!"
+msgstr "Ollama CUDA installeret med succes!"
+msgid "Failed to install Ollama CUDA!"
+msgstr "Mislykkedes med at installere Ollama CUDA!"
+msgid ""
+"Ollama shared successfully.\\n"
+"Address: http://$localIp:11434"
+msgstr ""
+"Ollama delt med succes.\\n"
+"Adresse: http://$localIp:11434"
+msgid "Failed to shared Ollama!"
+msgstr "Mislykkedes at dele Ollama!"
 msgid "Krita Install"
 msgstr "Krita Installation"
 msgid "Instaling Krita, Please wait..."
 msgstr "Installer Krita, vent venligst..."
+msgid "Krita Uninstall"
+msgstr "Krita Afinstaller"
+msgid "Uninstaling Krita, Please wait..."
+msgstr "Afinstallerer Krita, vent venligst..."
 msgid "Krita installed successfully!"
 msgstr "Krita er installeret med succes!"
 msgid "Failed to install Krita!"
 msgstr "Fejl ved installation af Krita!"
+msgid "Ollama Lab Install"
+msgstr "Ollama Lab Installation"
+msgid "Instaling Ollama Lab, Please wait..."
+msgstr "Installerer Ollama Lab, venligst vent..."
+msgid "Ollama Lab Uninstall"
+msgstr "Ollama Lab Afinstaller"
+msgid "Unistaling Ollama Lab, Please wait..."
+msgstr "Afinstallerer Ollama Lab, Vent venligst..."
+msgid "Ollama Lab installed successfully!"
+msgstr "Ollama Lab installeret med succes!"
+msgid "Failed to install Ollama Lab!"
+msgstr "Fejl ved installation af Ollama Lab!"
+msgid "Ollama ROCm Install"
+msgstr "Ollama ROCm Installation"
+msgid "Instaling Ollama ROCm, Please wait..."
+msgstr "Installer Ollama ROCm, vent venligst..."
+msgid "Ollama ROCm Uninstall"
+msgstr "Ollama ROCm Afinstaller"
+msgid "Unistaling Ollama ROCm, Please wait..."
+msgstr "Afinstallerer Ollama ROCm, Vent venligst..."
+msgid "Ollama ROCm installed successfully!"
+msgstr "Ollama ROCm installeret med succes!"
+msgid "Failed to install Ollama ROCm!"
+msgstr "Mislykkedes med at installere Ollama ROCm!"
 msgid ""
 "Generative AI for Krita has been successfully installed.\\n"
 "\\n"
@@ -76,14 +176,18 @@ msgid "Docker installed successfully!"
 msgstr "Docker installeret med succes!"
 msgid "An error occurred while install docker."
 msgstr "Der opstod en fejl under installationen af docker."
-msgid "GameMode Install"
-msgstr "GameMode Installation"
-msgid "Instaling GameMode, Please wait..."
-msgstr "Installer GameMode, Vent venligst..."
-msgid "GameMode installed successfully!"
-msgstr "GameMode installeret med succes!"
-msgid "Failed to install GameMode!"
-msgstr "Mislykkedes med at installere GameMode!"
+msgid "Applying, please wait..."
+msgstr "Anvender, vent venligst..."
+msgid ""
+"GRUB updated successfully!\\n"
+"Restart your computer for it to take effect."
+msgstr ""
+"GRUB opdateret med succes!\\n"
+"Genstart din computer for at det træder i kraft."
+msgid "An error occurred while updating GRUB."
+msgstr "Der opstod en fejl under opdatering af GRUB."
+msgid "Already enabled. No changes made."
+msgstr "Allerede aktiveret. Ingen ændringer foretaget."
 msgid "Recent Files enabling...."
 msgstr "Aktivering af seneste filer...."
 msgid "Recent Files enabling, Please wait..."
@@ -104,20 +208,8 @@ msgid "Instaling Kzones, Please wait..."
 msgstr "Installerer Kzones, vent venligst..."
 msgid "Kzones installed successfully!"
 msgstr "Kzones installeret med succes!"
-msgid "Applying, please wait..."
-msgstr "Anvender, vent venligst..."
 msgid "GRUB updated successfully!"
 msgstr "GRUB opdateret med succes!"
-msgid "An error occurred while updating GRUB."
-msgstr "Der opstod en fejl under opdatering af GRUB."
-msgid ""
-"GRUB updated successfully!\\n"
-"Restart your computer for it to take effect."
-msgstr ""
-"GRUB opdateret med succes!\\n"
-"Genstart din computer for at det træder i kraft."
-msgid "Already disabled. No changes made."
-msgstr "Allerede deaktiveret. Ingen ændringer foretaget."
 msgid "Limits updated successfully!"
 msgstr "Grænser opdateret med succes!"
 msgid "An error occurred while updating Limits."
@@ -167,14 +259,6 @@ msgstr "Vindueknap til venstre side"
 msgid "Maximize, minimize, and close buttons on the left side of the window."
 msgstr "Maksimer, minimér og luk knapperne på venstre side af vinduet."
 # 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_usability_page.py, line: 133
-msgid "SSH until next reboot"
-msgstr "SSH indtil næste genstart"
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 133
-msgid "Enable remote access via ssh until next boot."
-msgstr "Aktivér fjernadgang via ssh indtil næste genstart."
-# 
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_usability_page.py, line: 72
 msgid "KZones"
 msgstr "KZones"
@@ -206,6 +290,14 @@ msgstr "System"
 msgid "General system settings."
 msgstr "Generelle systemindstillinger."
 # 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_page.py, line: 21
+msgid "SSH"
+msgstr "SSH"
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_page.py, line: 22
+msgid "Enable remote access via ssh."
+msgstr "Aktivér fjernadgang via ssh."
+# 
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_usability_page.py, line: 147
 msgid "SSH always on"
 msgstr "SSH altid tændt"
@@ -229,38 +321,6 @@ msgstr "Auto-montering af partitioner"
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 171
 msgid "Auto mount partitions in internal disks on boot."
 msgstr "Automatisk montering af partitioner på interne diske ved opstart."
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_usability_page.py, line: 169
-msgid "Meltdown Mitigations off"
-msgstr "Meltdown-afbødninger slået fra"
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_usability_page.py, line: 113
-#, python-brace-format
-msgid ""
-"Using mitigations=off will make your machine faster and less secure! For more information see: <a "
-"href='{l}'>{l}</a>"
-msgstr ""
-"At bruge mitigations=off vil gøre din maskine hurtigere og mindre sikker! For mere information se: "
-"<a href='{l}'>{l}</a>"
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_usability_page.py, line: 176
-msgid "noWatchdog"
-msgstr "noWatchdog"
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_usability_page.py, line: 177
-msgid ""
-"Disables the hardware watchdog and TSC clocksource systems, maintaining high performance but "
-"removing automatic protections against system crashes."
-msgstr ""
-"Deaktiverer hardware watchdog og TSC clocksource-systemer, opretholder høj ydeevne, men fjerner "
-"automatiske beskyttelser mod systemnedbrud."
-# 
-# #-#-#-#-#  biglinux-settings.pot (biglinux-settings)  #-#-#-#-#
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_usability_page.py, line: 111
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/preload_page.py, line: 112
-msgid "Reload all statuses"
-msgstr "Genindlæs alle statusser"
 # 
 # #-#-#-#-#  biglinux-settings.pot (biglinux-settings)  #-#-#-#-#
 # 
@@ -302,12 +362,9 @@ msgstr "Aktiveret af systemkonfiguration (f.eks. Real-Time Kernel) og kan ikke �
 msgid "Unavailable: script returned invalid output."
 msgstr "Utilgængelig: scriptet returnerede ugyldigt output."
 # 
-# #-#-#-#-#  biglinux-settings.pot (biglinux-settings)  #-#-#-#-#
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_usability_page.py, line: 226
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/preload_page.py, line: 185
-msgid "Invalid output from script {}: {}"
-msgstr "Ugyldigt output fra script {}: {}"
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/base_page.py, line: 261
+msgid "output from script {}: {}"
+msgstr "output fra script {}: {}"
 # 
 # #-#-#-#-#  biglinux-settings.pot (biglinux-settings)  #-#-#-#-#
 # 
@@ -410,14 +467,6 @@ msgstr "JamesDSP"
 msgid "Advanced audio effects processor that improves sound quality."
 msgstr "Avanceret lydbehandlingsprocessor, der forbedrer lydkvaliteten."
 # 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/devices_page.py, line: 62
-msgid "Keyboard LED"
-msgstr "Tastatur LED"
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/dispositivos_page.py, line: 144
-msgid "If your keyboard has LED you can enable this feature to turn it on with the system."
-msgstr "Hvis dit tastatur har LED, kan du aktivere denne funktion for at tænde det sammen med systemet."
-# 
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings/devices_page.py, line: 71
 msgid "Reverse mouse scrolling"
 msgstr "Omvendt musrulning"
@@ -456,9 +505,21 @@ msgstr "A.I."
 msgid "Docker"
 msgstr "Docker"
 # 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 166
-msgid "Performance and Games"
-msgstr "Ydeevne og Spil"
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/performance_games_page.py, line: 181
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/performance_games_page.py, line: 195
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/performance_games_page.py, line: 181
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/performance_games_page.py, line: 195
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/performance_games_page.py, line: 244
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/performance_games_page.py, line: 256
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/performance_games_page.py, line: 244
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/performance_games_page.py, line: 256
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/usability/gamemode_dialog.py, line: 204
+msgid "Performance"
+msgstr "Ydelse"
 # 
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings/preload_page.py, line: 103
 msgid "Preload"
@@ -500,6 +561,69 @@ msgstr "Opera"
 msgid "Libreoffice"
 msgstr "Libreoffice"
 # 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/performance_games_page.py, line: 16
+msgid "BigLinux performance tweaks."
+msgstr "BigLinux ydeevnejusteringer."
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/usability/gamemode_config_dialog.py, line: 91
+msgid "Disable Visual Effects"
+msgstr "Deaktiver visuelle effekter"
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/performance_games_page.py, line: 35
+msgid "Disables KWin visual effects (blur, shadows, animations). Reduces GPU load and frees memory."
+msgstr ""
+"Deaktiverer KWin visuelle effekter (sløring, skygger, animationer). Reducerer GPU-belastning og "
+"frigør hukommelse."
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/performance_games_page.py, line: 63
+msgid "CPU Maximum Performance"
+msgstr "CPU Maksimal Ydelse"
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/performance_games_page.py, line: 51
+msgid "Forces maximum processor performance mode. Ensures the processor uses maximum frequency."
+msgstr "Tvinger maksimal processorpræstationsmode. Sikrer, at processoren bruger maksimal frekvens."
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/performance_games_page.py, line: 79
+msgid "Disable Baloo Indexer"
+msgstr "Deaktiver Baloo-indekseren"
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/performance_games_page.py, line: 67
+msgid "Disables the Baloo file indexer. Avoids disk I/O overhead."
+msgstr "Deaktiverer Baloo filindekseren. Undgår disk I/O-overhead."
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/usability/gamemode_config_dialog.py, line: 136
+msgid "Unload S.M.A.R.T Monitor"
+msgstr "Afbryd S.M.A.R.T Monitor"
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/performance_games_page.py, line: 83
+msgid "Disables S.M.A.R.T disk monitoring. Reduces disk I/O and CPU usage."
+msgstr "Deaktiverer S.M.A.R.T diskovervågning. Reducerer disk I/O og CPU-brug."
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_usability_page.py, line: 169
+msgid "Meltdown Mitigations off"
+msgstr "Meltdown-afbødninger slået fra"
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_usability_page.py, line: 113
+#, python-brace-format
+msgid ""
+"Using mitigations=off will make your machine faster and less secure! For more information see: <a "
+"href='{l}'>{l}</a>"
+msgstr ""
+"At bruge mitigations=off vil gøre din maskine hurtigere og mindre sikker! For mere information se: "
+"<a href='{l}'>{l}</a>"
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_usability_page.py, line: 176
+msgid "noWatchdog"
+msgstr "noWatchdog"
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_usability_page.py, line: 177
+msgid ""
+"Disables the hardware watchdog and TSC clocksource systems, maintaining high performance but "
+"removing automatic protections against system crashes."
+msgstr ""
+"Deaktiverer hardware watchdog og TSC clocksource-systemer, opretholder høj ydeevne, men fjerner "
+"automatiske beskyttelser mod systemnedbrud."
+# 
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings/ai_page.py, line: 28
 msgid "Artificial Intelligence"
 msgstr "Kunstig Intelligens"
@@ -507,6 +631,22 @@ msgstr "Kunstig Intelligens"
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings/ai_page.py, line: 15
 msgid "AI settings and tools."
 msgstr "AI-indstillinger og værktøjer."
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/ai_page.py, line: 22
+msgid "Ollma Server"
+msgstr "Ollma Server"
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/ai_page.py, line: 23
+msgid "Choose which Ollama server is best for your hardware."
+msgstr "Vælg hvilken Ollama-server der er bedst til dit hardware."
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/ai_page.py, line: 30
+msgid "AI Interfaces"
+msgstr "AI-grænseflader"
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/ai_page.py, line: 31
+msgid "Graphical interface for artificial intelligence.."
+msgstr "Grafisk grænseflade til kunstig intelligens."
 # 
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings/ai_page.py, line: 36
 msgid "Generative AI for Krita"
@@ -525,6 +665,98 @@ msgstr "ChatAI"
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings/ai_page.py, line: 47
 msgid "A variety of chats like Plasmoid for your KDE Plasma desktop."
 msgstr "En række chats som Plasmoid til din KDE Plasma skrivebord."
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/ai_page.py, line: 55
+msgid "OllamaCPU"
+msgstr "OllamaCPU"
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/ai_page.py, line: 56
+msgid "Local AI server. For CPUs only."
+msgstr "Lokal AI-server. Kun for CPU'er."
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/ai_page.py, line: 59
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/ai_page.py, line: 77
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/ai_page.py, line: 95
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/ai_page.py, line: 113
+msgid ""
+"Ollama server is running.\n"
+"Address: http://localhost:11434"
+msgstr ""
+"Ollama-serveren kører.  \n"
+"Adresse: http://localhost:11434"
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/ai_page.py, line: 63
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/ai_page.py, line: 81
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/ai_page.py, line: 99
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/ai_page.py, line: 117
+msgid "Share Ollama"
+msgstr "Del del Ollama"
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/ai_page.py, line: 64
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/ai_page.py, line: 82
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/ai_page.py, line: 100
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/ai_page.py, line: 118
+msgid "Share ollama on the local network."
+msgstr "Del del ollama på det lokale netværk."
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/ai_page.py, line: 68
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/ai_page.py, line: 86
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/ai_page.py, line: 104
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/ai_page.py, line: 122
+msgid ""
+"Ollama server is running.\n"
+"Address: http://{}:11434"
+msgstr ""
+"Ollama-server kører.  \n"
+"Adresse: http://{}:11434"
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/ai_page.py, line: 73
+msgid "Ollama Vulkan"
+msgstr "Ollama Vulkan"
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/ai_page.py, line: 74
+msgid "Local AI server. For CPUs and GPUs integrated and/or legacy."
+msgstr "Lokal AI-server. Til CPU'er og GPU'er integreret og/eller ældre."
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/ai_page.py, line: 91
+msgid "Ollama AMD ROCm"
+msgstr "Ollama AMD ROCm"
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/ai_page.py, line: 92
+msgid "Local AI server. For newer AMD GPUs, starting from the 6000 series."
+msgstr "Lokal AI-server. For nyere AMD GPU'er, startende fra 6000-serien."
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/ai_page.py, line: 109
+msgid "Ollama Nvidia CUDA"
+msgstr "Ollama Nvidia CUDA"
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/ai_page.py, line: 110
+msgid "Local AI server. For newer Nvidia GPUs, starting from the 2000 series."
+msgstr "Lokal AI-server. Til nyere Nvidia GPU'er, startende fra 2000-serien."
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/ai_page.py, line: 127
+msgid "Ollama LAB"
+msgstr "Ollama LAB"
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/ai_page.py, line: 128
+msgid "Graphical interface for managing Ollama models and chat."
+msgstr "Grafisk grænseflade til at administrere Ollama-modeller og chat."
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/ai_page.py, line: 135
+msgid "ChatBox"
+msgstr "Chatboks"
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/ai_page.py, line: 136
+msgid "User-friendly Desktop Client App for AI Models/LLMs."
+msgstr "Brugervenlig desktopklientapp til AI-modeller/LLM'er."
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/ai_page.py, line: 143
+msgid "LM Studio"
+msgstr "LM Studio"
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/ai_page.py, line: 144
+msgid "LM Studio - A desktop app for exploring and running large language models locally."
+msgstr "LM Studio - En desktop-app til at udforske og køre store sprogmodeller lokalt."
 # 
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings/docker_page.py, line: 15
 msgid "Container service - enable to use containers below."
@@ -553,6 +785,18 @@ msgstr "Nextcloud Plus"
 msgid "Nextcloud Plus container."
 msgstr "Nextcloud Plus-container."
 # 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/docker_page.py, line: 48
+msgid ""
+"Nextcloud Plus is running.\n"
+"Address: http://localhost:8286\n"
+"and\n"
+"Address: http://{}:8286"
+msgstr ""
+"Nextcloud Plus kører.  \n"
+"Adresse: http://localhost:8286  \n"
+"og  \n"
+"Adresse: http://{}:8286"
+# 
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings/containers_page.py, line: 44
 msgid "AdGuard"
 msgstr "AdGuard"
@@ -561,21 +805,17 @@ msgstr "AdGuard"
 msgid "AdGuard Home container."
 msgstr "AdGuard Home-container."
 # 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/containers_page.py, line: 53
-msgid "Django"
-msgstr "Django"
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/containers_page.py, line: 54
-msgid "Django developer environment."
-msgstr "Django udviklingsmiljø."
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/containers_page.py, line: 62
-msgid "Duplicati"
-msgstr "Duplicati"
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/containers_page.py, line: 63
-msgid "Duplicati backup solution."
-msgstr "Duplicati backup-løsning."
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/docker_page.py, line: 57
+msgid ""
+"AdGuard is running.\n"
+"Address: http://localhost:3030\n"
+"and\n"
+"Address: http://{}:3030"
+msgstr ""
+"AdGuard kører.  \n"
+"Adresse: http://localhost:3030  \n"
+"og  \n"
+"Adresse: http://{}:3030"
 # 
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings/containers_page.py, line: 71
 msgid "Jellyfin"
@@ -585,6 +825,18 @@ msgstr "Jellyfin"
 msgid "Jellyfin media server."
 msgstr "Jellyfin medieserver."
 # 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/docker_page.py, line: 75
+msgid ""
+"Jellyfin is running.\n"
+"Address: http://localhost:8096\n"
+"and\n"
+"Address: http://{}:8096"
+msgstr ""
+"Jellyfin kører.\n"
+"Adresse: http://localhost:8096\n"
+"og\n"
+"Adresse: http://{}:8096"
+# 
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings/containers_page.py, line: 80
 msgid "LAMP"
 msgstr "LAMP"
@@ -592,6 +844,18 @@ msgstr "LAMP"
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings/containers_page.py, line: 81
 msgid "LAMP stack (Linux, Apache, MySQL, PHP)."
 msgstr "LAMP-stak (Linux, Apache, MySQL, PHP)."
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/docker_page.py, line: 84
+msgid ""
+"LAMP is running.\n"
+"Address: http://localhost:8080\n"
+"and\n"
+"Address: http://{}:8080"
+msgstr ""
+"LAMP kører.\n"
+"Adresse: http://localhost:8080\n"
+"og\n"
+"Adresse: http://{}:8080"
 # 
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings/containers_page.py, line: 89
 msgid "Portainer Client"
@@ -601,6 +865,18 @@ msgstr "Portainer Klient"
 msgid "Portainer Agent for cluster management."
 msgstr "Portainer Agent til klyngeadministration."
 # 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/docker_page.py, line: 93
+msgid ""
+"Portainer Client is running.\n"
+"Address: http://localhost:9000\n"
+"and\n"
+"Address: http://{}:9000"
+msgstr ""
+"Portainer-klient kører.  \n"
+"Adresse: http://localhost:9000  \n"
+"og  \n"
+"Adresse: http://{}:9000"
+# 
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings/containers_page.py, line: 98
 msgid "SWS"
 msgstr "SWS"
@@ -608,6 +884,18 @@ msgstr "SWS"
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings/containers_page.py, line: 99
 msgid "SWS static web server."
 msgstr "SWS statisk webserver."
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/docker_page.py, line: 102
+msgid ""
+"SWS is running.\n"
+"Address: http://localhost:8182\n"
+"and\n"
+"Address: http://{}:8182"
+msgstr ""
+"SWS kører.\n"
+"Adresse: http://localhost:8182\n"
+"og\n"
+"Adresse: http://{}:8182"
 # 
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings/containers_page.py, line: 107
 msgid "V2RayA"
@@ -617,215 +905,14 @@ msgstr "V2RayA"
 msgid "V2RayA network tool."
 msgstr "V2RayA netværksværktøj."
 # 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/performance_games_page.py, line: 15
-msgid "Configure Steam Games"
-msgstr "Konfigurer Steam-spil"
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/performance_games_page.py, line: 61
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/performance_games_page.py, line: 68
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/performance_games_page.py, line: 72
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/performance_games_page.py, line: 83
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/performance_games_page.py, line: 165
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/performance_games_page.py, line: 185
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/performance_games_page.py, line: 187
-msgid "Error"
-msgstr "Fejl"
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/performance_games_page.py, line: 61
-msgid "Failed to load games list."
-msgstr "Kunne ikke indlæse spiloversigt."
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/performance_games_page.py, line: 68
-msgid "Invalid data received."
-msgstr "Ugyldige data modtaget."
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/performance_games_page.py, line: 77
-msgid "No Games Found"
-msgstr "Ingen spil fundet"
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/performance_games_page.py, line: 77
-msgid "No Steam games found."
-msgstr "Ingen Steam-spil fundet."
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/performance_games_page.py, line: 86
-msgid "Installed Games"
-msgstr "Installerede spil"
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/performance_games_page.py, line: 86
-msgid "{} games found"
-msgstr "{} spil fundet"
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/performance_games_page.py, line: 106
-msgid "Select All"
-msgstr "Vælg alle"
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/performance_games_page.py, line: 107
-msgid "Deselect All"
-msgstr "Fjern markering af alle"
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/performance_games_page.py, line: 115
-msgid "Apply Changes"
-msgstr "Anvend ændringer"
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/performance_games_page.py, line: 120
-msgid "Close"
-msgstr "Luk"
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/performance_games_page.py, line: 131
-msgid "Close Steam?"
-msgstr "Luk Steam?"
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/performance_games_page.py, line: 132
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/docker_page.py, line: 111
 msgid ""
-"Steam must be closed for changes to be applied. If Steam is running, the modifications will not "
-"take effect."
+"V2RayA is running.\n"
+"Address: http://localhost:2017\n"
+"and\n"
+"Address: http://{}:2017"
 msgstr ""
-"Steam skal lukkes for at ændringerne kan anvendes. Hvis Steam kører, vil ændringerne ikke træde i "
-"kraft."
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/performance_games_page.py, line: 134
-msgid "Cancel"
-msgstr "Annuller"
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/performance_games_page.py, line: 135
-msgid "Close Steam and Apply"
-msgstr "Luk Steam og anvend"
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/performance_games_page.py, line: 165
-msgid "Could not close Steam. Please close it manually and try again."
-msgstr "Kunne ikke lukke Steam. Luk venligst det manuelt og prøv igen."
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/performance_games_page.py, line: 180
-msgid "Success"
-msgstr "Succes"
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/performance_games_page.py, line: 180
-msgid "Changes applied successfully!"
-msgstr "Ændringer anvendt med succes!"
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/performance_games_page.py, line: 181
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/performance_games_page.py, line: 195
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/performance_games_page.py, line: 181
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/performance_games_page.py, line: 195
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/performance_games_page.py, line: 244
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/performance_games_page.py, line: 256
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/performance_games_page.py, line: 244
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/performance_games_page.py, line: 256
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/usability/gamemode_dialog.py, line: 204
-msgid "Performance"
-msgstr "Ydelse"
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/performance_games_page.py, line: 16
-msgid "BigLinux performance tweaks."
-msgstr "BigLinux ydeevnejusteringer."
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/performance_games_page.py, line: 36
-msgid "Games Booster"
-msgstr "Spil Booster"
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_usability_page.py, line: 95
-msgid ""
-"Combination of daemon and library that allows games to request a set of optimizations be "
-"temporarily applied to the operating system and/or the game process."
-msgstr ""
-"Kombinationen af daemon og bibliotek, der gør det muligt for spil at anmode om, at et sæt "
-"optimeringer midlertidigt anvendes på operativsystemet og/eller spilprocessen."
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/usability/gamemode_config_dialog.py, line: 91
-msgid "Disable Visual Effects"
-msgstr "Deaktiver visuelle effekter"
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/performance_games_page.py, line: 35
-msgid "Disables KWin visual effects (blur, shadows, animations). Reduces GPU load and frees memory."
-msgstr ""
-"Deaktiverer KWin visuelle effekter (sløring, skygger, animationer). Reducerer GPU-belastning og "
-"frigør hukommelse."
-# 
-# #-#-#-#-#  biglinux-settings.pot (biglinux-settings)  #-#-#-#-#
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/usability/kwin_ram_dialog.py, line: 109
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/usability/gamemode_config_dialog.py, line: 100
-msgid "Compositor Settings"
-msgstr "Kompositorindstillinger"
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/performance_games_page.py, line: 43
-msgid ""
-"Configures compositor for low latency, allows tearing and disables animations. Minimizes "
-"compositing overhead and reduces input lag."
-msgstr ""
-"Konfigurerer compositor til lav latenstid, tillader tearing og deaktiverer animationer. Minimerer "
-"kompositionsoverhead og reducerer inputlag."
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/performance_games_page.py, line: 63
-msgid "CPU Maximum Performance"
-msgstr "CPU Maksimal Ydelse"
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/performance_games_page.py, line: 51
-msgid "Forces maximum processor performance mode. Ensures the processor uses maximum frequency."
-msgstr "Tvinger maksimal processorpræstationsmode. Sikrer, at processoren bruger maksimal frekvens."
-# 
-# #-#-#-#-#  biglinux-settings.pot (biglinux-settings)  #-#-#-#-#
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/usability/gamemode_config_dialog.py, line: 109
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/usability/gamemode_dialog.py, line: 207
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/usability/gamemode_dialog.py, line: 250
-msgid "GPU Maximum Performance"
-msgstr "GPU Maksimal Ydelse"
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/performance_games_page.py, line: 59
-msgid "Forces maximum GPU performance mode (NVIDIA/AMD). Ensures the graphics card uses maximum frequency."
-msgstr ""
-"Tvinger maksimal GPU-ydeevne tilstand (NVIDIA/AMD). Sikrer, at grafikkortet bruger maksimal "
-"frekvens."
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/performance_games_page.py, line: 79
-msgid "Disable Baloo Indexer"
-msgstr "Deaktiver Baloo-indekseren"
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/performance_games_page.py, line: 67
-msgid "Disables the Baloo file indexer. Avoids disk I/O overhead."
-msgstr "Deaktiverer Baloo filindekseren. Undgår disk I/O-overhead."
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/usability/gamemode_config_dialog.py, line: 127
-msgid "Stop Akonadi Server"
-msgstr "Stop Akonadi-server"
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/performance_games_page.py, line: 75
-msgid "Stops the PIM data server (Kontact/Thunderbird). Reduces memory and disk overhead."
-msgstr "Stopper PIM-dataserveren (Kontact/Thunderbird). Reducerer hukommelse og diskoverhead."
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/usability/gamemode_config_dialog.py, line: 136
-msgid "Unload S.M.A.R.T Monitor"
-msgstr "Afbryd S.M.A.R.T Monitor"
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/performance_games_page.py, line: 83
-msgid "Disables S.M.A.R.T disk monitoring. Reduces disk I/O and CPU usage."
-msgstr "Deaktiverer S.M.A.R.T diskovervågning. Reducerer disk I/O og CPU-brug."
-# 
-# #-#-#-#-#  biglinux-settings.pot (biglinux-settings)  #-#-#-#-#
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/usability/gamemode_config_dialog.py, line: 82
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/usability/gamemode_dialog.py, line: 189
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/usability/gamemode_dialog.py, line: 232
-msgid "GameMode Daemon"
-msgstr "GameMode Daemon"
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/performance_games_page.py, line: 94
-msgid "Activates daemon that adjusts CPU, I/O, etc. Reduces latency and increases frame rate."
-msgstr "Aktiverer daemon, der justerer CPU, I/O osv. Reducerer latenstid og øger billedhastigheden."
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/performance_games_page.py, line: 319
-msgid "Configure Steam"
-msgstr "Konfigurer Steam"
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/performance_games_page.py, line: 320
-msgid "Select games to enable 'gamemoderun %command%' launch option."
-msgstr "Vælg spil for at aktivere 'gamemoderun %command%' startmulighed."
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/performance_games_page.py, line: 331
-msgid "Open"
-msgstr "Åben"
+"V2RayA kører.\n"
+"Adresse: http://localhost:2017\n"
+"og\n"
+"Adresse: http://{}:2017"

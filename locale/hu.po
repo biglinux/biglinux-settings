@@ -14,14 +14,114 @@ msgstr ""
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "X-Generator: attranslate\n"
+msgid "Ollama Install"
+msgstr "Ollama Telepítés"
+msgid "Instaling Ollama, Please wait..."
+msgstr "Ollama telepítése, kérem várjon..."
+msgid "Ollama Uninstall"
+msgstr "Ollama eltávolítása"
+msgid "Unistaling Ollama, Please wait..."
+msgstr "Ollama eltávolítása, Kérem várjon..."
+msgid "Ollama installed successfully!"
+msgstr "Az Ollama sikeresen telepítve!"
+msgid "Failed to install Ollama!"
+msgstr "Ollama telepítése nem sikerült!"
+msgid ""
+"Ollama server is running.\\n"
+"Address: http://localhost:11434"
+msgstr ""
+"Ollama szerver fut.\\n"
+"Cím: http://localhost:11434"
+msgid "LM Studio Install"
+msgstr "LM Stúdió Telepítés"
+msgid "Instaling LM Studio, Please wait..."
+msgstr "LM Studio telepítése, kérem várjon..."
+msgid "LM Studio Uninstall"
+msgstr "LM Stúdió Eltávolítása"
+msgid "Uninstaling LM Studio, Please wait..."
+msgstr "LM Studio eltávolítása, Kérem, várjon..."
+msgid "LM Studio installed successfully!"
+msgstr "Az LM Studio sikeresen telepítve!"
+msgid "Failed to install LM Studio!"
+msgstr "A LM Studio telepítése nem sikerült!"
+msgid "ChatBox Install"
+msgstr "ChatBox Telepítés"
+msgid "Instaling ChatBox, Please wait..."
+msgstr "A ChatBox telepítése, kérem várjon..."
+msgid "ChatBox Uninstall"
+msgstr "ChatBox eltávolítása"
+msgid "Uninstaling ChatBox, Please wait..."
+msgstr "A ChatBox eltávolítása, kérem várjon..."
+msgid "ChatBox installed successfully!"
+msgstr "A ChatBox sikeresen telepítve lett!"
+msgid "Failed to install ChatBox!"
+msgstr "A ChatBox telepítése nem sikerült!"
+msgid "Ollama Vulkan Install"
+msgstr "Ollama Vulkan Telepítés"
+msgid "Ollama Vulkan Uninstall"
+msgstr "Ollama Vulkan Eltávolítás"
+msgid "Unistaling Ollama Vulkan, Please wait..."
+msgstr "Ollama Vulkan eltávolítása, Kérem várjon..."
+msgid "Ollama Vulkan installed successfully!"
+msgstr "Ollama Vulkan sikeresen telepítve!"
+msgid "Failed to install Ollama Vulkan!"
+msgstr "Ollama Vulkan telepítése nem sikerült!"
+msgid "Ollama CUDA Install"
+msgstr "Ollama CUDA telepítése"
+msgid "Instaling Ollama CUDA, Please wait..."
+msgstr "Ollama CUDA telepítése, Kérem várjon..."
+msgid "Ollama CUDA Uninstall"
+msgstr "Ollama CUDA eltávolítása"
+msgid "Unistaling Ollama CUDA, Please wait..."
+msgstr "Ollama CUDA eltávolítása, kérem várjon..."
+msgid "Ollama CUDA installed successfully!"
+msgstr "Ollama CUDA sikeresen telepítve!"
+msgid "Failed to install Ollama CUDA!"
+msgstr "Ollama CUDA telepítése nem sikerült!"
+msgid ""
+"Ollama shared successfully.\\n"
+"Address: http://$localIp:11434"
+msgstr ""
+"Ollama megosztva. \\n"
+"Cím: http://$localIp:11434"
+msgid "Failed to shared Ollama!"
+msgstr "Sikertelen az Ollama megosztása!"
 msgid "Krita Install"
 msgstr "Krita telepítése"
 msgid "Instaling Krita, Please wait..."
 msgstr "Krita telepítése, Kérem várjon..."
+msgid "Krita Uninstall"
+msgstr "Krita eltávolítása"
+msgid "Uninstaling Krita, Please wait..."
+msgstr "Krita eltávolítása, Kérem várjon..."
 msgid "Krita installed successfully!"
 msgstr "A Krita sikeresen telepítve lett!"
 msgid "Failed to install Krita!"
 msgstr "A Krita telepítése nem sikerült!"
+msgid "Ollama Lab Install"
+msgstr "Ollama Lab Telepítés"
+msgid "Instaling Ollama Lab, Please wait..."
+msgstr "Ollama Lab telepítése, kérem várjon..."
+msgid "Ollama Lab Uninstall"
+msgstr "Ollama Lab eltávolítása"
+msgid "Unistaling Ollama Lab, Please wait..."
+msgstr "Ollama Lab eltávolítása, Kérem várjon..."
+msgid "Ollama Lab installed successfully!"
+msgstr "Az Ollama Lab sikeresen telepítve!"
+msgid "Failed to install Ollama Lab!"
+msgstr "Ollama Lab telepítése nem sikerült!"
+msgid "Ollama ROCm Install"
+msgstr "Ollama ROCm Telepítés"
+msgid "Instaling Ollama ROCm, Please wait..."
+msgstr "Ollama ROCm telepítése, kérem várjon..."
+msgid "Ollama ROCm Uninstall"
+msgstr "Ollama ROCm eltávolítása"
+msgid "Unistaling Ollama ROCm, Please wait..."
+msgstr "Ollama ROCm eltávolítása, Kérem várjon..."
+msgid "Ollama ROCm installed successfully!"
+msgstr "Ollama ROCm sikeresen telepítve!"
+msgid "Failed to install Ollama ROCm!"
+msgstr "Ollama ROCm telepítése nem sikerült!"
 msgid ""
 "Generative AI for Krita has been successfully installed.\\n"
 "\\n"
@@ -76,14 +176,18 @@ msgid "Docker installed successfully!"
 msgstr "A Docker sikeresen telepítve lett!"
 msgid "An error occurred while install docker."
 msgstr "Hiba történt a Docker telepítése során."
-msgid "GameMode Install"
-msgstr "Játékmód telepítése"
-msgid "Instaling GameMode, Please wait..."
-msgstr "Játékmód telepítése, kérem várjon..."
-msgid "GameMode installed successfully!"
-msgstr "A GameMode sikeresen telepítve!"
-msgid "Failed to install GameMode!"
-msgstr "A GameMode telepítése nem sikerült!"
+msgid "Applying, please wait..."
+msgstr "Alkalmazás folyamatban, kérjük várjon..."
+msgid ""
+"GRUB updated successfully!\\n"
+"Restart your computer for it to take effect."
+msgstr ""
+"A GRUB sikeresen frissítve lett!\\n"
+"Indítsa újra a számítógépét, hogy érvénybe lépjen."
+msgid "An error occurred while updating GRUB."
+msgstr "Hiba történt a GRUB frissítésekor."
+msgid "Already enabled. No changes made."
+msgstr "Már engedélyezve van. Nincsenek változtatások."
 msgid "Recent Files enabling...."
 msgstr "Legutóbbi fájlok engedélyezése...."
 msgid "Recent Files enabling, Please wait..."
@@ -104,20 +208,8 @@ msgid "Instaling Kzones, Please wait..."
 msgstr "Kzones telepítése, kérem várjon..."
 msgid "Kzones installed successfully!"
 msgstr "A Kzones sikeresen telepítve lett!"
-msgid "Applying, please wait..."
-msgstr "Alkalmazás folyamatban, kérjük várjon..."
 msgid "GRUB updated successfully!"
 msgstr "A GRUB sikeresen frissítve lett!"
-msgid "An error occurred while updating GRUB."
-msgstr "Hiba történt a GRUB frissítésekor."
-msgid ""
-"GRUB updated successfully!\\n"
-"Restart your computer for it to take effect."
-msgstr ""
-"A GRUB sikeresen frissítve lett!\\n"
-"Indítsa újra a számítógépét, hogy érvénybe lépjen."
-msgid "Already disabled. No changes made."
-msgstr "Már le van tiltva. Nincsenek változtatások."
 msgid "Limits updated successfully!"
 msgstr "A korlátok sikeresen frissítve!"
 msgid "An error occurred while updating Limits."
@@ -155,14 +247,6 @@ msgstr "Ablak gomb bal oldalon"
 msgid "Maximize, minimize, and close buttons on the left side of the window."
 msgstr "Ablak bal oldalán található maximalizálás, minimalizálás és bezárás gombok."
 # 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_usability_page.py, line: 133
-msgid "SSH until next reboot"
-msgstr "SSH a következő újraindításig"
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 133
-msgid "Enable remote access via ssh until next boot."
-msgstr "Engedélyezze a távoli hozzáférést ssh-n keresztül a következő indításig."
-# 
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_usability_page.py, line: 72
 msgid "KZones"
 msgstr "KZones"
@@ -194,6 +278,14 @@ msgstr "Rendszer"
 msgid "General system settings."
 msgstr "Általános rendszerbeállítások."
 # 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_page.py, line: 21
+msgid "SSH"
+msgstr "SSH"
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_page.py, line: 22
+msgid "Enable remote access via ssh."
+msgstr "Engedélyezze a távoli hozzáférést ssh-n keresztül."
+# 
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_usability_page.py, line: 147
 msgid "SSH always on"
 msgstr "SSH mindig be van kapcsolva"
@@ -217,38 +309,6 @@ msgstr "Automatikus csatolás partíciók"
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 171
 msgid "Auto mount partitions in internal disks on boot."
 msgstr "Automatikus partíciók csatolása a belső lemezeken indításkor."
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_usability_page.py, line: 169
-msgid "Meltdown Mitigations off"
-msgstr "Meltdown mérséklések kikapcsolva"
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_usability_page.py, line: 113
-#, python-brace-format
-msgid ""
-"Using mitigations=off will make your machine faster and less secure! For more information see: <a "
-"href='{l}'>{l}</a>"
-msgstr ""
-"A mitigációk kikapcsolása gyorsabbá és kevésbé biztonsossá teszi a gépét! További információért "
-"lásd: <a href='{l}'>{l}</a>"
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_usability_page.py, line: 176
-msgid "noWatchdog"
-msgstr "nincsFelügyelő"
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_usability_page.py, line: 177
-msgid ""
-"Disables the hardware watchdog and TSC clocksource systems, maintaining high performance but "
-"removing automatic protections against system crashes."
-msgstr ""
-"Letiltja a hardveres figyelő és a TSC óraforrás rendszereket, fenntartva a magas teljesítményt, de "
-"eltávolítva az automatikus védelmet a rendszerösszeomlások ellen."
-# 
-# #-#-#-#-#  biglinux-settings.pot (biglinux-settings)  #-#-#-#-#
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_usability_page.py, line: 111
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/preload_page.py, line: 112
-msgid "Reload all statuses"
-msgstr "Minden állapot újratöltése"
 # 
 # #-#-#-#-#  biglinux-settings.pot (biglinux-settings)  #-#-#-#-#
 # 
@@ -290,12 +350,9 @@ msgstr "A rendszerkonfiguráció engedélyezte (pl. Valós idejű kernel), és i
 msgid "Unavailable: script returned invalid output."
 msgstr "Nem elérhető: a szkript érvénytelen kimenetet adott vissza."
 # 
-# #-#-#-#-#  biglinux-settings.pot (biglinux-settings)  #-#-#-#-#
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_usability_page.py, line: 226
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/preload_page.py, line: 185
-msgid "Invalid output from script {}: {}"
-msgstr "Érvénytelen kimenet a következő szkripttől {}: {}"
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/base_page.py, line: 261
+msgid "output from script {}: {}"
+msgstr "A szkript kimenete {}: {}"
 # 
 # #-#-#-#-#  biglinux-settings.pot (biglinux-settings)  #-#-#-#-#
 # 
@@ -398,16 +455,6 @@ msgstr "JamesDSP"
 msgid "Advanced audio effects processor that improves sound quality."
 msgstr "Fejlett audioeffektus-processzor, amely javítja a hangminőséget."
 # 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/devices_page.py, line: 62
-msgid "Keyboard LED"
-msgstr "Billentyűzet LED"
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/dispositivos_page.py, line: 144
-msgid "If your keyboard has LED you can enable this feature to turn it on with the system."
-msgstr ""
-"Ha a billentyűzeted LED-del rendelkezik, engedélyezheted ezt a funkciót, hogy a rendszerrel együtt "
-"bekapcsoljon."
-# 
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings/devices_page.py, line: 71
 msgid "Reverse mouse scrolling"
 msgstr "Fordított egér görgetés"
@@ -446,9 +493,9 @@ msgstr "Mesterséges intelligencia."
 msgid "Docker"
 msgstr "Docker"
 # 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 166
-msgid "Performance and Games"
-msgstr "Teljesítmény és Játékok"
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/usability/gamemode_dialog.py, line: 204
+msgid "Performance"
+msgstr "Teljesítmény"
 # 
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings/preload_page.py, line: 103
 msgid "Preload"
@@ -490,6 +537,71 @@ msgstr "Opera"
 msgid "Libreoffice"
 msgstr "LibreOffice"
 # 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/performance_games_page.py, line: 16
+msgid "BigLinux performance tweaks."
+msgstr "BigLinux teljesítményjavítások."
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/usability/gamemode_config_dialog.py, line: 91
+msgid "Disable Visual Effects"
+msgstr "Visualis hatások letiltása"
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/performance_games_page.py, line: 35
+msgid "Disables KWin visual effects (blur, shadows, animations). Reduces GPU load and frees memory."
+msgstr ""
+"Letiltja a KWin vizuális effektusait (elmosódás, árnyékok, animációk). Csökkenti a GPU terhelését "
+"és felszabadítja a memóriát."
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/performance_games_page.py, line: 63
+msgid "CPU Maximum Performance"
+msgstr "CPU Maximális Teljesítmény"
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/performance_games_page.py, line: 51
+msgid "Forces maximum processor performance mode. Ensures the processor uses maximum frequency."
+msgstr ""
+"Maximális processzor teljesítmény módra kényszerít. Biztosítja, hogy a processzor a maximális "
+"frekvenciát használja."
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/performance_games_page.py, line: 79
+msgid "Disable Baloo Indexer"
+msgstr "Baloo indexert letiltása"
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/performance_games_page.py, line: 67
+msgid "Disables the Baloo file indexer. Avoids disk I/O overhead."
+msgstr "Letiltja a Baloo fájlindexelőt. Elkerüli a lemez I/O terhelést."
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/usability/gamemode_config_dialog.py, line: 136
+msgid "Unload S.M.A.R.T Monitor"
+msgstr "S.M.A.R.T Monitor kiürítése"
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/performance_games_page.py, line: 83
+msgid "Disables S.M.A.R.T disk monitoring. Reduces disk I/O and CPU usage."
+msgstr "Letiltja a S.M.A.R.T lemezfigyelést. Csökkenti a lemez I/O és a CPU használatát."
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_usability_page.py, line: 169
+msgid "Meltdown Mitigations off"
+msgstr "Meltdown mérséklések kikapcsolva"
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_usability_page.py, line: 113
+#, python-brace-format
+msgid ""
+"Using mitigations=off will make your machine faster and less secure! For more information see: <a "
+"href='{l}'>{l}</a>"
+msgstr ""
+"A mitigációk kikapcsolása gyorsabbá és kevésbé biztonsossá teszi a gépét! További információért "
+"lásd: <a href='{l}'>{l}</a>"
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_usability_page.py, line: 176
+msgid "noWatchdog"
+msgstr "nincsFelügyelő"
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_usability_page.py, line: 177
+msgid ""
+"Disables the hardware watchdog and TSC clocksource systems, maintaining high performance but "
+"removing automatic protections against system crashes."
+msgstr ""
+"Letiltja a hardveres figyelő és a TSC óraforrás rendszereket, fenntartva a magas teljesítményt, de "
+"eltávolítva az automatikus védelmet a rendszerösszeomlások ellen."
+# 
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings/ai_page.py, line: 28
 msgid "Artificial Intelligence"
 msgstr "Mesterséges Intelligencia"
@@ -497,6 +609,22 @@ msgstr "Mesterséges Intelligencia"
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings/ai_page.py, line: 15
 msgid "AI settings and tools."
 msgstr "AI beállítások és eszközök."
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/ai_page.py, line: 22
+msgid "Ollma Server"
+msgstr "Ollma Szerver"
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/ai_page.py, line: 23
+msgid "Choose which Ollama server is best for your hardware."
+msgstr "Válaszd ki, melyik Ollama szerver a legjobb a hardveredhez."
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/ai_page.py, line: 30
+msgid "AI Interfaces"
+msgstr "AI Felületek"
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/ai_page.py, line: 31
+msgid "Graphical interface for artificial intelligence.."
+msgstr "Grafikus felhasználói felület mesterséges intelligencia számára."
 # 
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings/ai_page.py, line: 36
 msgid "Generative AI for Krita"
@@ -515,6 +643,98 @@ msgstr "ChatAI"
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings/ai_page.py, line: 47
 msgid "A variety of chats like Plasmoid for your KDE Plasma desktop."
 msgstr "Különböző csevegések, mint a Plasmoid, a KDE Plasma asztali környezetedhez."
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/ai_page.py, line: 55
+msgid "OllamaCPU"
+msgstr "OllamaCPU"
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/ai_page.py, line: 56
+msgid "Local AI server. For CPUs only."
+msgstr "Helyi AI szerver. Csak CPU-k számára."
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/ai_page.py, line: 59
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/ai_page.py, line: 77
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/ai_page.py, line: 95
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/ai_page.py, line: 113
+msgid ""
+"Ollama server is running.\n"
+"Address: http://localhost:11434"
+msgstr ""
+"Ollama szerver fut.  \n"
+"Cím: http://localhost:11434"
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/ai_page.py, line: 63
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/ai_page.py, line: 81
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/ai_page.py, line: 99
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/ai_page.py, line: 117
+msgid "Share Ollama"
+msgstr "Ollama megosztása"
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/ai_page.py, line: 64
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/ai_page.py, line: 82
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/ai_page.py, line: 100
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/ai_page.py, line: 118
+msgid "Share ollama on the local network."
+msgstr "Ollama megosztása a helyi hálózaton."
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/ai_page.py, line: 68
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/ai_page.py, line: 86
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/ai_page.py, line: 104
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/ai_page.py, line: 122
+msgid ""
+"Ollama server is running.\n"
+"Address: http://{}:11434"
+msgstr ""
+"Ollama szerver fut.  \n"
+"Cím: http://{}:11434"
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/ai_page.py, line: 73
+msgid "Ollama Vulkan"
+msgstr "Ollama Vulkan"
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/ai_page.py, line: 74
+msgid "Local AI server. For CPUs and GPUs integrated and/or legacy."
+msgstr "Helyi AI szerver. CPU-k és GPU-k integrált és/vagy régi."
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/ai_page.py, line: 91
+msgid "Ollama AMD ROCm"
+msgstr "Ollama AMD ROCm"
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/ai_page.py, line: 92
+msgid "Local AI server. For newer AMD GPUs, starting from the 6000 series."
+msgstr "Helyi AI szerver. Újabb AMD GPU-khoz, a 6000 sorozattól kezdődően."
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/ai_page.py, line: 109
+msgid "Ollama Nvidia CUDA"
+msgstr "Ollama Nvidia CUDA"
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/ai_page.py, line: 110
+msgid "Local AI server. For newer Nvidia GPUs, starting from the 2000 series."
+msgstr "Helyi AI szerver. Újabb Nvidia GPU-khoz, a 2000-as sorozattól kezdődően."
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/ai_page.py, line: 127
+msgid "Ollama LAB"
+msgstr "Ollama LAB"
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/ai_page.py, line: 128
+msgid "Graphical interface for managing Ollama models and chat."
+msgstr "Grafikus felület az Ollama modellek és csevegés kezelésére."
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/ai_page.py, line: 135
+msgid "ChatBox"
+msgstr "Csevegőablak"
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/ai_page.py, line: 136
+msgid "User-friendly Desktop Client App for AI Models/LLMs."
+msgstr "Felhasználóbarát Asztali Kliensek Alkalmazás AI Modellekhez/LLM-ekhez."
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/ai_page.py, line: 143
+msgid "LM Studio"
+msgstr "LM Stúdió"
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/ai_page.py, line: 144
+msgid "LM Studio - A desktop app for exploring and running large language models locally."
+msgstr "LM Stúdió - Asztali alkalmazás nagy nyelvi modellek helyi felfedezésére és futtatására."
 # 
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings/docker_page.py, line: 15
 msgid "Container service - enable to use containers below."
@@ -543,6 +763,18 @@ msgstr "Nextcloud Plus"
 msgid "Nextcloud Plus container."
 msgstr "Nextcloud Plus tartály."
 # 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/docker_page.py, line: 48
+msgid ""
+"Nextcloud Plus is running.\n"
+"Address: http://localhost:8286\n"
+"and\n"
+"Address: http://{}:8286"
+msgstr ""
+"A Nextcloud Plus fut.  \n"
+"Cím: http://localhost:8286  \n"
+"és  \n"
+"Cím: http://{}:8286"
+# 
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings/containers_page.py, line: 44
 msgid "AdGuard"
 msgstr "AdGuard"
@@ -551,21 +783,17 @@ msgstr "AdGuard"
 msgid "AdGuard Home container."
 msgstr "AdGuard Home konténer."
 # 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/containers_page.py, line: 53
-msgid "Django"
-msgstr "Django"
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/containers_page.py, line: 54
-msgid "Django developer environment."
-msgstr "Django fejlesztői környezet."
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/containers_page.py, line: 62
-msgid "Duplicati"
-msgstr "Duplicati"
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/containers_page.py, line: 63
-msgid "Duplicati backup solution."
-msgstr "Duplicati biztonsági megoldás."
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/docker_page.py, line: 57
+msgid ""
+"AdGuard is running.\n"
+"Address: http://localhost:3030\n"
+"and\n"
+"Address: http://{}:3030"
+msgstr ""
+"Az AdGuard fut.  \n"
+"Cím: http://localhost:3030  \n"
+"és  \n"
+"Cím: http://{}:3030"
 # 
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings/containers_page.py, line: 71
 msgid "Jellyfin"
@@ -575,6 +803,18 @@ msgstr "Jellyfin"
 msgid "Jellyfin media server."
 msgstr "Jellyfin média szerver."
 # 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/docker_page.py, line: 75
+msgid ""
+"Jellyfin is running.\n"
+"Address: http://localhost:8096\n"
+"and\n"
+"Address: http://{}:8096"
+msgstr ""
+"A Jellyfin fut.  \n"
+"Cím: http://localhost:8096  \n"
+"és  \n"
+"Cím: http://{}:8096"
+# 
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings/containers_page.py, line: 80
 msgid "LAMP"
 msgstr "LAMP"
@@ -582,6 +822,18 @@ msgstr "LAMP"
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings/containers_page.py, line: 81
 msgid "LAMP stack (Linux, Apache, MySQL, PHP)."
 msgstr "LAMP verem (Linux, Apache, MySQL, PHP)."
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/docker_page.py, line: 84
+msgid ""
+"LAMP is running.\n"
+"Address: http://localhost:8080\n"
+"and\n"
+"Address: http://{}:8080"
+msgstr ""
+"A LAMP fut.  \n"
+"Cím: http://localhost:8080  \n"
+"és  \n"
+"Cím: http://{}:8080"
 # 
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings/containers_page.py, line: 89
 msgid "Portainer Client"
@@ -591,6 +843,18 @@ msgstr "Portainer kliens"
 msgid "Portainer Agent for cluster management."
 msgstr "Portainer ügynök a klaszter kezeléséhez."
 # 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/docker_page.py, line: 93
+msgid ""
+"Portainer Client is running.\n"
+"Address: http://localhost:9000\n"
+"and\n"
+"Address: http://{}:9000"
+msgstr ""
+"A Portainer kliens fut.\n"
+"Cím: http://localhost:9000\n"
+"és\n"
+"Cím: http://{}:9000"
+# 
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings/containers_page.py, line: 98
 msgid "SWS"
 msgstr "SWS"
@@ -598,6 +862,18 @@ msgstr "SWS"
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings/containers_page.py, line: 99
 msgid "SWS static web server."
 msgstr "SWS statikus webkiszolgáló."
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/docker_page.py, line: 102
+msgid ""
+"SWS is running.\n"
+"Address: http://localhost:8182\n"
+"and\n"
+"Address: http://{}:8182"
+msgstr ""
+"A SWS fut.  \n"
+"Cím: http://localhost:8182  \n"
+"és  \n"
+"Cím: http://{}:8182"
 # 
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings/containers_page.py, line: 107
 msgid "V2RayA"
@@ -607,212 +883,14 @@ msgstr "V2RayA"
 msgid "V2RayA network tool."
 msgstr "V2RayA hálózati eszköz."
 # 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/performance_games_page.py, line: 15
-msgid "Configure Steam Games"
-msgstr "Steam játékok konfigurálása"
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/performance_games_page.py, line: 61
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/performance_games_page.py, line: 68
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/performance_games_page.py, line: 72
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/performance_games_page.py, line: 83
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/performance_games_page.py, line: 165
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/performance_games_page.py, line: 185
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/performance_games_page.py, line: 187
-msgid "Error"
-msgstr "Hiba"
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/performance_games_page.py, line: 61
-msgid "Failed to load games list."
-msgstr "A játéklista betöltése nem sikerült."
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/performance_games_page.py, line: 68
-msgid "Invalid data received."
-msgstr "Érvénytelen adat érkezett."
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/performance_games_page.py, line: 77
-msgid "No Games Found"
-msgstr "Nincs játék találva"
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/performance_games_page.py, line: 77
-msgid "No Steam games found."
-msgstr "Nincsenek Steam játékok."
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/performance_games_page.py, line: 86
-msgid "Installed Games"
-msgstr "Telepített játékok"
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/performance_games_page.py, line: 86
-msgid "{} games found"
-msgstr "{} játék található"
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/performance_games_page.py, line: 106
-msgid "Select All"
-msgstr "Összes kiválasztása"
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/performance_games_page.py, line: 107
-msgid "Deselect All"
-msgstr "Mindet Kijelölés Törlése"
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/performance_games_page.py, line: 115
-msgid "Apply Changes"
-msgstr "Változtatások alkalmazása"
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/performance_games_page.py, line: 120
-msgid "Close"
-msgstr "Bezárás"
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/performance_games_page.py, line: 131
-msgid "Close Steam?"
-msgstr "A Steam bezárása?"
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/performance_games_page.py, line: 132
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/docker_page.py, line: 111
 msgid ""
-"Steam must be closed for changes to be applied. If Steam is running, the modifications will not "
-"take effect."
+"V2RayA is running.\n"
+"Address: http://localhost:2017\n"
+"and\n"
+"Address: http://{}:2017"
 msgstr ""
-"A Steam-et be kell zárni a változtatások alkalmazásához. Ha a Steam fut, a módosítások nem lépnek "
-"érvénybe."
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/performance_games_page.py, line: 134
-msgid "Cancel"
-msgstr "Mégse"
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/performance_games_page.py, line: 135
-msgid "Close Steam and Apply"
-msgstr "Zárja be a Steamet és alkalmazza"
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/performance_games_page.py, line: 165
-msgid "Could not close Steam. Please close it manually and try again."
-msgstr "Nem sikerült bezárni a Steamet. Kérjük, zárja be manuálisan, és próbálja újra."
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/performance_games_page.py, line: 180
-msgid "Success"
-msgstr "Siker"
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/performance_games_page.py, line: 180
-msgid "Changes applied successfully!"
-msgstr "A változtatások sikeresen alkalmazva!"
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/performance_games_page.py, line: 181
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/performance_games_page.py, line: 195
-msgid "OK"
-msgstr "Rendben"
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/usability/gamemode_dialog.py, line: 204
-msgid "Performance"
-msgstr "Teljesítmény"
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/performance_games_page.py, line: 16
-msgid "BigLinux performance tweaks."
-msgstr "BigLinux teljesítményjavítások."
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/performance_games_page.py, line: 36
-msgid "Games Booster"
-msgstr "Játékok gyorsítója"
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_usability_page.py, line: 95
-msgid ""
-"Combination of daemon and library that allows games to request a set of optimizations be "
-"temporarily applied to the operating system and/or the game process."
-msgstr ""
-"A daemon és könyvtár kombinációja, amely lehetővé teszi a játékok számára, hogy kérjenek egy sor "
-"optimalizálás ideiglenes alkalmazását az operációs rendszeren és/vagy a játékfolyamaton."
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/usability/gamemode_config_dialog.py, line: 91
-msgid "Disable Visual Effects"
-msgstr "Visualis hatások letiltása"
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/performance_games_page.py, line: 35
-msgid "Disables KWin visual effects (blur, shadows, animations). Reduces GPU load and frees memory."
-msgstr ""
-"Letiltja a KWin vizuális effektusait (elmosódás, árnyékok, animációk). Csökkenti a GPU terhelését "
-"és felszabadítja a memóriát."
-# 
-# #-#-#-#-#  biglinux-settings.pot (biglinux-settings)  #-#-#-#-#
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/usability/kwin_ram_dialog.py, line: 109
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/usability/gamemode_config_dialog.py, line: 100
-msgid "Compositor Settings"
-msgstr "Kompozitor Beállítások"
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/performance_games_page.py, line: 43
-msgid ""
-"Configures compositor for low latency, allows tearing and disables animations. Minimizes "
-"compositing overhead and reduces input lag."
-msgstr ""
-"Konfigurálja a kompozitort alacsony késleltetésre, lehetővé teszi a tépést és letiltja az "
-"animációkat. Minimalizálja a kompozitálási terheket és csökkenti a bemeneti késleltetést."
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/performance_games_page.py, line: 63
-msgid "CPU Maximum Performance"
-msgstr "CPU Maximális Teljesítmény"
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/performance_games_page.py, line: 51
-msgid "Forces maximum processor performance mode. Ensures the processor uses maximum frequency."
-msgstr ""
-"Maximális processzor teljesítmény módra kényszerít. Biztosítja, hogy a processzor a maximális "
-"frekvenciát használja."
-# 
-# #-#-#-#-#  biglinux-settings.pot (biglinux-settings)  #-#-#-#-#
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/usability/gamemode_config_dialog.py, line: 109
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/usability/gamemode_dialog.py, line: 207
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/usability/gamemode_dialog.py, line: 250
-msgid "GPU Maximum Performance"
-msgstr "GPU Maximális Teljesítmény"
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/performance_games_page.py, line: 59
-msgid "Forces maximum GPU performance mode (NVIDIA/AMD). Ensures the graphics card uses maximum frequency."
-msgstr ""
-"Maximális GPU teljesítmény módot kényszerít (NVIDIA/AMD). Biztosítja, hogy a grafikus kártya "
-"maximális frekvenciát használjon."
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/performance_games_page.py, line: 79
-msgid "Disable Baloo Indexer"
-msgstr "Baloo indexert letiltása"
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/performance_games_page.py, line: 67
-msgid "Disables the Baloo file indexer. Avoids disk I/O overhead."
-msgstr "Letiltja a Baloo fájlindexelőt. Elkerüli a lemez I/O terhelést."
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/usability/gamemode_config_dialog.py, line: 127
-msgid "Stop Akonadi Server"
-msgstr "Állítsa le az Akonadi szervert"
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/performance_games_page.py, line: 75
-msgid "Stops the PIM data server (Kontact/Thunderbird). Reduces memory and disk overhead."
-msgstr "Megállítja a PIM adat szervert (Kontact/Thunderbird). Csökkenti a memória- és lemezterhelést."
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/usability/gamemode_config_dialog.py, line: 136
-msgid "Unload S.M.A.R.T Monitor"
-msgstr "S.M.A.R.T Monitor kiürítése"
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/performance_games_page.py, line: 83
-msgid "Disables S.M.A.R.T disk monitoring. Reduces disk I/O and CPU usage."
-msgstr "Letiltja a S.M.A.R.T lemezfigyelést. Csökkenti a lemez I/O és a CPU használatát."
-# 
-# #-#-#-#-#  biglinux-settings.pot (biglinux-settings)  #-#-#-#-#
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/usability/gamemode_config_dialog.py, line: 82
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/usability/gamemode_dialog.py, line: 189
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/usability/gamemode_dialog.py, line: 232
-msgid "GameMode Daemon"
-msgstr "Játékmód Daemon"
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/performance_games_page.py, line: 94
-msgid "Activates daemon that adjusts CPU, I/O, etc. Reduces latency and increases frame rate."
-msgstr ""
-"Aktiválja a démonot, amely a CPU-t, I/O-t stb. állítja be. Csökkenti a késleltetést és növeli a "
-"képkockasebességet."
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/performance_games_page.py, line: 319
-msgid "Configure Steam"
-msgstr "Állítsa be a Steamet"
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/performance_games_page.py, line: 320
-msgid "Select games to enable 'gamemoderun %command%' launch option."
-msgstr "Válassza ki a játékokat a 'gamemoderun %command%' indítási lehetőség engedélyezéséhez."
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/performance_games_page.py, line: 331
-msgid "Open"
-msgstr "Megnyitás"
+"A V2RayA fut.  \n"
+"Cím: http://localhost:2017  \n"
+"és  \n"
+"Cím: http://{}:2017"

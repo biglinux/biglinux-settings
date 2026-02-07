@@ -14,14 +14,114 @@ msgstr ""
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "X-Generator: attranslate\n"
+msgid "Ollama Install"
+msgstr "올라마 설치"
+msgid "Instaling Ollama, Please wait..."
+msgstr "Ollama 설치 중, 잠시만 기다려 주십시오..."
+msgid "Ollama Uninstall"
+msgstr "Ollama 제거"
+msgid "Unistaling Ollama, Please wait..."
+msgstr "Ollama를 제거하는 중입니다. 잠시만 기다려 주세요..."
+msgid "Ollama installed successfully!"
+msgstr "Ollama가 성공적으로 설치되었습니다!"
+msgid "Failed to install Ollama!"
+msgstr "Ollama 설치에 실패했습니다!"
+msgid ""
+"Ollama server is running.\\n"
+"Address: http://localhost:11434"
+msgstr ""
+"Ollama 서버가 실행 중입니다.\\n"
+"주소: http://localhost:11434"
+msgid "LM Studio Install"
+msgstr "LM 스튜디오 설치"
+msgid "Instaling LM Studio, Please wait..."
+msgstr "LM 스튜디오 설치 중입니다. 잠시만 기다려 주십시오..."
+msgid "LM Studio Uninstall"
+msgstr "LM 스튜디오 제거"
+msgid "Uninstaling LM Studio, Please wait..."
+msgstr "LM 스튜디오를 제거하는 중입니다. 잠시만 기다려 주십시오..."
+msgid "LM Studio installed successfully!"
+msgstr "LM 스튜디오가 성공적으로 설치되었습니다!"
+msgid "Failed to install LM Studio!"
+msgstr "LM Studio 설치에 실패했습니다!"
+msgid "ChatBox Install"
+msgstr "챗박스 설치"
+msgid "Instaling ChatBox, Please wait..."
+msgstr "ChatBox 설치 중, 잠시만 기다려 주세요..."
+msgid "ChatBox Uninstall"
+msgstr "채팅 상자 제거"
+msgid "Uninstaling ChatBox, Please wait..."
+msgstr "ChatBox를 제거하는 중입니다. 잠시만 기다려 주십시오..."
+msgid "ChatBox installed successfully!"
+msgstr "ChatBox가 성공적으로 설치되었습니다!"
+msgid "Failed to install ChatBox!"
+msgstr "ChatBox 설치에 실패했습니다!"
+msgid "Ollama Vulkan Install"
+msgstr "올라마 벌칸 설치"
+msgid "Ollama Vulkan Uninstall"
+msgstr "Ollama Vulkan 제거"
+msgid "Unistaling Ollama Vulkan, Please wait..."
+msgstr "Ollama Vulkan을 제거하는 중입니다. 잠시만 기다려 주십시오..."
+msgid "Ollama Vulkan installed successfully!"
+msgstr "Ollama Vulkan이 성공적으로 설치되었습니다!"
+msgid "Failed to install Ollama Vulkan!"
+msgstr "Ollama Vulkan 설치에 실패했습니다!"
+msgid "Ollama CUDA Install"
+msgstr "Ollama CUDA 설치"
+msgid "Instaling Ollama CUDA, Please wait..."
+msgstr "Ollama CUDA 설치 중, 잠시만 기다려 주십시오..."
+msgid "Ollama CUDA Uninstall"
+msgstr "Ollama CUDA 제거"
+msgid "Unistaling Ollama CUDA, Please wait..."
+msgstr "Ollama CUDA를 제거하는 중입니다. 잠시 기다려 주십시오..."
+msgid "Ollama CUDA installed successfully!"
+msgstr "Ollama CUDA가 성공적으로 설치되었습니다!"
+msgid "Failed to install Ollama CUDA!"
+msgstr "Ollama CUDA 설치에 실패했습니다!"
+msgid ""
+"Ollama shared successfully.\\n"
+"Address: http://$localIp:11434"
+msgstr ""
+"Ollama가 성공적으로 공유되었습니다.\\n"
+"주소: http://$localIp:11434"
+msgid "Failed to shared Ollama!"
+msgstr "Ollama 공유에 실패했습니다!"
 msgid "Krita Install"
 msgstr "크리타 설치"
 msgid "Instaling Krita, Please wait..."
 msgstr "Krita 설치 중, 잠시만 기다려 주십시오..."
+msgid "Krita Uninstall"
+msgstr "Krita 제거"
+msgid "Uninstaling Krita, Please wait..."
+msgstr "Krita를 제거하는 중입니다. 잠시만 기다려 주세요..."
 msgid "Krita installed successfully!"
 msgstr "Krita가 성공적으로 설치되었습니다!"
 msgid "Failed to install Krita!"
 msgstr "Krita 설치에 실패했습니다!"
+msgid "Ollama Lab Install"
+msgstr "올라마 실험실 설치"
+msgid "Instaling Ollama Lab, Please wait..."
+msgstr "Ollama Lab 설치 중, 잠시만 기다려 주십시오..."
+msgid "Ollama Lab Uninstall"
+msgstr "Ollama Lab 제거"
+msgid "Unistaling Ollama Lab, Please wait..."
+msgstr "Ollama Lab 제거 중, 잠시 기다려 주십시오..."
+msgid "Ollama Lab installed successfully!"
+msgstr "Ollama Lab가 성공적으로 설치되었습니다!"
+msgid "Failed to install Ollama Lab!"
+msgstr "Ollama Lab 설치에 실패했습니다!"
+msgid "Ollama ROCm Install"
+msgstr "Ollama ROCm 설치"
+msgid "Instaling Ollama ROCm, Please wait..."
+msgstr "Ollama ROCm 설치 중입니다. 잠시 기다려 주십시오..."
+msgid "Ollama ROCm Uninstall"
+msgstr "Ollama ROCm 제거"
+msgid "Unistaling Ollama ROCm, Please wait..."
+msgstr "Ollama ROCm을 제거하는 중입니다. 잠시 기다려 주십시오..."
+msgid "Ollama ROCm installed successfully!"
+msgstr "Ollama ROCm이 성공적으로 설치되었습니다!"
+msgid "Failed to install Ollama ROCm!"
+msgstr "Ollama ROCm 설치에 실패했습니다!"
 msgid ""
 "Generative AI for Krita has been successfully installed.\\n"
 "\\n"
@@ -75,14 +175,18 @@ msgid "Docker installed successfully!"
 msgstr "Docker가 성공적으로 설치되었습니다!"
 msgid "An error occurred while install docker."
 msgstr "도커 설치 중 오류가 발생했습니다."
-msgid "GameMode Install"
-msgstr "게임 모드 설치"
-msgid "Instaling GameMode, Please wait..."
-msgstr "게임 모드 설치 중, 잠시만 기다려 주십시오..."
-msgid "GameMode installed successfully!"
-msgstr "GameMode가 성공적으로 설치되었습니다!"
-msgid "Failed to install GameMode!"
-msgstr "GameMode 설치에 실패했습니다!"
+msgid "Applying, please wait..."
+msgstr "적용 중입니다. 잠시만 기다려 주십시오..."
+msgid ""
+"GRUB updated successfully!\\n"
+"Restart your computer for it to take effect."
+msgstr ""
+"GRUB이 성공적으로 업데이트되었습니다!\\n"
+"변경 사항을 적용하려면 컴퓨터를 재시작하세요."
+msgid "An error occurred while updating GRUB."
+msgstr "GRUB을 업데이트하는 동안 오류가 발생했습니다."
+msgid "Already enabled. No changes made."
+msgstr "이미 활성화되었습니다. 변경 사항이 없습니다."
 msgid "Recent Files enabling...."
 msgstr "최근 파일 활성화 중...."
 msgid "Recent Files enabling, Please wait..."
@@ -103,20 +207,8 @@ msgid "Instaling Kzones, Please wait..."
 msgstr "Kzones 설치 중입니다. 잠시만 기다려 주십시오..."
 msgid "Kzones installed successfully!"
 msgstr "Kzones가 성공적으로 설치되었습니다!"
-msgid "Applying, please wait..."
-msgstr "적용 중입니다. 잠시만 기다려 주십시오..."
 msgid "GRUB updated successfully!"
 msgstr "GRUB이 성공적으로 업데이트되었습니다!"
-msgid "An error occurred while updating GRUB."
-msgstr "GRUB을 업데이트하는 동안 오류가 발생했습니다."
-msgid ""
-"GRUB updated successfully!\\n"
-"Restart your computer for it to take effect."
-msgstr ""
-"GRUB이 성공적으로 업데이트되었습니다!\\n"
-"변경 사항을 적용하려면 컴퓨터를 재시작하세요."
-msgid "Already disabled. No changes made."
-msgstr "이미 비활성화되었습니다. 변경 사항이 없습니다."
 msgid "Limits updated successfully!"
 msgstr "제한이 성공적으로 업데이트되었습니다!"
 msgid "An error occurred while updating Limits."
@@ -154,14 +246,6 @@ msgstr "왼쪽에 있는 창 버튼"
 msgid "Maximize, minimize, and close buttons on the left side of the window."
 msgstr "창의 왼쪽에 있는 최대화, 최소화 및 닫기 버튼."
 # 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_usability_page.py, line: 133
-msgid "SSH until next reboot"
-msgstr "재부팅할 때까지 SSH"
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 133
-msgid "Enable remote access via ssh until next boot."
-msgstr "다음 부팅까지 ssh를 통한 원격 액세스를 활성화합니다."
-# 
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_usability_page.py, line: 72
 msgid "KZones"
 msgstr "K존"
@@ -191,6 +275,14 @@ msgstr "시스템"
 msgid "General system settings."
 msgstr "일반 시스템 설정."
 # 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_page.py, line: 21
+msgid "SSH"
+msgstr "SSH"
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_page.py, line: 22
+msgid "Enable remote access via ssh."
+msgstr "SSH를 통한 원격 액세스를 활성화합니다."
+# 
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_usability_page.py, line: 147
 msgid "SSH always on"
 msgstr "SSH 항상 켜짐"
@@ -214,34 +306,6 @@ msgstr "자동 마운트 파티션"
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 171
 msgid "Auto mount partitions in internal disks on boot."
 msgstr "부팅 시 내부 디스크의 파티션 자동 마운트."
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_usability_page.py, line: 169
-msgid "Meltdown Mitigations off"
-msgstr "멜트다운 완화 비활성화"
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_usability_page.py, line: 113
-#, python-brace-format
-msgid ""
-"Using mitigations=off will make your machine faster and less secure! For more information see: <a "
-"href='{l}'>{l}</a>"
-msgstr "완화 조치를 사용하지 않으면 기계가 더 빨라지지만 보안이 떨어집니다! 자세한 내용은 다음을 참조하십시오: <a href='{l}'>{l}</a>"
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_usability_page.py, line: 176
-msgid "noWatchdog"
-msgstr "노워치독"
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_usability_page.py, line: 177
-msgid ""
-"Disables the hardware watchdog and TSC clocksource systems, maintaining high performance but "
-"removing automatic protections against system crashes."
-msgstr "하드웨어 감시 타이머 및 TSC 클록 소스 시스템을 비활성화하여 높은 성능을 유지하지만 시스템 충돌에 대한 자동 보호 기능을 제거합니다."
-# 
-# #-#-#-#-#  biglinux-settings.pot (biglinux-settings)  #-#-#-#-#
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_usability_page.py, line: 111
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/preload_page.py, line: 112
-msgid "Reload all statuses"
-msgstr "모든 상태 새로 고침"
 # 
 # #-#-#-#-#  biglinux-settings.pot (biglinux-settings)  #-#-#-#-#
 # 
@@ -283,12 +347,9 @@ msgstr "시스템 구성(예: 실시간 커널)에 의해 활성화되었으며 
 msgid "Unavailable: script returned invalid output."
 msgstr "사용할 수 없음: 스크립트가 잘못된 출력을 반환했습니다."
 # 
-# #-#-#-#-#  biglinux-settings.pot (biglinux-settings)  #-#-#-#-#
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_usability_page.py, line: 226
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/preload_page.py, line: 185
-msgid "Invalid output from script {}: {}"
-msgstr "스크립트 {}에서 잘못된 출력: {}"
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/base_page.py, line: 261
+msgid "output from script {}: {}"
+msgstr "스크립트 {}의 출력: {}"
 # 
 # #-#-#-#-#  biglinux-settings.pot (biglinux-settings)  #-#-#-#-#
 # 
@@ -391,14 +452,6 @@ msgstr "제임스DSP"
 msgid "Advanced audio effects processor that improves sound quality."
 msgstr "사운드 품질을 향상시키는 고급 오디오 효과 프로세서."
 # 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/devices_page.py, line: 62
-msgid "Keyboard LED"
-msgstr "키보드 LED"
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/dispositivos_page.py, line: 144
-msgid "If your keyboard has LED you can enable this feature to turn it on with the system."
-msgstr "키보드에 LED가 있는 경우 이 기능을 활성화하여 시스템과 함께 켤 수 있습니다."
-# 
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings/devices_page.py, line: 71
 msgid "Reverse mouse scrolling"
 msgstr "마우스 스크롤 반전"
@@ -437,9 +490,15 @@ msgstr "인공지능"
 msgid "Docker"
 msgstr "도커"
 # 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 166
-msgid "Performance and Games"
-msgstr "성능 및 게임"
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/performance_games_page.py, line: 181
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/performance_games_page.py, line: 195
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/performance_games_page.py, line: 181
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/performance_games_page.py, line: 195
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/usability/gamemode_dialog.py, line: 204
+msgid "Performance"
+msgstr "성능"
 # 
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings/preload_page.py, line: 103
 msgid "Preload"
@@ -481,6 +540,63 @@ msgstr "오페라"
 msgid "Libreoffice"
 msgstr "리브레오피스"
 # 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/performance_games_page.py, line: 16
+msgid "BigLinux performance tweaks."
+msgstr "BigLinux 성능 조정."
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/usability/gamemode_config_dialog.py, line: 91
+msgid "Disable Visual Effects"
+msgstr "비주얼 효과 비활성화"
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/performance_games_page.py, line: 35
+msgid "Disables KWin visual effects (blur, shadows, animations). Reduces GPU load and frees memory."
+msgstr "KWin 시각 효과(블러, 그림자, 애니메이션)를 비활성화합니다. GPU 부하를 줄이고 메모리를 해제합니다."
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/performance_games_page.py, line: 63
+msgid "CPU Maximum Performance"
+msgstr "CPU 최대 성능"
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/performance_games_page.py, line: 51
+msgid "Forces maximum processor performance mode. Ensures the processor uses maximum frequency."
+msgstr "최대 프로세서 성능 모드를 강제합니다. 프로세서가 최대 주파수를 사용하도록 보장합니다."
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/performance_games_page.py, line: 79
+msgid "Disable Baloo Indexer"
+msgstr "Baloo 인덱서 비활성화"
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/performance_games_page.py, line: 67
+msgid "Disables the Baloo file indexer. Avoids disk I/O overhead."
+msgstr "Baloo 파일 인덱서를 비활성화합니다. 디스크 I/O 오버헤드를 피합니다."
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/usability/gamemode_config_dialog.py, line: 136
+msgid "Unload S.M.A.R.T Monitor"
+msgstr "S.M.A.R.T 모니터 언로드"
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/performance_games_page.py, line: 83
+msgid "Disables S.M.A.R.T disk monitoring. Reduces disk I/O and CPU usage."
+msgstr "S.M.A.R.T 디스크 모니터링을 비활성화합니다. 디스크 I/O 및 CPU 사용량을 줄입니다."
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_usability_page.py, line: 169
+msgid "Meltdown Mitigations off"
+msgstr "멜트다운 완화 비활성화"
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_usability_page.py, line: 113
+#, python-brace-format
+msgid ""
+"Using mitigations=off will make your machine faster and less secure! For more information see: <a "
+"href='{l}'>{l}</a>"
+msgstr "완화 조치를 사용하지 않으면 기계가 더 빨라지지만 보안이 떨어집니다! 자세한 내용은 다음을 참조하십시오: <a href='{l}'>{l}</a>"
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_usability_page.py, line: 176
+msgid "noWatchdog"
+msgstr "노워치독"
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_usability_page.py, line: 177
+msgid ""
+"Disables the hardware watchdog and TSC clocksource systems, maintaining high performance but "
+"removing automatic protections against system crashes."
+msgstr "하드웨어 감시 타이머 및 TSC 클록 소스 시스템을 비활성화하여 높은 성능을 유지하지만 시스템 충돌에 대한 자동 보호 기능을 제거합니다."
+# 
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings/ai_page.py, line: 28
 msgid "Artificial Intelligence"
 msgstr "인공지능"
@@ -488,6 +604,22 @@ msgstr "인공지능"
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings/ai_page.py, line: 15
 msgid "AI settings and tools."
 msgstr "AI 설정 및 도구."
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/ai_page.py, line: 22
+msgid "Ollma Server"
+msgstr "올마 서버"
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/ai_page.py, line: 23
+msgid "Choose which Ollama server is best for your hardware."
+msgstr "하드웨어에 가장 적합한 Ollama 서버를 선택하세요."
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/ai_page.py, line: 30
+msgid "AI Interfaces"
+msgstr "AI 인터페이스"
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/ai_page.py, line: 31
+msgid "Graphical interface for artificial intelligence.."
+msgstr "인공지능을 위한 그래픽 인터페이스."
 # 
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings/ai_page.py, line: 36
 msgid "Generative AI for Krita"
@@ -504,6 +636,98 @@ msgstr "챗AI"
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings/ai_page.py, line: 47
 msgid "A variety of chats like Plasmoid for your KDE Plasma desktop."
 msgstr "KDE Plasma 데스크탑을 위한 Plasmoid와 같은 다양한 채팅."
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/ai_page.py, line: 55
+msgid "OllamaCPU"
+msgstr "OllamaCPU"
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/ai_page.py, line: 56
+msgid "Local AI server. For CPUs only."
+msgstr "로컬 AI 서버. CPU 전용."
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/ai_page.py, line: 59
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/ai_page.py, line: 77
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/ai_page.py, line: 95
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/ai_page.py, line: 113
+msgid ""
+"Ollama server is running.\n"
+"Address: http://localhost:11434"
+msgstr ""
+"Ollama 서버가 실행 중입니다.  \n"
+"주소: http://localhost:11434"
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/ai_page.py, line: 63
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/ai_page.py, line: 81
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/ai_page.py, line: 99
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/ai_page.py, line: 117
+msgid "Share Ollama"
+msgstr "올라마 공유"
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/ai_page.py, line: 64
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/ai_page.py, line: 82
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/ai_page.py, line: 100
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/ai_page.py, line: 118
+msgid "Share ollama on the local network."
+msgstr "로컬 네트워크에서 ollama 공유."
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/ai_page.py, line: 68
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/ai_page.py, line: 86
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/ai_page.py, line: 104
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/ai_page.py, line: 122
+msgid ""
+"Ollama server is running.\n"
+"Address: http://{}:11434"
+msgstr ""
+"Ollama 서버가 실행 중입니다.  \n"
+"주소: http://{}:11434"
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/ai_page.py, line: 73
+msgid "Ollama Vulkan"
+msgstr "올라마 벌칸"
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/ai_page.py, line: 74
+msgid "Local AI server. For CPUs and GPUs integrated and/or legacy."
+msgstr "로컬 AI 서버. CPU 및 GPU 통합 및/또는 레거시용."
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/ai_page.py, line: 91
+msgid "Ollama AMD ROCm"
+msgstr "Ollama AMD ROCm"
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/ai_page.py, line: 92
+msgid "Local AI server. For newer AMD GPUs, starting from the 6000 series."
+msgstr "로컬 AI 서버. 6000 시리즈부터 시작하는 최신 AMD GPU용."
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/ai_page.py, line: 109
+msgid "Ollama Nvidia CUDA"
+msgstr "올라마 엔비디아 CUDA"
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/ai_page.py, line: 110
+msgid "Local AI server. For newer Nvidia GPUs, starting from the 2000 series."
+msgstr "로컬 AI 서버. 2000 시리즈부터 시작하는 최신 Nvidia GPU용."
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/ai_page.py, line: 127
+msgid "Ollama LAB"
+msgstr "올라마 실험실"
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/ai_page.py, line: 128
+msgid "Graphical interface for managing Ollama models and chat."
+msgstr "Ollama 모델 및 채팅 관리를 위한 그래픽 인터페이스."
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/ai_page.py, line: 135
+msgid "ChatBox"
+msgstr "채팅 상자"
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/ai_page.py, line: 136
+msgid "User-friendly Desktop Client App for AI Models/LLMs."
+msgstr "AI 모델/LLM을 위한 사용자 친화적인 데스크톱 클라이언트 앱."
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/ai_page.py, line: 143
+msgid "LM Studio"
+msgstr "LM 스튜디오"
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/ai_page.py, line: 144
+msgid "LM Studio - A desktop app for exploring and running large language models locally."
+msgstr "LM 스튜디오 - 대규모 언어 모델을 로컬에서 탐색하고 실행하기 위한 데스크톱 앱."
 # 
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings/docker_page.py, line: 15
 msgid "Container service - enable to use containers below."
@@ -532,6 +756,18 @@ msgstr "넥스트클라우드 플러스"
 msgid "Nextcloud Plus container."
 msgstr "넥스트클라우드 플러스 컨테이너."
 # 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/docker_page.py, line: 48
+msgid ""
+"Nextcloud Plus is running.\n"
+"Address: http://localhost:8286\n"
+"and\n"
+"Address: http://{}:8286"
+msgstr ""
+"Nextcloud Plus가 실행 중입니다.\n"
+"주소: http://localhost:8286\n"
+"및\n"
+"주소: http://{}:8286"
+# 
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings/containers_page.py, line: 44
 msgid "AdGuard"
 msgstr "애드가드"
@@ -540,21 +776,17 @@ msgstr "애드가드"
 msgid "AdGuard Home container."
 msgstr "AdGuard Home 컨테이너."
 # 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/containers_page.py, line: 53
-msgid "Django"
-msgstr "장고"
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/containers_page.py, line: 54
-msgid "Django developer environment."
-msgstr "장고 개발 환경."
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/containers_page.py, line: 62
-msgid "Duplicati"
-msgstr "듀플리카티"
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/containers_page.py, line: 63
-msgid "Duplicati backup solution."
-msgstr "Duplicati 백업 솔루션."
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/docker_page.py, line: 57
+msgid ""
+"AdGuard is running.\n"
+"Address: http://localhost:3030\n"
+"and\n"
+"Address: http://{}:3030"
+msgstr ""
+"AdGuard가 실행 중입니다.\n"
+"주소: http://localhost:3030\n"
+"및\n"
+"주소: http://{}:3030"
 # 
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings/containers_page.py, line: 71
 msgid "Jellyfin"
@@ -564,6 +796,18 @@ msgstr "젤리핀"
 msgid "Jellyfin media server."
 msgstr "젤리핀 미디어 서버."
 # 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/docker_page.py, line: 75
+msgid ""
+"Jellyfin is running.\n"
+"Address: http://localhost:8096\n"
+"and\n"
+"Address: http://{}:8096"
+msgstr ""
+"젤리핀이 실행 중입니다.\n"
+"주소: http://localhost:8096\n"
+"및\n"
+"주소: http://{}:8096"
+# 
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings/containers_page.py, line: 80
 msgid "LAMP"
 msgstr "램프"
@@ -571,6 +815,18 @@ msgstr "램프"
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings/containers_page.py, line: 81
 msgid "LAMP stack (Linux, Apache, MySQL, PHP)."
 msgstr "LAMP 스택 (리눅스, 아파치, MySQL, PHP)."
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/docker_page.py, line: 84
+msgid ""
+"LAMP is running.\n"
+"Address: http://localhost:8080\n"
+"and\n"
+"Address: http://{}:8080"
+msgstr ""
+"LAMP가 실행 중입니다.\n"
+"주소: http://localhost:8080\n"
+"및\n"
+"주소: http://{}:8080"
 # 
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings/containers_page.py, line: 89
 msgid "Portainer Client"
@@ -580,6 +836,18 @@ msgstr "포테이너 클라이언트"
 msgid "Portainer Agent for cluster management."
 msgstr "클러스터 관리를 위한 Portainer 에이전트."
 # 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/docker_page.py, line: 93
+msgid ""
+"Portainer Client is running.\n"
+"Address: http://localhost:9000\n"
+"and\n"
+"Address: http://{}:9000"
+msgstr ""
+"포테이너 클라이언트가 실행 중입니다.\n"
+"주소: http://localhost:9000\n"
+"및\n"
+"주소: http://{}:9000"
+# 
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings/containers_page.py, line: 98
 msgid "SWS"
 msgstr "SWS"
@@ -587,6 +855,18 @@ msgstr "SWS"
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings/containers_page.py, line: 99
 msgid "SWS static web server."
 msgstr "SWS 정적 웹 서버."
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/docker_page.py, line: 102
+msgid ""
+"SWS is running.\n"
+"Address: http://localhost:8182\n"
+"and\n"
+"Address: http://{}:8182"
+msgstr ""
+"SWS가 실행 중입니다.\n"
+"주소: http://localhost:8182\n"
+"및\n"
+"주소: http://{}:8182"
 # 
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings/containers_page.py, line: 107
 msgid "V2RayA"
@@ -596,199 +876,14 @@ msgstr "V2RayA"
 msgid "V2RayA network tool."
 msgstr "V2RayA 네트워크 도구."
 # 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/performance_games_page.py, line: 15
-msgid "Configure Steam Games"
-msgstr "스팀 게임 구성"
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/performance_games_page.py, line: 61
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/performance_games_page.py, line: 68
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/performance_games_page.py, line: 72
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/performance_games_page.py, line: 83
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/performance_games_page.py, line: 165
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/performance_games_page.py, line: 185
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/performance_games_page.py, line: 187
-msgid "Error"
-msgstr "오류"
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/performance_games_page.py, line: 61
-msgid "Failed to load games list."
-msgstr "게임 목록을 불러오는 데 실패했습니다."
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/performance_games_page.py, line: 68
-msgid "Invalid data received."
-msgstr "잘못된 데이터가 수신되었습니다."
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/performance_games_page.py, line: 77
-msgid "No Games Found"
-msgstr "게임을 찾을 수 없습니다."
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/performance_games_page.py, line: 77
-msgid "No Steam games found."
-msgstr "스팀 게임을 찾을 수 없습니다."
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/performance_games_page.py, line: 86
-msgid "Installed Games"
-msgstr "설치된 게임"
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/performance_games_page.py, line: 86
-msgid "{} games found"
-msgstr "{} 게임이 발견되었습니다."
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/performance_games_page.py, line: 106
-msgid "Select All"
-msgstr "모두 선택"
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/performance_games_page.py, line: 107
-msgid "Deselect All"
-msgstr "모두 선택 해제"
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/performance_games_page.py, line: 115
-msgid "Apply Changes"
-msgstr "변경 사항 적용"
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/performance_games_page.py, line: 120
-msgid "Close"
-msgstr "닫기"
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/performance_games_page.py, line: 131
-msgid "Close Steam?"
-msgstr "스팀 종료?"
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/performance_games_page.py, line: 132
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/docker_page.py, line: 111
 msgid ""
-"Steam must be closed for changes to be applied. If Steam is running, the modifications will not "
-"take effect."
-msgstr "변경 사항을 적용하려면 Steam을 닫아야 합니다. Steam이 실행 중인 경우 수정 사항이 적용되지 않습니다."
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/performance_games_page.py, line: 134
-msgid "Cancel"
-msgstr "취소"
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/performance_games_page.py, line: 135
-msgid "Close Steam and Apply"
-msgstr "스팀 닫기 및 적용"
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/performance_games_page.py, line: 165
-msgid "Could not close Steam. Please close it manually and try again."
-msgstr "Steam을 닫을 수 없습니다. 수동으로 닫고 다시 시도해 주세요."
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/performance_games_page.py, line: 180
-msgid "Success"
-msgstr "성공"
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/performance_games_page.py, line: 180
-msgid "Changes applied successfully!"
-msgstr "변경 사항이 성공적으로 적용되었습니다!"
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/performance_games_page.py, line: 181
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/performance_games_page.py, line: 195
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/performance_games_page.py, line: 181
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/performance_games_page.py, line: 195
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/usability/gamemode_dialog.py, line: 204
-msgid "Performance"
-msgstr "성능"
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/performance_games_page.py, line: 16
-msgid "BigLinux performance tweaks."
-msgstr "BigLinux 성능 조정."
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/performance_games_page.py, line: 36
-msgid "Games Booster"
-msgstr "게임 부스터"
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_usability_page.py, line: 95
-msgid ""
-"Combination of daemon and library that allows games to request a set of optimizations be "
-"temporarily applied to the operating system and/or the game process."
-msgstr "운영 체제 및/또는 게임 프로세스에 일시적으로 적용될 최적화 집합을 게임이 요청할 수 있도록 하는 데몬과 라이브러리의 조합."
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/usability/gamemode_config_dialog.py, line: 91
-msgid "Disable Visual Effects"
-msgstr "비주얼 효과 비활성화"
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/performance_games_page.py, line: 35
-msgid "Disables KWin visual effects (blur, shadows, animations). Reduces GPU load and frees memory."
-msgstr "KWin 시각 효과(블러, 그림자, 애니메이션)를 비활성화합니다. GPU 부하를 줄이고 메모리를 해제합니다."
-# 
-# #-#-#-#-#  biglinux-settings.pot (biglinux-settings)  #-#-#-#-#
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/usability/kwin_ram_dialog.py, line: 109
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/usability/gamemode_config_dialog.py, line: 100
-msgid "Compositor Settings"
-msgstr "합성기 설정"
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/performance_games_page.py, line: 43
-msgid ""
-"Configures compositor for low latency, allows tearing and disables animations. Minimizes "
-"compositing overhead and reduces input lag."
-msgstr "지연 시간을 줄이기 위해 합성기를 구성하고, 화면 찢어짐을 허용하며 애니메이션을 비활성화합니다. 합성 오버헤드를 최소화하고 입력 지연을 줄입니다."
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/performance_games_page.py, line: 63
-msgid "CPU Maximum Performance"
-msgstr "CPU 최대 성능"
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/performance_games_page.py, line: 51
-msgid "Forces maximum processor performance mode. Ensures the processor uses maximum frequency."
-msgstr "최대 프로세서 성능 모드를 강제합니다. 프로세서가 최대 주파수를 사용하도록 보장합니다."
-# 
-# #-#-#-#-#  biglinux-settings.pot (biglinux-settings)  #-#-#-#-#
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/usability/gamemode_config_dialog.py, line: 109
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/usability/gamemode_dialog.py, line: 207
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/usability/gamemode_dialog.py, line: 250
-msgid "GPU Maximum Performance"
-msgstr "GPU 최대 성능"
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/performance_games_page.py, line: 59
-msgid "Forces maximum GPU performance mode (NVIDIA/AMD). Ensures the graphics card uses maximum frequency."
-msgstr "최대 GPU 성능 모드 강제 적용(NVIDIA/AMD). 그래픽 카드가 최대 주파수를 사용하도록 보장합니다."
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/performance_games_page.py, line: 79
-msgid "Disable Baloo Indexer"
-msgstr "Baloo 인덱서 비활성화"
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/performance_games_page.py, line: 67
-msgid "Disables the Baloo file indexer. Avoids disk I/O overhead."
-msgstr "Baloo 파일 인덱서를 비활성화합니다. 디스크 I/O 오버헤드를 피합니다."
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/usability/gamemode_config_dialog.py, line: 127
-msgid "Stop Akonadi Server"
-msgstr "Akonadi 서버 중지"
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/performance_games_page.py, line: 75
-msgid "Stops the PIM data server (Kontact/Thunderbird). Reduces memory and disk overhead."
-msgstr "PIM 데이터 서버(Kontact/Thunderbird)를 중지합니다. 메모리 및 디스크 오버헤드를 줄입니다."
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/usability/gamemode_config_dialog.py, line: 136
-msgid "Unload S.M.A.R.T Monitor"
-msgstr "S.M.A.R.T 모니터 언로드"
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/performance_games_page.py, line: 83
-msgid "Disables S.M.A.R.T disk monitoring. Reduces disk I/O and CPU usage."
-msgstr "S.M.A.R.T 디스크 모니터링을 비활성화합니다. 디스크 I/O 및 CPU 사용량을 줄입니다."
-# 
-# #-#-#-#-#  biglinux-settings.pot (biglinux-settings)  #-#-#-#-#
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/usability/gamemode_config_dialog.py, line: 82
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/usability/gamemode_dialog.py, line: 189
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/usability/gamemode_dialog.py, line: 232
-msgid "GameMode Daemon"
-msgstr "게임 모드 데몬"
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/performance_games_page.py, line: 94
-msgid "Activates daemon that adjusts CPU, I/O, etc. Reduces latency and increases frame rate."
-msgstr "CPU, I/O 등을 조정하는 데몬을 활성화합니다. 지연 시간을 줄이고 프레임 속도를 증가시킵니다."
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/performance_games_page.py, line: 319
-msgid "Configure Steam"
-msgstr "스팀 구성하기"
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/performance_games_page.py, line: 320
-msgid "Select games to enable 'gamemoderun %command%' launch option."
-msgstr "게임을 선택하여 'gamemoderun %command%' 실행 옵션을 활성화합니다."
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/performance_games_page.py, line: 331
-msgid "Open"
-msgstr "열기"
+"V2RayA is running.\n"
+"Address: http://localhost:2017\n"
+"and\n"
+"Address: http://{}:2017"
+msgstr ""
+"V2RayA가 실행 중입니다.\n"
+"주소: http://localhost:2017\n"
+"및\n"
+"주소: http://{}:2017"
