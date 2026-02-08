@@ -67,6 +67,9 @@ updateTask() {
   xmlns:mime="http://www.freedesktop.org/standards/shared-mime-info">
   </xbel>' > "$xbelFile"
 
+    # unHide Recents
+   sed -i 's/<GroupState-RecentlySaved-IsHidden>true<\/GroupState-RecentlySaved-IsHidden>/<GroupState-RecentlySaved-IsHidden>false<\/GroupState-RecentlySaved-IsHidden>/' $xbelFile
+
     chmod 644 "$xbelFile"
 
     # Restart services
@@ -107,6 +110,9 @@ updateTask() {
     xmlns:mime="http://www.freedesktop.org/standards/shared-mime-info">
   </xbel>' > "$xbelFile"
 
+    # Hide recents
+    sed -i 's/<GroupState-RecentlySaved-IsHidden>false<\/GroupState-RecentlySaved-IsHidden>/<GroupState-RecentlySaved-IsHidden>true<\/GroupState-RecentlySaved-IsHidden>/' $xbelFile
+
     chmod 644 "$xbelFile"
 
     # Restart services
@@ -126,10 +132,10 @@ exitCode=${PIPESTATUS[0]}
 
 # Shows the final result to the user, also with the correct theme.
 if [[ "$exitCode" == "0" ]] && [[ "$function" == "enable" ]]; then
-  zenityText=$"Recent Files successfully enabled!"
+  zenityText=$"Recent Files successfully enabled!\nYou need to close and reopen Dolphin for it to take effect."
   zenity --info --text="$zenityText"
 elif [[ "$exitCode" == "0" ]] && [[ "$function" == "disable" ]]; then
-  zenityText=$"Recent Files successfully disable!"
+  zenityText=$"Recent Files successfully disable!\nYou need to close and reopen Dolphin for it to take effect."
   zenity --info --text="$zenityText"
 else
   zenityText=$"Failed to activate Recent Files!"
