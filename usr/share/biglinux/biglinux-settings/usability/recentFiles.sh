@@ -45,10 +45,10 @@ elif [ "$1" == "toggle" ]; then
   if [[ "$XDG_CURRENT_DESKTOP" == *"KDE"* ]] || [[ "$XDG_CURRENT_DESKTOP" == *"Plasma"* ]];then
     if [ "$state" == "true" ]; then
       $PWD/usability/recentFilesRun.sh "enable" #"$USER" "$DISPLAY" "$XAUTHORITY" "$DBUS_SESSION_BUS_ADDRESS" "$LANG" "$LANGUAGE"
-      exit=$?
+      exitCode=$?
     else
       $PWD/usability/recentFilesRun.sh "disable" #"$USER" "$DISPLAY" "$XAUTHORITY" "$DBUS_SESSION_BUS_ADDRESS" "$LANG" "$LANGUAGE"
-      return $?
+      exitCode=$?
     fi
 #   elif [[ "$XDG_CURRENT_DESKTOP" == *"GNOME"* ]];then
 #     if [ "$state" == "true" ]; then
