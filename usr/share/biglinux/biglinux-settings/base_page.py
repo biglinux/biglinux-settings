@@ -418,7 +418,6 @@ class BaseSettingsPage(Adw.Bin):
                 switch.handler_block_by_func(self.on_switch_changed)
                 switch.set_active(not state)
                 switch.handler_unblock_by_func(self.on_switch_changed)
-                self._toggle_info_icon_visibility(switch, reverted_state)
 
                 print(
                     _("ERROR: Failed to change {} to {}").format(

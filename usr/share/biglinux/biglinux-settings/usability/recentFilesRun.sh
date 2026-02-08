@@ -19,6 +19,7 @@ kwriteConfig="kwriteconfig6"
 
 # Configuration files
 xbelFile="$HOME/.local/share/recently-used.xbel"
+xbelUserFile="$HOME/.local/share/user-places.xbel"
 kactivitymanagerdFile="$HOME/.config/kactivitymanagerd-pluginsrc"
 kactivitymanagerdDir="$HOME/.local/share/kactivitymanagerd/resources"
 
@@ -68,7 +69,7 @@ updateTask() {
   </xbel>' > "$xbelFile"
 
     # unHide Recents
-   sed -i 's/<GroupState-RecentlySaved-IsHidden>true<\/GroupState-RecentlySaved-IsHidden>/<GroupState-RecentlySaved-IsHidden>false<\/GroupState-RecentlySaved-IsHidden>/' $xbelFile
+   sed -i 's/<GroupState-RecentlySaved-IsHidden>true<\/GroupState-RecentlySaved-IsHidden>/<GroupState-RecentlySaved-IsHidden>false<\/GroupState-RecentlySaved-IsHidden>/' $xbelUserFile
 
     chmod 644 "$xbelFile"
 
@@ -111,7 +112,7 @@ updateTask() {
   </xbel>' > "$xbelFile"
 
     # Hide recents
-    sed -i 's/<GroupState-RecentlySaved-IsHidden>false<\/GroupState-RecentlySaved-IsHidden>/<GroupState-RecentlySaved-IsHidden>true<\/GroupState-RecentlySaved-IsHidden>/' $xbelFile
+    sed -i 's/<GroupState-RecentlySaved-IsHidden>false<\/GroupState-RecentlySaved-IsHidden>/<GroupState-RecentlySaved-IsHidden>true<\/GroupState-RecentlySaved-IsHidden>/' $xbelUserFile
 
     chmod 644 "$xbelFile"
 
