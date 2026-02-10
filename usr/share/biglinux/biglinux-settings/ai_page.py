@@ -1,5 +1,6 @@
 from base_page import BaseSettingsPage, _
 
+
 class AIPage(BaseSettingsPage):
     def __init__(self, main_window, **kwargs):
         super().__init__(main_window, **kwargs)
@@ -9,29 +10,27 @@ class AIPage(BaseSettingsPage):
         # Create the container (base method)
         content = self.create_scrolled_content()
 
-        # Create the group (base method)
-        group = self.create_group(
-            _("Artificial Intelligence"),
-            _("AI settings and tools."),
-            "ai"
-        )
-        content.append(group)
-
-        # Create the group Ollama (base method)
-        ollamaServer = self.create_group(
-            _("Ollma Server"),
-            _("Choose which Ollama server is best for your hardware."),
-            "ai"
-        )
-        content.append(ollamaServer)
+        # # Create the group (base method)
+        # group = self.create_group(
+        #     _("Artificial Intelligence"), _("AI settings and tools."), "ai"
+        # )
+        # content.append(group)
 
         # Create the group Ollama (base method)
         aiGui = self.create_group(
             _("AI Interfaces"),
             _("Graphical interface for artificial intelligence.."),
-            "ai"
+            "ai",
         )
         content.append(aiGui)
+
+        # Create the group Ollama (base method)
+        ollamaServer = self.create_group(
+            _("Ollma Server"),
+            _("Choose which Ollama server is best for your hardware."),
+            "ai",
+        )
+        content.append(ollamaServer)
 
         # Generative AI for Krita
         # self.create_row(
@@ -44,83 +43,11 @@ class AIPage(BaseSettingsPage):
         # )
         # ChatAI
         self.create_row(
-            group,
+            aiGui,
             _("ChatAI"),
             _("A variety of chats like Plasmoid for your KDE Plasma desktop."),
             "chatai",
             "chatai-symbolic",
-        )
-        # Ollama CPU
-        ollama = self.create_row(
-            ollamaServer,
-            _("OllamaCPU"),
-            _("Local AI server. For CPUs only."),
-            "ollamaCpu",
-            "ollama-symbolic",
-            info_text=_("Ollama server is running.\nAddress: http://localhost:11434"),
-        )
-        self.create_sub_row(
-            ollamaServer,
-            _("Share Ollama"),
-            _("Share ollama on the local network."),
-            "ollamaShare",
-            "ollama-symbolic",
-            ollama,
-            info_text=_("Ollama server is running.\nAddress: http://{}:11434").format(local_ip),
-        )
-        # Ollama Vulkan
-        ollama = self.create_row(
-            ollamaServer,
-            _("Ollama Vulkan"),
-            _("Local AI server. For CPUs, AMD/Nvidia and integrated GPUs."),
-            "ollamaVulkan",
-            "ollama-symbolic",
-            info_text=_("Ollama server is running.\nAddress: http://localhost:11434"),
-        )
-        self.create_sub_row(
-            ollamaServer,
-            _("Share Ollama"),
-            _("Share ollama on the local network."),
-            "ollamaShare",
-            "ollama-symbolic",
-            ollama,
-            info_text=_("Ollama server is running.\nAddress: http://{}:11434").format(local_ip),
-        )
-        # Ollama Nvidia CUDA
-        ollama = self.create_row(
-            ollamaServer,
-            _("Ollama Nvidia CUDA"),
-            _("Local AI server. For newer Nvidia GPUs, starting from the 2000 series."),
-            "ollamaNvidia",
-            "ollama-symbolic",
-            info_text=_("Ollama server is running.\nAddress: http://localhost:11434"),
-        )
-        self.create_sub_row(
-            ollamaServer,
-            _("Share Ollama"),
-            _("Share ollama on the local network."),
-            "ollamaShare",
-            "ollama-symbolic",
-            ollama,
-            info_text=_("Ollama server is running.\nAddress: http://{}:11434").format(local_ip),
-        )
-        # Ollama AMD ROCm
-        ollama = self.create_row(
-            ollamaServer,
-            _("Ollama AMD ROCm"),
-            _("Local AI server. For newer AMD GPUs, starting from the 6000 series.\nConsider using Vulkan, in many tests, Vulkan performed better than ROCm."),
-            "ollamaAmd",
-            "ollama-symbolic",
-            info_text=_("Ollama server is running.\nAddress: http://localhost:11434"),
-        )
-        self.create_sub_row(
-            ollamaServer,
-            _("Share Ollama"),
-            _("Share ollama on the local network."),
-            "ollamaShare",
-            "ollama-symbolic",
-            ollama,
-            info_text=_("Ollama server is running.\nAddress: http://{}:11434").format(local_ip),
         )
         # Ollama LAB
         self.create_row(
@@ -142,9 +69,93 @@ class AIPage(BaseSettingsPage):
         self.create_row(
             aiGui,
             _("LM Studio"),
-            _("LM Studio - A desktop app for exploring and running large language models locally."),
+            _(
+                "LM Studio - A desktop app for exploring and running large language models locally."
+            ),
             "lmStudio",
             "lmstudio-symbolic",
+        )
+        # Ollama CPU
+        ollama = self.create_row(
+            ollamaServer,
+            _("OllamaCPU"),
+            _("Local AI server. For CPUs only."),
+            "ollamaCpu",
+            "ollama-symbolic",
+            info_text=_("Ollama server is running.\nAddress: http://localhost:11434"),
+        )
+        self.create_sub_row(
+            ollamaServer,
+            _("Share Ollama"),
+            _("Share ollama on the local network."),
+            "ollamaShare",
+            "ollama-symbolic",
+            ollama,
+            info_text=_("Ollama server is running.\nAddress: http://{}:11434").format(
+                local_ip
+            ),
+        )
+        # Ollama Vulkan
+        ollama = self.create_row(
+            ollamaServer,
+            _("Ollama Vulkan"),
+            _("Local AI server. For CPUs, AMD/Nvidia and integrated GPUs."),
+            "ollamaVulkan",
+            "ollama-symbolic",
+            info_text=_("Ollama server is running.\nAddress: http://localhost:11434"),
+        )
+        self.create_sub_row(
+            ollamaServer,
+            _("Share Ollama"),
+            _("Share ollama on the local network."),
+            "ollamaShare",
+            "ollama-symbolic",
+            ollama,
+            info_text=_("Ollama server is running.\nAddress: http://{}:11434").format(
+                local_ip
+            ),
+        )
+        # Ollama Nvidia CUDA
+        ollama = self.create_row(
+            ollamaServer,
+            _("Ollama Nvidia CUDA"),
+            _("Local AI server. For newer Nvidia GPUs, starting from the 2000 series."),
+            "ollamaNvidia",
+            "ollama-symbolic",
+            info_text=_("Ollama server is running.\nAddress: http://localhost:11434"),
+        )
+        self.create_sub_row(
+            ollamaServer,
+            _("Share Ollama"),
+            _("Share ollama on the local network."),
+            "ollamaShare",
+            "ollama-symbolic",
+            ollama,
+            info_text=_("Ollama server is running.\nAddress: http://{}:11434").format(
+                local_ip
+            ),
+        )
+        # Ollama AMD ROCm
+        ollama = self.create_row(
+            ollamaServer,
+            _("Ollama AMD ROCm"),
+            _(
+                "Local AI server. For newer AMD GPUs, starting from the 6000 series.\nConsider using Vulkan, in many tests, Vulkan performed better than ROCm."
+            ),
+            "ollamaAmd",
+            "ollama-symbolic",
+            info_text=_("Ollama server is running.\nAddress: http://localhost:11434"),
+        )
+        self.create_sub_row(
+            ollamaServer,
+            _("Share Ollama"),
+            _("Share ollama on the local network."),
+            "ollamaShare",
+            "ollama-symbolic",
+            ollama,
+            info_text=_("Ollama server is running.\nAddress: http://{}:11434").format(
+                local_ip
+            ),
         )
 
         # Syncs
