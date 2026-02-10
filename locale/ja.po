@@ -633,13 +633,13 @@ msgid ""
 "removing automatic protections against system crashes."
 msgstr "ハードウェアウォッチドッグとTSCクロックソースシステムを無効にし、高パフォーマンスを維持しますが、システムクラッシュに対する自動保護を削除します。"
 # 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/ai_page.py, line: 28
-msgid "Artificial Intelligence"
-msgstr "人工知能"
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/ai_page.py, line: 30
+msgid "AI Interfaces"
+msgstr "AIインターフェース"
 # 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/ai_page.py, line: 15
-msgid "AI settings and tools."
-msgstr "AI設定とツール。"
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/ai_page.py, line: 31
+msgid "Graphical interface for artificial intelligence.."
+msgstr "人工知能のグラフィカルインターフェース。"
 # 
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings/ai_page.py, line: 22
 msgid "Ollma Server"
@@ -649,14 +649,6 @@ msgstr "オルマサーバー"
 msgid "Choose which Ollama server is best for your hardware."
 msgstr "ハードウェアに最適なOllamaサーバーを選択してください。"
 # 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/ai_page.py, line: 30
-msgid "AI Interfaces"
-msgstr "AIインターフェース"
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/ai_page.py, line: 31
-msgid "Graphical interface for artificial intelligence.."
-msgstr "人工知能のグラフィカルインターフェース。"
-# 
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings/ai_page.py, line: 46
 msgid "ChatAI"
 msgstr "チャットAI"
@@ -664,6 +656,30 @@ msgstr "チャットAI"
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings/ai_page.py, line: 47
 msgid "A variety of chats like Plasmoid for your KDE Plasma desktop."
 msgstr "KDE Plasmaデスクトップ用のPlasmoidのようなさまざまなチャット。"
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/ai_page.py, line: 127
+msgid "Ollama LAB"
+msgstr "オラマLAB"
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/ai_page.py, line: 128
+msgid "Graphical interface for managing Ollama models and chat."
+msgstr "Ollamaモデルとチャットを管理するためのグラフィカルインターフェース。"
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/ai_page.py, line: 135
+msgid "ChatBox"
+msgstr "チャットボックス"
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/ai_page.py, line: 136
+msgid "User-friendly Desktop Client App for AI Models/LLMs."
+msgstr "AIモデル/LLM用のユーザーフレンドリーなデスクトップクライアントアプリ。"
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/ai_page.py, line: 143
+msgid "LM Studio"
+msgstr "LMスタジオ"
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/ai_page.py, line: 144
+msgid "LM Studio - A desktop app for exploring and running large language models locally."
+msgstr "LM Studio - 大規模言語モデルをローカルで探索し実行するためのデスクトップアプリ。"
 # 
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings/ai_page.py, line: 55
 msgid "OllamaCPU"
@@ -736,30 +752,6 @@ msgid ""
 msgstr ""
 "ローカルAIサーバー。6000シリーズからの新しいAMD GPU用。\n"
 "多くのテストでVulkanがROCmよりも優れたパフォーマンスを発揮したため、Vulkanの使用を検討してください。"
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/ai_page.py, line: 127
-msgid "Ollama LAB"
-msgstr "オラマLAB"
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/ai_page.py, line: 128
-msgid "Graphical interface for managing Ollama models and chat."
-msgstr "Ollamaモデルとチャットを管理するためのグラフィカルインターフェース。"
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/ai_page.py, line: 135
-msgid "ChatBox"
-msgstr "チャットボックス"
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/ai_page.py, line: 136
-msgid "User-friendly Desktop Client App for AI Models/LLMs."
-msgstr "AIモデル/LLM用のユーザーフレンドリーなデスクトップクライアントアプリ。"
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/ai_page.py, line: 143
-msgid "LM Studio"
-msgstr "LMスタジオ"
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/ai_page.py, line: 144
-msgid "LM Studio - A desktop app for exploring and running large language models locally."
-msgstr "LM Studio - 大規模言語モデルをローカルで探索し実行するためのデスクトップアプリ。"
 # 
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings/docker_page.py, line: 15
 msgid "Container service - enable to use containers below."

@@ -652,13 +652,13 @@ msgstr ""
 "Απενεργοποιεί το υλικό παρακολούθησης και τα συστήματα χρονισμού TSC, διατηρώντας υψηλή απόδοση "
 "αλλά αφαιρώντας τις αυτόματες προστασίες κατά των κρασαρισμάτων του συστήματος."
 # 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/ai_page.py, line: 28
-msgid "Artificial Intelligence"
-msgstr "Τεχνητή Νοημοσύνη"
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/ai_page.py, line: 30
+msgid "AI Interfaces"
+msgstr "Διεπαφές Τεχνητής Νοημοσύνης"
 # 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/ai_page.py, line: 15
-msgid "AI settings and tools."
-msgstr "Ρυθμίσεις και εργαλεία AI."
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/ai_page.py, line: 31
+msgid "Graphical interface for artificial intelligence.."
+msgstr "Γραφική διεπαφή για τεχνητή νοημοσύνη."
 # 
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings/ai_page.py, line: 22
 msgid "Ollma Server"
@@ -668,14 +668,6 @@ msgstr "Ollma Διακομιστής"
 msgid "Choose which Ollama server is best for your hardware."
 msgstr "Επιλέξτε ποιος διακομιστής Ollama είναι καλύτερος για το υλικό σας."
 # 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/ai_page.py, line: 30
-msgid "AI Interfaces"
-msgstr "Διεπαφές Τεχνητής Νοημοσύνης"
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/ai_page.py, line: 31
-msgid "Graphical interface for artificial intelligence.."
-msgstr "Γραφική διεπαφή για τεχνητή νοημοσύνη."
-# 
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings/ai_page.py, line: 46
 msgid "ChatAI"
 msgstr "ChatAI"
@@ -683,6 +675,32 @@ msgstr "ChatAI"
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings/ai_page.py, line: 47
 msgid "A variety of chats like Plasmoid for your KDE Plasma desktop."
 msgstr "Μια ποικιλία συνομιλιών όπως το Plasmoid για την επιφάνεια εργασίας KDE Plasma."
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/ai_page.py, line: 127
+msgid "Ollama LAB"
+msgstr "Ollama ΕΡΓΑΣΤΗΡΙΟ"
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/ai_page.py, line: 128
+msgid "Graphical interface for managing Ollama models and chat."
+msgstr "Γραφική διεπαφή για τη διαχείριση μοντέλων Ollama και συνομιλιών."
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/ai_page.py, line: 135
+msgid "ChatBox"
+msgstr "ChatBox"
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/ai_page.py, line: 136
+msgid "User-friendly Desktop Client App for AI Models/LLMs."
+msgstr "Φιλική προς τον χρήστη επιτραπέζια εφαρμογή πελάτη για μοντέλα AI/LLMs."
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/ai_page.py, line: 143
+msgid "LM Studio"
+msgstr "LM Studio"
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/ai_page.py, line: 144
+msgid "LM Studio - A desktop app for exploring and running large language models locally."
+msgstr ""
+"LM Studio - Μια επιτραπέζια εφαρμογή για την εξερεύνηση και εκτέλεση μεγάλων γλωσσικών μοντέλων "
+"τοπικά."
 # 
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings/ai_page.py, line: 55
 msgid "OllamaCPU"
@@ -755,32 +773,6 @@ msgid ""
 msgstr ""
 "Τοπικός διακομιστής AI. Για νεότερες GPU AMD, ξεκινώντας από τη σειρά 6000. \n"
 "Σκεφτείτε να χρησιμοποιήσετε το Vulkan, σε πολλές δοκιμές, το Vulkan απέδωσε καλύτερα από το ROCm."
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/ai_page.py, line: 127
-msgid "Ollama LAB"
-msgstr "Ollama ΕΡΓΑΣΤΗΡΙΟ"
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/ai_page.py, line: 128
-msgid "Graphical interface for managing Ollama models and chat."
-msgstr "Γραφική διεπαφή για τη διαχείριση μοντέλων Ollama και συνομιλιών."
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/ai_page.py, line: 135
-msgid "ChatBox"
-msgstr "ChatBox"
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/ai_page.py, line: 136
-msgid "User-friendly Desktop Client App for AI Models/LLMs."
-msgstr "Φιλική προς τον χρήστη επιτραπέζια εφαρμογή πελάτη για μοντέλα AI/LLMs."
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/ai_page.py, line: 143
-msgid "LM Studio"
-msgstr "LM Studio"
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/ai_page.py, line: 144
-msgid "LM Studio - A desktop app for exploring and running large language models locally."
-msgstr ""
-"LM Studio - Μια επιτραπέζια εφαρμογή για την εξερεύνηση και εκτέλεση μεγάλων γλωσσικών μοντέλων "
-"τοπικά."
 # 
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings/docker_page.py, line: 15
 msgid "Container service - enable to use containers below."

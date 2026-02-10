@@ -626,13 +626,13 @@ msgstr ""
 "Letiltja a hardveres figyelő és a TSC óraforrás rendszereket, fenntartva a magas teljesítményt, de "
 "eltávolítva az automatikus védelmet a rendszerösszeomlások ellen."
 # 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/ai_page.py, line: 28
-msgid "Artificial Intelligence"
-msgstr "Mesterséges Intelligencia"
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/ai_page.py, line: 30
+msgid "AI Interfaces"
+msgstr "AI Felületek"
 # 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/ai_page.py, line: 15
-msgid "AI settings and tools."
-msgstr "AI beállítások és eszközök."
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/ai_page.py, line: 31
+msgid "Graphical interface for artificial intelligence.."
+msgstr "Grafikus felhasználói felület mesterséges intelligencia számára."
 # 
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings/ai_page.py, line: 22
 msgid "Ollma Server"
@@ -642,14 +642,6 @@ msgstr "Ollma Szerver"
 msgid "Choose which Ollama server is best for your hardware."
 msgstr "Válaszd ki, melyik Ollama szerver a legjobb a hardveredhez."
 # 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/ai_page.py, line: 30
-msgid "AI Interfaces"
-msgstr "AI Felületek"
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/ai_page.py, line: 31
-msgid "Graphical interface for artificial intelligence.."
-msgstr "Grafikus felhasználói felület mesterséges intelligencia számára."
-# 
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings/ai_page.py, line: 46
 msgid "ChatAI"
 msgstr "ChatAI"
@@ -657,6 +649,30 @@ msgstr "ChatAI"
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings/ai_page.py, line: 47
 msgid "A variety of chats like Plasmoid for your KDE Plasma desktop."
 msgstr "Különböző csevegések, mint a Plasmoid, a KDE Plasma asztali környezetedhez."
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/ai_page.py, line: 127
+msgid "Ollama LAB"
+msgstr "Ollama LAB"
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/ai_page.py, line: 128
+msgid "Graphical interface for managing Ollama models and chat."
+msgstr "Grafikus felület az Ollama modellek és csevegés kezelésére."
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/ai_page.py, line: 135
+msgid "ChatBox"
+msgstr "Csevegőablak"
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/ai_page.py, line: 136
+msgid "User-friendly Desktop Client App for AI Models/LLMs."
+msgstr "Felhasználóbarát Asztali Kliensek Alkalmazás AI Modellekhez/LLM-ekhez."
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/ai_page.py, line: 143
+msgid "LM Studio"
+msgstr "LM Stúdió"
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/ai_page.py, line: 144
+msgid "LM Studio - A desktop app for exploring and running large language models locally."
+msgstr "LM Stúdió - Asztali alkalmazás nagy nyelvi modellek helyi felfedezésére és futtatására."
 # 
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings/ai_page.py, line: 55
 msgid "OllamaCPU"
@@ -729,30 +745,6 @@ msgid ""
 msgstr ""
 "Helyi AI szerver. Újabb AMD GPU-khoz, a 6000 sorozattól kezdődően. Fontolja meg a Vulkan "
 "használatát, sok tesztben a Vulkan jobban teljesített, mint a ROCm."
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/ai_page.py, line: 127
-msgid "Ollama LAB"
-msgstr "Ollama LAB"
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/ai_page.py, line: 128
-msgid "Graphical interface for managing Ollama models and chat."
-msgstr "Grafikus felület az Ollama modellek és csevegés kezelésére."
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/ai_page.py, line: 135
-msgid "ChatBox"
-msgstr "Csevegőablak"
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/ai_page.py, line: 136
-msgid "User-friendly Desktop Client App for AI Models/LLMs."
-msgstr "Felhasználóbarát Asztali Kliensek Alkalmazás AI Modellekhez/LLM-ekhez."
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/ai_page.py, line: 143
-msgid "LM Studio"
-msgstr "LM Stúdió"
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/ai_page.py, line: 144
-msgid "LM Studio - A desktop app for exploring and running large language models locally."
-msgstr "LM Stúdió - Asztali alkalmazás nagy nyelvi modellek helyi felfedezésére és futtatására."
 # 
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings/docker_page.py, line: 15
 msgid "Container service - enable to use containers below."

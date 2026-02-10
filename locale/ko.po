@@ -621,13 +621,13 @@ msgid ""
 "removing automatic protections against system crashes."
 msgstr "하드웨어 감시 타이머 및 TSC 클록 소스 시스템을 비활성화하여 높은 성능을 유지하지만 시스템 충돌에 대한 자동 보호 기능을 제거합니다."
 # 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/ai_page.py, line: 28
-msgid "Artificial Intelligence"
-msgstr "인공지능"
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/ai_page.py, line: 30
+msgid "AI Interfaces"
+msgstr "AI 인터페이스"
 # 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/ai_page.py, line: 15
-msgid "AI settings and tools."
-msgstr "AI 설정 및 도구."
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/ai_page.py, line: 31
+msgid "Graphical interface for artificial intelligence.."
+msgstr "인공지능을 위한 그래픽 인터페이스."
 # 
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings/ai_page.py, line: 22
 msgid "Ollma Server"
@@ -637,14 +637,6 @@ msgstr "올마 서버"
 msgid "Choose which Ollama server is best for your hardware."
 msgstr "하드웨어에 가장 적합한 Ollama 서버를 선택하세요."
 # 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/ai_page.py, line: 30
-msgid "AI Interfaces"
-msgstr "AI 인터페이스"
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/ai_page.py, line: 31
-msgid "Graphical interface for artificial intelligence.."
-msgstr "인공지능을 위한 그래픽 인터페이스."
-# 
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings/ai_page.py, line: 46
 msgid "ChatAI"
 msgstr "챗AI"
@@ -652,6 +644,30 @@ msgstr "챗AI"
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings/ai_page.py, line: 47
 msgid "A variety of chats like Plasmoid for your KDE Plasma desktop."
 msgstr "KDE Plasma 데스크탑을 위한 Plasmoid와 같은 다양한 채팅."
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/ai_page.py, line: 127
+msgid "Ollama LAB"
+msgstr "올라마 실험실"
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/ai_page.py, line: 128
+msgid "Graphical interface for managing Ollama models and chat."
+msgstr "Ollama 모델 및 채팅 관리를 위한 그래픽 인터페이스."
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/ai_page.py, line: 135
+msgid "ChatBox"
+msgstr "채팅 상자"
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/ai_page.py, line: 136
+msgid "User-friendly Desktop Client App for AI Models/LLMs."
+msgstr "AI 모델/LLM을 위한 사용자 친화적인 데스크톱 클라이언트 앱."
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/ai_page.py, line: 143
+msgid "LM Studio"
+msgstr "LM 스튜디오"
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/ai_page.py, line: 144
+msgid "LM Studio - A desktop app for exploring and running large language models locally."
+msgstr "LM 스튜디오 - 대규모 언어 모델을 로컬에서 탐색하고 실행하기 위한 데스크톱 앱."
 # 
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings/ai_page.py, line: 55
 msgid "OllamaCPU"
@@ -722,30 +738,6 @@ msgid ""
 "Local AI server. For newer AMD GPUs, starting from the 6000 series.\n"
 "Consider using Vulkan, in many tests, Vulkan performed better than ROCm."
 msgstr "로컬 AI 서버. 6000 시리즈부터 최신 AMD GPU에 대해 지원합니다. 많은 테스트에서 Vulkan이 ROCm보다 더 나은 성능을 보였습니다."
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/ai_page.py, line: 127
-msgid "Ollama LAB"
-msgstr "올라마 실험실"
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/ai_page.py, line: 128
-msgid "Graphical interface for managing Ollama models and chat."
-msgstr "Ollama 모델 및 채팅 관리를 위한 그래픽 인터페이스."
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/ai_page.py, line: 135
-msgid "ChatBox"
-msgstr "채팅 상자"
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/ai_page.py, line: 136
-msgid "User-friendly Desktop Client App for AI Models/LLMs."
-msgstr "AI 모델/LLM을 위한 사용자 친화적인 데스크톱 클라이언트 앱."
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/ai_page.py, line: 143
-msgid "LM Studio"
-msgstr "LM 스튜디오"
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/ai_page.py, line: 144
-msgid "LM Studio - A desktop app for exploring and running large language models locally."
-msgstr "LM 스튜디오 - 대규모 언어 모델을 로컬에서 탐색하고 실행하기 위한 데스크톱 앱."
 # 
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings/docker_page.py, line: 15
 msgid "Container service - enable to use containers below."

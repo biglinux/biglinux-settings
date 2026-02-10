@@ -646,13 +646,13 @@ msgstr ""
 "מכבה את מערכת השעון החומרתי ואת מערכות מקור השעון TSC, שומר על ביצועים גבוהים אך מסיר הגנות "
 "אוטומטיות מפני קריסות מערכת."
 # 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/ai_page.py, line: 28
-msgid "Artificial Intelligence"
-msgstr "בינה מלאכותית"
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/ai_page.py, line: 30
+msgid "AI Interfaces"
+msgstr "ממשקי בינה מלאכותית"
 # 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/ai_page.py, line: 15
-msgid "AI settings and tools."
-msgstr "הגדרות וכלים של בינה מלאכותית."
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/ai_page.py, line: 31
+msgid "Graphical interface for artificial intelligence.."
+msgstr "ממשק גרפי לאינטליגנציה מלאכותית."
 # 
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings/ai_page.py, line: 22
 msgid "Ollma Server"
@@ -662,14 +662,6 @@ msgstr "שרת אולמה"
 msgid "Choose which Ollama server is best for your hardware."
 msgstr "בחר איזה שרת של אולמה הכי מתאים לחומרה שלך."
 # 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/ai_page.py, line: 30
-msgid "AI Interfaces"
-msgstr "ממשקי בינה מלאכותית"
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/ai_page.py, line: 31
-msgid "Graphical interface for artificial intelligence.."
-msgstr "ממשק גרפי לאינטליגנציה מלאכותית."
-# 
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings/ai_page.py, line: 46
 msgid "ChatAI"
 msgstr "צ'אטאיי"
@@ -677,6 +669,30 @@ msgstr "צ'אטאיי"
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings/ai_page.py, line: 47
 msgid "A variety of chats like Plasmoid for your KDE Plasma desktop."
 msgstr "מגוון צ'אטים כמו פלסמויד עבור שולחן העבודה KDE פלזמה שלך."
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/ai_page.py, line: 127
+msgid "Ollama LAB"
+msgstr "אולמה מעבדה"
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/ai_page.py, line: 128
+msgid "Graphical interface for managing Ollama models and chat."
+msgstr "ממשק גרפי לניהול מודלים וצ'אט של אולמה."
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/ai_page.py, line: 135
+msgid "ChatBox"
+msgstr "צ'אטבוקס"
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/ai_page.py, line: 136
+msgid "User-friendly Desktop Client App for AI Models/LLMs."
+msgstr "אפליקציית לקוח שולחני ידידותית למשתמש עבור מודלים/LLMs של AI."
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/ai_page.py, line: 143
+msgid "LM Studio"
+msgstr "סטודיו LM"
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/ai_page.py, line: 144
+msgid "LM Studio - A desktop app for exploring and running large language models locally."
+msgstr "LM Studio - אפליקציה שולחנית לחקר והרצת מודלים של שפה גדולה באופן מקומי."
 # 
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings/ai_page.py, line: 55
 msgid "OllamaCPU"
@@ -749,30 +765,6 @@ msgid ""
 msgstr ""
 "שרת AI מקומי. עבור כרטיסי גרפיקה AMD חדשים יותר, החל מסדרת 6000.  \n"
 "שקול להשתמש ב-Vulkan, במבחנים רבים, Vulkan ביצע טוב יותר מ-ROCm."
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/ai_page.py, line: 127
-msgid "Ollama LAB"
-msgstr "אולמה מעבדה"
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/ai_page.py, line: 128
-msgid "Graphical interface for managing Ollama models and chat."
-msgstr "ממשק גרפי לניהול מודלים וצ'אט של אולמה."
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/ai_page.py, line: 135
-msgid "ChatBox"
-msgstr "צ'אטבוקס"
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/ai_page.py, line: 136
-msgid "User-friendly Desktop Client App for AI Models/LLMs."
-msgstr "אפליקציית לקוח שולחני ידידותית למשתמש עבור מודלים/LLMs של AI."
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/ai_page.py, line: 143
-msgid "LM Studio"
-msgstr "סטודיו LM"
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/ai_page.py, line: 144
-msgid "LM Studio - A desktop app for exploring and running large language models locally."
-msgstr "LM Studio - אפליקציה שולחנית לחקר והרצת מודלים של שפה גדולה באופן מקומי."
 # 
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings/docker_page.py, line: 15
 msgid "Container service - enable to use containers below."
