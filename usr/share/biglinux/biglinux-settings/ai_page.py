@@ -72,26 +72,8 @@ class AIPage(BaseSettingsPage):
         ollama = self.create_row(
             ollamaServer,
             _("Ollama Vulkan"),
-            _("Local AI server. For CPUs and GPUs integrated and/or legacy."),
+            _("Local AI server. For CPUs, AMD/Nvidia and integrated GPUs."),
             "ollamaVulkan",
-            "ollama-symbolic",
-            info_text=_("Ollama server is running.\nAddress: http://localhost:11434"),
-        )
-        self.create_sub_row(
-            ollamaServer,
-            _("Share Ollama"),
-            _("Share ollama on the local network."),
-            "ollamaShare",
-            "ollama-symbolic",
-            ollama,
-            info_text=_("Ollama server is running.\nAddress: http://{}:11434").format(local_ip),
-        )
-        # Ollama AMD ROCm
-        ollama = self.create_row(
-            ollamaServer,
-            _("Ollama AMD ROCm"),
-            _("Local AI server. For newer AMD GPUs, starting from the 6000 series."),
-            "ollamaAmd",
             "ollama-symbolic",
             info_text=_("Ollama server is running.\nAddress: http://localhost:11434"),
         )
@@ -110,6 +92,24 @@ class AIPage(BaseSettingsPage):
             _("Ollama Nvidia CUDA"),
             _("Local AI server. For newer Nvidia GPUs, starting from the 2000 series."),
             "ollamaNvidia",
+            "ollama-symbolic",
+            info_text=_("Ollama server is running.\nAddress: http://localhost:11434"),
+        )
+        self.create_sub_row(
+            ollamaServer,
+            _("Share Ollama"),
+            _("Share ollama on the local network."),
+            "ollamaShare",
+            "ollama-symbolic",
+            ollama,
+            info_text=_("Ollama server is running.\nAddress: http://{}:11434").format(local_ip),
+        )
+        # Ollama AMD ROCm
+        ollama = self.create_row(
+            ollamaServer,
+            _("Ollama AMD ROCm"),
+            _("Local AI server. For newer AMD GPUs, starting from the 6000 series.\nConsider using Vulkan, in many tests, Vulkan performed better than ROCm."),
+            "ollamaAmd",
             "ollama-symbolic",
             info_text=_("Ollama server is running.\nAddress: http://localhost:11434"),
         )
