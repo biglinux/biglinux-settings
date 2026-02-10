@@ -723,16 +723,8 @@ msgid "Ollama Vulkan"
 msgstr "Ollama Vulkan"
 # 
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings/ai_page.py, line: 75
-msgid "Local AI server. For CPUs and GPUs integrated and/or legacy."
-msgstr "Lokálny AI server. Pre CPU a GPU integrované a/alebo staršie."
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/ai_page.py, line: 92
-msgid "Ollama AMD ROCm"
-msgstr "Ollama AMD ROCm"
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/ai_page.py, line: 93
-msgid "Local AI server. For newer AMD GPUs, starting from the 6000 series."
-msgstr "Lokálny AI server. Pre novšie GPU AMD, začínajúc od série 6000."
+msgid "Local AI server. For CPUs, AMD/Nvidia and integrated GPUs."
+msgstr "Lokálny AI server. Pre CPU, AMD/Nvidia a integrované GPU."
 # 
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings/ai_page.py, line: 110
 msgid "Ollama Nvidia CUDA"
@@ -741,6 +733,18 @@ msgstr "Ollama Nvidia CUDA"
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings/ai_page.py, line: 111
 msgid "Local AI server. For newer Nvidia GPUs, starting from the 2000 series."
 msgstr "Lokálny AI server. Pre novšie GPU Nvidia, počnúc sériou 2000."
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/ai_page.py, line: 92
+msgid "Ollama AMD ROCm"
+msgstr "Ollama AMD ROCm"
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/ai_page.py, line: 111
+msgid ""
+"Local AI server. For newer AMD GPUs, starting from the 6000 series.\n"
+"Consider using Vulkan, in many tests, Vulkan performed better than ROCm."
+msgstr ""
+"Lokálny AI server. Pre novšie AMD GPU, začínajúc od série 6000. Zvážte použitie Vulkan, v mnohých "
+"testoch Vulkan vykazoval lepší výkon ako ROCm."
 # 
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings/ai_page.py, line: 128
 msgid "Ollama LAB"

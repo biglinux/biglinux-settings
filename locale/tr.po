@@ -725,16 +725,8 @@ msgid "Ollama Vulkan"
 msgstr "Ollama Vulkan"
 # 
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings/ai_page.py, line: 75
-msgid "Local AI server. For CPUs and GPUs integrated and/or legacy."
-msgstr "Yerel AI sunucusu. CPU'lar ve entegre ve/veya eski GPU'lar için."
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/ai_page.py, line: 92
-msgid "Ollama AMD ROCm"
-msgstr "Ollama AMD ROCm"
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/ai_page.py, line: 93
-msgid "Local AI server. For newer AMD GPUs, starting from the 6000 series."
-msgstr "Yerel AI sunucusu. 6000 serisinden itibaren daha yeni AMD GPU'ları için."
+msgid "Local AI server. For CPUs, AMD/Nvidia and integrated GPUs."
+msgstr "Yerel AI sunucusu. CPU'lar için, AMD/Nvidia ve entegre GPU'lar."
 # 
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings/ai_page.py, line: 110
 msgid "Ollama Nvidia CUDA"
@@ -743,6 +735,18 @@ msgstr "Ollama Nvidia CUDA"
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings/ai_page.py, line: 111
 msgid "Local AI server. For newer Nvidia GPUs, starting from the 2000 series."
 msgstr "Yerel AI sunucusu. 2000 serisinden itibaren daha yeni Nvidia GPU'lar için."
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/ai_page.py, line: 92
+msgid "Ollama AMD ROCm"
+msgstr "Ollama AMD ROCm"
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/ai_page.py, line: 111
+msgid ""
+"Local AI server. For newer AMD GPUs, starting from the 6000 series.\n"
+"Consider using Vulkan, in many tests, Vulkan performed better than ROCm."
+msgstr ""
+"Yerel AI sunucusu. 6000 serisinden itibaren daha yeni AMD GPU'ları için. Vulkan kullanmayı düşünün, "
+"birçok testte Vulkan, ROCm'den daha iyi performans gösterdi."
 # 
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings/ai_page.py, line: 128
 msgid "Ollama LAB"
