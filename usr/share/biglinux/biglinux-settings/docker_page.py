@@ -39,75 +39,122 @@ class DockerPage(BaseSettingsPage):
 
         ## Container
         # BigLinux Docker Nextcloud Plus
-        self.create_row(
+        nextCloud = self.create_row(
             container_group,
             _("Nextcloud Plus"),
             _("Nextcloud Plus container."),
-            "nextcloud-plus",
+            "nextcloud-plusInstall",
             "docker-nextcloud-plus-symbolic",
+        )
+        self.create_sub_row(
+            container_group,
+            _("Nextcloud Plus"),
+            _("Nextcloud Plus container."),
+            "nextcloud-plusRun",
+            "docker-nextcloud-plus-symbolic",
+            nextCloud,
             info_text=_("Nextcloud Plus is running.\nAddress: http://localhost:8286\nand\nAddress: http://{}:8286").format(local_ip),
         )
         # BigLinux Docker AdGuard
-        self.create_row(
+        adguard = self.create_row(
             container_group,
             _("AdGuard"),
             _("AdGuard Home container."),
-            "adguard",
+            "adguardInstall",
             "docker-adguard-symbolic",
+        )
+        self.create_sub_row(
+            container_group,
+            _("AdGuard"),
+            _("AdGuard Home container."),
+            "adguardRun",
+            "docker-adguard-symbolic",
+            adguard,
             info_text=_("AdGuard is running.\nAddress: http://localhost:3030\nand\nAddress: http://{}:3030").format(local_ip),
         )
-        # # BigLinux Docker Duplicati
-        # self.create_row(
-        #     container_group,
-        #     _("Duplicati"),
-        #     _("Duplicati backup solution."),
-        #     "duplicati",
-        #     "docker-duplicati-symbolic",
-        #     info_text=_("Duplicati is running.\nAddress: http://localhost:????"),
-        # )
         # BigLinux Docker Jellyfin
-        self.create_row(
+        jellyfin = self.create_row(
             container_group,
             _("Jellyfin"),
-            _("Jellyfin media server."),
-            "jellyfin",
+            _("Install Jellyfin media server."),
+            "jellyfinInstall",
             "docker-jellyfin-symbolic",
+        )
+        self.create_sub_row(
+            container_group,
+            _("Jellyfin"),
+            _("Run Jellyfin media server."),
+            "jellyfinRun",
+            "docker-jellyfin-symbolic",
+            jellyfin,
             info_text=_("Jellyfin is running.\nAddress: http://localhost:8096\nand\nAddress: http://{}:8096").format(local_ip),
         )
         # BigLinux Docker LAMP
-        self.create_row(
+        lamp = self.create_row(
             container_group,
             _("LAMP"),
             _("LAMP stack (Linux, Apache, MySQL, PHP)."),
-            "lamp",
+            "lampInstall",
             "docker-lamp-symbolic",
+        )
+        self.create_sub_row(
+            container_group,
+            _("LAMP"),
+            _("LAMP stack (Linux, Apache, MySQL, PHP)."),
+            "lampRun",
+            "docker-lamp-symbolic",
+            lamp,
             info_text=_("LAMP is running.\nAddress: http://localhost:8080\nand\nAddress: http://{}:8080").format(local_ip),
         )
         # BigLinux Docker Portainer Client
-        self.create_row(
+        portainer = self.create_row(
             container_group,
             _("Portainer Client"),
             _("Portainer Agent for cluster management."),
-            "portainer-client",
+            "portainer-clientInstall",
             "docker-portainer-client-symbolic",
+        )
+        self.create_sub_row(
+            container_group,
+            _("Portainer Client"),
+            _("Portainer Agent for cluster management."),
+            "portainer-clientRun",
+            "docker-portainer-client-symbolic",
+            portainer,
             info_text=_("Portainer Client is running.\nAddress: http://localhost:9000\nand\nAddress: http://{}:9000").format(local_ip),
         )
         # BigLinux Docker SWS
-        self.create_row(
+        sws = self.create_row(
             container_group,
             _("SWS"),
             _("SWS static web server."),
-            "sws",
+            "swsInstall",
             "docker-sws-symbolic",
+        )
+        self.create_sub_row(
+            container_group,
+            _("SWS"),
+            _("SWS static web server."),
+            "swsRun",
+            "docker-sws-symbolic",
+            sws,
             info_text=_("SWS is running.\nAddress: http://localhost:8182\nand\nAddress: http://{}:8182").format(local_ip),
         )
         # BigLinux Docker V2RayA
-        self.create_row(
+        v2raya = self.create_row(
             container_group,
             _("V2RayA"),
             _("V2RayA network tool."),
-            "v2raya",
+            "v2rayaInstall",
             "docker-v2raya-symbolic",
+        )
+        self.create_sub_row(
+            container_group,
+            _("V2RayA"),
+            _("V2RayA network tool."),
+            "v2rayaRun",
+            "docker-v2raya-symbolic",
+            v2raya,
             info_text=_("V2RayA is running.\nAddress: http://localhost:2017\nand\nAddress: http://{}:2017").format(local_ip),
         )
 
