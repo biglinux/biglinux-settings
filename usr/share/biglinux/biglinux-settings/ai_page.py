@@ -60,7 +60,7 @@ class AIPage(BaseSettingsPage):
         # ChatBox
         self.create_row(
             aiGui,
-            _("ChatBox"),
+            ("ChatBox"),
             _("User-friendly Desktop Client App for AI Models/LLMs."),
             "chatbox",
             "chatbox-symbolic",
@@ -69,11 +69,17 @@ class AIPage(BaseSettingsPage):
         self.create_row(
             aiGui,
             _("LM Studio"),
-            _(
-                "LM Studio - A desktop app for exploring and running large language models locally."
-            ),
+            _("LM Studio - A desktop app for exploring and running large language models locally."),
             "lmStudio",
             "lmstudio-symbolic",
+        )
+        # Open Notebook
+        self.create_row(
+            aiGui,
+            ("Open Notebook"),
+            _("An open source, privacy-focused alternative to Google's Notebook LM!"),
+            "openNotebookInstall",
+            "openNotebook-symbolic",
         )
         # Ollama CPU
         ollama = self.create_row(

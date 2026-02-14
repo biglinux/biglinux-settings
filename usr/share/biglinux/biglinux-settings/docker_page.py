@@ -1,6 +1,8 @@
 import os
 import subprocess
+
 from base_page import BaseSettingsPage, _
+
 
 class DockerPage(BaseSettingsPage):
     def __init__(self, main_window, **kwargs):
@@ -15,15 +17,13 @@ class DockerPage(BaseSettingsPage):
         docker_group = self.create_group(
             _("Docker"),
             _("Container service - enable to use containers below."),
-            "docker"
+            "docker",
         )
         content.append(docker_group)
 
         # Create the group (base method)
         container_group = self.create_group(
-            _("Containers"),
-            _("Manage container technologies."),
-            "docker"
+            _("Containers"), _("Manage container technologies."), "docker"
         )
         content.append(container_group)
 
@@ -34,7 +34,7 @@ class DockerPage(BaseSettingsPage):
             _("Docker"),
             _("Docker Enabled."),
             "dockerEnable",
-            "docker-symbolic"
+            "docker-symbolic",
         )
 
         ## Container
@@ -42,35 +42,39 @@ class DockerPage(BaseSettingsPage):
         nextCloud = self.create_row(
             container_group,
             _("Nextcloud Plus"),
-            _("Nextcloud Plus container."),
+            _("Install Nextcloud Plus container."),
             "nextcloud-plusInstall",
             "docker-nextcloud-plus-symbolic",
         )
         self.create_sub_row(
             container_group,
             _("Nextcloud Plus"),
-            _("Nextcloud Plus container."),
+            _("Run Nextcloud Plus."),
             "nextcloud-plusRun",
             "docker-nextcloud-plus-symbolic",
             nextCloud,
-            info_text=_("Nextcloud Plus is running.\nAddress: http://localhost:8286\nand\nAddress: http://{}:8286").format(local_ip),
+            info_text=_(
+                "Nextcloud Plus is running.\nAddress: http://localhost:8286\nand\nAddress: http://{}:8286"
+            ).format(local_ip),
         )
         # BigLinux Docker AdGuard
         adguard = self.create_row(
             container_group,
             _("AdGuard"),
-            _("AdGuard Home container."),
+            _("Install AdGuard Home container."),
             "adguardInstall",
             "docker-adguard-symbolic",
         )
         self.create_sub_row(
             container_group,
             _("AdGuard"),
-            _("AdGuard Home container."),
+            _("Run AdGuard."),
             "adguardRun",
             "docker-adguard-symbolic",
             adguard,
-            info_text=_("AdGuard is running.\nAddress: http://localhost:3030\nand\nAddress: http://{}:3030").format(local_ip),
+            info_text=_(
+                "AdGuard is running.\nAddress: http://localhost:3030\nand\nAddress: http://{}:3030"
+            ).format(local_ip),
         )
         # BigLinux Docker Jellyfin
         jellyfin = self.create_row(
@@ -83,79 +87,108 @@ class DockerPage(BaseSettingsPage):
         self.create_sub_row(
             container_group,
             _("Jellyfin"),
-            _("Run Jellyfin media server."),
+            _("Run Jellyfin."),
             "jellyfinRun",
             "docker-jellyfin-symbolic",
             jellyfin,
-            info_text=_("Jellyfin is running.\nAddress: http://localhost:8096\nand\nAddress: http://{}:8096").format(local_ip),
+            info_text=_(
+                "Jellyfin is running.\nAddress: http://localhost:8096\nand\nAddress: http://{}:8096"
+            ).format(local_ip),
         )
         # BigLinux Docker LAMP
         lamp = self.create_row(
             container_group,
             _("LAMP"),
-            _("LAMP stack (Linux, Apache, MySQL, PHP)."),
+            _("Install LAMP stack (Linux, Apache, MySQL, PHP)."),
             "lampInstall",
             "docker-lamp-symbolic",
         )
         self.create_sub_row(
             container_group,
             _("LAMP"),
-            _("LAMP stack (Linux, Apache, MySQL, PHP)."),
+            _("Run LAMP."),
             "lampRun",
             "docker-lamp-symbolic",
             lamp,
-            info_text=_("LAMP is running.\nAddress: http://localhost:8080\nand\nAddress: http://{}:8080").format(local_ip),
+            info_text=_(
+                "LAMP is running.\nAddress: http://localhost:8080\nand\nAddress: http://{}:8080"
+            ).format(local_ip),
         )
         # BigLinux Docker Portainer Client
         portainer = self.create_row(
             container_group,
             _("Portainer Client"),
-            _("Portainer Agent for cluster management."),
+            _("Install Portainer Agent for cluster management."),
             "portainer-clientInstall",
             "docker-portainer-client-symbolic",
         )
         self.create_sub_row(
             container_group,
             _("Portainer Client"),
-            _("Portainer Agent for cluster management."),
+            _("Run Portainer Client."),
             "portainer-clientRun",
             "docker-portainer-client-symbolic",
             portainer,
-            info_text=_("Portainer Client is running.\nAddress: http://localhost:9000\nand\nAddress: http://{}:9000").format(local_ip),
+            info_text=_(
+                "Portainer Client is running.\nAddress: http://localhost:9000\nand\nAddress: http://{}:9000"
+            ).format(local_ip),
         )
         # BigLinux Docker SWS
         sws = self.create_row(
             container_group,
             _("SWS"),
-            _("SWS static web server."),
+            _("Install SWS static web server."),
             "swsInstall",
             "docker-sws-symbolic",
         )
         self.create_sub_row(
             container_group,
             _("SWS"),
-            _("SWS static web server."),
+            _("Run SWS."),
             "swsRun",
             "docker-sws-symbolic",
             sws,
-            info_text=_("SWS is running.\nAddress: http://localhost:8182\nand\nAddress: http://{}:8182").format(local_ip),
+            info_text=_(
+                "SWS is running.\nAddress: http://localhost:8182\nand\nAddress: http://{}:8182"
+            ).format(local_ip),
         )
         # BigLinux Docker V2RayA
         v2raya = self.create_row(
             container_group,
             _("V2RayA"),
-            _("V2RayA network tool."),
+            _("Install V2RayA network tool."),
             "v2rayaInstall",
             "docker-v2raya-symbolic",
         )
         self.create_sub_row(
             container_group,
             _("V2RayA"),
-            _("V2RayA network tool."),
+            _("Run V2RayA."),
             "v2rayaRun",
             "docker-v2raya-symbolic",
             v2raya,
-            info_text=_("V2RayA is running.\nAddress: http://localhost:2017\nand\nAddress: http://{}:2017").format(local_ip),
+            info_text=_(
+                "V2RayA is running.\nAddress: http://localhost:2017\nand\nAddress: http://{}:2017"
+            ).format(local_ip),
+        )
+        # Open Notebook
+        openNotebook = self.create_row(
+            container_group,
+            ("Open Notebook"),
+            _("Install An open source, privacy-focused alternative to Google's Notebook LM!"),
+            "openNotebookInstall",
+            "openNotebook-symbolic",
+        )
+        self.create_sub_row(
+            container_group,
+            ("Open Notebook"),
+            _("Run Open Notebook."),
+            "openNotebookRun",
+            "openNotebook-symbolic",
+            openNotebook,
+            info_text=_(
+                "Open Notebook is running.\nAddress: http://localhost:8502\nand\nAddress: http://{}:8502"
+            ).format(local_ip),
         )
 
         # Syncs
@@ -215,14 +248,14 @@ class DockerPage(BaseSettingsPage):
         state_str = "true" if state else "false"
         try:
             result = subprocess.run(
-                [script_path, "toggle", state_str],
-                capture_output=True,
-                text=True
+                [script_path, "toggle", state_str], capture_output=True, text=True
             )
             if result.returncode == 0:
                 return True
             else:
-                print(f"Script {os.path.basename(script_path)} returned error {result.returncode}")
+                print(
+                    f"Script {os.path.basename(script_path)} returned error {result.returncode}"
+                )
                 print(f"stderr: {result.stderr}")
                 return False
         except Exception as e:
@@ -252,7 +285,9 @@ class DockerPage(BaseSettingsPage):
                         script_name, "on" if state else "off"
                     )
                 )
-                self.main_window.show_toast(_("Failed to change setting: {}").format(script_name))
+                self.main_window.show_toast(
+                    _("Failed to change setting: {}").format(script_name)
+                )
             else:
                 # After a successful change, refresh all switches to reflect real state
                 self.sync_all_switches()
