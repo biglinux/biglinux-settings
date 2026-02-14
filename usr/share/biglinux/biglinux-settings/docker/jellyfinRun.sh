@@ -4,7 +4,7 @@ dockerComposeAddress="$HOME/Docker/Jellyfin/docker-compose.yml"
 
 # check current status
 if [ "$1" == "check" ]; then
-  if [ -n "$(docker compose -f $dockerComposeAddress ls | grep running)" ]; then
+  if [ -n "$(docker compose ls | grep $dockerComposeAddress | grep running)" ]; then
       echo "true"
   else
       echo "false"
