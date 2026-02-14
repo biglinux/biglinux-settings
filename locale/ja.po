@@ -269,9 +269,13 @@ msgstr "Dockerが有効になっています。"
 msgid "Nextcloud Plus"
 msgstr "Nextcloud プラス"
 # 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/containers_page.py, line: 36
-msgid "Nextcloud Plus container."
-msgstr "Nextcloud Plus コンテナ。"
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/docker_page.py, line: 45
+msgid "Install Nextcloud Plus container."
+msgstr "Nextcloud Plusコンテナをインストールします。"
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/docker_page.py, line: 52
+msgid "Run Nextcloud Plus."
+msgstr "Nextcloud Plusを実行します。"
 # 
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings/docker_page.py, line: 48
 msgid ""
@@ -289,9 +293,13 @@ msgstr ""
 msgid "AdGuard"
 msgstr "アドガード"
 # 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/containers_page.py, line: 45
-msgid "AdGuard Home container."
-msgstr "AdGuard Home コンテナ。"
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/docker_page.py, line: 64
+msgid "Install AdGuard Home container."
+msgstr "AdGuard Homeコンテナをインストールします。"
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/docker_page.py, line: 71
+msgid "Run AdGuard."
+msgstr "AdGuardを実行します。"
 # 
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings/docker_page.py, line: 57
 msgid ""
@@ -313,9 +321,9 @@ msgstr "ジェリーフィン"
 msgid "Install Jellyfin media server."
 msgstr "Jellyfinメディアサーバーをインストールします。"
 # 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/docker_page.py, line: 86
-msgid "Run Jellyfin media server."
-msgstr "Jellyfinメディアサーバーを実行します。"
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/docker_page.py, line: 90
+msgid "Run Jellyfin."
+msgstr "Jellyfinを実行します。"
 # 
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings/docker_page.py, line: 75
 msgid ""
@@ -333,9 +341,13 @@ msgstr ""
 msgid "LAMP"
 msgstr "LAMP"
 # 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/containers_page.py, line: 81
-msgid "LAMP stack (Linux, Apache, MySQL, PHP)."
-msgstr "LAMPスタック（Linux、Apache、MySQL、PHP）。"
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/docker_page.py, line: 102
+msgid "Install LAMP stack (Linux, Apache, MySQL, PHP)."
+msgstr "LAMPスタック（Linux、Apache、MySQL、PHP）をインストールします。"
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/docker_page.py, line: 109
+msgid "Run LAMP."
+msgstr "LAMPを実行します。"
 # 
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings/docker_page.py, line: 84
 msgid ""
@@ -353,9 +365,13 @@ msgstr ""
 msgid "Portainer Client"
 msgstr "ポータナークライアント"
 # 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/containers_page.py, line: 90
-msgid "Portainer Agent for cluster management."
-msgstr "クラスター管理のためのポータイナーエージェント。"
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/docker_page.py, line: 121
+msgid "Install Portainer Agent for cluster management."
+msgstr "クラスター管理のためにPortainerエージェントをインストールします。"
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/docker_page.py, line: 128
+msgid "Run Portainer Client."
+msgstr "ポータナークライアントを実行します。"
 # 
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings/docker_page.py, line: 93
 msgid ""
@@ -373,9 +389,13 @@ msgstr ""
 msgid "SWS"
 msgstr "SWS"
 # 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/containers_page.py, line: 99
-msgid "SWS static web server."
-msgstr "SWS静的ウェブサーバー。"
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/docker_page.py, line: 140
+msgid "Install SWS static web server."
+msgstr "SWS静的ウェブサーバーをインストールします。"
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/docker_page.py, line: 147
+msgid "Run SWS."
+msgstr "SWSを実行します。"
 # 
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings/docker_page.py, line: 102
 msgid ""
@@ -393,9 +413,13 @@ msgstr ""
 msgid "V2RayA"
 msgstr "V2RayA"
 # 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/containers_page.py, line: 108
-msgid "V2RayA network tool."
-msgstr "V2RayAネットワークツール。"
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/docker_page.py, line: 159
+msgid "Install V2RayA network tool."
+msgstr "V2RayAネットワークツールをインストールします。"
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/docker_page.py, line: 166
+msgid "Run V2RayA."
+msgstr "V2RayAを実行します。"
 # 
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings/docker_page.py, line: 111
 msgid ""
@@ -408,6 +432,26 @@ msgstr ""
 "アドレス: http://localhost:2017\n"
 "および\n"
 "アドレス: http://{}:2017"
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/docker_page.py, line: 178
+msgid "Install An open source, privacy-focused alternative to Google's Notebook LM!"
+msgstr "GoogleのNotebook LMのオープンソースでプライバシー重視の代替品をインストールしてください！"
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/docker_page.py, line: 185
+msgid "Run Open Notebook."
+msgstr "オープンノートブックを実行します。"
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/docker_page.py, line: 190
+msgid ""
+"Open Notebook is running.\n"
+"Address: http://localhost:8502\n"
+"and\n"
+"Address: http://{}:8502"
+msgstr ""
+"ノートブックが実行中です。\n"
+"アドレス: http://localhost:8502\n"
+"および\n"
+"アドレス: http://{}:8502"
 # 
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 244
 msgid "Changing {} to {}"
@@ -787,10 +831,6 @@ msgstr "オラマLAB"
 msgid "Graphical interface for managing Ollama models and chat."
 msgstr "Ollamaモデルとチャットを管理するためのグラフィカルインターフェース。"
 # 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/ai_page.py, line: 135
-msgid "ChatBox"
-msgstr "チャットボックス"
-# 
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings/ai_page.py, line: 136
 msgid "User-friendly Desktop Client App for AI Models/LLMs."
 msgstr "AIモデル/LLM用のユーザーフレンドリーなデスクトップクライアントアプリ。"
@@ -802,6 +842,10 @@ msgstr "LMスタジオ"
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings/ai_page.py, line: 144
 msgid "LM Studio - A desktop app for exploring and running large language models locally."
 msgstr "LM Studio - 大規模言語モデルをローカルで探索し実行するためのデスクトップアプリ。"
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/ai_page.py, line: 80
+msgid "An open source, privacy-focused alternative to Google's Notebook LM!"
+msgstr "GoogleのNotebook LMに対するオープンソースでプライバシー重視の代替品！"
 # 
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings/ai_page.py, line: 55
 msgid "OllamaCPU"

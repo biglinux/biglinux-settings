@@ -270,9 +270,13 @@ msgstr "Docker aktiverad."
 msgid "Nextcloud Plus"
 msgstr "Nextcloud Plus"
 # 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/containers_page.py, line: 36
-msgid "Nextcloud Plus container."
-msgstr "Nextcloud Plus-behållare."
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/docker_page.py, line: 45
+msgid "Install Nextcloud Plus container."
+msgstr "Installera Nextcloud Plus-container."
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/docker_page.py, line: 52
+msgid "Run Nextcloud Plus."
+msgstr "Kör Nextcloud Plus."
 # 
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings/docker_page.py, line: 48
 msgid ""
@@ -290,9 +294,13 @@ msgstr ""
 msgid "AdGuard"
 msgstr "AdGuard"
 # 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/containers_page.py, line: 45
-msgid "AdGuard Home container."
-msgstr "AdGuard Home-behållare."
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/docker_page.py, line: 64
+msgid "Install AdGuard Home container."
+msgstr "Installera AdGuard Home-container."
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/docker_page.py, line: 71
+msgid "Run AdGuard."
+msgstr "Kör AdGuard."
 # 
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings/docker_page.py, line: 57
 msgid ""
@@ -314,9 +322,9 @@ msgstr "Jellyfin"
 msgid "Install Jellyfin media server."
 msgstr "Installera Jellyfin medieserver."
 # 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/docker_page.py, line: 86
-msgid "Run Jellyfin media server."
-msgstr "Kör Jellyfin medieserver."
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/docker_page.py, line: 90
+msgid "Run Jellyfin."
+msgstr "Kör Jellyfin."
 # 
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings/docker_page.py, line: 75
 msgid ""
@@ -334,9 +342,13 @@ msgstr ""
 msgid "LAMP"
 msgstr "LAMP"
 # 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/containers_page.py, line: 81
-msgid "LAMP stack (Linux, Apache, MySQL, PHP)."
-msgstr "LAMP-stacken (Linux, Apache, MySQL, PHP)."
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/docker_page.py, line: 102
+msgid "Install LAMP stack (Linux, Apache, MySQL, PHP)."
+msgstr "Installera LAMP-stacken (Linux, Apache, MySQL, PHP)."
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/docker_page.py, line: 109
+msgid "Run LAMP."
+msgstr "Kör LAMP."
 # 
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings/docker_page.py, line: 84
 msgid ""
@@ -354,9 +366,13 @@ msgstr ""
 msgid "Portainer Client"
 msgstr "Portainer-klient"
 # 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/containers_page.py, line: 90
-msgid "Portainer Agent for cluster management."
-msgstr "Portainer Agent för klusterhantering."
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/docker_page.py, line: 121
+msgid "Install Portainer Agent for cluster management."
+msgstr "Installera Portainer Agent för klusterhantering."
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/docker_page.py, line: 128
+msgid "Run Portainer Client."
+msgstr "Kör Portainer-klienten."
 # 
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings/docker_page.py, line: 93
 msgid ""
@@ -374,9 +390,13 @@ msgstr ""
 msgid "SWS"
 msgstr "SWS"
 # 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/containers_page.py, line: 99
-msgid "SWS static web server."
-msgstr "SWS statisk webbserver."
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/docker_page.py, line: 140
+msgid "Install SWS static web server."
+msgstr "Installera SWS statisk webbserver."
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/docker_page.py, line: 147
+msgid "Run SWS."
+msgstr "Kör SWS."
 # 
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings/docker_page.py, line: 102
 msgid ""
@@ -394,9 +414,13 @@ msgstr ""
 msgid "V2RayA"
 msgstr "V2RayA"
 # 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/containers_page.py, line: 108
-msgid "V2RayA network tool."
-msgstr "V2RayA nätverksverktyg."
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/docker_page.py, line: 159
+msgid "Install V2RayA network tool."
+msgstr "Installera V2RayA nätverksverktyg."
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/docker_page.py, line: 166
+msgid "Run V2RayA."
+msgstr "Kör V2RayA."
 # 
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings/docker_page.py, line: 111
 msgid ""
@@ -409,6 +433,26 @@ msgstr ""
 "Adress: http://localhost:2017  \n"
 "och  \n"
 "Adress: http://{}:2017"
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/docker_page.py, line: 178
+msgid "Install An open source, privacy-focused alternative to Google's Notebook LM!"
+msgstr "Installera ett öppet källkods, integritetsfokuserat alternativ till Googles Notebook LM!"
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/docker_page.py, line: 185
+msgid "Run Open Notebook."
+msgstr "Kör Öppen Anteckning."
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/docker_page.py, line: 190
+msgid ""
+"Open Notebook is running.\n"
+"Address: http://localhost:8502\n"
+"and\n"
+"Address: http://{}:8502"
+msgstr ""
+"Öppna anteckningsbok körs.  \n"
+"Adress: http://localhost:8502  \n"
+"och  \n"
+"Adress: http://{}:8502"
 # 
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 244
 msgid "Changing {} to {}"
@@ -794,10 +838,6 @@ msgstr "Ollama LAB"
 msgid "Graphical interface for managing Ollama models and chat."
 msgstr "Grafisk gränssnitt för att hantera Ollama-modeller och chatt."
 # 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/ai_page.py, line: 136
-msgid "ChatBox"
-msgstr "Chattbox"
-# 
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings/ai_page.py, line: 137
 msgid "User-friendly Desktop Client App for AI Models/LLMs."
 msgstr "Användarvänlig skrivbordsapp för AI-modeller/LLM:er."
@@ -809,6 +849,10 @@ msgstr "LM Studio"
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings/ai_page.py, line: 145
 msgid "LM Studio - A desktop app for exploring and running large language models locally."
 msgstr "LM Studio - En skrivbordsapp för att utforska och köra stora språkmodeller lokalt."
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/ai_page.py, line: 80
+msgid "An open source, privacy-focused alternative to Google's Notebook LM!"
+msgstr "Ett öppet källkods, integritetsfokuserat alternativ till Googles Notebook LM!"
 # 
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings/ai_page.py, line: 56
 msgid "OllamaCPU"

@@ -413,24 +413,24 @@ msgstr "Failed to install Krita!"
 #
 # #-#-#-#-#  biglinux-settings.pot (biglinux-settings)  #-#-#-#-#
 #
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/docker_page.py, line: 16
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/docker_page.py, line: 18
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings/docker_page.py, line: 34
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 264
 msgid "Docker"
 msgstr "Docker"
 
 #
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/docker_page.py, line: 17
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/docker_page.py, line: 19
 msgid "Container service - enable to use containers below."
 msgstr "Container service - enable to use containers below."
 
 #
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/docker_page.py, line: 24
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/docker_page.py, line: 26
 msgid "Containers"
 msgstr "Containers"
 
 #
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/docker_page.py, line: 25
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/docker_page.py, line: 26
 msgid "Manage container technologies."
 msgstr "Manage container technologies."
 
@@ -447,12 +447,16 @@ msgstr "Nextcloud Plus"
 
 #
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings/docker_page.py, line: 45
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/docker_page.py, line: 52
-msgid "Nextcloud Plus container."
-msgstr "Nextcloud Plus container."
+msgid "Install Nextcloud Plus container."
+msgstr "Install Nextcloud Plus container."
 
 #
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/docker_page.py, line: 56
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/docker_page.py, line: 52
+msgid "Run Nextcloud Plus."
+msgstr "Run Nextcloud Plus."
+
+#
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/docker_page.py, line: 57
 msgid ""
 "Nextcloud Plus is running.\n"
 "Address: http://localhost:8286\n"
@@ -465,19 +469,23 @@ msgstr ""
 "Address: http://{}:8286"
 
 #
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/docker_page.py, line: 61
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/docker_page.py, line: 68
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/docker_page.py, line: 63
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/docker_page.py, line: 70
 msgid "AdGuard"
 msgstr "AdGuard"
 
 #
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/docker_page.py, line: 62
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/docker_page.py, line: 69
-msgid "AdGuard Home container."
-msgstr "AdGuard Home container."
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/docker_page.py, line: 64
+msgid "Install AdGuard Home container."
+msgstr "Install AdGuard Home container."
 
 #
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/docker_page.py, line: 73
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/docker_page.py, line: 71
+msgid "Run AdGuard."
+msgstr "Run AdGuard."
+
+#
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/docker_page.py, line: 76
 msgid ""
 "AdGuard is running.\n"
 "Address: http://localhost:3030\n"
@@ -490,23 +498,23 @@ msgstr ""
 "Address: http://{}:3030"
 
 #
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/docker_page.py, line: 78
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/docker_page.py, line: 85
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/docker_page.py, line: 82
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/docker_page.py, line: 89
 msgid "Jellyfin"
 msgstr "Jellyfin"
 
 #
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/docker_page.py, line: 79
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/docker_page.py, line: 83
 msgid "Install Jellyfin media server."
 msgstr "Install Jellyfin media server."
 
 #
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/docker_page.py, line: 86
-msgid "Run Jellyfin media server."
-msgstr "Run Jellyfin media server."
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/docker_page.py, line: 90
+msgid "Run Jellyfin."
+msgstr "Run Jellyfin."
 
 #
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/docker_page.py, line: 90
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/docker_page.py, line: 95
 msgid ""
 "Jellyfin is running.\n"
 "Address: http://localhost:8096\n"
@@ -519,19 +527,23 @@ msgstr ""
 "Address: http://{}:8096"
 
 #
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/docker_page.py, line: 95
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/docker_page.py, line: 102
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/docker_page.py, line: 101
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/docker_page.py, line: 108
 msgid "LAMP"
 msgstr "LAMP"
 
 #
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/docker_page.py, line: 96
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/docker_page.py, line: 103
-msgid "LAMP stack (Linux, Apache, MySQL, PHP)."
-msgstr "LAMP stack (Linux, Apache, MySQL, PHP)."
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/docker_page.py, line: 102
+msgid "Install LAMP stack (Linux, Apache, MySQL, PHP)."
+msgstr "Install LAMP stack (Linux, Apache, MySQL, PHP)."
 
 #
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/docker_page.py, line: 107
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/docker_page.py, line: 109
+msgid "Run LAMP."
+msgstr "Run LAMP."
+
+#
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/docker_page.py, line: 114
 msgid ""
 "LAMP is running.\n"
 "Address: http://localhost:8080\n"
@@ -544,19 +556,23 @@ msgstr ""
 "Address: http://{}:8080"
 
 #
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/docker_page.py, line: 112
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/docker_page.py, line: 119
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/docker_page.py, line: 120
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/docker_page.py, line: 127
 msgid "Portainer Client"
 msgstr "Portainer Client"
 
 #
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/docker_page.py, line: 113
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/docker_page.py, line: 120
-msgid "Portainer Agent for cluster management."
-msgstr "Portainer Agent for cluster management."
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/docker_page.py, line: 121
+msgid "Install Portainer Agent for cluster management."
+msgstr "Install Portainer Agent for cluster management."
 
 #
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/docker_page.py, line: 124
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/docker_page.py, line: 128
+msgid "Run Portainer Client."
+msgstr "Run Portainer Client."
+
+#
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/docker_page.py, line: 133
 msgid ""
 "Portainer Client is running.\n"
 "Address: http://localhost:9000\n"
@@ -569,19 +585,23 @@ msgstr ""
 "Address: http://{}:9000"
 
 #
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/docker_page.py, line: 129
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/docker_page.py, line: 136
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/docker_page.py, line: 139
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/docker_page.py, line: 146
 msgid "SWS"
 msgstr "SWS"
 
 #
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/docker_page.py, line: 130
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/docker_page.py, line: 137
-msgid "SWS static web server."
-msgstr "SWS static web server."
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/docker_page.py, line: 140
+msgid "Install SWS static web server."
+msgstr "Install SWS static web server."
 
 #
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/docker_page.py, line: 141
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/docker_page.py, line: 147
+msgid "Run SWS."
+msgstr "Run SWS."
+
+#
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/docker_page.py, line: 152
 msgid ""
 "SWS is running.\n"
 "Address: http://localhost:8182\n"
@@ -594,19 +614,23 @@ msgstr ""
 "Address: http://{}:8182"
 
 #
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/docker_page.py, line: 146
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/docker_page.py, line: 153
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/docker_page.py, line: 158
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/docker_page.py, line: 165
 msgid "V2RayA"
 msgstr "V2RayA"
 
 #
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/docker_page.py, line: 147
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/docker_page.py, line: 154
-msgid "V2RayA network tool."
-msgstr "V2RayA network tool."
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/docker_page.py, line: 159
+msgid "Install V2RayA network tool."
+msgstr "Install V2RayA network tool."
 
 #
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/docker_page.py, line: 158
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/docker_page.py, line: 166
+msgid "Run V2RayA."
+msgstr "Run V2RayA."
+
+#
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/docker_page.py, line: 171
 msgid ""
 "V2RayA is running.\n"
 "Address: http://localhost:2017\n"
@@ -619,9 +643,34 @@ msgstr ""
 "Address: http://{}:2017"
 
 #
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/docker_page.py, line: 178
+msgid ""
+"Install An open source, privacy-focused alternative to Google's Notebook LM!"
+msgstr ""
+"Install An open source, privacy-focused alternative to Google's Notebook LM!"
+
+#
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/docker_page.py, line: 185
+msgid "Run Open Notebook."
+msgstr "Run Open Notebook."
+
+#
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/docker_page.py, line: 190
+msgid ""
+"Open Notebook is running.\n"
+"Address: http://localhost:8502\n"
+"and\n"
+"Address: http://{}:8502"
+msgstr ""
+"Open Notebook is running.\n"
+"Address: http://localhost:8502\n"
+"and\n"
+"Address: http://{}:8502"
+
+#
 # #-#-#-#-#  biglinux-settings.pot (biglinux-settings)  #-#-#-#-#
 #
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/docker_page.py, line: 238
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/docker_page.py, line: 271
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings/base_page.py, line: 409
 msgid "Changing {} to {}"
 msgstr "Changing {} to {}"
@@ -629,7 +678,7 @@ msgstr "Changing {} to {}"
 #
 # #-#-#-#-#  biglinux-settings.pot (biglinux-settings)  #-#-#-#-#
 #
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/docker_page.py, line: 251
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/docker_page.py, line: 284
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings/base_page.py, line: 423
 msgid "ERROR: Failed to change {} to {}"
 msgstr "ERROR: Failed to change {} to {}"
@@ -637,7 +686,7 @@ msgstr "ERROR: Failed to change {} to {}"
 #
 # #-#-#-#-#  biglinux-settings.pot (biglinux-settings)  #-#-#-#-#
 #
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/docker_page.py, line: 255
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/docker_page.py, line: 289
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings/base_page.py, line: 427
 msgid "Failed to change setting: {}"
 msgstr "Failed to change setting: {}"
@@ -1064,11 +1113,6 @@ msgid "Graphical interface for managing Ollama models and chat."
 msgstr "Graphical interface for managing Ollama models and chat."
 
 #
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/ai_page.py, line: 63
-msgid "ChatBox"
-msgstr "ChatBox"
-
-#
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings/ai_page.py, line: 64
 msgid "User-friendly Desktop Client App for AI Models/LLMs."
 msgstr "User-friendly Desktop Client App for AI Models/LLMs."
@@ -1079,7 +1123,7 @@ msgid "LM Studio"
 msgstr "LM Studio"
 
 #
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/ai_page.py, line: 73
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/ai_page.py, line: 72
 msgid ""
 "LM Studio - A desktop app for exploring and running large language models "
 "locally."
@@ -1088,20 +1132,25 @@ msgstr ""
 "locally."
 
 #
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/ai_page.py, line: 81
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/ai_page.py, line: 80
+msgid "An open source, privacy-focused alternative to Google's Notebook LM!"
+msgstr "An open source, privacy-focused alternative to Google's Notebook LM!"
+
+#
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/ai_page.py, line: 87
 msgid "OllamaCPU"
 msgstr "OllamaCPU"
 
 #
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/ai_page.py, line: 82
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/ai_page.py, line: 88
 msgid "Local AI server. For CPUs only."
 msgstr "Local AI server. For CPUs only."
 
 #
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/ai_page.py, line: 85
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/ai_page.py, line: 105
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/ai_page.py, line: 125
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/ai_page.py, line: 147
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/ai_page.py, line: 91
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/ai_page.py, line: 111
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/ai_page.py, line: 131
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/ai_page.py, line: 153
 msgid ""
 "Ollama server is running.\n"
 "Address: http://localhost:11434"
@@ -1110,26 +1159,26 @@ msgstr ""
 "Address: http://localhost:11434"
 
 #
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/ai_page.py, line: 89
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/ai_page.py, line: 109
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/ai_page.py, line: 129
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/ai_page.py, line: 151
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/ai_page.py, line: 95
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/ai_page.py, line: 115
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/ai_page.py, line: 135
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/ai_page.py, line: 157
 msgid "Share Ollama"
 msgstr "Share Ollama"
 
 #
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/ai_page.py, line: 90
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/ai_page.py, line: 110
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/ai_page.py, line: 130
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/ai_page.py, line: 152
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/ai_page.py, line: 96
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/ai_page.py, line: 116
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/ai_page.py, line: 136
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/ai_page.py, line: 158
 msgid "Share ollama on the local network."
 msgstr "Share ollama on the local network."
 
 #
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/ai_page.py, line: 94
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/ai_page.py, line: 114
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/ai_page.py, line: 134
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/ai_page.py, line: 156
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/ai_page.py, line: 100
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/ai_page.py, line: 120
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/ai_page.py, line: 140
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/ai_page.py, line: 162
 msgid ""
 "Ollama server is running.\n"
 "Address: http://{}:11434"
@@ -1138,32 +1187,32 @@ msgstr ""
 "Address: http://{}:11434"
 
 #
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/ai_page.py, line: 101
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/ai_page.py, line: 107
 msgid "Ollama Vulkan"
 msgstr "Ollama Vulkan"
 
 #
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/ai_page.py, line: 102
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/ai_page.py, line: 108
 msgid "Local AI server. For CPUs, AMD/Nvidia and integrated GPUs."
 msgstr "Local AI server. For CPUs, AMD/Nvidia and integrated GPUs."
 
 #
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/ai_page.py, line: 121
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/ai_page.py, line: 127
 msgid "Ollama Nvidia CUDA"
 msgstr "Ollama Nvidia CUDA"
 
 #
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/ai_page.py, line: 122
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/ai_page.py, line: 128
 msgid "Local AI server. For newer Nvidia GPUs, starting from the 2000 series."
 msgstr "Local AI server. For newer Nvidia GPUs, starting from the 2000 series."
 
 #
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/ai_page.py, line: 141
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/ai_page.py, line: 147
 msgid "Ollama AMD ROCm"
 msgstr "Ollama AMD ROCm"
 
 #
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/ai_page.py, line: 143
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/ai_page.py, line: 149
 msgid ""
 "Local AI server. For newer AMD GPUs, starting from the 6000 series.\n"
 "Consider using Vulkan, in many tests, Vulkan performed better than ROCm."
