@@ -54,6 +54,8 @@ updateTask() {
     sleep 1
     echo "100" # Ensures Zenity closes
   else
+    # stop service
+    kill $(ps aux | grep -i "$HOME/ComfyUI/bin/python $HOME/ComfyUI/main.py" | grep -v grep | awk '{print $2}')
     # erase comfyUI folder
     rm -rf "$HOME/ComfyUI"
 
