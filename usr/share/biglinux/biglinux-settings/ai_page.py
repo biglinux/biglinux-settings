@@ -81,6 +81,23 @@ class AIPage(BaseSettingsPage):
             "openNotebookInstall",
             "openNotebook-symbolic",
         )
+        # ComfyUI
+        comfyUI = self.create_row(
+            aiGui,
+            ("ComfyUI"),
+            _("The most powerful and modular visual AI engine and application."),
+            "comfyUI",
+            "comfyUI-symbolic",
+        )
+        self.create_sub_row(
+            aiGui,
+            _("ComfyUI Server"),
+            _("start ComfyUI Server."),
+            "comfyUIRun",
+            "comfyUI-symbolic",
+            comfyUI,
+            info_text=_("ComfyUI server is running.\nAddress: http://localhost:8188"),
+        )
         # Ollama CPU
         ollama = self.create_row(
             ollamaServer,
