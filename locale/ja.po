@@ -199,8 +199,8 @@ msgid "Failed to install Ollama ROCm!"
 msgstr "Ollama ROCmのインストールに失敗しました！"
 msgid "comfyUI Install...."
 msgstr "comfyUI インストール中...."
-msgid "Instaling comfyUI, Please wait..."
-msgstr "ComfyUIをインストール中です。お待ちください..."
+msgid "Instaling comfyUI, this step may take a long time, Please wait..."
+msgstr "ComfyUIをインストール中です。このステップは時間がかかる場合がありますので、お待ちください..."
 msgid "Uninstall comfyUI...."
 msgstr "コンフィUIをアンインストールします...."
 msgid "Uninstaling comfyUI, Please wait..."
@@ -211,6 +211,8 @@ msgid "comfyUI uninstalled successfully"
 msgstr "comfyUIが正常にアンインストールされました。"
 msgid "Failed to install comfyUI!"
 msgstr "comfyUIのインストールに失敗しました！"
+msgid "AMD/Nvidia GPU not found!"
+msgstr "AMD/Nvidia GPUが見つかりません！"
 msgid ""
 "Ollama shared successfully.\\n"
 "Address: http://$localIp:11434"
@@ -868,6 +870,10 @@ msgstr "LM Studio - 大規模言語モデルをローカルで探索し実行す
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings/ai_page.py, line: 80
 msgid "An open source, privacy-focused alternative to Google's Notebook LM!"
 msgstr "GoogleのNotebook LMに対するオープンソースでプライバシー重視の代替品！"
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/ai_page.py, line: 87
+msgid "ComfyUI (GPU ONLY)"
+msgstr "ComfyUI（GPU専用）"
 # 
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings/ai_page.py, line: 88
 msgid "The most powerful and modular visual AI engine and application."

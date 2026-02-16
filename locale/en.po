@@ -335,8 +335,8 @@ msgid "comfyUI Install...."
 msgstr "comfyUI Install...."
 
 #
-msgid "Instaling comfyUI, Please wait..."
-msgstr "Instaling comfyUI, Please wait..."
+msgid "Instaling comfyUI, this step may take a long time, Please wait..."
+msgstr "Instaling comfyUI, this step may take a long time, Please wait..."
 
 #
 msgid "Uninstall comfyUI...."
@@ -357,6 +357,10 @@ msgstr "comfyUI uninstalled successfully"
 #
 msgid "Failed to install comfyUI!"
 msgstr "Failed to install comfyUI!"
+
+#
+msgid "AMD/Nvidia GPU not found!"
+msgstr "AMD/Nvidia GPU not found!"
 
 #
 msgid "Ollama shared successfully.\\nAddress: http://$localIp:11434"
@@ -1179,6 +1183,11 @@ msgstr ""
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings/ai_page.py, line: 80
 msgid "An open source, privacy-focused alternative to Google's Notebook LM!"
 msgstr "An open source, privacy-focused alternative to Google's Notebook LM!"
+
+#
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/ai_page.py, line: 87
+msgid "ComfyUI (GPU ONLY)"
+msgstr "ComfyUI (GPU ONLY)"
 
 #
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings/ai_page.py, line: 88
