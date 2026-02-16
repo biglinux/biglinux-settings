@@ -876,9 +876,10 @@ msgstr "A legmodernebb és moduláris vizuális MI motor és alkalmazás."
 msgid "ComfyUI Server"
 msgstr "ComfyUI Szerver"
 # 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/ai_page.py, line: 95
-msgid "start ComfyUI Server."
-msgstr "Indítsa el a ComfyUI szervert."
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/ai_page.py, line: 97
+#, python-brace-format
+msgid "start ComfyUI Server. For more information see: <a href='{l}'>{l}</a>"
+msgstr "Indítsa el a ComfyUI szervert. További információért lásd: <a href='{l}'>{l}</a>"
 # 
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings/ai_page.py, line: 100
 msgid ""

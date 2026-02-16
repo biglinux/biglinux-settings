@@ -883,9 +883,10 @@ msgstr "最强大且模块化的视觉人工智能引擎和应用程序。"
 msgid "ComfyUI Server"
 msgstr "ComfyUI 服务器"
 # 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/ai_page.py, line: 95
-msgid "start ComfyUI Server."
-msgstr "启动 ComfyUI 服务器。"
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/ai_page.py, line: 97
+#, python-brace-format
+msgid "start ComfyUI Server. For more information see: <a href='{l}'>{l}</a>"
+msgstr "启动 ComfyUI 服务器。有关更多信息，请参见：<a href='{l}'>{l}</a>"
 # 
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings/ai_page.py, line: 100
 msgid ""

@@ -891,9 +891,10 @@ msgstr "Mesta öfluga og modulísa sjónræna AI vélin og forritið."
 msgid "ComfyUI Server"
 msgstr "ComfyUI Server"
 # 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/ai_page.py, line: 95
-msgid "start ComfyUI Server."
-msgstr "start ComfyUI þjónustuna."
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/ai_page.py, line: 97
+#, python-brace-format
+msgid "start ComfyUI Server. For more information see: <a href='{l}'>{l}</a>"
+msgstr "start ComfyUI þjónustuna. Fyrir frekari upplýsingar, sjáðu: <a href='{l}'>{l}</a>"
 # 
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings/ai_page.py, line: 100
 msgid ""

@@ -904,9 +904,10 @@ msgstr "Ο πιο ισχυρός και αρθρωτός οπτικός κινη
 msgid "ComfyUI Server"
 msgstr "ComfyUI Διακομιστής"
 # 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/ai_page.py, line: 95
-msgid "start ComfyUI Server."
-msgstr "εκκίνηση διακομιστή ComfyUI."
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/ai_page.py, line: 97
+#, python-brace-format
+msgid "start ComfyUI Server. For more information see: <a href='{l}'>{l}</a>"
+msgstr "εκκινήστε τον διακομιστή ComfyUI. Για περισσότερες πληροφορίες δείτε: <a href='{l}'>{l}</a>"
 # 
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings/ai_page.py, line: 100
 msgid ""

@@ -1112,27 +1112,28 @@ msgid   "An open source, privacy-focused alternative to Google's Notebook LM!"
 msgstr  ""
 
 #
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/ai_page.py, line: 87
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/ai_page.py, line: 88
 msgid   "ComfyUI (GPU ONLY)"
 msgstr  ""
 
 #
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/ai_page.py, line: 88
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/ai_page.py, line: 89
 msgid   "The most powerful and modular visual AI engine and application."
 msgstr  ""
 
 #
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/ai_page.py, line: 95
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/ai_page.py, line: 96
 msgid   "ComfyUI Server"
 msgstr  ""
 
 #
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/ai_page.py, line: 96
-msgid   "start ComfyUI Server."
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/ai_page.py, line: 97
+#, python-brace-format
+msgid   "start ComfyUI Server. For more information see: <a href='{l}'>{l}</a>"
 msgstr  ""
 
 #
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/ai_page.py, line: 100
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/ai_page.py, line: 101
 msgid   "ComfyUI server is running.\n"
         "Address: http://localhost:8188\n"
         "and\n"
@@ -1140,30 +1141,22 @@ msgid   "ComfyUI server is running.\n"
 msgstr  ""
 
 #
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/ai_page.py, line: 105
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/ai_page.py, line: 106
 msgid   "OllamaCPU"
 msgstr  ""
 
 #
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/ai_page.py, line: 106
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/ai_page.py, line: 107
 msgid   "Local AI server. For CPUs only."
 msgstr  ""
 
 #
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/ai_page.py, line: 109
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/ai_page.py, line: 129
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/ai_page.py, line: 149
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/ai_page.py, line: 171
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/ai_page.py, line: 110
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/ai_page.py, line: 130
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/ai_page.py, line: 150
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/ai_page.py, line: 172
 msgid   "Ollama server is running.\n"
         "Address: http://localhost:11434"
-msgstr  ""
-
-#
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/ai_page.py, line: 113
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/ai_page.py, line: 133
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/ai_page.py, line: 153
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/ai_page.py, line: 175
-msgid   "Share Ollama"
 msgstr  ""
 
 #
@@ -1171,46 +1164,54 @@ msgstr  ""
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings/ai_page.py, line: 134
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings/ai_page.py, line: 154
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings/ai_page.py, line: 176
+msgid   "Share Ollama"
+msgstr  ""
+
+#
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/ai_page.py, line: 115
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/ai_page.py, line: 135
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/ai_page.py, line: 155
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/ai_page.py, line: 177
 msgid   "Share ollama on the local network."
 msgstr  ""
 
 #
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/ai_page.py, line: 118
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/ai_page.py, line: 138
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/ai_page.py, line: 158
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/ai_page.py, line: 180
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/ai_page.py, line: 119
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/ai_page.py, line: 139
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/ai_page.py, line: 159
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/ai_page.py, line: 181
 msgid   "Ollama server is running.\n"
         "Address: http://{}:11434"
 msgstr  ""
 
 #
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/ai_page.py, line: 125
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/ai_page.py, line: 126
 msgid   "Ollama Vulkan"
 msgstr  ""
 
 #
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/ai_page.py, line: 126
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/ai_page.py, line: 127
 msgid   "Local AI server. For CPUs, AMD/Nvidia and integrated GPUs."
 msgstr  ""
 
 #
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/ai_page.py, line: 145
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/ai_page.py, line: 146
 msgid   "Ollama Nvidia CUDA"
 msgstr  ""
 
 #
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/ai_page.py, line: 146
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/ai_page.py, line: 147
 msgid   "Local AI server. For newer Nvidia GPUs, starting from the 2000 "
         "series."
 msgstr  ""
 
 #
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/ai_page.py, line: 165
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/ai_page.py, line: 166
 msgid   "Ollama AMD ROCm"
 msgstr  ""
 
 #
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/ai_page.py, line: 167
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/ai_page.py, line: 168
 msgid   "Local AI server. For newer AMD GPUs, starting from the 6000 series.\n"
         "Consider using Vulkan, in many tests, Vulkan performed better than "
         "ROCm."

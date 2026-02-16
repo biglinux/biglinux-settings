@@ -874,9 +874,10 @@ msgstr "Najmoćniji i modularni vizualni AI motor i aplikacija."
 msgid "ComfyUI Server"
 msgstr "ComfyUI Poslužitelj"
 # 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/ai_page.py, line: 95
-msgid "start ComfyUI Server."
-msgstr "pokreni ComfyUI poslužitelj."
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/ai_page.py, line: 97
+#, python-brace-format
+msgid "start ComfyUI Server. For more information see: <a href='{l}'>{l}</a>"
+msgstr "pokreni ComfyUI poslužitelj. Za više informacija vidi: <a href='{l}'>{l}</a>"
 # 
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings/ai_page.py, line: 100
 msgid ""
