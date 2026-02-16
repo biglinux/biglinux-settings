@@ -335,8 +335,8 @@ msgid "comfyUI Install...."
 msgstr "comfyUI Install...."
 
 #
-msgid "Instaling comfyUI, this step may take a long time, Please wait..."
-msgstr "Instaling comfyUI, this step may take a long time, Please wait..."
+msgid "Instaling comfyUI, this step take a long time, Please wait..."
+msgstr "Instaling comfyUI, this step take a long time, Please wait..."
 
 #
 msgid "Uninstall comfyUI...."
@@ -1208,10 +1208,14 @@ msgstr "start ComfyUI Server."
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings/ai_page.py, line: 100
 msgid ""
 "ComfyUI server is running.\n"
-"Address: http://localhost:8188"
+"Address: http://localhost:8188\n"
+"and\n"
+"Address: http://{}:8188"
 msgstr ""
 "ComfyUI server is running.\n"
-"Address: http://localhost:8188"
+"Address: http://localhost:8188\n"
+"and\n"
+"Address: http://{}:8188"
 
 #
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings/ai_page.py, line: 105
