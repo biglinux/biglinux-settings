@@ -97,7 +97,7 @@ class AIPage(BaseSettingsPage):
             "comfyUIRun",
             "comfyUI-symbolic",
             comfyUI,
-            info_text=_("ComfyUI server is running.\nAddress: http://localhost:8188"),
+            info_text=_("ComfyUI server is running.\nAddress: http://localhost:8188\nand\nAddress: http://{}:8188").format(local_ip),
         )
         # Ollama CPU
         ollama = self.create_row(
