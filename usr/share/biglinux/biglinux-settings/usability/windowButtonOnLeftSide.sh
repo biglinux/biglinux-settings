@@ -20,12 +20,13 @@ if [ "$1" == "check" ]; then
     else
       echo "false"
     fi
-#   elif [[ "$XDG_CURRENT_DESKTOP" == *"Cinnamon"* ]] || [[ "$XDG_CURRENT_DESKTOP" == *"X-Cinnamon"* ]];then
-#     if [[ "$(LANG=C some Command)" == "true" ]];then #or if some Command &>/dev/null;then # if command response exit 0
-#       echo "true"
-#     else
-#       echo "false"
-#     fi
+  elif [[ "$XDG_CURRENT_DESKTOP" == *"Cinnamon"* ]] || [[ "$XDG_CURRENT_DESKTOP" == *"X-Cinnamon"* ]];then
+    current=$(gsettings get org.cinnamon.desktop.wm.preferences button-layout)
+    if [[ "$current" == *"close,minimize,maximize:"* ]]; then
+      echo "true"
+    else
+      echo "false"
+    fi
   fi
 
 # change the state
@@ -68,14 +69,14 @@ elif [ "$1" == "toggle" ]; then
     export TEXTDOMAINDIR="/usr/share/locale"
     export TEXTDOMAIN=biglinux-settings
     sleep 5 | zenity --progress --title='grub' --text=$"Applying, please wait..." --pulsate --auto-close --no-cancel
-#   elif [[ "$XDG_CURRENT_DESKTOP" == *"Cinnamon"* ]] || [[ "$XDG_CURRENT_DESKTOP" == *"X-Cinnamon"* ]];then
-#     if [ "$state" == "true" ]; then
-#         some command
-#         exitCode=$?
-#     else
-#         some command
-#         exitCode=$?
-#     fi
+  elif [[ "$XDG_CURRENT_DESKTOP" == *"Cinnamon"* ]] || [[ "$XDG_CURRENT_DESKTOP" == *"X-Cinnamon"* ]];then
+    if [ "$state" == "true" ]; then
+        gsettings set org.cinnamon.desktop.wm.preferences button-layout 'close,minimize,maximize:'
+        exitCode=$?
+    else
+        gsettings set org.cinnamon.desktop.wm.preferences button-layout ':minimize,maximize,close'
+        exitCode=$?
+    fi
   fi
   exit $exitCode
 fi

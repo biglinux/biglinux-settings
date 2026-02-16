@@ -200,8 +200,8 @@ msgid "Failed to install Ollama ROCm!"
 msgstr "Ollama ROCm yüklemesi başarısız oldu!"
 msgid "comfyUI Install...."
 msgstr "comfyUI Kurulumu...."
-msgid "Instaling comfyUI, Please wait..."
-msgstr "ComfyUI kuruluyor, lütfen bekleyin..."
+msgid "Instaling comfyUI, this step take a long time, Please wait..."
+msgstr "ComfyUI kurulumu, bu adım uzun sürüyor, lütfen bekleyin..."
 msgid "Uninstall comfyUI...."
 msgstr "ComfyUI'yi kaldır..."
 msgid "Uninstaling comfyUI, Please wait..."
@@ -212,6 +212,8 @@ msgid "comfyUI uninstalled successfully"
 msgstr "comfyUI başarıyla kaldırıldı"
 msgid "Failed to install comfyUI!"
 msgstr "comfyUI yüklenemedi!"
+msgid "AMD/Nvidia GPU not found!"
+msgstr "AMD/Nvidia GPU bulunamadı!"
 msgid ""
 "Ollama shared successfully.\\n"
 "Address: http://$localIp:11434"
@@ -880,6 +882,10 @@ msgstr ""
 msgid "An open source, privacy-focused alternative to Google's Notebook LM!"
 msgstr "Google'ın Notebook LM'sine açık kaynaklı, gizliliğe odaklı bir alternatif!"
 # 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/ai_page.py, line: 87
+msgid "ComfyUI (GPU ONLY)"
+msgstr "ComfyUI (YALNIZCA GPU)"
+# 
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings/ai_page.py, line: 88
 msgid "The most powerful and modular visual AI engine and application."
 msgstr "En güçlü ve modüler görsel yapay zeka motoru ve uygulaması."
@@ -888,17 +894,22 @@ msgstr "En güçlü ve modüler görsel yapay zeka motoru ve uygulaması."
 msgid "ComfyUI Server"
 msgstr "ComfyUI Sunucusu"
 # 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/ai_page.py, line: 95
-msgid "start ComfyUI Server."
-msgstr "ComfyUI Sunucusunu başlat."
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/ai_page.py, line: 97
+#, python-brace-format
+msgid "start ComfyUI Server. For more information see: <a href='{l}'>{l}</a>"
+msgstr "ComfyUI Sunucusunu başlat. Daha fazla bilgi için bakınız: <a href='{l}'>{l}</a>"
 # 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/ai_page.py, line: 99
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/ai_page.py, line: 100
 msgid ""
 "ComfyUI server is running.\n"
-"Address: http://localhost:8188"
+"Address: http://localhost:8188\n"
+"and\n"
+"Address: http://{}:8188"
 msgstr ""
-"ComfyUI sunucusu çalışıyor.\n"
-"Adres: http://localhost:8188"
+"ComfyUI sunucusu çalışıyor.  \n"
+"Adres: http://localhost:8188  \n"
+"ve  \n"
+"Adres: http://{}:8188"
 # 
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings/ai_page.py, line: 56
 msgid "OllamaCPU"

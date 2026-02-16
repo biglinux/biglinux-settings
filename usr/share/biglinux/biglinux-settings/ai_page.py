@@ -82,21 +82,23 @@ class AIPage(BaseSettingsPage):
             "openNotebook-symbolic",
         )
         # ComfyUI
+        link_meltdown = "https://github.com/Comfy-Org/ComfyUI"
         comfyUI = self.create_row(
             aiGui,
-            ("ComfyUI"),
+            _("ComfyUI (GPU ONLY)"),
             _("The most powerful and modular visual AI engine and application."),
             "comfyUI",
             "comfyUI-symbolic",
+            timeout=1200,
         )
         self.create_sub_row(
             aiGui,
             _("ComfyUI Server"),
-            _("start ComfyUI Server."),
+            _("start ComfyUI Server. For more information see: <a href='{l}'>{l}</a>").format(l=link_meltdown),
             "comfyUIRun",
             "comfyUI-symbolic",
             comfyUI,
-            info_text=_("ComfyUI server is running.\nAddress: http://localhost:8188"),
+            info_text=_("ComfyUI server is running.\nAddress: http://localhost:8188\nand\nAddress: http://{}:8188").format(local_ip),
         )
         # Ollama CPU
         ollama = self.create_row(

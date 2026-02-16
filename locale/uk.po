@@ -200,8 +200,8 @@ msgid "Failed to install Ollama ROCm!"
 msgstr "Не вдалося встановити Ollama ROCm!"
 msgid "comfyUI Install...."
 msgstr "comfyUI Встановлення...."
-msgid "Instaling comfyUI, Please wait..."
-msgstr "Встановлення comfyUI, будь ласка, зачекайте..."
+msgid "Instaling comfyUI, this step take a long time, Please wait..."
+msgstr "Встановлення comfyUI, цей етап займає багато часу, будь ласка, зачекайте..."
 msgid "Uninstall comfyUI...."
 msgstr "Видалити comfyUI...."
 msgid "Uninstaling comfyUI, Please wait..."
@@ -212,6 +212,8 @@ msgid "comfyUI uninstalled successfully"
 msgstr "comfyUI успішно видалено"
 msgid "Failed to install comfyUI!"
 msgstr "Не вдалося встановити comfyUI!"
+msgid "AMD/Nvidia GPU not found!"
+msgstr "AMD/Nvidia графічний процесор не знайдено!"
 msgid ""
 "Ollama shared successfully.\\n"
 "Address: http://$localIp:11434"
@@ -876,6 +878,10 @@ msgstr "LM Studio - Десктопний додаток для дослідже�
 msgid "An open source, privacy-focused alternative to Google's Notebook LM!"
 msgstr "Відкритий вихідний код, орієнтований на конфіденційність, альтернатива Google Notebook LM!"
 # 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/ai_page.py, line: 87
+msgid "ComfyUI (GPU ONLY)"
+msgstr "ComfyUI (ТІЛЬКИ GPU)"
+# 
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings/ai_page.py, line: 88
 msgid "The most powerful and modular visual AI engine and application."
 msgstr "Найпотужніший та модульний візуальний AI-двигун і застосунок."
@@ -884,17 +890,22 @@ msgstr "Найпотужніший та модульний візуальний 
 msgid "ComfyUI Server"
 msgstr "ComfyUI Сервер"
 # 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/ai_page.py, line: 95
-msgid "start ComfyUI Server."
-msgstr "почати сервер ComfyUI."
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/ai_page.py, line: 97
+#, python-brace-format
+msgid "start ComfyUI Server. For more information see: <a href='{l}'>{l}</a>"
+msgstr "почати сервер ComfyUI. Для отримання додаткової інформації дивіться: <a href='{l}'>{l}</a>"
 # 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/ai_page.py, line: 99
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/ai_page.py, line: 100
 msgid ""
 "ComfyUI server is running.\n"
-"Address: http://localhost:8188"
+"Address: http://localhost:8188\n"
+"and\n"
+"Address: http://{}:8188"
 msgstr ""
 "Сервер ComfyUI працює.  \n"
-"Адреса: http://localhost:8188"
+"Адреса: http://localhost:8188  \n"
+"та  \n"
+"Адреса: http://{}:8188"
 # 
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings/ai_page.py, line: 56
 msgid "OllamaCPU"

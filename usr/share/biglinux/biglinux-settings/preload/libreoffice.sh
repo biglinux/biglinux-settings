@@ -25,4 +25,5 @@ elif [ "$1" == "toggle" ]; then
       pkexec rm -f /etc/big-preload/enable-${app}
       exitCode=$?
   fi
+  exit $exitCode
 fi
