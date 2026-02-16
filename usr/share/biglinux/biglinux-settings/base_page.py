@@ -36,6 +36,10 @@ class BaseSettingsPage(Adw.Bin):
         self.status_indicators = {}
         # Mapping: parent_switch -> list of child row widgets
         self.sub_switches = {}
+        # Mapping from script path to timeout value (seconds). If None, default 90.
+        self.switch_timeouts: dict[str, Optional[int]] = {}
+
+
 
     def get_local_ip(self):
         s = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
@@ -88,7 +92,7 @@ class BaseSettingsPage(Adw.Bin):
         return group
 
     # Function to create a switch with a details area and clickable link.
-    def create_row(self, parent_group, title, subtitle_with_markup, script_name, icon_name, info_text: Optional[str] = None):
+    def create_row(self, parent_group, title, subtitle_with_markup, script_name, icon_name, info_text: Optional[str] = None, timeout: Optional[int] = None):
         """Builds a custom row mimicking Adw.ActionRow to allow for a clickable link in the subtitle."""
         # Uses Adw.PreferencesRow as a base to get the correct background and border style.
         row = Adw.PreferencesRow()
@@ -151,6 +155,7 @@ class BaseSettingsPage(Adw.Bin):
         script_group = getattr(parent_group, "script_group", "default")
         script_path = os.path.join(script_group, f"{script_name}.sh")
         self.switch_scripts[switch] = script_path
+        self.switch_timeouts[script_path] = timeout
         switch.connect("state-set", self.on_switch_changed)
 
         parent_group.add(row)
@@ -272,10 +277,12 @@ class BaseSettingsPage(Adw.Bin):
             print(_("Error running script {}: {}").format(script_path, e))
             return (None, msg)
 
-    def toggle_script_state(self, script_path, new_state):
+    def toggle_script_state(self, script_path, new_state, timeout: Optional[int] = None):
         """Executes a script with the 'toggle' argument to change the system state.
         Returns True on success, False on failure."""
         if not os.path.exists(script_path):
+            # Use provided timeout or default to the script's configured timeout
+            timeout = timeout if timeout is not None else 90
             error_msg = _("Script not found: {}").format(script_path)
             print(f"ERROR: {error_msg}")
             return False
@@ -286,10 +293,12 @@ class BaseSettingsPage(Adw.Bin):
                 [script_path, "toggle", state_str],
                 capture_output=True,
                 text=True,
-                timeout=90,
+                timeout=timeout if timeout is not None else 90,
             )
 
             if result.returncode == 0:
+                # Use the timeout that was passed to this function
+                pass
                 print(_("State changed successfully"))
                 if result.stdout.strip():
                     print(_("Script output: {}").format(result.stdout.strip()))
@@ -403,13 +412,15 @@ class BaseSettingsPage(Adw.Bin):
     def on_switch_changed(self, switch, state):
         """Callback executed when a user manually toggles a switch."""
         script_path = self.switch_scripts.get(switch)
+        # Use the timeout configured for this script, if any
+        timeout = self.switch_timeouts.get(script_path)
 
         if script_path:
             script_name = os.path.basename(script_path)
             print(_("Changing {} to {}").format(script_name, "on" if state else "off"))
 
             # Attempt to change the system state
-            success = self.toggle_script_state(script_path, state)
+            success = self.toggle_script_state(script_path, state, timeout=timeout)
 
             # If the script fails, revert the switch to its previous state
             # to keep the UI consistent with the actual system state.
@@ -432,8 +443,8 @@ class BaseSettingsPage(Adw.Bin):
                         is_supported = not getattr(child_row, "_hidden_no_support", False)
                         child_row.set_visible(state and is_supported)
 
-                # After a successful change, refresh all switches to reflect real state
-                self.sync_all_switches()
+            # After a successful change, refresh all switches to reflect real state
+            self.sync_all_switches()
 
         return False
 
