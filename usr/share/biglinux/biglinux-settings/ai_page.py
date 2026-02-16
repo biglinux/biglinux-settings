@@ -82,6 +82,7 @@ class AIPage(BaseSettingsPage):
             "openNotebook-symbolic",
         )
         # ComfyUI
+        link_meltdown = "https://github.com/Comfy-Org/ComfyUI"
         comfyUI = self.create_row(
             aiGui,
             _("ComfyUI (GPU ONLY)"),
@@ -93,7 +94,7 @@ class AIPage(BaseSettingsPage):
         self.create_sub_row(
             aiGui,
             _("ComfyUI Server"),
-            _("start ComfyUI Server."),
+            _("start ComfyUI Server. For more information see: <a href='{l}'>{l}</a>").format(l=link_meltdown),
             "comfyUIRun",
             "comfyUI-symbolic",
             comfyUI,
