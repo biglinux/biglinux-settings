@@ -443,10 +443,10 @@ class BaseSettingsPage(Adw.Bin):
                         is_supported = not getattr(child_row, "_hidden_no_support", False)
                         child_row.set_visible(state and is_supported)
 
-            # After a successful change, refresh all switches to reflect real state
+            # Refresh all switches to reflect real state
             self.sync_all_switches()
 
-        return False
+        return True
 
     def filter_rows(self, search_text, hide_group_headers=False):
         """Filter rows based on search text. Returns True if any rows are visible."""
