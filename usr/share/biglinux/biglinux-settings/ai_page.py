@@ -84,7 +84,7 @@ class AIPage(BaseSettingsPage):
         # ComfyUI
         comfyUI = self.create_row(
             aiGui,
-            ("ComfyUI"),
+            _("ComfyUI (GPU ONLY)"),
             _("The most powerful and modular visual AI engine and application."),
             "comfyUI",
             "comfyUI-symbolic",

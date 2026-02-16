@@ -10,7 +10,7 @@ function="$1"
 # Starts Zenity IN THE BACKGROUND, as the user, with the full environment
 if [[ "$function" == "install" ]]; then
   zenityTitle=$"comfyUI Install...."
-  zenityText=$"Instaling comfyUI, Please wait..."
+  zenityText=$"Instaling comfyUI, this step may take a long time, Please wait..."
 elif [[ "$function" == "uninstall" ]]; then
   zenityTitle=$"Uninstall comfyUI...."
   zenityText=$"Uninstaling comfyUI, Please wait..."
@@ -32,13 +32,16 @@ updateTask() {
       gpu='nvidia'
     # elif [[ $(echo $vgaList | grep -i ????) ]]; then
     #     gpu='intel'
-    else
-      gpu='cpu'
+    # else
+    #   gpu='cpu'
     fi
 
     # install GPU depends
+    if [ -n "$gpu" ];then
+      echo "GPU not found"
+      exit 1
     #amd
-    if [ "$gpu" = "amd" ];then
+    elif [ "$gpu" = "amd" ];then
       bin/pip install torch torchvision torchaudio --index-url https://download.pytorch.org/whl/rocm7.1
     #intel NPX
     elif [ "$gpu" = "intel" ];then
@@ -71,10 +74,10 @@ updateTask | zenity --progress --title="$zenityTitle" --text="$zenityText" --pul
 exitCode=${PIPESTATUS[0]}
 
 # Shows the final result to the user, also with the correct theme.
-if [[ "$exitCode" == "0" ]] && [[ "$function" == "enable" ]]; then
+if [[ "$exitCode" == "0" ]] && [[ "$function" == "install" ]]; then
   zenityText=$"comfyUI installed successfully"
   zenity --info --text="$zenityText"
-elif [[ "$exitCode" == "0" ]] && [[ "$function" == "disable" ]]; then
+elif [[ "$exitCode" == "0" ]] && [[ "$function" == "uninstall" ]]; then
   zenityText=$"comfyUI uninstalled successfully"
   zenity --info --text="$zenityText"
 else
