@@ -198,6 +198,20 @@ msgid "Ollama ROCm installed successfully!"
 msgstr "Ollama ROCm başarıyla yüklendi!"
 msgid "Failed to install Ollama ROCm!"
 msgstr "Ollama ROCm yüklemesi başarısız oldu!"
+msgid "comfyUI Install...."
+msgstr "comfyUI Kurulumu...."
+msgid "Instaling comfyUI, Please wait..."
+msgstr "ComfyUI kuruluyor, lütfen bekleyin..."
+msgid "Uninstall comfyUI...."
+msgstr "ComfyUI'yi kaldır..."
+msgid "Uninstaling comfyUI, Please wait..."
+msgstr "ComfyUI kaldırılıyor, lütfen bekleyin..."
+msgid "comfyUI installed successfully"
+msgstr "comfyUI başarıyla yüklendi"
+msgid "comfyUI uninstalled successfully"
+msgstr "comfyUI başarıyla kaldırıldı"
+msgid "Failed to install comfyUI!"
+msgstr "comfyUI yüklenemedi!"
 msgid ""
 "Ollama shared successfully.\\n"
 "Address: http://$localIp:11434"
@@ -242,6 +256,14 @@ msgid "Krita installed successfully!"
 msgstr "Krita başarıyla yüklendi!"
 msgid "Failed to install Krita!"
 msgstr "Krita'yı yükleme başarısız!"
+msgid "comfyUI Depends Install"
+msgstr "comfyUI Bağımlılıkları Yükle"
+msgid "Instaling comfyUI Depends, Please wait..."
+msgstr "ComfyUI Bağımlılıkları Yükleniyor, Lütfen Bekleyin..."
+msgid "comfyUI Depends installed successfully!"
+msgstr "comfyUI Bağımlılıkları başarıyla yüklendi!"
+msgid "Failed to install comfyUI Depends!"
+msgstr "comfyUI Bağımlılıklarını yükleme başarısız!"
 # 
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_usability_page.py, line: 204
 msgid "Docker"
@@ -857,6 +879,26 @@ msgstr ""
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings/ai_page.py, line: 80
 msgid "An open source, privacy-focused alternative to Google's Notebook LM!"
 msgstr "Google'ın Notebook LM'sine açık kaynaklı, gizliliğe odaklı bir alternatif!"
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/ai_page.py, line: 88
+msgid "The most powerful and modular visual AI engine and application."
+msgstr "En güçlü ve modüler görsel yapay zeka motoru ve uygulaması."
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/ai_page.py, line: 94
+msgid "ComfyUI Server"
+msgstr "ComfyUI Sunucusu"
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/ai_page.py, line: 95
+msgid "start ComfyUI Server."
+msgstr "ComfyUI Sunucusunu başlat."
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/ai_page.py, line: 99
+msgid ""
+"ComfyUI server is running.\n"
+"Address: http://localhost:8188"
+msgstr ""
+"ComfyUI sunucusu çalışıyor.\n"
+"Adres: http://localhost:8188"
 # 
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings/ai_page.py, line: 56
 msgid "OllamaCPU"

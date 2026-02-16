@@ -198,6 +198,20 @@ msgid "Ollama ROCm installed successfully!"
 msgstr "Ollama ROCm bol úspešne nainštalovaný!"
 msgid "Failed to install Ollama ROCm!"
 msgstr "Inštalácia Ollama ROCm zlyhala!"
+msgid "comfyUI Install...."
+msgstr "inštalácia comfyUI...."
+msgid "Instaling comfyUI, Please wait..."
+msgstr "Inštalácia comfyUI, prosím čakajte..."
+msgid "Uninstall comfyUI...."
+msgstr "Odstrániť comfyUI...."
+msgid "Uninstaling comfyUI, Please wait..."
+msgstr "Odstraňovanie comfyUI, prosím čakajte..."
+msgid "comfyUI installed successfully"
+msgstr "comfyUI bol úspešne nainštalovaný"
+msgid "comfyUI uninstalled successfully"
+msgstr "comfyUI bol úspešne odinštalovaný"
+msgid "Failed to install comfyUI!"
+msgstr "Inštalácia comfyUI zlyhala!"
 msgid ""
 "Ollama shared successfully.\\n"
 "Address: http://$localIp:11434"
@@ -242,6 +256,14 @@ msgid "Krita installed successfully!"
 msgstr "Krita bol úspešne nainštalovaný!"
 msgid "Failed to install Krita!"
 msgstr "Inštalácia Krita zlyhala!"
+msgid "comfyUI Depends Install"
+msgstr "comfyUI Závislosti Inštalácia"
+msgid "Instaling comfyUI Depends, Please wait..."
+msgstr "Inštalácia závislostí comfyUI, prosím čakajte..."
+msgid "comfyUI Depends installed successfully!"
+msgstr "comfyUI závislosti boli úspešne nainštalované!"
+msgid "Failed to install comfyUI Depends!"
+msgstr "Inštalácia comfyUI zlyhala! Závislosti!"
 # 
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_usability_page.py, line: 204
 msgid "Docker"
@@ -853,6 +875,26 @@ msgstr "LM Studio - Desktopová aplikácia na preskúmanie a spúšťanie veľk�
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings/ai_page.py, line: 80
 msgid "An open source, privacy-focused alternative to Google's Notebook LM!"
 msgstr "Otvorený zdroj, na ochranu súkromia zameraný alternatív k Google Notebook LM!"
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/ai_page.py, line: 88
+msgid "The most powerful and modular visual AI engine and application."
+msgstr "Najsilnejší a modulárny vizuálny AI motor a aplikácia."
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/ai_page.py, line: 94
+msgid "ComfyUI Server"
+msgstr "ComfyUI Server"
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/ai_page.py, line: 95
+msgid "start ComfyUI Server."
+msgstr "spusti server ComfyUI."
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/ai_page.py, line: 99
+msgid ""
+"ComfyUI server is running.\n"
+"Address: http://localhost:8188"
+msgstr ""
+"Server ComfyUI beží.  \n"
+"Adresa: http://localhost:8188"
 # 
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings/ai_page.py, line: 56
 msgid "OllamaCPU"

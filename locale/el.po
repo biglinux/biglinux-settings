@@ -198,6 +198,20 @@ msgid "Ollama ROCm installed successfully!"
 msgstr "Η εγκατάσταση του Ollama ROCm ολοκληρώθηκε με επιτυχία!"
 msgid "Failed to install Ollama ROCm!"
 msgstr "Αποτυχία εγκατάστασης του Ollama ROCm!"
+msgid "comfyUI Install...."
+msgstr "comfyUI Εγκατάσταση...."
+msgid "Instaling comfyUI, Please wait..."
+msgstr "Εγκατάσταση του comfyUI, Παρακαλώ περιμένετε..."
+msgid "Uninstall comfyUI...."
+msgstr "Απεγκατάσταση του comfyUI...."
+msgid "Uninstaling comfyUI, Please wait..."
+msgstr "Απεγκαθιστώ το comfyUI, Παρακαλώ περιμένετε..."
+msgid "comfyUI installed successfully"
+msgstr "Η εγκατάσταση του ComfyUI ολοκληρώθηκε με επιτυχία."
+msgid "comfyUI uninstalled successfully"
+msgstr "Η εγκατάσταση του comfyUI απεγκαταστάθηκε με επιτυχία."
+msgid "Failed to install comfyUI!"
+msgstr "Αποτυχία εγκατάστασης του comfyUI!"
 msgid ""
 "Ollama shared successfully.\\n"
 "Address: http://$localIp:11434"
@@ -242,6 +256,14 @@ msgid "Krita installed successfully!"
 msgstr "Το Krita εγκαταστάθηκε με επιτυχία!"
 msgid "Failed to install Krita!"
 msgstr "Αποτυχία εγκατάστασης του Krita!"
+msgid "comfyUI Depends Install"
+msgstr "comfyUI Εξαρτήσεις Εγκατάσταση"
+msgid "Instaling comfyUI Depends, Please wait..."
+msgstr "Εγκατάσταση εξαρτήσεων comfyUI, Παρακαλώ περιμένετε..."
+msgid "comfyUI Depends installed successfully!"
+msgstr "Η εξάρτηση ComfyUI εγκαταστάθηκε με επιτυχία!"
+msgid "Failed to install comfyUI Depends!"
+msgstr "Αποτυχία εγκατάστασης του comfyUI Εξαρτάται!"
 # 
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_usability_page.py, line: 204
 msgid "Docker"
@@ -867,6 +889,26 @@ msgstr ""
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings/ai_page.py, line: 80
 msgid "An open source, privacy-focused alternative to Google's Notebook LM!"
 msgstr "Μια ανοιχτού κώδικα, εστιασμένη στην ιδιωτικότητα εναλλακτική λύση στο Notebook LM της Google!"
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/ai_page.py, line: 88
+msgid "The most powerful and modular visual AI engine and application."
+msgstr "Ο πιο ισχυρός και αρθρωτός οπτικός κινητήρας AI και εφαρμογή."
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/ai_page.py, line: 94
+msgid "ComfyUI Server"
+msgstr "ComfyUI Διακομιστής"
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/ai_page.py, line: 95
+msgid "start ComfyUI Server."
+msgstr "εκκίνηση διακομιστή ComfyUI."
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/ai_page.py, line: 99
+msgid ""
+"ComfyUI server is running.\n"
+"Address: http://localhost:8188"
+msgstr ""
+"Ο διακομιστής ComfyUI εκτελείται.  \n"
+"Διεύθυνση: http://localhost:8188"
 # 
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings/ai_page.py, line: 55
 msgid "OllamaCPU"
