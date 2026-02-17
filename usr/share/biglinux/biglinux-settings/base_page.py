@@ -437,7 +437,6 @@ class BaseSettingsPage(Adw.Bin):
                     )
                 )
                 self.main_window.show_toast(_("Failed to change setting: {}").format(script_name))
-                self.sync_all_switches()
                 return True
             else:
                 # If this switch is a parent, adjust visibility of its sub‑switches
