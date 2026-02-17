@@ -161,7 +161,7 @@ class BaseSettingsPage(Adw.Bin):
         parent_group.add(row)
         return switch
 
-    def create_sub_row(self, parent_group, title, subtitle_with_markup, script_name, icon_name, parent_switch: Gtk.Switch, info_text: Optional[str] = None):
+    def create_sub_row(self, parent_group, title, subtitle_with_markup, script_name, icon_name, parent_switch: Gtk.Switch, info_text: Optional[str] = None, timeout: Optional[int] = None):
         # Cria o row (mesma lógica de create_row, mas sem retorno do switch direto)
         row = Adw.PreferencesRow()
         row._is_sub_row = True
@@ -222,6 +222,7 @@ class BaseSettingsPage(Adw.Bin):
         script_group = getattr(parent_group, "script_group", "default")
         script_path = os.path.join(script_group, f"{script_name}.sh")
         self.switch_scripts[switch] = script_path
+        self.switch_timeouts[script_path] = timeout
         switch.connect("state-set", self.on_switch_changed)
 
         parent_group.add(row)
