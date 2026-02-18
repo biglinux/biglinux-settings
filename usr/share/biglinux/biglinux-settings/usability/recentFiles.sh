@@ -31,12 +31,13 @@ if [ "$1" == "check" ]; then
 #     else
 #       echo "false"
 #     fi
-#   elif [[ "$XDG_CURRENT_DESKTOP" == *"Cinnamon"* ]] || [[ "$XDG_CURRENT_DESKTOP" == *"X-Cinnamon"* ]];then
-#     if [[ "$someTest" == "true" ]];then
-#       echo "true"
-#     else
-#       echo "false"
-#     fi
+  elif [[ "$XDG_CURRENT_DESKTOP" == *"Cinnamon"* ]] || [[ "$XDG_CURRENT_DESKTOP" == *"X-Cinnamon"* ]];then
+    recent_status=$(gsettings get org.cinnamon.desktop.privacy remember-recent-files)
+    if [[ "$recent_status" == "true" ]]; then
+      echo "true"
+    else
+      echo "false"
+    fi
   fi
 
 # change the state
@@ -66,14 +67,14 @@ elif [ "$1" == "toggle" ]; then
 #         some command
 #         exitCode=$?
 #     fi
-#   elif [[ "$XDG_CURRENT_DESKTOP" == *"Cinnamon"* ]] || [[ "$XDG_CURRENT_DESKTOP" == *"X-Cinnamon"* ]];then
-#     if [ "$state" == "true" ]; then
-#         some command
-#         exitCode=$?
-#     else
-#         some command
-#         exitCode=$?
-#     fi
+  elif [[ "$XDG_CURRENT_DESKTOP" == *"Cinnamon"* ]] || [[ "$XDG_CURRENT_DESKTOP" == *"X-Cinnamon"* ]];then
+    if [ "$state" == "true" ]; then
+	      gsettings set org.cinnamon.desktop.privacy remember-recent-files true
+        exitCode=$?
+    else
+        gsettings set org.cinnamon.desktop.privacy remember-recent-files false
+        exitCode=$?
+    fi
   fi
   exit $exitCode
 fi
