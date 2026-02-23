@@ -182,6 +182,3 @@ class AIPage(BaseSettingsPage):
                 local_ip
             ),
         )
-
-        # Syncs
-        self.sync_all_switches()

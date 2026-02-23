@@ -7,8 +7,9 @@ import locale
 import os
 import subprocess
 import socket
+import threading
 
-from gi.repository import Adw, Gio, Gtk
+from gi.repository import Adw, Gio, GLib, Gtk
 from typing import Optional
 
 # Set up gettext for application localization.
@@ -93,63 +94,37 @@ class BaseSettingsPage(Adw.Bin):
 
     # Function to create a switch with a details area and clickable link.
     def create_row(self, parent_group, title, subtitle_with_markup, script_name, icon_name, info_text: Optional[str] = None, timeout: Optional[int] = None):
-        """Builds a custom row mimicking Adw.ActionRow to allow for a clickable link in the subtitle."""
-        # Uses Adw.PreferencesRow as a base to get the correct background and border style.
-        row = Adw.PreferencesRow()
+        """Builds an ActionRow with icon prefix and switch suffix."""
+        row = Adw.ActionRow(title=title)
+        if subtitle_with_markup:
+            row.set_subtitle(subtitle_with_markup)
 
-        # Main horizontal box to contain the title area and the switch.
-        main_box = Gtk.Box(
-            orientation=Gtk.Orientation.HORIZONTAL,
-            spacing=12,
-            margin_top=6,
-            margin_bottom=6,
-            margin_start=12,
-            margin_end=12,
-        )
-        row.set_child(main_box)
-
+        # Icon prefix
         icon_path = os.path.join(ICONS_DIR, f"{icon_name}.svg")
         gfile = Gio.File.new_for_path(icon_path)
         icon = Gio.FileIcon.new(gfile)
-
         img = Gtk.Image.new_from_gicon(icon)
         img.set_pixel_size(24)
         img.add_css_class("symbolic-icon")
-        main_box.append(img)
+        row.add_prefix(img)
 
-        # Vertical box for title and clickable subtitle.
-        title_area = Gtk.Box(orientation=Gtk.Orientation.VERTICAL, hexpand=True, valign=Gtk.Align.CENTER)
-        main_box.append(title_area)
-
-        title_label = Gtk.Label(xalign=0, label=title)
-        title_label.add_css_class("title-4")
-        title_area.append(title_label)
-
-        if subtitle_with_markup:
-            subtitle_label = Gtk.Label(
-                xalign=0, wrap=True, use_markup=True, label=subtitle_with_markup
-            )
-            subtitle_label.add_css_class("caption")
-            subtitle_label.add_css_class("dim-label")
-            title_area.append(subtitle_label)
-
-        # The switch, aligned vertically center.
+        # Switch suffix
         switch = Gtk.Switch(valign=Gtk.Align.CENTER)
 
         if info_text:
-            info_icon = Gtk.Image.new_from_icon_name("info")
-            info_icon.set_pixel_size(28)
-            info_icon.add_css_class("suggested-action")
-            info_icon.add_css_class("symbolic-icon")
-            info_icon.add_css_class("info-icon-blue")
+            info_icon = Gtk.Image.new_from_icon_name("dialog-information-symbolic")
+            info_icon.set_pixel_size(16)
             info_icon.set_valign(Gtk.Align.CENTER)
             info_icon.set_tooltip_text(info_text)
             info_icon.set_visible(False)
-
             setattr(switch, "_info_icon", info_icon)
-            main_box.append(info_icon)
+            row.add_suffix(info_icon)
 
-        main_box.append(switch)
+        row.add_suffix(switch)
+        row.set_activatable_widget(switch)
+
+        # Store row reference for direct access
+        switch._row = row
 
         # Associate the script with the switch
         script_group = getattr(parent_group, "script_group", "default")
@@ -162,62 +137,39 @@ class BaseSettingsPage(Adw.Bin):
         return switch
 
     def create_sub_row(self, parent_group, title, subtitle_with_markup, script_name, icon_name, parent_switch: Gtk.Switch, info_text: Optional[str] = None, timeout: Optional[int] = None):
-        # Cria o row (mesma lógica de create_row, mas sem retorno do switch direto)
-        row = Adw.PreferencesRow()
+        """Builds an indented ActionRow as a child option of a parent switch."""
+        row = Adw.ActionRow(title=title)
         row._is_sub_row = True
+        if subtitle_with_markup:
+            row.set_subtitle(subtitle_with_markup)
 
-        main_box = Gtk.Box(
-            orientation=Gtk.Orientation.HORIZONTAL,
-            spacing=12,
-            margin_top=6,
-            margin_bottom=6,
-            margin_start=50,
-            margin_end=12,
-        )
-        row.set_child(main_box)
-
+        # Icon prefix with extra indentation for sub-row
         icon_path = os.path.join(ICONS_DIR, f"{icon_name}.svg")
         gfile = Gio.File.new_for_path(icon_path)
         icon = Gio.FileIcon.new(gfile)
-
         img = Gtk.Image.new_from_gicon(icon)
         img.set_pixel_size(24)
+        img.set_margin_start(26)
         img.add_css_class("symbolic-icon")
-        main_box.append(img)
+        row.add_prefix(img)
 
-        title_area = Gtk.Box(orientation=Gtk.Orientation.VERTICAL, hexpand=True, valign=Gtk.Align.CENTER)
-        main_box.append(title_area)
-
-        title_label = Gtk.Label(xalign=0, label=title)
-        title_label.add_css_class("title-4")
-        title_area.append(title_label)
-
-        if subtitle_with_markup:
-            subtitle_label = Gtk.Label(
-                xalign=0, wrap=True, use_markup=True, label=subtitle_with_markup
-            )
-            subtitle_label.add_css_class("caption")
-            subtitle_label.add_css_class("dim-label")
-            title_area.append(subtitle_label)
-
+        # Switch suffix
         switch = Gtk.Switch(valign=Gtk.Align.CENTER)
 
         if info_text:
-            info_icon = Gtk.Image.new_from_icon_name("info")
-            info_icon.set_pixel_size(28)
-            info_icon.add_css_class("suggested-action")
-            info_icon.add_css_class("symbolic-icon")
-            info_icon.add_css_class("info-icon-blue")
+            info_icon = Gtk.Image.new_from_icon_name("dialog-information-symbolic")
+            info_icon.set_pixel_size(16)
             info_icon.set_valign(Gtk.Align.CENTER)
             info_icon.set_tooltip_text(info_text)
-
-            # Começa invisível, será controlado pelo _toggle_info_icon_visibility
             info_icon.set_visible(False)
-
             setattr(switch, "_info_icon", info_icon)
-            main_box.append(info_icon)
+            row.add_suffix(info_icon)
 
-        main_box.append(switch)
+        row.add_suffix(switch)
+        row.set_activatable_widget(switch)
+
+        # Store row reference for direct access
+        switch._row = row
 
         script_group = getattr(parent_group, "script_group", "default")
         script_path = os.path.join(script_group, f"{script_name}.sh")
@@ -332,16 +284,83 @@ class BaseSettingsPage(Adw.Bin):
         """Handles the visibility of the info icon based on the switch state.
         The icon is only visible when the switch is active (True)."""
         if hasattr(switch, "_info_icon"):
-            # Check if the parent row is not hidden due to lack of support.
-            row = switch.get_parent().get_parent()
+            row = switch._row
             is_supported = not getattr(row, "_hidden_no_support", False)
             switch._info_icon.set_visible(state and is_supported)
+
+    def sync_all_switches_async(self):
+        """Synchronize all switches in a background thread to avoid blocking UI."""
+
+        def _check_all():
+            switch_results = []
+            for switch, script_path in self.switch_scripts.items():
+                switch_results.append((switch, self.check_script_state(script_path)))
+
+            indicator_results = []
+            for indicator, script_path in self.status_indicators.items():
+                indicator_results.append((
+                    indicator,
+                    self.check_script_state(script_path),
+                ))
+
+            GLib.idle_add(self._apply_sync_results, switch_results, indicator_results)
+
+        threading.Thread(target=_check_all, daemon=True).start()
+
+    def _apply_sync_results(self, switch_results, indicator_results):
+        """Apply sync results on the main thread (called via GLib.idle_add)."""
+        for switch, (status, message) in switch_results:
+            row = switch._row
+
+            switch.handler_block_by_func(self.on_switch_changed)
+
+            if status == "true_disabled" or status is None:
+                row.set_visible(False)
+                row._hidden_no_support = True
+                self._toggle_info_icon_visibility(switch, False)
+            else:
+                row.set_sensitive(True)
+                if not getattr(row, "_is_sub_row", False):
+                    row.set_visible(True)
+                row.set_tooltip_text(None)
+                row._hidden_no_support = False
+                switch.set_active(status)
+                self._toggle_info_icon_visibility(switch, status)
+
+            switch.handler_unblock_by_func(self.on_switch_changed)
+
+        for indicator, (status, message) in indicator_results:
+            row = indicator._row
+            indicator.remove_css_class("status-on")
+            indicator.remove_css_class("status-off")
+            indicator.remove_css_class("status-unavailable")
+
+            if status is None:
+                row.set_visible(False)
+                row._hidden_no_support = True
+            else:
+                row.set_sensitive(True)
+                row.set_visible(True)
+                row.set_tooltip_text(None)
+                row._hidden_no_support = False
+                if status:
+                    indicator.add_css_class("status-on")
+                else:
+                    indicator.add_css_class("status-off")
+
+        for parent_switch, child_rows in self.sub_switches.items():
+            parent_state = parent_switch.get_active()
+            for child_row in child_rows:
+                is_supported = not getattr(child_row, "_hidden_no_support", False)
+                child_row.set_visible(parent_state and is_supported)
+
+        return False
 
     def sync_all_switches(self):
         """Synchronizes all UI widgets and disables them if their script is invalid, providing a tooltip with the reason."""
         # Sync all switches
         for switch, script_path in self.switch_scripts.items():
-            row = switch.get_parent().get_parent()
+            row = switch._row
             status, message = self.check_script_state(script_path)
 
             switch.handler_block_by_func(self.on_switch_changed)
@@ -376,7 +395,7 @@ class BaseSettingsPage(Adw.Bin):
 
         # Sync all status indicators
         for indicator, script_path in self.status_indicators.items():
-            row = indicator.get_parent().get_parent()
+            row = getattr(indicator, "_row", indicator.get_parent())
             status, message = self.check_script_state(script_path)
 
             # Always remove all state classes first to ensure a clean slate

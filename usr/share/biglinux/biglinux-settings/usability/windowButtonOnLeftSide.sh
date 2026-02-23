@@ -8,12 +8,13 @@ if [ "$1" == "check" ]; then
     else
       echo "false"
     fi
-#   elif [[ "$XDG_CURRENT_DESKTOP" == *"GNOME"* ]];then
-#     if [[ "$(LANG=C some Command)" == "true" ]];then #or if some Command &>/dev/null;then # if command response exit 0
-#       echo "true"
-#     else
-#       echo "false"
-#     fi
+  elif [[ "$XDG_CURRENT_DESKTOP" == *"GNOME"* ]];then
+    current=$(gsettings get org.gnome.desktop.wm.preferences button-layout 2>/dev/null)
+    if [[ "$current" == *"close,minimize,maximize:"* ]]; then
+      echo "true"
+    else
+      echo "false"
+    fi
   elif [[ "$XDG_CURRENT_DESKTOP" == *"XFCE"* ]];then
     if [ -n "$(grep SHMC  $HOME/.config/xfce4/xfconf/xfce-perchannel-xml/xfwm4.xml)" ];then
       echo "true"
@@ -50,15 +51,15 @@ elif [ "$1" == "toggle" ]; then
       qdbus org.kde.KWin /KWin org.kde.KWin.reconfigure
       exitCode=$?
     fi
-#   elif [[ "$XDG_CURRENT_DESKTOP" == *"GNOME"* ]];then
-#     if [ "$state" == "true" ]; then
-#         some command
-#         exitCode=$?
-#     else
-#         some command
-#         exitCode=$?
-#     fi
-  elif [ -n "$(grep SHMC  $HOME/.config/xfce4/xfconf/xfce-perchannel-xml/xfwm4.xml)" ];then
+  elif [[ "$XDG_CURRENT_DESKTOP" == *"GNOME"* ]];then
+    if [ "$state" == "true" ]; then
+        gsettings set org.gnome.desktop.wm.preferences button-layout "close,minimize,maximize:"
+        exitCode=$?
+    else
+        gsettings set org.gnome.desktop.wm.preferences button-layout ":minimize,maximize,close"
+        exitCode=$?
+    fi
+  elif [[ "$XDG_CURRENT_DESKTOP" == *"XFCE"* ]];then
     if [ "$state" == "true" ]; then
         xfconf-query -c xfwm4 -p /general/button_layout -s "CMH|SO"
         exitCode=$?
