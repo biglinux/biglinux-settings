@@ -14,14 +14,216 @@ msgstr ""
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "X-Generator: attranslate\n"
-msgid "kzones Install"
-msgstr "התקנת kzones"
-msgid "Instaling Kzones, Please wait..."
-msgstr "מתקין את Kzones, אנא המתן..."
-msgid "Kzones installed successfully!"
-msgstr "Kzones הותקנה בהצלחה!"
+msgid "Ollama Install"
+msgstr "התקנת אולמה"
+msgid "Instaling Ollama, Please wait..."
+msgstr "מתקין את אולמה, אנא המתן..."
+msgid "Ollama Uninstall"
+msgstr "אולמה הסרה"
+msgid "Unistaling Ollama, Please wait..."
+msgstr "מניחים את אולמה, אנא המתן..."
+msgid "Ollama installed successfully!"
+msgstr "אולמה הותקן בהצלחה!"
+msgid "Failed to install Ollama!"
+msgstr "ההתקנה של אולמה נכשלה!"
+msgid ""
+"Ollama server is running.\\n"
+"Address: http://localhost:11434"
+msgstr ""
+"שרת אולמה פועל.\\n"
+"כתובת: http://localhost:11434"
+msgid "LM Studio Install"
+msgstr "התקנת LM Studio"
+msgid "Instaling LM Studio, Please wait..."
+msgstr "מתקין את LM Studio, אנא המתן..."
+msgid "LM Studio Uninstall"
+msgstr "הסרת התקנה של LM Studio"
+msgid "Uninstaling LM Studio, Please wait..."
+msgstr "מניחים את LM Studio, אנא המתן..."
+msgid "LM Studio installed successfully!"
+msgstr "ההתקנה של LM Studio הושלמה בהצלחה!"
+msgid "Failed to install LM Studio!"
+msgstr "ההתקנה של LM Studio נכשלה!"
+msgid "ChatBox Install"
+msgstr "התקנת צ'אטבוקס"
+msgid "Instaling ChatBox, Please wait..."
+msgstr "מתקין את ChatBox, אנא המתן..."
+msgid "ChatBox Uninstall"
+msgstr "הסרת התקנה של ChatBox"
+msgid "Uninstaling ChatBox, Please wait..."
+msgstr "מניחים את ChatBox, אנא המתן..."
+msgid "ChatBox installed successfully!"
+msgstr "ChatBox הותקן בהצלחה!"
+msgid "Failed to install ChatBox!"
+msgstr "ההתקנה של ChatBox נכשלה!"
+msgid "Ollama Vulkan Install"
+msgstr "התקנת אולמה וולקן"
+msgid "Ollama Vulkan Uninstall"
+msgstr "אולמה וולקן הסרה"
+msgid "Unistaling Ollama Vulkan, Please wait..."
+msgstr "מניחים את Ollama Vulkan, אנא המתן..."
+msgid "Ollama Vulkan installed successfully!"
+msgstr "אולמה וולקן הותקן בהצלחה!"
+msgid "Failed to install Ollama Vulkan!"
+msgstr "כישלון בהתקנת אולמה וולקן!"
+msgid "Ollama CUDA Install"
+msgstr "התקנת אולמה CUDA"
+msgid "Instaling Ollama CUDA, Please wait..."
+msgstr "מתקין את Ollama CUDA, אנא המתן..."
+msgid "Ollama CUDA Uninstall"
+msgstr "אולמה CUDA הסרה"
+msgid "Unistaling Ollama CUDA, Please wait..."
+msgstr "מניחים את Ollama CUDA, אנא המתן..."
+msgid "Ollama CUDA installed successfully!"
+msgstr "אולמה CUDA הותקן בהצלחה!"
+msgid "Failed to install Ollama CUDA!"
+msgstr "ההתקנה של Ollama CUDA נכשלה!"
+msgid ""
+"Ollama shared successfully.\\n"
+"Address: http://$localIp:11434"
+msgstr ""
+"אולמה שותף בהצלחה.\\n"
+"כתובת: http://$localIp:11434"
+msgid "Failed to shared Ollama!"
+msgstr "נכשל בשיתוף אולמה!"
+msgid "comfyUI Depends Install"
+msgstr "התקנת תלות ComfyUI"
+msgid "Instaling comfyUI Depends, Please wait..."
+msgstr "מתקין את התלויות של comfyUI, אנא המתן..."
+msgid "comfyUI Depends installed successfully!"
+msgstr "comfyUI תלות הותקנה בהצלחה!"
+msgid "Failed to install comfyUI Depends!"
+msgstr "כישלון בהתקנת comfyUI תלות!"
+msgid "AMD/Nvidia GPU not found!"
+msgstr "כרטיס גרפי AMD/Nvidia לא נמצא!"
+msgid "Krita Install"
+msgstr "התקנת קריטה"
+msgid "Instaling Krita, Please wait..."
+msgstr "מתקין את קריטה, אנא המתן..."
+msgid "Krita Uninstall"
+msgstr "הסרת Krita"
+msgid "Uninstaling Krita, Please wait..."
+msgstr "מניחים את Krita, אנא המתן..."
+msgid "Krita installed successfully!"
+msgstr "קריטה הותקנה בהצלחה!"
+msgid "Failed to install Krita!"
+msgstr "ההתקנה של קריטה נכשלה!"
+msgid "comfyUI Install...."
+msgstr "התקנת ComfyUI...."
+msgid "Instaling comfyUI, this step take a long time, Please wait..."
+msgstr "מתקין את ComfyUI, שלב זה לוקח הרבה זמן, אנא המתן..."
+msgid "Uninstall comfyUI...."
+msgstr "הסר את התקנת comfyUI...."
+msgid "Uninstaling comfyUI, Please wait..."
+msgstr "מניחים את ComfyUI, אנא המתן..."
+msgid "comfyUI installed successfully"
+msgstr "comfyUI הותקן בהצלחה"
+msgid "comfyUI uninstalled successfully"
+msgstr "comfyUI הוסרה בהצלחה"
+msgid "Failed to install comfyUI!"
+msgstr "ההתקנה של comfyUI נכשלה!"
+msgid "Ollama Lab Install"
+msgstr "התקנת אולמה Lab"
+msgid "Instaling Ollama Lab, Please wait..."
+msgstr "מתקין את Ollama Lab, אנא המתן..."
+msgid "Ollama Lab Uninstall"
+msgstr "אולמה מעבדה הסרה"
+msgid "Unistaling Ollama Lab, Please wait..."
+msgstr "מניחים את Ollama Lab, אנא המתן..."
+msgid "Ollama Lab installed successfully!"
+msgstr "אולמה מעבדה הותקנה בהצלחה!"
+msgid "Failed to install Ollama Lab!"
+msgstr "ההתקנה של Ollama Lab נכשלה!"
+msgid "Ollama ROCm Install"
+msgstr "התקנת Ollama ROCm"
+msgid "Instaling Ollama ROCm, Please wait..."
+msgstr "מתקין את Ollama ROCm, אנא המתן..."
+msgid "Ollama ROCm Uninstall"
+msgstr "הסרת התקנה של Ollama ROCm"
+msgid "Unistaling Ollama ROCm, Please wait..."
+msgstr "מניחים את Ollama ROCm, אנא המתן..."
+msgid "Ollama ROCm installed successfully!"
+msgstr "Ollama ROCm הותקן בהצלחה!"
+msgid "Failed to install Ollama ROCm!"
+msgstr "ההתקנה של Ollama ROCm נכשלה!"
+msgid ""
+"Generative AI for Krita has been successfully installed.\\n"
+"\\n"
+"Open Krita, open an existing drawing or create a new one.\\n"
+"In the top panel go to Settings > Panels > check the AI Image Generation box.\\n"
+"\\n"
+"In the window that opens on the bottom right.\\n"
+"Click Configure > Local Managed Server, choose your GPU or CPU, choose the model in Workloads and "
+"click Install."
+msgstr ""
+"ה-AI הגנרטיבי עבור Krita הותקן בהצלחה.\\n"
+"\\n"
+"פתח את Krita, פתח ציור קיים או צור חדש.\\n"
+"בלוח העליון עבור ל\"הגדרות\" > \"פאנלים\" > סמן את תיבת \"יצירת תמונות בעזרת AI\".\\n"
+"\\n"
+"בחלון שנפתח בפינה הימנית התחתונה.\\n"
+"לחץ על \"הגדר\" > \"שרת מנוהל מקומית\", בחר את ה-GPU או ה-CPU שלך, בחר את המודל ב\"עומסים\" ולחץ על "
+"\"התקן\"."
+msgid "Example Install"
+msgstr "התקנה לדוגמה"
+msgid "Instaling Example, Please wait..."
+msgstr "מתקין דוגמה, אנא המתן..."
+msgid "Example Uninstall"
+msgstr "דוגמה להסרה"
+msgid "Uninstaling Example, Please wait..."
+msgstr "מניחים דוגמה, אנא המתן..."
+msgid "Example installed successfully!"
+msgstr "הדוגמה הותקנה בהצלחה!"
+msgid "Failed to install Example!"
+msgstr "ההתקנה של דוגמה נכשלה!"
+msgid "Installing $package"
+msgstr "מתקין $package"
+msgid "Installing $package, Please wait..."
+msgstr "מתקין $package, אנא המתן..."
+msgid "Removing $package"
+msgstr "הסרת $package"
+msgid "Removing $package, Please wait..."
+msgstr "מניח את $package, אנא המתן..."
+msgid ""
+"$title installed successfully!\\n"
+"\\n"
+"Configured on port $port, to access use $url"
+msgstr ""
+"$title הותקן בהצלחה!\\n"
+"\\n"
+"הוגדר על פורט $port, כדי לגשת השתמש ב-$url"
+msgid "$package removed successfully!"
+msgstr "החבילה הוסרה בהצלחה!"
+msgid "An error occurred with $package."
+msgstr "אירעה שגיאה עם $package."
+msgid "Docker Install"
+msgstr "התקנת דוקר"
+msgid "Instaling Docker, Please wait..."
+msgstr "מתקין את דוקר, אנא המתן..."
+msgid "Docker Start"
+msgstr "הפעלת דוקר"
+msgid "Docker Starting, Please wait..."
+msgstr "דוקר מתחיל, אנא המתן..."
+msgid "Docker Stop"
+msgstr "דוקר עצור"
+msgid "Docker Stopping, Please wait..."
+msgstr "דוקר עוצר, אנא המתן..."
+msgid "Docker installed successfully!"
+msgstr "דוקר הותקן בהצלחה!"
+msgid "An error occurred while install docker."
+msgstr "אירעה שגיאה במהלך התקנת דוקר."
 msgid "Applying, please wait..."
 msgstr "מגיש, אנא המתן..."
+msgid ""
+"GRUB updated successfully!\\n"
+"Restart your computer for it to take effect."
+msgstr ""
+"GRUB עודכן בהצלחה!\\n"
+"אתה צריך לאתחל את המחשב שלך כדי שזה ייכנס לתוקף."
+msgid "An error occurred while updating GRUB."
+msgstr "אירעה שגיאה בעת עדכון GRUB."
+msgid "Already enabled. No changes made."
+msgstr "כבר מופעל. לא בוצעו שינויים."
 msgid "Recent Files enabling...."
 msgstr "הפעלת קבצים אחרונים...."
 msgid "Recent Files enabling, Please wait..."
@@ -44,18 +246,18 @@ msgstr ""
 "עליך לסגור ולפתוח מחדש את דולפין כדי שזה ייכנס לתוקף."
 msgid "Failed to activate Recent Files!"
 msgstr "כישלון בהפעלה של קבצים אחרונים!"
-msgid "Example Install"
-msgstr "התקנה לדוגמה"
-msgid "Instaling Example, Please wait..."
-msgstr "מתקין דוגמה, אנא המתן..."
-msgid "Example Uninstall"
-msgstr "דוגמה להסרה"
-msgid "Uninstaling Example, Please wait..."
-msgstr "מניחים דוגמה, אנא המתן..."
-msgid "Example installed successfully!"
-msgstr "הדוגמה הותקנה בהצלחה!"
-msgid "Failed to install Example!"
-msgstr "ההתקנה של דוגמה נכשלה!"
+msgid "kzones Install"
+msgstr "התקנת kzones"
+msgid "Instaling Kzones, Please wait..."
+msgstr "מתקין את Kzones, אנא המתן..."
+msgid "Kzones installed successfully!"
+msgstr "Kzones הותקנה בהצלחה!"
+msgid "GRUB updated successfully!"
+msgstr "GRUB עודכן בהצלחה!"
+msgid "Limits updated successfully!"
+msgstr "המגבלות עודכנו בהצלחה!"
+msgid "An error occurred while updating Limits."
+msgstr "שגיאה התרחשה בעת עדכון הגבולות."
 msgid "JamesDSP Install"
 msgstr "התקנת JamesDSP"
 msgid "Instaling JamesDSP, Please wait..."
@@ -64,431 +266,109 @@ msgid "JamesDSP installed successfully!"
 msgstr "JamesDSP הותקן בהצלחה!"
 msgid "Failed to install jamesDSP!"
 msgstr "ההתקנה של jamesDSP נכשלה!"
-msgid "Docker Install"
-msgstr "התקנת דוקר"
-msgid "Instaling Docker, Please wait..."
-msgstr "מתקין את דוקר, אנא המתן..."
-msgid "Docker Start"
-msgstr "הפעלת דוקר"
-msgid "Docker Starting, Please wait..."
-msgstr "דוקר מתחיל, אנא המתן..."
-msgid "Docker Stop"
-msgstr "דוקר עצור"
-msgid "Docker Stopping, Please wait..."
-msgstr "דוקר עוצר, אנא המתן..."
-msgid "Docker installed successfully!"
-msgstr "דוקר הותקן בהצלחה!"
-msgid "An error occurred while install docker."
-msgstr "אירעה שגיאה במהלך התקנת דוקר."
-msgid "Installing $package"
-msgstr "מתקין $package"
-msgid "Installing $package, Please wait..."
-msgstr "מתקין $package, אנא המתן..."
-msgid "Removing $package"
-msgstr "הסרת $package"
-msgid "Removing $package, Please wait..."
-msgstr "מניח את $package, אנא המתן..."
-msgid ""
-"$title installed successfully!\\n"
-"\\n"
-"Configured on port $port, to access use $url"
-msgstr ""
-"$title הותקן בהצלחה!\\n"
-"\\n"
-"הוגדר על פורט $port, כדי לגשת השתמש ב-$url"
-msgid "$package removed successfully!"
-msgstr "החבילה הוסרה בהצלחה!"
-msgid "An error occurred with $package."
-msgstr "אירעה שגיאה עם $package."
-msgid "GRUB updated successfully!"
-msgstr "GRUB עודכן בהצלחה!"
-msgid "An error occurred while updating GRUB."
-msgstr "אירעה שגיאה בעת עדכון GRUB."
-msgid "Limits updated successfully!"
-msgstr "המגבלות עודכנו בהצלחה!"
-msgid "An error occurred while updating Limits."
-msgstr "שגיאה התרחשה בעת עדכון הגבולות."
-msgid ""
-"GRUB updated successfully!\\n"
-"Restart your computer for it to take effect."
-msgstr ""
-"GRUB עודכן בהצלחה!\\n"
-"אתה צריך לאתחל את המחשב שלך כדי שזה ייכנס לתוקף."
-msgid "Already enabled. No changes made."
-msgstr "כבר מופעל. לא בוצעו שינויים."
-msgid "Ollama Vulkan Install"
-msgstr "התקנת אולמה וולקן"
-msgid "Instaling Ollama, Please wait..."
-msgstr "מתקין את אולמה, אנא המתן..."
-msgid "Ollama Vulkan Uninstall"
-msgstr "אולמה וולקן הסרה"
-msgid "Unistaling Ollama Vulkan, Please wait..."
-msgstr "מניחים את Ollama Vulkan, אנא המתן..."
-msgid "Ollama Vulkan installed successfully!"
-msgstr "אולמה וולקן הותקן בהצלחה!"
-msgid "Failed to install Ollama Vulkan!"
-msgstr "כישלון בהתקנת אולמה וולקן!"
-msgid "ChatBox Install"
-msgstr "התקנת צ'אטבוקס"
-msgid "Instaling ChatBox, Please wait..."
-msgstr "מתקין את ChatBox, אנא המתן..."
-msgid "ChatBox Uninstall"
-msgstr "הסרת התקנה של ChatBox"
-msgid "Uninstaling ChatBox, Please wait..."
-msgstr "מניחים את ChatBox, אנא המתן..."
-msgid "ChatBox installed successfully!"
-msgstr "ChatBox הותקן בהצלחה!"
-msgid "Failed to install ChatBox!"
-msgstr "ההתקנה של ChatBox נכשלה!"
-msgid "Ollama Lab Install"
-msgstr "התקנת אולמה Lab"
-msgid "Instaling Ollama Lab, Please wait..."
-msgstr "מתקין את Ollama Lab, אנא המתן..."
-msgid "Ollama Lab Uninstall"
-msgstr "אולמה מעבדה הסרה"
-msgid "Unistaling Ollama Lab, Please wait..."
-msgstr "מניחים את Ollama Lab, אנא המתן..."
-msgid "Ollama Lab installed successfully!"
-msgstr "אולמה מעבדה הותקנה בהצלחה!"
-msgid "Failed to install Ollama Lab!"
-msgstr "ההתקנה של Ollama Lab נכשלה!"
-msgid ""
-"Generative AI for Krita has been successfully installed.\\n"
-"\\n"
-"Open Krita, open an existing drawing or create a new one.\\n"
-"In the top panel go to Settings > Panels > check the AI Image Generation box.\\n"
-"\\n"
-"In the window that opens on the bottom right.\\n"
-"Click Configure > Local Managed Server, choose your GPU or CPU, choose the model in Workloads and "
-"click Install."
-msgstr ""
-"ה-AI הגנרטיבי עבור Krita הותקן בהצלחה.\\n"
-"\\n"
-"פתח את Krita, פתח ציור קיים או צור חדש.\\n"
-"בלוח העליון עבור ל\"הגדרות\" > \"פאנלים\" > סמן את תיבת \"יצירת תמונות בעזרת AI\".\\n"
-"\\n"
-"בחלון שנפתח בפינה הימנית התחתונה.\\n"
-"לחץ על \"הגדר\" > \"שרת מנוהל מקומית\", בחר את ה-GPU או ה-CPU שלך, בחר את המודל ב\"עומסים\" ולחץ על "
-"\"התקן\"."
-msgid ""
-"Ollama server is running.\\n"
-"Address: http://localhost:11434"
-msgstr ""
-"שרת אולמה פועל.\\n"
-"כתובת: http://localhost:11434"
-msgid "Ollama Install"
-msgstr "התקנת אולמה"
-msgid "Ollama Uninstall"
-msgstr "אולמה הסרה"
-msgid "Unistaling Ollama, Please wait..."
-msgstr "מניחים את אולמה, אנא המתן..."
-msgid "Ollama installed successfully!"
-msgstr "אולמה הותקן בהצלחה!"
-msgid "Failed to install Ollama!"
-msgstr "ההתקנה של אולמה נכשלה!"
-msgid "Ollama ROCm Install"
-msgstr "התקנת Ollama ROCm"
-msgid "Instaling Ollama ROCm, Please wait..."
-msgstr "מתקין את Ollama ROCm, אנא המתן..."
-msgid "Ollama ROCm Uninstall"
-msgstr "הסרת התקנה של Ollama ROCm"
-msgid "Unistaling Ollama ROCm, Please wait..."
-msgstr "מניחים את Ollama ROCm, אנא המתן..."
-msgid "Ollama ROCm installed successfully!"
-msgstr "Ollama ROCm הותקן בהצלחה!"
-msgid "Failed to install Ollama ROCm!"
-msgstr "ההתקנה של Ollama ROCm נכשלה!"
-msgid "comfyUI Install...."
-msgstr "התקנת ComfyUI...."
-msgid "Instaling comfyUI, this step take a long time, Please wait..."
-msgstr "מתקין את ComfyUI, שלב זה לוקח הרבה זמן, אנא המתן..."
-msgid "Uninstall comfyUI...."
-msgstr "הסר את התקנת comfyUI...."
-msgid "Uninstaling comfyUI, Please wait..."
-msgstr "מניחים את ComfyUI, אנא המתן..."
-msgid "comfyUI installed successfully"
-msgstr "comfyUI הותקן בהצלחה"
-msgid "comfyUI uninstalled successfully"
-msgstr "comfyUI הוסרה בהצלחה"
-msgid "Failed to install comfyUI!"
-msgstr "ההתקנה של comfyUI נכשלה!"
-msgid "AMD/Nvidia GPU not found!"
-msgstr "כרטיס גרפי AMD/Nvidia לא נמצא!"
-msgid ""
-"Ollama shared successfully.\\n"
-"Address: http://$localIp:11434"
-msgstr ""
-"אולמה שותף בהצלחה.\\n"
-"כתובת: http://$localIp:11434"
-msgid "Failed to shared Ollama!"
-msgstr "נכשל בשיתוף אולמה!"
-msgid "Ollama CUDA Install"
-msgstr "התקנת אולמה CUDA"
-msgid "Instaling Ollama CUDA, Please wait..."
-msgstr "מתקין את Ollama CUDA, אנא המתן..."
-msgid "Ollama CUDA Uninstall"
-msgstr "אולמה CUDA הסרה"
-msgid "Unistaling Ollama CUDA, Please wait..."
-msgstr "מניחים את Ollama CUDA, אנא המתן..."
-msgid "Ollama CUDA installed successfully!"
-msgstr "אולמה CUDA הותקן בהצלחה!"
-msgid "Failed to install Ollama CUDA!"
-msgstr "ההתקנה של Ollama CUDA נכשלה!"
-msgid "LM Studio Install"
-msgstr "התקנת LM Studio"
-msgid "Instaling LM Studio, Please wait..."
-msgstr "מתקין את LM Studio, אנא המתן..."
-msgid "LM Studio Uninstall"
-msgstr "הסרת התקנה של LM Studio"
-msgid "Uninstaling LM Studio, Please wait..."
-msgstr "מניחים את LM Studio, אנא המתן..."
-msgid "LM Studio installed successfully!"
-msgstr "ההתקנה של LM Studio הושלמה בהצלחה!"
-msgid "Failed to install LM Studio!"
-msgstr "ההתקנה של LM Studio נכשלה!"
-msgid "Krita Install"
-msgstr "התקנת קריטה"
-msgid "Instaling Krita, Please wait..."
-msgstr "מתקין את קריטה, אנא המתן..."
-msgid "Krita Uninstall"
-msgstr "הסרת Krita"
-msgid "Uninstaling Krita, Please wait..."
-msgstr "מניחים את Krita, אנא המתן..."
-msgid "Krita installed successfully!"
-msgstr "קריטה הותקנה בהצלחה!"
-msgid "Failed to install Krita!"
-msgstr "ההתקנה של קריטה נכשלה!"
-msgid "comfyUI Depends Install"
-msgstr "התקנת תלות ComfyUI"
-msgid "Instaling comfyUI Depends, Please wait..."
-msgstr "מתקין את התלויות של comfyUI, אנא המתן..."
-msgid "comfyUI Depends installed successfully!"
-msgstr "comfyUI תלות הותקנה בהצלחה!"
-msgid "Failed to install comfyUI Depends!"
-msgstr "כישלון בהתקנת comfyUI תלות!"
 # 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_usability_page.py, line: 204
-msgid "Docker"
-msgstr "דוקר"
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/devices/jamesdsp_dialog.py, line: 208
 # 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/docker_page.py, line: 15
-msgid "Container service - enable to use containers below."
-msgstr "שירות קונטיינרים - אפשר להשתמש בקונטיינרים למטה."
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/devices/jamesdsp_dialog.py, line: 208
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/devices/jamesdsp_dialog.py, line: 208
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/devices/jamesdsp_dialog.py, line: 208
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/devices/jamesdsp_dialog.py, line: 208
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/devices/jamesdsp_dialog.py, line: 208
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 107
+msgid "Usability"
+msgstr "שימושיות"
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_usability_page.py, line: 14
+msgid "User and Visual system settings."
+msgstr "הגדרות משתמש ומערכת חזותית."
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 114
+msgid "NumLock"
+msgstr "נומרוק"
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 115
+msgid "Initial NumLock state. Ignored if autologin is enabled."
+msgstr "מצב NumLock התחלתי. מתעלמים אם כניסה אוטומטית מופעלת."
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 131
+msgid "Window Button On Left Side"
+msgstr "כפתור חלון בצד שמאל"
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 132
+msgid "Maximize, minimize, and close buttons on the left side of the window."
+msgstr "כפתורי מקסימום, מינימום וסגירה בצד השמאלי של החלון."
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_usability_page.py, line: 72
+msgid "KZones"
+msgstr "KZones"
 # 
 # #-#-#-#-#  biglinux-settings.pot (biglinux-settings)  #-#-#-#-#
 # 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 137
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/containers_page.py, line: 18
-msgid "Containers"
-msgstr "מיכלים"
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/ai_page.py, line: 32
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_usability_page.py, line: 50
+msgid "Script for the KWin window manager of the KDE Plasma desktop environment."
+msgstr "סקריפט עבור מנהל החלונות KWin של סביבת שולחן העבודה KDE Plasma."
 # 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/docker_page.py, line: 23
-msgid "Manage container technologies."
-msgstr "נהל טכנולוגיות קונטיינרים."
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_usability_page.py, line: 169
+msgid "Recent Files & Locations"
+msgstr "קבצים ומיקומים אחרונים"
 # 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_usability_page.py, line: 205
-msgid "Docker Enabled."
-msgstr "דוקר מופעל."
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/containers_page.py, line: 35
-msgid "Nextcloud Plus"
-msgstr "Nextcloud פלוס"
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/docker_page.py, line: 45
-msgid "Install Nextcloud Plus container."
-msgstr "התקן את מיכל Nextcloud Plus."
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/docker_page.py, line: 52
-msgid "Run Nextcloud Plus."
-msgstr "הרץ את Nextcloud Plus."
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/docker_page.py, line: 48
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_usability_page.py, line: 170
 msgid ""
-"Nextcloud Plus is running.\n"
-"Address: http://localhost:8286\n"
-"and\n"
-"Address: http://{}:8286"
+"Restores the 'Recent Files' and 'Recent Locations' functionality that appears empty in Dolphin and "
+"the Application Menu."
 msgstr ""
-"Nextcloud Plus פועל.  \n"
-"כתובת: http://localhost:8286  \n"
-"ו  \n"
-"כתובת: http://{}:8286"
+"ש restores את הפונקציונליות של 'קבצים אחרונים' ו'מיקומים אחרונים' שמופיעה ריקה ב-Dolphin ובתפריט "
+"היישומים."
 # 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/containers_page.py, line: 44
-msgid "AdGuard"
-msgstr "אדגארד"
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 108
+msgid "System"
+msgstr "מערכת"
 # 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/docker_page.py, line: 64
-msgid "Install AdGuard Home container."
-msgstr "התקן את מיכל AdGuard Home."
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_page.py, line: 26
+msgid "General system settings."
+msgstr "הגדרות מערכת כלליות."
 # 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/docker_page.py, line: 71
-msgid "Run AdGuard."
-msgstr "הרץ את AdGuard."
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_page.py, line: 21
+msgid "SSH"
+msgstr "SSH"
 # 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/docker_page.py, line: 57
-msgid ""
-"AdGuard is running.\n"
-"Address: http://localhost:3030\n"
-"and\n"
-"Address: http://{}:3030"
-msgstr ""
-"אדגארד פועל.\n"
-"כתובת: http://localhost:3030\n"
-"ו\n"
-"כתובת: http://{}:3030"
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_page.py, line: 22
+msgid "Enable remote access via ssh."
+msgstr "אפשר גישה מרחוק באמצעות ssh."
 # 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/containers_page.py, line: 71
-msgid "Jellyfin"
-msgstr "ג'לי פינ"
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_page.py, line: 27
+msgid "SSH Address: {}"
+msgstr "כתובת SSH: {}"
 # 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/docker_page.py, line: 79
-msgid "Install Jellyfin media server."
-msgstr "התקן את שרת המדיה Jellyfin."
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_usability_page.py, line: 147
+msgid "SSH always on"
+msgstr "SSH תמיד פעיל"
 # 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/docker_page.py, line: 90
-msgid "Run Jellyfin."
-msgstr "הרץ את ג'לי פינ."
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 149
+msgid "Turn on ssh remote access at boot."
+msgstr "הפעל גישה מרחוק באמצעות SSH בעת אתחול."
 # 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/docker_page.py, line: 75
-msgid ""
-"Jellyfin is running.\n"
-"Address: http://localhost:8096\n"
-"and\n"
-"Address: http://{}:8096"
-msgstr ""
-"ג'לי פינ פועל.\n"
-"כתובת: http://localhost:8096\n"
-"ו\n"
-"כתובת: http://{}:8096"
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 162
+msgid "Fast Grub"
+msgstr "גרוב מהיר"
 # 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/containers_page.py, line: 80
-msgid "LAMP"
-msgstr "למפ"
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 163
+msgid "Decreases grub display time."
+msgstr "מקטין את זמן התצוגה של גרוב."
 # 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/docker_page.py, line: 102
-msgid "Install LAMP stack (Linux, Apache, MySQL, PHP)."
-msgstr "התקן ערכת LAMP (לינוקס, אפאצ'י, MySQL, PHP)."
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 170
+msgid "Auto-mount Partitions"
+msgstr "התקנת מחיצות אוטומטית"
 # 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/docker_page.py, line: 109
-msgid "Run LAMP."
-msgstr "הרץ LAMP."
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/docker_page.py, line: 84
-msgid ""
-"LAMP is running.\n"
-"Address: http://localhost:8080\n"
-"and\n"
-"Address: http://{}:8080"
-msgstr ""
-"LAMP פועל.\n"
-"כתובת: http://localhost:8080\n"
-"ו\n"
-"כתובת: http://{}:8080"
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/containers_page.py, line: 89
-msgid "Portainer Client"
-msgstr "לקוח פורטיינר"
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/docker_page.py, line: 121
-msgid "Install Portainer Agent for cluster management."
-msgstr "התקן את סוכן פורטיינר לניהול קלאסטר."
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/docker_page.py, line: 128
-msgid "Run Portainer Client."
-msgstr "הרץ את לקוח פורטיינר."
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/docker_page.py, line: 93
-msgid ""
-"Portainer Client is running.\n"
-"Address: http://localhost:9000\n"
-"and\n"
-"Address: http://{}:9000"
-msgstr ""
-"לקוח פורטיינר פועל.\n"
-"כתובת: http://localhost:9000\n"
-"ו\n"
-"כתובת: http://{}:9000"
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/containers_page.py, line: 98
-msgid "SWS"
-msgstr "SWS"
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/docker_page.py, line: 140
-msgid "Install SWS static web server."
-msgstr "התקן את שרת האינטרנט הסטטי SWS."
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/docker_page.py, line: 147
-msgid "Run SWS."
-msgstr "הרץ SWS."
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/docker_page.py, line: 102
-msgid ""
-"SWS is running.\n"
-"Address: http://localhost:8182\n"
-"and\n"
-"Address: http://{}:8182"
-msgstr ""
-"SWS פועל.\n"
-"כתובת: http://localhost:8182\n"
-"ו\n"
-"כתובת: http://{}:8182"
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/containers_page.py, line: 107
-msgid "V2RayA"
-msgstr "V2RayA"
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/docker_page.py, line: 159
-msgid "Install V2RayA network tool."
-msgstr "התקן את כלי הרשת V2RayA."
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/docker_page.py, line: 166
-msgid "Run V2RayA."
-msgstr "הרץ V2RayA."
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/docker_page.py, line: 111
-msgid ""
-"V2RayA is running.\n"
-"Address: http://localhost:2017\n"
-"and\n"
-"Address: http://{}:2017"
-msgstr ""
-"V2RayA פועל.\n"
-"כתובת: http://localhost:2017\n"
-"ו\n"
-"כתובת: http://{}:2017"
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/docker_page.py, line: 178
-msgid "Install An open source, privacy-focused alternative to Google's Notebook LM!"
-msgstr "התקן אלטרנטיבה פתוחה, ממוקדת פרטיות ל-Google's Notebook LM!"
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/docker_page.py, line: 185
-msgid "Run Open Notebook."
-msgstr "הרץ מחברת פתוחה."
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/docker_page.py, line: 190
-msgid ""
-"Open Notebook is running.\n"
-"Address: http://localhost:8502\n"
-"and\n"
-"Address: http://{}:8502"
-msgstr ""
-"המחברת פתוחה ופועלת.\n"
-"כתובת: http://localhost:8502\n"
-"וגם\n"
-"כתובת: http://{}:8502"
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 244
-msgid "Changing {} to {}"
-msgstr "שינוי {} ל{}"
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 271
-msgid "ERROR: Failed to change {} to {}"
-msgstr "שגיאה: לא הצליח לשנות {} ל{}"
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 274
-msgid "Failed to change setting: {}"
-msgstr "שינוי ההגדרה נכשל: {}"
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 171
+msgid "Auto mount partitions in internal disks on boot."
+msgstr "התקן אוטומטית מחיצות בדיסקים פנימיים בעת אתחול."
 # 
 # #-#-#-#-#  biglinux-settings.pot (biglinux-settings)  #-#-#-#-#
 # 
@@ -585,47 +465,17 @@ msgstr "מחלף {} מסונכרן: {}"
 msgid "Indicator {} synchronized: {}"
 msgstr "אינדיקטור {} מסונכרן: {}"
 # 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 49
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 120
-msgid "BigLinux Settings"
-msgstr "הגדרות ביגלינוקס"
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 244
+msgid "Changing {} to {}"
+msgstr "שינוי {} ל{}"
 # 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 135
-msgid "Categories"
-msgstr "קטגוריות"
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 271
+msgid "ERROR: Failed to change {} to {}"
+msgstr "שגיאה: לא הצליח לשנות {} ל{}"
 # 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 144
-msgid "Search..."
-msgstr "חפש..."
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/devices/keyboard_led_dialog.py, line: 249
-msgid "Settings"
-msgstr "הגדרות"
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 108
-msgid "System"
-msgstr "מערכת"
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/devices/jamesdsp_dialog.py, line: 208
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/devices/jamesdsp_dialog.py, line: 208
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/devices/jamesdsp_dialog.py, line: 208
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/devices/jamesdsp_dialog.py, line: 208
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/devices/jamesdsp_dialog.py, line: 208
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/devices/jamesdsp_dialog.py, line: 208
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 107
-msgid "Usability"
-msgstr "שימושיות"
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 158
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 167
-msgid "PreLoad"
-msgstr "טען מראש"
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 274
+msgid "Failed to change setting: {}"
+msgstr "שינוי ההגדרה נכשל: {}"
 # 
 # #-#-#-#-#  biglinux-settings.pot (biglinux-settings)  #-#-#-#-#
 # 
@@ -634,9 +484,66 @@ msgstr "טען מראש"
 msgid "Devices"
 msgstr "מכשירים"
 # 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/devices_page.py, line: 15
+msgid "Manage physical devices."
+msgstr "נהל מכשירים פיזיים."
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_usability_page.py, line: 190
+msgid "Wifi"
+msgstr "ווי-פיי"
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_usability_page.py, line: 191
+msgid "Wifi On"
+msgstr "ווייפי מופעל"
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_usability_page.py, line: 197
+msgid "Bluetooth"
+msgstr "בלוטות'"
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_usability_page.py, line: 198
+msgid "Bluetooth On."
+msgstr "בלוטות' פועל."
+# 
+# #-#-#-#-#  biglinux-settings.pot (biglinux-settings)  #-#-#-#-#
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/dispositivos_page.py, line: 77
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/devices/jamesdsp_dialog.py, line: 155
+msgid "JamesDSP"
+msgstr "ג'יימסDSP"
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/dispositivos_page.py, line: 84
+msgid "Advanced audio effects processor that improves sound quality."
+msgstr "מעבד אפקטים קוליים מתקדם שמשפר את איכות הסאונד."
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/devices_page.py, line: 71
+msgid "Reverse mouse scrolling"
+msgstr "גלילה הפוכה בעכבר"
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/devices_page.py, line: 72
+msgid "Reverse mouse scrolling without restarting the session."
+msgstr "הפוך את גלילת העכבר מבלי לאתחל את המושב."
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 49
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 120
+msgid "BigLinux Settings"
+msgstr "הגדרות ביגלינוקס"
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 144
+msgid "Search..."
+msgstr "חפש..."
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 158
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 167
+msgid "PreLoad"
+msgstr "טען מראש"
+# 
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 161
 msgid "A.I."
 msgstr "בינה מלאכותית"
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_usability_page.py, line: 204
+msgid "Docker"
+msgstr "דוקר"
 # 
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings/performance_games_page.py, line: 181
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings/performance_games_page.py, line: 195
@@ -653,46 +560,6 @@ msgstr "בינה מלאכותית"
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings/usability/gamemode_dialog.py, line: 204
 msgid "Performance"
 msgstr "ביצועים"
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_page.py, line: 26
-msgid "General system settings."
-msgstr "הגדרות מערכת כלליות."
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_page.py, line: 21
-msgid "SSH"
-msgstr "SSH"
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_page.py, line: 22
-msgid "Enable remote access via ssh."
-msgstr "אפשר גישה מרחוק באמצעות ssh."
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_page.py, line: 27
-msgid "SSH Address: {}"
-msgstr "כתובת SSH: {}"
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_usability_page.py, line: 147
-msgid "SSH always on"
-msgstr "SSH תמיד פעיל"
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 149
-msgid "Turn on ssh remote access at boot."
-msgstr "הפעל גישה מרחוק באמצעות SSH בעת אתחול."
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 162
-msgid "Fast Grub"
-msgstr "גרוב מהיר"
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 163
-msgid "Decreases grub display time."
-msgstr "מקטין את זמן התצוגה של גרוב."
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 170
-msgid "Auto-mount Partitions"
-msgstr "התקנת מחיצות אוטומטית"
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 171
-msgid "Auto mount partitions in internal disks on boot."
-msgstr "התקן אוטומטית מחיצות בדיסקים פנימיים בעת אתחול."
 # 
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings/preload_page.py, line: 103
 msgid "Preload"
@@ -733,45 +600,6 @@ msgstr "אופרה"
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings/preload_page.py, line: 156
 msgid "Libreoffice"
 msgstr "ליבראOffice"
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/devices_page.py, line: 15
-msgid "Manage physical devices."
-msgstr "נהל מכשירים פיזיים."
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_usability_page.py, line: 190
-msgid "Wifi"
-msgstr "ווי-פיי"
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_usability_page.py, line: 191
-msgid "Wifi On"
-msgstr "ווייפי מופעל"
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_usability_page.py, line: 197
-msgid "Bluetooth"
-msgstr "בלוטות'"
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_usability_page.py, line: 198
-msgid "Bluetooth On."
-msgstr "בלוטות' פועל."
-# 
-# #-#-#-#-#  biglinux-settings.pot (biglinux-settings)  #-#-#-#-#
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/dispositivos_page.py, line: 77
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/devices/jamesdsp_dialog.py, line: 155
-msgid "JamesDSP"
-msgstr "ג'יימסDSP"
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/dispositivos_page.py, line: 84
-msgid "Advanced audio effects processor that improves sound quality."
-msgstr "מעבד אפקטים קוליים מתקדם שמשפר את איכות הסאונד."
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/devices_page.py, line: 71
-msgid "Reverse mouse scrolling"
-msgstr "גלילה הפוכה בעכבר"
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/devices_page.py, line: 72
-msgid "Reverse mouse scrolling without restarting the session."
-msgstr "הפוך את גלילת העכבר מבלי לאתחל את המושב."
 # 
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings/performance_games_page.py, line: 16
 msgid "BigLinux performance tweaks."
@@ -983,45 +811,209 @@ msgstr ""
 "שרת AI מקומי. עבור כרטיסי גרפיקה AMD חדשים יותר, החל מסדרת 6000.  \n"
 "שקול להשתמש ב-Vulkan, במבחנים רבים, Vulkan ביצע טוב יותר מ-ROCm."
 # 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_usability_page.py, line: 14
-msgid "User and Visual system settings."
-msgstr "הגדרות משתמש ומערכת חזותית."
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 114
-msgid "NumLock"
-msgstr "נומרוק"
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 115
-msgid "Initial NumLock state. Ignored if autologin is enabled."
-msgstr "מצב NumLock התחלתי. מתעלמים אם כניסה אוטומטית מופעלת."
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 131
-msgid "Window Button On Left Side"
-msgstr "כפתור חלון בצד שמאל"
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 132
-msgid "Maximize, minimize, and close buttons on the left side of the window."
-msgstr "כפתורי מקסימום, מינימום וסגירה בצד השמאלי של החלון."
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_usability_page.py, line: 72
-msgid "KZones"
-msgstr "KZones"
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/docker_page.py, line: 15
+msgid "Container service - enable to use containers below."
+msgstr "שירות קונטיינרים - אפשר להשתמש בקונטיינרים למטה."
 # 
 # #-#-#-#-#  biglinux-settings.pot (biglinux-settings)  #-#-#-#-#
 # 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/ai_page.py, line: 32
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_usability_page.py, line: 50
-msgid "Script for the KWin window manager of the KDE Plasma desktop environment."
-msgstr "סקריפט עבור מנהל החלונות KWin של סביבת שולחן העבודה KDE Plasma."
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 137
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/containers_page.py, line: 18
+msgid "Containers"
+msgstr "מיכלים"
 # 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_usability_page.py, line: 169
-msgid "Recent Files & Locations"
-msgstr "קבצים ומיקומים אחרונים"
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/docker_page.py, line: 23
+msgid "Manage container technologies."
+msgstr "נהל טכנולוגיות קונטיינרים."
 # 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_usability_page.py, line: 170
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_usability_page.py, line: 205
+msgid "Docker Enabled."
+msgstr "דוקר מופעל."
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/containers_page.py, line: 35
+msgid "Nextcloud Plus"
+msgstr "Nextcloud פלוס"
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/docker_page.py, line: 45
+msgid "Install Nextcloud Plus container."
+msgstr "התקן את מיכל Nextcloud Plus."
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/docker_page.py, line: 52
+msgid "Run Nextcloud Plus."
+msgstr "הרץ את Nextcloud Plus."
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/docker_page.py, line: 48
 msgid ""
-"Restores the 'Recent Files' and 'Recent Locations' functionality that appears empty in Dolphin and "
-"the Application Menu."
+"Nextcloud Plus is running.\n"
+"Address: http://localhost:8286\n"
+"and\n"
+"Address: http://{}:8286"
 msgstr ""
-"ש restores את הפונקציונליות של 'קבצים אחרונים' ו'מיקומים אחרונים' שמופיעה ריקה ב-Dolphin ובתפריט "
-"היישומים."
+"Nextcloud Plus פועל.  \n"
+"כתובת: http://localhost:8286  \n"
+"ו  \n"
+"כתובת: http://{}:8286"
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/containers_page.py, line: 44
+msgid "AdGuard"
+msgstr "אדגארד"
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/docker_page.py, line: 64
+msgid "Install AdGuard Home container."
+msgstr "התקן את מיכל AdGuard Home."
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/docker_page.py, line: 71
+msgid "Run AdGuard."
+msgstr "הרץ את AdGuard."
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/docker_page.py, line: 57
+msgid ""
+"AdGuard is running.\n"
+"Address: http://localhost:3030\n"
+"and\n"
+"Address: http://{}:3030"
+msgstr ""
+"אדגארד פועל.\n"
+"כתובת: http://localhost:3030\n"
+"ו\n"
+"כתובת: http://{}:3030"
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/containers_page.py, line: 71
+msgid "Jellyfin"
+msgstr "ג'לי פינ"
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/docker_page.py, line: 79
+msgid "Install Jellyfin media server."
+msgstr "התקן את שרת המדיה Jellyfin."
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/docker_page.py, line: 90
+msgid "Run Jellyfin."
+msgstr "הרץ את ג'לי פינ."
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/docker_page.py, line: 75
+msgid ""
+"Jellyfin is running.\n"
+"Address: http://localhost:8096\n"
+"and\n"
+"Address: http://{}:8096"
+msgstr ""
+"ג'לי פינ פועל.\n"
+"כתובת: http://localhost:8096\n"
+"ו\n"
+"כתובת: http://{}:8096"
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/containers_page.py, line: 80
+msgid "LAMP"
+msgstr "למפ"
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/docker_page.py, line: 102
+msgid "Install LAMP stack (Linux, Apache, MySQL, PHP)."
+msgstr "התקן ערכת LAMP (לינוקס, אפאצ'י, MySQL, PHP)."
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/docker_page.py, line: 109
+msgid "Run LAMP."
+msgstr "הרץ LAMP."
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/docker_page.py, line: 84
+msgid ""
+"LAMP is running.\n"
+"Address: http://localhost:8080\n"
+"and\n"
+"Address: http://{}:8080"
+msgstr ""
+"LAMP פועל.\n"
+"כתובת: http://localhost:8080\n"
+"ו\n"
+"כתובת: http://{}:8080"
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/containers_page.py, line: 89
+msgid "Portainer Client"
+msgstr "לקוח פורטיינר"
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/docker_page.py, line: 121
+msgid "Install Portainer Agent for cluster management."
+msgstr "התקן את סוכן פורטיינר לניהול קלאסטר."
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/docker_page.py, line: 128
+msgid "Run Portainer Client."
+msgstr "הרץ את לקוח פורטיינר."
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/docker_page.py, line: 93
+msgid ""
+"Portainer Client is running.\n"
+"Address: http://localhost:9000\n"
+"and\n"
+"Address: http://{}:9000"
+msgstr ""
+"לקוח פורטיינר פועל.\n"
+"כתובת: http://localhost:9000\n"
+"ו\n"
+"כתובת: http://{}:9000"
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/containers_page.py, line: 98
+msgid "SWS"
+msgstr "SWS"
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/docker_page.py, line: 140
+msgid "Install SWS static web server."
+msgstr "התקן את שרת האינטרנט הסטטי SWS."
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/docker_page.py, line: 147
+msgid "Run SWS."
+msgstr "הרץ SWS."
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/docker_page.py, line: 102
+msgid ""
+"SWS is running.\n"
+"Address: http://localhost:8182\n"
+"and\n"
+"Address: http://{}:8182"
+msgstr ""
+"SWS פועל.\n"
+"כתובת: http://localhost:8182\n"
+"ו\n"
+"כתובת: http://{}:8182"
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/containers_page.py, line: 107
+msgid "V2RayA"
+msgstr "V2RayA"
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/docker_page.py, line: 159
+msgid "Install V2RayA network tool."
+msgstr "התקן את כלי הרשת V2RayA."
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/docker_page.py, line: 166
+msgid "Run V2RayA."
+msgstr "הרץ V2RayA."
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/docker_page.py, line: 111
+msgid ""
+"V2RayA is running.\n"
+"Address: http://localhost:2017\n"
+"and\n"
+"Address: http://{}:2017"
+msgstr ""
+"V2RayA פועל.\n"
+"כתובת: http://localhost:2017\n"
+"ו\n"
+"כתובת: http://{}:2017"
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/docker_page.py, line: 178
+msgid "Install An open source, privacy-focused alternative to Google's Notebook LM!"
+msgstr "התקן אלטרנטיבה פתוחה, ממוקדת פרטיות ל-Google's Notebook LM!"
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/docker_page.py, line: 185
+msgid "Run Open Notebook."
+msgstr "הרץ מחברת פתוחה."
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/docker_page.py, line: 190
+msgid ""
+"Open Notebook is running.\n"
+"Address: http://localhost:8502\n"
+"and\n"
+"Address: http://{}:8502"
+msgstr ""
+"המחברת פתוחה ופועלת.\n"
+"כתובת: http://localhost:8502\n"
+"וגם\n"
+"כתובת: http://{}:8502"

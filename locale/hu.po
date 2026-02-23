@@ -14,14 +14,216 @@ msgstr ""
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "X-Generator: attranslate\n"
-msgid "kzones Install"
-msgstr "kzones Telepítés"
-msgid "Instaling Kzones, Please wait..."
-msgstr "Kzones telepítése, kérem várjon..."
-msgid "Kzones installed successfully!"
-msgstr "A Kzones sikeresen telepítve lett!"
+msgid "Ollama Install"
+msgstr "Ollama Telepítés"
+msgid "Instaling Ollama, Please wait..."
+msgstr "Ollama telepítése, kérem várjon..."
+msgid "Ollama Uninstall"
+msgstr "Ollama eltávolítása"
+msgid "Unistaling Ollama, Please wait..."
+msgstr "Ollama eltávolítása, Kérem várjon..."
+msgid "Ollama installed successfully!"
+msgstr "Az Ollama sikeresen telepítve!"
+msgid "Failed to install Ollama!"
+msgstr "Ollama telepítése nem sikerült!"
+msgid ""
+"Ollama server is running.\\n"
+"Address: http://localhost:11434"
+msgstr ""
+"Ollama szerver fut.\\n"
+"Cím: http://localhost:11434"
+msgid "LM Studio Install"
+msgstr "LM Stúdió Telepítés"
+msgid "Instaling LM Studio, Please wait..."
+msgstr "LM Studio telepítése, kérem várjon..."
+msgid "LM Studio Uninstall"
+msgstr "LM Stúdió Eltávolítása"
+msgid "Uninstaling LM Studio, Please wait..."
+msgstr "LM Studio eltávolítása, Kérem, várjon..."
+msgid "LM Studio installed successfully!"
+msgstr "Az LM Studio sikeresen telepítve!"
+msgid "Failed to install LM Studio!"
+msgstr "A LM Studio telepítése nem sikerült!"
+msgid "ChatBox Install"
+msgstr "ChatBox Telepítés"
+msgid "Instaling ChatBox, Please wait..."
+msgstr "A ChatBox telepítése, kérem várjon..."
+msgid "ChatBox Uninstall"
+msgstr "ChatBox eltávolítása"
+msgid "Uninstaling ChatBox, Please wait..."
+msgstr "A ChatBox eltávolítása, kérem várjon..."
+msgid "ChatBox installed successfully!"
+msgstr "A ChatBox sikeresen telepítve lett!"
+msgid "Failed to install ChatBox!"
+msgstr "A ChatBox telepítése nem sikerült!"
+msgid "Ollama Vulkan Install"
+msgstr "Ollama Vulkan Telepítés"
+msgid "Ollama Vulkan Uninstall"
+msgstr "Ollama Vulkan Eltávolítás"
+msgid "Unistaling Ollama Vulkan, Please wait..."
+msgstr "Ollama Vulkan eltávolítása, Kérem várjon..."
+msgid "Ollama Vulkan installed successfully!"
+msgstr "Ollama Vulkan sikeresen telepítve!"
+msgid "Failed to install Ollama Vulkan!"
+msgstr "Ollama Vulkan telepítése nem sikerült!"
+msgid "Ollama CUDA Install"
+msgstr "Ollama CUDA telepítése"
+msgid "Instaling Ollama CUDA, Please wait..."
+msgstr "Ollama CUDA telepítése, Kérem várjon..."
+msgid "Ollama CUDA Uninstall"
+msgstr "Ollama CUDA eltávolítása"
+msgid "Unistaling Ollama CUDA, Please wait..."
+msgstr "Ollama CUDA eltávolítása, kérem várjon..."
+msgid "Ollama CUDA installed successfully!"
+msgstr "Ollama CUDA sikeresen telepítve!"
+msgid "Failed to install Ollama CUDA!"
+msgstr "Ollama CUDA telepítése nem sikerült!"
+msgid ""
+"Ollama shared successfully.\\n"
+"Address: http://$localIp:11434"
+msgstr ""
+"Ollama megosztva. \\n"
+"Cím: http://$localIp:11434"
+msgid "Failed to shared Ollama!"
+msgstr "Sikertelen az Ollama megosztása!"
+msgid "comfyUI Depends Install"
+msgstr "comfyUI Függőségek Telepítése"
+msgid "Instaling comfyUI Depends, Please wait..."
+msgstr "A comfyUI telepítése függőségeket igényel, kérem várjon..."
+msgid "comfyUI Depends installed successfully!"
+msgstr "comfyUI függőségek sikeresen telepítve!"
+msgid "Failed to install comfyUI Depends!"
+msgstr "A comfyUI telepítése meghiúsult!"
+msgid "AMD/Nvidia GPU not found!"
+msgstr "AMD/Nvidia GPU nem található!"
+msgid "Krita Install"
+msgstr "Krita telepítése"
+msgid "Instaling Krita, Please wait..."
+msgstr "Krita telepítése, Kérem várjon..."
+msgid "Krita Uninstall"
+msgstr "Krita eltávolítása"
+msgid "Uninstaling Krita, Please wait..."
+msgstr "Krita eltávolítása, Kérem várjon..."
+msgid "Krita installed successfully!"
+msgstr "A Krita sikeresen telepítve lett!"
+msgid "Failed to install Krita!"
+msgstr "A Krita telepítése nem sikerült!"
+msgid "comfyUI Install...."
+msgstr "comfyUI telepítése...."
+msgid "Instaling comfyUI, this step take a long time, Please wait..."
+msgstr "A ComfyUI telepítése, ez a lépés sokáig tart, Kérjük, várjon..."
+msgid "Uninstall comfyUI...."
+msgstr "Távolítsa el a comfyUI-t...."
+msgid "Uninstaling comfyUI, Please wait..."
+msgstr "A ComfyUI eltávolítása, Kérem, várjon..."
+msgid "comfyUI installed successfully"
+msgstr "A comfyUI sikeresen telepítve lett."
+msgid "comfyUI uninstalled successfully"
+msgstr "A comfyUI sikeresen eltávolítva."
+msgid "Failed to install comfyUI!"
+msgstr "A comfyUI telepítése nem sikerült!"
+msgid "Ollama Lab Install"
+msgstr "Ollama Lab Telepítés"
+msgid "Instaling Ollama Lab, Please wait..."
+msgstr "Ollama Lab telepítése, kérem várjon..."
+msgid "Ollama Lab Uninstall"
+msgstr "Ollama Lab eltávolítása"
+msgid "Unistaling Ollama Lab, Please wait..."
+msgstr "Ollama Lab eltávolítása, Kérem várjon..."
+msgid "Ollama Lab installed successfully!"
+msgstr "Az Ollama Lab sikeresen telepítve!"
+msgid "Failed to install Ollama Lab!"
+msgstr "Ollama Lab telepítése nem sikerült!"
+msgid "Ollama ROCm Install"
+msgstr "Ollama ROCm Telepítés"
+msgid "Instaling Ollama ROCm, Please wait..."
+msgstr "Ollama ROCm telepítése, kérem várjon..."
+msgid "Ollama ROCm Uninstall"
+msgstr "Ollama ROCm eltávolítása"
+msgid "Unistaling Ollama ROCm, Please wait..."
+msgstr "Ollama ROCm eltávolítása, Kérem várjon..."
+msgid "Ollama ROCm installed successfully!"
+msgstr "Ollama ROCm sikeresen telepítve!"
+msgid "Failed to install Ollama ROCm!"
+msgstr "Ollama ROCm telepítése nem sikerült!"
+msgid ""
+"Generative AI for Krita has been successfully installed.\\n"
+"\\n"
+"Open Krita, open an existing drawing or create a new one.\\n"
+"In the top panel go to Settings > Panels > check the AI Image Generation box.\\n"
+"\\n"
+"In the window that opens on the bottom right.\\n"
+"Click Configure > Local Managed Server, choose your GPU or CPU, choose the model in Workloads and "
+"click Install."
+msgstr ""
+"A Krita generatív AI sikeresen telepítve lett.\\n"
+"\\n"
+"Nyisd meg a Kritát, nyiss meg egy meglévő rajzot vagy készíts egy újat.\\n"
+"A felső panelen menj a Beállítások > Panelek > jelöld be az AI Kép Generálás dobozt.\\n"
+"\\n"
+"A jobb alsó sarokban megnyíló ablakban.\\n"
+"Kattints a Konfigurálás > Helyi Kezelt Szerverre, válaszd ki a GPU-dat vagy CPU-dat, válaszd ki a "
+"modellt a Munka terhelésekben, és kattints a Telepítésre."
+msgid "Example Install"
+msgstr "Példa telepítés"
+msgid "Instaling Example, Please wait..."
+msgstr "Példa telepítése, kérem várjon..."
+msgid "Example Uninstall"
+msgstr "Példa eltávolítás"
+msgid "Uninstaling Example, Please wait..."
+msgstr "Eltávolítás példa, kérem várjon..."
+msgid "Example installed successfully!"
+msgstr "A példa sikeresen telepítve!"
+msgid "Failed to install Example!"
+msgstr "A telepítés nem sikerült: Példa!"
+msgid "Installing $package"
+msgstr "$package telepítése"
+msgid "Installing $package, Please wait..."
+msgstr "A(z) $package telepítése, Kérem várjon..."
+msgid "Removing $package"
+msgstr "$package eltávolítása"
+msgid "Removing $package, Please wait..."
+msgstr "A(z) $package eltávolítása, Kérem várjon..."
+msgid ""
+"$title installed successfully!\\n"
+"\\n"
+"Configured on port $port, to access use $url"
+msgstr ""
+"$title sikeresen telepítve!\\n"
+"\\n"
+"A $port porton van konfigurálva, a hozzáféréshez használja a $url-t."
+msgid "$package removed successfully!"
+msgstr "A csomag sikeresen eltávolítva!"
+msgid "An error occurred with $package."
+msgstr "Hiba történt a $package használatakor."
+msgid "Docker Install"
+msgstr "Docker telepítése"
+msgid "Instaling Docker, Please wait..."
+msgstr "Docker telepítése, kérem várjon..."
+msgid "Docker Start"
+msgstr "Docker Indítás"
+msgid "Docker Starting, Please wait..."
+msgstr "Docker indítása, Kérem várjon..."
+msgid "Docker Stop"
+msgstr "Docker leállítása"
+msgid "Docker Stopping, Please wait..."
+msgstr "Docker leállítása, Kérem várjon..."
+msgid "Docker installed successfully!"
+msgstr "A Docker sikeresen telepítve lett!"
+msgid "An error occurred while install docker."
+msgstr "Hiba történt a Docker telepítése során."
 msgid "Applying, please wait..."
 msgstr "Alkalmazás folyamatban, kérjük várjon..."
+msgid ""
+"GRUB updated successfully!\\n"
+"Restart your computer for it to take effect."
+msgstr ""
+"A GRUB sikeresen frissítve lett!\\n"
+"Indítsa újra a számítógépét, hogy érvénybe lépjen."
+msgid "An error occurred while updating GRUB."
+msgstr "Hiba történt a GRUB frissítésekor."
+msgid "Already enabled. No changes made."
+msgstr "Már engedélyezve van. Nincsenek változtatások."
 msgid "Recent Files enabling...."
 msgstr "Legutóbbi fájlok engedélyezése...."
 msgid "Recent Files enabling, Please wait..."
@@ -44,18 +246,18 @@ msgstr ""
 "A változtatások érvényesítéséhez be kell zárnod és újra kell nyitnod a Dolfint."
 msgid "Failed to activate Recent Files!"
 msgstr "A Legutóbbi Fájlok aktiválása nem sikerült!"
-msgid "Example Install"
-msgstr "Példa telepítés"
-msgid "Instaling Example, Please wait..."
-msgstr "Példa telepítése, kérem várjon..."
-msgid "Example Uninstall"
-msgstr "Példa eltávolítás"
-msgid "Uninstaling Example, Please wait..."
-msgstr "Eltávolítás példa, kérem várjon..."
-msgid "Example installed successfully!"
-msgstr "A példa sikeresen telepítve!"
-msgid "Failed to install Example!"
-msgstr "A telepítés nem sikerült: Példa!"
+msgid "kzones Install"
+msgstr "kzones Telepítés"
+msgid "Instaling Kzones, Please wait..."
+msgstr "Kzones telepítése, kérem várjon..."
+msgid "Kzones installed successfully!"
+msgstr "A Kzones sikeresen telepítve lett!"
+msgid "GRUB updated successfully!"
+msgstr "A GRUB sikeresen frissítve lett!"
+msgid "Limits updated successfully!"
+msgstr "A korlátok sikeresen frissítve!"
+msgid "An error occurred while updating Limits."
+msgstr "Hiba történt a Korlátok frissítésekor."
 msgid "JamesDSP Install"
 msgstr "JamesDSP telepítése"
 msgid "Instaling JamesDSP, Please wait..."
@@ -64,433 +266,97 @@ msgid "JamesDSP installed successfully!"
 msgstr "A JamesDSP sikeresen telepítve lett!"
 msgid "Failed to install jamesDSP!"
 msgstr "A jamesDSP telepítése nem sikerült!"
-msgid "Docker Install"
-msgstr "Docker telepítése"
-msgid "Instaling Docker, Please wait..."
-msgstr "Docker telepítése, kérem várjon..."
-msgid "Docker Start"
-msgstr "Docker Indítás"
-msgid "Docker Starting, Please wait..."
-msgstr "Docker indítása, Kérem várjon..."
-msgid "Docker Stop"
-msgstr "Docker leállítása"
-msgid "Docker Stopping, Please wait..."
-msgstr "Docker leállítása, Kérem várjon..."
-msgid "Docker installed successfully!"
-msgstr "A Docker sikeresen telepítve lett!"
-msgid "An error occurred while install docker."
-msgstr "Hiba történt a Docker telepítése során."
-msgid "Installing $package"
-msgstr "$package telepítése"
-msgid "Installing $package, Please wait..."
-msgstr "A(z) $package telepítése, Kérem várjon..."
-msgid "Removing $package"
-msgstr "$package eltávolítása"
-msgid "Removing $package, Please wait..."
-msgstr "A(z) $package eltávolítása, Kérem várjon..."
-msgid ""
-"$title installed successfully!\\n"
-"\\n"
-"Configured on port $port, to access use $url"
-msgstr ""
-"$title sikeresen telepítve!\\n"
-"\\n"
-"A $port porton van konfigurálva, a hozzáféréshez használja a $url-t."
-msgid "$package removed successfully!"
-msgstr "A csomag sikeresen eltávolítva!"
-msgid "An error occurred with $package."
-msgstr "Hiba történt a $package használatakor."
-msgid "GRUB updated successfully!"
-msgstr "A GRUB sikeresen frissítve lett!"
-msgid "An error occurred while updating GRUB."
-msgstr "Hiba történt a GRUB frissítésekor."
-msgid "Limits updated successfully!"
-msgstr "A korlátok sikeresen frissítve!"
-msgid "An error occurred while updating Limits."
-msgstr "Hiba történt a Korlátok frissítésekor."
-msgid ""
-"GRUB updated successfully!\\n"
-"Restart your computer for it to take effect."
-msgstr ""
-"A GRUB sikeresen frissítve lett!\\n"
-"Indítsa újra a számítógépét, hogy érvénybe lépjen."
-msgid "Already enabled. No changes made."
-msgstr "Már engedélyezve van. Nincsenek változtatások."
-msgid "Ollama Vulkan Install"
-msgstr "Ollama Vulkan Telepítés"
-msgid "Instaling Ollama, Please wait..."
-msgstr "Ollama telepítése, kérem várjon..."
-msgid "Ollama Vulkan Uninstall"
-msgstr "Ollama Vulkan Eltávolítás"
-msgid "Unistaling Ollama Vulkan, Please wait..."
-msgstr "Ollama Vulkan eltávolítása, Kérem várjon..."
-msgid "Ollama Vulkan installed successfully!"
-msgstr "Ollama Vulkan sikeresen telepítve!"
-msgid "Failed to install Ollama Vulkan!"
-msgstr "Ollama Vulkan telepítése nem sikerült!"
-msgid "ChatBox Install"
-msgstr "ChatBox Telepítés"
-msgid "Instaling ChatBox, Please wait..."
-msgstr "A ChatBox telepítése, kérem várjon..."
-msgid "ChatBox Uninstall"
-msgstr "ChatBox eltávolítása"
-msgid "Uninstaling ChatBox, Please wait..."
-msgstr "A ChatBox eltávolítása, kérem várjon..."
-msgid "ChatBox installed successfully!"
-msgstr "A ChatBox sikeresen telepítve lett!"
-msgid "Failed to install ChatBox!"
-msgstr "A ChatBox telepítése nem sikerült!"
-msgid "Ollama Lab Install"
-msgstr "Ollama Lab Telepítés"
-msgid "Instaling Ollama Lab, Please wait..."
-msgstr "Ollama Lab telepítése, kérem várjon..."
-msgid "Ollama Lab Uninstall"
-msgstr "Ollama Lab eltávolítása"
-msgid "Unistaling Ollama Lab, Please wait..."
-msgstr "Ollama Lab eltávolítása, Kérem várjon..."
-msgid "Ollama Lab installed successfully!"
-msgstr "Az Ollama Lab sikeresen telepítve!"
-msgid "Failed to install Ollama Lab!"
-msgstr "Ollama Lab telepítése nem sikerült!"
-msgid ""
-"Generative AI for Krita has been successfully installed.\\n"
-"\\n"
-"Open Krita, open an existing drawing or create a new one.\\n"
-"In the top panel go to Settings > Panels > check the AI Image Generation box.\\n"
-"\\n"
-"In the window that opens on the bottom right.\\n"
-"Click Configure > Local Managed Server, choose your GPU or CPU, choose the model in Workloads and "
-"click Install."
-msgstr ""
-"A Krita generatív AI sikeresen telepítve lett.\\n"
-"\\n"
-"Nyisd meg a Kritát, nyiss meg egy meglévő rajzot vagy készíts egy újat.\\n"
-"A felső panelen menj a Beállítások > Panelek > jelöld be az AI Kép Generálás dobozt.\\n"
-"\\n"
-"A jobb alsó sarokban megnyíló ablakban.\\n"
-"Kattints a Konfigurálás > Helyi Kezelt Szerverre, válaszd ki a GPU-dat vagy CPU-dat, válaszd ki a "
-"modellt a Munka terhelésekben, és kattints a Telepítésre."
-msgid ""
-"Ollama server is running.\\n"
-"Address: http://localhost:11434"
-msgstr ""
-"Ollama szerver fut.\\n"
-"Cím: http://localhost:11434"
-msgid "Ollama Install"
-msgstr "Ollama Telepítés"
-msgid "Ollama Uninstall"
-msgstr "Ollama eltávolítása"
-msgid "Unistaling Ollama, Please wait..."
-msgstr "Ollama eltávolítása, Kérem várjon..."
-msgid "Ollama installed successfully!"
-msgstr "Az Ollama sikeresen telepítve!"
-msgid "Failed to install Ollama!"
-msgstr "Ollama telepítése nem sikerült!"
-msgid "Ollama ROCm Install"
-msgstr "Ollama ROCm Telepítés"
-msgid "Instaling Ollama ROCm, Please wait..."
-msgstr "Ollama ROCm telepítése, kérem várjon..."
-msgid "Ollama ROCm Uninstall"
-msgstr "Ollama ROCm eltávolítása"
-msgid "Unistaling Ollama ROCm, Please wait..."
-msgstr "Ollama ROCm eltávolítása, Kérem várjon..."
-msgid "Ollama ROCm installed successfully!"
-msgstr "Ollama ROCm sikeresen telepítve!"
-msgid "Failed to install Ollama ROCm!"
-msgstr "Ollama ROCm telepítése nem sikerült!"
-msgid "comfyUI Install...."
-msgstr "comfyUI telepítése...."
-msgid "Instaling comfyUI, this step take a long time, Please wait..."
-msgstr "A ComfyUI telepítése, ez a lépés sokáig tart, Kérjük, várjon..."
-msgid "Uninstall comfyUI...."
-msgstr "Távolítsa el a comfyUI-t...."
-msgid "Uninstaling comfyUI, Please wait..."
-msgstr "A ComfyUI eltávolítása, Kérem, várjon..."
-msgid "comfyUI installed successfully"
-msgstr "A comfyUI sikeresen telepítve lett."
-msgid "comfyUI uninstalled successfully"
-msgstr "A comfyUI sikeresen eltávolítva."
-msgid "Failed to install comfyUI!"
-msgstr "A comfyUI telepítése nem sikerült!"
-msgid "AMD/Nvidia GPU not found!"
-msgstr "AMD/Nvidia GPU nem található!"
-msgid ""
-"Ollama shared successfully.\\n"
-"Address: http://$localIp:11434"
-msgstr ""
-"Ollama megosztva. \\n"
-"Cím: http://$localIp:11434"
-msgid "Failed to shared Ollama!"
-msgstr "Sikertelen az Ollama megosztása!"
-msgid "Ollama CUDA Install"
-msgstr "Ollama CUDA telepítése"
-msgid "Instaling Ollama CUDA, Please wait..."
-msgstr "Ollama CUDA telepítése, Kérem várjon..."
-msgid "Ollama CUDA Uninstall"
-msgstr "Ollama CUDA eltávolítása"
-msgid "Unistaling Ollama CUDA, Please wait..."
-msgstr "Ollama CUDA eltávolítása, kérem várjon..."
-msgid "Ollama CUDA installed successfully!"
-msgstr "Ollama CUDA sikeresen telepítve!"
-msgid "Failed to install Ollama CUDA!"
-msgstr "Ollama CUDA telepítése nem sikerült!"
-msgid "LM Studio Install"
-msgstr "LM Stúdió Telepítés"
-msgid "Instaling LM Studio, Please wait..."
-msgstr "LM Studio telepítése, kérem várjon..."
-msgid "LM Studio Uninstall"
-msgstr "LM Stúdió Eltávolítása"
-msgid "Uninstaling LM Studio, Please wait..."
-msgstr "LM Studio eltávolítása, Kérem, várjon..."
-msgid "LM Studio installed successfully!"
-msgstr "Az LM Studio sikeresen telepítve!"
-msgid "Failed to install LM Studio!"
-msgstr "A LM Studio telepítése nem sikerült!"
-msgid "Krita Install"
-msgstr "Krita telepítése"
-msgid "Instaling Krita, Please wait..."
-msgstr "Krita telepítése, Kérem várjon..."
-msgid "Krita Uninstall"
-msgstr "Krita eltávolítása"
-msgid "Uninstaling Krita, Please wait..."
-msgstr "Krita eltávolítása, Kérem várjon..."
-msgid "Krita installed successfully!"
-msgstr "A Krita sikeresen telepítve lett!"
-msgid "Failed to install Krita!"
-msgstr "A Krita telepítése nem sikerült!"
-msgid "comfyUI Depends Install"
-msgstr "comfyUI Függőségek Telepítése"
-msgid "Instaling comfyUI Depends, Please wait..."
-msgstr "A comfyUI telepítése függőségeket igényel, kérem várjon..."
-msgid "comfyUI Depends installed successfully!"
-msgstr "comfyUI függőségek sikeresen telepítve!"
-msgid "Failed to install comfyUI Depends!"
-msgstr "A comfyUI telepítése meghiúsult!"
 # 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_usability_page.py, line: 204
-msgid "Docker"
-msgstr "Docker"
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 107
+msgid "Usability"
+msgstr "Használhatóság"
 # 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/docker_page.py, line: 15
-msgid "Container service - enable to use containers below."
-msgstr "Konténer szolgáltatás - engedélyezze a konténerek használatát az alábbiakban."
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_usability_page.py, line: 14
+msgid "User and Visual system settings."
+msgstr "Felhasználói és vizuális rendszerbeállítások."
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 114
+msgid "NumLock"
+msgstr "NumLock"
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 115
+msgid "Initial NumLock state. Ignored if autologin is enabled."
+msgstr "Kezdő NumLock állapot. Figyelmen kívül hagyva, ha az automatikus bejelentkezés engedélyezve van."
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 131
+msgid "Window Button On Left Side"
+msgstr "Ablak gomb bal oldalon"
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 132
+msgid "Maximize, minimize, and close buttons on the left side of the window."
+msgstr "Ablak bal oldalán található maximalizálás, minimalizálás és bezárás gombok."
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_usability_page.py, line: 72
+msgid "KZones"
+msgstr "KZones"
 # 
 # #-#-#-#-#  biglinux-settings.pot (biglinux-settings)  #-#-#-#-#
 # 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 137
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/containers_page.py, line: 18
-msgid "Containers"
-msgstr "Tartályok"
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/ai_page.py, line: 32
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_usability_page.py, line: 50
+msgid "Script for the KWin window manager of the KDE Plasma desktop environment."
+msgstr "A KWin ablakkezelőhöz készült script a KDE Plasma asztali környezethez."
 # 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/docker_page.py, line: 23
-msgid "Manage container technologies."
-msgstr "Kezelje a konténertechnológiákat."
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_usability_page.py, line: 169
+msgid "Recent Files & Locations"
+msgstr "Legutóbbi fájlok és helyek"
 # 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_usability_page.py, line: 205
-msgid "Docker Enabled."
-msgstr "Docker engedélyezve."
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/containers_page.py, line: 35
-msgid "Nextcloud Plus"
-msgstr "Nextcloud Plus"
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/docker_page.py, line: 45
-msgid "Install Nextcloud Plus container."
-msgstr "Telepítse a Nextcloud Plus konténert."
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/docker_page.py, line: 52
-msgid "Run Nextcloud Plus."
-msgstr "Futtassa a Nextcloud Plus-t."
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/docker_page.py, line: 48
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_usability_page.py, line: 170
 msgid ""
-"Nextcloud Plus is running.\n"
-"Address: http://localhost:8286\n"
-"and\n"
-"Address: http://{}:8286"
+"Restores the 'Recent Files' and 'Recent Locations' functionality that appears empty in Dolphin and "
+"the Application Menu."
 msgstr ""
-"A Nextcloud Plus fut.  \n"
-"Cím: http://localhost:8286  \n"
-"és  \n"
-"Cím: http://{}:8286"
+"Visszaállítja a 'Legutóbbi fájlok' és 'Legutóbbi helyek' funkciót, amely üresen jelenik meg a "
+"Dolphinban és az Alkalmazásmenüben."
 # 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/containers_page.py, line: 44
-msgid "AdGuard"
-msgstr "AdGuard"
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 108
+msgid "System"
+msgstr "Rendszer"
 # 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/docker_page.py, line: 64
-msgid "Install AdGuard Home container."
-msgstr "Telepítse az AdGuard Home konténert."
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_page.py, line: 26
+msgid "General system settings."
+msgstr "Általános rendszerbeállítások."
 # 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/docker_page.py, line: 71
-msgid "Run AdGuard."
-msgstr "Futtasd az AdGuardot."
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_page.py, line: 21
+msgid "SSH"
+msgstr "SSH"
 # 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/docker_page.py, line: 57
-msgid ""
-"AdGuard is running.\n"
-"Address: http://localhost:3030\n"
-"and\n"
-"Address: http://{}:3030"
-msgstr ""
-"Az AdGuard fut.  \n"
-"Cím: http://localhost:3030  \n"
-"és  \n"
-"Cím: http://{}:3030"
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_page.py, line: 22
+msgid "Enable remote access via ssh."
+msgstr "Engedélyezze a távoli hozzáférést ssh-n keresztül."
 # 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/containers_page.py, line: 71
-msgid "Jellyfin"
-msgstr "Jellyfin"
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_page.py, line: 27
+msgid "SSH Address: {}"
+msgstr "SSH cím: {}"
 # 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/docker_page.py, line: 79
-msgid "Install Jellyfin media server."
-msgstr "Telepítse a Jellyfin média szervert."
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_usability_page.py, line: 147
+msgid "SSH always on"
+msgstr "SSH mindig be van kapcsolva"
 # 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/docker_page.py, line: 90
-msgid "Run Jellyfin."
-msgstr "Futtasd a Jellyfint."
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 149
+msgid "Turn on ssh remote access at boot."
+msgstr "Kapcsolja be az SSH távoli hozzáférést indításkor."
 # 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/docker_page.py, line: 75
-msgid ""
-"Jellyfin is running.\n"
-"Address: http://localhost:8096\n"
-"and\n"
-"Address: http://{}:8096"
-msgstr ""
-"A Jellyfin fut.  \n"
-"Cím: http://localhost:8096  \n"
-"és  \n"
-"Cím: http://{}:8096"
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 162
+msgid "Fast Grub"
+msgstr "Gyors Grub"
 # 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/containers_page.py, line: 80
-msgid "LAMP"
-msgstr "LAMP"
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 163
+msgid "Decreases grub display time."
+msgstr "Csökkenti a grub megjelenítési időt."
 # 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/docker_page.py, line: 102
-msgid "Install LAMP stack (Linux, Apache, MySQL, PHP)."
-msgstr "Telepítse a LAMP stack-et (Linux, Apache, MySQL, PHP)."
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 170
+msgid "Auto-mount Partitions"
+msgstr "Automatikus csatolás partíciók"
 # 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/docker_page.py, line: 109
-msgid "Run LAMP."
-msgstr "Futtassa a LAMP-ot."
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/docker_page.py, line: 84
-msgid ""
-"LAMP is running.\n"
-"Address: http://localhost:8080\n"
-"and\n"
-"Address: http://{}:8080"
-msgstr ""
-"A LAMP fut.  \n"
-"Cím: http://localhost:8080  \n"
-"és  \n"
-"Cím: http://{}:8080"
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/containers_page.py, line: 89
-msgid "Portainer Client"
-msgstr "Portainer kliens"
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/docker_page.py, line: 121
-msgid "Install Portainer Agent for cluster management."
-msgstr "Telepítse a Portainer ügynököt a klaszter kezeléséhez."
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/docker_page.py, line: 128
-msgid "Run Portainer Client."
-msgstr "Futtassa a Portainer Klienst."
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/docker_page.py, line: 93
-msgid ""
-"Portainer Client is running.\n"
-"Address: http://localhost:9000\n"
-"and\n"
-"Address: http://{}:9000"
-msgstr ""
-"A Portainer kliens fut.\n"
-"Cím: http://localhost:9000\n"
-"és\n"
-"Cím: http://{}:9000"
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/containers_page.py, line: 98
-msgid "SWS"
-msgstr "SWS"
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/docker_page.py, line: 140
-msgid "Install SWS static web server."
-msgstr "Telepítse az SWS statikus webszervert."
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/docker_page.py, line: 147
-msgid "Run SWS."
-msgstr "Futtassa az SWS-t."
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/docker_page.py, line: 102
-msgid ""
-"SWS is running.\n"
-"Address: http://localhost:8182\n"
-"and\n"
-"Address: http://{}:8182"
-msgstr ""
-"A SWS fut.  \n"
-"Cím: http://localhost:8182  \n"
-"és  \n"
-"Cím: http://{}:8182"
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/containers_page.py, line: 107
-msgid "V2RayA"
-msgstr "V2RayA"
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/docker_page.py, line: 159
-msgid "Install V2RayA network tool."
-msgstr "Telepítse a V2RayA hálózati eszközt."
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/docker_page.py, line: 166
-msgid "Run V2RayA."
-msgstr "Futtassa a V2RayA-t."
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/docker_page.py, line: 111
-msgid ""
-"V2RayA is running.\n"
-"Address: http://localhost:2017\n"
-"and\n"
-"Address: http://{}:2017"
-msgstr ""
-"A V2RayA fut.  \n"
-"Cím: http://localhost:2017  \n"
-"és  \n"
-"Cím: http://{}:2017"
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/docker_page.py, line: 178
-msgid "Install An open source, privacy-focused alternative to Google's Notebook LM!"
-msgstr ""
-"Telepítés Egy nyílt forráskódú, adatvédelmi szempontból orientált alternatíva a Google Notebook "
-"LM-hez!"
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/docker_page.py, line: 185
-msgid "Run Open Notebook."
-msgstr "Futtassa az Open Notebook-ot."
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/docker_page.py, line: 190
-msgid ""
-"Open Notebook is running.\n"
-"Address: http://localhost:8502\n"
-"and\n"
-"Address: http://{}:8502"
-msgstr ""
-"Az Open Notebook fut.  \n"
-"Cím: http://localhost:8502  \n"
-"és  \n"
-"Cím: http://{}:8502"
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 244
-msgid "Changing {} to {}"
-msgstr "A {} átkonvertálása {}-ra"
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 271
-msgid "ERROR: Failed to change {} to {}"
-msgstr "HIBA: A {}-t {}-ra nem sikerült megváltoztatni."
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 274
-msgid "Failed to change setting: {}"
-msgstr "A beállítás módosítása nem sikerült: {}"
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 171
+msgid "Auto mount partitions in internal disks on boot."
+msgstr "Automatikus partíciók csatolása a belső lemezeken indításkor."
 # 
 # #-#-#-#-#  biglinux-settings.pot (biglinux-settings)  #-#-#-#-#
 # 
@@ -587,35 +453,17 @@ msgstr "Váltás {} szinkronizált: {}"
 msgid "Indicator {} synchronized: {}"
 msgstr "A {} szinkronizálva: {}"
 # 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 49
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 120
-msgid "BigLinux Settings"
-msgstr "BigLinux Beállítások"
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 244
+msgid "Changing {} to {}"
+msgstr "A {} átkonvertálása {}-ra"
 # 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 135
-msgid "Categories"
-msgstr "Kategóriák"
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 271
+msgid "ERROR: Failed to change {} to {}"
+msgstr "HIBA: A {}-t {}-ra nem sikerült megváltoztatni."
 # 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 144
-msgid "Search..."
-msgstr "Keresés..."
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/devices/keyboard_led_dialog.py, line: 249
-msgid "Settings"
-msgstr "Beállítások"
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 108
-msgid "System"
-msgstr "Rendszer"
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 107
-msgid "Usability"
-msgstr "Használhatóság"
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 158
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 167
-msgid "PreLoad"
-msgstr "Előbetöltés"
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 274
+msgid "Failed to change setting: {}"
+msgstr "A beállítás módosítása nem sikerült: {}"
 # 
 # #-#-#-#-#  biglinux-settings.pot (biglinux-settings)  #-#-#-#-#
 # 
@@ -624,53 +472,70 @@ msgstr "Előbetöltés"
 msgid "Devices"
 msgstr "Eszközök"
 # 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/devices_page.py, line: 15
+msgid "Manage physical devices."
+msgstr "Fizikai eszközök kezelése."
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_usability_page.py, line: 190
+msgid "Wifi"
+msgstr "Wifi"
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_usability_page.py, line: 191
+msgid "Wifi On"
+msgstr "Wifi Bekapcsolva"
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_usability_page.py, line: 197
+msgid "Bluetooth"
+msgstr "Bluetooth"
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_usability_page.py, line: 198
+msgid "Bluetooth On."
+msgstr "Bluetooth be van kapcsolva."
+# 
+# #-#-#-#-#  biglinux-settings.pot (biglinux-settings)  #-#-#-#-#
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/dispositivos_page.py, line: 77
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/devices/jamesdsp_dialog.py, line: 155
+msgid "JamesDSP"
+msgstr "JamesDSP"
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/dispositivos_page.py, line: 84
+msgid "Advanced audio effects processor that improves sound quality."
+msgstr "Fejlett audioeffektus-processzor, amely javítja a hangminőséget."
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/devices_page.py, line: 71
+msgid "Reverse mouse scrolling"
+msgstr "Fordított egér görgetés"
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/devices_page.py, line: 72
+msgid "Reverse mouse scrolling without restarting the session."
+msgstr "Az egér görgetésének megfordítása a munkamenet újraindítása nélkül."
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 49
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 120
+msgid "BigLinux Settings"
+msgstr "BigLinux Beállítások"
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 144
+msgid "Search..."
+msgstr "Keresés..."
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 158
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 167
+msgid "PreLoad"
+msgstr "Előbetöltés"
+# 
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 161
 msgid "A.I."
 msgstr "Mesterséges intelligencia."
 # 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_usability_page.py, line: 204
+msgid "Docker"
+msgstr "Docker"
+# 
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings/usability/gamemode_dialog.py, line: 204
 msgid "Performance"
 msgstr "Teljesítmény"
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_page.py, line: 26
-msgid "General system settings."
-msgstr "Általános rendszerbeállítások."
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_page.py, line: 21
-msgid "SSH"
-msgstr "SSH"
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_page.py, line: 22
-msgid "Enable remote access via ssh."
-msgstr "Engedélyezze a távoli hozzáférést ssh-n keresztül."
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_page.py, line: 27
-msgid "SSH Address: {}"
-msgstr "SSH cím: {}"
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_usability_page.py, line: 147
-msgid "SSH always on"
-msgstr "SSH mindig be van kapcsolva"
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 149
-msgid "Turn on ssh remote access at boot."
-msgstr "Kapcsolja be az SSH távoli hozzáférést indításkor."
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 162
-msgid "Fast Grub"
-msgstr "Gyors Grub"
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 163
-msgid "Decreases grub display time."
-msgstr "Csökkenti a grub megjelenítési időt."
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 170
-msgid "Auto-mount Partitions"
-msgstr "Automatikus csatolás partíciók"
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 171
-msgid "Auto mount partitions in internal disks on boot."
-msgstr "Automatikus partíciók csatolása a belső lemezeken indításkor."
 # 
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings/preload_page.py, line: 103
 msgid "Preload"
@@ -711,45 +576,6 @@ msgstr "Opera"
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings/preload_page.py, line: 156
 msgid "Libreoffice"
 msgstr "LibreOffice"
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/devices_page.py, line: 15
-msgid "Manage physical devices."
-msgstr "Fizikai eszközök kezelése."
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_usability_page.py, line: 190
-msgid "Wifi"
-msgstr "Wifi"
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_usability_page.py, line: 191
-msgid "Wifi On"
-msgstr "Wifi Bekapcsolva"
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_usability_page.py, line: 197
-msgid "Bluetooth"
-msgstr "Bluetooth"
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_usability_page.py, line: 198
-msgid "Bluetooth On."
-msgstr "Bluetooth be van kapcsolva."
-# 
-# #-#-#-#-#  biglinux-settings.pot (biglinux-settings)  #-#-#-#-#
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/dispositivos_page.py, line: 77
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/devices/jamesdsp_dialog.py, line: 155
-msgid "JamesDSP"
-msgstr "JamesDSP"
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/dispositivos_page.py, line: 84
-msgid "Advanced audio effects processor that improves sound quality."
-msgstr "Fejlett audioeffektus-processzor, amely javítja a hangminőséget."
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/devices_page.py, line: 71
-msgid "Reverse mouse scrolling"
-msgstr "Fordított egér görgetés"
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/devices_page.py, line: 72
-msgid "Reverse mouse scrolling without restarting the session."
-msgstr "Az egér görgetésének megfordítása a munkamenet újraindítása nélkül."
 # 
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings/performance_games_page.py, line: 16
 msgid "BigLinux performance tweaks."
@@ -965,45 +791,211 @@ msgstr ""
 "Helyi AI szerver. Újabb AMD GPU-khoz, a 6000 sorozattól kezdődően. Fontolja meg a Vulkan "
 "használatát, sok tesztben a Vulkan jobban teljesített, mint a ROCm."
 # 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_usability_page.py, line: 14
-msgid "User and Visual system settings."
-msgstr "Felhasználói és vizuális rendszerbeállítások."
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 114
-msgid "NumLock"
-msgstr "NumLock"
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 115
-msgid "Initial NumLock state. Ignored if autologin is enabled."
-msgstr "Kezdő NumLock állapot. Figyelmen kívül hagyva, ha az automatikus bejelentkezés engedélyezve van."
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 131
-msgid "Window Button On Left Side"
-msgstr "Ablak gomb bal oldalon"
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 132
-msgid "Maximize, minimize, and close buttons on the left side of the window."
-msgstr "Ablak bal oldalán található maximalizálás, minimalizálás és bezárás gombok."
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_usability_page.py, line: 72
-msgid "KZones"
-msgstr "KZones"
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/docker_page.py, line: 15
+msgid "Container service - enable to use containers below."
+msgstr "Konténer szolgáltatás - engedélyezze a konténerek használatát az alábbiakban."
 # 
 # #-#-#-#-#  biglinux-settings.pot (biglinux-settings)  #-#-#-#-#
 # 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/ai_page.py, line: 32
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_usability_page.py, line: 50
-msgid "Script for the KWin window manager of the KDE Plasma desktop environment."
-msgstr "A KWin ablakkezelőhöz készült script a KDE Plasma asztali környezethez."
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 137
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/containers_page.py, line: 18
+msgid "Containers"
+msgstr "Tartályok"
 # 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_usability_page.py, line: 169
-msgid "Recent Files & Locations"
-msgstr "Legutóbbi fájlok és helyek"
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/docker_page.py, line: 23
+msgid "Manage container technologies."
+msgstr "Kezelje a konténertechnológiákat."
 # 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_usability_page.py, line: 170
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_usability_page.py, line: 205
+msgid "Docker Enabled."
+msgstr "Docker engedélyezve."
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/containers_page.py, line: 35
+msgid "Nextcloud Plus"
+msgstr "Nextcloud Plus"
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/docker_page.py, line: 45
+msgid "Install Nextcloud Plus container."
+msgstr "Telepítse a Nextcloud Plus konténert."
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/docker_page.py, line: 52
+msgid "Run Nextcloud Plus."
+msgstr "Futtassa a Nextcloud Plus-t."
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/docker_page.py, line: 48
 msgid ""
-"Restores the 'Recent Files' and 'Recent Locations' functionality that appears empty in Dolphin and "
-"the Application Menu."
+"Nextcloud Plus is running.\n"
+"Address: http://localhost:8286\n"
+"and\n"
+"Address: http://{}:8286"
 msgstr ""
-"Visszaállítja a 'Legutóbbi fájlok' és 'Legutóbbi helyek' funkciót, amely üresen jelenik meg a "
-"Dolphinban és az Alkalmazásmenüben."
+"A Nextcloud Plus fut.  \n"
+"Cím: http://localhost:8286  \n"
+"és  \n"
+"Cím: http://{}:8286"
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/containers_page.py, line: 44
+msgid "AdGuard"
+msgstr "AdGuard"
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/docker_page.py, line: 64
+msgid "Install AdGuard Home container."
+msgstr "Telepítse az AdGuard Home konténert."
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/docker_page.py, line: 71
+msgid "Run AdGuard."
+msgstr "Futtasd az AdGuardot."
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/docker_page.py, line: 57
+msgid ""
+"AdGuard is running.\n"
+"Address: http://localhost:3030\n"
+"and\n"
+"Address: http://{}:3030"
+msgstr ""
+"Az AdGuard fut.  \n"
+"Cím: http://localhost:3030  \n"
+"és  \n"
+"Cím: http://{}:3030"
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/containers_page.py, line: 71
+msgid "Jellyfin"
+msgstr "Jellyfin"
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/docker_page.py, line: 79
+msgid "Install Jellyfin media server."
+msgstr "Telepítse a Jellyfin média szervert."
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/docker_page.py, line: 90
+msgid "Run Jellyfin."
+msgstr "Futtasd a Jellyfint."
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/docker_page.py, line: 75
+msgid ""
+"Jellyfin is running.\n"
+"Address: http://localhost:8096\n"
+"and\n"
+"Address: http://{}:8096"
+msgstr ""
+"A Jellyfin fut.  \n"
+"Cím: http://localhost:8096  \n"
+"és  \n"
+"Cím: http://{}:8096"
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/containers_page.py, line: 80
+msgid "LAMP"
+msgstr "LAMP"
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/docker_page.py, line: 102
+msgid "Install LAMP stack (Linux, Apache, MySQL, PHP)."
+msgstr "Telepítse a LAMP stack-et (Linux, Apache, MySQL, PHP)."
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/docker_page.py, line: 109
+msgid "Run LAMP."
+msgstr "Futtassa a LAMP-ot."
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/docker_page.py, line: 84
+msgid ""
+"LAMP is running.\n"
+"Address: http://localhost:8080\n"
+"and\n"
+"Address: http://{}:8080"
+msgstr ""
+"A LAMP fut.  \n"
+"Cím: http://localhost:8080  \n"
+"és  \n"
+"Cím: http://{}:8080"
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/containers_page.py, line: 89
+msgid "Portainer Client"
+msgstr "Portainer kliens"
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/docker_page.py, line: 121
+msgid "Install Portainer Agent for cluster management."
+msgstr "Telepítse a Portainer ügynököt a klaszter kezeléséhez."
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/docker_page.py, line: 128
+msgid "Run Portainer Client."
+msgstr "Futtassa a Portainer Klienst."
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/docker_page.py, line: 93
+msgid ""
+"Portainer Client is running.\n"
+"Address: http://localhost:9000\n"
+"and\n"
+"Address: http://{}:9000"
+msgstr ""
+"A Portainer kliens fut.\n"
+"Cím: http://localhost:9000\n"
+"és\n"
+"Cím: http://{}:9000"
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/containers_page.py, line: 98
+msgid "SWS"
+msgstr "SWS"
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/docker_page.py, line: 140
+msgid "Install SWS static web server."
+msgstr "Telepítse az SWS statikus webszervert."
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/docker_page.py, line: 147
+msgid "Run SWS."
+msgstr "Futtassa az SWS-t."
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/docker_page.py, line: 102
+msgid ""
+"SWS is running.\n"
+"Address: http://localhost:8182\n"
+"and\n"
+"Address: http://{}:8182"
+msgstr ""
+"A SWS fut.  \n"
+"Cím: http://localhost:8182  \n"
+"és  \n"
+"Cím: http://{}:8182"
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/containers_page.py, line: 107
+msgid "V2RayA"
+msgstr "V2RayA"
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/docker_page.py, line: 159
+msgid "Install V2RayA network tool."
+msgstr "Telepítse a V2RayA hálózati eszközt."
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/docker_page.py, line: 166
+msgid "Run V2RayA."
+msgstr "Futtassa a V2RayA-t."
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/docker_page.py, line: 111
+msgid ""
+"V2RayA is running.\n"
+"Address: http://localhost:2017\n"
+"and\n"
+"Address: http://{}:2017"
+msgstr ""
+"A V2RayA fut.  \n"
+"Cím: http://localhost:2017  \n"
+"és  \n"
+"Cím: http://{}:2017"
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/docker_page.py, line: 178
+msgid "Install An open source, privacy-focused alternative to Google's Notebook LM!"
+msgstr ""
+"Telepítés Egy nyílt forráskódú, adatvédelmi szempontból orientált alternatíva a Google Notebook "
+"LM-hez!"
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/docker_page.py, line: 185
+msgid "Run Open Notebook."
+msgstr "Futtassa az Open Notebook-ot."
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/docker_page.py, line: 190
+msgid ""
+"Open Notebook is running.\n"
+"Address: http://localhost:8502\n"
+"and\n"
+"Address: http://{}:8502"
+msgstr ""
+"Az Open Notebook fut.  \n"
+"Cím: http://localhost:8502  \n"
+"és  \n"
+"Cím: http://{}:8502"
