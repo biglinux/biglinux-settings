@@ -463,7 +463,7 @@ msgstr "Failed to install comfyUI Depends!"
 #
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings/docker_page.py, line: 18
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings/docker_page.py, line: 34
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 264
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 249
 msgid "Docker"
 msgstr "Docker"
 
@@ -718,50 +718,50 @@ msgstr ""
 #
 # #-#-#-#-#  biglinux-settings.pot (biglinux-settings)  #-#-#-#-#
 #
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/docker_page.py, line: 271
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/base_page.py, line: 421
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/docker_page.py, line: 268
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/base_page.py, line: 440
 msgid "Changing {} to {}"
 msgstr "Changing {} to {}"
 
 #
 # #-#-#-#-#  biglinux-settings.pot (biglinux-settings)  #-#-#-#-#
 #
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/docker_page.py, line: 284
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/base_page.py, line: 435
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/docker_page.py, line: 281
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/base_page.py, line: 454
 msgid "ERROR: Failed to change {} to {}"
 msgstr "ERROR: Failed to change {} to {}"
 
 #
 # #-#-#-#-#  biglinux-settings.pot (biglinux-settings)  #-#-#-#-#
 #
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/docker_page.py, line: 289
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/base_page.py, line: 439
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/docker_page.py, line: 286
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/base_page.py, line: 458
 msgid "Failed to change setting: {}"
 msgstr "Failed to change setting: {}"
 
 #
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/base_page.py, line: 242
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/base_page.py, line: 194
 msgid "Unavailable: script not found."
 msgstr "Unavailable: script not found."
 
 #
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/base_page.py, line: 243
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/base_page.py, line: 287
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/base_page.py, line: 195
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/base_page.py, line: 239
 msgid "Script not found: {}"
 msgstr "Script not found: {}"
 
 #
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/base_page.py, line: 253
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/base_page.py, line: 205
 msgid "Enabled"
 msgstr "Enabled"
 
 #
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/base_page.py, line: 255
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/base_page.py, line: 207
 msgid "Disabled"
 msgstr "Disabled"
 
 #
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/base_page.py, line: 261
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/base_page.py, line: 213
 msgid ""
 "Enabled by system configuration (e.g., Real-Time Kernel) and cannot be "
 "changed here."
@@ -770,91 +770,81 @@ msgstr ""
 "changed here."
 
 #
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/base_page.py, line: 265
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/base_page.py, line: 217
 msgid "Unavailable: script returned invalid output."
 msgstr "Unavailable: script returned invalid output."
 
 #
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/base_page.py, line: 267
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/base_page.py, line: 219
 msgid "output from script {}: {}"
 msgstr "output from script {}: {}"
 
 #
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/base_page.py, line: 273
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/base_page.py, line: 225
 msgid "Unavailable: script returned an error."
 msgstr "Unavailable: script returned an error."
 
 #
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/base_page.py, line: 274
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/base_page.py, line: 226
 msgid "Error checking state: {}"
 msgstr "Error checking state: {}"
 
 #
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/base_page.py, line: 277
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/base_page.py, line: 229
 msgid "Unavailable: failed to run script."
 msgstr "Unavailable: failed to run script."
 
 #
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/base_page.py, line: 278
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/base_page.py, line: 327
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/base_page.py, line: 230
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/base_page.py, line: 279
 msgid "Error running script {}: {}"
 msgstr "Error running script {}: {}"
 
 #
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/base_page.py, line: 303
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/base_page.py, line: 255
 msgid "State changed successfully"
 msgstr "State changed successfully"
 
 #
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/base_page.py, line: 305
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/base_page.py, line: 257
 msgid "Script output: {}"
 msgstr "Script output: {}"
 
 #
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/base_page.py, line: 309
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/base_page.py, line: 261
 msgid "Script failed with exit code: {}"
 msgstr "Script failed with exit code: {}"
 
 #
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/base_page.py, line: 323
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/base_page.py, line: 275
 msgid "Script timeout: {}"
 msgstr "Script timeout: {}"
 
 #
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/base_page.py, line: 372
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/base_page.py, line: 391
 msgid "Switch {} synchronized: {}"
 msgstr "Switch {} synchronized: {}"
 
 #
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/base_page.py, line: 401
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/base_page.py, line: 420
 msgid "Indicator {} synchronized: {}"
 msgstr "Indicator {} synchronized: {}"
 
 #
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 52
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 158
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 54
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 134
 msgid "BigLinux Settings"
 msgstr "BigLinux Settings"
 
 #
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 173
-msgid "Categories"
-msgstr "Categories"
-
-#
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 182
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 171
 msgid "Search..."
 msgstr "Search..."
 
 #
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 228
-msgid "Settings"
-msgstr "Settings"
-
-#
 # #-#-#-#-#  biglinux-settings.pot (biglinux-settings)  #-#-#-#-#
 #
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 234
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 219
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_page.py, line: 14
 msgid "System"
 msgstr "System"
@@ -862,33 +852,33 @@ msgstr "System"
 #
 # #-#-#-#-#  biglinux-settings.pot (biglinux-settings)  #-#-#-#-#
 #
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 240
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 225
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings/usability_page.py, line: 12
 msgid "Usability"
 msgstr "Usability"
 
 #
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 246
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 231
 msgid "PreLoad"
 msgstr "PreLoad"
 
 #
 # #-#-#-#-#  biglinux-settings.pot (biglinux-settings)  #-#-#-#-#
 #
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 252
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 237
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings/devices_page.py, line: 13
 msgid "Devices"
 msgstr "Devices"
 
 #
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 258
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 243
 msgid "A.I."
 msgstr "A.I."
 
 #
 # #-#-#-#-#  biglinux-settings.pot (biglinux-settings)  #-#-#-#-#
 #
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 270
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 255
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings/performance_page.py, line: 15
 msgid "Performance"
 msgstr "Performance"

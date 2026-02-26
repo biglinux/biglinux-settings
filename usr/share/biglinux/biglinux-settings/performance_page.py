@@ -111,5 +111,3 @@ class PerformancePage(BaseSettingsPage):
         # #     "gamemode-daemon-symbolic",
         # #     gameMode
         # # )
-
-        self.sync_all_switches()

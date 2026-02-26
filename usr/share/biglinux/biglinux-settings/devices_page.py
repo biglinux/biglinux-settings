@@ -60,6 +60,3 @@ class DevicesPage(BaseSettingsPage):
             "reverse-mouse_scroll",
             "reverse-mouse_scroll-symbolic"
         )
-
-        # Syncs
-        self.sync_all_switches()

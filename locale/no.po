@@ -14,14 +14,216 @@ msgstr ""
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "X-Generator: attranslate\n"
-msgid "kzones Install"
-msgstr "kzones Installasjon"
-msgid "Instaling Kzones, Please wait..."
-msgstr "Installerer Kzones, vennligst vent..."
-msgid "Kzones installed successfully!"
-msgstr "Kzones installert med suksess!"
+msgid "Ollama Install"
+msgstr "Ollama Installer"
+msgid "Instaling Ollama, Please wait..."
+msgstr "Installerer Ollama, vennligst vent..."
+msgid "Ollama Uninstall"
+msgstr "Ollama Avinstaller"
+msgid "Unistaling Ollama, Please wait..."
+msgstr "Avinstallerer Ollama, Vennligst vent..."
+msgid "Ollama installed successfully!"
+msgstr "Ollama installert vellykket!"
+msgid "Failed to install Ollama!"
+msgstr "Feil ved installasjon av Ollama!"
+msgid ""
+"Ollama server is running.\\n"
+"Address: http://localhost:11434"
+msgstr ""
+"Ollama-server kjører.\\n"
+"Adresse: http://localhost:11434"
+msgid "LM Studio Install"
+msgstr "LM Studio Installer"
+msgid "Instaling LM Studio, Please wait..."
+msgstr "Installerer LM Studio, vennligst vent..."
+msgid "LM Studio Uninstall"
+msgstr "LM Studio Avinstaller"
+msgid "Uninstaling LM Studio, Please wait..."
+msgstr "Avinstallerer LM Studio, Vennligst vent..."
+msgid "LM Studio installed successfully!"
+msgstr "LM Studio installert vellykket!"
+msgid "Failed to install LM Studio!"
+msgstr "Feil ved installasjon av LM Studio!"
+msgid "ChatBox Install"
+msgstr "ChatBox Installasjon"
+msgid "Instaling ChatBox, Please wait..."
+msgstr "Installerer ChatBox, Vennligst vent..."
+msgid "ChatBox Uninstall"
+msgstr "Avinstaller ChatBox"
+msgid "Uninstaling ChatBox, Please wait..."
+msgstr "Avinstallerer ChatBox, vennligst vent..."
+msgid "ChatBox installed successfully!"
+msgstr "ChatBox installert med suksess!"
+msgid "Failed to install ChatBox!"
+msgstr "Feilet å installere ChatBox!"
+msgid "Ollama Vulkan Install"
+msgstr "Ollama Vulkan-installasjon"
+msgid "Ollama Vulkan Uninstall"
+msgstr "Ollama Vulkan Avinstaller"
+msgid "Unistaling Ollama Vulkan, Please wait..."
+msgstr "Avinstallerer Ollama Vulkan, Vennligst vent..."
+msgid "Ollama Vulkan installed successfully!"
+msgstr "Ollama Vulkan ble installert med suksess!"
+msgid "Failed to install Ollama Vulkan!"
+msgstr "Feil ved installasjon av Ollama Vulkan!"
+msgid "Ollama CUDA Install"
+msgstr "Ollama CUDA-installasjon"
+msgid "Instaling Ollama CUDA, Please wait..."
+msgstr "Installerer Ollama CUDA, vennligst vent..."
+msgid "Ollama CUDA Uninstall"
+msgstr "Ollama CUDA Avinstaller"
+msgid "Unistaling Ollama CUDA, Please wait..."
+msgstr "Avinstallerer Ollama CUDA, Vennligst vent..."
+msgid "Ollama CUDA installed successfully!"
+msgstr "Ollama CUDA installert vellykket!"
+msgid "Failed to install Ollama CUDA!"
+msgstr "Feil ved installasjon av Ollama CUDA!"
+msgid ""
+"Ollama shared successfully.\\n"
+"Address: http://$localIp:11434"
+msgstr ""
+"Ollama delt vellykket.\\n"
+"Adresse: http://$localIp:11434"
+msgid "Failed to shared Ollama!"
+msgstr "Mislyktes med å dele Ollama!"
+msgid "comfyUI Depends Install"
+msgstr "comfyUI Avhengigheter Installer"
+msgid "Instaling comfyUI Depends, Please wait..."
+msgstr "Installerer comfyUI-avhengigheter, vennligst vent..."
+msgid "comfyUI Depends installed successfully!"
+msgstr "comfyUI Avhengigheter installert med suksess!"
+msgid "Failed to install comfyUI Depends!"
+msgstr "Feilet å installere comfyUI avhengigheter!"
+msgid "AMD/Nvidia GPU not found!"
+msgstr "AMD/Nvidia GPU ikke funnet!"
+msgid "Krita Install"
+msgstr "Krita-installasjon"
+msgid "Instaling Krita, Please wait..."
+msgstr "Installerer Krita, vennligst vent..."
+msgid "Krita Uninstall"
+msgstr "Avinstaller Krita"
+msgid "Uninstaling Krita, Please wait..."
+msgstr "Avinstallerer Krita, Vennligst vent..."
+msgid "Krita installed successfully!"
+msgstr "Krita ble installert vellykket!"
+msgid "Failed to install Krita!"
+msgstr "Feil ved installasjon av Krita!"
+msgid "comfyUI Install...."
+msgstr "comfyUI Installer...."
+msgid "Instaling comfyUI, this step take a long time, Please wait..."
+msgstr "Installerer comfyUI, dette trinnet tar lang tid, vennligst vent..."
+msgid "Uninstall comfyUI...."
+msgstr "Avinstaller comfyUI...."
+msgid "Uninstaling comfyUI, Please wait..."
+msgstr "Avinstallerer comfyUI, Vennligst vent..."
+msgid "comfyUI installed successfully"
+msgstr "comfyUI installert vellykket"
+msgid "comfyUI uninstalled successfully"
+msgstr "comfyUI avinstallert med suksess"
+msgid "Failed to install comfyUI!"
+msgstr "Feil ved installasjon av comfyUI!"
+msgid "Ollama Lab Install"
+msgstr "Ollama Lab Installer"
+msgid "Instaling Ollama Lab, Please wait..."
+msgstr "Installerer Ollama Lab, vennligst vent..."
+msgid "Ollama Lab Uninstall"
+msgstr "Ollama Lab Avinstaller"
+msgid "Unistaling Ollama Lab, Please wait..."
+msgstr "Avinstallerer Ollama Lab, Vennligst vent..."
+msgid "Ollama Lab installed successfully!"
+msgstr "Ollama Lab installert med suksess!"
+msgid "Failed to install Ollama Lab!"
+msgstr "Feilet å installere Ollama Lab!"
+msgid "Ollama ROCm Install"
+msgstr "Ollama ROCm-installasjon"
+msgid "Instaling Ollama ROCm, Please wait..."
+msgstr "Installerer Ollama ROCm, vennligst vent..."
+msgid "Ollama ROCm Uninstall"
+msgstr "Ollama ROCm Avinstaller"
+msgid "Unistaling Ollama ROCm, Please wait..."
+msgstr "Avinstallerer Ollama ROCm, Vennligst vent..."
+msgid "Ollama ROCm installed successfully!"
+msgstr "Ollama ROCm ble installert med suksess!"
+msgid "Failed to install Ollama ROCm!"
+msgstr "Feilet å installere Ollama ROCm!"
+msgid ""
+"Generative AI for Krita has been successfully installed.\\n"
+"\\n"
+"Open Krita, open an existing drawing or create a new one.\\n"
+"In the top panel go to Settings > Panels > check the AI Image Generation box.\\n"
+"\\n"
+"In the window that opens on the bottom right.\\n"
+"Click Configure > Local Managed Server, choose your GPU or CPU, choose the model in Workloads and "
+"click Install."
+msgstr ""
+"Generativ AI for Krita har blitt installert med suksess.\\n"
+"\\n"
+"Åpne Krita, åpne en eksisterende tegning eller opprett en ny.\\n"
+"I topppanelet går du til Innstillinger > Paneler > merk av for boksen for AI-bildegenerering.\\n"
+"\\n"
+"I vinduet som åpnes nederst til høyre.\\n"
+"Klikk på Konfigurer > Lokalt administrert server, velg GPU-en eller CPU-en din, velg modellen i "
+"Arbeidsmengder og klikk på Installer."
+msgid "Example Install"
+msgstr "Eksempelinstallasjon"
+msgid "Instaling Example, Please wait..."
+msgstr "Installerer eksempel, vennligst vent..."
+msgid "Example Uninstall"
+msgstr "Eksempel avinstaller"
+msgid "Uninstaling Example, Please wait..."
+msgstr "Avinstallerer eksempel, vennligst vent..."
+msgid "Example installed successfully!"
+msgstr "Eksempel installert med suksess!"
+msgid "Failed to install Example!"
+msgstr "Feilet å installere Eksempel!"
+msgid "Installing $package"
+msgstr "Installerer $package"
+msgid "Installing $package, Please wait..."
+msgstr "Installerer $package, Vennligst vent..."
+msgid "Removing $package"
+msgstr "Fjerner $pakke"
+msgid "Removing $package, Please wait..."
+msgstr "Fjerner $package, Vennligst vent..."
+msgid ""
+"$title installed successfully!\\n"
+"\\n"
+"Configured on port $port, to access use $url"
+msgstr ""
+"$title ble installert med suksess!\\n"
+"\\n"
+"Konfigurert på port $port, for å få tilgang bruk $url"
+msgid "$package removed successfully!"
+msgstr "$pakken ble fjernet vellykket!"
+msgid "An error occurred with $package."
+msgstr "Det oppstod en feil med $package."
+msgid "Docker Install"
+msgstr "Docker-installasjon"
+msgid "Instaling Docker, Please wait..."
+msgstr "Installerer Docker, vennligst vent..."
+msgid "Docker Start"
+msgstr "Docker Start"
+msgid "Docker Starting, Please wait..."
+msgstr "Docker starter, vennligst vent..."
+msgid "Docker Stop"
+msgstr "Docker Stopp"
+msgid "Docker Stopping, Please wait..."
+msgstr "Docker stopper, vennligst vent..."
+msgid "Docker installed successfully!"
+msgstr "Docker installert med suksess!"
+msgid "An error occurred while install docker."
+msgstr "Det oppstod en feil under installasjonen av docker."
 msgid "Applying, please wait..."
 msgstr "Bruker, vennligst vent..."
+msgid ""
+"GRUB updated successfully!\\n"
+"Restart your computer for it to take effect."
+msgstr ""
+"GRUB oppdatert vellykket!\\n"
+"Start datamaskinen på nytt for at endringene skal tre i kraft."
+msgid "An error occurred while updating GRUB."
+msgstr "Det oppstod en feil under oppdatering av GRUB."
+msgid "Already enabled. No changes made."
+msgstr "Allerede aktivert. Ingen endringer gjort."
 msgid "Recent Files enabling...."
 msgstr "Aktiverer nylige filer...."
 msgid "Recent Files enabling, Please wait..."
@@ -44,18 +246,18 @@ msgstr ""
 "Du må lukke og åpne Dolphin på nytt for at det skal tre i kraft."
 msgid "Failed to activate Recent Files!"
 msgstr "Kunne ikke aktivere Nylige filer!"
-msgid "Example Install"
-msgstr "Eksempelinstallasjon"
-msgid "Instaling Example, Please wait..."
-msgstr "Installerer eksempel, vennligst vent..."
-msgid "Example Uninstall"
-msgstr "Eksempel avinstaller"
-msgid "Uninstaling Example, Please wait..."
-msgstr "Avinstallerer eksempel, vennligst vent..."
-msgid "Example installed successfully!"
-msgstr "Eksempel installert med suksess!"
-msgid "Failed to install Example!"
-msgstr "Feilet å installere Eksempel!"
+msgid "kzones Install"
+msgstr "kzones Installasjon"
+msgid "Instaling Kzones, Please wait..."
+msgstr "Installerer Kzones, vennligst vent..."
+msgid "Kzones installed successfully!"
+msgstr "Kzones installert med suksess!"
+msgid "GRUB updated successfully!"
+msgstr "GRUB oppdatert med suksess!"
+msgid "Limits updated successfully!"
+msgstr "Grensene ble oppdatert!"
+msgid "An error occurred while updating Limits."
+msgstr "Det oppstod en feil under oppdatering av grenser."
 msgid "JamesDSP Install"
 msgstr "JamesDSP Installasjon"
 msgid "Instaling JamesDSP, Please wait..."
@@ -64,431 +266,109 @@ msgid "JamesDSP installed successfully!"
 msgstr "JamesDSP installert med suksess!"
 msgid "Failed to install jamesDSP!"
 msgstr "Feilet å installere jamesDSP!"
-msgid "Docker Install"
-msgstr "Docker-installasjon"
-msgid "Instaling Docker, Please wait..."
-msgstr "Installerer Docker, vennligst vent..."
-msgid "Docker Start"
-msgstr "Docker Start"
-msgid "Docker Starting, Please wait..."
-msgstr "Docker starter, vennligst vent..."
-msgid "Docker Stop"
-msgstr "Docker Stopp"
-msgid "Docker Stopping, Please wait..."
-msgstr "Docker stopper, vennligst vent..."
-msgid "Docker installed successfully!"
-msgstr "Docker installert med suksess!"
-msgid "An error occurred while install docker."
-msgstr "Det oppstod en feil under installasjonen av docker."
-msgid "Installing $package"
-msgstr "Installerer $package"
-msgid "Installing $package, Please wait..."
-msgstr "Installerer $package, Vennligst vent..."
-msgid "Removing $package"
-msgstr "Fjerner $pakke"
-msgid "Removing $package, Please wait..."
-msgstr "Fjerner $package, Vennligst vent..."
-msgid ""
-"$title installed successfully!\\n"
-"\\n"
-"Configured on port $port, to access use $url"
-msgstr ""
-"$title ble installert med suksess!\\n"
-"\\n"
-"Konfigurert på port $port, for å få tilgang bruk $url"
-msgid "$package removed successfully!"
-msgstr "$pakken ble fjernet vellykket!"
-msgid "An error occurred with $package."
-msgstr "Det oppstod en feil med $package."
-msgid "GRUB updated successfully!"
-msgstr "GRUB oppdatert med suksess!"
-msgid "An error occurred while updating GRUB."
-msgstr "Det oppstod en feil under oppdatering av GRUB."
-msgid "Limits updated successfully!"
-msgstr "Grensene ble oppdatert!"
-msgid "An error occurred while updating Limits."
-msgstr "Det oppstod en feil under oppdatering av grenser."
-msgid ""
-"GRUB updated successfully!\\n"
-"Restart your computer for it to take effect."
-msgstr ""
-"GRUB oppdatert vellykket!\\n"
-"Start datamaskinen på nytt for at endringene skal tre i kraft."
-msgid "Already enabled. No changes made."
-msgstr "Allerede aktivert. Ingen endringer gjort."
-msgid "Ollama Vulkan Install"
-msgstr "Ollama Vulkan-installasjon"
-msgid "Instaling Ollama, Please wait..."
-msgstr "Installerer Ollama, vennligst vent..."
-msgid "Ollama Vulkan Uninstall"
-msgstr "Ollama Vulkan Avinstaller"
-msgid "Unistaling Ollama Vulkan, Please wait..."
-msgstr "Avinstallerer Ollama Vulkan, Vennligst vent..."
-msgid "Ollama Vulkan installed successfully!"
-msgstr "Ollama Vulkan ble installert med suksess!"
-msgid "Failed to install Ollama Vulkan!"
-msgstr "Feil ved installasjon av Ollama Vulkan!"
-msgid "ChatBox Install"
-msgstr "ChatBox Installasjon"
-msgid "Instaling ChatBox, Please wait..."
-msgstr "Installerer ChatBox, Vennligst vent..."
-msgid "ChatBox Uninstall"
-msgstr "Avinstaller ChatBox"
-msgid "Uninstaling ChatBox, Please wait..."
-msgstr "Avinstallerer ChatBox, vennligst vent..."
-msgid "ChatBox installed successfully!"
-msgstr "ChatBox installert med suksess!"
-msgid "Failed to install ChatBox!"
-msgstr "Feilet å installere ChatBox!"
-msgid "Ollama Lab Install"
-msgstr "Ollama Lab Installer"
-msgid "Instaling Ollama Lab, Please wait..."
-msgstr "Installerer Ollama Lab, vennligst vent..."
-msgid "Ollama Lab Uninstall"
-msgstr "Ollama Lab Avinstaller"
-msgid "Unistaling Ollama Lab, Please wait..."
-msgstr "Avinstallerer Ollama Lab, Vennligst vent..."
-msgid "Ollama Lab installed successfully!"
-msgstr "Ollama Lab installert med suksess!"
-msgid "Failed to install Ollama Lab!"
-msgstr "Feilet å installere Ollama Lab!"
-msgid ""
-"Generative AI for Krita has been successfully installed.\\n"
-"\\n"
-"Open Krita, open an existing drawing or create a new one.\\n"
-"In the top panel go to Settings > Panels > check the AI Image Generation box.\\n"
-"\\n"
-"In the window that opens on the bottom right.\\n"
-"Click Configure > Local Managed Server, choose your GPU or CPU, choose the model in Workloads and "
-"click Install."
-msgstr ""
-"Generativ AI for Krita har blitt installert med suksess.\\n"
-"\\n"
-"Åpne Krita, åpne en eksisterende tegning eller opprett en ny.\\n"
-"I topppanelet går du til Innstillinger > Paneler > merk av for boksen for AI-bildegenerering.\\n"
-"\\n"
-"I vinduet som åpnes nederst til høyre.\\n"
-"Klikk på Konfigurer > Lokalt administrert server, velg GPU-en eller CPU-en din, velg modellen i "
-"Arbeidsmengder og klikk på Installer."
-msgid ""
-"Ollama server is running.\\n"
-"Address: http://localhost:11434"
-msgstr ""
-"Ollama-server kjører.\\n"
-"Adresse: http://localhost:11434"
-msgid "Ollama Install"
-msgstr "Ollama Installer"
-msgid "Ollama Uninstall"
-msgstr "Ollama Avinstaller"
-msgid "Unistaling Ollama, Please wait..."
-msgstr "Avinstallerer Ollama, Vennligst vent..."
-msgid "Ollama installed successfully!"
-msgstr "Ollama installert vellykket!"
-msgid "Failed to install Ollama!"
-msgstr "Feil ved installasjon av Ollama!"
-msgid "Ollama ROCm Install"
-msgstr "Ollama ROCm-installasjon"
-msgid "Instaling Ollama ROCm, Please wait..."
-msgstr "Installerer Ollama ROCm, vennligst vent..."
-msgid "Ollama ROCm Uninstall"
-msgstr "Ollama ROCm Avinstaller"
-msgid "Unistaling Ollama ROCm, Please wait..."
-msgstr "Avinstallerer Ollama ROCm, Vennligst vent..."
-msgid "Ollama ROCm installed successfully!"
-msgstr "Ollama ROCm ble installert med suksess!"
-msgid "Failed to install Ollama ROCm!"
-msgstr "Feilet å installere Ollama ROCm!"
-msgid "comfyUI Install...."
-msgstr "comfyUI Installer...."
-msgid "Instaling comfyUI, this step take a long time, Please wait..."
-msgstr "Installerer comfyUI, dette trinnet tar lang tid, vennligst vent..."
-msgid "Uninstall comfyUI...."
-msgstr "Avinstaller comfyUI...."
-msgid "Uninstaling comfyUI, Please wait..."
-msgstr "Avinstallerer comfyUI, Vennligst vent..."
-msgid "comfyUI installed successfully"
-msgstr "comfyUI installert vellykket"
-msgid "comfyUI uninstalled successfully"
-msgstr "comfyUI avinstallert med suksess"
-msgid "Failed to install comfyUI!"
-msgstr "Feil ved installasjon av comfyUI!"
-msgid "AMD/Nvidia GPU not found!"
-msgstr "AMD/Nvidia GPU ikke funnet!"
-msgid ""
-"Ollama shared successfully.\\n"
-"Address: http://$localIp:11434"
-msgstr ""
-"Ollama delt vellykket.\\n"
-"Adresse: http://$localIp:11434"
-msgid "Failed to shared Ollama!"
-msgstr "Mislyktes med å dele Ollama!"
-msgid "Ollama CUDA Install"
-msgstr "Ollama CUDA-installasjon"
-msgid "Instaling Ollama CUDA, Please wait..."
-msgstr "Installerer Ollama CUDA, vennligst vent..."
-msgid "Ollama CUDA Uninstall"
-msgstr "Ollama CUDA Avinstaller"
-msgid "Unistaling Ollama CUDA, Please wait..."
-msgstr "Avinstallerer Ollama CUDA, Vennligst vent..."
-msgid "Ollama CUDA installed successfully!"
-msgstr "Ollama CUDA installert vellykket!"
-msgid "Failed to install Ollama CUDA!"
-msgstr "Feil ved installasjon av Ollama CUDA!"
-msgid "LM Studio Install"
-msgstr "LM Studio Installer"
-msgid "Instaling LM Studio, Please wait..."
-msgstr "Installerer LM Studio, vennligst vent..."
-msgid "LM Studio Uninstall"
-msgstr "LM Studio Avinstaller"
-msgid "Uninstaling LM Studio, Please wait..."
-msgstr "Avinstallerer LM Studio, Vennligst vent..."
-msgid "LM Studio installed successfully!"
-msgstr "LM Studio installert vellykket!"
-msgid "Failed to install LM Studio!"
-msgstr "Feil ved installasjon av LM Studio!"
-msgid "Krita Install"
-msgstr "Krita-installasjon"
-msgid "Instaling Krita, Please wait..."
-msgstr "Installerer Krita, vennligst vent..."
-msgid "Krita Uninstall"
-msgstr "Avinstaller Krita"
-msgid "Uninstaling Krita, Please wait..."
-msgstr "Avinstallerer Krita, Vennligst vent..."
-msgid "Krita installed successfully!"
-msgstr "Krita ble installert vellykket!"
-msgid "Failed to install Krita!"
-msgstr "Feil ved installasjon av Krita!"
-msgid "comfyUI Depends Install"
-msgstr "comfyUI Avhengigheter Installer"
-msgid "Instaling comfyUI Depends, Please wait..."
-msgstr "Installerer comfyUI-avhengigheter, vennligst vent..."
-msgid "comfyUI Depends installed successfully!"
-msgstr "comfyUI Avhengigheter installert med suksess!"
-msgid "Failed to install comfyUI Depends!"
-msgstr "Feilet å installere comfyUI avhengigheter!"
 # 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_usability_page.py, line: 204
-msgid "Docker"
-msgstr "Docker"
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/devices/jamesdsp_dialog.py, line: 208
 # 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/docker_page.py, line: 15
-msgid "Container service - enable to use containers below."
-msgstr "Container-tjeneste - aktiver for å bruke containere nedenfor."
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/devices/jamesdsp_dialog.py, line: 208
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/devices/jamesdsp_dialog.py, line: 208
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/devices/jamesdsp_dialog.py, line: 208
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/devices/jamesdsp_dialog.py, line: 208
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/devices/jamesdsp_dialog.py, line: 208
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 107
+msgid "Usability"
+msgstr "Brukervennlighet"
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_usability_page.py, line: 14
+msgid "User and Visual system settings."
+msgstr "Bruker- og visuelle systeminnstillinger."
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 114
+msgid "NumLock"
+msgstr "NumLock"
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 115
+msgid "Initial NumLock state. Ignored if autologin is enabled."
+msgstr "Initial NumLock-tilstand. Ignoreres hvis automatisk pålogging er aktivert."
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 131
+msgid "Window Button On Left Side"
+msgstr "Vindu knapp på venstre side"
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 132
+msgid "Maximize, minimize, and close buttons on the left side of the window."
+msgstr "Maksimer, minimere og lukk knapper på venstre side av vinduet."
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_usability_page.py, line: 72
+msgid "KZones"
+msgstr "KZoner"
 # 
 # #-#-#-#-#  biglinux-settings.pot (biglinux-settings)  #-#-#-#-#
 # 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 137
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/containers_page.py, line: 18
-msgid "Containers"
-msgstr "Containere"
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/ai_page.py, line: 32
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_usability_page.py, line: 50
+msgid "Script for the KWin window manager of the KDE Plasma desktop environment."
+msgstr "Script for KWin-vinduemanageren i KDE Plasma-skrivebordsomgivelsen."
 # 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/docker_page.py, line: 23
-msgid "Manage container technologies."
-msgstr "Administrer containerteknologier."
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_usability_page.py, line: 169
+msgid "Recent Files & Locations"
+msgstr "Nylig filer og steder"
 # 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_usability_page.py, line: 205
-msgid "Docker Enabled."
-msgstr "Docker aktivert."
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/containers_page.py, line: 35
-msgid "Nextcloud Plus"
-msgstr "Nextcloud Pluss"
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/docker_page.py, line: 45
-msgid "Install Nextcloud Plus container."
-msgstr "Installer Nextcloud Plus-container."
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/docker_page.py, line: 52
-msgid "Run Nextcloud Plus."
-msgstr "Kjør Nextcloud Plus."
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/docker_page.py, line: 48
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_usability_page.py, line: 170
 msgid ""
-"Nextcloud Plus is running.\n"
-"Address: http://localhost:8286\n"
-"and\n"
-"Address: http://{}:8286"
+"Restores the 'Recent Files' and 'Recent Locations' functionality that appears empty in Dolphin and "
+"the Application Menu."
 msgstr ""
-"Nextcloud Plus kjører.  \n"
-"Adresse: http://localhost:8286  \n"
-"og  \n"
-"Adresse: http://{}:8286"
+"Gjenoppretter funksjonaliteten 'Nylige filer' og 'Nylige steder' som vises tom i Dolphin og "
+"applikasjonsmenyen."
 # 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/containers_page.py, line: 44
-msgid "AdGuard"
-msgstr "AdGuard"
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 108
+msgid "System"
+msgstr "System"
 # 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/docker_page.py, line: 64
-msgid "Install AdGuard Home container."
-msgstr "Installer AdGuard Home-container."
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_page.py, line: 26
+msgid "General system settings."
+msgstr "Generelle systeminnstillinger."
 # 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/docker_page.py, line: 71
-msgid "Run AdGuard."
-msgstr "Kjør AdGuard."
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_page.py, line: 23
+msgid "SSH"
+msgstr "SSH"
 # 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/docker_page.py, line: 57
-msgid ""
-"AdGuard is running.\n"
-"Address: http://localhost:3030\n"
-"and\n"
-"Address: http://{}:3030"
-msgstr ""
-"AdGuard kjører.\n"
-"Adresse: http://localhost:3030\n"
-"og\n"
-"Adresse: http://{}:3030"
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_page.py, line: 24
+msgid "Enable remote access via ssh."
+msgstr "Aktiver ekstern tilgang via ssh."
 # 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/containers_page.py, line: 71
-msgid "Jellyfin"
-msgstr "Jellyfin"
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_page.py, line: 27
+msgid "SSH Address: {}"
+msgstr "SSH-adresse: {}"
 # 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/docker_page.py, line: 79
-msgid "Install Jellyfin media server."
-msgstr "Installer Jellyfin medieserver."
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_usability_page.py, line: 147
+msgid "SSH always on"
+msgstr "SSH alltid på"
 # 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/docker_page.py, line: 90
-msgid "Run Jellyfin."
-msgstr "Kjør Jellyfin."
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 149
+msgid "Turn on ssh remote access at boot."
+msgstr "Slå på ssh-fjernaksess ved oppstart."
 # 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/docker_page.py, line: 75
-msgid ""
-"Jellyfin is running.\n"
-"Address: http://localhost:8096\n"
-"and\n"
-"Address: http://{}:8096"
-msgstr ""
-"Jellyfin kjører.\n"
-"Adresse: http://localhost:8096\n"
-"og\n"
-"Adresse: http://{}:8096"
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 162
+msgid "Fast Grub"
+msgstr "Rask Grub"
 # 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/containers_page.py, line: 80
-msgid "LAMP"
-msgstr "LAMP"
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 163
+msgid "Decreases grub display time."
+msgstr "Reduserer grub-visningstiden."
 # 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/docker_page.py, line: 102
-msgid "Install LAMP stack (Linux, Apache, MySQL, PHP)."
-msgstr "Installer LAMP-stakken (Linux, Apache, MySQL, PHP)."
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 170
+msgid "Auto-mount Partitions"
+msgstr "Automatisk montering av partisjoner"
 # 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/docker_page.py, line: 109
-msgid "Run LAMP."
-msgstr "Kjør LAMP."
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/docker_page.py, line: 84
-msgid ""
-"LAMP is running.\n"
-"Address: http://localhost:8080\n"
-"and\n"
-"Address: http://{}:8080"
-msgstr ""
-"LAMP kjører.\n"
-"Adresse: http://localhost:8080\n"
-"og\n"
-"Adresse: http://{}:8080"
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/containers_page.py, line: 89
-msgid "Portainer Client"
-msgstr "Portainer-klient"
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/docker_page.py, line: 121
-msgid "Install Portainer Agent for cluster management."
-msgstr "Installer Portainer Agent for klyngeadministrasjon."
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/docker_page.py, line: 128
-msgid "Run Portainer Client."
-msgstr "Kjør Portainer-klienten."
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/docker_page.py, line: 93
-msgid ""
-"Portainer Client is running.\n"
-"Address: http://localhost:9000\n"
-"and\n"
-"Address: http://{}:9000"
-msgstr ""
-"Portainer-klient kjører.\n"
-"Adresse: http://localhost:9000\n"
-"og\n"
-"Adresse: http://{}:9000"
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/containers_page.py, line: 98
-msgid "SWS"
-msgstr "SWS"
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/docker_page.py, line: 140
-msgid "Install SWS static web server."
-msgstr "Installer SWS statisk webserver."
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/docker_page.py, line: 147
-msgid "Run SWS."
-msgstr "Kjør SWS."
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/docker_page.py, line: 102
-msgid ""
-"SWS is running.\n"
-"Address: http://localhost:8182\n"
-"and\n"
-"Address: http://{}:8182"
-msgstr ""
-"SWS kjører.\n"
-"Adresse: http://localhost:8182\n"
-"og\n"
-"Adresse: http://{}:8182"
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/containers_page.py, line: 107
-msgid "V2RayA"
-msgstr "V2RayA"
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/docker_page.py, line: 159
-msgid "Install V2RayA network tool."
-msgstr "Installer V2RayA nettverktøy."
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/docker_page.py, line: 166
-msgid "Run V2RayA."
-msgstr "Kjør V2RayA."
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/docker_page.py, line: 111
-msgid ""
-"V2RayA is running.\n"
-"Address: http://localhost:2017\n"
-"and\n"
-"Address: http://{}:2017"
-msgstr ""
-"V2RayA kjører.\n"
-"Adresse: http://localhost:2017\n"
-"og\n"
-"Adresse: http://{}:2017"
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/docker_page.py, line: 178
-msgid "Install An open source, privacy-focused alternative to Google's Notebook LM!"
-msgstr "Installer et åpen kildekode, personvernsfokusert alternativ til Googles Notebook LM!"
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/docker_page.py, line: 185
-msgid "Run Open Notebook."
-msgstr "Kjør Åpen Notatbok."
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/docker_page.py, line: 190
-msgid ""
-"Open Notebook is running.\n"
-"Address: http://localhost:8502\n"
-"and\n"
-"Address: http://{}:8502"
-msgstr ""
-"Åpen notatbok kjører.\n"
-"Adresse: http://localhost:8502\n"
-"og\n"
-"Adresse: http://{}:8502"
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 244
-msgid "Changing {} to {}"
-msgstr "Endrer {} til {}"
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 271
-msgid "ERROR: Failed to change {} to {}"
-msgstr "FEIL: Kunne ikke endre {} til {}"
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 274
-msgid "Failed to change setting: {}"
-msgstr "Mislyktes med å endre innstilling: {}"
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 171
+msgid "Auto mount partitions in internal disks on boot."
+msgstr "Automatisk montering av partisjoner på interne disker ved oppstart."
 # 
 # #-#-#-#-#  biglinux-settings.pot (biglinux-settings)  #-#-#-#-#
 # 
@@ -585,47 +465,17 @@ msgstr "Bytt {} synkronisert: {}"
 msgid "Indicator {} synchronized: {}"
 msgstr "Indikator {} synkronisert: {}"
 # 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 49
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 120
-msgid "BigLinux Settings"
-msgstr "BigLinux Innstillinger"
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 244
+msgid "Changing {} to {}"
+msgstr "Endrer {} til {}"
 # 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 135
-msgid "Categories"
-msgstr "Kategorier"
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 271
+msgid "ERROR: Failed to change {} to {}"
+msgstr "FEIL: Kunne ikke endre {} til {}"
 # 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 144
-msgid "Search..."
-msgstr "Søk..."
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/devices/keyboard_led_dialog.py, line: 249
-msgid "Settings"
-msgstr "Innstillinger"
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 108
-msgid "System"
-msgstr "System"
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/devices/jamesdsp_dialog.py, line: 208
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/devices/jamesdsp_dialog.py, line: 208
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/devices/jamesdsp_dialog.py, line: 208
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/devices/jamesdsp_dialog.py, line: 208
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/devices/jamesdsp_dialog.py, line: 208
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/devices/jamesdsp_dialog.py, line: 208
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 107
-msgid "Usability"
-msgstr "Brukervennlighet"
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 158
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 167
-msgid "PreLoad"
-msgstr "Forhåndslaste"
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 274
+msgid "Failed to change setting: {}"
+msgstr "Mislyktes med å endre innstilling: {}"
 # 
 # #-#-#-#-#  biglinux-settings.pot (biglinux-settings)  #-#-#-#-#
 # 
@@ -634,9 +484,66 @@ msgstr "Forhåndslaste"
 msgid "Devices"
 msgstr "Enheter"
 # 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/devices_page.py, line: 15
+msgid "Manage physical devices."
+msgstr "Administrer fysiske enheter."
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_usability_page.py, line: 190
+msgid "Wifi"
+msgstr "Wifi"
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_usability_page.py, line: 191
+msgid "Wifi On"
+msgstr "Wifi På"
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_usability_page.py, line: 197
+msgid "Bluetooth"
+msgstr "Bluetooth"
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_usability_page.py, line: 198
+msgid "Bluetooth On."
+msgstr "Bluetooth på."
+# 
+# #-#-#-#-#  biglinux-settings.pot (biglinux-settings)  #-#-#-#-#
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/dispositivos_page.py, line: 77
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/devices/jamesdsp_dialog.py, line: 155
+msgid "JamesDSP"
+msgstr "JamesDSP"
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/dispositivos_page.py, line: 84
+msgid "Advanced audio effects processor that improves sound quality."
+msgstr "Avansert lydbehandlingsprosessor som forbedrer lydkvaliteten."
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/devices_page.py, line: 71
+msgid "Reverse mouse scrolling"
+msgstr "Omvendt muserulling"
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/devices_page.py, line: 72
+msgid "Reverse mouse scrolling without restarting the session."
+msgstr "Reverser musrulling uten å starte økten på nytt."
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 49
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 120
+msgid "BigLinux Settings"
+msgstr "BigLinux Innstillinger"
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 144
+msgid "Search..."
+msgstr "Søk..."
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 158
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 167
+msgid "PreLoad"
+msgstr "Forhåndslaste"
+# 
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 161
 msgid "A.I."
 msgstr "A.I."
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_usability_page.py, line: 204
+msgid "Docker"
+msgstr "Docker"
 # 
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings/performance_games_page.py, line: 181
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings/performance_games_page.py, line: 195
@@ -647,46 +554,6 @@ msgstr "A.I."
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings/usability/gamemode_dialog.py, line: 204
 msgid "Performance"
 msgstr "Ytelse"
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_page.py, line: 26
-msgid "General system settings."
-msgstr "Generelle systeminnstillinger."
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_page.py, line: 23
-msgid "SSH"
-msgstr "SSH"
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_page.py, line: 24
-msgid "Enable remote access via ssh."
-msgstr "Aktiver ekstern tilgang via ssh."
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_page.py, line: 27
-msgid "SSH Address: {}"
-msgstr "SSH-adresse: {}"
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_usability_page.py, line: 147
-msgid "SSH always on"
-msgstr "SSH alltid på"
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 149
-msgid "Turn on ssh remote access at boot."
-msgstr "Slå på ssh-fjernaksess ved oppstart."
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 162
-msgid "Fast Grub"
-msgstr "Rask Grub"
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 163
-msgid "Decreases grub display time."
-msgstr "Reduserer grub-visningstiden."
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 170
-msgid "Auto-mount Partitions"
-msgstr "Automatisk montering av partisjoner"
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 171
-msgid "Auto mount partitions in internal disks on boot."
-msgstr "Automatisk montering av partisjoner på interne disker ved oppstart."
 # 
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings/preload_page.py, line: 103
 msgid "Preload"
@@ -727,45 +594,6 @@ msgstr "Opera"
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings/preload_page.py, line: 156
 msgid "Libreoffice"
 msgstr "Libreoffice"
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/devices_page.py, line: 15
-msgid "Manage physical devices."
-msgstr "Administrer fysiske enheter."
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_usability_page.py, line: 190
-msgid "Wifi"
-msgstr "Wifi"
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_usability_page.py, line: 191
-msgid "Wifi On"
-msgstr "Wifi På"
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_usability_page.py, line: 197
-msgid "Bluetooth"
-msgstr "Bluetooth"
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_usability_page.py, line: 198
-msgid "Bluetooth On."
-msgstr "Bluetooth på."
-# 
-# #-#-#-#-#  biglinux-settings.pot (biglinux-settings)  #-#-#-#-#
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/dispositivos_page.py, line: 77
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/devices/jamesdsp_dialog.py, line: 155
-msgid "JamesDSP"
-msgstr "JamesDSP"
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/dispositivos_page.py, line: 84
-msgid "Advanced audio effects processor that improves sound quality."
-msgstr "Avansert lydbehandlingsprosessor som forbedrer lydkvaliteten."
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/devices_page.py, line: 71
-msgid "Reverse mouse scrolling"
-msgstr "Omvendt muserulling"
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/devices_page.py, line: 72
-msgid "Reverse mouse scrolling without restarting the session."
-msgstr "Reverser musrulling uten å starte økten på nytt."
 # 
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings/performance_games_page.py, line: 16
 msgid "BigLinux performance tweaks."
@@ -979,45 +807,209 @@ msgstr ""
 "Lokal AI-server. For nyere AMD GPU-er, fra 6000-serien. Vurder å bruke Vulkan, i mange tester "
 "presterte Vulkan bedre enn ROCm."
 # 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_usability_page.py, line: 14
-msgid "User and Visual system settings."
-msgstr "Bruker- og visuelle systeminnstillinger."
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 114
-msgid "NumLock"
-msgstr "NumLock"
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 115
-msgid "Initial NumLock state. Ignored if autologin is enabled."
-msgstr "Initial NumLock-tilstand. Ignoreres hvis automatisk pålogging er aktivert."
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 131
-msgid "Window Button On Left Side"
-msgstr "Vindu knapp på venstre side"
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 132
-msgid "Maximize, minimize, and close buttons on the left side of the window."
-msgstr "Maksimer, minimere og lukk knapper på venstre side av vinduet."
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_usability_page.py, line: 72
-msgid "KZones"
-msgstr "KZoner"
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/docker_page.py, line: 15
+msgid "Container service - enable to use containers below."
+msgstr "Container-tjeneste - aktiver for å bruke containere nedenfor."
 # 
 # #-#-#-#-#  biglinux-settings.pot (biglinux-settings)  #-#-#-#-#
 # 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/ai_page.py, line: 32
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_usability_page.py, line: 50
-msgid "Script for the KWin window manager of the KDE Plasma desktop environment."
-msgstr "Script for KWin-vinduemanageren i KDE Plasma-skrivebordsomgivelsen."
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 137
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/containers_page.py, line: 18
+msgid "Containers"
+msgstr "Containere"
 # 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_usability_page.py, line: 169
-msgid "Recent Files & Locations"
-msgstr "Nylig filer og steder"
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/docker_page.py, line: 23
+msgid "Manage container technologies."
+msgstr "Administrer containerteknologier."
 # 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_usability_page.py, line: 170
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_usability_page.py, line: 205
+msgid "Docker Enabled."
+msgstr "Docker aktivert."
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/containers_page.py, line: 35
+msgid "Nextcloud Plus"
+msgstr "Nextcloud Pluss"
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/docker_page.py, line: 45
+msgid "Install Nextcloud Plus container."
+msgstr "Installer Nextcloud Plus-container."
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/docker_page.py, line: 52
+msgid "Run Nextcloud Plus."
+msgstr "Kjør Nextcloud Plus."
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/docker_page.py, line: 48
 msgid ""
-"Restores the 'Recent Files' and 'Recent Locations' functionality that appears empty in Dolphin and "
-"the Application Menu."
+"Nextcloud Plus is running.\n"
+"Address: http://localhost:8286\n"
+"and\n"
+"Address: http://{}:8286"
 msgstr ""
-"Gjenoppretter funksjonaliteten 'Nylige filer' og 'Nylige steder' som vises tom i Dolphin og "
-"applikasjonsmenyen."
+"Nextcloud Plus kjører.  \n"
+"Adresse: http://localhost:8286  \n"
+"og  \n"
+"Adresse: http://{}:8286"
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/containers_page.py, line: 44
+msgid "AdGuard"
+msgstr "AdGuard"
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/docker_page.py, line: 64
+msgid "Install AdGuard Home container."
+msgstr "Installer AdGuard Home-container."
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/docker_page.py, line: 71
+msgid "Run AdGuard."
+msgstr "Kjør AdGuard."
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/docker_page.py, line: 57
+msgid ""
+"AdGuard is running.\n"
+"Address: http://localhost:3030\n"
+"and\n"
+"Address: http://{}:3030"
+msgstr ""
+"AdGuard kjører.\n"
+"Adresse: http://localhost:3030\n"
+"og\n"
+"Adresse: http://{}:3030"
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/containers_page.py, line: 71
+msgid "Jellyfin"
+msgstr "Jellyfin"
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/docker_page.py, line: 79
+msgid "Install Jellyfin media server."
+msgstr "Installer Jellyfin medieserver."
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/docker_page.py, line: 90
+msgid "Run Jellyfin."
+msgstr "Kjør Jellyfin."
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/docker_page.py, line: 75
+msgid ""
+"Jellyfin is running.\n"
+"Address: http://localhost:8096\n"
+"and\n"
+"Address: http://{}:8096"
+msgstr ""
+"Jellyfin kjører.\n"
+"Adresse: http://localhost:8096\n"
+"og\n"
+"Adresse: http://{}:8096"
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/containers_page.py, line: 80
+msgid "LAMP"
+msgstr "LAMP"
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/docker_page.py, line: 102
+msgid "Install LAMP stack (Linux, Apache, MySQL, PHP)."
+msgstr "Installer LAMP-stakken (Linux, Apache, MySQL, PHP)."
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/docker_page.py, line: 109
+msgid "Run LAMP."
+msgstr "Kjør LAMP."
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/docker_page.py, line: 84
+msgid ""
+"LAMP is running.\n"
+"Address: http://localhost:8080\n"
+"and\n"
+"Address: http://{}:8080"
+msgstr ""
+"LAMP kjører.\n"
+"Adresse: http://localhost:8080\n"
+"og\n"
+"Adresse: http://{}:8080"
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/containers_page.py, line: 89
+msgid "Portainer Client"
+msgstr "Portainer-klient"
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/docker_page.py, line: 121
+msgid "Install Portainer Agent for cluster management."
+msgstr "Installer Portainer Agent for klyngeadministrasjon."
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/docker_page.py, line: 128
+msgid "Run Portainer Client."
+msgstr "Kjør Portainer-klienten."
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/docker_page.py, line: 93
+msgid ""
+"Portainer Client is running.\n"
+"Address: http://localhost:9000\n"
+"and\n"
+"Address: http://{}:9000"
+msgstr ""
+"Portainer-klient kjører.\n"
+"Adresse: http://localhost:9000\n"
+"og\n"
+"Adresse: http://{}:9000"
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/containers_page.py, line: 98
+msgid "SWS"
+msgstr "SWS"
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/docker_page.py, line: 140
+msgid "Install SWS static web server."
+msgstr "Installer SWS statisk webserver."
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/docker_page.py, line: 147
+msgid "Run SWS."
+msgstr "Kjør SWS."
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/docker_page.py, line: 102
+msgid ""
+"SWS is running.\n"
+"Address: http://localhost:8182\n"
+"and\n"
+"Address: http://{}:8182"
+msgstr ""
+"SWS kjører.\n"
+"Adresse: http://localhost:8182\n"
+"og\n"
+"Adresse: http://{}:8182"
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/containers_page.py, line: 107
+msgid "V2RayA"
+msgstr "V2RayA"
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/docker_page.py, line: 159
+msgid "Install V2RayA network tool."
+msgstr "Installer V2RayA nettverktøy."
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/docker_page.py, line: 166
+msgid "Run V2RayA."
+msgstr "Kjør V2RayA."
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/docker_page.py, line: 111
+msgid ""
+"V2RayA is running.\n"
+"Address: http://localhost:2017\n"
+"and\n"
+"Address: http://{}:2017"
+msgstr ""
+"V2RayA kjører.\n"
+"Adresse: http://localhost:2017\n"
+"og\n"
+"Adresse: http://{}:2017"
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/docker_page.py, line: 178
+msgid "Install An open source, privacy-focused alternative to Google's Notebook LM!"
+msgstr "Installer et åpen kildekode, personvernsfokusert alternativ til Googles Notebook LM!"
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/docker_page.py, line: 185
+msgid "Run Open Notebook."
+msgstr "Kjør Åpen Notatbok."
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/docker_page.py, line: 190
+msgid ""
+"Open Notebook is running.\n"
+"Address: http://localhost:8502\n"
+"and\n"
+"Address: http://{}:8502"
+msgstr ""
+"Åpen notatbok kjører.\n"
+"Adresse: http://localhost:8502\n"
+"og\n"
+"Adresse: http://{}:8502"

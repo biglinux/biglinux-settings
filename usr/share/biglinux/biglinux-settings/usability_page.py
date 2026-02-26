@@ -50,5 +50,3 @@ class UsabilityPage(BaseSettingsPage):
             "recentFiles",
             "recent_files-symbolic"
         )
-
-        self.sync_all_switches()

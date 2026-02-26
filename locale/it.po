@@ -14,14 +14,217 @@ msgstr ""
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "X-Generator: attranslate\n"
-msgid "kzones Install"
-msgstr "Installazione kzones"
-msgid "Instaling Kzones, Please wait..."
-msgstr "Installazione di Kzones, attendere..."
-msgid "Kzones installed successfully!"
-msgstr "Kzones installato con successo!"
+msgid "Ollama Install"
+msgstr "Installazione di Ollama"
+msgid "Instaling Ollama, Please wait..."
+msgstr "Installazione di Ollama, attendere..."
+msgid "Ollama Uninstall"
+msgstr "Disinstalla Ollama"
+msgid "Unistaling Ollama, Please wait..."
+msgstr "Disinstallazione di Ollama, attendere..."
+msgid "Ollama installed successfully!"
+msgstr "Ollama installato con successo!"
+msgid "Failed to install Ollama!"
+msgstr "Impossibile installare Ollama!"
+msgid ""
+"Ollama server is running.\\n"
+"Address: http://localhost:11434"
+msgstr ""
+"Il server Ollama è in esecuzione.\\n"
+"Indirizzo: http://localhost:11434"
+msgid "LM Studio Install"
+msgstr "Installazione di LM Studio"
+msgid "Instaling LM Studio, Please wait..."
+msgstr "Installazione di LM Studio, attendere..."
+msgid "LM Studio Uninstall"
+msgstr "Disinstallazione di LM Studio"
+msgid "Uninstaling LM Studio, Please wait..."
+msgstr "Disinstallazione di LM Studio, attendere..."
+msgid "LM Studio installed successfully!"
+msgstr "LM Studio installato con successo!"
+msgid "Failed to install LM Studio!"
+msgstr "Impossibile installare LM Studio!"
+msgid "ChatBox Install"
+msgstr "Installazione ChatBox"
+msgid "Instaling ChatBox, Please wait..."
+msgstr "Installazione di ChatBox, attendere..."
+msgid "ChatBox Uninstall"
+msgstr "Disinstalla ChatBox"
+msgid "Uninstaling ChatBox, Please wait..."
+msgstr "Disinstallazione di ChatBox, attendere..."
+msgid "ChatBox installed successfully!"
+msgstr "ChatBox installato con successo!"
+msgid "Failed to install ChatBox!"
+msgstr "Impossibile installare ChatBox!"
+msgid "Ollama Vulkan Install"
+msgstr "Installazione di Ollama Vulkan"
+msgid "Ollama Vulkan Uninstall"
+msgstr "Disinstallazione di Ollama Vulkan"
+msgid "Unistaling Ollama Vulkan, Please wait..."
+msgstr "Disinstallazione di Ollama Vulkan, attendere..."
+msgid "Ollama Vulkan installed successfully!"
+msgstr "Ollama Vulkan installato con successo!"
+msgid "Failed to install Ollama Vulkan!"
+msgstr "Impossibile installare Ollama Vulkan!"
+msgid "Ollama CUDA Install"
+msgstr "Installazione di Ollama CUDA"
+msgid "Instaling Ollama CUDA, Please wait..."
+msgstr "Installazione di Ollama CUDA, attendere..."
+msgid "Ollama CUDA Uninstall"
+msgstr "Disinstallazione di Ollama CUDA"
+msgid "Unistaling Ollama CUDA, Please wait..."
+msgstr "Disinstallazione di Ollama CUDA, attendere..."
+msgid "Ollama CUDA installed successfully!"
+msgstr "Ollama CUDA installato con successo!"
+msgid "Failed to install Ollama CUDA!"
+msgstr "Impossibile installare Ollama CUDA!"
+msgid ""
+"Ollama shared successfully.\\n"
+"Address: http://$localIp:11434"
+msgstr ""
+"Ollama condiviso con successo.\\n"
+"Indirizzo: http://$localIp:11434"
+msgid "Failed to shared Ollama!"
+msgstr "Impossibile condividere Ollama!"
+msgid "comfyUI Depends Install"
+msgstr "Installazione delle dipendenze di ComfyUI"
+msgid "Instaling comfyUI Depends, Please wait..."
+msgstr "Installazione delle dipendenze di comfyUI, attendere..."
+msgid "comfyUI Depends installed successfully!"
+msgstr "comfyUI Dipendenze installate con successo!"
+msgid "Failed to install comfyUI Depends!"
+msgstr "Impossibile installare comfyUI Dipendenze!"
+msgid "AMD/Nvidia GPU not found!"
+msgstr "GPU AMD/Nvidia non trovato!"
+msgid "Krita Install"
+msgstr "Installazione di Krita"
+msgid "Instaling Krita, Please wait..."
+msgstr "Installazione di Krita, attendere..."
+msgid "Krita Uninstall"
+msgstr "Disinstalla Krita"
+msgid "Uninstaling Krita, Please wait..."
+msgstr "Disinstallazione di Krita, attendere..."
+msgid "Krita installed successfully!"
+msgstr "Krita installato con successo!"
+msgid "Failed to install Krita!"
+msgstr "Installazione di Krita non riuscita!"
+msgid "comfyUI Install...."
+msgstr "comfyUI Install...."
+msgid "Instaling comfyUI, this step take a long time, Please wait..."
+msgstr "Installazione di comfyUI, questo passaggio richiede molto tempo, per favore attendi..."
+msgid "Uninstall comfyUI...."
+msgstr "Disinstalla comfyUI...."
+msgid "Uninstaling comfyUI, Please wait..."
+msgstr "Disinstallazione di comfyUI, attendere..."
+msgid "comfyUI installed successfully"
+msgstr "comfyUI installato con successo"
+msgid "comfyUI uninstalled successfully"
+msgstr "comfyUI disinstallato con successo"
+msgid "Failed to install comfyUI!"
+msgstr "Impossibile installare comfyUI!"
+msgid "Ollama Lab Install"
+msgstr "Installazione di Ollama Lab"
+msgid "Instaling Ollama Lab, Please wait..."
+msgstr "Installazione di Ollama Lab, attendere..."
+msgid "Ollama Lab Uninstall"
+msgstr "Disinstalla Ollama Lab"
+msgid "Unistaling Ollama Lab, Please wait..."
+msgstr "Disinstallazione di Ollama Lab, attendere..."
+msgid "Ollama Lab installed successfully!"
+msgstr "Ollama Lab installato con successo!"
+msgid "Failed to install Ollama Lab!"
+msgstr "Impossibile installare Ollama Lab!"
+msgid "Ollama ROCm Install"
+msgstr "Installazione di Ollama ROCm"
+msgid "Instaling Ollama ROCm, Please wait..."
+msgstr "Installazione di Ollama ROCm, attendere..."
+msgid "Ollama ROCm Uninstall"
+msgstr "Disinstallazione di Ollama ROCm"
+msgid "Unistaling Ollama ROCm, Please wait..."
+msgstr "Disinstallazione di Ollama ROCm, attendere..."
+msgid "Ollama ROCm installed successfully!"
+msgstr "Ollama ROCm installato con successo!"
+msgid "Failed to install Ollama ROCm!"
+msgstr "Impossibile installare Ollama ROCm!"
+msgid ""
+"Generative AI for Krita has been successfully installed.\\n"
+"\\n"
+"Open Krita, open an existing drawing or create a new one.\\n"
+"In the top panel go to Settings > Panels > check the AI Image Generation box.\\n"
+"\\n"
+"In the window that opens on the bottom right.\\n"
+"Click Configure > Local Managed Server, choose your GPU or CPU, choose the model in Workloads and "
+"click Install."
+msgstr ""
+"L'IA generativa per Krita è stata installata con successo.\\n"
+"\\n"
+"Apri Krita, apri un disegno esistente o creane uno nuovo.\\n"
+"Nel pannello superiore vai su Impostazioni > Pannelli > seleziona la casella Generazione Immagini "
+"AI.\\n"
+"\\n"
+"Nella finestra che si apre in basso a destra.\\n"
+"Fai clic su Configura > Server Gestito Localmente, scegli la tua GPU o CPU, scegli il modello in "
+"Carichi di Lavoro e fai clic su Installa."
+msgid "Example Install"
+msgstr "Esempio di installazione"
+msgid "Instaling Example, Please wait..."
+msgstr "Installazione in corso, attendere..."
+msgid "Example Uninstall"
+msgstr "Esempio Disinstallazione"
+msgid "Uninstaling Example, Please wait..."
+msgstr "Disinstallazione in corso, attendere..."
+msgid "Example installed successfully!"
+msgstr "Esempio installato con successo!"
+msgid "Failed to install Example!"
+msgstr "Impossibile installare Esempio!"
+msgid "Installing $package"
+msgstr "Installazione di $package"
+msgid "Installing $package, Please wait..."
+msgstr "Installazione di $package, Attendere..."
+msgid "Removing $package"
+msgstr "Rimozione di $package"
+msgid "Removing $package, Please wait..."
+msgstr "Rimozione di $package, Attendere prego..."
+msgid ""
+"$title installed successfully!\\n"
+"\\n"
+"Configured on port $port, to access use $url"
+msgstr ""
+"$title installato con successo!\\n"
+"\\n"
+"Configurato sulla porta $port, per accedere utilizzare $url"
+msgid "$package removed successfully!"
+msgstr "$pacchetto rimosso con successo!"
+msgid "An error occurred with $package."
+msgstr "Si è verificato un errore con $package."
+msgid "Docker Install"
+msgstr "Installazione di Docker"
+msgid "Instaling Docker, Please wait..."
+msgstr "Installazione di Docker, attendere..."
+msgid "Docker Start"
+msgstr "Avvia Docker"
+msgid "Docker Starting, Please wait..."
+msgstr "Docker in avvio, attendere..."
+msgid "Docker Stop"
+msgstr "Docker Ferma"
+msgid "Docker Stopping, Please wait..."
+msgstr "Docker in arresto, attendere prego..."
+msgid "Docker installed successfully!"
+msgstr "Docker installato con successo!"
+msgid "An error occurred while install docker."
+msgstr "Si è verificato un errore durante l'installazione di docker."
 msgid "Applying, please wait..."
 msgstr "Applicazione in corso, attendere..."
+msgid ""
+"GRUB updated successfully!\\n"
+"Restart your computer for it to take effect."
+msgstr ""
+"GRUB aggiornato con successo!\\n"
+"Riavvia il computer affinché abbia effetto."
+msgid "An error occurred while updating GRUB."
+msgstr "Si è verificato un errore durante l'aggiornamento di GRUB."
+msgid "Already enabled. No changes made."
+msgstr "Già abilitato. Nessuna modifica apportata."
 msgid "Recent Files enabling...."
 msgstr "Abilitazione file recenti...."
 msgid "Recent Files enabling, Please wait..."
@@ -44,18 +247,18 @@ msgstr ""
 "È necessario chiudere e riaprire Dolphin affinché abbia effetto."
 msgid "Failed to activate Recent Files!"
 msgstr "Impossibile attivare i file recenti!"
-msgid "Example Install"
-msgstr "Esempio di installazione"
-msgid "Instaling Example, Please wait..."
-msgstr "Installazione in corso, attendere..."
-msgid "Example Uninstall"
-msgstr "Esempio Disinstallazione"
-msgid "Uninstaling Example, Please wait..."
-msgstr "Disinstallazione in corso, attendere..."
-msgid "Example installed successfully!"
-msgstr "Esempio installato con successo!"
-msgid "Failed to install Example!"
-msgstr "Impossibile installare Esempio!"
+msgid "kzones Install"
+msgstr "Installazione kzones"
+msgid "Instaling Kzones, Please wait..."
+msgstr "Installazione di Kzones, attendere..."
+msgid "Kzones installed successfully!"
+msgstr "Kzones installato con successo!"
+msgid "GRUB updated successfully!"
+msgstr "GRUB aggiornato con successo!"
+msgid "Limits updated successfully!"
+msgstr "Limiti aggiornati con successo!"
+msgid "An error occurred while updating Limits."
+msgstr "Si è verificato un errore durante l'aggiornamento dei Limiti."
 msgid "JamesDSP Install"
 msgstr "Installazione JamesDSP"
 msgid "Instaling JamesDSP, Please wait..."
@@ -64,432 +267,109 @@ msgid "JamesDSP installed successfully!"
 msgstr "JamesDSP installato con successo!"
 msgid "Failed to install jamesDSP!"
 msgstr "Impossibile installare jamesDSP!"
-msgid "Docker Install"
-msgstr "Installazione di Docker"
-msgid "Instaling Docker, Please wait..."
-msgstr "Installazione di Docker, attendere..."
-msgid "Docker Start"
-msgstr "Avvia Docker"
-msgid "Docker Starting, Please wait..."
-msgstr "Docker in avvio, attendere..."
-msgid "Docker Stop"
-msgstr "Docker Ferma"
-msgid "Docker Stopping, Please wait..."
-msgstr "Docker in arresto, attendere prego..."
-msgid "Docker installed successfully!"
-msgstr "Docker installato con successo!"
-msgid "An error occurred while install docker."
-msgstr "Si è verificato un errore durante l'installazione di docker."
-msgid "Installing $package"
-msgstr "Installazione di $package"
-msgid "Installing $package, Please wait..."
-msgstr "Installazione di $package, Attendere..."
-msgid "Removing $package"
-msgstr "Rimozione di $package"
-msgid "Removing $package, Please wait..."
-msgstr "Rimozione di $package, Attendere prego..."
-msgid ""
-"$title installed successfully!\\n"
-"\\n"
-"Configured on port $port, to access use $url"
-msgstr ""
-"$title installato con successo!\\n"
-"\\n"
-"Configurato sulla porta $port, per accedere utilizzare $url"
-msgid "$package removed successfully!"
-msgstr "$pacchetto rimosso con successo!"
-msgid "An error occurred with $package."
-msgstr "Si è verificato un errore con $package."
-msgid "GRUB updated successfully!"
-msgstr "GRUB aggiornato con successo!"
-msgid "An error occurred while updating GRUB."
-msgstr "Si è verificato un errore durante l'aggiornamento di GRUB."
-msgid "Limits updated successfully!"
-msgstr "Limiti aggiornati con successo!"
-msgid "An error occurred while updating Limits."
-msgstr "Si è verificato un errore durante l'aggiornamento dei Limiti."
-msgid ""
-"GRUB updated successfully!\\n"
-"Restart your computer for it to take effect."
-msgstr ""
-"GRUB aggiornato con successo!\\n"
-"Riavvia il computer affinché abbia effetto."
-msgid "Already enabled. No changes made."
-msgstr "Già abilitato. Nessuna modifica apportata."
-msgid "Ollama Vulkan Install"
-msgstr "Installazione di Ollama Vulkan"
-msgid "Instaling Ollama, Please wait..."
-msgstr "Installazione di Ollama, attendere..."
-msgid "Ollama Vulkan Uninstall"
-msgstr "Disinstallazione di Ollama Vulkan"
-msgid "Unistaling Ollama Vulkan, Please wait..."
-msgstr "Disinstallazione di Ollama Vulkan, attendere..."
-msgid "Ollama Vulkan installed successfully!"
-msgstr "Ollama Vulkan installato con successo!"
-msgid "Failed to install Ollama Vulkan!"
-msgstr "Impossibile installare Ollama Vulkan!"
-msgid "ChatBox Install"
-msgstr "Installazione ChatBox"
-msgid "Instaling ChatBox, Please wait..."
-msgstr "Installazione di ChatBox, attendere..."
-msgid "ChatBox Uninstall"
-msgstr "Disinstalla ChatBox"
-msgid "Uninstaling ChatBox, Please wait..."
-msgstr "Disinstallazione di ChatBox, attendere..."
-msgid "ChatBox installed successfully!"
-msgstr "ChatBox installato con successo!"
-msgid "Failed to install ChatBox!"
-msgstr "Impossibile installare ChatBox!"
-msgid "Ollama Lab Install"
-msgstr "Installazione di Ollama Lab"
-msgid "Instaling Ollama Lab, Please wait..."
-msgstr "Installazione di Ollama Lab, attendere..."
-msgid "Ollama Lab Uninstall"
-msgstr "Disinstalla Ollama Lab"
-msgid "Unistaling Ollama Lab, Please wait..."
-msgstr "Disinstallazione di Ollama Lab, attendere..."
-msgid "Ollama Lab installed successfully!"
-msgstr "Ollama Lab installato con successo!"
-msgid "Failed to install Ollama Lab!"
-msgstr "Impossibile installare Ollama Lab!"
-msgid ""
-"Generative AI for Krita has been successfully installed.\\n"
-"\\n"
-"Open Krita, open an existing drawing or create a new one.\\n"
-"In the top panel go to Settings > Panels > check the AI Image Generation box.\\n"
-"\\n"
-"In the window that opens on the bottom right.\\n"
-"Click Configure > Local Managed Server, choose your GPU or CPU, choose the model in Workloads and "
-"click Install."
-msgstr ""
-"L'IA generativa per Krita è stata installata con successo.\\n"
-"\\n"
-"Apri Krita, apri un disegno esistente o creane uno nuovo.\\n"
-"Nel pannello superiore vai su Impostazioni > Pannelli > seleziona la casella Generazione Immagini "
-"AI.\\n"
-"\\n"
-"Nella finestra che si apre in basso a destra.\\n"
-"Fai clic su Configura > Server Gestito Localmente, scegli la tua GPU o CPU, scegli il modello in "
-"Carichi di Lavoro e fai clic su Installa."
-msgid ""
-"Ollama server is running.\\n"
-"Address: http://localhost:11434"
-msgstr ""
-"Il server Ollama è in esecuzione.\\n"
-"Indirizzo: http://localhost:11434"
-msgid "Ollama Install"
-msgstr "Installazione di Ollama"
-msgid "Ollama Uninstall"
-msgstr "Disinstalla Ollama"
-msgid "Unistaling Ollama, Please wait..."
-msgstr "Disinstallazione di Ollama, attendere..."
-msgid "Ollama installed successfully!"
-msgstr "Ollama installato con successo!"
-msgid "Failed to install Ollama!"
-msgstr "Impossibile installare Ollama!"
-msgid "Ollama ROCm Install"
-msgstr "Installazione di Ollama ROCm"
-msgid "Instaling Ollama ROCm, Please wait..."
-msgstr "Installazione di Ollama ROCm, attendere..."
-msgid "Ollama ROCm Uninstall"
-msgstr "Disinstallazione di Ollama ROCm"
-msgid "Unistaling Ollama ROCm, Please wait..."
-msgstr "Disinstallazione di Ollama ROCm, attendere..."
-msgid "Ollama ROCm installed successfully!"
-msgstr "Ollama ROCm installato con successo!"
-msgid "Failed to install Ollama ROCm!"
-msgstr "Impossibile installare Ollama ROCm!"
-msgid "comfyUI Install...."
-msgstr "comfyUI Install...."
-msgid "Instaling comfyUI, this step take a long time, Please wait..."
-msgstr "Installazione di comfyUI, questo passaggio richiede molto tempo, per favore attendi..."
-msgid "Uninstall comfyUI...."
-msgstr "Disinstalla comfyUI...."
-msgid "Uninstaling comfyUI, Please wait..."
-msgstr "Disinstallazione di comfyUI, attendere..."
-msgid "comfyUI installed successfully"
-msgstr "comfyUI installato con successo"
-msgid "comfyUI uninstalled successfully"
-msgstr "comfyUI disinstallato con successo"
-msgid "Failed to install comfyUI!"
-msgstr "Impossibile installare comfyUI!"
-msgid "AMD/Nvidia GPU not found!"
-msgstr "GPU AMD/Nvidia non trovato!"
-msgid ""
-"Ollama shared successfully.\\n"
-"Address: http://$localIp:11434"
-msgstr ""
-"Ollama condiviso con successo.\\n"
-"Indirizzo: http://$localIp:11434"
-msgid "Failed to shared Ollama!"
-msgstr "Impossibile condividere Ollama!"
-msgid "Ollama CUDA Install"
-msgstr "Installazione di Ollama CUDA"
-msgid "Instaling Ollama CUDA, Please wait..."
-msgstr "Installazione di Ollama CUDA, attendere..."
-msgid "Ollama CUDA Uninstall"
-msgstr "Disinstallazione di Ollama CUDA"
-msgid "Unistaling Ollama CUDA, Please wait..."
-msgstr "Disinstallazione di Ollama CUDA, attendere..."
-msgid "Ollama CUDA installed successfully!"
-msgstr "Ollama CUDA installato con successo!"
-msgid "Failed to install Ollama CUDA!"
-msgstr "Impossibile installare Ollama CUDA!"
-msgid "LM Studio Install"
-msgstr "Installazione di LM Studio"
-msgid "Instaling LM Studio, Please wait..."
-msgstr "Installazione di LM Studio, attendere..."
-msgid "LM Studio Uninstall"
-msgstr "Disinstallazione di LM Studio"
-msgid "Uninstaling LM Studio, Please wait..."
-msgstr "Disinstallazione di LM Studio, attendere..."
-msgid "LM Studio installed successfully!"
-msgstr "LM Studio installato con successo!"
-msgid "Failed to install LM Studio!"
-msgstr "Impossibile installare LM Studio!"
-msgid "Krita Install"
-msgstr "Installazione di Krita"
-msgid "Instaling Krita, Please wait..."
-msgstr "Installazione di Krita, attendere..."
-msgid "Krita Uninstall"
-msgstr "Disinstalla Krita"
-msgid "Uninstaling Krita, Please wait..."
-msgstr "Disinstallazione di Krita, attendere..."
-msgid "Krita installed successfully!"
-msgstr "Krita installato con successo!"
-msgid "Failed to install Krita!"
-msgstr "Installazione di Krita non riuscita!"
-msgid "comfyUI Depends Install"
-msgstr "Installazione delle dipendenze di ComfyUI"
-msgid "Instaling comfyUI Depends, Please wait..."
-msgstr "Installazione delle dipendenze di comfyUI, attendere..."
-msgid "comfyUI Depends installed successfully!"
-msgstr "comfyUI Dipendenze installate con successo!"
-msgid "Failed to install comfyUI Depends!"
-msgstr "Impossibile installare comfyUI Dipendenze!"
 # 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_usability_page.py, line: 204
-msgid "Docker"
-msgstr "Docker"
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/devices/jamesdsp_dialog.py, line: 208
 # 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/docker_page.py, line: 15
-msgid "Container service - enable to use containers below."
-msgstr "Servizio di container - abilita l'uso dei container qui sotto."
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/devices/jamesdsp_dialog.py, line: 208
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/devices/jamesdsp_dialog.py, line: 208
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/devices/jamesdsp_dialog.py, line: 208
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/devices/jamesdsp_dialog.py, line: 208
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/devices/jamesdsp_dialog.py, line: 208
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 107
+msgid "Usability"
+msgstr "Usabilità"
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_usability_page.py, line: 14
+msgid "User and Visual system settings."
+msgstr "Impostazioni utente e del sistema visivo."
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 114
+msgid "NumLock"
+msgstr "NumLock"
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 115
+msgid "Initial NumLock state. Ignored if autologin is enabled."
+msgstr "Stato iniziale del NumLock. Ignorato se l'accesso automatico è abilitato."
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 131
+msgid "Window Button On Left Side"
+msgstr "Pulsante della finestra a sinistra"
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 132
+msgid "Maximize, minimize, and close buttons on the left side of the window."
+msgstr "Pulsanti di massimizzazione, minimizzazione e chiusura sul lato sinistro della finestra."
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_usability_page.py, line: 72
+msgid "KZones"
+msgstr "KZone"
 # 
 # #-#-#-#-#  biglinux-settings.pot (biglinux-settings)  #-#-#-#-#
 # 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 137
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/containers_page.py, line: 18
-msgid "Containers"
-msgstr "Contenitori"
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/ai_page.py, line: 32
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_usability_page.py, line: 50
+msgid "Script for the KWin window manager of the KDE Plasma desktop environment."
+msgstr "Script per il gestore di finestre KWin dell'ambiente desktop KDE Plasma."
 # 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/docker_page.py, line: 23
-msgid "Manage container technologies."
-msgstr "Gestisci le tecnologie dei container."
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_usability_page.py, line: 169
+msgid "Recent Files & Locations"
+msgstr "File e Posizioni Recenti"
 # 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_usability_page.py, line: 205
-msgid "Docker Enabled."
-msgstr "Docker abilitato."
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/containers_page.py, line: 35
-msgid "Nextcloud Plus"
-msgstr "Nextcloud Plus"
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/docker_page.py, line: 45
-msgid "Install Nextcloud Plus container."
-msgstr "Installa il contenitore Nextcloud Plus."
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/docker_page.py, line: 52
-msgid "Run Nextcloud Plus."
-msgstr "Esegui Nextcloud Plus."
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/docker_page.py, line: 48
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_usability_page.py, line: 170
 msgid ""
-"Nextcloud Plus is running.\n"
-"Address: http://localhost:8286\n"
-"and\n"
-"Address: http://{}:8286"
+"Restores the 'Recent Files' and 'Recent Locations' functionality that appears empty in Dolphin and "
+"the Application Menu."
 msgstr ""
-"Nextcloud Plus è in esecuzione.  \n"
-"Indirizzo: http://localhost:8286  \n"
-"e  \n"
-"Indirizzo: http://{}:8286"
+"Ripristina la funzionalità 'File Recenti' e 'Posizioni Recenti' che appare vuota in Dolphin e nel "
+"Menu Applicazioni."
 # 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/containers_page.py, line: 44
-msgid "AdGuard"
-msgstr "AdGuard"
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 108
+msgid "System"
+msgstr "Sistema"
 # 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/docker_page.py, line: 64
-msgid "Install AdGuard Home container."
-msgstr "Installa il contenitore AdGuard Home."
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_page.py, line: 26
+msgid "General system settings."
+msgstr "Impostazioni generali del sistema."
 # 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/docker_page.py, line: 71
-msgid "Run AdGuard."
-msgstr "Esegui AdGuard."
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_page.py, line: 21
+msgid "SSH"
+msgstr "SSH"
 # 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/docker_page.py, line: 57
-msgid ""
-"AdGuard is running.\n"
-"Address: http://localhost:3030\n"
-"and\n"
-"Address: http://{}:3030"
-msgstr ""
-"AdGuard è in esecuzione.  \n"
-"Indirizzo: http://localhost:3030  \n"
-"e  \n"
-"Indirizzo: http://{}:3030"
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_page.py, line: 22
+msgid "Enable remote access via ssh."
+msgstr "Abilita l'accesso remoto tramite ssh."
 # 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/containers_page.py, line: 71
-msgid "Jellyfin"
-msgstr "Jellyfin"
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_page.py, line: 27
+msgid "SSH Address: {}"
+msgstr "Indirizzo SSH: {}"
 # 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/docker_page.py, line: 79
-msgid "Install Jellyfin media server."
-msgstr "Installa il server multimediale Jellyfin."
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_usability_page.py, line: 147
+msgid "SSH always on"
+msgstr "SSH sempre attivo"
 # 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/docker_page.py, line: 90
-msgid "Run Jellyfin."
-msgstr "Esegui Jellyfin."
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 149
+msgid "Turn on ssh remote access at boot."
+msgstr "Attiva l'accesso remoto ssh all'avvio."
 # 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/docker_page.py, line: 75
-msgid ""
-"Jellyfin is running.\n"
-"Address: http://localhost:8096\n"
-"and\n"
-"Address: http://{}:8096"
-msgstr ""
-"Jellyfin è in esecuzione.  \n"
-"Indirizzo: http://localhost:8096  \n"
-"e  \n"
-"Indirizzo: http://{}:8096"
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 162
+msgid "Fast Grub"
+msgstr "Fast Grub"
 # 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/containers_page.py, line: 80
-msgid "LAMP"
-msgstr "LAMP"
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 163
+msgid "Decreases grub display time."
+msgstr "Riduce il tempo di visualizzazione di grub."
 # 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/docker_page.py, line: 102
-msgid "Install LAMP stack (Linux, Apache, MySQL, PHP)."
-msgstr "Installa il stack LAMP (Linux, Apache, MySQL, PHP)."
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 170
+msgid "Auto-mount Partitions"
+msgstr "Auto-monta Partizioni"
 # 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/docker_page.py, line: 109
-msgid "Run LAMP."
-msgstr "Esegui LAMP."
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/docker_page.py, line: 84
-msgid ""
-"LAMP is running.\n"
-"Address: http://localhost:8080\n"
-"and\n"
-"Address: http://{}:8080"
-msgstr ""
-"LAMP è in esecuzione.  \n"
-"Indirizzo: http://localhost:8080  \n"
-"e  \n"
-"Indirizzo: http://{}:8080"
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/containers_page.py, line: 89
-msgid "Portainer Client"
-msgstr "Client di Portainer"
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/docker_page.py, line: 121
-msgid "Install Portainer Agent for cluster management."
-msgstr "Installa Portainer Agent per la gestione del cluster."
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/docker_page.py, line: 128
-msgid "Run Portainer Client."
-msgstr "Esegui Portainer Client."
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/docker_page.py, line: 93
-msgid ""
-"Portainer Client is running.\n"
-"Address: http://localhost:9000\n"
-"and\n"
-"Address: http://{}:9000"
-msgstr ""
-"Il client Portainer è in esecuzione.  \n"
-"Indirizzo: http://localhost:9000  \n"
-"e  \n"
-"Indirizzo: http://{}:9000"
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/containers_page.py, line: 98
-msgid "SWS"
-msgstr "SWS"
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/docker_page.py, line: 140
-msgid "Install SWS static web server."
-msgstr "Installa il server web statico SWS."
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/docker_page.py, line: 147
-msgid "Run SWS."
-msgstr "Esegui SWS."
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/docker_page.py, line: 102
-msgid ""
-"SWS is running.\n"
-"Address: http://localhost:8182\n"
-"and\n"
-"Address: http://{}:8182"
-msgstr ""
-"SWS è in esecuzione.  \n"
-"Indirizzo: http://localhost:8182  \n"
-"e  \n"
-"Indirizzo: http://{}:8182"
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/containers_page.py, line: 107
-msgid "V2RayA"
-msgstr "V2RayA"
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/docker_page.py, line: 159
-msgid "Install V2RayA network tool."
-msgstr "Installa lo strumento di rete V2RayA."
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/docker_page.py, line: 166
-msgid "Run V2RayA."
-msgstr "Esegui V2RayA."
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/docker_page.py, line: 111
-msgid ""
-"V2RayA is running.\n"
-"Address: http://localhost:2017\n"
-"and\n"
-"Address: http://{}:2017"
-msgstr ""
-"V2RayA è in esecuzione.  \n"
-"Indirizzo: http://localhost:2017  \n"
-"e  \n"
-"Indirizzo: http://{}:2017"
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/docker_page.py, line: 178
-msgid "Install An open source, privacy-focused alternative to Google's Notebook LM!"
-msgstr "Installa un'alternativa open source e incentrata sulla privacy a Google Notebook LM!"
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/docker_page.py, line: 185
-msgid "Run Open Notebook."
-msgstr "Esegui Open Notebook."
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/docker_page.py, line: 190
-msgid ""
-"Open Notebook is running.\n"
-"Address: http://localhost:8502\n"
-"and\n"
-"Address: http://{}:8502"
-msgstr ""
-"Il Notebook è in esecuzione.  \n"
-"Indirizzo: http://localhost:8502  \n"
-"e  \n"
-"Indirizzo: http://{}:8502"
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 244
-msgid "Changing {} to {}"
-msgstr "Cambiando {} in {}"
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 271
-msgid "ERROR: Failed to change {} to {}"
-msgstr "ERRORE: Impossibile cambiare {} in {}"
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 274
-msgid "Failed to change setting: {}"
-msgstr "Impossibile modificare l'impostazione: {}"
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 171
+msgid "Auto mount partitions in internal disks on boot."
+msgstr "Auto monta le partizioni nei dischi interni all'avvio."
 # 
 # #-#-#-#-#  biglinux-settings.pot (biglinux-settings)  #-#-#-#-#
 # 
@@ -588,47 +468,17 @@ msgstr "Cambia {} sincronizzato: {}"
 msgid "Indicator {} synchronized: {}"
 msgstr "Indicatore {} sincronizzato: {}"
 # 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 49
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 120
-msgid "BigLinux Settings"
-msgstr "Impostazioni di BigLinux"
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 244
+msgid "Changing {} to {}"
+msgstr "Cambiando {} in {}"
 # 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 135
-msgid "Categories"
-msgstr "Categorie"
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 271
+msgid "ERROR: Failed to change {} to {}"
+msgstr "ERRORE: Impossibile cambiare {} in {}"
 # 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 144
-msgid "Search..."
-msgstr "Cerca..."
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/devices/keyboard_led_dialog.py, line: 249
-msgid "Settings"
-msgstr "Impostazioni"
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 108
-msgid "System"
-msgstr "Sistema"
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/devices/jamesdsp_dialog.py, line: 208
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/devices/jamesdsp_dialog.py, line: 208
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/devices/jamesdsp_dialog.py, line: 208
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/devices/jamesdsp_dialog.py, line: 208
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/devices/jamesdsp_dialog.py, line: 208
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/devices/jamesdsp_dialog.py, line: 208
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 107
-msgid "Usability"
-msgstr "Usabilità"
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 158
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 167
-msgid "PreLoad"
-msgstr "PreCaricamento"
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 274
+msgid "Failed to change setting: {}"
+msgstr "Impossibile modificare l'impostazione: {}"
 # 
 # #-#-#-#-#  biglinux-settings.pot (biglinux-settings)  #-#-#-#-#
 # 
@@ -637,9 +487,66 @@ msgstr "PreCaricamento"
 msgid "Devices"
 msgstr "Dispositivi"
 # 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/devices_page.py, line: 15
+msgid "Manage physical devices."
+msgstr "Gestisci dispositivi fisici."
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_usability_page.py, line: 190
+msgid "Wifi"
+msgstr "Wifi"
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_usability_page.py, line: 191
+msgid "Wifi On"
+msgstr "Wifi Attivo"
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_usability_page.py, line: 197
+msgid "Bluetooth"
+msgstr "Bluetooth"
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_usability_page.py, line: 198
+msgid "Bluetooth On."
+msgstr "Bluetooth attivato."
+# 
+# #-#-#-#-#  biglinux-settings.pot (biglinux-settings)  #-#-#-#-#
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/dispositivos_page.py, line: 77
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/devices/jamesdsp_dialog.py, line: 155
+msgid "JamesDSP"
+msgstr "JamesDSP"
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/dispositivos_page.py, line: 84
+msgid "Advanced audio effects processor that improves sound quality."
+msgstr "Processore avanzato di effetti audio che migliora la qualità del suono."
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/devices_page.py, line: 71
+msgid "Reverse mouse scrolling"
+msgstr "Scorrimento del mouse inverso"
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/devices_page.py, line: 72
+msgid "Reverse mouse scrolling without restarting the session."
+msgstr "Inverti lo scorrimento del mouse senza riavviare la sessione."
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 49
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 120
+msgid "BigLinux Settings"
+msgstr "Impostazioni di BigLinux"
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 144
+msgid "Search..."
+msgstr "Cerca..."
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 158
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 167
+msgid "PreLoad"
+msgstr "PreCaricamento"
+# 
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 161
 msgid "A.I."
 msgstr "A.I."
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_usability_page.py, line: 204
+msgid "Docker"
+msgstr "Docker"
 # 
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings/performance_games_page.py, line: 181
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings/performance_games_page.py, line: 195
@@ -650,46 +557,6 @@ msgstr "A.I."
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings/usability/gamemode_dialog.py, line: 204
 msgid "Performance"
 msgstr "Prestazioni"
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_page.py, line: 26
-msgid "General system settings."
-msgstr "Impostazioni generali del sistema."
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_page.py, line: 21
-msgid "SSH"
-msgstr "SSH"
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_page.py, line: 22
-msgid "Enable remote access via ssh."
-msgstr "Abilita l'accesso remoto tramite ssh."
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_page.py, line: 27
-msgid "SSH Address: {}"
-msgstr "Indirizzo SSH: {}"
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_usability_page.py, line: 147
-msgid "SSH always on"
-msgstr "SSH sempre attivo"
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 149
-msgid "Turn on ssh remote access at boot."
-msgstr "Attiva l'accesso remoto ssh all'avvio."
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 162
-msgid "Fast Grub"
-msgstr "Fast Grub"
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 163
-msgid "Decreases grub display time."
-msgstr "Riduce il tempo di visualizzazione di grub."
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 170
-msgid "Auto-mount Partitions"
-msgstr "Auto-monta Partizioni"
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 171
-msgid "Auto mount partitions in internal disks on boot."
-msgstr "Auto monta le partizioni nei dischi interni all'avvio."
 # 
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings/preload_page.py, line: 103
 msgid "Preload"
@@ -730,45 +597,6 @@ msgstr "Opera"
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings/preload_page.py, line: 156
 msgid "Libreoffice"
 msgstr "LibreOffice"
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/devices_page.py, line: 15
-msgid "Manage physical devices."
-msgstr "Gestisci dispositivi fisici."
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_usability_page.py, line: 190
-msgid "Wifi"
-msgstr "Wifi"
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_usability_page.py, line: 191
-msgid "Wifi On"
-msgstr "Wifi Attivo"
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_usability_page.py, line: 197
-msgid "Bluetooth"
-msgstr "Bluetooth"
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_usability_page.py, line: 198
-msgid "Bluetooth On."
-msgstr "Bluetooth attivato."
-# 
-# #-#-#-#-#  biglinux-settings.pot (biglinux-settings)  #-#-#-#-#
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/dispositivos_page.py, line: 77
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/devices/jamesdsp_dialog.py, line: 155
-msgid "JamesDSP"
-msgstr "JamesDSP"
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/dispositivos_page.py, line: 84
-msgid "Advanced audio effects processor that improves sound quality."
-msgstr "Processore avanzato di effetti audio che migliora la qualità del suono."
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/devices_page.py, line: 71
-msgid "Reverse mouse scrolling"
-msgstr "Scorrimento del mouse inverso"
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/devices_page.py, line: 72
-msgid "Reverse mouse scrolling without restarting the session."
-msgstr "Inverti lo scorrimento del mouse senza riavviare la sessione."
 # 
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings/performance_games_page.py, line: 16
 msgid "BigLinux performance tweaks."
@@ -986,45 +814,209 @@ msgstr ""
 "Server AI locale. Per le GPU AMD più recenti, a partire dalla serie 6000.  \n"
 "Considera di utilizzare Vulkan, in molti test, Vulkan ha performato meglio di ROCm."
 # 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_usability_page.py, line: 14
-msgid "User and Visual system settings."
-msgstr "Impostazioni utente e del sistema visivo."
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 114
-msgid "NumLock"
-msgstr "NumLock"
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 115
-msgid "Initial NumLock state. Ignored if autologin is enabled."
-msgstr "Stato iniziale del NumLock. Ignorato se l'accesso automatico è abilitato."
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 131
-msgid "Window Button On Left Side"
-msgstr "Pulsante della finestra a sinistra"
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 132
-msgid "Maximize, minimize, and close buttons on the left side of the window."
-msgstr "Pulsanti di massimizzazione, minimizzazione e chiusura sul lato sinistro della finestra."
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_usability_page.py, line: 72
-msgid "KZones"
-msgstr "KZone"
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/docker_page.py, line: 15
+msgid "Container service - enable to use containers below."
+msgstr "Servizio di container - abilita l'uso dei container qui sotto."
 # 
 # #-#-#-#-#  biglinux-settings.pot (biglinux-settings)  #-#-#-#-#
 # 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/ai_page.py, line: 32
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_usability_page.py, line: 50
-msgid "Script for the KWin window manager of the KDE Plasma desktop environment."
-msgstr "Script per il gestore di finestre KWin dell'ambiente desktop KDE Plasma."
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 137
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/containers_page.py, line: 18
+msgid "Containers"
+msgstr "Contenitori"
 # 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_usability_page.py, line: 169
-msgid "Recent Files & Locations"
-msgstr "File e Posizioni Recenti"
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/docker_page.py, line: 23
+msgid "Manage container technologies."
+msgstr "Gestisci le tecnologie dei container."
 # 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_usability_page.py, line: 170
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_usability_page.py, line: 205
+msgid "Docker Enabled."
+msgstr "Docker abilitato."
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/containers_page.py, line: 35
+msgid "Nextcloud Plus"
+msgstr "Nextcloud Plus"
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/docker_page.py, line: 45
+msgid "Install Nextcloud Plus container."
+msgstr "Installa il contenitore Nextcloud Plus."
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/docker_page.py, line: 52
+msgid "Run Nextcloud Plus."
+msgstr "Esegui Nextcloud Plus."
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/docker_page.py, line: 48
 msgid ""
-"Restores the 'Recent Files' and 'Recent Locations' functionality that appears empty in Dolphin and "
-"the Application Menu."
+"Nextcloud Plus is running.\n"
+"Address: http://localhost:8286\n"
+"and\n"
+"Address: http://{}:8286"
 msgstr ""
-"Ripristina la funzionalità 'File Recenti' e 'Posizioni Recenti' che appare vuota in Dolphin e nel "
-"Menu Applicazioni."
+"Nextcloud Plus è in esecuzione.  \n"
+"Indirizzo: http://localhost:8286  \n"
+"e  \n"
+"Indirizzo: http://{}:8286"
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/containers_page.py, line: 44
+msgid "AdGuard"
+msgstr "AdGuard"
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/docker_page.py, line: 64
+msgid "Install AdGuard Home container."
+msgstr "Installa il contenitore AdGuard Home."
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/docker_page.py, line: 71
+msgid "Run AdGuard."
+msgstr "Esegui AdGuard."
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/docker_page.py, line: 57
+msgid ""
+"AdGuard is running.\n"
+"Address: http://localhost:3030\n"
+"and\n"
+"Address: http://{}:3030"
+msgstr ""
+"AdGuard è in esecuzione.  \n"
+"Indirizzo: http://localhost:3030  \n"
+"e  \n"
+"Indirizzo: http://{}:3030"
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/containers_page.py, line: 71
+msgid "Jellyfin"
+msgstr "Jellyfin"
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/docker_page.py, line: 79
+msgid "Install Jellyfin media server."
+msgstr "Installa il server multimediale Jellyfin."
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/docker_page.py, line: 90
+msgid "Run Jellyfin."
+msgstr "Esegui Jellyfin."
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/docker_page.py, line: 75
+msgid ""
+"Jellyfin is running.\n"
+"Address: http://localhost:8096\n"
+"and\n"
+"Address: http://{}:8096"
+msgstr ""
+"Jellyfin è in esecuzione.  \n"
+"Indirizzo: http://localhost:8096  \n"
+"e  \n"
+"Indirizzo: http://{}:8096"
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/containers_page.py, line: 80
+msgid "LAMP"
+msgstr "LAMP"
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/docker_page.py, line: 102
+msgid "Install LAMP stack (Linux, Apache, MySQL, PHP)."
+msgstr "Installa il stack LAMP (Linux, Apache, MySQL, PHP)."
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/docker_page.py, line: 109
+msgid "Run LAMP."
+msgstr "Esegui LAMP."
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/docker_page.py, line: 84
+msgid ""
+"LAMP is running.\n"
+"Address: http://localhost:8080\n"
+"and\n"
+"Address: http://{}:8080"
+msgstr ""
+"LAMP è in esecuzione.  \n"
+"Indirizzo: http://localhost:8080  \n"
+"e  \n"
+"Indirizzo: http://{}:8080"
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/containers_page.py, line: 89
+msgid "Portainer Client"
+msgstr "Client di Portainer"
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/docker_page.py, line: 121
+msgid "Install Portainer Agent for cluster management."
+msgstr "Installa Portainer Agent per la gestione del cluster."
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/docker_page.py, line: 128
+msgid "Run Portainer Client."
+msgstr "Esegui Portainer Client."
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/docker_page.py, line: 93
+msgid ""
+"Portainer Client is running.\n"
+"Address: http://localhost:9000\n"
+"and\n"
+"Address: http://{}:9000"
+msgstr ""
+"Il client Portainer è in esecuzione.  \n"
+"Indirizzo: http://localhost:9000  \n"
+"e  \n"
+"Indirizzo: http://{}:9000"
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/containers_page.py, line: 98
+msgid "SWS"
+msgstr "SWS"
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/docker_page.py, line: 140
+msgid "Install SWS static web server."
+msgstr "Installa il server web statico SWS."
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/docker_page.py, line: 147
+msgid "Run SWS."
+msgstr "Esegui SWS."
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/docker_page.py, line: 102
+msgid ""
+"SWS is running.\n"
+"Address: http://localhost:8182\n"
+"and\n"
+"Address: http://{}:8182"
+msgstr ""
+"SWS è in esecuzione.  \n"
+"Indirizzo: http://localhost:8182  \n"
+"e  \n"
+"Indirizzo: http://{}:8182"
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/containers_page.py, line: 107
+msgid "V2RayA"
+msgstr "V2RayA"
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/docker_page.py, line: 159
+msgid "Install V2RayA network tool."
+msgstr "Installa lo strumento di rete V2RayA."
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/docker_page.py, line: 166
+msgid "Run V2RayA."
+msgstr "Esegui V2RayA."
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/docker_page.py, line: 111
+msgid ""
+"V2RayA is running.\n"
+"Address: http://localhost:2017\n"
+"and\n"
+"Address: http://{}:2017"
+msgstr ""
+"V2RayA è in esecuzione.  \n"
+"Indirizzo: http://localhost:2017  \n"
+"e  \n"
+"Indirizzo: http://{}:2017"
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/docker_page.py, line: 178
+msgid "Install An open source, privacy-focused alternative to Google's Notebook LM!"
+msgstr "Installa un'alternativa open source e incentrata sulla privacy a Google Notebook LM!"
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/docker_page.py, line: 185
+msgid "Run Open Notebook."
+msgstr "Esegui Open Notebook."
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/docker_page.py, line: 190
+msgid ""
+"Open Notebook is running.\n"
+"Address: http://localhost:8502\n"
+"and\n"
+"Address: http://{}:8502"
+msgstr ""
+"Il Notebook è in esecuzione.  \n"
+"Indirizzo: http://localhost:8502  \n"
+"e  \n"
+"Indirizzo: http://{}:8502"

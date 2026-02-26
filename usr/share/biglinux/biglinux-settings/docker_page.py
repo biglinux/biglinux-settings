@@ -191,9 +191,6 @@ class DockerPage(BaseSettingsPage):
             ).format(local_ip),
         )
 
-        # Syncs
-        self.sync_all_switches()
-
     def install_container(self, container_name):
         """Install a Docker container."""
         script_path = os.path.join("containers", f"{container_name}.sh")

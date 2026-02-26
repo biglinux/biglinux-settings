@@ -27,5 +27,3 @@ class PreloadPage(BaseSettingsPage):
 
         for label, script, icon in apps:
             self.create_row(group, label, None, script, icon)
-
-        self.sync_all_switches()

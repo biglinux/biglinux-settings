@@ -61,5 +61,3 @@ class SystemPage(BaseSettingsPage):
         #     "limits",
         #     "limits-symbolic",
         # )
-
-        self.sync_all_switches()
