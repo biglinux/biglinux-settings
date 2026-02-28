@@ -35,5 +35,4 @@ elif [ "$1" == "toggle" ]; then
     $PWD/ai/comfyUIInstall.sh "uninstall"
   fi
   exit $?
-
 fi
