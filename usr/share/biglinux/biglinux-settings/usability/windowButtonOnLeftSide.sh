@@ -1,6 +1,7 @@
 #!/bin/bash
 
 # check current status
+# action=$1
 if [ "$1" == "check" ]; then
   if [[ "$XDG_CURRENT_DESKTOP" == *"KDE"* ]] || [[ "$XDG_CURRENT_DESKTOP" == *"Plasma"* ]];then
     if LANG=C grep -q 'FSM' $HOME/.config/kwinrc;then
@@ -30,10 +31,11 @@ if [ "$1" == "check" ]; then
   fi
 
 # change the state
+# action=$1
+# state=$2
 elif [ "$1" == "toggle" ]; then
-  state="$2"
   if [[ "$XDG_CURRENT_DESKTOP" == *"KDE"* ]] || [[ "$XDG_CURRENT_DESKTOP" == *"Plasma"* ]];then
-    if [ "$state" == "true" ]; then
+    if [ "$2" == "true" ]; then
       kwriteconfig6 --file $HOME/.config/gtk-3.0/settings.ini --group Settings --key "gtk-decoration-layout" "close,minimize,maximize:menu"
       kwriteconfig6 --file $HOME/.config/gtk-4.0/settings.ini --group Settings --key "gtk-decoration-layout" "close,minimize,maximize:menu"
       gsettings set org.gnome.desktop.wm.preferences button-layout "close,minimize,maximize:menu"
@@ -70,7 +72,7 @@ elif [ "$1" == "toggle" ]; then
     export TEXTDOMAIN=biglinux-settings
     sleep 5 | zenity --progress --title='grub' --text=$"Applying, please wait..." --pulsate --auto-close --no-cancel
   elif [[ "$XDG_CURRENT_DESKTOP" == *"Cinnamon"* ]] || [[ "$XDG_CURRENT_DESKTOP" == *"X-Cinnamon"* ]];then
-    if [ "$state" == "true" ]; then
+    if [ "$2" == "true" ]; then
         gsettings set org.cinnamon.desktop.wm.preferences button-layout 'close,minimize,maximize:'
         exitCode=$?
     else
