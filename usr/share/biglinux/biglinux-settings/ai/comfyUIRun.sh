@@ -9,6 +9,7 @@ if [ "$1" == "check" ]; then
     echo "false"
   fi
 
+# change the state
 # action=$1
 # state=$2
 elif [ "$1" == "toggle" ]; then
