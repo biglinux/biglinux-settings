@@ -26,11 +26,12 @@ runAsUser() {
 # Executes the root tasks.
 updateTask() {
   if [[ "$function" == "install" ]]; then
-    sed -i /'WorkingDirectory=/{p;s/.*/Environment="OLLAMA_HOST=0.0.0.0"/;}' /usr/lib/systemd/system/ollama.service
+    mkdir /etc/systemd/system/ollama.service.d
+    echo -e '[Service]\nEnvironment="OLLAMA_HOST=0.0.0.0"' > /etc/systemd/system/ollama.service.d/ollama.conf
     systemctl daemon-reload
     systemctl restart ollama.service
   else
-    sed -i '/Environment="OLLAMA_HOST=0.0.0.0"/d' /usr/lib/systemd/system/ollama.service
+    rm -f "/etc/systemd/system/ollama.service.d/ollama.conf"
     systemctl daemon-reload
     systemctl restart ollama.service
   fi
