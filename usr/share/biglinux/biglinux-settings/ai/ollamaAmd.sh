@@ -24,9 +24,11 @@ if [ "$1" == "check" ]; then
 elif [ "$1" == "toggle" ]; then
   if [ "$2" == "true" ]; then
     pkexec $PWD/ai/ollamaAmdRun.sh "install" "$USER" "$DISPLAY" "$XAUTHORITY" "$DBUS_SESSION_BUS_ADDRESS" "$LANG" "$LANGUAGE"
+    exitCode=$?
     info
   else
     pkexec $PWD/ai/ollamaAmdRun.sh "uninstall" "$USER" "$DISPLAY" "$XAUTHORITY" "$DBUS_SESSION_BUS_ADDRESS" "$LANG" "$LANGUAGE"
+    exitCode=$?
   fi
-  exit $?
+  exit $exitCode
 fi
