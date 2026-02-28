@@ -27,5 +27,5 @@ elif [ "$1" == "toggle" ]; then
     # execute a command as root, prompting for a password only once.
     pkexec $PWD/example/exampleRun.sh "uninstall" "$USER" "$DISPLAY" "$XAUTHORITY" "$DBUS_SESSION_BUS_ADDRESS" "$LANG" "$LANGUAGE"
   fi
-  return=$?
+  exit $?
 fi
