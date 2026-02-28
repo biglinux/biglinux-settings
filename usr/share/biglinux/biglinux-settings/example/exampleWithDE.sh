@@ -45,14 +45,12 @@ elif [ "$1" == "toggle" ]; then
       any command as user
       # execute a command as root, prompting for a password only once.
       pkexec $PWD/example/exampleRun.sh "install" "$USER" "$DISPLAY" "$XAUTHORITY" "$DBUS_SESSION_BUS_ADDRESS" "$LANG" "$LANGUAGE"
-      exitCode=$?
     # if the state is false
     else
       # execute a command as a user
       any command as user
       # execute a command as root, prompting for a password only once.
       pkexec $PWD/example/exampleRun.sh "uninstall" "$USER" "$DISPLAY" "$XAUTHORITY" "$DBUS_SESSION_BUS_ADDRESS" "$LANG" "$LANGUAGE"
-      exitCode=$?
     fi
   # for GNOME ONly
   elif [[ "$XDG_CURRENT_DESKTOP" == *"GNOME"* ]];then
@@ -62,14 +60,12 @@ elif [ "$1" == "toggle" ]; then
       any command as user
       # execute a command as root, prompting for a password only once.
       pkexec $PWD/example/exampleRun.sh "install" "$USER" "$DISPLAY" "$XAUTHORITY" "$DBUS_SESSION_BUS_ADDRESS" "$LANG" "$LANGUAGE"
-      exitCode=$?
     # if the state is false
     else
       # execute a command as a user
       any command as user
       # execute a command as root, prompting for a password only once.
       pkexec $PWD/example/exampleRun.sh "uninstall" "$USER" "$DISPLAY" "$XAUTHORITY" "$DBUS_SESSION_BUS_ADDRESS" "$LANG" "$LANGUAGE"
-      exitCode=$?
     fi
   # for XFCE only
   elif [ -n "$(grep SHMC  $HOME/.config/xfce4/xfconf/xfce-perchannel-xml/xfwm4.xml)" ];then
@@ -79,14 +75,12 @@ elif [ "$1" == "toggle" ]; then
       any command as user
       # execute a command as root, prompting for a password only once.
       pkexec $PWD/example/exampleRun.sh "install" "$USER" "$DISPLAY" "$XAUTHORITY" "$DBUS_SESSION_BUS_ADDRESS" "$LANG" "$LANGUAGE"
-      exitCode=$?
     # if the state is false
     else
       # execute a command as a user
       any command as user
       # execute a command as root, prompting for a password only once.
       pkexec $PWD/example/exampleRun.sh "uninstall" "$USER" "$DISPLAY" "$XAUTHORITY" "$DBUS_SESSION_BUS_ADDRESS" "$LANG" "$LANGUAGE"
-      exitCode=$?
     fi
   # for CINNAMON only
   elif [[ "$XDG_CURRENT_DESKTOP" == *"Cinnamon"* ]] || [[ "$XDG_CURRENT_DESKTOP" == *"X-Cinnamon"* ]];then
@@ -96,15 +90,13 @@ elif [ "$1" == "toggle" ]; then
       any command as user
       # execute a command as root, prompting for a password only once.
       pkexec $PWD/example/exampleRun.sh "install" "$USER" "$DISPLAY" "$XAUTHORITY" "$DBUS_SESSION_BUS_ADDRESS" "$LANG" "$LANGUAGE"
-      exitCode=$?
     # if the state is false
     else
       # execute a command as a user
       any command as user
       # execute a command as root, prompting for a password only once.
       pkexec $PWD/example/exampleRun.sh "uninstall" "$USER" "$DISPLAY" "$XAUTHORITY" "$DBUS_SESSION_BUS_ADDRESS" "$LANG" "$LANGUAGE"
-      exitCode=$?
     fi
   fi
-  exit $exitCode
+  exit $?
 fi
