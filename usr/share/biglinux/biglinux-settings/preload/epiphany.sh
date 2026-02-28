@@ -3,4 +3,4 @@
 app='epiphany'
 verifyApp='/usr/bin/epiphany'
 
-source preload.sh
+source preload/preload.sh

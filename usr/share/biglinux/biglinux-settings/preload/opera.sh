@@ -3,4 +3,4 @@
 app='opera'
 verifyApp='/usr/lib/opera/opera'
 
-source preload.sh
+source preload/preload.sh

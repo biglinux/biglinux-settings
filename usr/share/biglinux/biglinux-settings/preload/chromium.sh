@@ -3,4 +3,4 @@
 app='chromium'
 verifyApp='/usr/lib/chromium/chromium'
 
-source preload.sh
+source preload/preload.sh

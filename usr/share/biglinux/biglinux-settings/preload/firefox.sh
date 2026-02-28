@@ -3,4 +3,4 @@
 app='firefox'
 verifyApp='/usr/lib/firefox/firefox'
 
-source preload.sh
+source preload/preload.sh

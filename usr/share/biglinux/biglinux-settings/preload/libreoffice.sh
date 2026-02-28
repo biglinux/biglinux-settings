@@ -3,4 +3,4 @@
 app='libreoffice'
 verifyApp='/usr/lib/libreoffice/program/soffice.bin'
 
-source preload.sh
+source preload/preload.sh

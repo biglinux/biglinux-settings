@@ -3,4 +3,4 @@
 app='brave'
 verifyApp='/usr/lib/brave-browser/brave'
 
-source preload.sh
+source preload/preload.sh

@@ -3,4 +3,4 @@
 app='palemoon'
 verifyApp='/usr/lib/palemoon/palemoon-bin'
 
-source preload.sh
+source preload/preload.sh

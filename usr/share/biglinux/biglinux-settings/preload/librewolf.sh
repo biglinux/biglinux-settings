@@ -3,4 +3,4 @@
 app='librewolf'
 verifyApp='/usr/lib/librewolf/librewolf'
 
-source preload.sh
+source preload/preload.sh

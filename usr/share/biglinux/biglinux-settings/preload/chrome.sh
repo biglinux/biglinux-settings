@@ -3,4 +3,4 @@
 app='chrome'
 verifyApp='/opt/google/chrome/chrome'
 
-source preload.sh
+source preload/preload.sh

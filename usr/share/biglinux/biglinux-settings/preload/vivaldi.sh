@@ -3,4 +3,4 @@
 app='vivaldi'
 verifyApp='/opt/vivaldi/vivaldi-bin'
 
-source preload.sh
+source preload/preload.sh
