@@ -53,7 +53,7 @@ elif [ "$1" == "toggle" ]; then
       exitCode=$?
     fi
 #   elif [[ "$XDG_CURRENT_DESKTOP" == *"GNOME"* ]];then
-#     if [ "$state" == "true" ]; then
+#     if [ "$2" == "true" ]; then
 #         some command
 #         exitCode=$?
 #     else
@@ -61,7 +61,7 @@ elif [ "$1" == "toggle" ]; then
 #         exitCode=$?
 #     fi
   elif [ -n "$(grep SHMC  $HOME/.config/xfce4/xfconf/xfce-perchannel-xml/xfwm4.xml)" ];then
-    if [ "$state" == "true" ]; then
+    if [ "$2" == "true" ]; then
         xfconf-query -c xfwm4 -p /general/button_layout -s "CMH|SO"
         exitCode=$?
     else
