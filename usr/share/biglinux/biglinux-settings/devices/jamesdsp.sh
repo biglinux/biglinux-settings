@@ -1,6 +1,8 @@
 #!/bin/bash
 
 # check current status
+# action=$1
+# state=$2
 if [ "$1" == "check" ]; then
   if [[ "$(LANG=C jamesdsp --get master_enable)" == "true" ]] && pacman -Q jamesdsp &>/dev/null; then
     echo "true"
@@ -9,9 +11,10 @@ if [ "$1" == "check" ]; then
   fi
 
 # change the state
+# action=$1
+# state=$2
 elif [ "$1" == "toggle" ]; then
-  state="$2"
-  if [ "$state" == "true" ]; then
+  if [ "$2" == "true" ]; then
     if ! pacman -Q jamesdsp &>/dev/null; then
       pkexec $PWD/devices/jamesdspRun.sh "install" "$USER" "$DISPLAY" "$XAUTHORITY" "$DBUS_SESSION_BUS_ADDRESS" "$LANG" "$LANGUAGE"
     fi
@@ -19,11 +22,9 @@ elif [ "$1" == "toggle" ]; then
     cp '/etc/skel/.config/jamesdsp/presets/big-jamesdsp.conf' "$$HOME/.config/jamesdsp/presets/big-jamesdsp.conf"
     jamesdsp --set master_enable=true
     systemctl enable --now --user jamesdsp-autostart.service
-    exitCode=$?
   else
     jamesdsp --set master_enable=false
     systemctl disable --now --user jamesdsp-autostart.service
-    exitCode=$?
   fi
-  exit $exitCode
+  exit $?
 fi
