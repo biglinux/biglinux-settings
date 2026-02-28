@@ -46,13 +46,13 @@ if [ "$1" == "check" ]; then
 # state=$2
 elif [ "$1" == "toggle" ]; then
   if [[ "$XDG_CURRENT_DESKTOP" == *"KDE"* ]] || [[ "$XDG_CURRENT_DESKTOP" == *"Plasma"* ]];then
-    if [ "$state" == "true" ]; then
+    if [ "$2" == "true" ]; then
       $PWD/usability/recentFilesRun.sh "enable" #"$USER" "$DISPLAY" "$XAUTHORITY" "$DBUS_SESSION_BUS_ADDRESS" "$LANG" "$LANGUAGE"
     else
       $PWD/usability/recentFilesRun.sh "disable" #"$USER" "$DISPLAY" "$XAUTHORITY" "$DBUS_SESSION_BUS_ADDRESS" "$LANG" "$LANGUAGE"
     fi
 #   elif [[ "$XDG_CURRENT_DESKTOP" == *"GNOME"* ]];then
-#     if [ "$state" == "true" ]; then
+#     if [ "$2" == "true" ]; then
 #         some command
 #         exitCode=$?
 #     else
@@ -60,7 +60,7 @@ elif [ "$1" == "toggle" ]; then
 #         exitCode=$?
 #     fi
 #   elif [[ "$XDG_CURRENT_DESKTOP" == *"XFCE"* ]];then
-#     if [ "$state" == "true" ]; then
+#     if [ "$2" == "true" ]; then
 #         some command
 #         exitCode=$?
 #     else
@@ -68,7 +68,7 @@ elif [ "$1" == "toggle" ]; then
 #         exitCode=$?
 #     fi
   elif [[ "$XDG_CURRENT_DESKTOP" == *"Cinnamon"* ]] || [[ "$XDG_CURRENT_DESKTOP" == *"X-Cinnamon"* ]];then
-    if [ "$state" == "true" ]; then
+    if [ "$2" == "true" ]; then
 	      gsettings set org.cinnamon.desktop.privacy remember-recent-files true
     else
         gsettings set org.cinnamon.desktop.privacy remember-recent-files false
