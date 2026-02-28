@@ -2,7 +2,6 @@
 
 # check current status
 # action=$1
-# state=$2
 if [ "$1" == "check" ]; then
   if [[ "$(LANG=C jamesdsp --get master_enable)" == "true" ]] && pacman -Q jamesdsp &>/dev/null; then
     echo "true"
