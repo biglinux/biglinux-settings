@@ -60,6 +60,7 @@ elif [ "$1" == "toggle" ]; then
   #   fi
   # elif [[ "$XDG_CURRENT_DESKTOP" == *"XFCE"* ]];then
   #   if [ "$2" == "true" ]; then
+  #       some command
   #   else
   #       some command
   #   fi
