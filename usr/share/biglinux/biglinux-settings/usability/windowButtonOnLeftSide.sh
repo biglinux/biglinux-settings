@@ -9,12 +9,13 @@ if [ "$1" == "check" ]; then
     else
       echo "false"
     fi
-#   elif [[ "$XDG_CURRENT_DESKTOP" == *"GNOME"* ]];then
-#     if [[ "$(LANG=C some Command)" == "true" ]];then #or if some Command &>/dev/null;then # if command response exit 0
-#       echo "true"
-#     else
-#       echo "false"
-#     fi
+  elif [[ "$XDG_CURRENT_DESKTOP" == *"GNOME"* ]];then
+    current=$(gsettings get org.gnome.desktop.wm.preferences button-layout 2>/dev/null)
+    if [[ "$current" == *"close,minimize,maximize:"* ]]; then
+      echo "true"
+    else
+      echo "false"
+    fi
   elif [[ "$XDG_CURRENT_DESKTOP" == *"XFCE"* ]];then
     if [ -n "$(grep SHMC  $HOME/.config/xfce4/xfconf/xfce-perchannel-xml/xfwm4.xml)" ];then
       echo "true"
@@ -50,16 +51,17 @@ elif [ "$1" == "toggle" ]; then
       kwriteconfig6 --group "org.kde.kdecoration2" --key "ButtonsOnRight" --file "$HOME/.config/kwinrc" "IAX"
       qdbus org.kde.KWin /KWin org.kde.KWin.reconfigure
     fi
-#   elif [[ "$XDG_CURRENT_DESKTOP" == *"GNOME"* ]];then
-#     if [ "$2" == "true" ]; then
-#         some command
-#     else
-#         some command
-#     fi
-  elif [ -n "$(grep SHMC  $HOME/.config/xfce4/xfconf/xfce-perchannel-xml/xfwm4.xml)" ];then
+  elif [[ "$XDG_CURRENT_DESKTOP" == *"GNOME"* ]];then
     if [ "$2" == "true" ]; then
-        xfconf-query -c xfwm4 -p /general/button_layout -s "CMH|SO"
+      gsettings set org.gnome.desktop.wm.preferences button-layout "close,minimize,maximize:"
     else
+      gsettings set org.gnome.desktop.wm.preferences button-layout ":minimize,maximize,close"
+    fi
+  elif [[ "$XDG_CURRENT_DESKTOP" == *"XFCE"* ]];then
+    if [ "$2" == "true" ]; then
+      xfconf-query -c xfwm4 -p /general/button_layout -s "CMH|SO"
+    else
+      xfconf-query -c xfwm4 -p /general/button_layout -s "O|SHMC"
     fi
     export TEXTDOMAINDIR="/usr/share/locale"
     export TEXTDOMAIN=biglinux-settings

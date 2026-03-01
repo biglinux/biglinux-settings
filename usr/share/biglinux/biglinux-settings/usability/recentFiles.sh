@@ -20,18 +20,20 @@ if [ "$1" == "check" ]; then
     else
         echo "false"
     fi
-#   elif [[ "$XDG_CURRENT_DESKTOP" == *"GNOME"* ]];then
-#     if [[ "$someTest" == "true" ]];then
-#       echo "true"
-#     else
-#       echo "false"
-#     fi
-#   elif [[ "$XDG_CURRENT_DESKTOP" == *"XFCE"* ]];then
-#     if [[ "$someTest" == "true" ]];then
-#       echo "true"
-#     else
-#       echo "false"
-#     fi
+  elif [[ "$XDG_CURRENT_DESKTOP" == *"GNOME"* ]];then
+    remember=$(gsettings get org.gnome.desktop.privacy remember-recent-files 2>/dev/null)
+    if [[ "$remember" == "true" ]]; then
+      echo "true"
+    else
+      echo "false"
+    fi
+  elif [[ "$XDG_CURRENT_DESKTOP" == *"XFCE"* ]];then
+    recent_enabled=$(xfconf-query -c xfce4-session -p /general/SaveOnExit 2>/dev/null)
+    if [[ "$recent_enabled" == "true" ]]; then
+      echo "true"
+    else
+      echo "false"
+    fi
   elif [[ "$XDG_CURRENT_DESKTOP" == *"Cinnamon"* ]] || [[ "$XDG_CURRENT_DESKTOP" == *"X-Cinnamon"* ]];then
     recent_status=$(gsettings get org.cinnamon.desktop.privacy remember-recent-files)
     if [[ "$recent_status" == "true" ]]; then
@@ -51,23 +53,23 @@ elif [ "$1" == "toggle" ]; then
     else
       $PWD/usability/recentFilesRun.sh "disable" #"$USER" "$DISPLAY" "$XAUTHORITY" "$DBUS_SESSION_BUS_ADDRESS" "$LANG" "$LANGUAGE"
     fi
-#   elif [[ "$XDG_CURRENT_DESKTOP" == *"GNOME"* ]];then
-#     if [ "$2" == "true" ]; then
-#         some command
-#     else
-#         some command
-#     fi
-#   elif [[ "$XDG_CURRENT_DESKTOP" == *"XFCE"* ]];then
-#     if [ "$2" == "true" ]; then
-#         some command
-#     else
-#         some command
-#     fi
+  elif [[ "$XDG_CURRENT_DESKTOP" == *"GNOME"* ]];then
+    if [ "$2" == "true" ]; then
+      gsettings set org.gnome.desktop.privacy remember-recent-files true
+    else
+      gsettings set org.gnome.desktop.privacy remember-recent-files false
+    fi
+  elif [[ "$XDG_CURRENT_DESKTOP" == *"XFCE"* ]];then
+    if [ "$2" == "true" ]; then
+      xfconf-query -c xfce4-session -p /general/SaveOnExit -s true 2>/dev/null
+    else
+      xfconf-query -c xfce4-session -p /general/SaveOnExit -s false 2>/dev/null
+    fi
   elif [[ "$XDG_CURRENT_DESKTOP" == *"Cinnamon"* ]] || [[ "$XDG_CURRENT_DESKTOP" == *"X-Cinnamon"* ]];then
     if [ "$2" == "true" ]; then
-        gsettings set org.cinnamon.desktop.privacy remember-recent-files true
+      gsettings set org.cinnamon.desktop.privacy remember-recent-files true
     else
-        gsettings set org.cinnamon.desktop.privacy remember-recent-files false
+      gsettings set org.cinnamon.desktop.privacy remember-recent-files false
     fi
   fi
   exit $?
