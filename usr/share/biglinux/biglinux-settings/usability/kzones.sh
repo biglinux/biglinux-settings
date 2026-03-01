@@ -40,36 +40,28 @@ elif [ "$1" == "toggle" ]; then
       fi
       kwriteconfig6 --file kwinrc --group Plugins --key kzonesEnabled true
       qdbus6 org.kde.KWin /KWin reconfigure
-      exitCode=$?
     else
       kwriteconfig6 --file kwinrc --group Plugins --key kzonesEnabled false
       qdbus6 org.kde.KWin /KWin reconfigure
-      exitCode=$?
     fi
   # elif [[ "$XDG_CURRENT_DESKTOP" == *"GNOME"* ]];then
   #   if [ "$2" == "true" ]; then
   #       some command
-  #       exitCode=$?
   #   else
   #       some command
-  #       exitCode=$?
   #   fi
   # elif [[ "$XDG_CURRENT_DESKTOP" == *"XFCE"* ]];then
   #   if [ "$2" == "true" ]; then
   #       some command
-  #       exitCode=$?
   #   else
   #       some command
-  #       exitCode=$?
   #   fi
   # elif [[ "$XDG_CURRENT_DESKTOP" == *"Cinnamon"* ]] || [[ "$XDG_CURRENT_DESKTOP" == *"X-Cinnamon"* ]];then
   #   if [ "$2" == "true" ]; then
   #       some command
-  #       exitCode=$?
   #   else
   #       some command
-  #       exitCode=$?
   #   fi
   fi
-  exit $exitCode
+  exit $?
 fi
