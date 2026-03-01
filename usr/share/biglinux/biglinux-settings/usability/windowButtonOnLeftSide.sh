@@ -42,7 +42,6 @@ elif [ "$1" == "toggle" ]; then
       kwriteconfig6 --group "org.kde.kdecoration2" --key "ButtonsOnLeft" --file "$HOME/.config/kwinrc" "XIA"
       kwriteconfig6 --group "org.kde.kdecoration2" --key "ButtonsOnRight" --file "$HOME/.config/kwinrc" "FSM"
       qdbus org.kde.KWin /KWin org.kde.KWin.reconfigure
-      exitCode=$?
     else
       kwriteconfig6 --file $HOME/.config/gtk-3.0/settings.ini --group Settings --key "gtk-decoration-layout" "menu:minimize,maximize,close"
       kwriteconfig6 --file $HOME/.config/gtk-4.0/settings.ini --group Settings --key "gtk-decoration-layout" "menu:minimize,maximize,close"
@@ -50,23 +49,17 @@ elif [ "$1" == "toggle" ]; then
       kwriteconfig6 --group "org.kde.kdecoration2" --key "ButtonsOnLeft" --file "$HOME/.config/kwinrc" "MSF"
       kwriteconfig6 --group "org.kde.kdecoration2" --key "ButtonsOnRight" --file "$HOME/.config/kwinrc" "IAX"
       qdbus org.kde.KWin /KWin org.kde.KWin.reconfigure
-      exitCode=$?
     fi
 #   elif [[ "$XDG_CURRENT_DESKTOP" == *"GNOME"* ]];then
 #     if [ "$2" == "true" ]; then
 #         some command
-#         exitCode=$?
 #     else
 #         some command
-#         exitCode=$?
 #     fi
   elif [ -n "$(grep SHMC  $HOME/.config/xfce4/xfconf/xfce-perchannel-xml/xfwm4.xml)" ];then
     if [ "$2" == "true" ]; then
         xfconf-query -c xfwm4 -p /general/button_layout -s "CMH|SO"
-        exitCode=$?
     else
-        xfconf-query -c xfwm4 -p /general/button_layout -s "O|SHMC"
-        exitCode=$?
     fi
     export TEXTDOMAINDIR="/usr/share/locale"
     export TEXTDOMAIN=biglinux-settings
@@ -74,11 +67,9 @@ elif [ "$1" == "toggle" ]; then
   elif [[ "$XDG_CURRENT_DESKTOP" == *"Cinnamon"* ]] || [[ "$XDG_CURRENT_DESKTOP" == *"X-Cinnamon"* ]];then
     if [ "$2" == "true" ]; then
         gsettings set org.cinnamon.desktop.wm.preferences button-layout 'close,minimize,maximize:'
-        exitCode=$?
     else
         gsettings set org.cinnamon.desktop.wm.preferences button-layout ':minimize,maximize,close'
-        exitCode=$?
     fi
   fi
-  exit $exitCode
+  exit $?
 fi
