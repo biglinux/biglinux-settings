@@ -26,7 +26,7 @@ mkfifo "$pipePath"
 # 2. Starts Zenity IN THE BACKGROUND, as the user, with the full environment
 if [[ "$function" == "install" ]]; then
   zenityTitle=$"Docker Install"
-  zenityText=$"Instaling Docker, Please wait..."
+  zenityText=$"Installing Docker, Please wait..."
 elif [[ "$function" == "enable" ]]; then
   zenityTitle=$"Docker Start"
   zenityText=$"Docker Starting, Please wait..."
@@ -60,7 +60,7 @@ if [[ "$exitCode" == "0" ]] && [[ "$function" == "install" ]]; then
   zenityText=$"Docker installed successfully!"
   runAsUser "zenity --info --text=\"$zenityText\""
 elif [[ "$exitCode" != "0" ]] && [[ "$function" == "install" ]]; then
-  zenityText=$"An error occurred while install docker."
+  zenityText=$"An error occurred while installing docker."
   runAsUser "zenity --error --text=\"$zenityText\""
 fi
 
