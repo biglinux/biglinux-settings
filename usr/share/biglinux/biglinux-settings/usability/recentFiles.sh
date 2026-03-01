@@ -1,6 +1,7 @@
 #!/bin/bash
 
 # check current status
+# action=$1
 if [ "$1" == "check" ]; then
   if [[ "$XDG_CURRENT_DESKTOP" == *"KDE"* ]] || [[ "$XDG_CURRENT_DESKTOP" == *"Plasma"* ]];then
     # Verifica se o serviço está habilitado
@@ -41,40 +42,33 @@ if [ "$1" == "check" ]; then
   fi
 
 # change the state
+# action=$1
+# state=$2
 elif [ "$1" == "toggle" ]; then
-  state="$2"
   if [[ "$XDG_CURRENT_DESKTOP" == *"KDE"* ]] || [[ "$XDG_CURRENT_DESKTOP" == *"Plasma"* ]];then
-    if [ "$state" == "true" ]; then
+    if [ "$2" == "true" ]; then
       $PWD/usability/recentFilesRun.sh "enable" #"$USER" "$DISPLAY" "$XAUTHORITY" "$DBUS_SESSION_BUS_ADDRESS" "$LANG" "$LANGUAGE"
-      exitCode=$?
     else
       $PWD/usability/recentFilesRun.sh "disable" #"$USER" "$DISPLAY" "$XAUTHORITY" "$DBUS_SESSION_BUS_ADDRESS" "$LANG" "$LANGUAGE"
-      exitCode=$?
     fi
 #   elif [[ "$XDG_CURRENT_DESKTOP" == *"GNOME"* ]];then
-#     if [ "$state" == "true" ]; then
+#     if [ "$2" == "true" ]; then
 #         some command
-#         exitCode=$?
 #     else
 #         some command
-#         exitCode=$?
 #     fi
 #   elif [[ "$XDG_CURRENT_DESKTOP" == *"XFCE"* ]];then
-#     if [ "$state" == "true" ]; then
+#     if [ "$2" == "true" ]; then
 #         some command
-#         exitCode=$?
 #     else
 #         some command
-#         exitCode=$?
 #     fi
   elif [[ "$XDG_CURRENT_DESKTOP" == *"Cinnamon"* ]] || [[ "$XDG_CURRENT_DESKTOP" == *"X-Cinnamon"* ]];then
-    if [ "$state" == "true" ]; then
-	      gsettings set org.cinnamon.desktop.privacy remember-recent-files true
-        exitCode=$?
+    if [ "$2" == "true" ]; then
+        gsettings set org.cinnamon.desktop.privacy remember-recent-files true
     else
         gsettings set org.cinnamon.desktop.privacy remember-recent-files false
-        exitCode=$?
     fi
   fi
-  exit $exitCode
+  exit $?
 fi

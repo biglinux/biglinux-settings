@@ -1,6 +1,7 @@
 #!/bin/bash
 
 # check current status
+# action=$1
 if [ "$1" == "check" ]; then
   if [[ "$(systemctl is-active sshd)" == "active" ]];then
     echo "true"
@@ -9,13 +10,13 @@ if [ "$1" == "check" ]; then
   fi
 
 # change the state
+# action=$1
+# state=$2
 elif [ "$1" == "toggle" ]; then
-  state="$2"
-  if [ "$state" == "true" ]; then
+  if [ "$2" == "true" ]; then
       pkexec systemctl start sshd
-      exitCode=$?
   else
       pkexec systemctl disable --now sshd
-      exitCode=$?
   fi
+  exit $?
 fi
