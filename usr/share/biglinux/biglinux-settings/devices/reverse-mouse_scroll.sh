@@ -53,7 +53,7 @@ elif [ "$1" == "toggle" ]; then
       done
     fi
   # elif [[ "$XDG_CURRENT_DESKTOP" == *"GNOME"* ]];then
-  #   if [ "$state" == "true" ]; then
+  #   if [ "$2" == "true" ]; then
   #       some command
   #       exitCode=$?
   #   else
@@ -61,7 +61,7 @@ elif [ "$1" == "toggle" ]; then
   #       exitCode=$?
   #   fi
   # elif [[ "$XDG_CURRENT_DESKTOP" == *"XFCE"* ]];then
-  #   if [ "$state" == "true" ]; then
+  #   if [ "$2" == "true" ]; then
   #       some command
   #       exitCode=$?
   #   else
@@ -69,7 +69,7 @@ elif [ "$1" == "toggle" ]; then
   #       exitCode=$?
   #   fi
   # elif [[ "$XDG_CURRENT_DESKTOP" == *"Cinnamon"* ]] || [[ "$XDG_CURRENT_DESKTOP" == *"X-Cinnamon"* ]];then
-  #   if [ "$state" == "true" ]; then
+  #   if [ "$2" == "true" ]; then
   #       some command
   #       exitCode=$?
   #   else
