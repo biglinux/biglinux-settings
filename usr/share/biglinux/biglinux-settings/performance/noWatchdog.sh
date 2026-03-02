@@ -3,7 +3,7 @@
 # check current status
 # action=$1
 if [ "$1" == "check" ]; then
-  if [[ -n "$(grep "nowatchdog" /proc/cmdline)" ]] && [[ -n "$(grep "tsc=nowatchdog" /proc/cmdline)" ]];then
+  if [[ -n "$(grep "nowatchdog" /proc/cmdline)" ]] && [[ -n "$(grep "tsc=nowatchdog" /proc/cmdline)" ]]||[[ -e "/tmp/noWatchdog" ]] ;then
     echo "true"
   else
     echo "false"

@@ -3,7 +3,7 @@
 # check current status
 # action=$1
 if [ "$1" == "check" ]; then
-  if [[ -n "$(grep "mitigations=off" /proc/cmdline)" ]];then
+  if [[ -n "$(grep "mitigations=off" /proc/cmdline)" ]]||[[ -e /tmp/meltdownMitigations ]] ;then
     echo "true"
   else
     echo "false"

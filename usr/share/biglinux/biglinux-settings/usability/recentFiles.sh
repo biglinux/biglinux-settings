@@ -16,9 +16,9 @@ if [ "$1" == "check" ]; then
 
     # Se what-to-remember é 0 (lembrar tudo) e UseRecent é true e FilesEnabled é true = ativado
     if [[ "$what_to_remember" == "0" ]] && [[ "${use_recent,,}" == "true" ]] && [[ "${files_enabled,,}" == "true" ]]; then
-        echo "true"
+      echo "true"
     else
-        echo "false"
+      echo "false"
     fi
   elif [[ "$XDG_CURRENT_DESKTOP" == *"GNOME"* ]];then
     remember=$(gsettings get org.gnome.desktop.privacy remember-recent-files 2>/dev/null)

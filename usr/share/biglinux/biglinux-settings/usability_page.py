@@ -51,4 +51,13 @@ class UsabilityPage(BaseSettingsPage):
             "recent_files-symbolic"
         )
 
+        # bashPower
+        self.create_row(
+            group,
+            _("Bash Power"),
+            _("BigLinux terminal improvements and customizations."),
+            "bashPower",
+            "bashPower-symbolic"
+        )
+
         self.sync_all_switches()
