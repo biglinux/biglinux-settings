@@ -3,7 +3,7 @@
 # check current status
 # action=$1
 if [ "$1" == "check" ]; then
-  bluetoothState="$(LANG=C LANGUAGE=C timeout 0.1 echo "show" | bluetoothctl | grep "Powe> 
+  bluetoothState="$(LANG=C LANGUAGE=C timeout 0.1 echo "show" | bluetoothctl | grep "Powered:" | awk '{print $2}')"
   if [[ "$bluetoothState" == "yes" ]];then                                                 
     echo "true"                                                                            
   else                                                                                     
