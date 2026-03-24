@@ -52,9 +52,11 @@ updateGrubTask() {
       # Add the parameter
       sed -i.bak -E "/^GRUB_CMDLINE_LINUX=/ s|(['\"])$| $parameter\1|" "/etc/default/grub"
     fi
+    > /tmp/meltdownMitigations
   else
     # remove the parameter
     sed -i -E "s/$parameter//g" "/etc/default/grub"
+    rm /tmp/meltdownMitigations
   fi
 
   # Run update-grub only if changes were made

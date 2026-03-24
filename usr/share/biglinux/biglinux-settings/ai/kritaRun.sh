@@ -26,10 +26,10 @@ mkfifo "$pipePath"
 # Starts Zenity IN THE BACKGROUND, as the user, with the full environment
 if [[ "$function" == "install" ]]; then
   zenityTitle=$"Krita Install"
-  zenityText=$"Instaling Krita, Please wait..."
+  zenityText=$"Installing Krita, Please wait..."
 else
   zenityTitle=$"Krita Uninstall"
-  zenityText=$"Uninstaling Krita, Please wait..."
+  zenityText=$"Uninstalling Krita, Please wait..."
 fi
 runAsUser "zenity --progress --title=\"$zenityTitle\" --text=\"$zenityText\" --pulsate --auto-close --no-cancel < '$pipePath'" &
 

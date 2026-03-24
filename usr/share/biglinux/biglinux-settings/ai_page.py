@@ -26,7 +26,7 @@ class AIPage(BaseSettingsPage):
 
         # Create the group Ollama (base method)
         ollamaServer = self.create_group(
-            _("Ollma Server"),
+            _("Ollama Server"),
             _("Choose which Ollama server is best for your hardware."),
             "ai",
         )

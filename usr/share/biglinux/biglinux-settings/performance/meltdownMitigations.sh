@@ -1,22 +1,22 @@
 #!/bin/bash
 
 # check current status
+# action=$1
 if [ "$1" == "check" ]; then
-  if [[ -n "$(grep "mitigations=off" /proc/cmdline)" ]];then
+  if [[ -n "$(grep "mitigations=off" /proc/cmdline)" ]] && [[ -n "$(grep "mitigations=off" /etc/default/grub)" ]] ;then
     echo "true"
   else
     echo "false"
   fi
 
 # change the state
+# action=$1
+# state=$2
 elif [ "$1" == "toggle" ]; then
-  state="$2"
-  if [ "$state" == "true" ]; then
+  if [ "$2" == "true" ]; then
     pkexec $PWD/performance/meltdownMitigationsRun.sh "enable" "$USER" "$DISPLAY" "$XAUTHORITY" "$DBUS_SESSION_BUS_ADDRESS" "$LANG" "$LANGUAGE"
-    exitCode=$?
   else
     pkexec $PWD/performance/meltdownMitigationsRun.sh "disable" "$USER" "$DISPLAY" "$XAUTHORITY" "$DBUS_SESSION_BUS_ADDRESS" "$LANG" "$LANGUAGE"
-    exitCode=$?
   fi
-  exit $exitCode
+  exit $?
 fi

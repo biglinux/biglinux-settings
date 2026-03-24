@@ -10,10 +10,10 @@ function="$1"
 # Starts Zenity IN THE BACKGROUND, as the user, with the full environment
 if [[ "$function" == "install" ]]; then
   zenityTitle=$"comfyUI Install...."
-  zenityText=$"Instaling comfyUI, this step take a long time, Please wait..."
+  zenityText=$"Installing comfyUI, this step take a long time, Please wait..."
 elif [[ "$function" == "uninstall" ]]; then
   zenityTitle=$"Uninstall comfyUI...."
-  zenityText=$"Uninstaling comfyUI, Please wait..."
+  zenityText=$"Uninstalling comfyUI, Please wait..."
 fi
 
 # Executes tasks.

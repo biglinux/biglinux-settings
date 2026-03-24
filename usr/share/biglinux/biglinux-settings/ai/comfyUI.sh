@@ -5,6 +5,7 @@ export TEXTDOMAINDIR="/usr/share/locale"
 export TEXTDOMAIN=biglinux-settings
 
 # check current status
+# action=$1
 if [ "$1" == "check" ]; then
   if [ -d "$HOME/ComfyUI" ]; then
     echo "true"
@@ -13,9 +14,10 @@ if [ "$1" == "check" ]; then
   fi
 
 # change the state
+# action=$1
+# state=$2
 elif [ "$1" == "toggle" ]; then
-  state="$2"
-  if [ "$state" == "true" ]; then
+  if [ "$2" == "true" ]; then
     vgaList=$(lspci | grep -iE "VGA|3D|Display")
     if [[ -z "$(echo $vgaList | grep -Ei '(nvidia|radeon|amd|\bati)')" ]]; then
       zenityText=$"AMD/Nvidia GPU not found!"
@@ -29,10 +31,8 @@ elif [ "$1" == "toggle" ]; then
     fi
     # install comfyUI as user
     $PWD/ai/comfyUIInstall.sh "install"
-    exitCode=$?
   else
     $PWD/ai/comfyUIInstall.sh "uninstall"
-    exitCode=$?
   fi
-  exit $exitCode
+  exit $?
 fi

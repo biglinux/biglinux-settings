@@ -26,10 +26,10 @@ mkfifo "$pipePath"
 # Starts Zenity IN THE BACKGROUND, as the user, with the full environment
 if [[ "$function" == "install" ]]; then
   zenityTitle=$"Ollama ROCm Install"
-  zenityText=$"Instaling Ollama ROCm, Please wait..."
+  zenityText=$"Installing Ollama ROCm, Please wait..."
 else
   zenityTitle=$"Ollama ROCm Uninstall"
-  zenityText=$"Unistaling Ollama ROCm, Please wait..."
+  zenityText=$"Uninstalling Ollama ROCm, Please wait..."
 fi
 runAsUser "zenity --progress --title=\"$zenityTitle\" --text=\"$zenityText\" --pulsate --auto-close --no-cancel < '$pipePath'" &
 

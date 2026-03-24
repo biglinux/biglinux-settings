@@ -5,6 +5,7 @@ export TEXTDOMAINDIR="/usr/share/locale"
 export TEXTDOMAIN=biglinux-settings
 
 # check current status
+# action=$1
 if [ "$1" == "check" ]; then
   # Check if it's a VM; if so, disable it. Smart only works on a physical machine.
   if [[ "$(systemd-detect-virt)" != "none" ]];then
@@ -16,14 +17,13 @@ if [ "$1" == "check" ]; then
   fi
 
 # change the state
+# action=$1
+# state=$2
 elif [ "$1" == "toggle" ]; then
-  state="$2"
-  if [ "$state" == "true" ]; then
+  if [ "$2" == "true" ]; then
     systemctl disable --now smartd
-    exitCode=$?
   else
     systemctl enable --now smartd
-    exitCode=$?
   fi
-  exit $exitCode
+  exit $?
 fi

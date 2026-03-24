@@ -4,6 +4,7 @@ packageName="v2raya"
 port="2017"
 
 # check current status
+# action=$1
 if [ "$1" == "check" ]; then
   if pacman -Q "$package" &> /dev/null; then
       echo "true"
@@ -12,14 +13,13 @@ if [ "$1" == "check" ]; then
   fi
 
 # change the state
+# action=$1
+# state=$2
 elif [ "$1" == "toggle" ]; then
-  state="$2"
-  if [ "$state" == "true" ]; then
+  if [ "$2" == "true" ]; then
     pkexec $PWD/docker/dockerInstallRun.sh "install" "$package" "$packageName" "$port" "$USER" "$DISPLAY" "$XAUTHORITY" "$DBUS_SESSION_BUS_ADDRESS" "$LANG" "$LANGUAGE"
-    exit $exitCode
   else
     pkexec $PWD/docker/dockerInstallRun.sh "remove" "$package" "$packageName" "$port" "$USER" "$DISPLAY" "$XAUTHORITY" "$DBUS_SESSION_BUS_ADDRESS" "$LANG" "$LANGUAGE"
-    exit $exitCode
   fi
   exit $?
 fi

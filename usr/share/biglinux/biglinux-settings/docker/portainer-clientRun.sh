@@ -3,6 +3,7 @@
 dockerComposeAddress="$HOME/Docker/Portainer/docker-compose.yml"
 
 # check current status
+# action=$1
 if [ "$1" == "check" ]; then
   if [ -n "$(docker compose ls | grep $dockerComposeAddress | grep running)" ]; then
       echo "true"
@@ -11,14 +12,13 @@ if [ "$1" == "check" ]; then
   fi
 
 # change the state
+# action=$1
+# state=$2
 elif [ "$1" == "toggle" ]; then
-  state="$2"
-  if [ "$state" == "true" ]; then
+  if [ "$2" == "true" ]; then
     docker compose -f "$dockerComposeAddress" up -d
-    exit $exitCode
   else
     docker compose -f "$dockerComposeAddress" down
-    exit $exitCode
   fi
   exit $?
 fi

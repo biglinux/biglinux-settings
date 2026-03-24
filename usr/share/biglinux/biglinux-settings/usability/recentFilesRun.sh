@@ -136,10 +136,10 @@ if [[ "$exitCode" == "0" ]] && [[ "$function" == "enable" ]]; then
   zenityText=$"Recent Files successfully enabled!\nYou need to close and reopen Dolphin for it to take effect."
   zenity --info --text="$zenityText"
 elif [[ "$exitCode" == "0" ]] && [[ "$function" == "disable" ]]; then
-  zenityText=$"Recent Files successfully disable!\nYou need to close and reopen Dolphin for it to take effect."
+  zenityText=$"Recent Files successfully disabled!\nYou need to close and reopen Dolphin for it to take effect."
   zenity --info --text="$zenityText"
 else
-  zenityText=$"Failed to activate Recent Files!"
+  zenityText=$"Failed to enable Recent Files!"
   zenity --info --text="$zenityText"
 fi
 

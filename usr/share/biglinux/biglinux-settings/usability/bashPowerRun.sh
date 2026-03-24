@@ -20,27 +20,23 @@ runAsUser() {
 }
 
 # Creates a named pipe (FIFO) for communication with Zenity
-pipePath="/tmp/ollama_pipe_$$"
+pipePath="/tmp/bashPower_pipe_$$"
 mkfifo "$pipePath"
 
 # Starts Zenity IN THE BACKGROUND, as the user, with the full environment
 if [[ "$function" == "install" ]]; then
-  zenityTitle=$"Ollama Vulkan Install"
-  zenityText=$"Installing Ollama, Please wait..."
+  zenityTitle=$"Bash Power Install"
+  zenityText=$"Installing Bash Power, Please wait..."
 else
-  zenityTitle=$"Ollama Vulkan Uninstall"
-  zenityText=$"Uninstalling Ollama Vulkan, Please wait..."
+  zenityTitle=$"Bash Power Uninstall"
+  zenityText=$"Uninstalling Bash Power, Please wait..."
 fi
 runAsUser "zenity --progress --title=\"$zenityTitle\" --text=\"$zenityText\" --pulsate --auto-close --no-cancel < '$pipePath'" &
 
 # Executes the root tasks.
 updateTask() {
   if [[ "$function" == "install" ]]; then
-    pacman -Syu --noconfirm ollama-vulkan
-    systemctl enable --now ollama.service
-  else
-    systemctl disable --now ollama.service
-    pacman -Rcs --noconfirm ollama-vulkan
+    pacman -Syu --noconfirm biglinux-bash-config
   fi
   exitCode=$?
 }
@@ -51,10 +47,10 @@ rm "$pipePath"
 
 # Shows the final result to the user, also with the correct theme.
 if [[ "$exitCode" == "0" ]] && [[ "$function" == "install" ]]; then
-  zenityText=$"Ollama Vulkan installed successfully!"
+  zenityText=$"Bash Power installed successfully!"
   runAsUser "zenity --info --text=\"$zenityText\""
 else
-  zenityText=$"Failed to install Ollama Vulkan!"
+  zenityText=$"Failed to install Bash Power!"
   zenity --info --text="$zenityText"
 fi
 
