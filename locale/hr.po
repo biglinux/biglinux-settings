@@ -14,14 +14,98 @@ msgstr ""
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "X-Generator: attranslate\n"
+msgid "Applying, please wait..."
+msgstr "Primjena, molimo pričekajte..."
+msgid ""
+"GRUB updated successfully!\\n"
+"Restart your computer for it to take effect."
+msgstr ""
+"GRUB je uspješno ažuriran!\\n"
+"Ponovno pokrenite računalo da bi promjene stupile na snagu."
+msgid "An error occurred while updating GRUB."
+msgstr "Došlo je do pogreške prilikom ažuriranja GRUB-a."
+msgid "Already enabled. No changes made."
+msgstr "Već omogućeno. Nema promjena."
+msgid "Limits updated successfully!"
+msgstr "Ograničenja su uspješno ažurirana!"
+msgid "An error occurred while updating Limits."
+msgstr "Došlo je do pogreške prilikom ažuriranja ograničenja."
+msgid "GRUB updated successfully!"
+msgstr "GRUB je uspješno ažuriran!"
+msgid "Installing $package"
+msgstr "Instaliranje $package"
+msgid "Installing $package, Please wait..."
+msgstr "Instaliranje $package, Molimo pričekajte..."
+msgid "Removing $package"
+msgstr "Uklanjanje $package"
+msgid "Removing $package, Please wait..."
+msgstr "Uklanjanje $package, Molimo pričekajte..."
+msgid ""
+"$title installed successfully!\\n"
+"\\n"
+"Configured on port $port, to access use $url"
+msgstr ""
+"$title je uspješno instaliran!\\n"
+"\\n"
+"Konfigurirano na portu $port, za pristup koristite $url"
+msgid "$package removed successfully!"
+msgstr "$paket je uspješno uklonjen!"
+msgid "An error occurred with $package."
+msgstr "Došlo je do pogreške s $package."
+msgid "Docker Install"
+msgstr "Instalacija Dockera"
+msgid "Installing Docker, Please wait..."
+msgstr "Instaliranje Dockera, molimo pričekajte..."
+msgid "Docker Start"
+msgstr "Pokreni Docker"
+msgid "Docker Starting, Please wait..."
+msgstr "Docker se pokreće, molimo pričekajte..."
+msgid "Docker Stop"
+msgstr "Docker Zaustavi"
+msgid "Docker Stopping, Please wait..."
+msgstr "Docker se zaustavlja, molimo pričekajte..."
+msgid "Docker installed successfully!"
+msgstr "Docker je uspješno instaliran!"
+msgid "An error occurred while installing docker."
+msgstr "Došlo je do pogreške prilikom instalacije dockera."
+msgid "Example Install"
+msgstr "Primjer instalacije"
+msgid "Installing Example, Please wait..."
+msgstr "Instaliranje primjera, molimo pričekajte..."
+msgid "Example Uninstall"
+msgstr "Primjer deinstalacije"
+msgid "Uninstalling Example, Please wait..."
+msgstr "Deinstaliranje Primjera, Molimo pričekajte..."
+msgid "Example installed successfully!"
+msgstr "Primjer je uspješno instaliran!"
+msgid "Failed to install Example!"
+msgstr "Instalacija primjera nije uspjela!"
+msgid "JamesDSP Install"
+msgstr "JamesDSP Instaliraj"
+msgid "Installing JamesDSP, Please wait..."
+msgstr "Instaliranje JamesDSP, molimo pričekajte..."
+msgid "JamesDSP installed successfully!"
+msgstr "JamesDSP je uspješno instaliran!"
+msgid "Failed to install jamesDSP!"
+msgstr "Nije uspjelo instalirati jamesDSP!"
 msgid "kzones Install"
 msgstr "kzones Instaliraj"
 msgid "Installing Kzones, Please wait..."
 msgstr "Instaliranje Kzones, Molimo pričekajte..."
 msgid "Kzones installed successfully!"
 msgstr "Kzones je uspješno instaliran!"
-msgid "Applying, please wait..."
-msgstr "Primjena, molimo pričekajte..."
+msgid "Bash Power Install"
+msgstr "Bash Power Instalacija"
+msgid "Installing Bash Power, Please wait..."
+msgstr "Instaliranje Bash Power, molimo pričekajte..."
+msgid "Bash Power Uninstall"
+msgstr "Bash Power Deinstaliraj"
+msgid "Uninstalling Bash Power, Please wait..."
+msgstr "Deinstaliranje Bash Power, Molimo pričekajte..."
+msgid "Bash Power installed successfully!"
+msgstr "Bash Power je uspješno instaliran!"
+msgid "Failed to install Bash Power!"
+msgstr "Instalacija Bash Power-a nije uspjela!"
 msgid "Recent Files enabling...."
 msgstr "Omogućavanje nedavnih datoteka...."
 msgid "Recent Files enabling, Please wait..."
@@ -44,90 +128,24 @@ msgstr ""
 "Morate zatvoriti i ponovo otvoriti Dolphin da bi promjene stupile na snagu."
 msgid "Failed to enable Recent Files!"
 msgstr "Nije uspjelo omogućiti Nedavne datoteke!"
-msgid "Bash Power Install"
-msgstr "Bash Power Instalacija"
-msgid "Installing Bash Power, Please wait..."
-msgstr "Instaliranje Bash Power, molimo pričekajte..."
-msgid "Bash Power Uninstall"
-msgstr "Bash Power Deinstaliraj"
-msgid "Uninstalling Bash Power, Please wait..."
-msgstr "Deinstaliranje Bash Power, Molimo pričekajte..."
-msgid "Bash Power installed successfully!"
-msgstr "Bash Power je uspješno instaliran!"
-msgid "Failed to install Bash Power!"
-msgstr "Instalacija Bash Power-a nije uspjela!"
-msgid "Example Install"
-msgstr "Primjer instalacije"
-msgid "Installing Example, Please wait..."
-msgstr "Instaliranje primjera, molimo pričekajte..."
-msgid "Example Uninstall"
-msgstr "Primjer deinstalacije"
-msgid "Uninstalling Example, Please wait..."
-msgstr "Deinstaliranje Primjera, Molimo pričekajte..."
-msgid "Example installed successfully!"
-msgstr "Primjer je uspješno instaliran!"
-msgid "Failed to install Example!"
-msgstr "Instalacija primjera nije uspjela!"
-msgid "JamesDSP Install"
-msgstr "JamesDSP Instaliraj"
-msgid "Installing JamesDSP, Please wait..."
-msgstr "Instaliranje JamesDSP, molimo pričekajte..."
-msgid "JamesDSP installed successfully!"
-msgstr "JamesDSP je uspješno instaliran!"
-msgid "Failed to install jamesDSP!"
-msgstr "Nije uspjelo instalirati jamesDSP!"
-msgid "Docker Install"
-msgstr "Instalacija Dockera"
-msgid "Installing Docker, Please wait..."
-msgstr "Instaliranje Dockera, molimo pričekajte..."
-msgid "Docker Start"
-msgstr "Pokreni Docker"
-msgid "Docker Starting, Please wait..."
-msgstr "Docker se pokreće, molimo pričekajte..."
-msgid "Docker Stop"
-msgstr "Docker Zaustavi"
-msgid "Docker Stopping, Please wait..."
-msgstr "Docker se zaustavlja, molimo pričekajte..."
-msgid "Docker installed successfully!"
-msgstr "Docker je uspješno instaliran!"
-msgid "An error occurred while installing docker."
-msgstr "Došlo je do pogreške prilikom instalacije dockera."
-msgid "Installing $package"
-msgstr "Instaliranje $package"
-msgid "Installing $package, Please wait..."
-msgstr "Instaliranje $package, Molimo pričekajte..."
-msgid "Removing $package"
-msgstr "Uklanjanje $package"
-msgid "Removing $package, Please wait..."
-msgstr "Uklanjanje $package, Molimo pričekajte..."
 msgid ""
-"$title installed successfully!\\n"
-"\\n"
-"Configured on port $port, to access use $url"
+"Ollama server is running.\\n"
+"Address: http://localhost:11434"
 msgstr ""
-"$title je uspješno instaliran!\\n"
-"\\n"
-"Konfigurirano na portu $port, za pristup koristite $url"
-msgid "$package removed successfully!"
-msgstr "$paket je uspješno uklonjen!"
-msgid "An error occurred with $package."
-msgstr "Došlo je do pogreške s $package."
-msgid "GRUB updated successfully!"
-msgstr "GRUB je uspješno ažuriran!"
-msgid "An error occurred while updating GRUB."
-msgstr "Došlo je do pogreške prilikom ažuriranja GRUB-a."
-msgid "Limits updated successfully!"
-msgstr "Ograničenja su uspješno ažurirana!"
-msgid "An error occurred while updating Limits."
-msgstr "Došlo je do pogreške prilikom ažuriranja ograničenja."
-msgid ""
-"GRUB updated successfully!\\n"
-"Restart your computer for it to take effect."
-msgstr ""
-"GRUB je uspješno ažuriran!\\n"
-"Ponovno pokrenite računalo da bi promjene stupile na snagu."
-msgid "Already enabled. No changes made."
-msgstr "Već omogućeno. Nema promjena."
+"Ollama poslužitelj radi.\\n"
+"Adresa: http://localhost:11434"
+msgid "Ollama ROCm Install"
+msgstr "Ollama ROCm Instalacija"
+msgid "Installing Ollama ROCm, Please wait..."
+msgstr "Instaliranje Ollama ROCm, molimo pričekajte..."
+msgid "Ollama ROCm Uninstall"
+msgstr "Ollama ROCm Deinstaliraj"
+msgid "Uninstalling Ollama ROCm, Please wait..."
+msgstr "Deinstaliranje Ollama ROCm, molimo pričekajte..."
+msgid "Ollama ROCm installed successfully!"
+msgstr "Ollama ROCm je uspješno instaliran!"
+msgid "Failed to install Ollama ROCm!"
+msgstr "Nije uspjelo instalirati Ollama ROCm!"
 msgid "Ollama Vulkan Install"
 msgstr "Ollama Vulkan Instalacija"
 msgid "Installing Ollama, Please wait..."
@@ -140,6 +158,62 @@ msgid "Ollama Vulkan installed successfully!"
 msgstr "Ollama Vulkan je uspješno instaliran!"
 msgid "Failed to install Ollama Vulkan!"
 msgstr "Neuspjela instalacija Ollama Vulkan!"
+msgid "Ollama Install"
+msgstr "Ollama Instaliraj"
+msgid "Ollama Uninstall"
+msgstr "Ollama Deinstaliraj"
+msgid "Uninstalling Ollama, Please wait..."
+msgstr "Deinstaliranje Ollama, Molimo pričekajte..."
+msgid "Ollama installed successfully!"
+msgstr "Ollama je uspješno instaliran!"
+msgid "Failed to install Ollama!"
+msgstr "Instalacija Ollama nije uspjela!"
+msgid "Ollama CUDA Install"
+msgstr "Ollama CUDA Instalacija"
+msgid "Installing Ollama CUDA, Please wait..."
+msgstr "Instaliranje Ollama CUDA, molimo pričekajte..."
+msgid "Ollama CUDA Uninstall"
+msgstr "Ollama CUDA Deinstaliraj"
+msgid "Uninstalling Ollama CUDA, Please wait..."
+msgstr "Deinstaliranje Ollama CUDA, molimo pričekajte..."
+msgid "Ollama CUDA installed successfully!"
+msgstr "Ollama CUDA je uspješno instaliran!"
+msgid "Failed to install Ollama CUDA!"
+msgstr "Instalacija Ollama CUDA nije uspjela!"
+msgid "Krita Install"
+msgstr "Krita Instaliraj"
+msgid "Installing Krita, Please wait..."
+msgstr "Instaliranje Krita, Molimo pričekajte..."
+msgid "Krita Uninstall"
+msgstr "Deinstaliraj Krita"
+msgid "Uninstalling Krita, Please wait..."
+msgstr "Deinstaliranje Krita, Molimo pričekajte..."
+msgid "Krita installed successfully!"
+msgstr "Krita je uspješno instaliran!"
+msgid "Failed to install Krita!"
+msgstr "Instalacija Krita nije uspjela!"
+msgid "Hermes Agent Deskto Install"
+msgstr "Hermes Agent Desktop Instalacija"
+msgid "Installing Hermes Agent Deskto, Please wait..."
+msgstr "Instaliranje Hermes Agent Desktop, Molimo pričekajte..."
+msgid "Hermes Agent Deskto Uninstall"
+msgstr "Hermes Agent Desktop Deinstaliraj"
+msgid "Uninstalling Hermes Agent Deskto, Please wait..."
+msgstr "Deinstaliranje Hermes Agent Desktop, Molimo pričekajte..."
+msgid "Hermes Agent Deskto installed successfully!"
+msgstr "Hermes Agent Desktop uspješno instaliran!"
+msgid "Failed to install Hermes Agent Deskto!"
+msgstr "Neuspješno instaliranje Hermes Agent Desktop!"
+msgid ""
+"Ollama shared successfully.\\n"
+"Address: http://$localIp:11434"
+msgstr ""
+"Ollama je uspješno dijeljen.\\n"
+"Adresa: http://$localIp:11434"
+msgid "Failed to shared Ollama!"
+msgstr "Neuspješno dijeljenje Ollame!"
+msgid "AMD/Nvidia GPU not found!"
+msgstr "AMD/Nvidia GPU nije pronađen!"
 msgid "ChatBox Install"
 msgstr "Instalacija ChatBox-a"
 msgid "Installing ChatBox, Please wait..."
@@ -152,18 +226,6 @@ msgid "ChatBox installed successfully!"
 msgstr "ChatBox je uspješno instaliran!"
 msgid "Failed to install ChatBox!"
 msgstr "Instalacija ChatBox-a nije uspjela!"
-msgid "Ollama Lab Install"
-msgstr "Ollama Lab Instaliraj"
-msgid "Installing Ollama Lab, Please wait..."
-msgstr "Instaliranje Ollama Laba, Molimo pričekajte..."
-msgid "Ollama Lab Uninstall"
-msgstr "Ollama Lab Deinstaliraj"
-msgid "Uninstalling Ollama Lab, Please wait..."
-msgstr "Deinstaliranje Ollama Laba, Molimo pričekajte..."
-msgid "Ollama Lab installed successfully!"
-msgstr "Ollama Lab je uspješno instaliran!"
-msgid "Failed to install Ollama Lab!"
-msgstr "Nije uspjelo instalirati Ollama Lab!"
 msgid ""
 "Generative AI for Krita has been successfully installed.\\n"
 "\\n"
@@ -184,34 +246,38 @@ msgstr ""
 "u Opterećenjima i kliknite Instaliraj."
 msgid "Generative AI for Krita has not been successfully installed."
 msgstr "Generativna AI za Krita nije uspješno instalirana."
-msgid ""
-"Ollama server is running.\\n"
-"Address: http://localhost:11434"
-msgstr ""
-"Ollama poslužitelj radi.\\n"
-"Adresa: http://localhost:11434"
-msgid "Ollama Install"
-msgstr "Ollama Instaliraj"
-msgid "Ollama Uninstall"
-msgstr "Ollama Deinstaliraj"
-msgid "Uninstalling Ollama, Please wait..."
-msgstr "Deinstaliranje Ollama, Molimo pričekajte..."
-msgid "Ollama installed successfully!"
-msgstr "Ollama je uspješno instaliran!"
-msgid "Failed to install Ollama!"
-msgstr "Instalacija Ollama nije uspjela!"
-msgid "Ollama ROCm Install"
-msgstr "Ollama ROCm Instalacija"
-msgid "Installing Ollama ROCm, Please wait..."
-msgstr "Instaliranje Ollama ROCm, molimo pričekajte..."
-msgid "Ollama ROCm Uninstall"
-msgstr "Ollama ROCm Deinstaliraj"
-msgid "Uninstalling Ollama ROCm, Please wait..."
-msgstr "Deinstaliranje Ollama ROCm, molimo pričekajte..."
-msgid "Ollama ROCm installed successfully!"
-msgstr "Ollama ROCm je uspješno instaliran!"
-msgid "Failed to install Ollama ROCm!"
-msgstr "Nije uspjelo instalirati Ollama ROCm!"
+msgid "LM Studio Install"
+msgstr "LM Studio Instaliraj"
+msgid "Installing LM Studio, Please wait..."
+msgstr "Instaliranje LM Studija, Molimo pričekajte..."
+msgid "LM Studio Uninstall"
+msgstr "LM Studio Deinstaliraj"
+msgid "Uninstalling LM Studio, Please wait..."
+msgstr "Deinstaliranje LM Studija, molimo pričekajte..."
+msgid "LM Studio installed successfully!"
+msgstr "LM Studio je uspješno instaliran!"
+msgid "Failed to install LM Studio!"
+msgstr "Instalacija LM Studija nije uspjela!"
+msgid "comfyUI Depends Install"
+msgstr "comfyUI Ovisno Instaliraj"
+msgid "Installing comfyUI Depends, Please wait..."
+msgstr "Instaliranje comfyUI ovisi, molimo pričekajte..."
+msgid "comfyUI Depends installed successfully!"
+msgstr "comfyUI ovisno instalirano uspješno!"
+msgid "Failed to install comfyUI Depends!"
+msgstr "Nije uspjelo instalirati comfyUI ovisnosti!"
+msgid "Ollama Lab Install"
+msgstr "Ollama Lab Instaliraj"
+msgid "Installing Ollama Lab, Please wait..."
+msgstr "Instaliranje Ollama Laba, Molimo pričekajte..."
+msgid "Ollama Lab Uninstall"
+msgstr "Ollama Lab Deinstaliraj"
+msgid "Uninstalling Ollama Lab, Please wait..."
+msgstr "Deinstaliranje Ollama Laba, Molimo pričekajte..."
+msgid "Ollama Lab installed successfully!"
+msgstr "Ollama Lab je uspješno instaliran!"
+msgid "Failed to install Ollama Lab!"
+msgstr "Nije uspjelo instalirati Ollama Lab!"
 msgid "comfyUI Install...."
 msgstr "comfyUI Instaliraj...."
 msgid "Installing comfyUI, this step take a long time, Please wait..."
@@ -226,64 +292,316 @@ msgid "comfyUI uninstalled successfully"
 msgstr "comfyUI je uspješno deinstaliran"
 msgid "Failed to install comfyUI!"
 msgstr "Nije uspjelo instalirati comfyUI!"
-msgid "AMD/Nvidia GPU not found!"
-msgstr "AMD/Nvidia GPU nije pronađen!"
-msgid ""
-"Ollama shared successfully.\\n"
-"Address: http://$localIp:11434"
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/usability/gamemode_dialog.py, line: 204
+msgid "Performance"
+msgstr "Izvedba"
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/performance_games_page.py, line: 16
+msgid "BigLinux performance tweaks."
+msgstr "BigLinux optimizacije performansi."
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/usability/gamemode_config_dialog.py, line: 91
+msgid "Disable Visual Effects"
+msgstr "Onemogući vizualne efekte"
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/performance_games_page.py, line: 35
+msgid "Disables KWin visual effects (blur, shadows, animations). Reduces GPU load and frees memory."
 msgstr ""
-"Ollama je uspješno dijeljen.\\n"
-"Adresa: http://$localIp:11434"
-msgid "Failed to shared Ollama!"
-msgstr "Neuspješno dijeljenje Ollame!"
-msgid "Ollama CUDA Install"
-msgstr "Ollama CUDA Instalacija"
-msgid "Installing Ollama CUDA, Please wait..."
-msgstr "Instaliranje Ollama CUDA, molimo pričekajte..."
-msgid "Ollama CUDA Uninstall"
-msgstr "Ollama CUDA Deinstaliraj"
-msgid "Uninstalling Ollama CUDA, Please wait..."
-msgstr "Deinstaliranje Ollama CUDA, molimo pričekajte..."
-msgid "Ollama CUDA installed successfully!"
-msgstr "Ollama CUDA je uspješno instaliran!"
-msgid "Failed to install Ollama CUDA!"
-msgstr "Instalacija Ollama CUDA nije uspjela!"
-msgid "LM Studio Install"
-msgstr "LM Studio Instaliraj"
-msgid "Installing LM Studio, Please wait..."
-msgstr "Instaliranje LM Studija, Molimo pričekajte..."
-msgid "LM Studio Uninstall"
-msgstr "LM Studio Deinstaliraj"
-msgid "Uninstalling LM Studio, Please wait..."
-msgstr "Deinstaliranje LM Studija, molimo pričekajte..."
-msgid "LM Studio installed successfully!"
-msgstr "LM Studio je uspješno instaliran!"
-msgid "Failed to install LM Studio!"
-msgstr "Instalacija LM Studija nije uspjela!"
-msgid "Krita Install"
-msgstr "Krita Instaliraj"
-msgid "Installing Krita, Please wait..."
-msgstr "Instaliranje Krita, Molimo pričekajte..."
-msgid "Krita Uninstall"
-msgstr "Deinstaliraj Krita"
-msgid "Uninstalling Krita, Please wait..."
-msgstr "Deinstaliranje Krita, Molimo pričekajte..."
-msgid "Krita installed successfully!"
-msgstr "Krita je uspješno instaliran!"
-msgid "Failed to install Krita!"
-msgstr "Instalacija Krita nije uspjela!"
-msgid "comfyUI Depends Install"
-msgstr "comfyUI Ovisno Instaliraj"
-msgid "Installing comfyUI Depends, Please wait..."
-msgstr "Instaliranje comfyUI ovisi, molimo pričekajte..."
-msgid "comfyUI Depends installed successfully!"
-msgstr "comfyUI ovisno instalirano uspješno!"
-msgid "Failed to install comfyUI Depends!"
-msgstr "Nije uspjelo instalirati comfyUI ovisnosti!"
+"Onemogućuje KWin vizualne efekte (zamućenje, sjene, animacije). Smanjuje opterećenje GPU-a i "
+"oslobađa memoriju."
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/performance_games_page.py, line: 63
+msgid "CPU Maximum Performance"
+msgstr "Maksimalna izvedba CPU-a"
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/performance_games_page.py, line: 51
+msgid "Forces maximum processor performance mode. Ensures the processor uses maximum frequency."
+msgstr "Prisiljava maksimalni način rada procesora. Osigurava da procesor koristi maksimalnu frekvenciju."
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/performance_games_page.py, line: 79
+msgid "Disable Baloo Indexer"
+msgstr "Onemogući Baloo indeksator"
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/performance_games_page.py, line: 67
+msgid "Disables the Baloo file indexer. Avoids disk I/O overhead."
+msgstr "Onemogućuje Baloo indeksator datoteka. Izbjegava opterećenje diska I/O."
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/usability/gamemode_config_dialog.py, line: 136
+msgid "Unload S.M.A.R.T Monitor"
+msgstr "Otpusti S.M.A.R.T Monitor"
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/performance_games_page.py, line: 83
+msgid "Disables S.M.A.R.T disk monitoring. Reduces disk I/O and CPU usage."
+msgstr "Onemogućuje S.M.A.R.T praćenje diska. Smanjuje I/O diska i CPU korištenje."
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_usability_page.py, line: 169
+msgid "Meltdown Mitigations off"
+msgstr "Mitigacije za Meltdown isključene"
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_usability_page.py, line: 113
+#, python-brace-format
+msgid ""
+"Using mitigations=off will make your machine faster and less secure! For more information see: <a "
+"href='{l}'>{l}</a>"
+msgstr ""
+"Korištenje mitigacija=isključeno učinit će vaš uređaj bržim, ali manje sigurnim! Za više "
+"informacija pogledajte: <a href='{l}'>{l}</a>"
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_usability_page.py, line: 176
+msgid "noWatchdog"
+msgstr "noWatchdog"
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_usability_page.py, line: 177
+msgid ""
+"Disables the hardware watchdog and TSC clocksource systems, maintaining high performance but "
+"removing automatic protections against system crashes."
+msgstr ""
+"Onemogućuje hardverski watchdog i TSC izvor vremena, održavajući visoke performanse, ali "
+"uklanjajući automatske zaštite od rušenja sustava."
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 49
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 120
+msgid "BigLinux Settings"
+msgstr "BigLinux Postavke"
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 135
+msgid "Categories"
+msgstr "Kategorije"
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 144
+msgid "Search..."
+msgstr "Pretraži..."
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/devices/keyboard_led_dialog.py, line: 249
+msgid "Settings"
+msgstr "Postavke"
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 108
+msgid "System"
+msgstr "Sustav"
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 107
+msgid "Usability"
+msgstr "Upotrebljivost"
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 158
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 167
+msgid "PreLoad"
+msgstr "PreLoad"
+# 
+# #-#-#-#-#  biglinux-settings.pot (biglinux-settings)  #-#-#-#-#
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/dispositivos_page.py, line: 25
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 116
+msgid "Devices"
+msgstr "Uređaji"
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 161
+msgid "A.I."
+msgstr "A.I."
 # 
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_usability_page.py, line: 204
 msgid "Docker"
 msgstr "Docker"
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/preload_page.py, line: 103
+msgid "Preload"
+msgstr "Predmemoriranje"
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/preload_page.py, line: 105
+msgid "Preload applications into memory to open them faster."
+msgstr "Preuzmite aplikacije u memoriju kako biste ih brže otvorili."
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/preload_page.py, line: 120
+msgid "Firefox"
+msgstr "Firefox"
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/preload_page.py, line: 126
+msgid "Brave"
+msgstr "Brave"
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/preload_page.py, line: 132
+msgid "Chrome"
+msgstr "Chrome"
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/preload_page.py, line: 138
+msgid "Chromium"
+msgstr "Kromium"
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/preload_page.py, line: 126
+msgid "Librewolf"
+msgstr "Librewolf"
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/preload_page.py, line: 144
+msgid "Palemoon"
+msgstr "Palemoon"
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/preload_page.py, line: 150
+msgid "Opera"
+msgstr "Opera"
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/preload_page.py, line: 156
+msgid "Libreoffice"
+msgstr "LibreOffice"
+# 
+# #-#-#-#-#  biglinux-settings.pot (biglinux-settings)  #-#-#-#-#
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_usability_page.py, line: 206
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/preload_page.py, line: 165
+msgid "Unavailable: script not found."
+msgstr "Nedostupno: skripta nije pronađena."
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 173
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 199
+msgid "Script not found: {}"
+msgstr "Skripta nije pronađena: {}"
+# 
+# #-#-#-#-#  biglinux-settings.pot (biglinux-settings)  #-#-#-#-#
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_usability_page.py, line: 218
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/preload_page.py, line: 177
+msgid "Enabled"
+msgstr "Omogućeno"
+# 
+# #-#-#-#-#  biglinux-settings.pot (biglinux-settings)  #-#-#-#-#
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_usability_page.py, line: 220
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/preload_page.py, line: 179
+msgid "Disabled"
+msgstr "Onemogućeno"
+# 
+# #-#-#-#-#  biglinux-settings.pot (biglinux-settings)  #-#-#-#-#
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_usability_page.py, line: 223
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/preload_page.py, line: 182
+msgid "Enabled by system configuration (e.g., Real-Time Kernel) and cannot be changed here."
+msgstr "Omogućeno konfiguracijom sustava (npr. Real-Time Kernel) i ne može se promijeniti ovdje."
+# 
+# #-#-#-#-#  biglinux-settings.pot (biglinux-settings)  #-#-#-#-#
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_usability_page.py, line: 225
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/preload_page.py, line: 184
+msgid "Unavailable: script returned invalid output."
+msgstr "Nedostupno: skripta je vratila nevažeći izlaz."
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/base_page.py, line: 261
+msgid "output from script {}: {}"
+msgstr "izlaz iz skripte {}: {}"
+# 
+# #-#-#-#-#  biglinux-settings.pot (biglinux-settings)  #-#-#-#-#
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_usability_page.py, line: 229
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/preload_page.py, line: 188
+msgid "Unavailable: script returned an error."
+msgstr "Nedostupno: skripta je vratila pogrešku."
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 184
+msgid "Error checking state: {}"
+msgstr "Provjera pogreške stanja: {}"
+# 
+# #-#-#-#-#  biglinux-settings.pot (biglinux-settings)  #-#-#-#-#
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_usability_page.py, line: 233
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/preload_page.py, line: 192
+msgid "Unavailable: failed to run script."
+msgstr "Nedostupno: nije uspjelo pokretanje skripte."
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 193
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 220
+msgid "Error running script {}: {}"
+msgstr "Greška prilikom pokretanja skripte {}: {}"
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 209
+msgid "State changed successfully"
+msgstr "Stanje je uspješno promijenjeno."
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 211
+msgid "Script output: {}"
+msgstr "Izlaz skripte: {}"
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 215
+msgid "Script failed with exit code: {}"
+msgstr "Skripta je neuspješno završila s izlaznim kodom: {}"
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 190
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 217
+msgid "Script timeout: {}"
+msgstr "Izdavanje skripte isteklo: {}"
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 236
+msgid "Switch {} synchronized: {}"
+msgstr "Prebaci {} sinkronizirano: {}"
+# 
+# #-#-#-#-#  biglinux-settings.pot (biglinux-settings)  #-#-#-#-#
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/preload_page.py, line: 284
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_usability_page.py, line: 334
+msgid "Indicator {} synchronized: {}"
+msgstr "Pokazatelj {} sinkroniziran: {}"
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 244
+msgid "Changing {} to {}"
+msgstr "Mijenjanje {} u {}"
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 271
+msgid "ERROR: Failed to change {} to {}"
+msgstr "GREŠKA: Nije moguće promijeniti {} u {}"
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 274
+msgid "Failed to change setting: {}"
+msgstr "Neuspješno promijenjena postavka: {}"
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_usability_page.py, line: 14
+msgid "User and Visual system settings."
+msgstr "Postavke korisnika i vizualnog sustava."
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 114
+msgid "NumLock"
+msgstr "NumLock"
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 115
+msgid "Initial NumLock state. Ignored if autologin is enabled."
+msgstr "Početno stanje NumLocka. Ignorira se ako je omogućena automatska prijava."
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 131
+msgid "Window Button On Left Side"
+msgstr "Gumb za prozor s lijeve strane"
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 132
+msgid "Maximize, minimize, and close buttons on the left side of the window."
+msgstr "Dugme za maksimiziranje, minimiziranje i zatvaranje s lijeve strane prozora."
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_usability_page.py, line: 72
+msgid "KZones"
+msgstr "KZone"
+# 
+# #-#-#-#-#  biglinux-settings.pot (biglinux-settings)  #-#-#-#-#
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/ai_page.py, line: 32
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_usability_page.py, line: 50
+msgid "Script for the KWin window manager of the KDE Plasma desktop environment."
+msgstr "Skripta za KWin upravitelja prozora KDE Plasma radnog okruženja."
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_usability_page.py, line: 169
+msgid "Recent Files & Locations"
+msgstr "Nedavne datoteke i lokacije"
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_usability_page.py, line: 170
+msgid ""
+"Restores the 'Recent Files' and 'Recent Locations' functionality that appears empty in Dolphin and "
+"the Application Menu."
+msgstr ""
+"Obnavlja funkcionalnost 'Nedavne datoteke' i 'Nedavne lokacije' koja se pojavljuje prazna u "
+"Dolphin-u i izborniku aplikacija."
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/usability_page.py, line: 57
+msgid "Bash Power"
+msgstr "Bash Moć"
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/usability_page.py, line: 58
+msgid "BigLinux terminal improvements and customizations."
+msgstr "Poboljšanja i prilagodbe BigLinux terminala."
 # 
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings/docker_page.py, line: 15
 msgid "Container service - enable to use containers below."
@@ -492,158 +810,6 @@ msgstr ""
 "i  \n"
 "Adresa: http://{}:8502"
 # 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 244
-msgid "Changing {} to {}"
-msgstr "Mijenjanje {} u {}"
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 271
-msgid "ERROR: Failed to change {} to {}"
-msgstr "GREŠKA: Nije moguće promijeniti {} u {}"
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 274
-msgid "Failed to change setting: {}"
-msgstr "Neuspješno promijenjena postavka: {}"
-# 
-# #-#-#-#-#  biglinux-settings.pot (biglinux-settings)  #-#-#-#-#
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_usability_page.py, line: 206
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/preload_page.py, line: 165
-msgid "Unavailable: script not found."
-msgstr "Nedostupno: skripta nije pronađena."
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 173
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 199
-msgid "Script not found: {}"
-msgstr "Skripta nije pronađena: {}"
-# 
-# #-#-#-#-#  biglinux-settings.pot (biglinux-settings)  #-#-#-#-#
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_usability_page.py, line: 218
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/preload_page.py, line: 177
-msgid "Enabled"
-msgstr "Omogućeno"
-# 
-# #-#-#-#-#  biglinux-settings.pot (biglinux-settings)  #-#-#-#-#
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_usability_page.py, line: 220
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/preload_page.py, line: 179
-msgid "Disabled"
-msgstr "Onemogućeno"
-# 
-# #-#-#-#-#  biglinux-settings.pot (biglinux-settings)  #-#-#-#-#
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_usability_page.py, line: 223
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/preload_page.py, line: 182
-msgid "Enabled by system configuration (e.g., Real-Time Kernel) and cannot be changed here."
-msgstr "Omogućeno konfiguracijom sustava (npr. Real-Time Kernel) i ne može se promijeniti ovdje."
-# 
-# #-#-#-#-#  biglinux-settings.pot (biglinux-settings)  #-#-#-#-#
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_usability_page.py, line: 225
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/preload_page.py, line: 184
-msgid "Unavailable: script returned invalid output."
-msgstr "Nedostupno: skripta je vratila nevažeći izlaz."
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/base_page.py, line: 261
-msgid "output from script {}: {}"
-msgstr "izlaz iz skripte {}: {}"
-# 
-# #-#-#-#-#  biglinux-settings.pot (biglinux-settings)  #-#-#-#-#
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_usability_page.py, line: 229
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/preload_page.py, line: 188
-msgid "Unavailable: script returned an error."
-msgstr "Nedostupno: skripta je vratila pogrešku."
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 184
-msgid "Error checking state: {}"
-msgstr "Provjera pogreške stanja: {}"
-# 
-# #-#-#-#-#  biglinux-settings.pot (biglinux-settings)  #-#-#-#-#
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_usability_page.py, line: 233
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/preload_page.py, line: 192
-msgid "Unavailable: failed to run script."
-msgstr "Nedostupno: nije uspjelo pokretanje skripte."
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 193
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 220
-msgid "Error running script {}: {}"
-msgstr "Greška prilikom pokretanja skripte {}: {}"
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 209
-msgid "State changed successfully"
-msgstr "Stanje je uspješno promijenjeno."
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 211
-msgid "Script output: {}"
-msgstr "Izlaz skripte: {}"
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 215
-msgid "Script failed with exit code: {}"
-msgstr "Skripta je neuspješno završila s izlaznim kodom: {}"
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 190
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 217
-msgid "Script timeout: {}"
-msgstr "Izdavanje skripte isteklo: {}"
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 236
-msgid "Switch {} synchronized: {}"
-msgstr "Prebaci {} sinkronizirano: {}"
-# 
-# #-#-#-#-#  biglinux-settings.pot (biglinux-settings)  #-#-#-#-#
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/preload_page.py, line: 284
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_usability_page.py, line: 334
-msgid "Indicator {} synchronized: {}"
-msgstr "Pokazatelj {} sinkroniziran: {}"
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 49
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 120
-msgid "BigLinux Settings"
-msgstr "BigLinux Postavke"
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 135
-msgid "Categories"
-msgstr "Kategorije"
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 144
-msgid "Search..."
-msgstr "Pretraži..."
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/devices/keyboard_led_dialog.py, line: 249
-msgid "Settings"
-msgstr "Postavke"
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 108
-msgid "System"
-msgstr "Sustav"
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 107
-msgid "Usability"
-msgstr "Upotrebljivost"
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 158
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 167
-msgid "PreLoad"
-msgstr "PreLoad"
-# 
-# #-#-#-#-#  biglinux-settings.pot (biglinux-settings)  #-#-#-#-#
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/dispositivos_page.py, line: 25
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 116
-msgid "Devices"
-msgstr "Uređaji"
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 161
-msgid "A.I."
-msgstr "A.I."
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/usability/gamemode_dialog.py, line: 204
-msgid "Performance"
-msgstr "Izvedba"
-# 
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_page.py, line: 26
 msgid "General system settings."
 msgstr "Opća sistemska podešavanja."
@@ -684,46 +850,6 @@ msgstr "Automatsko montiranje particija"
 msgid "Auto mount partitions in internal disks on boot."
 msgstr "Automatski montiraj particije na unutarnjim diskovima pri pokretanju."
 # 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/preload_page.py, line: 103
-msgid "Preload"
-msgstr "Predmemoriranje"
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/preload_page.py, line: 105
-msgid "Preload applications into memory to open them faster."
-msgstr "Preuzmite aplikacije u memoriju kako biste ih brže otvorili."
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/preload_page.py, line: 120
-msgid "Firefox"
-msgstr "Firefox"
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/preload_page.py, line: 126
-msgid "Brave"
-msgstr "Brave"
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/preload_page.py, line: 132
-msgid "Chrome"
-msgstr "Chrome"
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/preload_page.py, line: 138
-msgid "Chromium"
-msgstr "Kromium"
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/preload_page.py, line: 126
-msgid "Librewolf"
-msgstr "Librewolf"
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/preload_page.py, line: 144
-msgid "Palemoon"
-msgstr "Palemoon"
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/preload_page.py, line: 150
-msgid "Opera"
-msgstr "Opera"
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/preload_page.py, line: 156
-msgid "Libreoffice"
-msgstr "LibreOffice"
-# 
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings/devices_page.py, line: 15
 msgid "Manage physical devices."
 msgstr "Upravljajte fizičkim uređajima."
@@ -762,69 +888,6 @@ msgstr "Obrnuto pomicanje miša"
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings/devices_page.py, line: 72
 msgid "Reverse mouse scrolling without restarting the session."
 msgstr "Obrnuto pomicanje miša bez ponovnog pokretanja sesije."
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/performance_games_page.py, line: 16
-msgid "BigLinux performance tweaks."
-msgstr "BigLinux optimizacije performansi."
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/usability/gamemode_config_dialog.py, line: 91
-msgid "Disable Visual Effects"
-msgstr "Onemogući vizualne efekte"
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/performance_games_page.py, line: 35
-msgid "Disables KWin visual effects (blur, shadows, animations). Reduces GPU load and frees memory."
-msgstr ""
-"Onemogućuje KWin vizualne efekte (zamućenje, sjene, animacije). Smanjuje opterećenje GPU-a i "
-"oslobađa memoriju."
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/performance_games_page.py, line: 63
-msgid "CPU Maximum Performance"
-msgstr "Maksimalna izvedba CPU-a"
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/performance_games_page.py, line: 51
-msgid "Forces maximum processor performance mode. Ensures the processor uses maximum frequency."
-msgstr "Prisiljava maksimalni način rada procesora. Osigurava da procesor koristi maksimalnu frekvenciju."
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/performance_games_page.py, line: 79
-msgid "Disable Baloo Indexer"
-msgstr "Onemogući Baloo indeksator"
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/performance_games_page.py, line: 67
-msgid "Disables the Baloo file indexer. Avoids disk I/O overhead."
-msgstr "Onemogućuje Baloo indeksator datoteka. Izbjegava opterećenje diska I/O."
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/usability/gamemode_config_dialog.py, line: 136
-msgid "Unload S.M.A.R.T Monitor"
-msgstr "Otpusti S.M.A.R.T Monitor"
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/performance_games_page.py, line: 83
-msgid "Disables S.M.A.R.T disk monitoring. Reduces disk I/O and CPU usage."
-msgstr "Onemogućuje S.M.A.R.T praćenje diska. Smanjuje I/O diska i CPU korištenje."
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_usability_page.py, line: 169
-msgid "Meltdown Mitigations off"
-msgstr "Mitigacije za Meltdown isključene"
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_usability_page.py, line: 113
-#, python-brace-format
-msgid ""
-"Using mitigations=off will make your machine faster and less secure! For more information see: <a "
-"href='{l}'>{l}</a>"
-msgstr ""
-"Korištenje mitigacija=isključeno učinit će vaš uređaj bržim, ali manje sigurnim! Za više "
-"informacija pogledajte: <a href='{l}'>{l}</a>"
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_usability_page.py, line: 176
-msgid "noWatchdog"
-msgstr "noWatchdog"
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_usability_page.py, line: 177
-msgid ""
-"Disables the hardware watchdog and TSC clocksource systems, maintaining high performance but "
-"removing automatic protections against system crashes."
-msgstr ""
-"Onemogućuje hardverski watchdog i TSC izvor vremena, održavajući visoke performanse, ali "
-"uklanjajući automatske zaštite od rušenja sustava."
 # 
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings/ai_page.py, line: 30
 msgid "AI Interfaces"
@@ -875,6 +938,14 @@ msgstr ""
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings/ai_page.py, line: 80
 msgid "An open source, privacy-focused alternative to Google's Notebook LM!"
 msgstr "Otvoreni izvor, privatnosti usmjeren alternativ za Googleov Notebook LM!"
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/ai_page.py, line: 88
+msgid ""
+"Official Hermes Agent desktop app from Nous Research — chat, voice, file browser, and settings UI "
+"for the local agent runtime."
+msgstr ""
+"Službena Hermes Agent desktop aplikacija iz Nous Research — chat, glas, preglednik datoteka i "
+"korisničko sučelje za postavke za lokalno izvršavanje agenta."
 # 
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings/ai_page.py, line: 87
 msgid "ComfyUI (GPU ONLY)"
@@ -976,54 +1047,3 @@ msgid ""
 msgstr ""
 "Lokalni AI poslužitelj. Za novije AMD GPU-ove, počevši od 6000 serije. Razmotrite korištenje "
 "Vulkana, u mnogim testovima, Vulkan je imao bolje performanse od ROCm-a."
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_usability_page.py, line: 14
-msgid "User and Visual system settings."
-msgstr "Postavke korisnika i vizualnog sustava."
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 114
-msgid "NumLock"
-msgstr "NumLock"
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 115
-msgid "Initial NumLock state. Ignored if autologin is enabled."
-msgstr "Početno stanje NumLocka. Ignorira se ako je omogućena automatska prijava."
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 131
-msgid "Window Button On Left Side"
-msgstr "Gumb za prozor s lijeve strane"
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 132
-msgid "Maximize, minimize, and close buttons on the left side of the window."
-msgstr "Dugme za maksimiziranje, minimiziranje i zatvaranje s lijeve strane prozora."
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_usability_page.py, line: 72
-msgid "KZones"
-msgstr "KZone"
-# 
-# #-#-#-#-#  biglinux-settings.pot (biglinux-settings)  #-#-#-#-#
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/ai_page.py, line: 32
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_usability_page.py, line: 50
-msgid "Script for the KWin window manager of the KDE Plasma desktop environment."
-msgstr "Skripta za KWin upravitelja prozora KDE Plasma radnog okruženja."
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_usability_page.py, line: 169
-msgid "Recent Files & Locations"
-msgstr "Nedavne datoteke i lokacije"
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_usability_page.py, line: 170
-msgid ""
-"Restores the 'Recent Files' and 'Recent Locations' functionality that appears empty in Dolphin and "
-"the Application Menu."
-msgstr ""
-"Obnavlja funkcionalnost 'Nedavne datoteke' i 'Nedavne lokacije' koja se pojavljuje prazna u "
-"Dolphin-u i izborniku aplikacija."
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/usability_page.py, line: 57
-msgid "Bash Power"
-msgstr "Bash Moć"
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/usability_page.py, line: 58
-msgid "BigLinux terminal improvements and customizations."
-msgstr "Poboljšanja i prilagodbe BigLinux terminala."

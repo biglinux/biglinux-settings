@@ -14,14 +14,98 @@ msgstr ""
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "X-Generator: attranslate\n"
+msgid "Applying, please wait..."
+msgstr "Käytetään, ole hyvä ja odota..."
+msgid ""
+"GRUB updated successfully!\\n"
+"Restart your computer for it to take effect."
+msgstr ""
+"GRUB päivitettiin onnistuneesti!\\n"
+"Käynnistä tietokoneesi uudelleen, jotta muutokset tulevat voimaan."
+msgid "An error occurred while updating GRUB."
+msgstr "Päivityksessä tapahtui virhe GRUB:issa."
+msgid "Already enabled. No changes made."
+msgstr "Jo käytössä. Ei muutoksia tehty."
+msgid "Limits updated successfully!"
+msgstr "Rajat päivitettiin onnistuneesti!"
+msgid "An error occurred while updating Limits."
+msgstr "Päivityksessä tapahtui virhe Limits."
+msgid "GRUB updated successfully!"
+msgstr "GRUB päivitettiin onnistuneesti!"
+msgid "Installing $package"
+msgstr "Asennetaan $package"
+msgid "Installing $package, Please wait..."
+msgstr "Asennetaan $package, Ole hyvä ja odota..."
+msgid "Removing $package"
+msgstr "Poistetaan $package"
+msgid "Removing $package, Please wait..."
+msgstr "Poistetaan $package, Ole hyvä ja odota..."
+msgid ""
+"$title installed successfully!\\n"
+"\\n"
+"Configured on port $port, to access use $url"
+msgstr ""
+"$title asennettu onnistuneesti!\\n"
+"\\n"
+"Konfiguroitu porttiin $port, käytä $url päästäksesi käsiksi."
+msgid "$package removed successfully!"
+msgstr "$paketti poistettu onnistuneesti!"
+msgid "An error occurred with $package."
+msgstr "Virhe tapahtui $package:n kanssa."
+msgid "Docker Install"
+msgstr "Dockerin asennus"
+msgid "Installing Docker, Please wait..."
+msgstr "Asennetaan Dockeria, ole hyvä ja odota..."
+msgid "Docker Start"
+msgstr "Docker Käynnistä"
+msgid "Docker Starting, Please wait..."
+msgstr "Docker käynnistyy, ole hyvä ja odota..."
+msgid "Docker Stop"
+msgstr "Docker Pysäytä"
+msgid "Docker Stopping, Please wait..."
+msgstr "Docker pysähtyy, ole hyvä ja odota..."
+msgid "Docker installed successfully!"
+msgstr "Docker asennettu onnistuneesti!"
+msgid "An error occurred while installing docker."
+msgstr "Asennettaessa dockeria tapahtui virhe."
+msgid "Example Install"
+msgstr "Esimerkkiasennus"
+msgid "Installing Example, Please wait..."
+msgstr "Asennetaan Esimerkki, Ole hyvä ja odota..."
+msgid "Example Uninstall"
+msgstr "Esimerkki poistoasennus"
+msgid "Uninstalling Example, Please wait..."
+msgstr "Poistetaan Esimerkki, Ole hyvä ja odota..."
+msgid "Example installed successfully!"
+msgstr "Esimerkki asennettu onnistuneesti!"
+msgid "Failed to install Example!"
+msgstr "Esimerkin asennus epäonnistui!"
+msgid "JamesDSP Install"
+msgstr "JamesDSP Asennus"
+msgid "Installing JamesDSP, Please wait..."
+msgstr "Asennetaan JamesDSP, ole hyvä ja odota..."
+msgid "JamesDSP installed successfully!"
+msgstr "JamesDSP asennettu onnistuneesti!"
+msgid "Failed to install jamesDSP!"
+msgstr "JamesDSP:n asennus epäonnistui!"
 msgid "kzones Install"
 msgstr "kzones Asennus"
 msgid "Installing Kzones, Please wait..."
 msgstr "Asennetaan Kzoneja, ole hyvä ja odota..."
 msgid "Kzones installed successfully!"
 msgstr "Kzones asennettiin onnistuneesti!"
-msgid "Applying, please wait..."
-msgstr "Käytetään, ole hyvä ja odota..."
+msgid "Bash Power Install"
+msgstr "Bash Power Asennus"
+msgid "Installing Bash Power, Please wait..."
+msgstr "Asennetaan Bash Power, ole hyvä ja odota..."
+msgid "Bash Power Uninstall"
+msgstr "Bash Power Poista asennus"
+msgid "Uninstalling Bash Power, Please wait..."
+msgstr "Poistetaan Bash Poweria, ole hyvä ja odota..."
+msgid "Bash Power installed successfully!"
+msgstr "Bash Power asennettu onnistuneesti!"
+msgid "Failed to install Bash Power!"
+msgstr "Asennus epäonnistui: Bash Power!"
 msgid "Recent Files enabling...."
 msgstr "Äskettäin avatut tiedostot käytössä...."
 msgid "Recent Files enabling, Please wait..."
@@ -44,90 +128,24 @@ msgstr ""
 "Sinun on suljettava ja avattava Dolphin uudelleen, jotta se astuu voimaan."
 msgid "Failed to enable Recent Files!"
 msgstr "Viimeisimpien tiedostojen käyttöä ei voitu ottaa käyttöön!"
-msgid "Bash Power Install"
-msgstr "Bash Power Asennus"
-msgid "Installing Bash Power, Please wait..."
-msgstr "Asennetaan Bash Power, ole hyvä ja odota..."
-msgid "Bash Power Uninstall"
-msgstr "Bash Power Poista asennus"
-msgid "Uninstalling Bash Power, Please wait..."
-msgstr "Poistetaan Bash Poweria, ole hyvä ja odota..."
-msgid "Bash Power installed successfully!"
-msgstr "Bash Power asennettu onnistuneesti!"
-msgid "Failed to install Bash Power!"
-msgstr "Asennus epäonnistui: Bash Power!"
-msgid "Example Install"
-msgstr "Esimerkkiasennus"
-msgid "Installing Example, Please wait..."
-msgstr "Asennetaan Esimerkki, Ole hyvä ja odota..."
-msgid "Example Uninstall"
-msgstr "Esimerkki poistoasennus"
-msgid "Uninstalling Example, Please wait..."
-msgstr "Poistetaan Esimerkki, Ole hyvä ja odota..."
-msgid "Example installed successfully!"
-msgstr "Esimerkki asennettu onnistuneesti!"
-msgid "Failed to install Example!"
-msgstr "Esimerkin asennus epäonnistui!"
-msgid "JamesDSP Install"
-msgstr "JamesDSP Asennus"
-msgid "Installing JamesDSP, Please wait..."
-msgstr "Asennetaan JamesDSP, ole hyvä ja odota..."
-msgid "JamesDSP installed successfully!"
-msgstr "JamesDSP asennettu onnistuneesti!"
-msgid "Failed to install jamesDSP!"
-msgstr "JamesDSP:n asennus epäonnistui!"
-msgid "Docker Install"
-msgstr "Dockerin asennus"
-msgid "Installing Docker, Please wait..."
-msgstr "Asennetaan Dockeria, ole hyvä ja odota..."
-msgid "Docker Start"
-msgstr "Docker Käynnistä"
-msgid "Docker Starting, Please wait..."
-msgstr "Docker käynnistyy, ole hyvä ja odota..."
-msgid "Docker Stop"
-msgstr "Docker Pysäytä"
-msgid "Docker Stopping, Please wait..."
-msgstr "Docker pysähtyy, ole hyvä ja odota..."
-msgid "Docker installed successfully!"
-msgstr "Docker asennettu onnistuneesti!"
-msgid "An error occurred while installing docker."
-msgstr "Asennettaessa dockeria tapahtui virhe."
-msgid "Installing $package"
-msgstr "Asennetaan $package"
-msgid "Installing $package, Please wait..."
-msgstr "Asennetaan $package, Ole hyvä ja odota..."
-msgid "Removing $package"
-msgstr "Poistetaan $package"
-msgid "Removing $package, Please wait..."
-msgstr "Poistetaan $package, Ole hyvä ja odota..."
 msgid ""
-"$title installed successfully!\\n"
-"\\n"
-"Configured on port $port, to access use $url"
+"Ollama server is running.\\n"
+"Address: http://localhost:11434"
 msgstr ""
-"$title asennettu onnistuneesti!\\n"
-"\\n"
-"Konfiguroitu porttiin $port, käytä $url päästäksesi käsiksi."
-msgid "$package removed successfully!"
-msgstr "$paketti poistettu onnistuneesti!"
-msgid "An error occurred with $package."
-msgstr "Virhe tapahtui $package:n kanssa."
-msgid "GRUB updated successfully!"
-msgstr "GRUB päivitettiin onnistuneesti!"
-msgid "An error occurred while updating GRUB."
-msgstr "Päivityksessä tapahtui virhe GRUB:issa."
-msgid "Limits updated successfully!"
-msgstr "Rajat päivitettiin onnistuneesti!"
-msgid "An error occurred while updating Limits."
-msgstr "Päivityksessä tapahtui virhe Limits."
-msgid ""
-"GRUB updated successfully!\\n"
-"Restart your computer for it to take effect."
-msgstr ""
-"GRUB päivitettiin onnistuneesti!\\n"
-"Käynnistä tietokoneesi uudelleen, jotta muutokset tulevat voimaan."
-msgid "Already enabled. No changes made."
-msgstr "Jo käytössä. Ei muutoksia tehty."
+"Ollama-palvelin on käynnissä.\\n"
+"Osoite: http://localhost:11434"
+msgid "Ollama ROCm Install"
+msgstr "Ollama ROCm Asennus"
+msgid "Installing Ollama ROCm, Please wait..."
+msgstr "Asennetaan Ollama ROCm, ole hyvä ja odota..."
+msgid "Ollama ROCm Uninstall"
+msgstr "Ollama ROCm Poista asennus"
+msgid "Uninstalling Ollama ROCm, Please wait..."
+msgstr "Poistetaan Ollama ROCm, ole hyvä ja odota..."
+msgid "Ollama ROCm installed successfully!"
+msgstr "Ollama ROCm asennettu onnistuneesti!"
+msgid "Failed to install Ollama ROCm!"
+msgstr "Ollama ROCm:n asennus epäonnistui!"
 msgid "Ollama Vulkan Install"
 msgstr "Ollama Vulkan Asennus"
 msgid "Installing Ollama, Please wait..."
@@ -140,6 +158,62 @@ msgid "Ollama Vulkan installed successfully!"
 msgstr "Ollama Vulkan asennettu onnistuneesti!"
 msgid "Failed to install Ollama Vulkan!"
 msgstr "Ollama Vulkanin asennus epäonnistui!"
+msgid "Ollama Install"
+msgstr "Ollama Asennus"
+msgid "Ollama Uninstall"
+msgstr "Ollama Poista asennus"
+msgid "Uninstalling Ollama, Please wait..."
+msgstr "Ollaman poistaminen, ole hyvä ja odota..."
+msgid "Ollama installed successfully!"
+msgstr "Ollama asennettu onnistuneesti!"
+msgid "Failed to install Ollama!"
+msgstr "Ollaman asennus epäonnistui!"
+msgid "Ollama CUDA Install"
+msgstr "Ollama CUDA Asennus"
+msgid "Installing Ollama CUDA, Please wait..."
+msgstr "Asennetaan Ollama CUDA, Ole hyvä ja odota..."
+msgid "Ollama CUDA Uninstall"
+msgstr "Ollama CUDA Poista asennus"
+msgid "Uninstalling Ollama CUDA, Please wait..."
+msgstr "Poistetaan Ollama CUDA:ta, ole hyvä ja odota..."
+msgid "Ollama CUDA installed successfully!"
+msgstr "Ollama CUDA asennettu onnistuneesti!"
+msgid "Failed to install Ollama CUDA!"
+msgstr "Ollama CUDA:n asennus epäonnistui!"
+msgid "Krita Install"
+msgstr "Krita Asennus"
+msgid "Installing Krita, Please wait..."
+msgstr "Asennetaan Kritaa, ole hyvä ja odota..."
+msgid "Krita Uninstall"
+msgstr "Krita Poista asennus"
+msgid "Uninstalling Krita, Please wait..."
+msgstr "Poistetaan Kritaa, ole hyvä ja odota..."
+msgid "Krita installed successfully!"
+msgstr "Krita asennettu onnistuneesti!"
+msgid "Failed to install Krita!"
+msgstr "Kritan asennus epäonnistui!"
+msgid "Hermes Agent Deskto Install"
+msgstr "Hermes Agent Työpöytä Asennus"
+msgid "Installing Hermes Agent Deskto, Please wait..."
+msgstr "Asennetaan Hermes Agent Desktopia, Ole hyvä ja odota..."
+msgid "Hermes Agent Deskto Uninstall"
+msgstr "Hermes Agent Desktopin poistaminen"
+msgid "Uninstalling Hermes Agent Deskto, Please wait..."
+msgstr "Poistetaan Hermes Agent Desktopia, Ole hyvä ja odota..."
+msgid "Hermes Agent Deskto installed successfully!"
+msgstr "Hermes Agent Desktop asennettu onnistuneesti!"
+msgid "Failed to install Hermes Agent Deskto!"
+msgstr "Hermes Agent Desktopin asennus epäonnistui!"
+msgid ""
+"Ollama shared successfully.\\n"
+"Address: http://$localIp:11434"
+msgstr ""
+"Ollama jaettiin onnistuneesti.\\n"
+"Osoite: http://$localIp:11434"
+msgid "Failed to shared Ollama!"
+msgstr "Ollaman jakaminen epäonnistui!"
+msgid "AMD/Nvidia GPU not found!"
+msgstr "AMD/Nvidia GPU ei löytynyt!"
 msgid "ChatBox Install"
 msgstr "ChatBox Asennus"
 msgid "Installing ChatBox, Please wait..."
@@ -152,18 +226,6 @@ msgid "ChatBox installed successfully!"
 msgstr "ChatBox asennettu onnistuneesti!"
 msgid "Failed to install ChatBox!"
 msgstr "ChatBoxin asennus epäonnistui!"
-msgid "Ollama Lab Install"
-msgstr "Ollama Lab - Asennus"
-msgid "Installing Ollama Lab, Please wait..."
-msgstr "Asennetaan Ollama Lab, Ole hyvä ja odota..."
-msgid "Ollama Lab Uninstall"
-msgstr "Ollama Labin poistaminen"
-msgid "Uninstalling Ollama Lab, Please wait..."
-msgstr "Ollama Labin poistaminen, ole hyvä ja odota..."
-msgid "Ollama Lab installed successfully!"
-msgstr "Ollama Lab asennettu onnistuneesti!"
-msgid "Failed to install Ollama Lab!"
-msgstr "Ollama Labin asennus epäonnistui!"
 msgid ""
 "Generative AI for Krita has been successfully installed.\\n"
 "\\n"
@@ -184,34 +246,38 @@ msgstr ""
 "ja napsauta Asenna."
 msgid "Generative AI for Krita has not been successfully installed."
 msgstr "Generatiivinen tekoäly Kritallea ei ole onnistuneesti asennettu."
-msgid ""
-"Ollama server is running.\\n"
-"Address: http://localhost:11434"
-msgstr ""
-"Ollama-palvelin on käynnissä.\\n"
-"Osoite: http://localhost:11434"
-msgid "Ollama Install"
-msgstr "Ollama Asennus"
-msgid "Ollama Uninstall"
-msgstr "Ollama Poista asennus"
-msgid "Uninstalling Ollama, Please wait..."
-msgstr "Ollaman poistaminen, ole hyvä ja odota..."
-msgid "Ollama installed successfully!"
-msgstr "Ollama asennettu onnistuneesti!"
-msgid "Failed to install Ollama!"
-msgstr "Ollaman asennus epäonnistui!"
-msgid "Ollama ROCm Install"
-msgstr "Ollama ROCm Asennus"
-msgid "Installing Ollama ROCm, Please wait..."
-msgstr "Asennetaan Ollama ROCm, ole hyvä ja odota..."
-msgid "Ollama ROCm Uninstall"
-msgstr "Ollama ROCm Poista asennus"
-msgid "Uninstalling Ollama ROCm, Please wait..."
-msgstr "Poistetaan Ollama ROCm, ole hyvä ja odota..."
-msgid "Ollama ROCm installed successfully!"
-msgstr "Ollama ROCm asennettu onnistuneesti!"
-msgid "Failed to install Ollama ROCm!"
-msgstr "Ollama ROCm:n asennus epäonnistui!"
+msgid "LM Studio Install"
+msgstr "LM Studio Asennus"
+msgid "Installing LM Studio, Please wait..."
+msgstr "Asennetaan LM Studio, ole hyvä ja odota..."
+msgid "LM Studio Uninstall"
+msgstr "LM Studio Poista asennus"
+msgid "Uninstalling LM Studio, Please wait..."
+msgstr "Poistetaan LM Studioa, ole hyvä ja odota..."
+msgid "LM Studio installed successfully!"
+msgstr "LM Studio asennettu onnistuneesti!"
+msgid "Failed to install LM Studio!"
+msgstr "LM Studion asennus epäonnistui!"
+msgid "comfyUI Depends Install"
+msgstr "comfyUI Riippuvuudet Asenna"
+msgid "Installing comfyUI Depends, Please wait..."
+msgstr "Asennetaan comfyUI-riippuvuuksia, ole hyvä ja odota..."
+msgid "comfyUI Depends installed successfully!"
+msgstr "comfyUI Riippuvuudet asennettu onnistuneesti!"
+msgid "Failed to install comfyUI Depends!"
+msgstr "Asennus comfyUI epäonnistui! Riippuvuudet puuttuvat!"
+msgid "Ollama Lab Install"
+msgstr "Ollama Lab - Asennus"
+msgid "Installing Ollama Lab, Please wait..."
+msgstr "Asennetaan Ollama Lab, Ole hyvä ja odota..."
+msgid "Ollama Lab Uninstall"
+msgstr "Ollama Labin poistaminen"
+msgid "Uninstalling Ollama Lab, Please wait..."
+msgstr "Ollama Labin poistaminen, ole hyvä ja odota..."
+msgid "Ollama Lab installed successfully!"
+msgstr "Ollama Lab asennettu onnistuneesti!"
+msgid "Failed to install Ollama Lab!"
+msgstr "Ollama Labin asennus epäonnistui!"
 msgid "comfyUI Install...."
 msgstr "comfyUI Asennus...."
 msgid "Installing comfyUI, this step take a long time, Please wait..."
@@ -226,64 +292,342 @@ msgid "comfyUI uninstalled successfully"
 msgstr "comfyUI poistettiin onnistuneesti"
 msgid "Failed to install comfyUI!"
 msgstr "Asennus comfyUI:ta epäonnistui!"
-msgid "AMD/Nvidia GPU not found!"
-msgstr "AMD/Nvidia GPU ei löytynyt!"
-msgid ""
-"Ollama shared successfully.\\n"
-"Address: http://$localIp:11434"
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/performance_games_page.py, line: 181
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/performance_games_page.py, line: 195
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/performance_games_page.py, line: 181
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/performance_games_page.py, line: 195
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/performance_games_page.py, line: 244
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/performance_games_page.py, line: 256
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/performance_games_page.py, line: 244
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/performance_games_page.py, line: 256
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/usability/gamemode_dialog.py, line: 204
+msgid "Performance"
+msgstr "Suorituskyky"
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/performance_games_page.py, line: 16
+msgid "BigLinux performance tweaks."
+msgstr "BigLinux-suorituskyvyn säätöjä."
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/usability/gamemode_config_dialog.py, line: 91
+msgid "Disable Visual Effects"
+msgstr "Poista visuaaliset tehosteet käytöstä"
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/performance_games_page.py, line: 35
+msgid "Disables KWin visual effects (blur, shadows, animations). Reduces GPU load and frees memory."
 msgstr ""
-"Ollama jaettiin onnistuneesti.\\n"
-"Osoite: http://$localIp:11434"
-msgid "Failed to shared Ollama!"
-msgstr "Ollaman jakaminen epäonnistui!"
-msgid "Ollama CUDA Install"
-msgstr "Ollama CUDA Asennus"
-msgid "Installing Ollama CUDA, Please wait..."
-msgstr "Asennetaan Ollama CUDA, Ole hyvä ja odota..."
-msgid "Ollama CUDA Uninstall"
-msgstr "Ollama CUDA Poista asennus"
-msgid "Uninstalling Ollama CUDA, Please wait..."
-msgstr "Poistetaan Ollama CUDA:ta, ole hyvä ja odota..."
-msgid "Ollama CUDA installed successfully!"
-msgstr "Ollama CUDA asennettu onnistuneesti!"
-msgid "Failed to install Ollama CUDA!"
-msgstr "Ollama CUDA:n asennus epäonnistui!"
-msgid "LM Studio Install"
-msgstr "LM Studio Asennus"
-msgid "Installing LM Studio, Please wait..."
-msgstr "Asennetaan LM Studio, ole hyvä ja odota..."
-msgid "LM Studio Uninstall"
-msgstr "LM Studio Poista asennus"
-msgid "Uninstalling LM Studio, Please wait..."
-msgstr "Poistetaan LM Studioa, ole hyvä ja odota..."
-msgid "LM Studio installed successfully!"
-msgstr "LM Studio asennettu onnistuneesti!"
-msgid "Failed to install LM Studio!"
-msgstr "LM Studion asennus epäonnistui!"
-msgid "Krita Install"
-msgstr "Krita Asennus"
-msgid "Installing Krita, Please wait..."
-msgstr "Asennetaan Kritaa, ole hyvä ja odota..."
-msgid "Krita Uninstall"
-msgstr "Krita Poista asennus"
-msgid "Uninstalling Krita, Please wait..."
-msgstr "Poistetaan Kritaa, ole hyvä ja odota..."
-msgid "Krita installed successfully!"
-msgstr "Krita asennettu onnistuneesti!"
-msgid "Failed to install Krita!"
-msgstr "Kritan asennus epäonnistui!"
-msgid "comfyUI Depends Install"
-msgstr "comfyUI Riippuvuudet Asenna"
-msgid "Installing comfyUI Depends, Please wait..."
-msgstr "Asennetaan comfyUI-riippuvuuksia, ole hyvä ja odota..."
-msgid "comfyUI Depends installed successfully!"
-msgstr "comfyUI Riippuvuudet asennettu onnistuneesti!"
-msgid "Failed to install comfyUI Depends!"
-msgstr "Asennus comfyUI epäonnistui! Riippuvuudet puuttuvat!"
+"Poistaa KWin-visuaaliset tehosteet (sumeus, varjot, animaatiot). Vähentää GPU-kuormitusta ja "
+"vapauttaa muistia."
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/performance_games_page.py, line: 63
+msgid "CPU Maximum Performance"
+msgstr "CPU:n maksimaalinen suorituskyky"
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/performance_games_page.py, line: 51
+msgid "Forces maximum processor performance mode. Ensures the processor uses maximum frequency."
+msgstr ""
+"Pakottaa prosessorin maksimisuorituskykytilaan. Varmistaa, että prosessori käyttää maksimi "
+"taajuutta."
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/performance_games_page.py, line: 79
+msgid "Disable Baloo Indexer"
+msgstr "Poista Baloo-indeksoija käytöstä"
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/performance_games_page.py, line: 67
+msgid "Disables the Baloo file indexer. Avoids disk I/O overhead."
+msgstr "Poistaa käytöstä Baloo-tiedostoindexerin. Vältetään levyn I/O-ylikuormitusta."
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/usability/gamemode_config_dialog.py, line: 136
+msgid "Unload S.M.A.R.T Monitor"
+msgstr "Purkaa S.M.A.R.T Monitor"
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/performance_games_page.py, line: 83
+msgid "Disables S.M.A.R.T disk monitoring. Reduces disk I/O and CPU usage."
+msgstr "Poistaa käytöstä S.M.A.R.T-levyn valvonnan. Vähentää levyn I/O:ta ja CPU:n käyttöä."
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_usability_page.py, line: 169
+msgid "Meltdown Mitigations off"
+msgstr "Meltdown-mitigoinnit pois päältä"
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_usability_page.py, line: 113
+#, python-brace-format
+msgid ""
+"Using mitigations=off will make your machine faster and less secure! For more information see: <a "
+"href='{l}'>{l}</a>"
+msgstr ""
+"Käyttämällä mitigations=off nopeutat konettasi, mutta se on vähemmän turvallinen! Lisätietoja saat "
+"osoitteesta: <a href='{l}'>{l}</a>"
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_usability_page.py, line: 176
+msgid "noWatchdog"
+msgstr "eiValvoja"
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_usability_page.py, line: 177
+msgid ""
+"Disables the hardware watchdog and TSC clocksource systems, maintaining high performance but "
+"removing automatic protections against system crashes."
+msgstr ""
+"Poistaa käytöstä laitteiston valvontakellon ja TSC-aikakellolähteet, säilyttäen korkean "
+"suorituskyvyn mutta poistaen automaattiset suojat järjestelmän kaatumisia vastaan."
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 49
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 120
+msgid "BigLinux Settings"
+msgstr "BigLinux Asetukset"
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 135
+msgid "Categories"
+msgstr "Kategoriat"
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 144
+msgid "Search..."
+msgstr "Etsi..."
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/devices/keyboard_led_dialog.py, line: 249
+msgid "Settings"
+msgstr "Asetukset"
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 108
+msgid "System"
+msgstr "Järjestelmä"
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/devices/jamesdsp_dialog.py, line: 208
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/devices/jamesdsp_dialog.py, line: 208
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/devices/jamesdsp_dialog.py, line: 208
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/devices/jamesdsp_dialog.py, line: 208
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/devices/jamesdsp_dialog.py, line: 208
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/devices/jamesdsp_dialog.py, line: 208
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 107
+msgid "Usability"
+msgstr "Käytettävyys"
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 158
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 167
+msgid "PreLoad"
+msgstr "Esilataus"
+# 
+# #-#-#-#-#  biglinux-settings.pot (biglinux-settings)  #-#-#-#-#
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/dispositivos_page.py, line: 25
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 116
+msgid "Devices"
+msgstr "Laitteet"
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 161
+msgid "A.I."
+msgstr "A.I."
 # 
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_usability_page.py, line: 204
 msgid "Docker"
 msgstr "Docker"
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/preload_page.py, line: 103
+msgid "Preload"
+msgstr "Esilataus"
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/preload_page.py, line: 105
+msgid "Preload applications into memory to open them faster."
+msgstr "Esilataa sovelluksia muistiin avatakseen ne nopeammin."
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/preload_page.py, line: 120
+msgid "Firefox"
+msgstr "Firefox"
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/preload_page.py, line: 126
+msgid "Brave"
+msgstr "Brave"
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/preload_page.py, line: 132
+msgid "Chrome"
+msgstr "Chrome"
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/preload_page.py, line: 138
+msgid "Chromium"
+msgstr "Chromium"
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/preload_page.py, line: 126
+msgid "Librewolf"
+msgstr "Librewolf"
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/preload_page.py, line: 144
+msgid "Palemoon"
+msgstr "Palemoon"
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/preload_page.py, line: 150
+msgid "Opera"
+msgstr "Opera"
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/preload_page.py, line: 156
+msgid "Libreoffice"
+msgstr "LibreOffice"
+# 
+# #-#-#-#-#  biglinux-settings.pot (biglinux-settings)  #-#-#-#-#
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_usability_page.py, line: 206
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/preload_page.py, line: 165
+msgid "Unavailable: script not found."
+msgstr "Ei saatavilla: skriptiä ei löytynyt."
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 173
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 199
+msgid "Script not found: {}"
+msgstr "Skriptiä ei löytynyt: {}"
+# 
+# #-#-#-#-#  biglinux-settings.pot (biglinux-settings)  #-#-#-#-#
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_usability_page.py, line: 218
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/preload_page.py, line: 177
+msgid "Enabled"
+msgstr "Oma käytössä"
+# 
+# #-#-#-#-#  biglinux-settings.pot (biglinux-settings)  #-#-#-#-#
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_usability_page.py, line: 220
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/preload_page.py, line: 179
+msgid "Disabled"
+msgstr "Poistettu käytöstä"
+# 
+# #-#-#-#-#  biglinux-settings.pot (biglinux-settings)  #-#-#-#-#
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_usability_page.py, line: 223
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/preload_page.py, line: 182
+msgid "Enabled by system configuration (e.g., Real-Time Kernel) and cannot be changed here."
+msgstr "Oletettu järjestelmäasetusten (esim. Reaaliaikainen ydin) avulla, eikä sitä voida muuttaa täällä."
+# 
+# #-#-#-#-#  biglinux-settings.pot (biglinux-settings)  #-#-#-#-#
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_usability_page.py, line: 225
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/preload_page.py, line: 184
+msgid "Unavailable: script returned invalid output."
+msgstr "Ei saatavilla: skripti palautti virheellisen tuloksen."
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/base_page.py, line: 261
+msgid "output from script {}: {}"
+msgstr "skriptin tulos {}: {}"
+# 
+# #-#-#-#-#  biglinux-settings.pot (biglinux-settings)  #-#-#-#-#
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_usability_page.py, line: 229
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/preload_page.py, line: 188
+msgid "Unavailable: script returned an error."
+msgstr "Ei saatavilla: skripti palautti virheen."
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 184
+msgid "Error checking state: {}"
+msgstr "Virheen tarkistustila: {}"
+# 
+# #-#-#-#-#  biglinux-settings.pot (biglinux-settings)  #-#-#-#-#
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_usability_page.py, line: 233
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/preload_page.py, line: 192
+msgid "Unavailable: failed to run script."
+msgstr "Ei saatavilla: skriptin suorittaminen epäonnistui."
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 193
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 220
+msgid "Error running script {}: {}"
+msgstr "Virhe skriptin suorittamisessa {}: {}"
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 209
+msgid "State changed successfully"
+msgstr "Tila muutettu onnistuneesti"
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 211
+msgid "Script output: {}"
+msgstr "{}"
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 215
+msgid "Script failed with exit code: {}"
+msgstr "Skripti epäonnistui poistumiskoodilla: {}"
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 190
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 217
+msgid "Script timeout: {}"
+msgstr "Skripti aikakatkaisu: {}"
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 236
+msgid "Switch {} synchronized: {}"
+msgstr "Vaihda {} synkronoitu: {}"
+# 
+# #-#-#-#-#  biglinux-settings.pot (biglinux-settings)  #-#-#-#-#
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/preload_page.py, line: 284
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_usability_page.py, line: 334
+msgid "Indicator {} synchronized: {}"
+msgstr "Indikaattori {} synkronoitu: {}"
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 244
+msgid "Changing {} to {}"
+msgstr "Muutetaan {} {}:ksi"
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 271
+msgid "ERROR: Failed to change {} to {}"
+msgstr "VIRHE: Muutosta {} {} ei voitu suorittaa."
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 274
+msgid "Failed to change setting: {}"
+msgstr "Asetuksen muuttaminen epäonnistui: {}"
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_usability_page.py, line: 14
+msgid "User and Visual system settings."
+msgstr "Käyttäjä- ja visuaalijärjestelmäasetukset."
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 114
+msgid "NumLock"
+msgstr "NumLock"
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 115
+msgid "Initial NumLock state. Ignored if autologin is enabled."
+msgstr "Alkuperäinen NumLock-tila. Ohitetaan, jos automaattinen kirjautuminen on käytössä."
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 131
+msgid "Window Button On Left Side"
+msgstr "Ikkunapainike vasemmalla puolella"
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 132
+msgid "Maximize, minimize, and close buttons on the left side of the window."
+msgstr "Maksimoi, minimoi ja sulje painikkeet ikkunan vasemmalla puolella."
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_usability_page.py, line: 72
+msgid "KZones"
+msgstr "KZones"
+# 
+# #-#-#-#-#  biglinux-settings.pot (biglinux-settings)  #-#-#-#-#
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/ai_page.py, line: 32
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_usability_page.py, line: 50
+msgid "Script for the KWin window manager of the KDE Plasma desktop environment."
+msgstr "KWin-ikkunanhallinnan skripti KDE Plasma -työpöytäympäristölle."
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_usability_page.py, line: 169
+msgid "Recent Files & Locations"
+msgstr "Viimeisimmät tiedostot ja sijainnit"
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_usability_page.py, line: 170
+msgid ""
+"Restores the 'Recent Files' and 'Recent Locations' functionality that appears empty in Dolphin and "
+"the Application Menu."
+msgstr ""
+"Palauttaa 'Äskettäin käytetyt tiedostot' ja 'Äskettäin käytetyt sijainnit' -toiminnallisuuden, joka "
+"näkyy tyhjänä Dolphinissa ja Sovellusvalikossa."
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/usability_page.py, line: 57
+msgid "Bash Power"
+msgstr "Bash Teho"
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/usability_page.py, line: 58
+msgid "BigLinux terminal improvements and customizations."
+msgstr "BigLinux-terminaalin parannukset ja mukautukset."
 # 
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings/docker_page.py, line: 15
 msgid "Container service - enable to use containers below."
@@ -492,182 +836,6 @@ msgstr ""
 "ja  \n"
 "Osoite: http://{}:8502"
 # 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 244
-msgid "Changing {} to {}"
-msgstr "Muutetaan {} {}:ksi"
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 271
-msgid "ERROR: Failed to change {} to {}"
-msgstr "VIRHE: Muutosta {} {} ei voitu suorittaa."
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 274
-msgid "Failed to change setting: {}"
-msgstr "Asetuksen muuttaminen epäonnistui: {}"
-# 
-# #-#-#-#-#  biglinux-settings.pot (biglinux-settings)  #-#-#-#-#
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_usability_page.py, line: 206
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/preload_page.py, line: 165
-msgid "Unavailable: script not found."
-msgstr "Ei saatavilla: skriptiä ei löytynyt."
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 173
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 199
-msgid "Script not found: {}"
-msgstr "Skriptiä ei löytynyt: {}"
-# 
-# #-#-#-#-#  biglinux-settings.pot (biglinux-settings)  #-#-#-#-#
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_usability_page.py, line: 218
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/preload_page.py, line: 177
-msgid "Enabled"
-msgstr "Oma käytössä"
-# 
-# #-#-#-#-#  biglinux-settings.pot (biglinux-settings)  #-#-#-#-#
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_usability_page.py, line: 220
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/preload_page.py, line: 179
-msgid "Disabled"
-msgstr "Poistettu käytöstä"
-# 
-# #-#-#-#-#  biglinux-settings.pot (biglinux-settings)  #-#-#-#-#
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_usability_page.py, line: 223
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/preload_page.py, line: 182
-msgid "Enabled by system configuration (e.g., Real-Time Kernel) and cannot be changed here."
-msgstr "Oletettu järjestelmäasetusten (esim. Reaaliaikainen ydin) avulla, eikä sitä voida muuttaa täällä."
-# 
-# #-#-#-#-#  biglinux-settings.pot (biglinux-settings)  #-#-#-#-#
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_usability_page.py, line: 225
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/preload_page.py, line: 184
-msgid "Unavailable: script returned invalid output."
-msgstr "Ei saatavilla: skripti palautti virheellisen tuloksen."
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/base_page.py, line: 261
-msgid "output from script {}: {}"
-msgstr "skriptin tulos {}: {}"
-# 
-# #-#-#-#-#  biglinux-settings.pot (biglinux-settings)  #-#-#-#-#
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_usability_page.py, line: 229
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/preload_page.py, line: 188
-msgid "Unavailable: script returned an error."
-msgstr "Ei saatavilla: skripti palautti virheen."
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 184
-msgid "Error checking state: {}"
-msgstr "Virheen tarkistustila: {}"
-# 
-# #-#-#-#-#  biglinux-settings.pot (biglinux-settings)  #-#-#-#-#
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_usability_page.py, line: 233
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/preload_page.py, line: 192
-msgid "Unavailable: failed to run script."
-msgstr "Ei saatavilla: skriptin suorittaminen epäonnistui."
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 193
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 220
-msgid "Error running script {}: {}"
-msgstr "Virhe skriptin suorittamisessa {}: {}"
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 209
-msgid "State changed successfully"
-msgstr "Tila muutettu onnistuneesti"
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 211
-msgid "Script output: {}"
-msgstr "{}"
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 215
-msgid "Script failed with exit code: {}"
-msgstr "Skripti epäonnistui poistumiskoodilla: {}"
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 190
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 217
-msgid "Script timeout: {}"
-msgstr "Skripti aikakatkaisu: {}"
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 236
-msgid "Switch {} synchronized: {}"
-msgstr "Vaihda {} synkronoitu: {}"
-# 
-# #-#-#-#-#  biglinux-settings.pot (biglinux-settings)  #-#-#-#-#
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/preload_page.py, line: 284
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_usability_page.py, line: 334
-msgid "Indicator {} synchronized: {}"
-msgstr "Indikaattori {} synkronoitu: {}"
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 49
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 120
-msgid "BigLinux Settings"
-msgstr "BigLinux Asetukset"
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 135
-msgid "Categories"
-msgstr "Kategoriat"
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 144
-msgid "Search..."
-msgstr "Etsi..."
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/devices/keyboard_led_dialog.py, line: 249
-msgid "Settings"
-msgstr "Asetukset"
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 108
-msgid "System"
-msgstr "Järjestelmä"
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/devices/jamesdsp_dialog.py, line: 208
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/devices/jamesdsp_dialog.py, line: 208
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/devices/jamesdsp_dialog.py, line: 208
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/devices/jamesdsp_dialog.py, line: 208
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/devices/jamesdsp_dialog.py, line: 208
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/devices/jamesdsp_dialog.py, line: 208
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 107
-msgid "Usability"
-msgstr "Käytettävyys"
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 158
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 167
-msgid "PreLoad"
-msgstr "Esilataus"
-# 
-# #-#-#-#-#  biglinux-settings.pot (biglinux-settings)  #-#-#-#-#
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/dispositivos_page.py, line: 25
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 116
-msgid "Devices"
-msgstr "Laitteet"
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 161
-msgid "A.I."
-msgstr "A.I."
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/performance_games_page.py, line: 181
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/performance_games_page.py, line: 195
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/performance_games_page.py, line: 181
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/performance_games_page.py, line: 195
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/performance_games_page.py, line: 244
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/performance_games_page.py, line: 256
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/performance_games_page.py, line: 244
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/performance_games_page.py, line: 256
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/usability/gamemode_dialog.py, line: 204
-msgid "Performance"
-msgstr "Suorituskyky"
-# 
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_page.py, line: 26
 msgid "General system settings."
 msgstr "Yleiset järjestelmäasetukset."
@@ -708,46 +876,6 @@ msgstr "Automaattisesti liitetyt osiot"
 msgid "Auto mount partitions in internal disks on boot."
 msgstr "Automaattisesti liitä osiot sisäisillä levyillä käynnistyksen yhteydessä."
 # 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/preload_page.py, line: 103
-msgid "Preload"
-msgstr "Esilataus"
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/preload_page.py, line: 105
-msgid "Preload applications into memory to open them faster."
-msgstr "Esilataa sovelluksia muistiin avatakseen ne nopeammin."
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/preload_page.py, line: 120
-msgid "Firefox"
-msgstr "Firefox"
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/preload_page.py, line: 126
-msgid "Brave"
-msgstr "Brave"
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/preload_page.py, line: 132
-msgid "Chrome"
-msgstr "Chrome"
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/preload_page.py, line: 138
-msgid "Chromium"
-msgstr "Chromium"
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/preload_page.py, line: 126
-msgid "Librewolf"
-msgstr "Librewolf"
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/preload_page.py, line: 144
-msgid "Palemoon"
-msgstr "Palemoon"
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/preload_page.py, line: 150
-msgid "Opera"
-msgstr "Opera"
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/preload_page.py, line: 156
-msgid "Libreoffice"
-msgstr "LibreOffice"
-# 
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings/devices_page.py, line: 15
 msgid "Manage physical devices."
 msgstr "Hallitse fyysisiä laitteita."
@@ -786,71 +914,6 @@ msgstr "Käänteinen hiiren vieritys"
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings/devices_page.py, line: 72
 msgid "Reverse mouse scrolling without restarting the session."
 msgstr "Käänteinen hiiren vieritys ilman istunnon uudelleenkäynnistämistä."
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/performance_games_page.py, line: 16
-msgid "BigLinux performance tweaks."
-msgstr "BigLinux-suorituskyvyn säätöjä."
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/usability/gamemode_config_dialog.py, line: 91
-msgid "Disable Visual Effects"
-msgstr "Poista visuaaliset tehosteet käytöstä"
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/performance_games_page.py, line: 35
-msgid "Disables KWin visual effects (blur, shadows, animations). Reduces GPU load and frees memory."
-msgstr ""
-"Poistaa KWin-visuaaliset tehosteet (sumeus, varjot, animaatiot). Vähentää GPU-kuormitusta ja "
-"vapauttaa muistia."
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/performance_games_page.py, line: 63
-msgid "CPU Maximum Performance"
-msgstr "CPU:n maksimaalinen suorituskyky"
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/performance_games_page.py, line: 51
-msgid "Forces maximum processor performance mode. Ensures the processor uses maximum frequency."
-msgstr ""
-"Pakottaa prosessorin maksimisuorituskykytilaan. Varmistaa, että prosessori käyttää maksimi "
-"taajuutta."
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/performance_games_page.py, line: 79
-msgid "Disable Baloo Indexer"
-msgstr "Poista Baloo-indeksoija käytöstä"
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/performance_games_page.py, line: 67
-msgid "Disables the Baloo file indexer. Avoids disk I/O overhead."
-msgstr "Poistaa käytöstä Baloo-tiedostoindexerin. Vältetään levyn I/O-ylikuormitusta."
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/usability/gamemode_config_dialog.py, line: 136
-msgid "Unload S.M.A.R.T Monitor"
-msgstr "Purkaa S.M.A.R.T Monitor"
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/performance_games_page.py, line: 83
-msgid "Disables S.M.A.R.T disk monitoring. Reduces disk I/O and CPU usage."
-msgstr "Poistaa käytöstä S.M.A.R.T-levyn valvonnan. Vähentää levyn I/O:ta ja CPU:n käyttöä."
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_usability_page.py, line: 169
-msgid "Meltdown Mitigations off"
-msgstr "Meltdown-mitigoinnit pois päältä"
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_usability_page.py, line: 113
-#, python-brace-format
-msgid ""
-"Using mitigations=off will make your machine faster and less secure! For more information see: <a "
-"href='{l}'>{l}</a>"
-msgstr ""
-"Käyttämällä mitigations=off nopeutat konettasi, mutta se on vähemmän turvallinen! Lisätietoja saat "
-"osoitteesta: <a href='{l}'>{l}</a>"
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_usability_page.py, line: 176
-msgid "noWatchdog"
-msgstr "eiValvoja"
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_usability_page.py, line: 177
-msgid ""
-"Disables the hardware watchdog and TSC clocksource systems, maintaining high performance but "
-"removing automatic protections against system crashes."
-msgstr ""
-"Poistaa käytöstä laitteiston valvontakellon ja TSC-aikakellolähteet, säilyttäen korkean "
-"suorituskyvyn mutta poistaen automaattiset suojat järjestelmän kaatumisia vastaan."
 # 
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings/ai_page.py, line: 30
 msgid "AI Interfaces"
@@ -899,6 +962,14 @@ msgstr "LM Studio - Työpöytäsovellus suurten kielimallien tutkimiseen ja suor
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings/ai_page.py, line: 80
 msgid "An open source, privacy-focused alternative to Google's Notebook LM!"
 msgstr "Avoimen lähdekoodin, yksityisyyteen keskittyvä vaihtoehto Googlen Notebook LM:lle!"
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/ai_page.py, line: 88
+msgid ""
+"Official Hermes Agent desktop app from Nous Research — chat, voice, file browser, and settings UI "
+"for the local agent runtime."
+msgstr ""
+"Virallinen Hermes Agent -työpöytäsovellus Nous Researchilta — chat, ääni, tiedostoselain ja "
+"asetusten käyttöliittymä paikalliselle agentin ajonaikaiselle ympäristölle."
 # 
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings/ai_page.py, line: 87
 msgid "ComfyUI (GPU ONLY)"
@@ -1000,54 +1071,3 @@ msgid ""
 msgstr ""
 "Paikallinen AI-palvelin. Uudemmille AMD GPU:ille, alkaen 6000-sarjasta. Harkitse Vulkanin käyttöä, "
 "monissa testeissä Vulkan suoriutui paremmin kuin ROCm."
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_usability_page.py, line: 14
-msgid "User and Visual system settings."
-msgstr "Käyttäjä- ja visuaalijärjestelmäasetukset."
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 114
-msgid "NumLock"
-msgstr "NumLock"
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 115
-msgid "Initial NumLock state. Ignored if autologin is enabled."
-msgstr "Alkuperäinen NumLock-tila. Ohitetaan, jos automaattinen kirjautuminen on käytössä."
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 131
-msgid "Window Button On Left Side"
-msgstr "Ikkunapainike vasemmalla puolella"
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 132
-msgid "Maximize, minimize, and close buttons on the left side of the window."
-msgstr "Maksimoi, minimoi ja sulje painikkeet ikkunan vasemmalla puolella."
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_usability_page.py, line: 72
-msgid "KZones"
-msgstr "KZones"
-# 
-# #-#-#-#-#  biglinux-settings.pot (biglinux-settings)  #-#-#-#-#
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/ai_page.py, line: 32
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_usability_page.py, line: 50
-msgid "Script for the KWin window manager of the KDE Plasma desktop environment."
-msgstr "KWin-ikkunanhallinnan skripti KDE Plasma -työpöytäympäristölle."
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_usability_page.py, line: 169
-msgid "Recent Files & Locations"
-msgstr "Viimeisimmät tiedostot ja sijainnit"
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_usability_page.py, line: 170
-msgid ""
-"Restores the 'Recent Files' and 'Recent Locations' functionality that appears empty in Dolphin and "
-"the Application Menu."
-msgstr ""
-"Palauttaa 'Äskettäin käytetyt tiedostot' ja 'Äskettäin käytetyt sijainnit' -toiminnallisuuden, joka "
-"näkyy tyhjänä Dolphinissa ja Sovellusvalikossa."
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/usability_page.py, line: 57
-msgid "Bash Power"
-msgstr "Bash Teho"
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/usability_page.py, line: 58
-msgid "BigLinux terminal improvements and customizations."
-msgstr "BigLinux-terminaalin parannukset ja mukautukset."

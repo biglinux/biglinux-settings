@@ -14,14 +14,98 @@ msgstr ""
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "X-Generator: attranslate\n"
+msgid "Applying, please wait..."
+msgstr "Beiðni í gangi, vinsamlegast bíða..."
+msgid ""
+"GRUB updated successfully!\\n"
+"Restart your computer for it to take effect."
+msgstr ""
+"GRUB uppfært með góðum árangri!\\n"
+"Endurræstu tölvuna þína til að það taki gildi."
+msgid "An error occurred while updating GRUB."
+msgstr "Við uppfærslu á GRUB kom upp villa."
+msgid "Already enabled. No changes made."
+msgstr "Nú þegar virkt. Engar breytingar gerðar."
+msgid "Limits updated successfully!"
+msgstr "Takmarka uppfærð með góðum árangri!"
+msgid "An error occurred while updating Limits."
+msgstr "Villa kom uppsökt við að uppfæra takmarkanir."
+msgid "GRUB updated successfully!"
+msgstr "GRUB uppfært með góðum árangri!"
+msgid "Installing $package"
+msgstr "Installing $package"
+msgid "Installing $package, Please wait..."
+msgstr "Installing $package, Vinsamlegast bíða..."
+msgid "Removing $package"
+msgstr "Að fjarlægja $package"
+msgid "Removing $package, Please wait..."
+msgstr "Fjarlægja $package, Vinsamlegast bíða..."
+msgid ""
+"$title installed successfully!\\n"
+"\\n"
+"Configured on port $port, to access use $url"
+msgstr ""
+"$title varinnstallerast með góðum árangri!\\n"
+"\\n"
+"Stillt á porti $port, til að aðgangs nota $url"
+msgid "$package removed successfully!"
+msgstr "Pakkinn var fjarlægður með góðum árangri!"
+msgid "An error occurred with $package."
+msgstr "Villa kom upp með $package."
+msgid "Docker Install"
+msgstr "Docker Uppsetning"
+msgid "Installing Docker, Please wait..."
+msgstr "Installing Docker, Vinsamlegast bíða..."
+msgid "Docker Start"
+msgstr "Docker Byrjaðu"
+msgid "Docker Starting, Please wait..."
+msgstr "Docker er að byrja, vinsamlegast bíða..."
+msgid "Docker Stop"
+msgstr "Docker Stöðva"
+msgid "Docker Stopping, Please wait..."
+msgstr "Docker Stöðva, Vinsamlegast bíða..."
+msgid "Docker installed successfully!"
+msgstr "Docker var sett upp með góðum árangri!"
+msgid "An error occurred while installing docker."
+msgstr "Villa kom upp við uppsetningu á docker."
+msgid "Example Install"
+msgstr "Dæmi Uppsetning"
+msgid "Installing Example, Please wait..."
+msgstr "Installing Dæmi, Vinsamlegast bíða..."
+msgid "Example Uninstall"
+msgstr "Dæmi af afinstallering"
+msgid "Uninstalling Example, Please wait..."
+msgstr "Að afinstallera Dæmi, Vinsamlegast bíða..."
+msgid "Example installed successfully!"
+msgstr "Dæmi var sett upp með góðum árangri!"
+msgid "Failed to install Example!"
+msgstr "Ekki tókst að setja upp Dæmi!"
+msgid "JamesDSP Install"
+msgstr "JamesDSP Uppsetning"
+msgid "Installing JamesDSP, Please wait..."
+msgstr "Installing JamesDSP, Vinsamlegast bíða..."
+msgid "JamesDSP installed successfully!"
+msgstr "JamesDSP var sett upp með góðum árangri!"
+msgid "Failed to install jamesDSP!"
+msgstr "Ekki tókst að setja upp jamesDSP!"
 msgid "kzones Install"
 msgstr "kzones Uppsetning"
 msgid "Installing Kzones, Please wait..."
 msgstr "Installing Kzones, Vinsamlegast bíða..."
 msgid "Kzones installed successfully!"
 msgstr "Kzones var sett upp með góðum árangri!"
-msgid "Applying, please wait..."
-msgstr "Beiðni í gangi, vinsamlegast bíða..."
+msgid "Bash Power Install"
+msgstr "Bash Power Uppsetning"
+msgid "Installing Bash Power, Please wait..."
+msgstr "Installing Bash Power, Vinsamlegast bíða..."
+msgid "Bash Power Uninstall"
+msgstr "Bash Power Afinstallera"
+msgid "Uninstalling Bash Power, Please wait..."
+msgstr "Að afinstallera Bash Power, Vinsamlegast bíða..."
+msgid "Bash Power installed successfully!"
+msgstr "Bash Power var sett upp með góðum árangri!"
+msgid "Failed to install Bash Power!"
+msgstr "Mistók að setja upp Bash Power!"
 msgid "Recent Files enabling...."
 msgstr "Nýleg skjöl að virkja...."
 msgid "Recent Files enabling, Please wait..."
@@ -44,90 +128,24 @@ msgstr ""
 "Þú þarft að loka og opna Dolphin aftur til að breytingin taki gildi."
 msgid "Failed to enable Recent Files!"
 msgstr "Ekki tókst að virkja Nýleg skjöl!"
-msgid "Bash Power Install"
-msgstr "Bash Power Uppsetning"
-msgid "Installing Bash Power, Please wait..."
-msgstr "Installing Bash Power, Vinsamlegast bíða..."
-msgid "Bash Power Uninstall"
-msgstr "Bash Power Afinstallera"
-msgid "Uninstalling Bash Power, Please wait..."
-msgstr "Að afinstallera Bash Power, Vinsamlegast bíða..."
-msgid "Bash Power installed successfully!"
-msgstr "Bash Power var sett upp með góðum árangri!"
-msgid "Failed to install Bash Power!"
-msgstr "Mistók að setja upp Bash Power!"
-msgid "Example Install"
-msgstr "Dæmi Uppsetning"
-msgid "Installing Example, Please wait..."
-msgstr "Installing Dæmi, Vinsamlegast bíða..."
-msgid "Example Uninstall"
-msgstr "Dæmi af afinstallering"
-msgid "Uninstalling Example, Please wait..."
-msgstr "Að afinstallera Dæmi, Vinsamlegast bíða..."
-msgid "Example installed successfully!"
-msgstr "Dæmi var sett upp með góðum árangri!"
-msgid "Failed to install Example!"
-msgstr "Ekki tókst að setja upp Dæmi!"
-msgid "JamesDSP Install"
-msgstr "JamesDSP Uppsetning"
-msgid "Installing JamesDSP, Please wait..."
-msgstr "Installing JamesDSP, Vinsamlegast bíða..."
-msgid "JamesDSP installed successfully!"
-msgstr "JamesDSP var sett upp með góðum árangri!"
-msgid "Failed to install jamesDSP!"
-msgstr "Ekki tókst að setja upp jamesDSP!"
-msgid "Docker Install"
-msgstr "Docker Uppsetning"
-msgid "Installing Docker, Please wait..."
-msgstr "Installing Docker, Vinsamlegast bíða..."
-msgid "Docker Start"
-msgstr "Docker Byrjaðu"
-msgid "Docker Starting, Please wait..."
-msgstr "Docker er að byrja, vinsamlegast bíða..."
-msgid "Docker Stop"
-msgstr "Docker Stöðva"
-msgid "Docker Stopping, Please wait..."
-msgstr "Docker Stöðva, Vinsamlegast bíða..."
-msgid "Docker installed successfully!"
-msgstr "Docker var sett upp með góðum árangri!"
-msgid "An error occurred while installing docker."
-msgstr "Villa kom upp við uppsetningu á docker."
-msgid "Installing $package"
-msgstr "Installing $package"
-msgid "Installing $package, Please wait..."
-msgstr "Installing $package, Vinsamlegast bíða..."
-msgid "Removing $package"
-msgstr "Að fjarlægja $package"
-msgid "Removing $package, Please wait..."
-msgstr "Fjarlægja $package, Vinsamlegast bíða..."
 msgid ""
-"$title installed successfully!\\n"
-"\\n"
-"Configured on port $port, to access use $url"
+"Ollama server is running.\\n"
+"Address: http://localhost:11434"
 msgstr ""
-"$title varinnstallerast með góðum árangri!\\n"
-"\\n"
-"Stillt á porti $port, til að aðgangs nota $url"
-msgid "$package removed successfully!"
-msgstr "Pakkinn var fjarlægður með góðum árangri!"
-msgid "An error occurred with $package."
-msgstr "Villa kom upp með $package."
-msgid "GRUB updated successfully!"
-msgstr "GRUB uppfært með góðum árangri!"
-msgid "An error occurred while updating GRUB."
-msgstr "Við uppfærslu á GRUB kom upp villa."
-msgid "Limits updated successfully!"
-msgstr "Takmarka uppfærð með góðum árangri!"
-msgid "An error occurred while updating Limits."
-msgstr "Villa kom uppsökt við að uppfæra takmarkanir."
-msgid ""
-"GRUB updated successfully!\\n"
-"Restart your computer for it to take effect."
-msgstr ""
-"GRUB uppfært með góðum árangri!\\n"
-"Endurræstu tölvuna þína til að það taki gildi."
-msgid "Already enabled. No changes made."
-msgstr "Nú þegar virkt. Engar breytingar gerðar."
+"Ollama þjónninn er í gangi.\\n"
+"Heimilisfang: http://localhost:11434"
+msgid "Ollama ROCm Install"
+msgstr "Ollama ROCm Uppsetning"
+msgid "Installing Ollama ROCm, Please wait..."
+msgstr "Installing Ollama ROCm, Vinsamlegast bíða..."
+msgid "Ollama ROCm Uninstall"
+msgstr "Ollama ROCm Eyða út"
+msgid "Uninstalling Ollama ROCm, Please wait..."
+msgstr "Að afinstallera Ollama ROCm, Vinsamlegast bíða..."
+msgid "Ollama ROCm installed successfully!"
+msgstr "Ollama ROCm var sett upp með góðum árangri!"
+msgid "Failed to install Ollama ROCm!"
+msgstr "Mistók að setja upp Ollama ROCm!"
 msgid "Ollama Vulkan Install"
 msgstr "Ollama Vulkan Uppsetning"
 msgid "Installing Ollama, Please wait..."
@@ -140,6 +158,62 @@ msgid "Ollama Vulkan installed successfully!"
 msgstr "Ollama Vulkan var settur upp með árangri!"
 msgid "Failed to install Ollama Vulkan!"
 msgstr "Ekki tókst að setja upp Ollama Vulkan!"
+msgid "Ollama Install"
+msgstr "Ollama Uppsetning"
+msgid "Ollama Uninstall"
+msgstr "Ollama Eyða"
+msgid "Uninstalling Ollama, Please wait..."
+msgstr "Að afinstallera Ollama, Vinsamlegast bíða..."
+msgid "Ollama installed successfully!"
+msgstr "Ollama var sett upp með góðum árangri!"
+msgid "Failed to install Ollama!"
+msgstr "Ekki tókst að setja Ollama upp!"
+msgid "Ollama CUDA Install"
+msgstr "Ollama CUDA Uppsetning"
+msgid "Installing Ollama CUDA, Please wait..."
+msgstr "Installing Ollama CUDA, Vinsamlegast bíða..."
+msgid "Ollama CUDA Uninstall"
+msgstr "Ollama CUDA Eyða út"
+msgid "Uninstalling Ollama CUDA, Please wait..."
+msgstr "Að afinstallera Ollama CUDA, Vinsamlegast bíða..."
+msgid "Ollama CUDA installed successfully!"
+msgstr "Ollama CUDA var uppsett með góðum árangri!"
+msgid "Failed to install Ollama CUDA!"
+msgstr "Ekki tókst að setja upp Ollama CUDA!"
+msgid "Krita Install"
+msgstr "Krita Uppsetning"
+msgid "Installing Krita, Please wait..."
+msgstr "Installing Krita, Vinsamlegast bíða..."
+msgid "Krita Uninstall"
+msgstr "Krita afinstallera"
+msgid "Uninstalling Krita, Please wait..."
+msgstr "Að afinstallera Krita, Vinsamlegast bíða..."
+msgid "Krita installed successfully!"
+msgstr "Krita var sett upp með góðum árangri!"
+msgid "Failed to install Krita!"
+msgstr "Ekki tókst að setja upp Krita!"
+msgid "Hermes Agent Deskto Install"
+msgstr "Hermes Agent Desktop Install"
+msgid "Installing Hermes Agent Deskto, Please wait..."
+msgstr "Installing Hermes Agent Desktop, Please wait..."
+msgid "Hermes Agent Deskto Uninstall"
+msgstr "Hermes Agent Desktop Afinstallera"
+msgid "Uninstalling Hermes Agent Deskto, Please wait..."
+msgstr "Að afinstallera Hermes Agent Desktop, Vinsamlegast bíða..."
+msgid "Hermes Agent Deskto installed successfully!"
+msgstr "Hermes Agent Desktop hefur verið settur upp með góðum árangri!"
+msgid "Failed to install Hermes Agent Deskto!"
+msgstr "Ekki tókst að setja upp Hermes Agent Desktop!"
+msgid ""
+"Ollama shared successfully.\\n"
+"Address: http://$localIp:11434"
+msgstr ""
+"Ollama deilt velgengilega.\\n"
+"Heimilisfang: http://$localIp:11434"
+msgid "Failed to shared Ollama!"
+msgstr "Mistók að deila Ollama!"
+msgid "AMD/Nvidia GPU not found!"
+msgstr "AMD/Nvidia GPU fannst ekki!"
 msgid "ChatBox Install"
 msgstr "ChatBox Uppsetning"
 msgid "Installing ChatBox, Please wait..."
@@ -152,18 +226,6 @@ msgid "ChatBox installed successfully!"
 msgstr "ChatBox var sett upp með góðum árangri!"
 msgid "Failed to install ChatBox!"
 msgstr "Ekki tókst að setja upp ChatBox!"
-msgid "Ollama Lab Install"
-msgstr "Ollama Lab Uppsetning"
-msgid "Installing Ollama Lab, Please wait..."
-msgstr "Installing Ollama Lab, Vinsamlegast bíða..."
-msgid "Ollama Lab Uninstall"
-msgstr "Ollama Lab Eyða út"
-msgid "Uninstalling Ollama Lab, Please wait..."
-msgstr "Að afinstallera Ollama Lab, Vinsamlegast bíða..."
-msgid "Ollama Lab installed successfully!"
-msgstr "Ollama Lab var sett upp með góðum árangri!"
-msgid "Failed to install Ollama Lab!"
-msgstr "Ekki tókst að setja upp Ollama Lab!"
 msgid ""
 "Generative AI for Krita has been successfully installed.\\n"
 "\\n"
@@ -184,34 +246,38 @@ msgstr ""
 "smelltu á Setja upp."
 msgid "Generative AI for Krita has not been successfully installed."
 msgstr "Generatív AI fyrir Krita hefur ekki verið sett upp með góðum árangri."
-msgid ""
-"Ollama server is running.\\n"
-"Address: http://localhost:11434"
-msgstr ""
-"Ollama þjónninn er í gangi.\\n"
-"Heimilisfang: http://localhost:11434"
-msgid "Ollama Install"
-msgstr "Ollama Uppsetning"
-msgid "Ollama Uninstall"
-msgstr "Ollama Eyða"
-msgid "Uninstalling Ollama, Please wait..."
-msgstr "Að afinstallera Ollama, Vinsamlegast bíða..."
-msgid "Ollama installed successfully!"
-msgstr "Ollama var sett upp með góðum árangri!"
-msgid "Failed to install Ollama!"
-msgstr "Ekki tókst að setja Ollama upp!"
-msgid "Ollama ROCm Install"
-msgstr "Ollama ROCm Uppsetning"
-msgid "Installing Ollama ROCm, Please wait..."
-msgstr "Installing Ollama ROCm, Vinsamlegast bíða..."
-msgid "Ollama ROCm Uninstall"
-msgstr "Ollama ROCm Eyða út"
-msgid "Uninstalling Ollama ROCm, Please wait..."
-msgstr "Að afinstallera Ollama ROCm, Vinsamlegast bíða..."
-msgid "Ollama ROCm installed successfully!"
-msgstr "Ollama ROCm var sett upp með góðum árangri!"
-msgid "Failed to install Ollama ROCm!"
-msgstr "Mistók að setja upp Ollama ROCm!"
+msgid "LM Studio Install"
+msgstr "LM Studio Uppsetning"
+msgid "Installing LM Studio, Please wait..."
+msgstr "Installing LM Studio, Vinsamlegast bíða..."
+msgid "LM Studio Uninstall"
+msgstr "LM Studio Eyða"
+msgid "Uninstalling LM Studio, Please wait..."
+msgstr "Að afinstallera LM Studio, Vinsamlegast bíða..."
+msgid "LM Studio installed successfully!"
+msgstr "LM Studio var sett upp með góðum árangri!"
+msgid "Failed to install LM Studio!"
+msgstr "Ekki tókst að setja upp LM Studio!"
+msgid "comfyUI Depends Install"
+msgstr "comfyUI Ferðir Uppsetning"
+msgid "Installing comfyUI Depends, Please wait..."
+msgstr "Installing comfyUI ferðir, Vinsamlegast bíða..."
+msgid "comfyUI Depends installed successfully!"
+msgstr "comfyUI háðingar uppsett með góðum árangri!"
+msgid "Failed to install comfyUI Depends!"
+msgstr "Ekki tókst að setja upp comfyUI. Háð!"
+msgid "Ollama Lab Install"
+msgstr "Ollama Lab Uppsetning"
+msgid "Installing Ollama Lab, Please wait..."
+msgstr "Installing Ollama Lab, Vinsamlegast bíða..."
+msgid "Ollama Lab Uninstall"
+msgstr "Ollama Lab Eyða út"
+msgid "Uninstalling Ollama Lab, Please wait..."
+msgstr "Að afinstallera Ollama Lab, Vinsamlegast bíða..."
+msgid "Ollama Lab installed successfully!"
+msgstr "Ollama Lab var sett upp með góðum árangri!"
+msgid "Failed to install Ollama Lab!"
+msgstr "Ekki tókst að setja upp Ollama Lab!"
 msgid "comfyUI Install...."
 msgstr "comfyUI Uppsetning...."
 msgid "Installing comfyUI, this step take a long time, Please wait..."
@@ -226,64 +292,333 @@ msgid "comfyUI uninstalled successfully"
 msgstr "comfyUI var afinstallert með góðum árangri"
 msgid "Failed to install comfyUI!"
 msgstr "Ekki tókst að setja upp comfyUI!"
-msgid "AMD/Nvidia GPU not found!"
-msgstr "AMD/Nvidia GPU fannst ekki!"
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/performance_games_page.py, line: 181
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/performance_games_page.py, line: 195
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/performance_games_page.py, line: 181
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/performance_games_page.py, line: 195
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/performance_games_page.py, line: 244
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/performance_games_page.py, line: 256
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/usability/gamemode_dialog.py, line: 204
+msgid "Performance"
+msgstr "Frammistað."
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/performance_games_page.py, line: 16
+msgid "BigLinux performance tweaks."
+msgstr "BigLinux frammistöðubreytingar."
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/usability/gamemode_config_dialog.py, line: 91
+msgid "Disable Visual Effects"
+msgstr "Aftengja sjónræna áhrif"
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/performance_games_page.py, line: 35
+msgid "Disables KWin visual effects (blur, shadows, animations). Reduces GPU load and frees memory."
+msgstr "Veldur KWin sjónræn áhrif (óskýr, skuggar, hreyfingar). Minnkar GPU álag og losar minni."
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/performance_games_page.py, line: 63
+msgid "CPU Maximum Performance"
+msgstr "CPU hámarksframmistaða"
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/performance_games_page.py, line: 51
+msgid "Forces maximum processor performance mode. Ensures the processor uses maximum frequency."
+msgstr "Þvingar hámarksafköst örgjörva. Tryggir að örgjörvinn noti hámarks tíðni."
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/performance_games_page.py, line: 79
+msgid "Disable Baloo Indexer"
+msgstr "Aftengreina Baloo Indexer"
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/performance_games_page.py, line: 67
+msgid "Disables the Baloo file indexer. Avoids disk I/O overhead."
+msgstr "Veitir Baloo skráningara. Forðast disk I/O yfirhöfuð."
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/usability/gamemode_config_dialog.py, line: 136
+msgid "Unload S.M.A.R.T Monitor"
+msgstr "Afretta S.M.A.R.T Vöktun"
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/performance_games_page.py, line: 83
+msgid "Disables S.M.A.R.T disk monitoring. Reduces disk I/O and CPU usage."
+msgstr "Veitir S.M.A.R.T disk eftirlit. Minnkar disk I/O og CPU notkun."
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_usability_page.py, line: 169
+msgid "Meltdown Mitigations off"
+msgstr "Meltdown Mitigations slökkt"
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_usability_page.py, line: 113
+#, python-brace-format
 msgid ""
-"Ollama shared successfully.\\n"
-"Address: http://$localIp:11434"
+"Using mitigations=off will make your machine faster and less secure! For more information see: <a "
+"href='{l}'>{l}</a>"
 msgstr ""
-"Ollama deilt velgengilega.\\n"
-"Heimilisfang: http://$localIp:11434"
-msgid "Failed to shared Ollama!"
-msgstr "Mistók að deila Ollama!"
-msgid "Ollama CUDA Install"
-msgstr "Ollama CUDA Uppsetning"
-msgid "Installing Ollama CUDA, Please wait..."
-msgstr "Installing Ollama CUDA, Vinsamlegast bíða..."
-msgid "Ollama CUDA Uninstall"
-msgstr "Ollama CUDA Eyða út"
-msgid "Uninstalling Ollama CUDA, Please wait..."
-msgstr "Að afinstallera Ollama CUDA, Vinsamlegast bíða..."
-msgid "Ollama CUDA installed successfully!"
-msgstr "Ollama CUDA var uppsett með góðum árangri!"
-msgid "Failed to install Ollama CUDA!"
-msgstr "Ekki tókst að setja upp Ollama CUDA!"
-msgid "LM Studio Install"
-msgstr "LM Studio Uppsetning"
-msgid "Installing LM Studio, Please wait..."
-msgstr "Installing LM Studio, Vinsamlegast bíða..."
-msgid "LM Studio Uninstall"
-msgstr "LM Studio Eyða"
-msgid "Uninstalling LM Studio, Please wait..."
-msgstr "Að afinstallera LM Studio, Vinsamlegast bíða..."
-msgid "LM Studio installed successfully!"
-msgstr "LM Studio var sett upp með góðum árangri!"
-msgid "Failed to install LM Studio!"
-msgstr "Ekki tókst að setja upp LM Studio!"
-msgid "Krita Install"
-msgstr "Krita Uppsetning"
-msgid "Installing Krita, Please wait..."
-msgstr "Installing Krita, Vinsamlegast bíða..."
-msgid "Krita Uninstall"
-msgstr "Krita afinstallera"
-msgid "Uninstalling Krita, Please wait..."
-msgstr "Að afinstallera Krita, Vinsamlegast bíða..."
-msgid "Krita installed successfully!"
-msgstr "Krita var sett upp með góðum árangri!"
-msgid "Failed to install Krita!"
-msgstr "Ekki tókst að setja upp Krita!"
-msgid "comfyUI Depends Install"
-msgstr "comfyUI Ferðir Uppsetning"
-msgid "Installing comfyUI Depends, Please wait..."
-msgstr "Installing comfyUI ferðir, Vinsamlegast bíða..."
-msgid "comfyUI Depends installed successfully!"
-msgstr "comfyUI háðingar uppsett með góðum árangri!"
-msgid "Failed to install comfyUI Depends!"
-msgstr "Ekki tókst að setja upp comfyUI. Háð!"
+"Að nota mitigations=off mun gera vélina þína hraðari en minna örugga! Fyrir frekari upplýsingar, "
+"sjáðu: <a href='{l}'>{l}</a>"
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_usability_page.py, line: 176
+msgid "noWatchdog"
+msgstr "ekkiVöktun"
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_usability_page.py, line: 177
+msgid ""
+"Disables the hardware watchdog and TSC clocksource systems, maintaining high performance but "
+"removing automatic protections against system crashes."
+msgstr ""
+"Veitir harðvaru vöktunina og TSC klukkuheimildir, viðhalda háum frammistöðu en fjarlægja "
+"sjálfvirkar verndaraðgerðir gegn kerfisfalli."
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 49
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 120
+msgid "BigLinux Settings"
+msgstr "BigLinux Stillingar"
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 135
+msgid "Categories"
+msgstr "Flokkar"
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 144
+msgid "Search..."
+msgstr "Leita..."
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/devices/keyboard_led_dialog.py, line: 249
+msgid "Settings"
+msgstr "Stillingar"
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 108
+msgid "System"
+msgstr "Kerfi"
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/devices/jamesdsp_dialog.py, line: 208
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/devices/jamesdsp_dialog.py, line: 208
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/devices/jamesdsp_dialog.py, line: 208
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/devices/jamesdsp_dialog.py, line: 208
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/devices/jamesdsp_dialog.py, line: 208
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/devices/jamesdsp_dialog.py, line: 208
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 107
+msgid "Usability"
+msgstr "Notkunarhæfi"
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 158
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 167
+msgid "PreLoad"
+msgstr "PreLoad"
+# 
+# #-#-#-#-#  biglinux-settings.pot (biglinux-settings)  #-#-#-#-#
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/dispositivos_page.py, line: 25
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 116
+msgid "Devices"
+msgstr "Tæki"
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 161
+msgid "A.I."
+msgstr "Gervi."
 # 
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_usability_page.py, line: 204
 msgid "Docker"
 msgstr "Docker"
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/preload_page.py, line: 103
+msgid "Preload"
+msgstr "Forskráning"
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/preload_page.py, line: 105
+msgid "Preload applications into memory to open them faster."
+msgstr "Hlaða forritum í minni til að opna þau hraðar."
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/preload_page.py, line: 120
+msgid "Firefox"
+msgstr "Firefox"
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/preload_page.py, line: 126
+msgid "Brave"
+msgstr "Hugrakkur"
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/preload_page.py, line: 132
+msgid "Chrome"
+msgstr "Krom"
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/preload_page.py, line: 138
+msgid "Chromium"
+msgstr "Krómium"
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/preload_page.py, line: 126
+msgid "Librewolf"
+msgstr "Librewolf"
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/preload_page.py, line: 144
+msgid "Palemoon"
+msgstr "Palemoon"
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/preload_page.py, line: 150
+msgid "Opera"
+msgstr "Ópera"
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/preload_page.py, line: 156
+msgid "Libreoffice"
+msgstr "LibreOffice"
+# 
+# #-#-#-#-#  biglinux-settings.pot (biglinux-settings)  #-#-#-#-#
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_usability_page.py, line: 206
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/preload_page.py, line: 165
+msgid "Unavailable: script not found."
+msgstr "Ófært: skrift fannst ekki."
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 173
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 199
+msgid "Script not found: {}"
+msgstr "Skrá fannst ekki: {}"
+# 
+# #-#-#-#-#  biglinux-settings.pot (biglinux-settings)  #-#-#-#-#
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_usability_page.py, line: 218
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/preload_page.py, line: 177
+msgid "Enabled"
+msgstr "Virkjað"
+# 
+# #-#-#-#-#  biglinux-settings.pot (biglinux-settings)  #-#-#-#-#
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_usability_page.py, line: 220
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/preload_page.py, line: 179
+msgid "Disabled"
+msgstr "Óttengt"
+# 
+# #-#-#-#-#  biglinux-settings.pot (biglinux-settings)  #-#-#-#-#
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_usability_page.py, line: 223
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/preload_page.py, line: 182
+msgid "Enabled by system configuration (e.g., Real-Time Kernel) and cannot be changed here."
+msgstr "Virkjað af kerfisskipan (t.d. Rauntíma kjarni) og ekki hægt að breyta hér."
+# 
+# #-#-#-#-#  biglinux-settings.pot (biglinux-settings)  #-#-#-#-#
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_usability_page.py, line: 225
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/preload_page.py, line: 184
+msgid "Unavailable: script returned invalid output."
+msgstr "Ófært: skriftin skilaði ógildum úttaki."
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/base_page.py, line: 261
+msgid "output from script {}: {}"
+msgstr "úttak frá skrift {}: {}"
+# 
+# #-#-#-#-#  biglinux-settings.pot (biglinux-settings)  #-#-#-#-#
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_usability_page.py, line: 229
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/preload_page.py, line: 188
+msgid "Unavailable: script returned an error."
+msgstr "Ófært: skriftin skilaði villu."
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 184
+msgid "Error checking state: {}"
+msgstr "Villa að athuga stöðu: {}"
+# 
+# #-#-#-#-#  biglinux-settings.pot (biglinux-settings)  #-#-#-#-#
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_usability_page.py, line: 233
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/preload_page.py, line: 192
+msgid "Unavailable: failed to run script."
+msgstr "Ófært: mistókst að keyra skriftu."
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 193
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 220
+msgid "Error running script {}: {}"
+msgstr "Villa við að keyra skrift {}: {}"
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 209
+msgid "State changed successfully"
+msgstr "Ástandi breytt með góðum árangri"
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 211
+msgid "Script output: {}"
+msgstr "{}"
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 215
+msgid "Script failed with exit code: {}"
+msgstr "Skráning mistókst með útgöngukóða: {}"
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 190
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 217
+msgid "Script timeout: {}"
+msgstr "Skrá tímamörk: {}"
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 236
+msgid "Switch {} synchronized: {}"
+msgstr "Switch {} samstillt: {}"
+# 
+# #-#-#-#-#  biglinux-settings.pot (biglinux-settings)  #-#-#-#-#
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/preload_page.py, line: 284
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_usability_page.py, line: 334
+msgid "Indicator {} synchronized: {}"
+msgstr "Vísir {} samstilltur: {}"
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 244
+msgid "Changing {} to {}"
+msgstr "Breyta {} í {}"
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 271
+msgid "ERROR: Failed to change {} to {}"
+msgstr "ERROR: Mistók að breyta {} í {}"
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 274
+msgid "Failed to change setting: {}"
+msgstr "Mistók að breyta stillingu: {}"
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_usability_page.py, line: 14
+msgid "User and Visual system settings."
+msgstr "Notandi og sjónkerfisstillingar."
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 114
+msgid "NumLock"
+msgstr "Tölvulásar"
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 115
+msgid "Initial NumLock state. Ignored if autologin is enabled."
+msgstr "Upprunalegt NumLock ástand. Hunsað ef sjálfvirk innskráning er virkjuð."
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 131
+msgid "Window Button On Left Side"
+msgstr "Gluggi hnappur vinstra megin"
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 132
+msgid "Maximize, minimize, and close buttons on the left side of the window."
+msgstr "Maksimera, lágmarka og loka hnappana vinstra megin í glugganum."
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_usability_page.py, line: 72
+msgid "KZones"
+msgstr "KZones"
+# 
+# #-#-#-#-#  biglinux-settings.pot (biglinux-settings)  #-#-#-#-#
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/ai_page.py, line: 32
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_usability_page.py, line: 50
+msgid "Script for the KWin window manager of the KDE Plasma desktop environment."
+msgstr "Skrá fyrir KWin gluggastjóra KDE Plasma skrifborðsumhverfisins."
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_usability_page.py, line: 169
+msgid "Recent Files & Locations"
+msgstr "Nýleg skjöl og staðsetningar"
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_usability_page.py, line: 170
+msgid ""
+"Restores the 'Recent Files' and 'Recent Locations' functionality that appears empty in Dolphin and "
+"the Application Menu."
+msgstr "Endurðar virkni 'Nýleg skjöl' og 'Nýleg staðsetningar' sem virðist tóm í Dolphin og forritaskránni."
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/usability_page.py, line: 57
+msgid "Bash Power"
+msgstr "Bash Kraft"
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/usability_page.py, line: 58
+msgid "BigLinux terminal improvements and customizations."
+msgstr "Stórunarbætur og sérsnið á BigLinux terminal."
 # 
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings/docker_page.py, line: 15
 msgid "Container service - enable to use containers below."
@@ -492,179 +827,6 @@ msgstr ""
 "og  \n"
 "Heimilisfang: http://{}:8502"
 # 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 244
-msgid "Changing {} to {}"
-msgstr "Breyta {} í {}"
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 271
-msgid "ERROR: Failed to change {} to {}"
-msgstr "ERROR: Mistók að breyta {} í {}"
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 274
-msgid "Failed to change setting: {}"
-msgstr "Mistók að breyta stillingu: {}"
-# 
-# #-#-#-#-#  biglinux-settings.pot (biglinux-settings)  #-#-#-#-#
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_usability_page.py, line: 206
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/preload_page.py, line: 165
-msgid "Unavailable: script not found."
-msgstr "Ófært: skrift fannst ekki."
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 173
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 199
-msgid "Script not found: {}"
-msgstr "Skrá fannst ekki: {}"
-# 
-# #-#-#-#-#  biglinux-settings.pot (biglinux-settings)  #-#-#-#-#
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_usability_page.py, line: 218
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/preload_page.py, line: 177
-msgid "Enabled"
-msgstr "Virkjað"
-# 
-# #-#-#-#-#  biglinux-settings.pot (biglinux-settings)  #-#-#-#-#
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_usability_page.py, line: 220
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/preload_page.py, line: 179
-msgid "Disabled"
-msgstr "Óttengt"
-# 
-# #-#-#-#-#  biglinux-settings.pot (biglinux-settings)  #-#-#-#-#
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_usability_page.py, line: 223
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/preload_page.py, line: 182
-msgid "Enabled by system configuration (e.g., Real-Time Kernel) and cannot be changed here."
-msgstr "Virkjað af kerfisskipan (t.d. Rauntíma kjarni) og ekki hægt að breyta hér."
-# 
-# #-#-#-#-#  biglinux-settings.pot (biglinux-settings)  #-#-#-#-#
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_usability_page.py, line: 225
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/preload_page.py, line: 184
-msgid "Unavailable: script returned invalid output."
-msgstr "Ófært: skriftin skilaði ógildum úttaki."
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/base_page.py, line: 261
-msgid "output from script {}: {}"
-msgstr "úttak frá skrift {}: {}"
-# 
-# #-#-#-#-#  biglinux-settings.pot (biglinux-settings)  #-#-#-#-#
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_usability_page.py, line: 229
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/preload_page.py, line: 188
-msgid "Unavailable: script returned an error."
-msgstr "Ófært: skriftin skilaði villu."
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 184
-msgid "Error checking state: {}"
-msgstr "Villa að athuga stöðu: {}"
-# 
-# #-#-#-#-#  biglinux-settings.pot (biglinux-settings)  #-#-#-#-#
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_usability_page.py, line: 233
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/preload_page.py, line: 192
-msgid "Unavailable: failed to run script."
-msgstr "Ófært: mistókst að keyra skriftu."
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 193
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 220
-msgid "Error running script {}: {}"
-msgstr "Villa við að keyra skrift {}: {}"
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 209
-msgid "State changed successfully"
-msgstr "Ástandi breytt með góðum árangri"
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 211
-msgid "Script output: {}"
-msgstr "{}"
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 215
-msgid "Script failed with exit code: {}"
-msgstr "Skráning mistókst með útgöngukóða: {}"
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 190
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 217
-msgid "Script timeout: {}"
-msgstr "Skrá tímamörk: {}"
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 236
-msgid "Switch {} synchronized: {}"
-msgstr "Switch {} samstillt: {}"
-# 
-# #-#-#-#-#  biglinux-settings.pot (biglinux-settings)  #-#-#-#-#
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/preload_page.py, line: 284
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_usability_page.py, line: 334
-msgid "Indicator {} synchronized: {}"
-msgstr "Vísir {} samstilltur: {}"
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 49
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 120
-msgid "BigLinux Settings"
-msgstr "BigLinux Stillingar"
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 135
-msgid "Categories"
-msgstr "Flokkar"
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 144
-msgid "Search..."
-msgstr "Leita..."
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/devices/keyboard_led_dialog.py, line: 249
-msgid "Settings"
-msgstr "Stillingar"
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 108
-msgid "System"
-msgstr "Kerfi"
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/devices/jamesdsp_dialog.py, line: 208
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/devices/jamesdsp_dialog.py, line: 208
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/devices/jamesdsp_dialog.py, line: 208
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/devices/jamesdsp_dialog.py, line: 208
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/devices/jamesdsp_dialog.py, line: 208
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/devices/jamesdsp_dialog.py, line: 208
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 107
-msgid "Usability"
-msgstr "Notkunarhæfi"
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 158
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 167
-msgid "PreLoad"
-msgstr "PreLoad"
-# 
-# #-#-#-#-#  biglinux-settings.pot (biglinux-settings)  #-#-#-#-#
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/dispositivos_page.py, line: 25
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 116
-msgid "Devices"
-msgstr "Tæki"
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 161
-msgid "A.I."
-msgstr "Gervi."
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/performance_games_page.py, line: 181
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/performance_games_page.py, line: 195
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/performance_games_page.py, line: 181
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/performance_games_page.py, line: 195
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/performance_games_page.py, line: 244
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/performance_games_page.py, line: 256
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/usability/gamemode_dialog.py, line: 204
-msgid "Performance"
-msgstr "Frammistað."
-# 
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_page.py, line: 26
 msgid "General system settings."
 msgstr "Almennar kerfisskilyrði."
@@ -705,46 +867,6 @@ msgstr "Sjálfvirk uppsetning skiptiskipta"
 msgid "Auto mount partitions in internal disks on boot."
 msgstr "Sjálfvirk uppsetning á skiptum í innri diskum við ræsingu."
 # 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/preload_page.py, line: 103
-msgid "Preload"
-msgstr "Forskráning"
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/preload_page.py, line: 105
-msgid "Preload applications into memory to open them faster."
-msgstr "Hlaða forritum í minni til að opna þau hraðar."
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/preload_page.py, line: 120
-msgid "Firefox"
-msgstr "Firefox"
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/preload_page.py, line: 126
-msgid "Brave"
-msgstr "Hugrakkur"
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/preload_page.py, line: 132
-msgid "Chrome"
-msgstr "Krom"
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/preload_page.py, line: 138
-msgid "Chromium"
-msgstr "Krómium"
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/preload_page.py, line: 126
-msgid "Librewolf"
-msgstr "Librewolf"
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/preload_page.py, line: 144
-msgid "Palemoon"
-msgstr "Palemoon"
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/preload_page.py, line: 150
-msgid "Opera"
-msgstr "Ópera"
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/preload_page.py, line: 156
-msgid "Libreoffice"
-msgstr "LibreOffice"
-# 
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings/devices_page.py, line: 15
 msgid "Manage physical devices."
 msgstr "Stjórna líkamlegum tækjum."
@@ -783,67 +905,6 @@ msgstr "Aftursnúning músar skrollunar"
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings/devices_page.py, line: 72
 msgid "Reverse mouse scrolling without restarting the session."
 msgstr "Afturhenda músaskrollun án þess að endurræsa sessjónina."
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/performance_games_page.py, line: 16
-msgid "BigLinux performance tweaks."
-msgstr "BigLinux frammistöðubreytingar."
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/usability/gamemode_config_dialog.py, line: 91
-msgid "Disable Visual Effects"
-msgstr "Aftengja sjónræna áhrif"
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/performance_games_page.py, line: 35
-msgid "Disables KWin visual effects (blur, shadows, animations). Reduces GPU load and frees memory."
-msgstr "Veldur KWin sjónræn áhrif (óskýr, skuggar, hreyfingar). Minnkar GPU álag og losar minni."
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/performance_games_page.py, line: 63
-msgid "CPU Maximum Performance"
-msgstr "CPU hámarksframmistaða"
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/performance_games_page.py, line: 51
-msgid "Forces maximum processor performance mode. Ensures the processor uses maximum frequency."
-msgstr "Þvingar hámarksafköst örgjörva. Tryggir að örgjörvinn noti hámarks tíðni."
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/performance_games_page.py, line: 79
-msgid "Disable Baloo Indexer"
-msgstr "Aftengreina Baloo Indexer"
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/performance_games_page.py, line: 67
-msgid "Disables the Baloo file indexer. Avoids disk I/O overhead."
-msgstr "Veitir Baloo skráningara. Forðast disk I/O yfirhöfuð."
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/usability/gamemode_config_dialog.py, line: 136
-msgid "Unload S.M.A.R.T Monitor"
-msgstr "Afretta S.M.A.R.T Vöktun"
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/performance_games_page.py, line: 83
-msgid "Disables S.M.A.R.T disk monitoring. Reduces disk I/O and CPU usage."
-msgstr "Veitir S.M.A.R.T disk eftirlit. Minnkar disk I/O og CPU notkun."
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_usability_page.py, line: 169
-msgid "Meltdown Mitigations off"
-msgstr "Meltdown Mitigations slökkt"
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_usability_page.py, line: 113
-#, python-brace-format
-msgid ""
-"Using mitigations=off will make your machine faster and less secure! For more information see: <a "
-"href='{l}'>{l}</a>"
-msgstr ""
-"Að nota mitigations=off mun gera vélina þína hraðari en minna örugga! Fyrir frekari upplýsingar, "
-"sjáðu: <a href='{l}'>{l}</a>"
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_usability_page.py, line: 176
-msgid "noWatchdog"
-msgstr "ekkiVöktun"
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_usability_page.py, line: 177
-msgid ""
-"Disables the hardware watchdog and TSC clocksource systems, maintaining high performance but "
-"removing automatic protections against system crashes."
-msgstr ""
-"Veitir harðvaru vöktunina og TSC klukkuheimildir, viðhalda háum frammistöðu en fjarlægja "
-"sjálfvirkar verndaraðgerðir gegn kerfisfalli."
 # 
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings/ai_page.py, line: 30
 msgid "AI Interfaces"
@@ -892,6 +953,14 @@ msgstr "LM Studio - Forrit á skrifborðinu til að kanna og keyra stór tungum�
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings/ai_page.py, line: 80
 msgid "An open source, privacy-focused alternative to Google's Notebook LM!"
 msgstr "Opinnur, persónuverndarsinnuð valkostur við Google’s Notebook LM!"
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/ai_page.py, line: 88
+msgid ""
+"Official Hermes Agent desktop app from Nous Research — chat, voice, file browser, and settings UI "
+"for the local agent runtime."
+msgstr ""
+"Opinber Hermes Agent skrifborðsforrit frá Nous Research - spjall, radd, skjalavafningur og "
+"stillingar notendaviðmót fyrir staðbundna agent keyrslu."
 # 
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings/ai_page.py, line: 87
 msgid "ComfyUI (GPU ONLY)"
@@ -993,52 +1062,3 @@ msgid ""
 msgstr ""
 "Staðbundin AI þjónusta. Fyrir nýrri AMD GPU, frá 6000 seríu. Íhugaðu að nota Vulkan, í mörgum "
 "prófunum kom Vulkan betur út en ROCm."
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_usability_page.py, line: 14
-msgid "User and Visual system settings."
-msgstr "Notandi og sjónkerfisstillingar."
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 114
-msgid "NumLock"
-msgstr "Tölvulásar"
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 115
-msgid "Initial NumLock state. Ignored if autologin is enabled."
-msgstr "Upprunalegt NumLock ástand. Hunsað ef sjálfvirk innskráning er virkjuð."
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 131
-msgid "Window Button On Left Side"
-msgstr "Gluggi hnappur vinstra megin"
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 132
-msgid "Maximize, minimize, and close buttons on the left side of the window."
-msgstr "Maksimera, lágmarka og loka hnappana vinstra megin í glugganum."
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_usability_page.py, line: 72
-msgid "KZones"
-msgstr "KZones"
-# 
-# #-#-#-#-#  biglinux-settings.pot (biglinux-settings)  #-#-#-#-#
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/ai_page.py, line: 32
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_usability_page.py, line: 50
-msgid "Script for the KWin window manager of the KDE Plasma desktop environment."
-msgstr "Skrá fyrir KWin gluggastjóra KDE Plasma skrifborðsumhverfisins."
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_usability_page.py, line: 169
-msgid "Recent Files & Locations"
-msgstr "Nýleg skjöl og staðsetningar"
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_usability_page.py, line: 170
-msgid ""
-"Restores the 'Recent Files' and 'Recent Locations' functionality that appears empty in Dolphin and "
-"the Application Menu."
-msgstr "Endurðar virkni 'Nýleg skjöl' og 'Nýleg staðsetningar' sem virðist tóm í Dolphin og forritaskránni."
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/usability_page.py, line: 57
-msgid "Bash Power"
-msgstr "Bash Kraft"
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/usability_page.py, line: 58
-msgid "BigLinux terminal improvements and customizations."
-msgstr "Stórunarbætur og sérsnið á BigLinux terminal."

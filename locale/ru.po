@@ -14,14 +14,98 @@ msgstr ""
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "X-Generator: attranslate\n"
+msgid "Applying, please wait..."
+msgstr "Применение, пожалуйста, подождите..."
+msgid ""
+"GRUB updated successfully!\\n"
+"Restart your computer for it to take effect."
+msgstr ""
+"GRUB успешно обновлён!\\n"
+"Перезагрузите компьютер, чтобы изменения вступили в силу."
+msgid "An error occurred while updating GRUB."
+msgstr "Произошла ошибка при обновлении GRUB."
+msgid "Already enabled. No changes made."
+msgstr "Уже включено. Изменения не внесены."
+msgid "Limits updated successfully!"
+msgstr "Ограничения успешно обновлены!"
+msgid "An error occurred while updating Limits."
+msgstr "Произошла ошибка при обновлении лимитов."
+msgid "GRUB updated successfully!"
+msgstr "GRUB успешно обновлён!"
+msgid "Installing $package"
+msgstr "Установка $package"
+msgid "Installing $package, Please wait..."
+msgstr "Установка $package, Пожалуйста, подождите..."
+msgid "Removing $package"
+msgstr "Удаление $package"
+msgid "Removing $package, Please wait..."
+msgstr "Удаление $package, Пожалуйста, подождите..."
+msgid ""
+"$title installed successfully!\\n"
+"\\n"
+"Configured on port $port, to access use $url"
+msgstr ""
+"$title успешно установлен!\\n"
+"\\n"
+"Настроен на порту $port, для доступа используйте $url"
+msgid "$package removed successfully!"
+msgstr "Пакет успешно удалён!"
+msgid "An error occurred with $package."
+msgstr "Произошла ошибка с $package."
+msgid "Docker Install"
+msgstr "Установка Docker"
+msgid "Installing Docker, Please wait..."
+msgstr "Установка Docker, Пожалуйста, подождите..."
+msgid "Docker Start"
+msgstr "Запуск Docker"
+msgid "Docker Starting, Please wait..."
+msgstr "Запуск Docker, Пожалуйста, подождите..."
+msgid "Docker Stop"
+msgstr "Остановить Docker"
+msgid "Docker Stopping, Please wait..."
+msgstr "Остановка Docker, пожалуйста, подождите..."
+msgid "Docker installed successfully!"
+msgstr "Docker успешно установлен!"
+msgid "An error occurred while installing docker."
+msgstr "При установке docker произошла ошибка."
+msgid "Example Install"
+msgstr "Пример установки"
+msgid "Installing Example, Please wait..."
+msgstr "Установка примера, пожалуйста, подождите..."
+msgid "Example Uninstall"
+msgstr "Пример удаления"
+msgid "Uninstalling Example, Please wait..."
+msgstr "Удаление Примера, Пожалуйста, подождите..."
+msgid "Example installed successfully!"
+msgstr "Пример успешно установлен!"
+msgid "Failed to install Example!"
+msgstr "Не удалось установить Пример!"
+msgid "JamesDSP Install"
+msgstr "Установка JamesDSP"
+msgid "Installing JamesDSP, Please wait..."
+msgstr "Установка JamesDSP, Пожалуйста, подождите..."
+msgid "JamesDSP installed successfully!"
+msgstr "JamesDSP успешно установлен!"
+msgid "Failed to install jamesDSP!"
+msgstr "Не удалось установить jamesDSP!"
 msgid "kzones Install"
 msgstr "Установка kzones"
 msgid "Installing Kzones, Please wait..."
 msgstr "Установка Kzones, Пожалуйста, подождите..."
 msgid "Kzones installed successfully!"
 msgstr "Kzones успешно установлены!"
-msgid "Applying, please wait..."
-msgstr "Применение, пожалуйста, подождите..."
+msgid "Bash Power Install"
+msgstr "Установка Bash Power"
+msgid "Installing Bash Power, Please wait..."
+msgstr "Установка Bash Power, Пожалуйста, подождите..."
+msgid "Bash Power Uninstall"
+msgstr "Удаление Bash Power"
+msgid "Uninstalling Bash Power, Please wait..."
+msgstr "Удаление Bash Power, Пожалуйста, подождите..."
+msgid "Bash Power installed successfully!"
+msgstr "Bash Power успешно установлен!"
+msgid "Failed to install Bash Power!"
+msgstr "Не удалось установить Bash Power!"
 msgid "Recent Files enabling...."
 msgstr "Включение недавних файлов...."
 msgid "Recent Files enabling, Please wait..."
@@ -44,90 +128,24 @@ msgstr ""
 "Вам необходимо закрыть и снова открыть Dolphin, чтобы изменения вступили в силу."
 msgid "Failed to enable Recent Files!"
 msgstr "Не удалось включить Недавние файлы!"
-msgid "Bash Power Install"
-msgstr "Установка Bash Power"
-msgid "Installing Bash Power, Please wait..."
-msgstr "Установка Bash Power, Пожалуйста, подождите..."
-msgid "Bash Power Uninstall"
-msgstr "Удаление Bash Power"
-msgid "Uninstalling Bash Power, Please wait..."
-msgstr "Удаление Bash Power, Пожалуйста, подождите..."
-msgid "Bash Power installed successfully!"
-msgstr "Bash Power успешно установлен!"
-msgid "Failed to install Bash Power!"
-msgstr "Не удалось установить Bash Power!"
-msgid "Example Install"
-msgstr "Пример установки"
-msgid "Installing Example, Please wait..."
-msgstr "Установка примера, пожалуйста, подождите..."
-msgid "Example Uninstall"
-msgstr "Пример удаления"
-msgid "Uninstalling Example, Please wait..."
-msgstr "Удаление Примера, Пожалуйста, подождите..."
-msgid "Example installed successfully!"
-msgstr "Пример успешно установлен!"
-msgid "Failed to install Example!"
-msgstr "Не удалось установить Пример!"
-msgid "JamesDSP Install"
-msgstr "Установка JamesDSP"
-msgid "Installing JamesDSP, Please wait..."
-msgstr "Установка JamesDSP, Пожалуйста, подождите..."
-msgid "JamesDSP installed successfully!"
-msgstr "JamesDSP успешно установлен!"
-msgid "Failed to install jamesDSP!"
-msgstr "Не удалось установить jamesDSP!"
-msgid "Docker Install"
-msgstr "Установка Docker"
-msgid "Installing Docker, Please wait..."
-msgstr "Установка Docker, Пожалуйста, подождите..."
-msgid "Docker Start"
-msgstr "Запуск Docker"
-msgid "Docker Starting, Please wait..."
-msgstr "Запуск Docker, Пожалуйста, подождите..."
-msgid "Docker Stop"
-msgstr "Остановить Docker"
-msgid "Docker Stopping, Please wait..."
-msgstr "Остановка Docker, пожалуйста, подождите..."
-msgid "Docker installed successfully!"
-msgstr "Docker успешно установлен!"
-msgid "An error occurred while installing docker."
-msgstr "При установке docker произошла ошибка."
-msgid "Installing $package"
-msgstr "Установка $package"
-msgid "Installing $package, Please wait..."
-msgstr "Установка $package, Пожалуйста, подождите..."
-msgid "Removing $package"
-msgstr "Удаление $package"
-msgid "Removing $package, Please wait..."
-msgstr "Удаление $package, Пожалуйста, подождите..."
 msgid ""
-"$title installed successfully!\\n"
-"\\n"
-"Configured on port $port, to access use $url"
+"Ollama server is running.\\n"
+"Address: http://localhost:11434"
 msgstr ""
-"$title успешно установлен!\\n"
-"\\n"
-"Настроен на порту $port, для доступа используйте $url"
-msgid "$package removed successfully!"
-msgstr "Пакет успешно удалён!"
-msgid "An error occurred with $package."
-msgstr "Произошла ошибка с $package."
-msgid "GRUB updated successfully!"
-msgstr "GRUB успешно обновлён!"
-msgid "An error occurred while updating GRUB."
-msgstr "Произошла ошибка при обновлении GRUB."
-msgid "Limits updated successfully!"
-msgstr "Ограничения успешно обновлены!"
-msgid "An error occurred while updating Limits."
-msgstr "Произошла ошибка при обновлении лимитов."
-msgid ""
-"GRUB updated successfully!\\n"
-"Restart your computer for it to take effect."
-msgstr ""
-"GRUB успешно обновлён!\\n"
-"Перезагрузите компьютер, чтобы изменения вступили в силу."
-msgid "Already enabled. No changes made."
-msgstr "Уже включено. Изменения не внесены."
+"Сервер Ollama запущен.\\n"
+"Адрес: http://localhost:11434"
+msgid "Ollama ROCm Install"
+msgstr "Установка Ollama ROCm"
+msgid "Installing Ollama ROCm, Please wait..."
+msgstr "Установка Ollama ROCm, Пожалуйста, подождите..."
+msgid "Ollama ROCm Uninstall"
+msgstr "Удаление Ollama ROCm"
+msgid "Uninstalling Ollama ROCm, Please wait..."
+msgstr "Удаление Ollama ROCm, Пожалуйста, подождите..."
+msgid "Ollama ROCm installed successfully!"
+msgstr "Ollama ROCm успешно установлен!"
+msgid "Failed to install Ollama ROCm!"
+msgstr "Не удалось установить Ollama ROCm!"
 msgid "Ollama Vulkan Install"
 msgstr "Установка Ollama Vulkan"
 msgid "Installing Ollama, Please wait..."
@@ -140,6 +158,62 @@ msgid "Ollama Vulkan installed successfully!"
 msgstr "Ollama Vulkan успешно установлен!"
 msgid "Failed to install Ollama Vulkan!"
 msgstr "Не удалось установить Ollama Vulkan!"
+msgid "Ollama Install"
+msgstr "Установка Ollama"
+msgid "Ollama Uninstall"
+msgstr "Удалить Ollama"
+msgid "Uninstalling Ollama, Please wait..."
+msgstr "Удаление Ollama, Пожалуйста, подождите..."
+msgid "Ollama installed successfully!"
+msgstr "Ollama успешно установлен!"
+msgid "Failed to install Ollama!"
+msgstr "Не удалось установить Ollama!"
+msgid "Ollama CUDA Install"
+msgstr "Установка Ollama CUDA"
+msgid "Installing Ollama CUDA, Please wait..."
+msgstr "Установка Ollama CUDA, Пожалуйста, подождите..."
+msgid "Ollama CUDA Uninstall"
+msgstr "Удалить Ollama CUDA"
+msgid "Uninstalling Ollama CUDA, Please wait..."
+msgstr "Удаление Ollama CUDA, Пожалуйста, подождите..."
+msgid "Ollama CUDA installed successfully!"
+msgstr "Ollama CUDA успешно установлен!"
+msgid "Failed to install Ollama CUDA!"
+msgstr "Не удалось установить Ollama CUDA!"
+msgid "Krita Install"
+msgstr "Установка Krita"
+msgid "Installing Krita, Please wait..."
+msgstr "Установка Krita, Пожалуйста, подождите..."
+msgid "Krita Uninstall"
+msgstr "Удалить Krita"
+msgid "Uninstalling Krita, Please wait..."
+msgstr "Удаление Krita, Пожалуйста, подождите..."
+msgid "Krita installed successfully!"
+msgstr "Krita успешно установлена!"
+msgid "Failed to install Krita!"
+msgstr "Не удалось установить Krita!"
+msgid "Hermes Agent Deskto Install"
+msgstr "Установка Hermes Agent Desktop"
+msgid "Installing Hermes Agent Deskto, Please wait..."
+msgstr "Установка Hermes Agent Desktop, Пожалуйста, подождите..."
+msgid "Hermes Agent Deskto Uninstall"
+msgstr "Удаление Hermes Agent Desktop"
+msgid "Uninstalling Hermes Agent Deskto, Please wait..."
+msgstr "Удаление Hermes Agent Desktop, Пожалуйста, подождите..."
+msgid "Hermes Agent Deskto installed successfully!"
+msgstr "Hermes Agent Deskto успешно установлен!"
+msgid "Failed to install Hermes Agent Deskto!"
+msgstr "Не удалось установить Hermes Agent Desktop!"
+msgid ""
+"Ollama shared successfully.\\n"
+"Address: http://$localIp:11434"
+msgstr ""
+"Ollama успешно поделён.\\n"
+"Адрес: http://$localIp:11434"
+msgid "Failed to shared Ollama!"
+msgstr "Не удалось поделиться Ollama!"
+msgid "AMD/Nvidia GPU not found!"
+msgstr "Графический процессор AMD/Nvidia не найден!"
 msgid "ChatBox Install"
 msgstr "Установка ChatBox"
 msgid "Installing ChatBox, Please wait..."
@@ -152,18 +226,6 @@ msgid "ChatBox installed successfully!"
 msgstr "ChatBox успешно установлен!"
 msgid "Failed to install ChatBox!"
 msgstr "Не удалось установить ChatBox!"
-msgid "Ollama Lab Install"
-msgstr "Установка Ollama Lab"
-msgid "Installing Ollama Lab, Please wait..."
-msgstr "Установка Ollama Lab, Пожалуйста, подождите..."
-msgid "Ollama Lab Uninstall"
-msgstr "Удалить Ollama Lab"
-msgid "Uninstalling Ollama Lab, Please wait..."
-msgstr "Удаление Ollama Lab, Пожалуйста, подождите..."
-msgid "Ollama Lab installed successfully!"
-msgstr "Ollama Lab успешно установлен!"
-msgid "Failed to install Ollama Lab!"
-msgstr "Не удалось установить Ollama Lab!"
 msgid ""
 "Generative AI for Krita has been successfully installed.\\n"
 "\\n"
@@ -184,34 +246,38 @@ msgstr ""
 "Нагрузках и нажмите Установить."
 msgid "Generative AI for Krita has not been successfully installed."
 msgstr "Генеративный ИИ для Krita не был успешно установлен."
-msgid ""
-"Ollama server is running.\\n"
-"Address: http://localhost:11434"
-msgstr ""
-"Сервер Ollama запущен.\\n"
-"Адрес: http://localhost:11434"
-msgid "Ollama Install"
-msgstr "Установка Ollama"
-msgid "Ollama Uninstall"
-msgstr "Удалить Ollama"
-msgid "Uninstalling Ollama, Please wait..."
-msgstr "Удаление Ollama, Пожалуйста, подождите..."
-msgid "Ollama installed successfully!"
-msgstr "Ollama успешно установлен!"
-msgid "Failed to install Ollama!"
-msgstr "Не удалось установить Ollama!"
-msgid "Ollama ROCm Install"
-msgstr "Установка Ollama ROCm"
-msgid "Installing Ollama ROCm, Please wait..."
-msgstr "Установка Ollama ROCm, Пожалуйста, подождите..."
-msgid "Ollama ROCm Uninstall"
-msgstr "Удаление Ollama ROCm"
-msgid "Uninstalling Ollama ROCm, Please wait..."
-msgstr "Удаление Ollama ROCm, Пожалуйста, подождите..."
-msgid "Ollama ROCm installed successfully!"
-msgstr "Ollama ROCm успешно установлен!"
-msgid "Failed to install Ollama ROCm!"
-msgstr "Не удалось установить Ollama ROCm!"
+msgid "LM Studio Install"
+msgstr "Установка LM Studio"
+msgid "Installing LM Studio, Please wait..."
+msgstr "Установка LM Studio, Пожалуйста, подождите..."
+msgid "LM Studio Uninstall"
+msgstr "Удалить LM Studio"
+msgid "Uninstalling LM Studio, Please wait..."
+msgstr "Удаление LM Studio, Пожалуйста, подождите..."
+msgid "LM Studio installed successfully!"
+msgstr "LM Studio успешно установлен!"
+msgid "Failed to install LM Studio!"
+msgstr "Не удалось установить LM Studio!"
+msgid "comfyUI Depends Install"
+msgstr "comfyUI Зависимости Установка"
+msgid "Installing comfyUI Depends, Please wait..."
+msgstr "Установка зависимостей comfyUI, пожалуйста, подождите..."
+msgid "comfyUI Depends installed successfully!"
+msgstr "comfyUI Зависимости успешно установлены!"
+msgid "Failed to install comfyUI Depends!"
+msgstr "Не удалось установить comfyUI. Зависимости!"
+msgid "Ollama Lab Install"
+msgstr "Установка Ollama Lab"
+msgid "Installing Ollama Lab, Please wait..."
+msgstr "Установка Ollama Lab, Пожалуйста, подождите..."
+msgid "Ollama Lab Uninstall"
+msgstr "Удалить Ollama Lab"
+msgid "Uninstalling Ollama Lab, Please wait..."
+msgstr "Удаление Ollama Lab, Пожалуйста, подождите..."
+msgid "Ollama Lab installed successfully!"
+msgstr "Ollama Lab успешно установлен!"
+msgid "Failed to install Ollama Lab!"
+msgstr "Не удалось установить Ollama Lab!"
 msgid "comfyUI Install...."
 msgstr "Установка comfyUI...."
 msgid "Installing comfyUI, this step take a long time, Please wait..."
@@ -226,64 +292,336 @@ msgid "comfyUI uninstalled successfully"
 msgstr "comfyUI успешно удалён"
 msgid "Failed to install comfyUI!"
 msgstr "Не удалось установить comfyUI!"
-msgid "AMD/Nvidia GPU not found!"
-msgstr "Графический процессор AMD/Nvidia не найден!"
-msgid ""
-"Ollama shared successfully.\\n"
-"Address: http://$localIp:11434"
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/performance_games_page.py, line: 181
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/performance_games_page.py, line: 195
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/performance_games_page.py, line: 181
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/performance_games_page.py, line: 195
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/usability/gamemode_dialog.py, line: 204
+msgid "Performance"
+msgstr "Производительность"
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/performance_games_page.py, line: 16
+msgid "BigLinux performance tweaks."
+msgstr "Настройки производительности BigLinux."
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/usability/gamemode_config_dialog.py, line: 91
+msgid "Disable Visual Effects"
+msgstr "Отключить визуальные эффекты"
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/performance_games_page.py, line: 35
+msgid "Disables KWin visual effects (blur, shadows, animations). Reduces GPU load and frees memory."
 msgstr ""
-"Ollama успешно поделён.\\n"
-"Адрес: http://$localIp:11434"
-msgid "Failed to shared Ollama!"
-msgstr "Не удалось поделиться Ollama!"
-msgid "Ollama CUDA Install"
-msgstr "Установка Ollama CUDA"
-msgid "Installing Ollama CUDA, Please wait..."
-msgstr "Установка Ollama CUDA, Пожалуйста, подождите..."
-msgid "Ollama CUDA Uninstall"
-msgstr "Удалить Ollama CUDA"
-msgid "Uninstalling Ollama CUDA, Please wait..."
-msgstr "Удаление Ollama CUDA, Пожалуйста, подождите..."
-msgid "Ollama CUDA installed successfully!"
-msgstr "Ollama CUDA успешно установлен!"
-msgid "Failed to install Ollama CUDA!"
-msgstr "Не удалось установить Ollama CUDA!"
-msgid "LM Studio Install"
-msgstr "Установка LM Studio"
-msgid "Installing LM Studio, Please wait..."
-msgstr "Установка LM Studio, Пожалуйста, подождите..."
-msgid "LM Studio Uninstall"
-msgstr "Удалить LM Studio"
-msgid "Uninstalling LM Studio, Please wait..."
-msgstr "Удаление LM Studio, Пожалуйста, подождите..."
-msgid "LM Studio installed successfully!"
-msgstr "LM Studio успешно установлен!"
-msgid "Failed to install LM Studio!"
-msgstr "Не удалось установить LM Studio!"
-msgid "Krita Install"
-msgstr "Установка Krita"
-msgid "Installing Krita, Please wait..."
-msgstr "Установка Krita, Пожалуйста, подождите..."
-msgid "Krita Uninstall"
-msgstr "Удалить Krita"
-msgid "Uninstalling Krita, Please wait..."
-msgstr "Удаление Krita, Пожалуйста, подождите..."
-msgid "Krita installed successfully!"
-msgstr "Krita успешно установлена!"
-msgid "Failed to install Krita!"
-msgstr "Не удалось установить Krita!"
-msgid "comfyUI Depends Install"
-msgstr "comfyUI Зависимости Установка"
-msgid "Installing comfyUI Depends, Please wait..."
-msgstr "Установка зависимостей comfyUI, пожалуйста, подождите..."
-msgid "comfyUI Depends installed successfully!"
-msgstr "comfyUI Зависимости успешно установлены!"
-msgid "Failed to install comfyUI Depends!"
-msgstr "Не удалось установить comfyUI. Зависимости!"
+"Отключает визуальные эффекты KWin (размытие, тени, анимации). Снижает нагрузку на GPU и освобождает "
+"память."
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/performance_games_page.py, line: 63
+msgid "CPU Maximum Performance"
+msgstr "Максимальная производительность ЦПУ"
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/performance_games_page.py, line: 51
+msgid "Forces maximum processor performance mode. Ensures the processor uses maximum frequency."
+msgstr ""
+"Принудительный режим максимальной производительности процессора. Обеспечивает использование "
+"процессором максимальной частоты."
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/performance_games_page.py, line: 79
+msgid "Disable Baloo Indexer"
+msgstr "Отключить индексатор Baloo"
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/performance_games_page.py, line: 67
+msgid "Disables the Baloo file indexer. Avoids disk I/O overhead."
+msgstr "Отключает индексатор файлов Baloo. Избегает накладных расходов на ввод-вывод диска."
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/usability/gamemode_config_dialog.py, line: 136
+msgid "Unload S.M.A.R.T Monitor"
+msgstr "Выключить монитор S.M.A.R.T"
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/performance_games_page.py, line: 83
+msgid "Disables S.M.A.R.T disk monitoring. Reduces disk I/O and CPU usage."
+msgstr "Отключает мониторинг диска S.M.A.R.T. Снижает использование диска и ЦП."
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_usability_page.py, line: 169
+msgid "Meltdown Mitigations off"
+msgstr "Смягчения Meltdown отключены"
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_usability_page.py, line: 113
+#, python-brace-format
+msgid ""
+"Using mitigations=off will make your machine faster and less secure! For more information see: <a "
+"href='{l}'>{l}</a>"
+msgstr ""
+"Использование mitigations=off сделает вашу машину быстрее, но менее безопасной! Для получения "
+"дополнительной информации смотрите: <a href='{l}'>{l}</a>"
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_usability_page.py, line: 176
+msgid "noWatchdog"
+msgstr "нетНаблюдатель"
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_usability_page.py, line: 177
+msgid ""
+"Disables the hardware watchdog and TSC clocksource systems, maintaining high performance but "
+"removing automatic protections against system crashes."
+msgstr ""
+"Отключает аппаратный сторожевой таймер и системы тактирования TSC, поддерживая высокую "
+"производительность, но удаляя автоматические защиты от сбоев системы."
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 49
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 120
+msgid "BigLinux Settings"
+msgstr "Настройки BigLinux"
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 135
+msgid "Categories"
+msgstr "Категории"
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 144
+msgid "Search..."
+msgstr "Поиск..."
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/devices/keyboard_led_dialog.py, line: 249
+msgid "Settings"
+msgstr "Настройки"
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 108
+msgid "System"
+msgstr "Система"
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/devices/jamesdsp_dialog.py, line: 208
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/devices/jamesdsp_dialog.py, line: 208
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/devices/jamesdsp_dialog.py, line: 208
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/devices/jamesdsp_dialog.py, line: 208
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/devices/jamesdsp_dialog.py, line: 208
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/devices/jamesdsp_dialog.py, line: 208
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 107
+msgid "Usability"
+msgstr "Удобство использования"
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 158
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 167
+msgid "PreLoad"
+msgstr "Предварительная загрузка"
+# 
+# #-#-#-#-#  biglinux-settings.pot (biglinux-settings)  #-#-#-#-#
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/dispositivos_page.py, line: 25
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 116
+msgid "Devices"
+msgstr "Устройства"
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 161
+msgid "A.I."
+msgstr "Искусственный интеллект."
 # 
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_usability_page.py, line: 204
 msgid "Docker"
 msgstr "Докер"
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/preload_page.py, line: 103
+msgid "Preload"
+msgstr "Предзагрузка"
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/preload_page.py, line: 105
+msgid "Preload applications into memory to open them faster."
+msgstr "Предварительно загружайте приложения в память, чтобы открывать их быстрее."
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/preload_page.py, line: 120
+msgid "Firefox"
+msgstr "Файрфокс"
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/preload_page.py, line: 126
+msgid "Brave"
+msgstr "Брейв"
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/preload_page.py, line: 132
+msgid "Chrome"
+msgstr "Хром"
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/preload_page.py, line: 138
+msgid "Chromium"
+msgstr "Хромиум"
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/preload_page.py, line: 126
+msgid "Librewolf"
+msgstr "Либреволк"
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/preload_page.py, line: 144
+msgid "Palemoon"
+msgstr "Палемун"
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/preload_page.py, line: 150
+msgid "Opera"
+msgstr "Опера"
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/preload_page.py, line: 156
+msgid "Libreoffice"
+msgstr "ЛибреОфис"
+# 
+# #-#-#-#-#  biglinux-settings.pot (biglinux-settings)  #-#-#-#-#
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_usability_page.py, line: 206
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/preload_page.py, line: 165
+msgid "Unavailable: script not found."
+msgstr "Недоступно: скрипт не найден."
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 173
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 199
+msgid "Script not found: {}"
+msgstr "Скрипт не найден: {}"
+# 
+# #-#-#-#-#  biglinux-settings.pot (biglinux-settings)  #-#-#-#-#
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_usability_page.py, line: 218
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/preload_page.py, line: 177
+msgid "Enabled"
+msgstr "Включено"
+# 
+# #-#-#-#-#  biglinux-settings.pot (biglinux-settings)  #-#-#-#-#
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_usability_page.py, line: 220
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/preload_page.py, line: 179
+msgid "Disabled"
+msgstr "Отключено"
+# 
+# #-#-#-#-#  biglinux-settings.pot (biglinux-settings)  #-#-#-#-#
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_usability_page.py, line: 223
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/preload_page.py, line: 182
+msgid "Enabled by system configuration (e.g., Real-Time Kernel) and cannot be changed here."
+msgstr "Включено системной конфигурацией (например, ядро реального времени) и не может быть изменено здесь."
+# 
+# #-#-#-#-#  biglinux-settings.pot (biglinux-settings)  #-#-#-#-#
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_usability_page.py, line: 225
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/preload_page.py, line: 184
+msgid "Unavailable: script returned invalid output."
+msgstr "Недоступно: скрипт вернул недопустимый вывод."
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/base_page.py, line: 261
+msgid "output from script {}: {}"
+msgstr "вывод из скрипта {}: {}"
+# 
+# #-#-#-#-#  biglinux-settings.pot (biglinux-settings)  #-#-#-#-#
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_usability_page.py, line: 229
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/preload_page.py, line: 188
+msgid "Unavailable: script returned an error."
+msgstr "Недоступно: скрипт вернул ошибку."
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 184
+msgid "Error checking state: {}"
+msgstr "Ошибка проверки состояния: {}"
+# 
+# #-#-#-#-#  biglinux-settings.pot (biglinux-settings)  #-#-#-#-#
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_usability_page.py, line: 233
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/preload_page.py, line: 192
+msgid "Unavailable: failed to run script."
+msgstr "Недоступно: не удалось выполнить скрипт."
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 193
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 220
+msgid "Error running script {}: {}"
+msgstr "Ошибка при выполнении скрипта {}: {}"
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 209
+msgid "State changed successfully"
+msgstr "Состояние успешно изменено"
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 211
+msgid "Script output: {}"
+msgstr "{}"
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 215
+msgid "Script failed with exit code: {}"
+msgstr "Скрипт завершился с кодом выхода: {}"
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 190
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 217
+msgid "Script timeout: {}"
+msgstr "Таймаут скрипта: {}"
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 236
+msgid "Switch {} synchronized: {}"
+msgstr "Переключить {} синхронизировано: {}"
+# 
+# #-#-#-#-#  biglinux-settings.pot (biglinux-settings)  #-#-#-#-#
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/preload_page.py, line: 284
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_usability_page.py, line: 334
+msgid "Indicator {} synchronized: {}"
+msgstr "Индикатор {} синхронизирован: {}"
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 244
+msgid "Changing {} to {}"
+msgstr "Замена {} на {}"
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 271
+msgid "ERROR: Failed to change {} to {}"
+msgstr "ОШИБКА: Не удалось изменить {} на {}"
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 274
+msgid "Failed to change setting: {}"
+msgstr "Не удалось изменить настройку: {}"
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_usability_page.py, line: 14
+msgid "User and Visual system settings."
+msgstr "Настройки пользователя и визуальной системы."
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 114
+msgid "NumLock"
+msgstr "NumLock"
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 115
+msgid "Initial NumLock state. Ignored if autologin is enabled."
+msgstr "Начальное состояние NumLock. Игнорируется, если включен автологин."
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 131
+msgid "Window Button On Left Side"
+msgstr "Кнопка окна слева"
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 132
+msgid "Maximize, minimize, and close buttons on the left side of the window."
+msgstr "Кнопки развертывания, сворачивания и закрытия находятся с левой стороны окна."
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_usability_page.py, line: 72
+msgid "KZones"
+msgstr "KZones"
+# 
+# #-#-#-#-#  biglinux-settings.pot (biglinux-settings)  #-#-#-#-#
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/ai_page.py, line: 32
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_usability_page.py, line: 50
+msgid "Script for the KWin window manager of the KDE Plasma desktop environment."
+msgstr "Скрипт для менеджера окон KWin в среде рабочего стола KDE Plasma."
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_usability_page.py, line: 169
+msgid "Recent Files & Locations"
+msgstr "Недавние файлы и местоположения"
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_usability_page.py, line: 170
+msgid ""
+"Restores the 'Recent Files' and 'Recent Locations' functionality that appears empty in Dolphin and "
+"the Application Menu."
+msgstr ""
+"Восстанавливает функциональность 'Недавние файлы' и 'Недавние местоположения', которая отображается "
+"пустой в Dolphin и меню приложений."
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/usability_page.py, line: 57
+msgid "Bash Power"
+msgstr "Bash Power"
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/usability_page.py, line: 58
+msgid "BigLinux terminal improvements and customizations."
+msgstr "Улучшения и настройки терминала BigLinux."
 # 
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings/docker_page.py, line: 15
 msgid "Container service - enable to use containers below."
@@ -492,176 +830,6 @@ msgstr ""
 "и  \n"
 "Адрес: http://{}:8502"
 # 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 244
-msgid "Changing {} to {}"
-msgstr "Замена {} на {}"
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 271
-msgid "ERROR: Failed to change {} to {}"
-msgstr "ОШИБКА: Не удалось изменить {} на {}"
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 274
-msgid "Failed to change setting: {}"
-msgstr "Не удалось изменить настройку: {}"
-# 
-# #-#-#-#-#  biglinux-settings.pot (biglinux-settings)  #-#-#-#-#
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_usability_page.py, line: 206
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/preload_page.py, line: 165
-msgid "Unavailable: script not found."
-msgstr "Недоступно: скрипт не найден."
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 173
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 199
-msgid "Script not found: {}"
-msgstr "Скрипт не найден: {}"
-# 
-# #-#-#-#-#  biglinux-settings.pot (biglinux-settings)  #-#-#-#-#
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_usability_page.py, line: 218
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/preload_page.py, line: 177
-msgid "Enabled"
-msgstr "Включено"
-# 
-# #-#-#-#-#  biglinux-settings.pot (biglinux-settings)  #-#-#-#-#
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_usability_page.py, line: 220
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/preload_page.py, line: 179
-msgid "Disabled"
-msgstr "Отключено"
-# 
-# #-#-#-#-#  biglinux-settings.pot (biglinux-settings)  #-#-#-#-#
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_usability_page.py, line: 223
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/preload_page.py, line: 182
-msgid "Enabled by system configuration (e.g., Real-Time Kernel) and cannot be changed here."
-msgstr "Включено системной конфигурацией (например, ядро реального времени) и не может быть изменено здесь."
-# 
-# #-#-#-#-#  biglinux-settings.pot (biglinux-settings)  #-#-#-#-#
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_usability_page.py, line: 225
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/preload_page.py, line: 184
-msgid "Unavailable: script returned invalid output."
-msgstr "Недоступно: скрипт вернул недопустимый вывод."
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/base_page.py, line: 261
-msgid "output from script {}: {}"
-msgstr "вывод из скрипта {}: {}"
-# 
-# #-#-#-#-#  biglinux-settings.pot (biglinux-settings)  #-#-#-#-#
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_usability_page.py, line: 229
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/preload_page.py, line: 188
-msgid "Unavailable: script returned an error."
-msgstr "Недоступно: скрипт вернул ошибку."
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 184
-msgid "Error checking state: {}"
-msgstr "Ошибка проверки состояния: {}"
-# 
-# #-#-#-#-#  biglinux-settings.pot (biglinux-settings)  #-#-#-#-#
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_usability_page.py, line: 233
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/preload_page.py, line: 192
-msgid "Unavailable: failed to run script."
-msgstr "Недоступно: не удалось выполнить скрипт."
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 193
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 220
-msgid "Error running script {}: {}"
-msgstr "Ошибка при выполнении скрипта {}: {}"
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 209
-msgid "State changed successfully"
-msgstr "Состояние успешно изменено"
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 211
-msgid "Script output: {}"
-msgstr "{}"
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 215
-msgid "Script failed with exit code: {}"
-msgstr "Скрипт завершился с кодом выхода: {}"
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 190
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 217
-msgid "Script timeout: {}"
-msgstr "Таймаут скрипта: {}"
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 236
-msgid "Switch {} synchronized: {}"
-msgstr "Переключить {} синхронизировано: {}"
-# 
-# #-#-#-#-#  biglinux-settings.pot (biglinux-settings)  #-#-#-#-#
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/preload_page.py, line: 284
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_usability_page.py, line: 334
-msgid "Indicator {} synchronized: {}"
-msgstr "Индикатор {} синхронизирован: {}"
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 49
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 120
-msgid "BigLinux Settings"
-msgstr "Настройки BigLinux"
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 135
-msgid "Categories"
-msgstr "Категории"
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 144
-msgid "Search..."
-msgstr "Поиск..."
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/devices/keyboard_led_dialog.py, line: 249
-msgid "Settings"
-msgstr "Настройки"
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 108
-msgid "System"
-msgstr "Система"
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/devices/jamesdsp_dialog.py, line: 208
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/devices/jamesdsp_dialog.py, line: 208
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/devices/jamesdsp_dialog.py, line: 208
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/devices/jamesdsp_dialog.py, line: 208
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/devices/jamesdsp_dialog.py, line: 208
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/devices/jamesdsp_dialog.py, line: 208
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 107
-msgid "Usability"
-msgstr "Удобство использования"
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 158
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 167
-msgid "PreLoad"
-msgstr "Предварительная загрузка"
-# 
-# #-#-#-#-#  biglinux-settings.pot (biglinux-settings)  #-#-#-#-#
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/dispositivos_page.py, line: 25
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 116
-msgid "Devices"
-msgstr "Устройства"
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 161
-msgid "A.I."
-msgstr "Искусственный интеллект."
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/performance_games_page.py, line: 181
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/performance_games_page.py, line: 195
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/performance_games_page.py, line: 181
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/performance_games_page.py, line: 195
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/usability/gamemode_dialog.py, line: 204
-msgid "Performance"
-msgstr "Производительность"
-# 
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_page.py, line: 26
 msgid "General system settings."
 msgstr "Общие системные настройки."
@@ -702,46 +870,6 @@ msgstr "Автоматическое монтирование разделов"
 msgid "Auto mount partitions in internal disks on boot."
 msgstr "Автоматически монтировать разделы на внутренних дисках при загрузке."
 # 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/preload_page.py, line: 103
-msgid "Preload"
-msgstr "Предзагрузка"
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/preload_page.py, line: 105
-msgid "Preload applications into memory to open them faster."
-msgstr "Предварительно загружайте приложения в память, чтобы открывать их быстрее."
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/preload_page.py, line: 120
-msgid "Firefox"
-msgstr "Файрфокс"
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/preload_page.py, line: 126
-msgid "Brave"
-msgstr "Брейв"
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/preload_page.py, line: 132
-msgid "Chrome"
-msgstr "Хром"
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/preload_page.py, line: 138
-msgid "Chromium"
-msgstr "Хромиум"
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/preload_page.py, line: 126
-msgid "Librewolf"
-msgstr "Либреволк"
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/preload_page.py, line: 144
-msgid "Palemoon"
-msgstr "Палемун"
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/preload_page.py, line: 150
-msgid "Opera"
-msgstr "Опера"
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/preload_page.py, line: 156
-msgid "Libreoffice"
-msgstr "ЛибреОфис"
-# 
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings/devices_page.py, line: 15
 msgid "Manage physical devices."
 msgstr "Управление физическими устройствами."
@@ -780,71 +908,6 @@ msgstr "Обратная прокрутка мыши"
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings/devices_page.py, line: 72
 msgid "Reverse mouse scrolling without restarting the session."
 msgstr "Обратная прокрутка мыши без перезапуска сеанса."
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/performance_games_page.py, line: 16
-msgid "BigLinux performance tweaks."
-msgstr "Настройки производительности BigLinux."
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/usability/gamemode_config_dialog.py, line: 91
-msgid "Disable Visual Effects"
-msgstr "Отключить визуальные эффекты"
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/performance_games_page.py, line: 35
-msgid "Disables KWin visual effects (blur, shadows, animations). Reduces GPU load and frees memory."
-msgstr ""
-"Отключает визуальные эффекты KWin (размытие, тени, анимации). Снижает нагрузку на GPU и освобождает "
-"память."
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/performance_games_page.py, line: 63
-msgid "CPU Maximum Performance"
-msgstr "Максимальная производительность ЦПУ"
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/performance_games_page.py, line: 51
-msgid "Forces maximum processor performance mode. Ensures the processor uses maximum frequency."
-msgstr ""
-"Принудительный режим максимальной производительности процессора. Обеспечивает использование "
-"процессором максимальной частоты."
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/performance_games_page.py, line: 79
-msgid "Disable Baloo Indexer"
-msgstr "Отключить индексатор Baloo"
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/performance_games_page.py, line: 67
-msgid "Disables the Baloo file indexer. Avoids disk I/O overhead."
-msgstr "Отключает индексатор файлов Baloo. Избегает накладных расходов на ввод-вывод диска."
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/usability/gamemode_config_dialog.py, line: 136
-msgid "Unload S.M.A.R.T Monitor"
-msgstr "Выключить монитор S.M.A.R.T"
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/performance_games_page.py, line: 83
-msgid "Disables S.M.A.R.T disk monitoring. Reduces disk I/O and CPU usage."
-msgstr "Отключает мониторинг диска S.M.A.R.T. Снижает использование диска и ЦП."
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_usability_page.py, line: 169
-msgid "Meltdown Mitigations off"
-msgstr "Смягчения Meltdown отключены"
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_usability_page.py, line: 113
-#, python-brace-format
-msgid ""
-"Using mitigations=off will make your machine faster and less secure! For more information see: <a "
-"href='{l}'>{l}</a>"
-msgstr ""
-"Использование mitigations=off сделает вашу машину быстрее, но менее безопасной! Для получения "
-"дополнительной информации смотрите: <a href='{l}'>{l}</a>"
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_usability_page.py, line: 176
-msgid "noWatchdog"
-msgstr "нетНаблюдатель"
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_usability_page.py, line: 177
-msgid ""
-"Disables the hardware watchdog and TSC clocksource systems, maintaining high performance but "
-"removing automatic protections against system crashes."
-msgstr ""
-"Отключает аппаратный сторожевой таймер и системы тактирования TSC, поддерживая высокую "
-"производительность, но удаляя автоматические защиты от сбоев системы."
 # 
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings/ai_page.py, line: 30
 msgid "AI Interfaces"
@@ -893,6 +956,14 @@ msgstr "LM Studio - настольное приложение для изуче�
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings/ai_page.py, line: 80
 msgid "An open source, privacy-focused alternative to Google's Notebook LM!"
 msgstr "Открытая, ориентированная на конфиденциальность альтернатива Google Notebook LM!"
+# 
+# File: biglinux-settings/usr/share/biglinux/biglinux-settings/ai_page.py, line: 88
+msgid ""
+"Official Hermes Agent desktop app from Nous Research — chat, voice, file browser, and settings UI "
+"for the local agent runtime."
+msgstr ""
+"Официальное настольное приложение Hermes Agent от Nous Research — чат, голос, файловый браузер и "
+"интерфейс настроек для локального выполнения агента."
 # 
 # File: biglinux-settings/usr/share/biglinux/biglinux-settings/ai_page.py, line: 87
 msgid "ComfyUI (GPU ONLY)"
@@ -994,54 +1065,3 @@ msgid ""
 msgstr ""
 "Локальный AI сервер. Для новых графических процессоров AMD, начиная с серии 6000. Рассмотрите "
 "возможность использования Vulkan, в многих тестах Vulkan показал лучшие результаты, чем ROCm."
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_usability_page.py, line: 14
-msgid "User and Visual system settings."
-msgstr "Настройки пользователя и визуальной системы."
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 114
-msgid "NumLock"
-msgstr "NumLock"
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 115
-msgid "Initial NumLock state. Ignored if autologin is enabled."
-msgstr "Начальное состояние NumLock. Игнорируется, если включен автологин."
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 131
-msgid "Window Button On Left Side"
-msgstr "Кнопка окна слева"
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/main.py, line: 132
-msgid "Maximize, minimize, and close buttons on the left side of the window."
-msgstr "Кнопки развертывания, сворачивания и закрытия находятся с левой стороны окна."
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_usability_page.py, line: 72
-msgid "KZones"
-msgstr "KZones"
-# 
-# #-#-#-#-#  biglinux-settings.pot (biglinux-settings)  #-#-#-#-#
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/ai_page.py, line: 32
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_usability_page.py, line: 50
-msgid "Script for the KWin window manager of the KDE Plasma desktop environment."
-msgstr "Скрипт для менеджера окон KWin в среде рабочего стола KDE Plasma."
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_usability_page.py, line: 169
-msgid "Recent Files & Locations"
-msgstr "Недавние файлы и местоположения"
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/system_usability_page.py, line: 170
-msgid ""
-"Restores the 'Recent Files' and 'Recent Locations' functionality that appears empty in Dolphin and "
-"the Application Menu."
-msgstr ""
-"Восстанавливает функциональность 'Недавние файлы' и 'Недавние местоположения', которая отображается "
-"пустой в Dolphin и меню приложений."
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/usability_page.py, line: 57
-msgid "Bash Power"
-msgstr "Bash Power"
-# 
-# File: biglinux-settings/usr/share/biglinux/biglinux-settings/usability_page.py, line: 58
-msgid "BigLinux terminal improvements and customizations."
-msgstr "Улучшения и настройки терминала BigLinux."
