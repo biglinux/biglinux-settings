@@ -16,7 +16,7 @@ class AIPage(BaseSettingsPage):
         # )
         # content.append(group)
 
-        # Create the group Ollama (base method)
+        # Create the group aiGui (base method)
         aiGui = self.create_group(
             _("AI Interfaces"),
             _("Graphical interface for artificial intelligence.."),
@@ -80,6 +80,14 @@ class AIPage(BaseSettingsPage):
             _("An open source, privacy-focused alternative to Google's Notebook LM!"),
             "openNotebookInstall",
             "openNotebook-symbolic",
+        )
+        # Hermes Agent Desktop
+        self.create_row(
+            aiGui,
+            ("Hermes Agent Desktop"),
+            _("Official Hermes Agent desktop app from Nous Research — chat, voice, file browser, and settings UI for the local agent runtime."),
+            "hermesAgentDesktop",
+            "hermesAgentDesktop-symbolic",
         )
         # ComfyUI
         link_meltdown = "https://github.com/Comfy-Org/ComfyUI"
