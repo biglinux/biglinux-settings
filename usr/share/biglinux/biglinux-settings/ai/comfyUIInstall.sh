@@ -51,6 +51,7 @@ updateTask() {
       bin/pip install torch torchvision torchaudio --extra-index-url https://download.pytorch.org/whl/cu130
     fi
 
+    bin/pip install -r requirements.txt
     bin/pip install comfy-cli
     bash -c "yes | bin/comfy install --$gpu --restore"
 
