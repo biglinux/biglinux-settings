@@ -8,7 +8,9 @@ class PreloadPage(BaseSettingsPage):
         content = self.create_scrolled_content()
         group = self.create_group(
             _("Preload"),
-            _("Preload applications into memory to open them faster."),
+            _("Preload applications into memory to open them faster.")
+            + " "
+            + _("Your default web browser is always preloaded."),
             "preload"
         )
         content.append(group)
